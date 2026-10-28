@@ -18,10 +18,10 @@ The biggest risk isn't technical: it's whether creators say yes.
 | Risk | Why it matters | How we handle it |
 | --- | --- | --- |
 | Auto-caption errors on brand and model names | "Iron Ranger" heard as "iron ringer" breaks product matching and search | Store caption kind; give the extractor the video title, description and creator categories as context; aliases on products; confidence on claims |
-| Wrong product merges | Two products treated as one gives wrong verdicts | Product resolution check in evaluation; conservative merging; aliases reviewed by hand for the prototype |
+| Wrong entity merges | Two products treated as one gives wrong verdicts | Entity resolution check in evaluation; conservative merging; aliases reviewed by hand for the prototype |
 | Extraction misses knowledge | Unanswerable questions | Raw transcripts stay searchable; coverage report; extraction recall measured on labelled videos |
 | Sarcasm, hedging and conditional verdicts | "Great boot… if you never walk in rain" read as a plain recommendation | `context` field; answers read the surrounding transcript, not just the claim |
-| Sponsored segments | Sponsored praise treated as an independent verdict | `sponsorship` claim kind; sponsorship shown in answers |
+| Sponsored segments | Sponsored praise treated as an independent verdict | Sponsor segments marked in the understanding pass; claims from them flagged `sponsored` and never used as verdicts |
 | YouTube blocked or rate-limited | Can't fetch | Fetch is a separate stage; can run on a local machine; raw files are cached so each video is fetched once |
 | LLM cost and speed | Re-running extraction on many videos | Cache per video and extractor version; only re-extract what changed |
 

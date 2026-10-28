@@ -30,35 +30,49 @@ Output: `data/<creator>/raw/<video_id>.json`. Re-fetching skips videos already s
 
 Fetching needs network access to YouTube. If the environment blocks it, run this stage on a local machine and copy the `raw/` folder; every later stage works offline from those files.
 
-### 2. Segment and classify
+### 2. Segment
 
 - **Merge** caption fragments into segments of roughly 30–60 seconds, breaking at chapter boundaries and sentence ends where possible. Each segment keeps its start and end time.
 - **Clean** obvious caption noise (repeated words, `[Music]` markers) without altering meaning.
-- **Classify the video:** its type (review, comparison, buying guide, long-term review, how-to, other) and which of the creator's product categories it covers. Type matters later: a long-term review is stronger evidence about durability than a first impression.
 
-### 3. Extract
+This stage is mechanical. Understanding what the video is about happens in stage 3.
 
-An LLM reads each video, segment by segment with the video's metadata as context, and records **claims**, each tied to the segment and quote it came from. See [DATA_MODEL](DATA_MODEL.md) for the full structure. In short:
+### 3. Understand and extract
 
-- A **fixed core** for product verdicts (product, stance, pros and cons, good for and bad for, price), because these are what we filter and compare on.
-- **Open attributes** for anything else the creator says about a product (fit, materials, where it's made, what it pairs with).
-- **Non-product claims** (advice, techniques, brand opinions, buying principles), with an `other` type so nothing is forced into the wrong box.
-- A short **video summary**.
+Extraction is two passes, so the details are read in light of the whole video. A sentence means different things in a review, an explainer and a sponsor read.
 
-Then **product resolution** merges mentions across videos ("Iron Rangers", "the Red Wings", "Red Wing 8111") into one product with aliases, giving each product a dated **timeline** of verdicts.
+**Pass A: understand the video.** An LLM reads the whole transcript with its metadata and the creator config, and writes a **video profile**:
 
-Every extracted item records the extractor version and model that produced it. Changing the schema or prompt means re-running this stage over the saved segments.
+- **Purpose:** what the video is for (help choose a boot, explain why a sole works, tell a brand's history, compare two jackets).
+- **Type:** review, comparison, buying guide, long-term review, explainer, how-to, other.
+- **Thesis and key takeaways:** the argument the creator is making, in a few sentences.
+- **Topics and entities:** products, components, brands, materials, people and concepts covered, with names corrected from caption errors using the title, description and context ("Carramato" → Carrarmato).
+- **Segment roles:** which stretches are the main content, intro, sponsor read, skit or aside, outro or teaser.
+- **Questions it answers:** the fan questions this video would be a good source for, in plain language ("Why do so many good boots use Vibram soles?", "What's the difference between grip and traction?").
+- **Uses:** how the knowledge helps a fan: a buying decision, care and maintenance, understanding how something works, background and history.
+
+**Pass B: extract claims.** With the profile as context, the LLM goes through the main-content segments and records **claims**, each tied to the segment and quote it came from. See [DATA_MODEL](DATA_MODEL.md) for the full structure. In short:
+
+- A **fixed core** for verdicts (entity, stance, pros and cons, good for and bad for, price), because these are what we filter and compare on.
+- **Explanations, history, advice and techniques**, for knowledge that isn't a verdict on something to buy.
+- **Mentions**, for things named without a verdict.
+- **Open attributes** and an `other` kind, so nothing is forced into the wrong box.
+- Claims from **sponsor segments** are always marked as sponsored and never treated as the creator's independent verdict.
+
+Then **entity resolution** merges names across videos ("Iron Rangers", "the Red Wings", "Red Wing 8111") into one entity with aliases, giving each one a dated **timeline** of claims.
+
+Every profile and claim records the extractor version and model that produced it. Changing the schema or prompts means re-running this stage over the saved segments.
 
 ### 4. Index
 
-- **Structured store:** videos, segments, products, claims, in one database.
-- **Text search** over segments and claims.
+- **Structured store:** videos and their profiles, segments, entities, claims, in one database.
+- **Text search** over segments, claims and each video's "questions it answers", so a fan's wording can match the questions a video was profiled as answering.
 - **Vector search** is *not* in the first version. It's added behind the same search interface if the evaluation shows text search missing questions.
 
 ### 5. Answer
 
 1. **Understand the question:** pull out products, categories, constraints (price, conditions) and question type (lookup, comparison, change of mind, how-to).
-2. **Retrieve:** structured lookups over claims plus text search over segments. For each hit, include the surrounding transcript, not just the claim.
+2. **Retrieve:** structured lookups over claims, text search over segments, and matching against video profiles. For each hit, include the surrounding transcript and the video's purpose and thesis, not just the claim.
 3. **Decide coverage:** if nothing relevant is retrieved, the answer is "not covered", by design. The model is not asked to answer without evidence.
 4. **Compose:** the LLM writes the answer from the retrieved evidence only, citing evidence IDs. It leads with the newest verdict and states changes of opinion.
 5. **Verify:** code checks each cited ID exists and maps to a real video and timestamp, then turns it into a link (`https://youtu.be/<id>?t=<seconds>`). Answers with unverifiable citations are rejected or regenerated.
@@ -72,7 +86,7 @@ Each of these is an interface in the engine core, with implementations as adapte
 | --- | --- | --- | --- |
 | `CatalogSource` | List a creator's videos and their metadata | yt-dlp | YouTube Data API; creator-supplied export |
 | `TranscriptSource` | Get a timestamped transcript for a video | youtube-transcript-api | yt-dlp subtitles; Whisper on audio; creator-supplied files |
-| `KnowledgeStore` | Save and query videos, segments, products, claims | SQLite | Postgres |
+| `KnowledgeStore` | Save and query videos, profiles, segments, entities, claims | SQLite | Postgres |
 | `SearchIndex` | Find relevant segments and claims for a query | SQLite full-text search (FTS5) | Hybrid with vectors; a dedicated search service |
 | `Embedder` | Turn text into vectors (only once vectors are added) | none | Any embedding provider or local model |
 | `LLMClient` | Structured extraction and answer generation | Anthropic API (Claude), model set in config | Other models or providers |
@@ -103,7 +117,7 @@ Rules for adapters:
 askthe/
   core/            domain models, interfaces, pure logic (no I/O)
   adapters/        sources/, storage/, search/, llm/, embeddings/
-  pipeline/        fetch, segment, extract, resolve, index stages
+  pipeline/        fetch, segment, understand, extract, resolve, index stages
   answering/       question parsing, retrieval, composition, citation check
   app/             web chat (FastAPI)
   cli.py           command line

@@ -13,6 +13,8 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 3. **Newest verdict wins.** Order evidence by publish date; say when the creator changed their mind and cite both.
 4. **Third person, no imitation.** Answers describe what the creator said ("The Iron Snail recommends…"). Never write in the creator's voice or style.
 5. **Quotes are verbatim.** An extracted quote must appear in the segment it cites.
+6. **Sponsored is never a verdict.** Claims from sponsor segments are flagged and never presented as the creator's independent recommendation.
+7. **Attribute, don't assert.** Facts and history are reported as what the creator said, not as verified truth.
 
 ## Engineering rules
 

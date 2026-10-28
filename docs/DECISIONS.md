@@ -56,3 +56,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 
 **Chose:** the model cites evidence IDs from what it was given; code maps them to real videos and timestamps and rejects anything it can't verify.
 **Why:** a wrong link or invented quote damages the creator's name and ours. "Grounded or silent" has to be enforced, not requested.
+
+### D9. Understand the video before extracting from it; entities, not just products
+*2026-10-28*
+
+**Chose:** two-pass extraction. Pass A writes a video profile (purpose, type, thesis, topics, entities, segment roles, the questions it answers, how fans would use it). Pass B extracts claims with that profile as context. Knowledge attaches to typed entities (product, component, material, brand, person, concept), not only products. Sponsor segments are marked, and claims from them are never treated as verdicts.
+**Why:** tested against a real transcript (an explainer on Vibram soles). Most of its knowledge was explanation and history about a sole, a rubber compound and a brand, not a verdict on a product, and it contained a sponsor skit full of product claims. A product-only, sentence-by-sentence extractor would have missed the point of the video and risked presenting sponsored claims as the creator's opinion.
+**Rejected:** a single pass with a fixed product-verdict schema.
