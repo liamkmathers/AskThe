@@ -28,7 +28,8 @@ use = "sqlite"
 use = "sqlite"
 
 [adapters.llm]
-# "anthropic" calls Claude and needs ANTHROPIC_API_KEY; "memory" is the scripted test fake.
+# "anthropic" calls Claude and reads ASKTHE_ANTHROPIC_API_KEY (or ANTHROPIC_API_KEY);
+# "memory" is the scripted test fake.
 use = "anthropic"
 # Effort per task: low | medium | high | xhigh | max. Extraction is judgement-heavy.
 effort = { understand = "high", extract = "high", answer = "high" }

@@ -49,7 +49,7 @@ uv run askthe segment iron-snail
 uv run askthe status iron-snail
 ```
 
-Then extract knowledge with Claude (needs `ANTHROPIC_API_KEY`; this step costs money):
+Then extract knowledge with Claude (needs an API key in `ASKTHE_ANTHROPIC_API_KEY`, or `ANTHROPIC_API_KEY` locally; this step costs money):
 
 ```bash
 uv run askthe extract iron-snail --limit 3

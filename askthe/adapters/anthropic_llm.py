@@ -4,7 +4,9 @@ Model names and effort levels come from askthe.toml, per task. The system prompt
 the shared context (a whole transcript) are marked for prompt caching, so the many
 calls made for one video pay full price for them once.
 
-Requires ANTHROPIC_API_KEY in the environment.
+Reads the API key from ASKTHE_ANTHROPIC_API_KEY, falling back to ANTHROPIC_API_KEY.
+The app has its own variable because hosted Claude Code environments reserve
+ANTHROPIC_API_KEY for Claude Code itself.
 """
 
 from __future__ import annotations
@@ -27,6 +29,7 @@ class AnthropicLLMClient:
         max_tokens: int = 16000,
         fallbacks: bool = True,
         base_url: str = "https://api.anthropic.com",
+        api_key_env: tuple[str, ...] = ("ASKTHE_ANTHROPIC_API_KEY", "ANTHROPIC_API_KEY"),
         client: anthropic.Anthropic | None = None,
     ) -> None:
         missing = [t.value for t in LLMTask if t.value not in models]
@@ -37,16 +40,20 @@ class AnthropicLLMClient:
         self._max_tokens = max_tokens
         self._fallbacks = fallbacks
         self._base_url = base_url
+        self._api_key_env = api_key_env
         self._client = client  # created on first use, so commands that don't call the
         # model work without an API key
 
     @property
     def client(self) -> anthropic.Anthropic:
         if self._client is None:
-            if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
-                raise LLMError("ANTHROPIC_API_KEY is not set")
+            api_key = next((os.environ[v] for v in self._api_key_env if os.environ.get(v)), None)
+            if not api_key:
+                raise LLMError(f"no API key: set {' or '.join(self._api_key_env)}")
             # base_url is explicit so an ANTHROPIC_BASE_URL meant for other tools is ignored.
-            self._client = anthropic.Anthropic(base_url=self._base_url, max_retries=4)
+            self._client = anthropic.Anthropic(
+                api_key=api_key, base_url=self._base_url, max_retries=4
+            )
         return self._client
 
     def model_for(self, task: LLMTask) -> str:
@@ -86,7 +93,7 @@ class AnthropicLLMClient:
         except (anthropic.BadRequestError, anthropic.NotFoundError) as e:
             raise LLMError(f"request rejected: {e.message}") from e
         except anthropic.AuthenticationError as e:
-            raise LLMError("ANTHROPIC_API_KEY is invalid") from e
+            raise LLMError("the API key was rejected") from e
         except anthropic.RateLimitError as e:
             raise LLMError("rate limited by the API, even after retries") from e
         except anthropic.APIStatusError as e:

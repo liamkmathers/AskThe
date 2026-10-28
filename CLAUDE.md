@@ -39,4 +39,5 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 ## Environment notes
 
 - Fetching from YouTube needs network access to YouTube. If it's blocked, run `askthe fetch` locally and copy `data/<creator>/raw/`; all later stages run offline.
-- `data/` is git-ignored. Secrets (API keys) come from environment variables, never committed.
+- Raw data in `data/<creator>/raw/` is committed; the database is ignored and rebuildable. Secrets come from environment variables, never committed.
+- The app's Anthropic key is `ASKTHE_ANTHROPIC_API_KEY`: hosted Claude Code environments reserve `ANTHROPIC_API_KEY` for Claude Code itself.
