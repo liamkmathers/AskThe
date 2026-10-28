@@ -52,7 +52,7 @@ from askthe.core.models import (
 )
 
 # Bump whenever prompts, draft schemas or conversion rules change what is extracted.
-EXTRACTOR_VERSION = "x1"
+EXTRACTOR_VERSION = "x2"
 
 
 # --- Draft shapes: what the LLM returns -----------------------------------------
@@ -208,7 +208,9 @@ held_by is "others" (or "brand" for a company's own claim), never "creator".
 4. Keep his hedging. "I guess", "probably", "I'm not sure" mean certainty "tentative" \
 or "speculative". Never strengthen a claim.
 5. Sponsored is never a verdict. Anything in a sponsor read, even "we've been using it \
-and it's great", is kind "sponsorship".
+and it's great", is kind "sponsorship". His own products or brand are not sponsorship: \
+what he says about them is his opinion, extracted like any other claim, with the \
+attribute own_product = "yes".
 6. No personal life. Nothing about the personal life of the creator, family or friends \
 (relationships, health, home life). Skits and jokes produce nothing unless they contain \
 a real claim about the subject matter.

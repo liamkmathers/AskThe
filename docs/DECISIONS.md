@@ -91,3 +91,9 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** Claude Opus 5.5 for all three tasks (understand, extract, answer) at effort `high`, set per task in `askthe.toml`. Pass B runs over windows of about 8 segments, but every call carries the whole numbered transcript and the profile, marked for prompt caching, so each window is read in the context of the full video and the repeated input is cheap. Structured outputs (pydantic schemas) shape the responses; code then checks every quote against its segment and drops claims that fail. Server-side refusal fallbacks are on, and the model that actually answered is recorded on each claim.
 **Why:** extraction is judgement-heavy (attribution, hedging, sponsorship, taste) and errors become misquotes. Whole-video context was the lesson of the transcript tests (D9). Windows keep each response small enough to finish reliably.
 **Revisit:** a cheaper model or lower effort for some tasks once the evaluation shows where quality holds.
+
+### D14. His own products are his opinion, not sponsorship
+*2026-10-28*
+
+**Chose:** what the creator says about his own products or brand is extracted as ordinary claims (his opinion), marked with the attribute `own_product = "yes"`, never as sponsorship.
+**Why:** it's his genuine view and more information for fans. The attribute keeps it identifiable if answers ever need to mention it.
