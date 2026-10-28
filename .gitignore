@@ -1,4 +1,10 @@
-data/
+# Data: raw files are the source of truth and are committed; everything derived
+# from them (the database, caches) is rebuildable and ignored.
+data/*
+!data/*/
+data/*/*
+!data/*/raw/
+!data/*/channel.tsv
 .env
 __pycache__/
 *.pyc

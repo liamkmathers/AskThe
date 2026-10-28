@@ -31,6 +31,7 @@ from askthe.core.models import (
     Segment,
     Transcript,
     Video,
+    VideoListing,
     VideoMeta,
     VideoProfile,
 )
@@ -43,9 +44,12 @@ class MemoryCatalogSource:
     def add(self, creator_slug: str, meta: VideoMeta) -> None:
         self._videos[creator_slug][meta.platform_id] = meta
 
-    def list_video_ids(self, creator: Creator) -> list[str]:
+    def list_videos(self, creator: Creator) -> list[VideoListing]:
         videos = sorted(self._videos[creator.slug].values(), key=lambda m: m.published_at)
-        return [m.platform_id for m in videos]
+        return [
+            VideoListing(platform_id=m.platform_id, title=m.title, duration_s=m.duration_s)
+            for m in videos
+        ]
 
     def get_video(self, creator: Creator, platform_id: str) -> VideoMeta:
         try:

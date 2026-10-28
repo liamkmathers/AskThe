@@ -96,7 +96,7 @@ def fetch(
     if video:
         ids = list(video)
     elif channel:
-        ids = services.catalog.list_video_ids(c)
+        ids = [v.platform_id for v in services.catalog.list_videos(c)]
     else:
         ids = load_video_selection(services.config, c)
     ids = ids[:limit] if limit is not None else ids
@@ -120,6 +120,20 @@ def fetch(
     )
     if report.failed:
         raise typer.Exit(1)
+
+
+@app.command()
+def videos(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
+    """List the creator's videos (newest first) as tab-separated id, minutes, title.
+
+    Marks with * the videos already in the selection file.
+    """
+    services, c = _setup(config_path, creator)
+    selected = set(load_video_selection(services.config, c))
+    for v in services.catalog.list_videos(c):
+        minutes = f"{v.duration_s / 60:.0f}" if v.duration_s else "?"
+        mark = "*" if v.platform_id in selected else " "
+        typer.echo(f"{mark}{v.platform_id}\t{minutes}\t{v.title}")
 
 
 @app.command()

@@ -181,6 +181,14 @@ class Creator(Model):
 # --- Raw layer ------------------------------------------------------------------
 
 
+class VideoListing(Model):
+    """A video as it appears in a channel listing: enough to choose which to fetch."""
+
+    platform_id: str
+    title: str = ""
+    duration_s: float | None = None
+
+
 class VideoMeta(Model):
     """Metadata as fetched from the platform."""
 

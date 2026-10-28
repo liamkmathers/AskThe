@@ -16,6 +16,7 @@ from askthe.core.models import (
     Creator,
     Transcript,
     TranscriptKind,
+    VideoListing,
     VideoMeta,
 )
 
@@ -32,10 +33,16 @@ class YtDlpCatalogSource:
 
         self._yt_dlp = yt_dlp
 
-    def list_video_ids(self, creator: Creator) -> list[str]:
+    def list_videos(self, creator: Creator) -> list[VideoListing]:
         url = creator.channel_url.rstrip("/") + "/videos"
         info = self._extract(url, extract_flat="in_playlist")
-        return [e["id"] for e in info.get("entries") or [] if e and e.get("id")]
+        return [
+            VideoListing(
+                platform_id=e["id"], title=e.get("title") or "", duration_s=e.get("duration")
+            )
+            for e in info.get("entries") or []
+            if e and e.get("id")
+        ]
 
     def get_video(self, creator: Creator, platform_id: str) -> VideoMeta:
         return meta_from_info(self._extract(WATCH_URL.format(platform_id)))

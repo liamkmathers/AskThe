@@ -94,3 +94,9 @@ def test_cli_segment_and_status_on_disk(tmp_path):
     result = runner.invoke(app, ["fetch", f.CREATOR, *config])
     assert result.exit_code == 1  # nothing selected
     assert "no videos to fetch" in result.output
+
+
+def test_catalog_lists_videos_with_titles_oldest_first():
+    catalog, _ = sources("a", "b")
+    listing = catalog.list_videos(f.creator())
+    assert [(v.platform_id, v.title) for v in listing] == [("a", "Video a"), ("b", "Video b")]

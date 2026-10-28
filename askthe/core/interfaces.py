@@ -22,6 +22,7 @@ from askthe.core.models import (
     Segment,
     Transcript,
     Video,
+    VideoListing,
     VideoMeta,
     VideoProfile,
 )
@@ -36,7 +37,7 @@ T = TypeVar("T", bound=BaseModel)
 class CatalogSource(Protocol):
     """Lists a creator's videos and fetches their metadata."""
 
-    def list_video_ids(self, creator: Creator) -> list[str]: ...
+    def list_videos(self, creator: Creator) -> list[VideoListing]: ...
 
     def get_video(self, creator: Creator, platform_id: str) -> VideoMeta: ...
 
