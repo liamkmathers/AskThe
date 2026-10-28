@@ -17,10 +17,14 @@ The biggest risk isn't technical: it's whether creators say yes.
 
 | Risk | Why it matters | How we handle it |
 | --- | --- | --- |
-| Auto-caption errors on brand and model names | "Iron Ranger" heard as "iron ringer" breaks product matching and search | Store caption kind; give the extractor the video title, description and creator categories as context; aliases on products; confidence on claims |
+| Auto-caption errors on names | Seen in every test video: "Chouinard" spelled five ways, "Uniqlo" three. Breaks matching and search | Per-creator glossary; title and description as context; aliases on entities; confidence on claims |
+| Products shown but not named | The creator holds an item up and says "this one"; the transcript can't say what it is | Use the video description; keep the name as said and mark it unresolved, never guess; reading on-screen text or frames is a possible later addition |
+| Reported views mistaken for his | "People say it pills more" answered as his verdict | `held_by` on every claim; answers attribute other views explicitly |
+| Product changed vs mind changed | A verdict on a 1988 fleece applied to today's | Product versions; claims attach to the version named |
+| Sensitive claims about companies or people | Strengthening a hedged remark about ethics or a controversy damages trust and could be unfair | `certainty` and `held_by`; answers keep his hedging; personal life never extracted |
 | Wrong entity merges | Two products treated as one gives wrong verdicts | Entity resolution check in evaluation; conservative merging; aliases reviewed by hand for the prototype |
 | Extraction misses knowledge | Unanswerable questions | Raw transcripts stay searchable; coverage report; extraction recall measured on labelled videos |
-| Sarcasm, hedging and conditional verdicts | "Great boot… if you never walk in rain" read as a plain recommendation | `context` field; answers read the surrounding transcript, not just the claim |
+| Sarcasm, hedging and conditional verdicts | "Great boot… if you never walk in rain" read as a plain recommendation | `context`, `aspect` and `certainty` fields; answers read the surrounding transcript, not just the claim |
 | Sponsored segments | Sponsored praise treated as an independent verdict | Sponsor segments marked in the understanding pass; claims from them flagged `sponsored` and never used as verdicts |
 | YouTube blocked or rate-limited | Can't fetch | Fetch is a separate stage; can run on a local machine; raw files are cached so each video is fetched once |
 | LLM cost and speed | Re-running extraction on many videos | Cache per video and extractor version; only re-extract what changed |

@@ -63,3 +63,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** two-pass extraction. Pass A writes a video profile (purpose, type, thesis, topics, entities, segment roles, the questions it answers, how fans would use it). Pass B extracts claims with that profile as context. Knowledge attaches to typed entities (product, component, material, brand, person, concept), not only products. Sponsor segments are marked, and claims from them are never treated as verdicts.
 **Why:** tested against a real transcript (an explainer on Vibram soles). Most of its knowledge was explanation and history about a sole, a rubber compound and a brand, not a verdict on a product, and it contained a sponsor skit full of product claims. A product-only, sentence-by-sentence extractor would have missed the point of the video and risked presenting sponsored claims as the creator's opinion.
 **Rejected:** a single pass with a fixed product-verdict schema.
+
+### D10. Verdicts are per aspect, per version, and attributed
+*2026-10-28*
+
+**Chose:** each verdict records the aspect judged (value, quality, fit…), the product version when one is named (vintage vs modern), whose view it is (`held_by`), and the creator's own certainty. Videos can correct themselves, and later in-video claims supersede earlier ones. Prices carry a type (retail, sale, used). Unidentifiable names stay unresolved rather than guessed. A per-creator glossary corrects caption errors. Nothing about the personal life of the creator, family or friends is extracted.
+**Why:** tested against two more transcripts. A brand verdict built on vintage-vs-modern comparisons, with reported opinions the creator disagreed with, heavy hedging and an editor's correction. A value ranking where one product was "great quality, odd fit", the ranking was revised at the end, prices were sale or used, some products were shown but never named, and caption errors mangled most brand names. A single stance per product would have produced confident, wrong answers.
+**Rejected:** one stance per product; treating every opinion voiced in a video as the creator's.

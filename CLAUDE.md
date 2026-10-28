@@ -14,7 +14,9 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 4. **Third person, no imitation.** Answers describe what the creator said ("The Iron Snail recommends…"). Never write in the creator's voice or style.
 5. **Quotes are verbatim.** An extracted quote must appear in the segment it cites.
 6. **Sponsored is never a verdict.** Claims from sponsor segments are flagged and never presented as the creator's independent recommendation.
-7. **Attribute, don't assert.** Facts and history are reported as what the creator said, not as verified truth.
+7. **Attribute, don't assert.** Facts and history are reported as what the creator said, not as verified truth. Views he reports from others are never presented as his, and his hedging is kept, never strengthened.
+8. **No personal life.** Nothing about the personal life of the creator, family or friends is extracted or answered.
+9. **Never guess a name.** Products that can't be identified stay unresolved, as said.
 
 ## Engineering rules
 

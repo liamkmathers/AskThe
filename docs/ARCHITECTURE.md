@@ -41,25 +41,30 @@ This stage is mechanical. Understanding what the video is about happens in stage
 
 Extraction is two passes, so the details are read in light of the whole video. A sentence means different things in a review, an explainer and a sponsor read.
 
-**Pass A: understand the video.** An LLM reads the whole transcript with its metadata and the creator config, and writes a **video profile**:
+**Pass A: understand the video.** An LLM reads the whole transcript with its metadata, the creator config and the creator's glossary, and writes a **video profile**:
 
-- **Purpose:** what the video is for (help choose a boot, explain why a sole works, tell a brand's history, compare two jackets).
-- **Type:** review, comparison, buying guide, long-term review, explainer, how-to, other.
+- **Purpose:** what the video is for (help choose a boot, explain why a sole works, tell a brand's history, rank items for value).
+- **Type:** review, comparison, ranking, long-term review, explainer, how-to, other.
 - **Thesis and key takeaways:** the argument the creator is making, in a few sentences.
-- **Topics and entities:** products, components, brands, materials, people and concepts covered, with names corrected from caption errors using the title, description and context ("Carramato" → Carrarmato).
-- **Segment roles:** which stretches are the main content, intro, sponsor read, skit or aside, outro or teaser.
-- **Questions it answers:** the fan questions this video would be a good source for, in plain language ("Why do so many good boots use Vibram soles?", "What's the difference between grip and traction?").
+- **Outline:** timestamped sections, so long videos that interleave several threads have structure even without chapters.
+- **Topics and entities:** products (and specific versions, like "vintage, made in USA"), components, brands, materials, services, people and concepts covered. Names are corrected from caption errors using the glossary, the title and the **description**, which on gear channels usually lists the products shown. Names that still can't be identified are kept as said and marked unresolved, never guessed.
+- **Segment roles:** which stretches are the main content, intro, sponsor read, aside (skits, jokes, personal life) or outro.
+- **Corrections:** where the video corrects itself (an editor's note, "oops, I just remembered…").
+- **Questions it answers:** the fan questions this video would be a good source for, in plain language ("Why do so many good boots use Vibram soles?", "What's the best value t-shirt?").
 - **Uses:** how the knowledge helps a fan: a buying decision, care and maintenance, understanding how something works, background and history.
 
 **Pass B: extract claims.** With the profile as context, the LLM goes through the main-content segments and records **claims**, each tied to the segment and quote it came from. See [DATA_MODEL](DATA_MODEL.md) for the full structure. In short:
 
-- A **fixed core** for verdicts (entity, stance, pros and cons, good for and bad for, price), because these are what we filter and compare on.
-- **Explanations, history, advice and techniques**, for knowledge that isn't a verdict on something to buy.
+- A **fixed core** for verdicts: entity or version, the **aspect** being judged (value, quality, fit…), stance, pros and cons, good for and bad for, price with its type, buying and sizing advice. These are what we filter and compare on.
+- **Who holds the view** (the creator, "people", a brand) and **how sure he is**, so reported views and hedges are never turned into his firm verdict.
+- **Rankings**, **explanations, history, advice and techniques**, for knowledge that isn't a single verdict.
 - **Mentions**, for things named without a verdict.
 - **Open attributes** and an `other` kind, so nothing is forced into the wrong box.
 - Claims from **sponsor segments** are always marked as sponsored and never treated as the creator's independent verdict.
+- Claims overridden by an in-video correction are linked to the correction.
+- **Nothing about the personal life** of the creator, family or friends is extracted.
 
-Then **entity resolution** merges names across videos ("Iron Rangers", "the Red Wings", "Red Wing 8111") into one entity with aliases, giving each one a dated **timeline** of claims.
+Then **entity resolution** merges names across videos ("Iron Rangers", "the Red Wings", "Red Wing 8111") into one entity with aliases, giving each one a dated **timeline** of claims. It also proposes new glossary entries for a person to approve.
 
 Every profile and claim records the extractor version and model that produced it. Changing the schema or prompts means re-running this stage over the saved segments.
 
@@ -142,10 +147,17 @@ display_name: The Iron Snail
 instance_name: Ask The Iron Snail
 channel_url: https://www.youtube.com/@TheIronSnail
 niche: men's clothing and gear
-categories: [jackets, coats, denim, boots, shoes, knitwear, shirts, accessories]
+categories: [jackets, coats, fleece, denim, chinos, boots, shoes, knitwear,
+             sweatshirts, t-shirts, shirts, underwear, accessories]
 refer_to_creator_as: "The Iron Snail"   # how answers name the creator
 pronoun: he                              # as the creator uses publicly
 video_selection: creators/iron-snail.videos.txt   # the chosen ~50 video IDs
+glossary:                                # known names and how captions mangle them
+  - name: Uniqlo
+    type: brand
+    heard_as: [Unilo, Uniclo, Unic]
 ```
+
+The glossary grows as videos are processed: entity resolution proposes entries, a person approves them. See [DATA_MODEL](DATA_MODEL.md#glossary).
 
 Adding a creator means adding a config file and running the pipeline. No code changes.

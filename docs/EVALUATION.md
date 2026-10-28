@@ -10,7 +10,7 @@ Two things are measured separately: **extraction** (did we capture what the crea
 
 - **20 real fan questions** from comments and community posts on the creator's channel, lightly cleaned for typos but not rewritten.
 - A **mix** of question types, roughly:
-  - 8 product lookups ("best boots under $300?")
+  - 8 product lookups ("best boots under $300?", "best value t-shirt?")
   - 4 comparisons ("X or Y for winter?")
   - 3 change-of-mind or long-term ("does he still like…?")
   - 2 how-to or advice ("how do I break in…?")
@@ -53,6 +53,8 @@ Stored as `eval/questions/<creator>.yaml`:
 - **Hand-label 5 videos** of different types (including at least one explainer and one with a sponsor read): write down the video's purpose and thesis, its sponsor and aside segments, and every claim a careful viewer would note.
 - **Profile check:** does the extractor's profile get the purpose, type and thesis right? Are sponsor segments caught? A wrong profile skews every claim after it.
 - **Sponsorship check:** no claim from a sponsor segment is marked as an unsponsored verdict (automated against the labels).
+- **Attribution check:** claims voiced by others ("people say…", a brand's own claim) are not marked as held by the creator; in-video corrections are caught.
+- **No guessed names:** every resolved entity is supported by the transcript, title, description or glossary.
 - Compare the extractor's output against them:
   - **Recall:** how many hand-labelled claims were captured. This matters most: a missed claim is an unanswerable question.
   - **Precision:** how many extracted claims are real and correctly stated. A wrong claim is a misquote.

@@ -1,6 +1,12 @@
 # Data model
 
-> **Draft, revised once.** First checked against a real Iron Snail transcript ("Why The Same Brand Is On The Bottom Of Every Boot", an explainer about Vibram). That test led to entities beyond products, video profiles, segment roles, and the `explanation`, `history` and `mention` claim kinds. Expect more revisions as more videos are tested.
+> **Draft, tested against three real Iron Snail transcripts:**
+>
+> 1. "Why The Same Brand Is On The Bottom Of Every Boot", an explainer about Vibram. It led to typed entities, video profiles, segment roles, and the `explanation`, `history` and `mention` claim kinds.
+> 2. "Is Patagonia Really THAT Good?", a brand verdict built on vintage-vs-modern comparisons. It led to product versions, `held_by`, `certainty`, in-video corrections, video outlines, the glossary and the personal-life rule.
+> 3. "The Highest Quality, Lowest Price Clothing, Ranked", a value ranking of about 20 products across four categories. It led to verdict aspects, rankings, price types and unresolved entities.
+>
+> Expect smaller revisions as more videos are processed.
 
 ## Layers
 
@@ -12,7 +18,7 @@ The data comes in three layers. Each is derived from the one before and can be r
 
 Answers are built from layer 3 *and* the layer 2 text around each claim, so the nuance the extraction missed is still available.
 
-## Entities
+## Records
 
 ### Creator
 
@@ -21,16 +27,17 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | `id`, `slug` | `iron-snail` |
 | `display_name`, `instance_name` | "The Iron Snail", "Ask The Iron Snail" |
 | `channel_url`, `niche`, `categories` | From the creator config |
+| `glossary` | Known names and their common caption errors, from the creator config (see below) |
 
 ### Video
 
 | Field | Notes |
 | --- | --- |
 | `id`, `creator_id`, `platform_id` | `platform_id` is the YouTube ID |
-| `title`, `description`, `published_at`, `duration_s` | From metadata |
+| `title`, `description`, `published_at`, `duration_s` | From metadata. The description is also used to identify products named in the video |
 | `chapters` | List of `{title, start_s}`, if present |
 | `tags`, `view_count`, `thumbnail_url` | From metadata |
-| `transcript_kind` | `manual` or `auto`; auto captions are less reliable on brand names |
+| `transcript_kind` | `manual` or `auto`; auto captions are less reliable on names |
 
 ### Video profile
 
@@ -39,16 +46,18 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | Field | Notes |
 | --- | --- |
 | `video_id` | |
-| `purpose` | What the video is for, in a sentence ("Explain why Vibram soles are on so many good boots, through the history and design of the Carrarmato sole.") |
-| `video_type` | `review`, `comparison`, `buying_guide`, `long_term_review`, `explainer`, `how_to`, `other` |
-| `thesis` | The argument the creator is making |
+| `purpose` | What the video is for, in a sentence ("Find the best value across denim, chinos, sweatshirts and t-shirts.") |
+| `video_type` | `review`, `comparison`, `ranking` (buying guides and "best of" lists), `long_term_review`, `explainer`, `how_to`, `other` |
+| `thesis` | The argument the creator is making ("Each price step unlocks tangible quality, up to a point; used is often the real value.") |
 | `key_takeaways` | A few sentences a fan should leave with |
-| `topics` | Plain-language topics ("outsole design", "grip vs traction", "Vibram history") |
-| `entity_ids` | Entities the video covers, with names corrected from caption errors |
+| `outline` | Timestamped sections: `{title, start_s, end_s}`. Gives structure to long videos and stands in for chapters when there are none |
+| `topics` | Plain-language topics ("value for money", "yarn ply", "chinos") |
+| `entity_ids` | Entities the video covers |
 | `categories` | Which of the creator's categories it touches |
 | `answers_questions` | Fan questions this video is a good source for |
 | `uses` | `buying_decision`, `care_maintenance`, `understanding`, `background_history`, `style` |
-| `related_videos` | Other videos it refers to ("Ventile next video"), when identifiable |
+| `corrections` | Places where the video corrects itself (editor's notes, "oops, I just remembered…"), each pointing to the claim it overrides |
+| `related_videos` | Other videos it refers to ("part one", "full video on denim coming"), when identifiable |
 | `extractor_version`, `model` | |
 
 ### Segment
@@ -58,8 +67,8 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | `id`, `video_id` | |
 | `start_s`, `end_s` | Seconds from video start |
 | `text` | Cleaned transcript text |
-| `chapter` | Chapter title, if any |
-| `role` | Set by the understanding pass: `main`, `intro`, `sponsor`, `aside` (skits, jokes, tangents), `outro` |
+| `chapter` | Chapter or outline section, if any |
+| `role` | Set by the understanding pass: `main`, `intro`, `sponsor`, `aside` (skits, jokes, tangents, personal life), `outro` |
 
 ### Entity
 
@@ -68,53 +77,75 @@ Anything a fan might ask about by name. Products are the most common, but not th
 | Field | Notes |
 | --- | --- |
 | `id`, `creator_id` | Entities are per creator |
-| `type` | `product`, `component` (a sole, a zipper, a construction method), `material` (Horween Chromexcel, merino), `brand`, `person`, `concept` (grip, traction, goodyear welt) |
-| `canonical_name` | "Vibram Carrarmato outsole", "Red Wing Iron Ranger 8111" |
+| `type` | `product`, `component` (a sole, a zipper, a construction method), `material` (Horween Chromexcel, merino), `brand`, `service` (a repair programme), `person`, `concept` (grip, traction, loopwheel knitting) |
+| `canonical_name` | "Vibram Carrarmato outsole", "Patagonia Retro-X fleece" |
 | `brand`, `model`, `category` | Where they apply |
-| `aliases` | Names used in videos and caption misspellings ("Iron Rangers", "Carramato") |
+| `aliases` | Names used in videos, including caption misspellings ("Unilo", "Uniclo" → Uniqlo) |
+| `resolution` | `resolved`, or `unresolved` when the name can't be pinned down ("the Abercrombie something sweatshirt"). Unresolved entities keep the name as said and are never guessed |
 | `related_entity_ids` | e.g. a boot and the sole it uses; a compound and its brand |
 | `affiliate_url` | Products only; placeholder for later |
 
+### Product version
+
+Products change over time. A verdict on a 1988 made-in-USA Retro-X says nothing about the current one, and the reverse.
+
+| Field | Notes |
+| --- | --- |
+| `id`, `entity_id` | The product this is a version of |
+| `label` | "Vintage, made in USA, 1988", "Modern" |
+| `era` | Year or range, if known |
+| `made_in`, `materials`, `notes` | What distinguishes it ("denser pile", "recycled wool with nylon") |
+
+Claims attach to a version when the video names one, and to the product in general otherwise.
+
 ### Claim
 
-The core unit of knowledge. One thing the creator said, tied to where they said it.
+The core unit of knowledge. One thing said in the video, tied to where it was said.
 
 | Field | Notes |
 | --- | --- |
 | `id`, `video_id` | |
 | `segment_ids`, `start_s`, `end_s` | Where it was said |
-| `quote` | The creator's words, verbatim from the segment, so it can be checked |
+| `quote` | Verbatim from the segment, so it can be checked |
 | `kind` | See claim kinds below |
-| `entity_ids` | Zero, one or several (several for comparisons) |
-| `statement` | One-sentence plain-language summary, attributed to the creator ("He says…") |
-| `stance` | For verdicts and opinions: `recommend`, `positive`, `mixed`, `negative`, `avoid`, `neutral` |
-| `basis` | What the opinion rests on: `own_testing`, `long_term_wear`, `research`, `interview` (e.g. what Vibram's designers told him), `hearsay` |
+| `entity_ids`, `version_ids` | What it's about. Several for comparisons and group claims ("the $3 shirts from Hanes and Gildan all had defects") |
+| `statement` | One-sentence plain-language summary, attributed ("He says…") |
+| `held_by` | Whose view it is: `creator`, `others` ("people say…", "the internet says…"), `brand` (a company's own claim, e.g. "they say it's loopwheel"), or a named person. Answers never present someone else's view as the creator's |
+| `aspect` | What's being judged: `overall`, `value`, `quality`, `durability`, `fit`, `comfort`, `warmth`, `looks`, `ethics`, `performance`. One product can get opposite verdicts on different aspects |
+| `stance` | `recommend`, `positive`, `mixed`, `negative`, `avoid`, `neutral` |
+| `certainty` | The creator's own hedging: `firm`, `tentative` ("I guess…"), `speculative` ("some of it may be unethically sourced") |
+| `basis` | What it rests on: `own_testing`, `long_term_wear`, `personal_preference`, `research`, `interview`, `hearsay` |
 | `pros`, `cons` | Lists of short phrases |
-| `good_for`, `bad_for` | Uses or conditions ("wet winters", "daily wear") |
-| `price` | `{amount, currency, as_said}`; `as_said` keeps the original wording ("around three hundred bucks") |
-| `context` | Conditions the claim depends on ("after two years of wear", "if you size down") |
-| `attributes` | Open key-value details: `{fit: "runs half a size large", made_in: "Portugal"}` |
-| `compared_with` | For comparisons: other entity IDs, the criterion, and which won |
+| `good_for`, `bad_for` | Uses or conditions ("wet winters", "hot weather") |
+| `price` | `{amount, amount_max, currency, type, as_said}`. `type` is `retail`, `sale`, `used` or `unspecified`; `amount_max` for ranges ("$20–30 on eBay"); `as_said` keeps the original wording. Always shown with the video date |
+| `buy_advice` | Where or how to buy, if said: `new`, `used`, `vintage`, `on_sale`, plus notes ("go on eBay") |
+| `fit_advice` | Sizing guidance ("go two sizes up", "size down one") |
+| `ranking` | For ranking claims: `{list, criterion, position, category}` |
+| `compared_with` | For comparisons: other entity or version IDs, the aspect, and which won |
+| `context` | Conditions the claim depends on ("after one wash", "if you size down") |
+| `attributes` | Open key-value details: `{yarn: "two-ply", knit: "loose", neck: "bound"}` |
 | `use` | How a fan would use it: same values as the profile's `uses` |
 | `sponsored` | True for anything said in a sponsor segment or about a sponsor |
-| `confidence` | How sure the extractor is (low for garbled auto captions) |
+| `superseded_by` | A later claim in the same video that corrects this one |
+| `confidence` | How sure the extractor is of its reading (low for garbled captions) |
 | `extractor_version`, `model` | What produced this claim |
 
 ### Claim kinds
 
 | Kind | Example |
 | --- | --- |
-| `verdict` | "These are the best boots under $300." |
-| `comparison` | "The Iron Ranger is warmer than the Blacksmith." |
+| `verdict` | "For $15 the Uniqlo tee is very, very good." |
+| `comparison` | "Vintage Patagonia rugby sweater beats the modern one by a mile." |
+| `ranking` | "Wrangler takes the number one spot for value." |
 | `durability` | "After two years the sole separated." |
-| `fit_sizing` | "Size down half a size." |
-| `explanation` | "Grip is friction on smooth surfaces; traction is lugs biting into the ground." |
-| `history` | "The Carrarmato followed a 1935 climbing accident." |
-| `advice` | "Don't buy raw denim for your first pair." |
+| `fit_sizing` | "Shrink-to-fit 501s: go two sizes up." |
+| `explanation` | "Two-ply yarn is more durable but needs a finer, costlier yarn." |
+| `history` | "Chouinard made reusable steel pitons, five times the price." |
+| `advice` | "If you only want to spend $50 on chinos, go on eBay." |
 | `technique` | "Here's how I break in leather boots." |
-| `brand_opinion` | "Nobody is in Vibram's league for outsoles." |
-| `buying_principle` | "Pay for the leather, not the logo." |
-| `mention` | "Vibram redesigned the Air Force 1 outsole." (named, no verdict) |
+| `brand_opinion` | "Muji seems to care more about what goes into its clothing." |
+| `buying_principle` | "As you go up in price you unlock tangible things." |
+| `mention` | "I have a quarter zip from Buck Mason I wear a lot." (named, no real verdict) |
 | `sponsorship` | A sponsor read, recorded so it's never mistaken for a verdict |
 | `other` | Anything worth keeping that fits none of the above |
 
@@ -130,24 +161,57 @@ The list is a starting point. New kinds and new standard attributes are added wh
 | `cited_claim_ids`, `cited_segment_ids` | |
 | `pipeline_versions` | Extractor, prompt and model used |
 
-## Attribution and sponsorship
+## Glossary
 
-- **Everything is the creator's account.** Facts, history and explanations are stored and answered as what the creator said ("He says the Carrarmato was named after the Italian for tank"), not as verified truth.
-- **Sponsored is never a verdict.** Claims from sponsor segments carry `sponsored: true`. Answers never present them as an independent recommendation, and say so if they come up.
+Auto-captions mangle names badly. One Patagonia video spelled the founder's name five ways (Schwinard, Shwinard, Shinard, Trinard, Sweetard). Each creator config has a glossary of known names with their common mis-hearings, given to the extractor so corrections are consistent:
+
+```yaml
+glossary:
+  - name: Yvon Chouinard
+    type: person
+    heard_as: [Ivon Schwinard, Shinard, Shwinard]
+  - name: Uniqlo
+    type: brand
+    heard_as: [Unilo, Uniclo, Unic]
+  - name: Vibram Carrarmato
+    type: component
+    heard_as: [Carramato]
+```
+
+The glossary grows as videos are processed: entity resolution proposes new entries, and a person approves them.
+
+## What is not extracted
+
+- **The creator's personal life, and that of family and friends.** Relationships, health, jokes about home life are not knowledge. "He tested it with his partner" can appear in context; facts *about* those people are not stored.
+- **Asides and skits**, except where they contain a real claim.
+
+## Attribution, certainty and sponsorship
+
+- **Everything is someone's account.** Facts, history and explanations are stored and answered as what was said ("He says…"), not as verified truth.
+- **Whose view:** `held_by` keeps the creator's views separate from views he reports, including views he disagrees with.
+- **How sure:** `certainty` carries his hedging into the answer ("he thinks, but isn't sure, that…").
+- **Sponsored is never a verdict.** Claims from sponsor segments carry `sponsored: true`, even when they sound personal ("we've both been using it and it's great").
+- **Sensitive claims about companies and people** (ethics, controversies) are attributed and hedged exactly as the creator did, never strengthened.
 
 ## Opinions over time
 
-There's no stored "current verdict". It's computed:
+There's no stored "current verdict". It's computed per entity (or version) **and aspect**:
 
-- An entity's **timeline** is its claims ordered by video publish date.
-- The **current view** is the latest verdict or opinion claim. Long-term reviews and own testing outweigh first impressions and hearsay from around the same time.
-- A **change of mind** is a later claim whose stance differs meaningfully from an earlier one. Answers say what changed and cite both.
+- A **timeline** is the claims ordered by video publish date, then by position in the video.
+- **Corrections first:** a claim with `superseded_by` is replaced by its correction.
+- The **current view** is the latest `creator`-held verdict. Long-term wear and own testing outweigh first impressions, hearsay and tentative claims from around the same time.
+- **Two kinds of change** are kept apart:
+  - **He changed his mind:** a later verdict on the same entity or version and aspect differs from an earlier one.
+  - **The product changed:** verdicts differ between versions ("the vintage one was better").
+
+  Answers say which it is and cite both.
+- **Brand-level questions** ("Is Patagonia worth it?") may have no single stance by design. Answers give the nuance and the specific verdicts rather than forcing one.
 
 Computing this rather than storing it means re-extraction or newly added videos update it automatically.
 
 ## Keeping the schema from being too rigid
 
-- **Understand first:** the video profile gives the extractor the purpose and argument of the video before it pulls out details.
+- **Understand first:** the video profile gives the extractor the purpose, argument and structure of the video before it pulls out details.
 - **Nothing is lost:** raw files and segments are kept and searchable, whatever the schema misses.
 - **Claims point to their context:** answers read the transcript around each claim and the video's profile, not just the claim.
 - **Open slots:** `attributes`, `context` and the `other` kind catch what the fixed fields don't.
