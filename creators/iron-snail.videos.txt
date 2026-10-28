@@ -1,0 +1,8 @@
+# Videos chosen for the Phase 1 prototype: one YouTube video ID per line.
+# Selection criteria: docs/ROADMAP.md#choosing-the-50-videos
+# Blank lines and lines starting with # are ignored.
+
+# Tested by hand while designing the data model
+VtBFkFZoaII  # Why The Same Brand Is On The Bottom Of Every Boot (explainer)
+ixCSNbzQNcI  # Is Patagonia Really THAT Good? (brand verdict, vintage vs modern)
+A6SkEwdjj-8  # The Highest Quality, Lowest Price Clothing, Ranked (ranking)

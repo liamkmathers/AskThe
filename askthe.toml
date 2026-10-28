@@ -1,0 +1,35 @@
+# AskThe application config.
+#
+# Each [adapters.<port>] table picks the implementation behind one interface in
+# askthe/core/interfaces.py. `use` names an adapter registered in askthe/wiring.py;
+# any other keys are passed to that adapter as options.
+#
+# Swapping a component (a different database, transcript source, search engine or
+# LLM) means changing `use` here, and adding the adapter if it doesn't exist yet.
+
+data_dir = "data"
+creators_dir = "creators"
+
+[adapters.catalog]
+use = "memory"
+
+[adapters.transcripts]
+use = "memory"
+
+[adapters.raw_archive]
+use = "memory"
+
+[adapters.store]
+use = "memory"
+
+[adapters.search]
+use = "memory"
+
+[adapters.llm]
+use = "memory"
+
+# Model names live here, never in code. Filled in when the LLM adapter lands (M2).
+# [models]
+# understand = "..."
+# extract = "..."
+# answer = "..."

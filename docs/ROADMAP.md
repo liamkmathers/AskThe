@@ -18,7 +18,7 @@ Each milestone ends with something we can run and check. The spec is in [PROTOTY
 
 | # | Milestone | Done when |
 | --- | --- | --- |
-| M0 | **Skeleton** | Repo layout, config loading, core interfaces and domain models in place; Iron Snail creator config written; tests run |
+| M0 ✅ | **Skeleton** | Repo layout, config loading, core interfaces and domain models in place; Iron Snail creator config written; tests run |
 | M1 | **Ingest** | About 50 chosen videos have metadata and timestamped transcripts cached locally; the database rebuilds from that cache with one command |
 | M2 | **Extract** | Every video has structured verdicts (product, stance, pros and cons, use cases, price, timestamp); products are merged across videos; extraction is spot-checked on 5 hand-labelled videos (see [EVALUATION](EVALUATION.md)) |
 | M3 | **Answer** | The command line answers a question with cited, timestamped sources; says "not covered" when it should; prefers the newest verdict and flags changes of mind; handles comparisons |

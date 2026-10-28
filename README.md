@@ -19,6 +19,24 @@ We measure it as the share of questions that are either answered correctly with 
 
 **Phase 1: Private prototype.** We're proving the assistant can answer 20 real fan questions from about 50 Iron Snail videos, with at least 18 correct and every answer linked to the clip. The prototype is private and for testing only. See [ROADMAP](docs/ROADMAP.md).
 
+## Getting started
+
+Requires Python 3.12+ and [uv](https://docs.astral.sh/uv/).
+
+```bash
+uv sync
+```
+
+```bash
+uv run askthe check
+```
+
+```bash
+uv run pytest
+```
+
+`askthe check` validates `askthe.toml` and every creator in `creators/`, and builds the configured adapters. `askthe.toml` picks which implementation sits behind each interface (store, search, transcript source, LLM…); see [ARCHITECTURE](docs/ARCHITECTURE.md#swappable-components).
+
 ## Docs
 
 | Doc | What it's for |

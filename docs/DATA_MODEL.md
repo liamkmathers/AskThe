@@ -121,7 +121,7 @@ The core unit of knowledge. One thing said in the video, tied to where it was sa
 | `price` | `{amount, amount_max, currency, type, as_said}`. `type` is `retail`, `sale`, `used` or `unspecified`; `amount_max` for ranges ("$20–30 on eBay"); `as_said` keeps the original wording. Always shown with the video date |
 | `buy_advice` | Where or how to buy, if said: `new`, `used`, `vintage`, `on_sale`, plus notes ("go on eBay") |
 | `fit_advice` | Sizing guidance ("go two sizes up", "size down one") |
-| `ranking` | For ranking claims: `{list, criterion, position, category}` |
+| `ranking` | For ranking claims: `{list_name, criterion, position, category}` |
 | `compared_with` | For comparisons: other entity or version IDs, the aspect, and which won |
 | `context` | Conditions the claim depends on ("after one wash", "if you size down") |
 | `attributes` | Open key-value details: `{yarn: "two-ply", knit: "loose", neck: "bound"}` |

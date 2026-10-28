@@ -1,0 +1,101 @@
+# Ask The Iron Snail
+#
+# Everything creator-specific lives here. The engine in askthe/ never assumes a
+# creator, niche or platform. See docs/ARCHITECTURE.md#creator-config.
+
+slug: iron-snail
+display_name: The Iron Snail
+instance_name: Ask The Iron Snail
+platform: youtube
+channel_url: https://www.youtube.com/@TheIronSnail
+niche: men's clothing and gear
+
+# How answers name the creator. Answers are always third person.
+refer_to_creator_as: The Iron Snail
+pronoun: he
+
+categories:
+  - jackets
+  - coats
+  - fleece
+  - denim
+  - chinos
+  - boots
+  - shoes
+  - knitwear
+  - sweatshirts
+  - t-shirts
+  - shirts
+  - underwear
+  - accessories
+
+# The ~50 videos chosen for the Phase 1 prototype, one YouTube ID per line.
+video_selection: iron-snail.videos.txt
+
+# Known names and how auto-captions mangle them. Grows as videos are processed:
+# entity resolution proposes entries, a person approves them.
+# Seeded from the three transcripts tested while designing the data model.
+glossary:
+  - name: Vibram
+    type: brand
+  - name: Vibram Carrarmato
+    type: component
+    heard_as: [Carramato]
+  - name: Vibram Megagrip
+    type: material
+    heard_as: [mega grip]
+  - name: Vitale Bramani
+    type: person
+  - name: Patagonia
+    type: brand
+  - name: Yvon Chouinard
+    type: person
+    heard_as: [Ivon Schwinard, Schwinard, Shwinard, Shinard, Trinard, Sweetard]
+  - name: Capilene
+    type: material
+    heard_as: [Kapalene]
+  - name: Synchilla
+    type: material
+    heard_as: [cinchilla]
+  - name: piton
+    type: concept
+    heard_as: [peton, petons]
+  - name: Fjällräven
+    type: brand
+    heard_as: [Fial Raven, Fel Raven]
+  - name: L.L.Bean
+    type: brand
+    heard_as: [LLBA, LLBAN]
+  - name: Gore-Tex
+    type: material
+    heard_as: [Gortex]
+  - name: Fanttik
+    type: brand
+    heard_as: [Fantic]
+  - name: Uniqlo
+    type: brand
+    heard_as: [Unilo, Uniclo, Unic]
+  - name: Gildan
+    type: brand
+    heard_as: [Gild, Gilden]
+  - name: Hanes
+    type: brand
+    heard_as: [Hannes]
+  - name: J.Crew
+    type: brand
+    heard_as: [J Crew, Jay Krue]
+  - name: Asket
+    type: brand
+    heard_as: [ask it, Ask]
+  - name: Abercrombie & Fitch
+    type: brand
+    heard_as: [Abberrombi, abbercrombi]
+  - name: Bravestar Selvage
+    type: brand
+    heard_as: [Bravestar Salvage, Bravear]
+  - name: selvedge
+    type: concept
+    heard_as: [salvage]
+  - name: Levi's
+    type: brand
+    heard_as: [Levis's, Levis]
