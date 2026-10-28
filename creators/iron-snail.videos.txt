@@ -1,8 +1,69 @@
 # Videos chosen for the Phase 1 prototype: one YouTube video ID per line.
 # Selection criteria: docs/ROADMAP.md#choosing-the-50-videos
+# Picked from data/iron-snail/channel.tsv. Topics he revisits over the years are
+# grouped so newest-verdict-wins and change-of-mind can be tested.
 # Blank lines and lines starting with # are ignored.
 
 # Tested by hand while designing the data model
-VtBFkFZoaII  # Why The Same Brand Is On The Bottom Of Every Boot (explainer)
-ixCSNbzQNcI  # Is Patagonia Really THAT Good? (brand verdict, vintage vs modern)
-A6SkEwdjj-8  # The Highest Quality, Lowest Price Clothing, Ranked (ranking)
+VtBFkFZoaII  # Why The Same Brand Is On The Bottom Of Every Boot
+ixCSNbzQNcI  # Is Patagonia Really THAT Good?
+A6SkEwdjj-8  # The Highest Quality, Lowest Price Clothing, Ranked.
+
+# Boots: Blundstone across 4 years (review, 1-year, 'still worth it?', selling the collection), Red Wing, Docs, care
+a38PivchXTw  # Are Blundstone Boots Worth the Hype? Review + Waterproof Test
+rb-33aSBxyE  # How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test
+4cRAkEHfXKo  # Are Blundstones Still Worth It? (Restoration & Waterproofing!)
+mS6Jqq_GWlo  # Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)
+H6lDr__B3GM  # How to Treat/Weatherproof/Condition Your Leather Boots! (Blundstones/Otterwax)
+cyAzm8O3RwY  # Why the Red Wing 3335s Are Better Than the 875s.
+UTArIR26tMw  # Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test
+5P_FYJ9rIbU  # Why Doc Martens Are So Popular.
+1N1uYKnCxq0  # The Most Expensive Dr. Martens vs. The Cheapest.
+YqcaWn7zzDU  # Wolverine Original 1000 Mile Boot Review: Is it the perfect first boot?
+upPOeJxFExQ  # Should You Buy L.L. Bean Boots?
+FbAkrx4mzg0  # Why Forest Rangers Still Wear This 75-Year-Old Boot.
+cy4MkAJ3OXo  # The Greatest Hiking Boot In History...vs. The One That Beat It
+
+# Denim: Levi's 501 STF from new to 1 year, quality over time, comparisons, Japanese denim, fit
+5cpsrt14fkc  # The Original Raw Denim Jeans: Levi 501 STF (Shrink to Fit)
+vXHDbKKuXQ0  # Levi 501 STF (Shrink to Fit) - 1 Year of Progress (Raw Denim)
+JcDBrIvLD_8  # Worth it? The Most Expensive Levi 501 Jeans ($260)
+nM_g-z5zLJ0  # Did Levi’s Jeans Quality Tank? 63 Year Old vs. Modern
+IQrhvbWN1Uw  # How Wrangler Jeans Crush Levi’s At Half The Price.
+w3nib0_vlfk  # So, What Makes Japanese Selvedge Denim So Special?
+8vtFJhMEnfE  # The Best Japanese Denim Jeans Under $200.
+y6yYCELsmqo  # Levi's VS. Uniqlo VS. 1 Tiny Japanese Denim Brand.
+t0TVkBwdgFs  # Why Your Denim Jeans Look Bad On You.
+
+# T-shirts and basics: rankings over several years, brand verdicts
+GMM_Hl1fTQ0  # The Internet's Favorite T-Shirts, Ranked.
+fuNp6W4DUWs  # The Internet's Favorite T-Shirts, Ranked. (Pt. 2)
+FSWl57UR4k0  # I've Reviewed 100+ T-shirts. Here Are The Best Ones.
+C-OZAlpnkTk  # 12 Men's T-Shirts Ranked from Best to Worst. (Patagonia, Carhartt, Adidas)
+6WXAhykbSy0  # Cotton T-Shirts Are Dead, Here's Why.
+gy9_-Qbmzsk  # The Internet's Favorite Sweatshirts, Ranked.
+qqZyGm0aqh4  # Is Uniqlo Really THAT Good?
+
+# Waxed jackets: rankings, guides, waterproof test, re-waxing how-to
+y3giKIuJjDk  # The Internet's Favorite Waxed Jackets, Ranked.
+6n9t0SDne44  # The Ultimate WAXED JACKET Guide.
+0ZLO5gHDneY  # The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)
+QjyCkMhP6HA  # How Waterproof Is a Waxed Cotton Jacket? (Taylor Stitch)
+mi0ki1l84wU  # The Secret to Perfectly Waxing a Barbour. (Bedale, Ashby, etc.).
+
+# Wool and winter: Filson over time, comparisons, down rankings, staying warm
+BR64w7CObU8  # The Best Wool Jacket: Filson Double Mackinaw Cruiser
+1xUHAaYb1lo  # Filson vs. WeatherWool the Two Best Wool Jackets.
+u2c67bF9-OA  # The 5 Greatest Winter Wool Jackets Of All Time. (Filson, WeatherWool, ...my brand...)
+rHdMviAhDtE  # The Internet's Favorite Down Jackets, Ranked.
+VkQLrAPUzWM  # The Ultimate Arc'teryx, Patagonia, and North Face Guide.
+tIMhDEVghPc  # How to Stop Being Cold Outside.
+H8YAGOB5Xck  # The Winter Jacket That Beat Arc’teryx, North Face, and Patagonia.
+
+# Big opinion videos: regrets, favourites, value, chore coats
+arGLNRKC6Ss  # 8 Clothing Items I REGRET Buying.
+u5Ci7QHHRLA  # 10 Expensive Clothing Items I Don't Regret Buying.
+3bWvGl_wS2I  # 35 Things I Can't Live Without.*
+_x-_PLprz3g  # The Only Wool Sweaters I’d Buy.*
+L6QUfMd82eY  # Why You're Paying More For Worse Clothes.
+c6blgVapNWY  # 7 of The Greatest Chore Coats Money Can Buy.
