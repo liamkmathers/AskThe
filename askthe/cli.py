@@ -88,7 +88,10 @@ def fetch(
         bool, typer.Option("--channel", help="Fetch every video on the channel.")
     ] = False,
     limit: Annotated[int | None, typer.Option(help="Fetch at most this many videos.")] = None,
-    delay: Annotated[float, typer.Option(help="Seconds to wait between videos.")] = 2.0,
+    delay: Annotated[float, typer.Option(help="Seconds to wait between videos.")] = 10.0,
+    stop_after: Annotated[
+        int, typer.Option(help="Stop after this many failures in a row (likely rate-limited).")
+    ] = 3,
     config_path: ConfigOption = DEFAULT_CONFIG_PATH,
 ) -> None:
     """Stage 1: fetch metadata and transcripts into the raw archive. Re-runnable."""
@@ -113,11 +116,17 @@ def fetch(
         services.raw_archive,
         source=f"{adapters['catalog'].use}+{adapters['transcripts'].use}",
         delay_s=delay,
+        max_consecutive_failures=stop_after,
         on_progress=lambda vid, status: typer.echo(f"{vid}  {status}"),
     )
     typer.echo(
         f"fetched {len(report.fetched)}, skipped {len(report.skipped)}, failed {len(report.failed)}"
     )
+    if report.stopped_early:
+        typer.echo(
+            f"stopped after {stop_after} failures in a row: probably rate-limited. "
+            "Wait an hour or so and run fetch again; fetched videos are kept and skipped."
+        )
     if report.failed:
         raise typer.Exit(1)
 

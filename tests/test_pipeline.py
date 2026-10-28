@@ -100,3 +100,35 @@ def test_catalog_lists_videos_with_titles_oldest_first():
     catalog, _ = sources("a", "b")
     listing = catalog.list_videos(f.creator())
     assert [(v.platform_id, v.title) for v in listing] == [("a", "Video a"), ("b", "Video b")]
+
+
+def test_fetch_stops_after_consecutive_failures_and_keeps_errors_short():
+    catalog, transcripts = sources("a")
+
+    class Blocked:
+        def get_transcript(self, platform_id):
+            raise RuntimeError("IpBlocked\n\nlong explanation " * 50)
+
+    report = fetch_videos(
+        f.creator(),
+        ["x", "y", "z", "w"],
+        catalog,
+        Blocked(),
+        MemoryRawArchive(),
+        source="test",
+        max_consecutive_failures=2,
+    )
+    assert list(report.failed) == ["x", "y"] and report.stopped_early
+    assert all("\n" not in msg and len(msg) <= 300 for msg in report.failed.values())
+
+    archive = MemoryRawArchive()
+    report = fetch_videos(
+        f.creator(),
+        ["a", "x", "a2"],
+        catalog,
+        transcripts,
+        archive,
+        source="test",
+        max_consecutive_failures=2,
+    )
+    assert report.fetched == ["a"] and not report.stopped_early
