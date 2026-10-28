@@ -51,11 +51,12 @@ Three groups have to win, or the product doesn't work.
 
 These don't bend. Every design and product decision is checked against them.
 
-1. **Knowledge over personality.** Accuracy and sources come first. We build a knowledge expert, not a clone. Tone or speaking style is a later, optional layer, if ever.
-2. **Grounded or silent.** Every answer cites the videos it comes from. If the creator never covered something, the assistant says so instead of guessing.
-3. **Send people back to the videos.** Timestamp links are a core feature. The assistant grows the creator's views rather than replacing them.
-4. **Time-aware opinions.** Creators change their minds. The newest verdict wins, and changes of opinion are shown openly.
-5. **Built with the creator, never around them.** Nothing goes public without the creator's agreement. Their content, their name, their final say.
+1. **His opinion is the product.** Specs, history and facts can be found elsewhere. What can't be found anywhere else is the creator's own taste and judgement: what he likes, what he wears, what he'd buy, what he thinks is worth it, often said once, in passing, in one video. Capturing that, faithfully and in full, is the core of the product. Facts and explanations support it; they don't replace it.
+2. **Knowledge over personality.** We report his opinions; we don't imitate him. Accuracy and sources come first. Tone or speaking style is a later, optional layer, if ever.
+3. **Grounded or silent.** Every answer cites the videos it comes from. If the creator never covered something, the assistant says so instead of guessing.
+4. **Send people back to the videos.** Timestamp links are a core feature. The assistant grows the creator's views rather than replacing them.
+5. **Time-aware opinions.** Creators change their minds. The newest verdict wins, and changes of opinion are shown openly.
+6. **Built with the creator, never around them.** Nothing goes public without the creator's agreement. Their content, their name, their final say.
 
 ## Positioning
 

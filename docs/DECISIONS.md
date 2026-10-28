@@ -70,3 +70,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** each verdict records the aspect judged (value, quality, fit…), the product version when one is named (vintage vs modern), whose view it is (`held_by`), and the creator's own certainty. Videos can correct themselves, and later in-video claims supersede earlier ones. Prices carry a type (retail, sale, used). Unidentifiable names stay unresolved rather than guessed. A per-creator glossary corrects caption errors. Nothing about the personal life of the creator, family or friends is extracted.
 **Why:** tested against two more transcripts. A brand verdict built on vintage-vs-modern comparisons, with reported opinions the creator disagreed with, heavy hedging and an editor's correction. A value ranking where one product was "great quality, odd fit", the ranking was revised at the end, prices were sale or used, some products were shown but never named, and caption errors mangled most brand names. A single stance per product would have produced confident, wrong answers.
 **Rejected:** one stance per product; treating every opinion voiced in a video as the creator's.
+
+### D11. His taste is the product
+*2026-10-28*
+
+**Chose:** personal taste and judgement are treated as the most valuable knowledge in the system. A `preference` claim kind captures taste with or without a product; `he_wears_it` records what he uses himself; `personal_taste` is a basis that never lowers a claim's weight; extraction keeps every opinion however brief; answers lead with his view. Evaluation measures opinion recall separately.
+**Why:** objective facts about products are easy to find online. A creator's opinion, often said once in passing in one video, is not. That's what fans come for.
+**Rejected:** treating taste as weaker evidence than testing, or as a disclaimer on an answer.

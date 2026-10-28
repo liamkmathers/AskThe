@@ -8,6 +8,7 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 
 ## Product rules (never break these)
 
+0. **His opinion is the product.** The creator's taste and judgement are what fans can't get elsewhere. Extraction captures every opinion, however offhand; answers lead with it and present taste confidently as his taste.
 1. **Grounded or silent.** Answers use only retrieved evidence from the creator's content. If there's no evidence, the answer says it isn't covered. Never let the model fill gaps from general knowledge.
 2. **Every answer cites.** Each claim in an answer links to a video at a timestamp. Citations are verified in code against stored segments, never trusted from model output.
 3. **Newest verdict wins.** Order evidence by publish date; say when the creator changed their mind and cite both.

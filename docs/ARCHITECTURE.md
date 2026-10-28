@@ -55,6 +55,7 @@ Extraction is two passes, so the details are read in light of the whole video. A
 
 **Pass B: extract claims.** With the profile as context, the LLM goes through the main-content segments and records **claims**, each tied to the segment and quote it came from. See [DATA_MODEL](DATA_MODEL.md) for the full structure. In short:
 
+- **His opinions first.** Every opinion and personal preference is captured, however brief or offhand, including what he says he wears himself. These are the most valuable claims in the system.
 - A **fixed core** for verdicts: entity or version, the **aspect** being judged (value, quality, fit…), stance, pros and cons, good for and bad for, price with its type, buying and sizing advice. These are what we filter and compare on.
 - **Who holds the view** (the creator, "people", a brand) and **how sure he is**, so reported views and hedges are never turned into his firm verdict.
 - **Rankings**, **explanations, history, advice and techniques**, for knowledge that isn't a single verdict.

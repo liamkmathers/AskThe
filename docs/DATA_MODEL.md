@@ -114,7 +114,8 @@ The core unit of knowledge. One thing said in the video, tied to where it was sa
 | `aspect` | What's being judged: `overall`, `value`, `quality`, `durability`, `fit`, `comfort`, `warmth`, `looks`, `ethics`, `performance`. One product can get opposite verdicts on different aspects |
 | `stance` | `recommend`, `positive`, `mixed`, `negative`, `avoid`, `neutral` |
 | `certainty` | The creator's own hedging: `firm`, `tentative` ("I guess…"), `speculative` ("some of it may be unethically sourced") |
-| `basis` | What it rests on: `own_testing`, `long_term_wear`, `personal_preference`, `research`, `interview`, `hearsay` |
+| `basis` | What it rests on: `personal_taste`, `own_testing`, `long_term_wear`, `research`, `interview`, `hearsay`. This records *why* he holds the view, not how much it counts: his taste is the most valuable thing we capture, never a weaker kind of claim |
+| `he_wears_it` | True when he says he owns, wears or uses it himself ("I wear it all the time"). One of the strongest signals of his real preferences |
 | `pros`, `cons` | Lists of short phrases |
 | `good_for`, `bad_for` | Uses or conditions ("wet winters", "hot weather") |
 | `price` | `{amount, amount_max, currency, type, as_said}`. `type` is `retail`, `sale`, `used` or `unspecified`; `amount_max` for ranges ("$20–30 on eBay"); `as_said` keeps the original wording. Always shown with the video date |
@@ -135,6 +136,7 @@ The core unit of knowledge. One thing said in the video, tied to where it was sa
 | Kind | Example |
 | --- | --- |
 | `verdict` | "For $15 the Uniqlo tee is very, very good." |
+| `preference` | His personal taste, with or without a product: "I like the dark indigo on Levi's far better than Wrangler's shade", "I'm real big on chinos right now", "I've been loving the quarter-zip look" |
 | `comparison` | "Vintage Patagonia rugby sweater beats the modern one by a mile." |
 | `ranking` | "Wrangler takes the number one spot for value." |
 | `durability` | "After two years the sole separated." |
@@ -145,7 +147,7 @@ The core unit of knowledge. One thing said in the video, tied to where it was sa
 | `technique` | "Here's how I break in leather boots." |
 | `brand_opinion` | "Muji seems to care more about what goes into its clothing." |
 | `buying_principle` | "As you go up in price you unlock tangible things." |
-| `mention` | "I have a quarter zip from Buck Mason I wear a lot." (named, no real verdict) |
+| `mention` | "Vibram redesigned the Air Force 1 outsole." (named, no opinion given) |
 | `sponsorship` | A sponsor read, recorded so it's never mistaken for a verdict |
 | `other` | Anything worth keeping that fits none of the above |
 
@@ -160,6 +162,15 @@ The list is a starting point. New kinds and new standard attributes are added wh
 | `covered` | `full`, `partial`, `none` |
 | `cited_claim_ids`, `cited_segment_ids` | |
 | `pipeline_versions` | Extractor, prompt and model used |
+
+## His taste comes first
+
+The creator's opinions are the product. Facts and explanations can be found elsewhere; his taste mostly can't, and it's often said once, in passing ("I like these just because they're brown", "I wear it all the time", "I like my butt in Wrangler pants better").
+
+- **Capture every opinion, however brief.** An offhand remark is a full claim. Extraction never drops an opinion because it's short, informal, or buried in an aside.
+- **Taste is not weaker evidence.** `personal_taste` explains why he holds a view; it doesn't lower its weight. Answers present it as his taste ("he personally prefers…"), confidently, not as a disclaimer.
+- **What he wears himself** (`he_wears_it`) is recorded wherever he says it, and answers can use it ("he wears the Uniqlo tee all the time").
+- **Opinion and fact are kept side by side.** "Camber is heavy and dense" (fact) and "I love it, it feels like an old-school '90s sweatshirt" (taste) are both kept, and the answer leads with the taste.
 
 ## Glossary
 
@@ -199,7 +210,7 @@ There's no stored "current verdict". It's computed per entity (or version) **and
 
 - A **timeline** is the claims ordered by video publish date, then by position in the video.
 - **Corrections first:** a claim with `superseded_by` is replaced by its correction.
-- The **current view** is the latest `creator`-held verdict. Long-term wear and own testing outweigh first impressions, hearsay and tentative claims from around the same time.
+- The **current view** is the latest `creator`-held verdict or preference. Where his own views from around the same time conflict, long-term wear outweighs a first impression, and a firm view outweighs a tentative one. Reported views (`held_by` other than `creator`) never set his current view.
 - **Two kinds of change** are kept apart:
   - **He changed his mind:** a later verdict on the same entity or version and aspect differs from an earlier one.
   - **The product changed:** verdicts differ between versions ("the vintage one was better").

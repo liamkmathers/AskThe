@@ -14,6 +14,7 @@ Two things are measured separately: **extraction** (did we capture what the crea
   - 4 comparisons ("X or Y for winter?")
   - 3 change-of-mind or long-term ("does he still like…?")
   - 2 how-to or advice ("how do I break in…?")
+  - at least 2 of the above about his personal taste ("what colour chinos does he like?", "which jeans does he wear himself?")
   - 3 not covered (topics genuinely absent from the ingested videos)
 - Each question is written down with the **expected answer**: key facts, the products involved, and the video(s) and rough timestamps that support it. For "not covered" questions, the expected answer is "not covered" and a note on why.
 - Collect the questions **before** tuning the system on them, and keep them out of prompt examples.
@@ -56,7 +57,7 @@ Stored as `eval/questions/<creator>.yaml`:
 - **Attribution check:** claims voiced by others ("people say…", a brand's own claim) are not marked as held by the creator; in-video corrections are caught.
 - **No guessed names:** every resolved entity is supported by the transcript, title, description or glossary.
 - Compare the extractor's output against them:
-  - **Recall:** how many hand-labelled claims were captured. This matters most: a missed claim is an unanswerable question.
+  - **Recall:** how many hand-labelled claims were captured. This matters most: a missed claim is an unanswerable question. Recall on his **opinions and preferences** is reported separately and must be highest: offhand remarks of taste are the claims most easily missed and least findable anywhere else.
   - **Precision:** how many extracted claims are real and correctly stated. A wrong claim is a misquote.
   - **Quotes check:** every extracted quote must appear in the segment it cites (automated).
 - **Entity resolution check:** list merged entities and their aliases; look for wrong merges (two products as one) and missed merges (one product as two).

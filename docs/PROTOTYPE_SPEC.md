@@ -35,7 +35,7 @@ A private demo that proves the assistant can answer real fan questions accuratel
 
 For "Which boots does he recommend for wet winters, and which ones did he say fell apart?":
 
-1. **The verdict first**, in plain language: which boots, and the one-line reason.
+1. **His verdict first**, in plain language: which boots, and the one-line reason. His personal taste, and what he wears himself, are the heart of the answer, not a footnote to the facts.
 2. **The reasoning**, briefly, as the creator gave it.
 3. **Sources**: each claim tied to a video title, its publish date, and a link that opens at the moment it was said.
 4. **Time awareness**: if a later video changed the verdict, the answer leads with the newer one and says what changed.
