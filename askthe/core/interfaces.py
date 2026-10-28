@@ -34,9 +34,9 @@ T = TypeVar("T", bound=BaseModel)
 
 @runtime_checkable
 class CatalogSource(Protocol):
-    """Lists a creator's videos and their metadata."""
+    """Lists a creator's videos and fetches their metadata."""
 
-    def list_videos(self, creator: Creator) -> list[VideoMeta]: ...
+    def list_video_ids(self, creator: Creator) -> list[str]: ...
 
     def get_video(self, creator: Creator, platform_id: str) -> VideoMeta: ...
 
