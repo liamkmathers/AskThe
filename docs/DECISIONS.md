@@ -84,3 +84,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** nothing in the system depends on timestamps. Transcripts are stored as plain text; segments are ordered chunks of text; claims cite segments and quote the creator's words; answers link to the video, not a moment in it. Citations are verified by checking that each quote appears in the cited segment.
 **Why:** relying on timing makes the system fragile. Many transcript sources (pasted text, simple services, some exports) have none, and the stage that fetches timed captions is the one YouTube blocks from cloud servers. Without timing, any source of a video's words works.
 **Trade-off:** fans land at the start of the video rather than the exact moment; the quote makes the passage recognisable. This changes the concept brief's "link to the exact moment" and its acceptance test, which now requires quoted, linked sources instead of timestamp links. Jump-to-moment links could return later as an optional extra, never a requirement.
+
+### D13. Extraction on Claude Opus 5.5, with the whole video as cached context
+*2026-10-28*
+
+**Chose:** Claude Opus 5.5 for all three tasks (understand, extract, answer) at effort `high`, set per task in `askthe.toml`. Pass B runs over windows of about 8 segments, but every call carries the whole numbered transcript and the profile, marked for prompt caching, so each window is read in the context of the full video and the repeated input is cheap. Structured outputs (pydantic schemas) shape the responses; code then checks every quote against its segment and drops claims that fail. Server-side refusal fallbacks are on, and the model that actually answered is recorded on each claim.
+**Why:** extraction is judgement-heavy (attribution, hedging, sponsorship, taste) and errors become misquotes. Whole-video context was the lesson of the transcript tests (D9). Windows keep each response small enough to finish reliably.
+**Revisit:** a cheaper model or lower effort for some tasks once the evaluation shows where quality holds.

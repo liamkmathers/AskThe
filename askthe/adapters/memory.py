@@ -15,6 +15,7 @@ from typing import Any
 from pydantic import BaseModel
 
 from askthe.core.interfaces import (
+    Generated,
     LLMTask,
     SearchDoc,
     SearchHit,
@@ -231,20 +232,20 @@ class MemoryEmbedder:
         return vectors
 
 
-Response = BaseModel | str | Callable[[str, str], Any]
+Response = BaseModel | Callable[[str, str], Any]
 
 
 class MemoryLLMClient:
     """A scripted LLM: tests queue the responses each task should return, in order.
 
-    A queued response may be a value, or a callable taking (system, prompt) so a
-    test can inspect what the pipeline sent.
+    A queued response may be a value, or a callable taking (context, prompt) so a
+    test can inspect what the pipeline sent and answer accordingly.
     """
 
     def __init__(self, models: dict[str, str] | None = None) -> None:
         self._models = models or {}
         self._queues: dict[LLMTask, deque[Response]] = defaultdict(deque)
-        self.calls: list[tuple[LLMTask, str, str]] = []
+        self.calls: list[tuple[LLMTask, str, str, str | None]] = []
 
     def script(self, task: LLMTask, *responses: Response) -> None:
         self._queues[task].extend(responses)
@@ -253,25 +254,21 @@ class MemoryLLMClient:
         return self._models.get(task.value, "memory")
 
     def generate_structured(
-        self, task: LLMTask, system: str, prompt: str, output_type: type[T]
-    ) -> T:
-        result = self._next(task, system, prompt)
+        self,
+        task: LLMTask,
+        system: str,
+        prompt: str,
+        output_type: type[T],
+        context: str | None = None,
+    ) -> Generated[T]:
+        self.calls.append((task, system, prompt, context))
+        if not self._queues[task]:
+            raise LookupError(f"no scripted response left for task {task.value!r}")
+        response = self._queues[task].popleft()
+        result = response(context or "", prompt) if callable(response) else response
         if not isinstance(result, output_type):
             raise TypeError(
                 f"scripted {task} response is {type(result).__name__}, "
                 f"expected {output_type.__name__}"
             )
-        return result
-
-    def generate_text(self, task: LLMTask, system: str, prompt: str) -> str:
-        result = self._next(task, system, prompt)
-        if not isinstance(result, str):
-            raise TypeError(f"scripted {task} response is {type(result).__name__}, expected str")
-        return result
-
-    def _next(self, task: LLMTask, system: str, prompt: str) -> Any:
-        self.calls.append((task, system, prompt))
-        if not self._queues[task]:
-            raise LookupError(f"no scripted response left for task {task.value!r}")
-        response = self._queues[task].popleft()
-        return response(system, prompt) if callable(response) else response
+        return Generated(value=result, model=self.model_for(task))

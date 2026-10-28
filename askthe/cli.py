@@ -16,6 +16,7 @@ from askthe.config import (
     load_video_selection,
 )
 from askthe.core.models import Creator
+from askthe.pipeline.extract import extract_videos
 from askthe.pipeline.fetch import fetch_videos
 from askthe.pipeline.segment import segment_videos
 from askthe.wiring import Services, build_services
@@ -153,6 +154,49 @@ def segment(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH
     services, c = _setup(config_path, creator)
     report = segment_videos(c, services.raw_archive, services.store, services.search)
     typer.echo(f"segmented {report.videos} videos into {report.segments} segments")
+
+
+@app.command()
+def extract(
+    creator: CreatorArg,
+    video: Annotated[
+        list[str] | None, typer.Option("--video", "-v", help="Only these video IDs.")
+    ] = None,
+    limit: Annotated[int | None, typer.Option(help="Extract at most this many videos.")] = None,
+    force: Annotated[
+        bool, typer.Option(help="Re-extract videos already done by this extractor version.")
+    ] = False,
+    config_path: ConfigOption = DEFAULT_CONFIG_PATH,
+) -> None:
+    """Stage 3: understand each video and extract its claims (calls the LLM; costs money)."""
+    services, c = _setup(config_path, creator)
+    ids = list(video) if video else None
+    if limit is not None:
+        pending = [
+            v.platform_id
+            for v in services.store.list_videos(c.slug)
+            if ids is None or v.platform_id in ids
+        ]
+        ids = pending[:limit]
+    report = extract_videos(
+        c,
+        services.store,
+        services.search,
+        services.llm,
+        platform_ids=ids,
+        force=force,
+        on_progress=lambda vid, msg: typer.echo(f"{vid}  {msg}"),
+    )
+    claims = sum(v.claims for v in report.extracted)
+    rejected = sum(len(v.rejected) for v in report.extracted)
+    typer.echo(
+        f"extracted {len(report.extracted)} videos ({claims} claims, {rejected} rejected), "
+        f"skipped {len(report.skipped)}, failed {len(report.failed)}"
+    )
+    if report.usage:
+        typer.echo("tokens: " + ", ".join(f"{k} {n:,}" for k, n in report.usage.items()))
+    if report.failed:
+        raise typer.Exit(1)
 
 
 @app.command()

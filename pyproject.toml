@@ -5,6 +5,7 @@ description = "Turn a creator's videos into a cited, searchable knowledge base o
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=1.0",
     "pydantic>=2.7",
     "pyyaml>=6.0",
     "typer>=0.12",

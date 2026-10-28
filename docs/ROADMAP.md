@@ -19,8 +19,8 @@ Each milestone ends with something we can run and check. The spec is in [PROTOTY
 | # | Milestone | Done when |
 | --- | --- | --- |
 | M0 ✅ | **Skeleton** | Repo layout, config loading, core interfaces and domain models in place; Iron Snail creator config written; tests run |
-| M1 | **Ingest** | About 50 chosen videos have metadata and transcripts cached locally; the database rebuilds from that cache with one command. *Code done and run on 1 real video; YouTube intermittently blocks the cloud server, so the full fetch runs locally.* |
-| M2 | **Extract** | Every video has structured verdicts (product, stance, pros and cons, use cases, price, the quote and segment it came from); products are merged across videos; extraction is spot-checked on 5 hand-labelled videos (see [EVALUATION](EVALUATION.md)) |
+| M1 | **Ingest** | About 50 chosen videos have metadata and transcripts cached locally; the database rebuilds from that cache with one command. *Done for 22 of 50 videos; the rest are being fetched locally (YouTube rate-limits).* |
+| M2 | **Extract** | Every video has structured verdicts (product, stance, pros and cons, use cases, price, the quote and segment it came from); products are merged across videos; extraction is spot-checked on 5 hand-labelled videos (see [EVALUATION](EVALUATION.md)). *Code done and tested with a scripted LLM; first real run waits on an API key.* |
 | M3 | **Answer** | The command line answers a question with cited, quoted sources; says "not covered" when it should; prefers the newest verdict and flags changes of mind; handles comparisons |
 | M4 | **Test set and eval harness** | 20 real fan questions collected from comments, with expected answers; one command scores a full run and saves the results |
 | M5 | **Iterate to the gate** | At least 18 of 20 correct, all citations holding, uncovered questions recognised |

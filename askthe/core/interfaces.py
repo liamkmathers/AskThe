@@ -7,6 +7,7 @@ askthe/wiring.py constructs them. See docs/ARCHITECTURE.md#swappable-components.
 from __future__ import annotations
 
 from collections.abc import Sequence
+from dataclasses import dataclass, field
 from enum import StrEnum
 from typing import Protocol, TypeVar, runtime_checkable
 
@@ -168,14 +169,32 @@ class LLMTask(StrEnum):
     ANSWER = "answer"
 
 
+class LLMError(Exception):
+    """The model could not produce a usable answer (refused, truncated, unparseable)."""
+
+
+@dataclass(frozen=True)
+class Generated[M]:
+    value: M
+    model: str  # the model that actually answered, which may be a fallback
+    usage: dict[str, int] = field(default_factory=dict)
+
+
 @runtime_checkable
 class LLMClient(Protocol):
-    """Structured and free-text generation. Model choice is the adapter's, from config."""
+    """Structured generation. Model choice is the adapter's, from config.
+
+    `context` is a large input shared by several calls (such as a whole transcript);
+    adapters may cache it. It comes before `prompt`, which varies per call.
+    """
 
     def generate_structured(
-        self, task: LLMTask, system: str, prompt: str, output_type: type[T]
-    ) -> T: ...
-
-    def generate_text(self, task: LLMTask, system: str, prompt: str) -> str: ...
+        self,
+        task: LLMTask,
+        system: str,
+        prompt: str,
+        output_type: type[T],
+        context: str | None = None,
+    ) -> Generated[T]: ...
 
     def model_for(self, task: LLMTask) -> str: ...

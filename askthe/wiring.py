@@ -57,7 +57,10 @@ REGISTRY: dict[str, dict[str, str]] = {
         "memory": "askthe.wiring:_memory_search",
         "sqlite": "askthe.wiring:_sqlite_search",
     },
-    "llm": {"memory": "askthe.wiring:_memory_llm"},
+    "llm": {
+        "memory": "askthe.wiring:_memory_llm",
+        "anthropic": "askthe.wiring:_anthropic_llm",
+    },
 }
 
 
@@ -179,3 +182,15 @@ def _sqlite_search(options: dict[str, Any], config: AppConfig) -> Any:
     from askthe.adapters.sqlite import SqliteSearchIndex
 
     return SqliteSearchIndex(config.data_dir / options.get("path", "askthe.db"))
+
+
+def _anthropic_llm(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.anthropic_llm import AnthropicLLMClient
+
+    return AnthropicLLMClient(
+        models=config.models,
+        effort=options.get("effort"),
+        max_tokens=options.get("max_tokens", 16000),
+        fallbacks=options.get("fallbacks", True),
+        base_url=options.get("base_url", "https://api.anthropic.com"),
+    )

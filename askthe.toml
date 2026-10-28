@@ -28,10 +28,13 @@ use = "sqlite"
 use = "sqlite"
 
 [adapters.llm]
-use = "memory"
+# "anthropic" calls Claude and needs ANTHROPIC_API_KEY; "memory" is the scripted test fake.
+use = "anthropic"
+# Effort per task: low | medium | high | xhigh | max. Extraction is judgement-heavy.
+effort = { understand = "high", extract = "high", answer = "high" }
 
-# Model names live here, never in code. Filled in when the LLM adapter lands (M2).
-# [models]
-# understand = "..."
-# extract = "..."
-# answer = "..."
+# Model per task. Model names live here, never in code.
+[models]
+understand = "claude-opus-5-5"
+extract = "claude-opus-5-5"
+answer = "claude-opus-5-5"

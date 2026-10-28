@@ -49,6 +49,12 @@ uv run askthe segment iron-snail
 uv run askthe status iron-snail
 ```
 
+Then extract knowledge with Claude (needs `ANTHROPIC_API_KEY`; this step costs money):
+
+```bash
+uv run askthe extract iron-snail --limit 3
+```
+
 `fetch` downloads metadata and transcripts for the videos listed in `creators/iron-snail.videos.txt` into `data/iron-snail/raw/`. It skips videos already fetched, so it's safe to re-run. `segment` rebuilds the database (`data/askthe.db`) from those raw files.
 
 **YouTube blocks cloud servers**, so run `fetch` from a home connection. Every other stage works anywhere from the raw files. Transcripts can also come from files instead: set `use = "files"` under `[adapters.transcripts]` in `askthe.toml` and put `<video_id>.vtt`, `.srt` or `.txt` files in `data/transcripts/`.
