@@ -54,7 +54,7 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 ### D8. Citations are checked in code
 *2026-10-28*
 
-**Chose:** the model cites evidence IDs from what it was given; code maps them to real videos and timestamps and rejects anything it can't verify.
+**Chose:** the model cites evidence IDs from what it was given; code maps them to real videos and segments, checks each quote appears there, and rejects anything it can't verify.
 **Why:** a wrong link or invented quote damages the creator's name and ours. "Grounded or silent" has to be enforced, not requested.
 
 ### D9. Understand the video before extracting from it; entities, not just products
@@ -77,3 +77,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** personal taste and judgement are treated as the most valuable knowledge in the system. A `preference` claim kind captures taste with or without a product; `he_wears_it` records what he uses himself; `personal_taste` is a basis that never lowers a claim's weight; extraction keeps every opinion however brief; answers lead with his view. Evaluation measures opinion recall separately.
 **Why:** objective facts about products are easy to find online. A creator's opinion, often said once in passing in one video, is not. That's what fans come for.
 **Rejected:** treating taste as weaker evidence than testing, or as a disclaimer on an answer.
+
+### D12. No timestamps
+*2026-10-28*
+
+**Chose:** nothing in the system depends on timestamps. Transcripts are stored as plain text; segments are ordered chunks of text; claims cite segments and quote the creator's words; answers link to the video, not a moment in it. Citations are verified by checking that each quote appears in the cited segment.
+**Why:** relying on timing makes the system fragile. Many transcript sources (pasted text, simple services, some exports) have none, and the stage that fetches timed captions is the one YouTube blocks from cloud servers. Without timing, any source of a video's words works.
+**Trade-off:** fans land at the start of the video rather than the exact moment; the quote makes the passage recognisable. This changes the concept brief's "link to the exact moment" and its acceptance test, which now requires quoted, linked sources instead of timestamp links. Jump-to-moment links could return later as an optional extra, never a requirement.

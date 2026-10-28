@@ -11,19 +11,21 @@ data_dir = "data"
 creators_dir = "creators"
 
 [adapters.catalog]
-use = "memory"
+use = "yt-dlp"
 
 [adapters.transcripts]
-use = "memory"
+# Or use = "files" to read data/transcripts/<video_id>.vtt, .srt or .txt instead.
+use = "youtube-transcript-api"
+languages = ["en"]
 
 [adapters.raw_archive]
-use = "memory"
+use = "files"
 
 [adapters.store]
-use = "memory"
+use = "sqlite"
 
 [adapters.search]
-use = "memory"
+use = "sqlite"
 
 [adapters.llm]
 use = "memory"

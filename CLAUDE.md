@@ -4,13 +4,13 @@ Guidance for coding agents working in this repo. Read [README](README.md) first,
 
 ## What this is
 
-AskThe turns a creator's videos into a knowledge base of their verdicts, and answers fan questions with the creator's own answer plus timestamped links. Current phase: **Phase 1, private prototype**, for The Iron Snail. See [PROTOTYPE_SPEC](docs/PROTOTYPE_SPEC.md).
+AskThe turns a creator's videos into a knowledge base of their verdicts, and answers fan questions with the creator's own answer quoted and linked to the source videos. Current phase: **Phase 1, private prototype**, for The Iron Snail. See [PROTOTYPE_SPEC](docs/PROTOTYPE_SPEC.md).
 
 ## Product rules (never break these)
 
 0. **His opinion is the product.** The creator's taste and judgement are what fans can't get elsewhere. Extraction captures every opinion, however offhand; answers lead with it and present taste confidently as his taste.
 1. **Grounded or silent.** Answers use only retrieved evidence from the creator's content. If there's no evidence, the answer says it isn't covered. Never let the model fill gaps from general knowledge.
-2. **Every answer cites.** Each claim in an answer links to a video at a timestamp. Citations are verified in code against stored segments, never trusted from model output.
+2. **Every answer cites.** Each claim in an answer quotes the creator and links to the video it came from. Citations are verified in code against stored segments, never trusted from model output. Nothing depends on timestamps (D12).
 3. **Newest verdict wins.** Order evidence by publish date; say when the creator changed their mind and cite both.
 4. **Third person, no imitation.** Answers describe what the creator said ("The Iron Snail recommends…"). Never write in the creator's voice or style.
 5. **Quotes are verbatim.** An extracted quote must appear in the segment it cites.

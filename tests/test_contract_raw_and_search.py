@@ -1,26 +1,35 @@
 """Contract tests for RawArchive and SearchIndex. Every implementation must pass these.
 
-To test a new adapter, add its factory to the matching IMPLEMENTATIONS list.
+To test a new adapter, add a factory to the matching IMPLEMENTATIONS: it gets a
+temporary directory and returns a fresh, empty instance.
 """
 
 import pytest
 
+from askthe.adapters.files import FileRawArchive
 from askthe.adapters.memory import MemoryRawArchive, MemorySearchIndex
+from askthe.adapters.sqlite import SqliteSearchIndex
 from askthe.core.interfaces import DocKind, RawArchive, SearchDoc, SearchIndex, SearchQuery
 from tests import factories as f
 
-RAW_IMPLEMENTATIONS = [MemoryRawArchive]
-SEARCH_IMPLEMENTATIONS = [MemorySearchIndex]
+RAW_IMPLEMENTATIONS = {
+    "memory": lambda tmp: MemoryRawArchive(),
+    "files": lambda tmp: FileRawArchive(tmp),
+}
+SEARCH_IMPLEMENTATIONS = {
+    "memory": lambda tmp: MemorySearchIndex(),
+    "sqlite": lambda tmp: SqliteSearchIndex(tmp / "search.db"),
+}
 
 
-@pytest.fixture(params=RAW_IMPLEMENTATIONS, ids=lambda cls: cls.__name__)
-def archive(request) -> RawArchive:
-    return request.param()
+@pytest.fixture(params=list(RAW_IMPLEMENTATIONS))
+def archive(request, tmp_path) -> RawArchive:
+    return RAW_IMPLEMENTATIONS[request.param](tmp_path)
 
 
-@pytest.fixture(params=SEARCH_IMPLEMENTATIONS, ids=lambda cls: cls.__name__)
-def index(request) -> SearchIndex:
-    return request.param()
+@pytest.fixture(params=list(SEARCH_IMPLEMENTATIONS))
+def index(request, tmp_path) -> SearchIndex:
+    return SEARCH_IMPLEMENTATIONS[request.param](tmp_path)
 
 
 # --- RawArchive -----------------------------------------------------------------

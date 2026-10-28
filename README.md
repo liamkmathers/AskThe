@@ -1,8 +1,8 @@
 # AskThe
 
-**Ask a creator's whole back catalogue a question, and get their own answer, with a link to the exact moment they said it.**
+**Ask a creator's whole back catalogue a question, and get their own answer, quoted in their own words, with a link to the video they said it in.**
 
-AskThe turns a niche creator's videos into a structured, searchable knowledge base of their verdicts and recommendations. Fans ask in plain language and get an answer grounded only in what the creator actually said, with timestamped links back to the source videos.
+AskThe turns a niche creator's videos into a structured, searchable knowledge base of their verdicts and recommendations. Fans ask in plain language and get an answer grounded only in what the creator actually said, quoting their words and linking back to the source videos.
 
 AskThe is a template. Each creator gets their own instance, framed around them and their subject:
 
@@ -11,13 +11,13 @@ AskThe is a template. Each creator gets their own instance, framed around them a
 
 ## North Star
 
-> **Every fan question gets the creator's own answer, from the exact moment they said it.**
+> **Every fan question gets the creator's own answer, in their own words, linked to the video they said it in.**
 
-We measure it as the share of questions that are either answered correctly with a working timestamp link, or correctly marked "not covered".
+We measure it as the share of questions that are either answered correctly with a verified quote and a working link to its video, or correctly marked "not covered".
 
 ## Current phase
 
-**Phase 1: Private prototype.** We're proving the assistant can answer 20 real fan questions from about 50 Iron Snail videos, with at least 18 correct and every answer linked to the clip. The prototype is private and for testing only. See [ROADMAP](docs/ROADMAP.md).
+**Phase 1: Private prototype.** We're proving the assistant can answer 20 real fan questions from about 50 Iron Snail videos, with at least 18 correct and every answer quoting and linking its source videos. The prototype is private and for testing only. See [ROADMAP](docs/ROADMAP.md).
 
 ## Getting started
 
@@ -34,6 +34,24 @@ uv run askthe check
 ```bash
 uv run pytest
 ```
+
+### Ingesting videos
+
+```bash
+uv run askthe fetch iron-snail
+```
+
+```bash
+uv run askthe segment iron-snail
+```
+
+```bash
+uv run askthe status iron-snail
+```
+
+`fetch` downloads metadata and transcripts for the videos listed in `creators/iron-snail.videos.txt` into `data/iron-snail/raw/`. It skips videos already fetched, so it's safe to re-run. `segment` rebuilds the database (`data/askthe.db`) from those raw files.
+
+**YouTube blocks cloud servers**, so run `fetch` from a home connection. Every other stage works anywhere from the raw files. Transcripts can also come from files instead: set `use = "files"` under `[adapters.transcripts]` in `askthe.toml` and put `<video_id>.vtt`, `.srt` or `.txt` files in `data/transcripts/`.
 
 `askthe check` validates `askthe.toml` and every creator in `creators/`, and builds the configured adapters. `askthe.toml` picks which implementation sits behind each interface (store, search, transcript source, LLM…); see [ARCHITECTURE](docs/ARCHITECTURE.md#swappable-components).
 

@@ -1,55 +1,36 @@
-"""Caption text handling: parsing caption files and cleaning caption noise.
+"""Transcript text handling: extracting text from caption files and cleaning caption noise.
 
-Pure functions; reading the files is an adapter's job.
+Pure functions; reading the files is an adapter's job. Timing in caption files is
+discarded: nothing in the system depends on it (docs/DECISIONS.md, D12).
 """
 
 from __future__ import annotations
 
 import re
 
-from askthe.core.models import CaptionFragment
-
-_TIMESTAMP = r"(?:(\d+):)?(\d{1,2}):(\d{2})[.,](\d{3})"
-_CUE_TIMING = re.compile(rf"{_TIMESTAMP}\s*-->\s*{_TIMESTAMP}")
+_CUE_TIMING = re.compile(r"\d{1,2}:\d{2}[.,]\d{3}\s*-->")
 _TAG = re.compile(r"<[^>]+>")
 
 
-def _seconds(h: str | None, m: str, s: str, ms: str) -> float:
-    return int(h or 0) * 3600 + int(m) * 60 + int(s) + int(ms) / 1000
+def caption_file_text(text: str) -> str:
+    """The spoken text of a WebVTT or SRT file, in order.
 
-
-def parse_cues(text: str) -> list[CaptionFragment]:
-    """Parse WebVTT or SRT captions into fragments.
-
-    Both formats are blocks separated by blank lines, each with a timing line
-    (`00:01:02.500 --> 00:01:05.000`, with `,` instead of `.` in SRT) followed by
-    text. Header blocks, cue numbers, NOTE blocks and inline tags are ignored.
-    Consecutive cues repeating the same text (common in auto-captions) are merged.
+    Both formats are blocks separated by blank lines: optional cue number, a timing
+    line, then text. Header and NOTE blocks have no timing line and are skipped.
+    Inline tags are removed, and a cue repeating the previous cue's text (common in
+    auto-captions) is dropped.
     """
-    fragments: list[CaptionFragment] = []
+    lines_out: list[str] = []
     for block in re.split(r"\n\s*\n", text.replace("\r\n", "\n").strip()):
         lines = block.strip().split("\n")
         for i, line in enumerate(lines):
-            match = _CUE_TIMING.search(line)
-            if match:
-                start = _seconds(*match.groups()[:4])
-                end = _seconds(*match.groups()[4:])
-                body = " ".join(_TAG.sub("", t).strip() for t in lines[i + 1 :])
-                body = " ".join(body.split())
-                if body:
-                    if fragments and fragments[-1].text == body:
-                        last = fragments[-1]
-                        fragments[-1] = last.model_copy(
-                            update={"duration_s": max(last.duration_s, end - last.start_s)}
-                        )
-                    else:
-                        fragments.append(
-                            CaptionFragment(
-                                start_s=start, duration_s=max(end - start, 0), text=body
-                            )
-                        )
+            if _CUE_TIMING.search(line):
+                body = " ".join(" ".join(_TAG.sub("", t).split()) for t in lines[i + 1 :])
+                body = body.strip()
+                if body and (not lines_out or lines_out[-1] != body):
+                    lines_out.append(body)
                 break
-    return fragments
+    return " ".join(lines_out)
 
 
 _NOISE = re.compile(r"\[(?:music|applause|laughter|laughs|inaudible|silence)\]", re.IGNORECASE)

@@ -1,6 +1,7 @@
 """Contract tests for KnowledgeStore. Every implementation must pass these.
 
-To test a new store adapter, add its factory to IMPLEMENTATIONS.
+To test a new store adapter, add a factory to IMPLEMENTATIONS: it gets a temporary
+directory and returns a fresh, empty store.
 """
 
 from datetime import UTC, datetime
@@ -8,17 +9,21 @@ from datetime import UTC, datetime
 import pytest
 
 from askthe.adapters.memory import MemoryKnowledgeStore
+from askthe.adapters.sqlite import SqliteKnowledgeStore
 from askthe.core import ids
 from askthe.core.interfaces import KnowledgeStore
 from askthe.core.models import AnswerLog, Coverage, ProductVersion, VideoProfile, VideoType
 from tests import factories as f
 
-IMPLEMENTATIONS = [MemoryKnowledgeStore]
+IMPLEMENTATIONS = {
+    "memory": lambda tmp: MemoryKnowledgeStore(),
+    "sqlite": lambda tmp: SqliteKnowledgeStore(tmp / "store.db"),
+}
 
 
-@pytest.fixture(params=IMPLEMENTATIONS, ids=lambda cls: cls.__name__)
-def store(request) -> KnowledgeStore:
-    return request.param()
+@pytest.fixture(params=list(IMPLEMENTATIONS))
+def store(request, tmp_path) -> KnowledgeStore:
+    return IMPLEMENTATIONS[request.param](tmp_path)
 
 
 def test_implements_interface(store):

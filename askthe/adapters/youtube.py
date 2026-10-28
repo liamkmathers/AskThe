@@ -1,5 +1,5 @@
 """YouTube adapters: yt-dlp for the catalogue and metadata, youtube-transcript-api for
-timestamped transcripts.
+transcripts.
 
 YouTube blocks many cloud and datacenter IPs as bots. If fetching fails with a bot
 or sign-in error, run `askthe fetch` from a home connection; every later stage works
@@ -13,8 +13,6 @@ from datetime import UTC, datetime
 from typing import Any
 
 from askthe.core.models import (
-    CaptionFragment,
-    Chapter,
     Creator,
     Transcript,
     TranscriptKind,
@@ -43,12 +41,26 @@ class YtDlpCatalogSource:
         return meta_from_info(self._extract(WATCH_URL.format(platform_id)))
 
     def _extract(self, url: str, **options: Any) -> dict[str, Any]:
-        params = {"quiet": True, "no_warnings": True, "skip_download": True, **options}
+        params = {
+            "quiet": True,
+            "no_warnings": True,
+            "skip_download": True,
+            "logger": _QuietLogger(),  # errors are raised as FetchError instead
+            **options,
+        }
         try:
             with self._yt_dlp.YoutubeDL(params) as ydl:
                 return ydl.extract_info(url, download=False)
         except self._yt_dlp.utils.DownloadError as e:
             raise FetchError(str(e)) from None
+
+
+class _QuietLogger:
+    def debug(self, msg: str) -> None: ...
+
+    def warning(self, msg: str) -> None: ...
+
+    def error(self, msg: str) -> None: ...
 
 
 def meta_from_info(info: dict[str, Any]) -> VideoMeta:
@@ -65,10 +77,7 @@ def meta_from_info(info: dict[str, Any]) -> VideoMeta:
         description=info.get("description") or "",
         published_at=published,
         duration_s=float(info.get("duration") or 0),
-        chapters=[
-            Chapter(title=c.get("title") or "", start_s=float(c.get("start_time") or 0))
-            for c in info.get("chapters") or []
-        ],
+        chapters=[c.get("title") or "" for c in info.get("chapters") or []],
         tags=list(info.get("tags") or []),
         view_count=info.get("view_count"),
         thumbnail_url=info.get("thumbnail"),
@@ -96,12 +105,9 @@ class TranscriptApiSource:
 
 
 def transcript_from_fetched(fetched: Any) -> Transcript:
-    """Map a youtube-transcript-api FetchedTranscript to Transcript."""
+    """Map a youtube-transcript-api FetchedTranscript to Transcript. Timing is dropped."""
     return Transcript(
         kind=TranscriptKind.AUTO if fetched.is_generated else TranscriptKind.MANUAL,
         language=fetched.language_code,
-        fragments=[
-            CaptionFragment(start_s=s.start, duration_s=s.duration, text=s.text)
-            for s in fetched.snippets
-        ],
+        text=" ".join(" ".join(s.text.split()) for s in fetched.snippets),
     )

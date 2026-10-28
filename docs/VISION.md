@@ -2,7 +2,7 @@
 
 ## North Star
 
-> **Every fan question gets the creator's own answer, from the exact moment they said it.**
+> **Every fan question gets the creator's own answer, in their own words, linked to the video they said it in.**
 
 ## The problem
 
@@ -13,7 +13,7 @@ Niche creators build deep expertise over hundreds of videos: which jacket is war
 Ingest every video of a creator into a structured knowledge base of their claims, verdicts and recommendations. Fans ask in plain language and get an answer that:
 
 - comes only from what the creator actually said,
-- links to the exact moment in the video where they said it,
+- quotes their words and links to the video where they said it,
 - reflects the creator's latest opinion, and says so when they changed their mind,
 - admits when the creator hasn't covered something.
 
@@ -29,7 +29,7 @@ Three groups have to win, or the product doesn't work.
 
 | Who | What they want | What they get |
 | --- | --- | --- |
-| Fans and buyers | A straight answer before buying | The creator's verdict, the reasoning, and a link to the clip |
+| Fans and buyers | A straight answer before buying | The creator's verdict, the reasoning, his words, and a link to the video |
 | The creator | More views, more income, less repetition | Traffic sent back to videos, affiliate revenue, insight into what fans ask |
 | Us | A repeatable business | Revenue share, and a pipeline we can reuse for the next creator |
 
@@ -54,7 +54,7 @@ These don't bend. Every design and product decision is checked against them.
 1. **His opinion is the product.** Specs, history and facts can be found elsewhere. What can't be found anywhere else is the creator's own taste and judgement: what he likes, what he wears, what he'd buy, what he thinks is worth it, often said once, in passing, in one video. Capturing that, faithfully and in full, is the core of the product. Facts and explanations support it; they don't replace it.
 2. **Knowledge over personality.** We report his opinions; we don't imitate him. Accuracy and sources come first. Tone or speaking style is a later, optional layer, if ever.
 3. **Grounded or silent.** Every answer cites the videos it comes from. If the creator never covered something, the assistant says so instead of guessing.
-4. **Send people back to the videos.** Timestamp links are a core feature. The assistant grows the creator's views rather than replacing them.
+4. **Send people back to the videos.** Every answer links to the videos it comes from. The assistant grows the creator's views rather than replacing them.
 5. **Time-aware opinions.** Creators change their minds. The newest verdict wins, and changes of opinion are shown openly.
 6. **Built with the creator, never around them.** Nothing goes public without the creator's agreement. Their content, their name, their final say.
 

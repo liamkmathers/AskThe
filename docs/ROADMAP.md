@@ -6,7 +6,7 @@ Targets are proposed starting points. We'll adjust them once real numbers come i
 
 | Phase | Question it answers | Gate to move on | Status |
 | --- | --- | --- | --- |
-| 1. Private prototype | Can it answer fan questions accurately from transcripts? | 20 real fan questions, at least 18 correct, every answer with a working timestamp link, uncovered questions recognised as such | **Current** |
+| 1. Private prototype | Can it answer fan questions accurately from transcripts? | 20 real fan questions, at least 18 correct, every answer quoting and linking its source videos, uncovered questions recognised as such | **Current** |
 | 2. Creator pitch | Does a creator want it? | Iron Snail (or another gear creator) agrees to a pilot | Not started |
 | 3. Public pilot | Do fans use it and does it make money? | Fans return to ask more; affiliate clicks and clicks back to videos are measurable | Not started |
 | 4. Second creator | Is the pipeline repeatable? | A new creator onboarded in days, not weeks | Not started |
@@ -19,12 +19,12 @@ Each milestone ends with something we can run and check. The spec is in [PROTOTY
 | # | Milestone | Done when |
 | --- | --- | --- |
 | M0 ✅ | **Skeleton** | Repo layout, config loading, core interfaces and domain models in place; Iron Snail creator config written; tests run |
-| M1 | **Ingest** | About 50 chosen videos have metadata and timestamped transcripts cached locally; the database rebuilds from that cache with one command |
-| M2 | **Extract** | Every video has structured verdicts (product, stance, pros and cons, use cases, price, timestamp); products are merged across videos; extraction is spot-checked on 5 hand-labelled videos (see [EVALUATION](EVALUATION.md)) |
-| M3 | **Answer** | The command line answers a question with cited, timestamped sources; says "not covered" when it should; prefers the newest verdict and flags changes of mind; handles comparisons |
+| M1 | **Ingest** | About 50 chosen videos have metadata and transcripts cached locally; the database rebuilds from that cache with one command. *Code done and run on 1 real video; YouTube intermittently blocks the cloud server, so the full fetch runs locally.* |
+| M2 | **Extract** | Every video has structured verdicts (product, stance, pros and cons, use cases, price, the quote and segment it came from); products are merged across videos; extraction is spot-checked on 5 hand-labelled videos (see [EVALUATION](EVALUATION.md)) |
+| M3 | **Answer** | The command line answers a question with cited, quoted sources; says "not covered" when it should; prefers the newest verdict and flags changes of mind; handles comparisons |
 | M4 | **Test set and eval harness** | 20 real fan questions collected from comments, with expected answers; one command scores a full run and saves the results |
-| M5 | **Iterate to the gate** | At least 18 of 20 correct, all links working, uncovered questions recognised |
-| M6 | **Chat UI and demo** | A simple web chat shows answers, video dates and clickable timestamp links; the 2-minute demo is recorded |
+| M5 | **Iterate to the gate** | At least 18 of 20 correct, all citations holding, uncovered questions recognised |
+| M6 | **Chat UI and demo** | A simple web chat shows answers, quotes, video dates and links to the videos; the 2-minute demo is recorded |
 
 Milestones M4 can start in parallel with M2 and M3: collecting real questions early tells us what the extraction needs to capture.
 

@@ -1,29 +1,31 @@
-"""Turning caption fragments into segments: the timestamped chunks everything cites.
+"""Turning a transcript into segments: the ordered chunks of text everything cites.
 
 Pure functions. See docs/ARCHITECTURE.md, stage 2.
 """
 
 from __future__ import annotations
 
-from collections.abc import Sequence
 from dataclasses import dataclass
 
 from askthe.core import ids
 from askthe.core.captions import clean_caption_text
-from askthe.core.models import CaptionFragment, Chapter, RawVideo, Segment, Video
+from askthe.core.models import RawVideo, Segment, Video
 
 SENTENCE_END = (".", "?", "!")
 
 
 @dataclass(frozen=True)
 class SegmentingRules:
-    """Segments aim for `target_s` and never exceed `max_s` (unless a single fragment
-    does). Once past the target, a segment ends at the next sentence end. Auto
-    captions have no punctuation, so those segments end at `max_s`. Chapter starts
-    always begin a new segment."""
+    """Segments aim for `target_words` and never exceed `max_words`. Once past the
+    target, a segment ends at the next sentence end. Auto captions have little or
+    no punctuation, so those segments end at `max_words`."""
 
-    target_s: float = 30.0
-    max_s: float = 60.0
+    target_words: int = 120
+    max_words: int = 200
+
+    def __post_init__(self) -> None:
+        if not 0 < self.target_words <= self.max_words:
+            raise ValueError("need 0 < target_words <= max_words")
 
 
 def video_from_raw(raw: RawVideo) -> Video:
@@ -44,69 +46,28 @@ def video_from_raw(raw: RawVideo) -> Video:
     )
 
 
-def segment_fragments(
-    video_id: str,
-    fragments: Sequence[CaptionFragment],
-    chapters: Sequence[Chapter] = (),
-    rules: SegmentingRules | None = None,
-) -> list[Segment]:
+def segment_text(video_id: str, text: str, rules: SegmentingRules | None = None) -> list[Segment]:
     rules = rules or SegmentingRules()
-    cleaned = [
-        (f, text)
-        for f in sorted(fragments, key=lambda f: f.start_s)
-        if (text := clean_caption_text(f.text))
-    ]
-    chapter_starts = sorted(c.start_s for c in chapters)
+    words = clean_caption_text(text).split()
 
-    groups: list[list[tuple[CaptionFragment, str]]] = []
-    current: list[tuple[CaptionFragment, str]] = []
-    for fragment, text in cleaned:
-        if current and _should_break(current, fragment, chapter_starts, rules):
-            groups.append(current)
+    chunks: list[list[str]] = []
+    current: list[str] = []
+    for word in words:
+        current.append(word)
+        at_sentence_end = word.endswith(SENTENCE_END)
+        if len(current) >= rules.max_words or (
+            len(current) >= rules.target_words and at_sentence_end
+        ):
+            chunks.append(current)
             current = []
-        current.append((fragment, text))
     if current:
-        groups.append(current)
+        # Fold a short tail into the previous segment rather than leave a fragment.
+        if chunks and len(current) < rules.target_words // 2:
+            chunks[-1].extend(current)
+        else:
+            chunks.append(current)
 
-    segments = []
-    for index, group in enumerate(groups):
-        start = group[0][0].start_s
-        last = group[-1][0]
-        end = last.start_s + last.duration_s
-        if index + 1 < len(groups):
-            # Auto captions often overlap; never run past the next segment's start.
-            end = min(end, groups[index + 1][0][0].start_s)
-        segments.append(
-            Segment(
-                id=ids.segment_id(video_id, index),
-                video_id=video_id,
-                start_s=start,
-                end_s=max(end, start),
-                text=" ".join(text for _, text in group),
-                chapter=_chapter_at(start, chapters),
-            )
-        )
-    return segments
-
-
-def _should_break(
-    current: list[tuple[CaptionFragment, str]],
-    upcoming: CaptionFragment,
-    chapter_starts: list[float],
-    rules: SegmentingRules,
-) -> bool:
-    start = current[0][0].start_s
-    if any(start < c <= upcoming.start_s for c in chapter_starts):
-        return True
-    elapsed = upcoming.start_s - start
-    if elapsed >= rules.max_s:
-        return True
-    return elapsed >= rules.target_s and current[-1][1].endswith(SENTENCE_END)
-
-
-def _chapter_at(t: float, chapters: Sequence[Chapter]) -> str | None:
-    title = None
-    for chapter in sorted(chapters, key=lambda c: c.start_s):
-        if chapter.start_s <= t:
-            title = chapter.title
-    return title
+    return [
+        Segment(id=ids.segment_id(video_id, i), video_id=video_id, index=i, text=" ".join(chunk))
+        for i, chunk in enumerate(chunks)
+    ]

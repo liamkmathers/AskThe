@@ -181,11 +181,6 @@ class Creator(Model):
 # --- Raw layer ------------------------------------------------------------------
 
 
-class Chapter(Model):
-    title: str
-    start_s: float = Field(ge=0)
-
-
 class VideoMeta(Model):
     """Metadata as fetched from the platform."""
 
@@ -194,22 +189,18 @@ class VideoMeta(Model):
     description: str = ""
     published_at: datetime
     duration_s: float = Field(ge=0)
-    chapters: list[Chapter] = Field(default_factory=list)
+    chapters: list[str] = Field(default_factory=list)  # chapter titles, in order
     tags: list[str] = Field(default_factory=list)
     view_count: int | None = None
     thumbnail_url: str | None = None
 
 
-class CaptionFragment(Model):
-    start_s: float = Field(ge=0)
-    duration_s: float = Field(ge=0)
-    text: str
-
-
 class Transcript(Model):
+    """The spoken text of a video. No timing: nothing in the system depends on it."""
+
     kind: TranscriptKind
     language: str
-    fragments: list[CaptionFragment]
+    text: str = Field(min_length=1)
 
 
 class RawVideo(Model):
@@ -233,7 +224,7 @@ class Video(Model):
     description: str = ""
     published_at: datetime
     duration_s: float = Field(ge=0)
-    chapters: list[Chapter] = Field(default_factory=list)
+    chapters: list[str] = Field(default_factory=list)  # chapter titles, in order
     tags: list[str] = Field(default_factory=list)
     view_count: int | None = None
     thumbnail_url: str | None = None
@@ -241,19 +232,13 @@ class Video(Model):
 
 
 class Segment(Model):
+    """A chunk of transcript, in order. Claims cite segments; quotes must appear in them."""
+
     id: str
     video_id: str
-    start_s: float = Field(ge=0)
-    end_s: float = Field(ge=0)
-    text: str
-    chapter: str | None = None
+    index: int = Field(ge=0)  # position in the video
+    text: str = Field(min_length=1)
     role: SegmentRole | None = None  # set by the understanding pass
-
-    @model_validator(mode="after")
-    def _ordered(self) -> Segment:
-        if self.end_s < self.start_s:
-            raise ValueError("end_s must not be before start_s")
-        return self
 
 
 # --- Knowledge layer ------------------------------------------------------------
@@ -261,12 +246,12 @@ class Segment(Model):
 
 class OutlineSection(Model):
     title: str
-    start_s: float = Field(ge=0)
-    end_s: float = Field(ge=0)
+    first_segment: int = Field(ge=0)
+    last_segment: int = Field(ge=0)
 
 
 class Correction(Model):
-    at_s: float = Field(ge=0)
+    segment_id: str
     note: str
     overrides_claim_id: str | None = None
 
@@ -351,8 +336,6 @@ class Claim(Model):
     id: str
     video_id: str
     segment_ids: list[str] = Field(min_length=1)
-    start_s: float = Field(ge=0)
-    end_s: float = Field(ge=0)
     quote: str = Field(min_length=1)
     kind: ClaimKind
     entity_ids: list[str] = Field(default_factory=list)
@@ -384,8 +367,6 @@ class Claim(Model):
 
     @model_validator(mode="after")
     def _consistent(self) -> Claim:
-        if self.end_s < self.start_s:
-            raise ValueError("end_s must not be before start_s")
         if self.kind is ClaimKind.SPONSORSHIP and not self.sponsored:
             raise ValueError("sponsorship claims must be marked sponsored")
         return self

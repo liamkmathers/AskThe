@@ -36,11 +36,27 @@ PORTS: dict[str, type] = {
 }
 
 REGISTRY: dict[str, dict[str, str]] = {
-    "catalog": {"memory": "askthe.wiring:_memory_catalog"},
-    "transcripts": {"memory": "askthe.wiring:_memory_transcripts"},
-    "raw_archive": {"memory": "askthe.wiring:_memory_raw_archive"},
-    "store": {"memory": "askthe.wiring:_memory_store"},
-    "search": {"memory": "askthe.wiring:_memory_search"},
+    "catalog": {
+        "memory": "askthe.wiring:_memory_catalog",
+        "yt-dlp": "askthe.wiring:_ytdlp_catalog",
+    },
+    "transcripts": {
+        "memory": "askthe.wiring:_memory_transcripts",
+        "youtube-transcript-api": "askthe.wiring:_transcript_api",
+        "files": "askthe.wiring:_transcript_files",
+    },
+    "raw_archive": {
+        "memory": "askthe.wiring:_memory_raw_archive",
+        "files": "askthe.wiring:_file_raw_archive",
+    },
+    "store": {
+        "memory": "askthe.wiring:_memory_store",
+        "sqlite": "askthe.wiring:_sqlite_store",
+    },
+    "search": {
+        "memory": "askthe.wiring:_memory_search",
+        "sqlite": "askthe.wiring:_sqlite_search",
+    },
     "llm": {"memory": "askthe.wiring:_memory_llm"},
 }
 
@@ -122,3 +138,44 @@ def _memory_llm(options: dict[str, Any], config: AppConfig) -> Any:
     from askthe.adapters.memory import MemoryLLMClient
 
     return MemoryLLMClient(models=config.models)
+
+
+def _ytdlp_catalog(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.youtube import YtDlpCatalogSource
+
+    return YtDlpCatalogSource()
+
+
+def _transcript_api(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.youtube import TranscriptApiSource
+
+    return TranscriptApiSource(languages=options.get("languages", ["en"]))
+
+
+def _transcript_files(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.files import TranscriptFileSource
+    from askthe.core.models import TranscriptKind
+
+    return TranscriptFileSource(
+        directory=config.data_dir / options.get("dir", "transcripts"),
+        kind=TranscriptKind(options.get("kind", "manual")),
+        language=options.get("language", "en"),
+    )
+
+
+def _file_raw_archive(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.files import FileRawArchive
+
+    return FileRawArchive(root=config.data_dir)
+
+
+def _sqlite_store(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.sqlite import SqliteKnowledgeStore
+
+    return SqliteKnowledgeStore(config.data_dir / options.get("path", "askthe.db"))
+
+
+def _sqlite_search(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.sqlite import SqliteSearchIndex
+
+    return SqliteSearchIndex(config.data_dir / options.get("path", "askthe.db"))

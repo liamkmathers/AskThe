@@ -13,7 +13,7 @@
 The data comes in three layers. Each is derived from the one before and can be rebuilt from it.
 
 1. **Raw:** exactly what was fetched. Never edited. Source of truth.
-2. **Segments:** cleaned, timestamped chunks of transcript. Still the creator's words.
+2. **Segments:** cleaned, ordered chunks of transcript. Still the creator's words.
 3. **Knowledge:** video profiles, extracted claims and entities. An index over the segments, versioned, always pointing back to them.
 
 Answers are built from layer 3 *and* the layer 2 text around each claim, so the nuance the extraction missed is still available.
@@ -35,7 +35,7 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | --- | --- |
 | `id`, `creator_id`, `platform_id` | `platform_id` is the YouTube ID |
 | `title`, `description`, `published_at`, `duration_s` | From metadata. The description is also used to identify products named in the video |
-| `chapters` | List of `{title, start_s}`, if present |
+| `chapters` | Chapter titles in order, if present |
 | `tags`, `view_count`, `thumbnail_url` | From metadata |
 | `transcript_kind` | `manual` or `auto`; auto captions are less reliable on names |
 
@@ -50,13 +50,13 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | `video_type` | `review`, `comparison`, `ranking` (buying guides and "best of" lists), `long_term_review`, `explainer`, `how_to`, `other` |
 | `thesis` | The argument the creator is making ("Each price step unlocks tangible quality, up to a point; used is often the real value.") |
 | `key_takeaways` | A few sentences a fan should leave with |
-| `outline` | Timestamped sections: `{title, start_s, end_s}`. Gives structure to long videos and stands in for chapters when there are none |
+| `outline` | Named sections: `{title, first_segment, last_segment}`. Gives structure to long videos and stands in for chapters when there are none |
 | `topics` | Plain-language topics ("value for money", "yarn ply", "chinos") |
 | `entity_ids` | Entities the video covers |
 | `categories` | Which of the creator's categories it touches |
 | `answers_questions` | Fan questions this video is a good source for |
 | `uses` | `buying_decision`, `care_maintenance`, `understanding`, `background_history`, `style` |
-| `corrections` | Places where the video corrects itself (editor's notes, "oops, I just remembered…"), each pointing to the claim it overrides |
+| `corrections` | Places where the video corrects itself (editor's notes, "oops, I just remembered…"): the segment, a note, and the claim it overrides |
 | `related_videos` | Other videos it refers to ("part one", "full video on denim coming"), when identifiable |
 | `extractor_version`, `model` | |
 
@@ -65,9 +65,8 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | Field | Notes |
 | --- | --- |
 | `id`, `video_id` | |
-| `start_s`, `end_s` | Seconds from video start |
+| `index` | Position in the video (0, 1, 2…) |
 | `text` | Cleaned transcript text |
-| `chapter` | Chapter or outline section, if any |
 | `role` | Set by the understanding pass: `main`, `intro`, `sponsor`, `aside` (skits, jokes, tangents, personal life), `outro` |
 
 ### Entity
@@ -105,7 +104,7 @@ The core unit of knowledge. One thing said in the video, tied to where it was sa
 | Field | Notes |
 | --- | --- |
 | `id`, `video_id` | |
-| `segment_ids`, `start_s`, `end_s` | Where it was said |
+| `segment_ids` | Where it was said |
 | `quote` | Verbatim from the segment, so it can be checked |
 | `kind` | See claim kinds below |
 | `entity_ids`, `version_ids` | What it's about. Several for comparisons and group claims ("the $3 shirts from Hanes and Gildan all had defects") |

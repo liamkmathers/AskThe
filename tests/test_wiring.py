@@ -3,6 +3,7 @@ from pathlib import Path
 import pytest
 
 from askthe.adapters.memory import MemoryKnowledgeStore
+from askthe.adapters.sqlite import SqliteKnowledgeStore
 from askthe.config import ConfigError, load_app_config
 from askthe.core.interfaces import KnowledgeStore
 from askthe.wiring import PORTS, build_services
@@ -17,10 +18,17 @@ def config_with(tmp_path: Path, adapters: dict[str, str]):
     return load_app_config(path)
 
 
-def test_repo_config_builds_every_port():
-    services = build_services(load_app_config(REPO / "askthe.toml"))
+def test_repo_config_builds_every_port(tmp_path):
+    config = load_app_config(REPO / "askthe.toml").model_copy(update={"data_dir": tmp_path})
+    services = build_services(config)
     for port, interface in PORTS.items():
         assert isinstance(getattr(services, port), interface)
+    assert isinstance(services.store, SqliteKnowledgeStore)
+    assert (tmp_path / "askthe.db").exists()
+
+
+def test_memory_adapters_can_be_selected(tmp_path):
+    services = build_services(config_with(tmp_path, dict.fromkeys(PORTS, "memory")))
     assert isinstance(services.store, MemoryKnowledgeStore)
     assert isinstance(services.store, KnowledgeStore)
 

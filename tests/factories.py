@@ -7,7 +7,6 @@ from typing import Any
 
 from askthe.core import ids
 from askthe.core.models import (
-    CaptionFragment,
     Claim,
     ClaimKind,
     Creator,
@@ -49,18 +48,15 @@ def meta(platform_id: str = "vid1", **over: Any) -> VideoMeta:
     return VideoMeta(**(fields | over))
 
 
-def transcript(*texts: str) -> Transcript:
-    fragments = [
-        CaptionFragment(start_s=i * 3.0, duration_s=3.0, text=t) for i, t in enumerate(texts)
-    ]
-    return Transcript(kind=TranscriptKind.AUTO, language="en", fragments=fragments)
+def transcript(text: str = "hello world") -> Transcript:
+    return Transcript(kind=TranscriptKind.AUTO, language="en", text=text)
 
 
 def raw_video(platform_id: str = "vid1", creator_slug: str = CREATOR) -> RawVideo:
     return RawVideo(
         creator_slug=creator_slug,
         meta=meta(platform_id),
-        transcript=transcript("hello", "world"),
+        transcript=transcript(),
         fetched_at=datetime(2026, 1, 1, tzinfo=UTC),
         source="test",
     )
@@ -83,8 +79,7 @@ def segment(video_id: str, index: int = 0, text: str = "some words", **over: Any
     fields: dict[str, Any] = dict(
         id=ids.segment_id(video_id, index),
         video_id=video_id,
-        start_s=index * 30.0,
-        end_s=index * 30.0 + 30.0,
+        index=index,
         text=text,
     )
     return Segment(**(fields | over))
@@ -105,8 +100,6 @@ def claim(video_id: str, index: int = 0, **over: Any) -> Claim:
         id=ids.claim_id(video_id, index),
         video_id=video_id,
         segment_ids=[ids.segment_id(video_id, 0)],
-        start_s=0.0,
-        end_s=10.0,
         quote="these are great",
         kind=ClaimKind.VERDICT,
         statement="They say these are great.",

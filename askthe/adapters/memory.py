@@ -113,7 +113,7 @@ class MemoryKnowledgeStore:
 
     def replace_segments(self, video_id: str, segments: Sequence[Segment]) -> None:
         _check_belongs(video_id, segments)
-        self._segments[video_id] = sorted(segments, key=lambda s: s.start_s)
+        self._segments[video_id] = sorted(segments, key=lambda s: s.index)
 
     def get_segments(self, video_id: str) -> list[Segment]:
         return list(self._segments.get(video_id, []))

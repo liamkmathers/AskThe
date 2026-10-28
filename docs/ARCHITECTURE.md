@@ -9,7 +9,8 @@ How content gets from a creator's videos to a cited answer, and how the system i
 3. **Every stage is re-runnable on its own.** Each stage reads the previous stage's saved output and writes its own. A better extraction prompt or a new database means re-running from that stage, not re-downloading.
 4. **Swappable by design.** Each external dependency sits behind a small interface. Which implementation is used is chosen in config. Swapping one is a new adapter plus a config change, never a pipeline change.
 5. **Creator-agnostic engine.** Nothing in the engine assumes The Iron Snail, menswear, or YouTube. Creator specifics live in the creator's config file.
-6. **Citations are verified in code.** The model proposes citations; code checks each one against stored timestamps before it reaches the user.
+6. **Citations are verified in code.** The model proposes citations; code checks each one against the stored segments, and that each quote really appears there, before it reaches the user.
+7. **No dependence on timestamps.** Transcripts are plain text; any source of a video's words works. See [D12](DECISIONS.md#d12-no-timestamps).
 
 ## The pipeline
 
@@ -21,10 +22,10 @@ YouTube ──▶ 1. Fetch ──▶ 2. Segment ──▶ 3. Extract ──▶ 4
 
 ### 1. Fetch
 
-For each video, save metadata and the timestamped transcript as one raw file:
+For each video, save metadata and the transcript as one raw file:
 
 - **Metadata:** video ID, title, publish date, duration, description, chapters (if the creator added them), tags, view count, thumbnail URL.
-- **Transcript:** caption fragments with start time and duration, plus which kind of captions they were (creator-uploaded or auto-generated) and the language.
+- **Transcript:** the spoken text, plus which kind of captions it came from (creator-uploaded or auto-generated) and the language. Caption timing is discarded.
 
 Output: `data/<creator>/raw/<video_id>.json`. Re-fetching skips videos already saved, unless forced.
 
@@ -32,7 +33,7 @@ Fetching needs network access to YouTube. If the environment blocks it, run this
 
 ### 2. Segment
 
-- **Merge** caption fragments into segments of roughly 30–60 seconds, breaking at chapter boundaries and sentence ends where possible. Each segment keeps its start and end time.
+- **Split** the transcript into ordered segments of roughly 120–200 words, ending at sentence ends where the captions have punctuation. Each segment keeps its position in the video.
 - **Clean** obvious caption noise (repeated words, `[Music]` markers) without altering meaning.
 
 This stage is mechanical. Understanding what the video is about happens in stage 3.
@@ -46,7 +47,7 @@ Extraction is two passes, so the details are read in light of the whole video. A
 - **Purpose:** what the video is for (help choose a boot, explain why a sole works, tell a brand's history, rank items for value).
 - **Type:** review, comparison, ranking, long-term review, explainer, how-to, other.
 - **Thesis and key takeaways:** the argument the creator is making, in a few sentences.
-- **Outline:** timestamped sections, so long videos that interleave several threads have structure even without chapters.
+- **Outline:** named sections (as ranges of segments), so long videos that interleave several threads have structure even without chapters.
 - **Topics and entities:** products (and specific versions, like "vintage, made in USA"), components, brands, materials, services, people and concepts covered. Names are corrected from caption errors using the glossary, the title and the **description**, which on gear channels usually lists the products shown. Names that still can't be identified are kept as said and marked unresolved, never guessed.
 - **Segment roles:** which stretches are the main content, intro, sponsor read, aside (skits, jokes, personal life) or outro.
 - **Corrections:** where the video corrects itself (an editor's note, "oops, I just remembered…").
@@ -81,7 +82,7 @@ Every profile and claim records the extractor version and model that produced it
 2. **Retrieve:** structured lookups over claims, text search over segments, and matching against video profiles. For each hit, include the surrounding transcript and the video's purpose and thesis, not just the claim.
 3. **Decide coverage:** if nothing relevant is retrieved, the answer is "not covered", by design. The model is not asked to answer without evidence.
 4. **Compose:** the LLM writes the answer from the retrieved evidence only, citing evidence IDs. It leads with the newest verdict and states changes of opinion.
-5. **Verify:** code checks each cited ID exists and maps to a real video and timestamp, then turns it into a link (`https://youtu.be/<id>?t=<seconds>`). Answers with unverifiable citations are rejected or regenerated.
+5. **Verify:** code checks each cited ID exists, maps to a real video and segment, and that each quoted phrase appears in that segment; then it turns the citation into the video title, date, quote and a link (`https://www.youtube.com/watch?v=<id>`). Answers with unverifiable citations are rejected or regenerated.
 6. **Log:** question, answer, citations and coverage are recorded (feeds evaluation and the future creator dashboard).
 
 ## Swappable components
@@ -91,7 +92,7 @@ Each of these is an interface in the engine core, with implementations as adapte
 | Interface | Job | First implementation | Likely later swaps |
 | --- | --- | --- | --- |
 | `CatalogSource` | List a creator's videos and their metadata | yt-dlp | YouTube Data API; creator-supplied export |
-| `TranscriptSource` | Get a timestamped transcript for a video | youtube-transcript-api | yt-dlp subtitles; Whisper on audio; creator-supplied files |
+| `TranscriptSource` | Get the transcript text for a video | youtube-transcript-api; or `files` (`.vtt`, `.srt`, `.txt`) | yt-dlp subtitles; Whisper on audio; a transcript service |
 | `KnowledgeStore` | Save and query videos, profiles, segments, entities, claims | SQLite | Postgres |
 | `SearchIndex` | Find relevant segments and claims for a query | SQLite full-text search (FTS5) | Hybrid with vectors; a dedicated search service |
 | `Embedder` | Turn text into vectors (only once vectors are added) | none | Any embedding provider or local model |

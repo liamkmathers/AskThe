@@ -6,7 +6,7 @@ import os
 import tempfile
 from pathlib import Path
 
-from askthe.core.captions import parse_cues
+from askthe.core.captions import caption_file_text
 from askthe.core.models import RawVideo, Transcript, TranscriptKind
 
 
@@ -53,11 +53,11 @@ class FileRawArchive:
         return sorted(p.stem for p in directory.glob("*.json"))
 
 
-class CaptionFileTranscriptSource:
-    """Transcripts from caption files: <dir>/<platform_id>.vtt or .srt.
+class TranscriptFileSource:
+    """Transcripts from files: <dir>/<platform_id>.vtt, .srt or .txt.
 
-    For transcripts that come from somewhere other than YouTube's public captions,
-    such as files a creator exports from YouTube Studio.
+    For transcripts that come from somewhere other than YouTube's public captions:
+    files a creator exports from YouTube Studio, or plain text pasted from anywhere.
     """
 
     def __init__(self, directory: Path, kind: TranscriptKind, language: str = "en") -> None:
@@ -66,11 +66,13 @@ class CaptionFileTranscriptSource:
         self._language = language
 
     def get_transcript(self, platform_id: str) -> Transcript:
-        for suffix in (".vtt", ".srt"):
+        for suffix in (".vtt", ".srt", ".txt"):
             path = self._dir / f"{platform_id}{suffix}"
             if path.exists():
-                fragments = parse_cues(path.read_text(encoding="utf-8-sig"))
-                if not fragments:
-                    raise ValueError(f"no captions found in {path}")
-                return Transcript(kind=self._kind, language=self._language, fragments=fragments)
-        raise LookupError(f"no .vtt or .srt caption file for {platform_id!r} in {self._dir}")
+                content = path.read_text(encoding="utf-8-sig")
+                text = content if suffix == ".txt" else caption_file_text(content)
+                text = " ".join(text.split())
+                if not text:
+                    raise ValueError(f"no transcript text in {path}")
+                return Transcript(kind=self._kind, language=self._language, text=text)
+        raise LookupError(f"no .vtt, .srt or .txt transcript for {platform_id!r} in {self._dir}")

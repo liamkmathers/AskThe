@@ -16,7 +16,7 @@ Two things are measured separately: **extraction** (did we capture what the crea
   - 2 how-to or advice ("how do I break in…?")
   - at least 2 of the above about his personal taste ("what colour chinos does he like?", "which jeans does he wear himself?")
   - 3 not covered (topics genuinely absent from the ingested videos)
-- Each question is written down with the **expected answer**: key facts, the products involved, and the video(s) and rough timestamps that support it. For "not covered" questions, the expected answer is "not covered" and a note on why.
+- Each question is written down with the **expected answer**: key facts, the products involved, and the video(s) that support it. For "not covered" questions, the expected answer is "not covered" and a note on why.
 - Collect the questions **before** tuning the system on them, and keep them out of prompt examples.
 
 Stored as `eval/questions/<creator>.yaml`:
@@ -30,7 +30,7 @@ Stored as `eval/questions/<creator>.yaml`:
     covered: full
     must_mention: ["Product A", "Product B"]
     must_not_claim: ["Product C is waterproof"]
-    sources: [{video: abc123, near_s: 312}]
+    sources: [abc123]
   notes: "He revised Product A in the 2025 long-term review."
 ```
 
@@ -39,11 +39,11 @@ Stored as `eval/questions/<creator>.yaml`:
 | Check | How | Automated? |
 | --- | --- | --- |
 | **Correct** | Matches the expected facts; no claim the creator didn't make; newest verdict first where relevant | Human judgement, helped by an LLM grader that flags likely problems |
-| **Cited** | Every answer has at least one timestamp link | Yes |
-| **Links work** | Each link points to a real ingested video, and the timestamp lands within a few seconds of a segment containing the supporting text | Yes |
+| **Cited** | Every covered answer quotes the creator and links at least one video | Yes |
+| **Citations hold** | Each link points to a real ingested video, and each quote appears in the cited segment of that video | Yes |
 | **Coverage right** | "Not covered" questions get "not covered"; covered questions don't | Yes |
 
-**Gate:** at least 18 of 20 correct, all links working, every not-covered question recognised.
+**Gate:** at least 18 of 20 correct, all citations holding, every not-covered question recognised.
 
 ### Runs
 

@@ -62,11 +62,11 @@ def test_claim_needs_a_quote_and_a_segment():
         f.claim(VID, segment_ids=[])
 
 
-def test_time_ranges_must_be_ordered():
+def test_segments_need_text_and_a_position():
     with pytest.raises(ValidationError):
-        f.claim(VID, start_s=20, end_s=10)
+        f.segment(VID, text="")
     with pytest.raises(ValidationError):
-        f.segment(VID, start_s=20, end_s=10)
+        f.segment(VID, index=-1)
 
 
 def test_unknown_fields_are_rejected():

@@ -7,7 +7,7 @@ The biggest risk isn't technical: it's whether creators say yes.
 | Risk | Why it matters | How we handle it |
 | --- | --- | --- |
 | Creator says no | No permission, no product | Keep the prototype private; pitch with a demo; try several gear creators |
-| Misquoting the creator | A wrong answer damages his name, and ours | Answer only from sources; verify citations in code; always link the clip; admit gaps |
+| Misquoting the creator | A wrong answer damages his name, and ours | Answer only from sources; verify citations in code; always quote and link the video; admit gaps |
 | Platform terms on using video content | Gathering content at scale may conflict with YouTube's rules | Private, unmonetised testing with one creator; with a partner, get content through the creator directly |
 | Outdated advice | Products change, opinions change | Use publish dates; newest verdict first; show the video date |
 | Fans find it gimmicky | Clone products have been mocked | No fake personality; position it as a guide to the creator's videos |
@@ -26,7 +26,8 @@ The biggest risk isn't technical: it's whether creators say yes.
 | Extraction misses knowledge | Unanswerable questions | Raw transcripts stay searchable; coverage report; extraction recall measured on labelled videos |
 | Sarcasm, hedging and conditional verdicts | "Great boot… if you never walk in rain" read as a plain recommendation | `context`, `aspect` and `certainty` fields; answers read the surrounding transcript, not just the claim |
 | Sponsored segments | Sponsored praise treated as an independent verdict | Sponsor segments marked in the understanding pass; claims from them flagged `sponsored` and never used as verdicts |
-| YouTube blocked or rate-limited | Can't fetch | Fetch is a separate stage; can run on a local machine; raw files are cached so each video is fetched once |
+| YouTube blocked or rate-limited | Confirmed: YouTube refuses cloud servers ("sign in to confirm you're not a bot") | Fetch is a separate stage run from a home connection; raw files are cached so each video is fetched once; transcripts can also come from files |
+| No jump-to-moment links | Fans land at the start of the video and have to find the passage | Answers quote his words so the passage is recognisable; could be revisited later as an optional extra (D12) |
 | LLM cost and speed | Re-running extraction on many videos | Cache per video and extractor version; only re-extract what changed |
 
 ## Open questions

@@ -13,7 +13,7 @@ A private demo that proves the assistant can answer real fan questions accuratel
 - [ ] Ingest videos with their transcripts, titles and publish dates.
 - [ ] Extract the useful knowledge, not just raw text: which product, what the creator thinks of it, what it's good or bad for, rough price if mentioned, and where in the video it's said.
 - [ ] Answer questions in plain language using only the creator's content.
-- [ ] Every answer shows its sources as links that open the video at the right moment.
+- [ ] Every answer shows its sources: the video, its date, the creator's words quoted, and a link to the video.
 - [ ] Say clearly when the creator hasn't covered something, instead of inventing an answer.
 - [ ] Prefer the most recent opinion, and mention when the creator changed their mind.
 - [ ] Handle comparison questions ("X or Y for winter?").
@@ -37,7 +37,7 @@ For "Which boots does he recommend for wet winters, and which ones did he say fe
 
 1. **His verdict first**, in plain language: which boots, and the one-line reason. His personal taste, and what he wears himself, are the heart of the answer, not a footnote to the facts.
 2. **The reasoning**, briefly, as the creator gave it.
-3. **Sources**: each claim tied to a video title, its publish date, and a link that opens at the moment it was said.
+3. **Sources**: each claim tied to a video title, its publish date, his words quoted, and a link to the video.
 4. **Time awareness**: if a later video changed the verdict, the answer leads with the newer one and says what changed.
 5. **Honest gaps**: if part of the question isn't covered ("he hasn't reviewed any boots for wet winters"), it says so plainly.
 
@@ -48,7 +48,7 @@ The answer refers to the creator in the third person ("The Iron Snail recommends
 A test set of 20 real fan questions, taken from the channel's comments. The prototype passes when:
 
 - at least **18 answers are correct**,
-- **every answer has a working timestamp link**, and
+- **every answer quotes the creator and links its source videos**, with citations verified, and
 - the questions with no answer in the videos are **recognised as not covered**.
 
 How questions are collected and scored is in [EVALUATION](EVALUATION.md).
@@ -57,7 +57,7 @@ How questions are collected and scored is in [EVALUATION](EVALUATION.md).
 
 A 2-minute screen recording showing:
 
-1. Three or four real fan questions, each answered with the verdict and a click into the exact clip.
+1. Three or four real fan questions, each answered with the verdict, his words, and a click through to the video.
 2. One comparison question.
 3. One "he changed his mind" answer.
 4. One honest "not covered yet".
