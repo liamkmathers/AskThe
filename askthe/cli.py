@@ -88,7 +88,9 @@ def fetch(
         bool, typer.Option("--channel", help="Fetch every video on the channel.")
     ] = False,
     limit: Annotated[int | None, typer.Option(help="Fetch at most this many videos.")] = None,
-    delay: Annotated[float, typer.Option(help="Seconds to wait between videos.")] = 10.0,
+    delay: Annotated[
+        float, typer.Option(help="Seconds to wait between videos (12 = 5 videos a minute).")
+    ] = 12.0,
     stop_after: Annotated[
         int, typer.Option(help="Stop after this many failures in a row (likely rate-limited).")
     ] = 3,
