@@ -85,6 +85,7 @@ def score(
     flagged = [p for p in q.expected.must_not_claim if mentions(text, p)]
     return {
         "coverage_right": covered == expected_covered,
+        "coverage_exact": coverage == q.expected.covered,  # full vs partial; informative
         "cited": bool(cited) if covered else True,
         "citations_hold": problems == 0,
         "must_mention": mentioned,

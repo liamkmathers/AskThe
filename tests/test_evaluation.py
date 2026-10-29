@@ -32,7 +32,9 @@ def test_score_checks_coverage_citations_mentions_and_sources():
     good = score(
         q, "He keeps warm in Red Wings, Red Wing boots.", Coverage.FULL, ["boots"], ["boots"], 0
     )
-    assert good["passed"] and good["sources_cited"] == ["boots"]
+    assert good["passed"] and good["sources_cited"] == ["boots"] and good["coverage_exact"]
+    partial = score(q, "Red Wing", Coverage.PARTIAL, ["boots"], ["boots"], 0)
+    assert partial["coverage_right"] and not partial["coverage_exact"]
     bad = score(q, "The Red Wing is waterproof.", Coverage.FULL, [], ["other"], 1)
     assert not bad["passed"]
     assert not bad["cited"] and not bad["citations_hold"] and bad["must_not_claim_found"]

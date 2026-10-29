@@ -139,6 +139,7 @@ def summarise(
             "questions": len(rows),
             "passed_checks": sum(r["checks"]["passed"] for r in rows),
             "coverage_right": sum(r["checks"]["coverage_right"] for r in rows),
+            "coverage_exact": sum(r["checks"]["coverage_exact"] for r in rows),
             "citations_hold": sum(r["checks"]["citations_hold"] for r in rows),
             "cost_usd": round(sum(costs), 4) if None not in costs else None,
             "mean_context_words": round(sum(r["context_words"] for r in rows) / max(len(rows), 1)),

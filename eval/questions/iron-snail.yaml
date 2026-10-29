@@ -93,11 +93,15 @@
   source: https://www.youtube.com/watch?v=1N1uYKnCxq0
   type: comparison
   expected:
-    covered: partial
-    sources: [1N1uYKnCxq0]
+    covered: full
+    must_mention: ["Solovair"]
+    sources: [5P_FYJ9rIbU]
   notes: >-
-    He compared Made in England with Made in Thailand Docs; Solovair is never mentioned.
-    Should say what he said about Made in England and that Solovair isn't covered.
+    2022: for pure value and a better-built boot, Solovair, which is also cheaper; the
+    Made in England premium mostly pays for the label; Solovair has a shank and resoles
+    more easily; only Docs have the yellow stitching. Captions spell it "solaveir",
+    "solo air", "silver boots": tests name expansion. (First draft wrongly said not
+    covered; the eval caught it.)
 
 - id: q09
   question: "Hi, I am going on a 4 day hike and I am wondering if I can use my blundstone for them, what do you think?"
