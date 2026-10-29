@@ -148,8 +148,19 @@ def ask(
     system = answer_system_prompt(creator)
     prompt = answer_prompt(question, today or datetime.now(UTC).date())
 
+    # Full mode sends the same corpus with every question, so it goes in `context`,
+    # which adapters cache. Hybrid's passages differ per question: caching them would
+    # cost more than plain input and never be read back, so they go in the prompt.
+    shared = settings.mode == "full"
+
     def generate(p: str) -> tuple[AnswerDraft, str]:
-        result = llm.generate_structured(LLMTask.ANSWER, system, p, AnswerDraft, context=corpus)
+        result = llm.generate_structured(
+            LLMTask.ANSWER,
+            system,
+            p if shared else f"{corpus}\n\n{p}",
+            AnswerDraft,
+            context=corpus if shared else None,
+        )
         add_usage(result.usage, result.model)
         return result.value, result.model
 

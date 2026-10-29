@@ -140,8 +140,9 @@ def test_hybrid_reads_only_the_relevant_sections():
 
     assert result.videos_read == ["test-creator:boots"]
     assert [s.quote for s in result.answer.sources] == ["kept my feet warm in the snow"]
-    context = [c for c in llm.calls if c[0] is LLMTask.ANSWER][0][3]
-    assert "kept my feet warm" in context and "Raw denim" not in context
+    _, _, prompt, context = [c for c in llm.calls if c[0] is LLMTask.ANSWER][0]
+    assert "kept my feet warm" in prompt and "Raw denim" not in prompt
+    assert context is None  # passages differ per question: sent as input, not cached
     assert result.trace["queries"][0] == "Which boots keep you warm in winter?"
     assert result.trace["kept"] == 1 and not result.trace["warnings"]
 
