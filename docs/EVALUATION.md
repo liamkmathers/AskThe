@@ -2,7 +2,7 @@
 
 How we know the assistant works, and how we notice when a change makes it worse.
 
-Two things are measured separately: **extraction** (did we capture what the creator said?) and **answers** (did fans get the right, cited answer?). A bad answer can come from either, and we need to know which.
+Two things are measured separately: **retrieval** (did the model get the right videos?) and **answers** (did fans get the right, cited answer?). A bad answer can come from either, and we need to know which. Since D15 there is no claim extraction to measure; profiles are checked instead.
 
 ## 1. Answer evaluation: the Phase 1 gate
 
@@ -49,18 +49,11 @@ Stored as `eval/questions/<creator>.yaml`:
 
 `askthe eval` runs the whole set and saves `eval/runs/<date>-<label>.json` with each answer, its scores, and the pipeline versions used. Runs are compared side by side, so a prompt change that fixes one question and breaks two is visible.
 
-## 2. Extraction evaluation
+## 2. Profile and retrieval checks
 
-- **Hand-label 5 videos** of different types (including at least one explainer and one with a sponsor read): write down the video's purpose and thesis, its sponsor and aside segments, and every claim a careful viewer would note.
-- **Profile check:** does the extractor's profile get the purpose, type and thesis right? Are sponsor segments caught? A wrong profile skews every claim after it.
-- **Sponsorship check:** no claim from a sponsor segment is marked as an unsponsored verdict (automated against the labels).
-- **Attribution check:** claims voiced by others ("people say…", a brand's own claim) are not marked as held by the creator; in-video corrections are caught.
-- **No guessed names:** every resolved entity is supported by the transcript, title, description or glossary.
-- Compare the extractor's output against them:
-  - **Recall:** how many hand-labelled claims were captured. This matters most: a missed claim is an unanswerable question. Recall on his **opinions and preferences** is reported separately and must be highest: offhand remarks of taste are the claims most easily missed and least findable anywhere else.
-  - **Precision:** how many extracted claims are real and correctly stated. A wrong claim is a misquote.
-  - **Quotes check:** every extracted quote must appear in the segment it cites (automated).
-- **Entity resolution check:** list merged entities and their aliases; look for wrong merges (two products as one) and missed merges (one product as two).
+- **Profiles:** on 5 videos of different types, check by hand that the purpose, type, thesis and sections are right, and that every sponsor read and aside is found and located precisely (and nothing else is). Automated: every passage's `starts_with` and `ends_with` must be found in the transcript; unlocated passages are reported.
+- **Retrieval:** once the catalogue outgrows the reading budget, check for each test question that the videos holding the answer were among those read. Until then (the 50-video prototype is read in full) this is trivially true.
+- **Quotes:** every citation's quote must appear in the segment it cites. Enforced on every answer; failures are counted in the eval run.
 
 ## 3. Gap signals
 

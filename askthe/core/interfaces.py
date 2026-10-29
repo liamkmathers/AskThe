@@ -109,12 +109,12 @@ class KnowledgeStore(Protocol):
 
 class DocKind(StrEnum):
     SEGMENT = "segment"
-    CLAIM = "claim"
+    PROFILE = "profile"  # a video's purpose, thesis, sections, topics and names
     PROFILE_QUESTION = "profile_question"
 
 
 class SearchDoc(BaseModel):
-    """Something findable: a segment, a claim, or a question a video answers."""
+    """Something findable: a segment, a video profile, or a question a video answers."""
 
     id: str
     kind: DocKind

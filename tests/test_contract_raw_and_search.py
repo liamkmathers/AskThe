@@ -85,11 +85,13 @@ def test_search_filters_by_creator_and_kind(index):
     index.index(
         [
             doc("1", "warm boots"),
-            doc("2", "warm boots", kind=DocKind.CLAIM),
+            doc("2", "warm boots", kind=DocKind.PROFILE),
             doc("3", "warm boots", creator="someone-else"),
         ]
     )
-    hits = index.search(SearchQuery(text="warm boots", creator_id=f.CREATOR, kinds=[DocKind.CLAIM]))
+    hits = index.search(
+        SearchQuery(text="warm boots", creator_id=f.CREATOR, kinds=[DocKind.PROFILE])
+    )
     assert [h.doc_id for h in hits] == ["2"]
 
 

@@ -97,3 +97,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 
 **Chose:** what the creator says about his own products or brand is extracted as ordinary claims (his opinion), marked with the attribute `own_product = "yes"`, never as sponsorship.
 **Why:** it's his genuine view and more information for fans. The attribute keeps it identifiable if answers ever need to mention it.
+
+### D15. Reason at question time, not extraction time
+*2026-10-29*
+
+**Chose:** no opinions, verdicts or claims are extracted in advance. Each video gets a profile that describes it (metadata, sections, entities, precisely located sponsor reads and asides, the questions it answers). At question time the relevant full transcripts, with that metadata, are given to the model, which reasons about this specific question and cites exact quotes that code verifies. Supersedes the claim extraction of D9, D10, D11 and D13; their rules (his taste first, attribution, hedging, sponsorship, versions, corrections) now apply when answering.
+**Why:** what matters in a video depends on the question. A trial of claim extraction on real videos cost about $1 per video, produced around 90 field-heavy claims each, and lost meaning: sponsor marking per segment flagged genuine opinions as sponsored. Reasoning over the transcript at question time kept the nuance (in-video re-rankings, hedges, others' views) in every test answer, every quote verified, at $0.03 to $0.06 per cached question. The 50-video prototype fits in the model's context outright.
+**Rejected:** a fixed per-claim schema. A structured product list may return later for specific features (browsing, dashboard), derived from answers or added if evaluation shows a need.

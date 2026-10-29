@@ -35,11 +35,12 @@ class VideoType(StrEnum):
     OTHER = "other"
 
 
-class SegmentRole(StrEnum):
-    MAIN = "main"
+class PassageRole(StrEnum):
+    """Stretches of a video that aren't its main content."""
+
     INTRO = "intro"
     SPONSOR = "sponsor"
-    ASIDE = "aside"
+    ASIDE = "aside"  # skits, jokes, tangents, personal life
     OUTRO = "outro"
 
 
@@ -246,7 +247,6 @@ class Segment(Model):
     video_id: str
     index: int = Field(ge=0)  # position in the video
     text: str = Field(min_length=1)
-    role: SegmentRole | None = None  # set by the understanding pass
 
 
 # --- Knowledge layer ------------------------------------------------------------
@@ -254,14 +254,26 @@ class Segment(Model):
 
 class OutlineSection(Model):
     title: str
+    summary: str = ""
     first_segment: int = Field(ge=0)
     last_segment: int = Field(ge=0)
+
+
+class Passage(Model):
+    """A non-main stretch (such as a sponsor read), pinned to its exact first and last
+    words so it can be marked precisely inside the transcript, even mid-segment."""
+
+    role: PassageRole
+    first_segment: int = Field(ge=0)
+    starts_with: str
+    last_segment: int = Field(ge=0)
+    ends_with: str
+    note: str = ""
 
 
 class Correction(Model):
     segment_id: str
     note: str
-    overrides_claim_id: str | None = None
 
 
 class VideoProfile(Model):
@@ -271,6 +283,7 @@ class VideoProfile(Model):
     thesis: str
     key_takeaways: list[str] = Field(default_factory=list)
     outline: list[OutlineSection] = Field(default_factory=list)
+    passages: list[Passage] = Field(default_factory=list)
     topics: list[str] = Field(default_factory=list)
     entity_ids: list[str] = Field(default_factory=list)
     categories: list[str] = Field(default_factory=list)
@@ -278,7 +291,7 @@ class VideoProfile(Model):
     uses: list[Use] = Field(default_factory=list)
     corrections: list[Correction] = Field(default_factory=list)
     related_videos: list[str] = Field(default_factory=list)
-    extractor_version: str
+    profiler_version: str
     model: str
 
 

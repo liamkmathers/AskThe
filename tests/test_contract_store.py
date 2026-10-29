@@ -71,7 +71,7 @@ def test_profiles(store):
         purpose="Rank t-shirts for value",
         video_type=VideoType.RANKING,
         thesis="Price unlocks quality, up to a point",
-        extractor_version="t",
+        profiler_version="t",
         model="m",
     )
     store.save_profile(profile)

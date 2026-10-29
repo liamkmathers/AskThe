@@ -5,8 +5,8 @@ How content gets from a creator's videos to a cited answer, and how the system i
 ## Design rules
 
 1. **Transcripts are the source of truth.** Raw fetched material is saved as files and never thrown away. Everything else (segments, extracted knowledge, search indexes, the database) is derived from those files and can be rebuilt.
-2. **Extraction is an index, not a replacement.** Extracted verdicts are how we *find* the right moment; the transcript around that moment is what answers are built from. Nuance the schema didn't anticipate survives.
-3. **Every stage is re-runnable on its own.** Each stage reads the previous stage's saved output and writes its own. A better extraction prompt or a new database means re-running from that stage, not re-downloading.
+2. **Reason at question time, from his actual words.** What matters in a video depends on the question, so nothing about his opinions is extracted in advance. Pre-processing describes videos (metadata, sections, sponsor reads) so the right ones are found and read well; the model reasons over the full transcripts when a question is asked. See [D15](DECISIONS.md#d15-reason-at-question-time-not-extraction-time).
+3. **Every stage is re-runnable on its own.** Each stage reads the previous stage's saved output and writes its own. A better profile prompt or a new database means re-running from that stage, not re-downloading.
 4. **Swappable by design.** Each external dependency sits behind a small interface. Which implementation is used is chosen in config. Swapping one is a new adapter plus a config change, never a pipeline change.
 5. **Creator-agnostic engine.** Nothing in the engine assumes The Iron Snail, menswear, or YouTube. Creator specifics live in the creator's config file.
 6. **Citations are verified in code.** The model proposes citations; code checks each one against the stored segments, and that each quote really appears there, before it reaches the user.
@@ -15,9 +15,10 @@ How content gets from a creator's videos to a cited answer, and how the system i
 ## The pipeline
 
 ```
-YouTube ──▶ 1. Fetch ──▶ 2. Segment ──▶ 3. Extract ──▶ 4. Index ──▶ 5. Answer
-            raw files    segments +      claims +        search      cited
-                         video type      products        indexes     answers
+YouTube ──▶ 1. Fetch ──▶ 2. Segment ──▶ 3. Understand ──▶ 4. Index ──▶ 5. Answer
+            raw files    numbered        video profiles     search      reasoned over full
+                         text chunks     (no opinions)      indexes     transcripts, quotes
+                                                                        checked in code
 ```
 
 ### 1. Fetch
@@ -38,52 +39,34 @@ Fetching needs network access to YouTube. If the environment blocks it, run this
 
 This stage is mechanical. Understanding what the video is about happens in stage 3.
 
-### 3. Understand and extract
+### 3. Understand
 
-Extraction is two passes, so the details are read in light of the whole video. A sentence means different things in a review, an explainer and a sponsor read.
+One LLM call per video reads the whole transcript and writes a **video profile**: a description of the video, not of his opinions.
 
-**Pass A: understand the video.** An LLM reads the whole transcript with its metadata, the creator config and the creator's glossary, and writes a **video profile**:
+- **What it is:** purpose, type (review, comparison, ranking, long-term review, explainer, how-to), thesis and key takeaways.
+- **Sections:** the video's parts in order, following his own structure where there is one, each with a one-line summary and its segment range.
+- **Entities:** products, components, materials, brands, services, people and concepts discussed, with names corrected from caption errors via the glossary, title and description. Names that can't be identified stay as said, never guessed.
+- **Passages:** the intro, sponsor reads, asides (skits, jokes, personal life) and outro, each pinned to its exact first and last words, so it can be marked precisely inside the transcript, even mid-segment. Talk about his own products is not a sponsor read (D14).
+- **Corrections**, **the questions it answers** (in a fan's words), **related videos**.
 
-- **Purpose:** what the video is for (help choose a boot, explain why a sole works, tell a brand's history, rank items for value).
-- **Type:** review, comparison, ranking, long-term review, explainer, how-to, other.
-- **Thesis and key takeaways:** the argument the creator is making, in a few sentences.
-- **Outline:** named sections (as ranges of segments), so long videos that interleave several threads have structure even without chapters.
-- **Topics and entities:** products (and specific versions, like "vintage, made in USA"), components, brands, materials, services, people and concepts covered. Names are corrected from caption errors using the glossary, the title and the **description**, which on gear channels usually lists the products shown. Names that still can't be identified are kept as said and marked unresolved, never guessed.
-- **Segment roles:** which stretches are the main content, intro, sponsor read, aside (skits, jokes, personal life) or outro.
-- **Corrections:** where the video corrects itself (an editor's note, "oops, I just remembered…").
-- **Questions it answers:** the fan questions this video would be a good source for, in plain language ("Why do so many good boots use Vibram soles?", "What's the best value t-shirt?").
-- **Uses:** how the knowledge helps a fan: a buying decision, care and maintenance, understanding how something works, background and history.
-
-**Pass B: extract claims.** With the profile as context, the LLM goes through the main-content segments and records **claims**, each tied to the segment and quote it came from. See [DATA_MODEL](DATA_MODEL.md) for the full structure. In short:
-
-- **His opinions first.** Every opinion and personal preference is captured, however brief or offhand, including what he says he wears himself. These are the most valuable claims in the system.
-- A **fixed core** for verdicts: entity or version, the **aspect** being judged (value, quality, fit…), stance, pros and cons, good for and bad for, price with its type, buying and sizing advice. These are what we filter and compare on.
-- **Who holds the view** (the creator, "people", a brand) and **how sure he is**, so reported views and hedges are never turned into his firm verdict.
-- **Rankings**, **explanations, history, advice and techniques**, for knowledge that isn't a single verdict.
-- **Mentions**, for things named without a verdict.
-- **Open attributes** and an `other` kind, so nothing is forced into the wrong box.
-- Claims from **sponsor segments** are always marked as sponsored and never treated as the creator's independent verdict.
-- Claims overridden by an in-video correction are linked to the correction.
-- **Nothing about the personal life** of the creator, family or friends is extracted.
-
-Then **entity resolution** merges names across videos ("Iron Rangers", "the Red Wings", "Red Wing 8111") into one entity with aliases, giving each one a dated **timeline** of claims. It also proposes new glossary entries for a person to approve.
-
-Every profile and claim records the extractor version and model that produced it. Changing the schema or prompts means re-running this stage over the saved segments.
+Profiles are versioned (`PROFILER_VERSION`) and re-run only when that changes. Cost in the first trial: about $0.19 per video.
 
 ### 4. Index
 
-- **Structured store:** videos and their profiles, segments, entities, claims, in one database.
-- **Text search** over segments, claims and each video's "questions it answers", so a fan's wording can match the questions a video was profiled as answering.
-- **Vector search** is *not* in the first version. It's added behind the same search interface if the evaluation shows text search missing questions.
+- **Store:** videos, segments, profiles and entities in SQLite.
+- **Search** (SQLite FTS5) over three kinds of document: transcript segments, each video's profile text (title, purpose, thesis, sections, topics, entity names and aliases), and the questions each video answers.
+
+Search is used to choose videos, not passages: the model reads whole transcripts.
 
 ### 5. Answer
 
-1. **Understand the question:** pull out products, categories, constraints (price, conditions) and question type (lookup, comparison, change of mind, how-to).
-2. **Retrieve:** structured lookups over claims, text search over segments, and matching against video profiles. For each hit, include the surrounding transcript and the video's purpose and thesis, not just the claim.
-3. **Decide coverage:** if nothing relevant is retrieved, the answer is "not covered", by design. The model is not asked to answer without evidence.
-4. **Compose:** the LLM writes the answer from the retrieved evidence only, citing evidence IDs. It leads with the newest verdict and states changes of opinion.
-5. **Verify:** code checks each cited ID exists, maps to a real video and segment, and that each quoted phrase appears in that segment; then it turns the citation into the video title, date, quote and a link (`https://www.youtube.com/watch?v=<id>`). Answers with unverifiable citations are rejected or regenerated.
-6. **Log:** question, answer, citations and coverage are recorded (feeds evaluation and the future creator dashboard).
+1. **Choose videos.** If the whole catalogue fits the reading budget (`budget_words`, default 400,000 words; the 50-video prototype is about 150,000), read everything. Otherwise rank videos by search relevance and take the best that fit. Videos are ordered by date, so the same set produces the same input and is served from the prompt cache.
+2. **Lay them out.** Each video is given with its title, publish date, type, purpose and sections, then its transcript as `[video_id:segment]` lines with passages marked inline (`«SPONSOR: ...» ... «END SPONSOR»`), and any corrections noted.
+3. **Reason and answer.** The model answers this question from the transcripts, following the product rules (his opinion first, grounded or silent, newest first, attributed, sponsorship flagged, hedging kept), and cites every statement with a video, segment and exact quote.
+4. **Verify.** Code checks every quote appears in the segment it cites. If any fail, the model gets one retry told which; whatever still fails is removed and reported, never repaired.
+5. **Log** the question, answer, coverage and cited segments (feeds evaluation and the future creator dashboard).
+
+First trial (22 videos, 112k tokens of transcript): about $0.60 for the first question, which writes the cache, then $0.03 to $0.06 per question.
 
 ## Swappable components
 
@@ -93,7 +76,7 @@ Each of these is an interface in the engine core, with implementations as adapte
 | --- | --- | --- | --- |
 | `CatalogSource` | List a creator's videos and their metadata | yt-dlp | YouTube Data API; creator-supplied export |
 | `TranscriptSource` | Get the transcript text for a video | youtube-transcript-api; or `files` (`.vtt`, `.srt`, `.txt`) | yt-dlp subtitles; Whisper on audio; a transcript service |
-| `KnowledgeStore` | Save and query videos, profiles, segments, entities, claims | SQLite | Postgres |
+| `KnowledgeStore` | Save and query videos, segments, profiles, entities, answer logs | SQLite | Postgres |
 | `SearchIndex` | Find relevant segments and claims for a query | SQLite full-text search (FTS5) | Hybrid with vectors; a dedicated search service |
 | `Embedder` | Turn text into vectors (only once vectors are added) | none | Any embedding provider or local model |
 | `LLMClient` | Structured extraction and answer generation | Anthropic API (Claude), model set in config | Other models or providers |
@@ -124,8 +107,7 @@ Rules for adapters:
 askthe/
   core/            domain models, interfaces, pure logic (no I/O)
   adapters/        sources/, storage/, search/, llm/, embeddings/
-  pipeline/        fetch, segment, understand, extract, resolve, index stages
-  answering/       question parsing, retrieval, composition, citation check
+  pipeline/        fetch, segment, understand, ask
   app/             web chat (FastAPI)
   cli.py           command line
   wiring.py        composition root: config → adapters

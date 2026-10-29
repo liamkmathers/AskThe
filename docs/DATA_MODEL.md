@@ -7,6 +7,8 @@
 > 3. "The Highest Quality, Lowest Price Clothing, Ranked", a value ranking of about 20 products across four categories. It led to verdict aspects, rankings, price types and unresolved entities.
 >
 > Expect smaller revisions as more videos are processed.
+>
+> **Since [D15](DECISIONS.md#d15-reason-at-question-time-not-extraction-time):** opinions are no longer extracted in advance. The pipeline produces **videos, segments, profiles and entities**; the model reasons over full transcripts at question time. The `Claim`, `ProductVersion` and claim-kind sections below describe *what answers must handle* (aspects, versions, attribution, hedging, rankings, sponsorship), not records the pipeline writes. The `Claim` record type remains in the code, unused, in case a structured product list is added later.
 
 ## Layers
 
@@ -50,7 +52,8 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | `video_type` | `review`, `comparison`, `ranking` (buying guides and "best of" lists), `long_term_review`, `explainer`, `how_to`, `other` |
 | `thesis` | The argument the creator is making ("Each price step unlocks tangible quality, up to a point; used is often the real value.") |
 | `key_takeaways` | A few sentences a fan should leave with |
-| `outline` | Named sections: `{title, first_segment, last_segment}`. Gives structure to long videos and stands in for chapters when there are none |
+| `outline` | Sections: `{title, summary, first_segment, last_segment}`, following his own structure where there is one. Shown to the model at answer time |
+| `passages` | Intro, sponsor reads, asides and outro: `{role, first_segment, starts_with, last_segment, ends_with, note}`. Pinned to exact words so they can be marked inside the transcript, even mid-segment. His own products are never a sponsor read |
 | `topics` | Plain-language topics ("value for money", "yarn ply", "chinos") |
 | `entity_ids` | Entities the video covers |
 | `categories` | Which of the creator's categories it touches |
@@ -58,7 +61,7 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | `uses` | `buying_decision`, `care_maintenance`, `understanding`, `background_history`, `style` |
 | `corrections` | Places where the video corrects itself (editor's notes, "oops, I just remembered…"): the segment, a note, and the claim it overrides |
 | `related_videos` | Other videos it refers to ("part one", "full video on denim coming"), when identifiable |
-| `extractor_version`, `model` | |
+| `profiler_version`, `model` | What produced this profile |
 
 ### Segment
 
@@ -67,7 +70,6 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | `id`, `video_id` | |
 | `index` | Position in the video (0, 1, 2…) |
 | `text` | Cleaned transcript text |
-| `role` | Set by the understanding pass: `main`, `intro`, `sponsor`, `aside` (skits, jokes, tangents, personal life), `outro` |
 
 ### Entity
 

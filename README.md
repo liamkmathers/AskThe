@@ -49,10 +49,14 @@ uv run askthe segment iron-snail
 uv run askthe status iron-snail
 ```
 
-Then extract knowledge with Claude (needs an API key in `ASKTHE_ANTHROPIC_API_KEY`, or `ANTHROPIC_API_KEY` locally; this step costs money):
+Then profile the videos and ask questions with Claude (needs an API key in `ASKTHE_ANTHROPIC_API_KEY`, or `ANTHROPIC_API_KEY` locally; these steps cost money):
 
 ```bash
-uv run askthe extract iron-snail --limit 3
+uv run askthe understand iron-snail
+```
+
+```bash
+uv run askthe ask iron-snail "What's the best value t-shirt he's tested?"
 ```
 
 `fetch` downloads metadata and transcripts for the videos listed in `creators/iron-snail.videos.txt` into `data/iron-snail/raw/`. It skips videos already fetched, so it's safe to re-run. `segment` rebuilds the database (`data/askthe.db`) from those raw files.
@@ -70,7 +74,7 @@ uv run askthe extract iron-snail --limit 3
 | [PROTOTYPE_SPEC](docs/PROTOTYPE_SPEC.md) | What Phase 1 must do, what it won't, how it's demoed |
 | [ARCHITECTURE](docs/ARCHITECTURE.md) | The pipeline, the swappable-component design, the recommended stack |
 | [DATA_MODEL](docs/DATA_MODEL.md) | Creators, videos, segments, products, verdicts, and how opinions change over time |
-| [EVALUATION](docs/EVALUATION.md) | How we know it works: the test set, scoring, extraction checks |
+| [EVALUATION](docs/EVALUATION.md) | How we know it works: the test set, scoring, profile and retrieval checks |
 | [DECISIONS](docs/DECISIONS.md) | What we decided, why, and what we rejected |
 | [RISKS_AND_QUESTIONS](docs/RISKS_AND_QUESTIONS.md) | What could go wrong, and what's still undecided |
 | [CLAUDE.md](CLAUDE.md) | Rules for coding agents working in this repo |

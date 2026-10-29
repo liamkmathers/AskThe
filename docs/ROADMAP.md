@@ -20,13 +20,13 @@ Each milestone ends with something we can run and check. The spec is in [PROTOTY
 | --- | --- | --- |
 | M0 ✅ | **Skeleton** | Repo layout, config loading, core interfaces and domain models in place; Iron Snail creator config written; tests run |
 | M1 | **Ingest** | About 50 chosen videos have metadata and transcripts cached locally; the database rebuilds from that cache with one command. *Done for 22 of 50 videos; the rest are being fetched locally (YouTube rate-limits).* |
-| M2 | **Extract** | Every video has structured verdicts (product, stance, pros and cons, use cases, price, the quote and segment it came from); products are merged across videos; extraction is spot-checked on 5 hand-labelled videos (see [EVALUATION](EVALUATION.md)). *Code done and tested with a scripted LLM; first real run waits on an API key.* |
-| M3 | **Answer** | The command line answers a question with cited, quoted sources; says "not covered" when it should; prefers the newest verdict and flags changes of mind; handles comparisons |
+| M2 | **Understand** | Every video has a profile: what it is, its sections, entities, sponsor reads and asides located precisely, and the questions it answers (D15). *Done for 3 videos in a trial (about $0.19 each); run for the rest once all 50 are fetched.* |
+| M3 | **Answer** | `askthe ask` answers a question by reasoning over the full transcripts, with cited, verified quotes; says "not covered" when it should; prefers the newest verdict and flags changes of mind; handles comparisons. *Working: first three real questions answered correctly, every quote verified.* |
 | M4 | **Test set and eval harness** | 20 real fan questions collected from comments, with expected answers; one command scores a full run and saves the results |
 | M5 | **Iterate to the gate** | At least 18 of 20 correct, all citations holding, uncovered questions recognised |
 | M6 | **Chat UI and demo** | A simple web chat shows answers, quotes, video dates and links to the videos; the 2-minute demo is recorded |
 
-Milestones M4 can start in parallel with M2 and M3: collecting real questions early tells us what the extraction needs to capture.
+Milestones M4 can start in parallel with M2 and M3: collecting real questions early shows what answering needs to handle.
 
 **Nice-to-haves**, if time allows after M5: affiliate link placeholders on products, a log of asked questions (dashboard preview), a browsable product and verdict list.
 

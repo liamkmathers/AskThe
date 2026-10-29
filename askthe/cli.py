@@ -16,9 +16,10 @@ from askthe.config import (
     load_video_selection,
 )
 from askthe.core.models import Creator
-from askthe.pipeline.extract import extract_videos
+from askthe.pipeline.ask import ask
 from askthe.pipeline.fetch import fetch_videos
 from askthe.pipeline.segment import segment_videos
+from askthe.pipeline.understand import understand_videos
 from askthe.wiring import Services, build_services
 
 app = typer.Typer(help="AskThe: a creator's back catalogue, answerable.", no_args_is_help=True)
@@ -157,28 +158,27 @@ def segment(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH
 
 
 @app.command()
-def extract(
+def understand(
     creator: CreatorArg,
     video: Annotated[
         list[str] | None, typer.Option("--video", "-v", help="Only these video IDs.")
     ] = None,
-    limit: Annotated[int | None, typer.Option(help="Extract at most this many videos.")] = None,
+    limit: Annotated[int | None, typer.Option(help="Profile at most this many videos.")] = None,
     force: Annotated[
-        bool, typer.Option(help="Re-extract videos already done by this extractor version.")
+        bool, typer.Option(help="Re-profile videos already done by this profiler version.")
     ] = False,
     config_path: ConfigOption = DEFAULT_CONFIG_PATH,
 ) -> None:
-    """Stage 3: understand each video and extract its claims (calls the LLM; costs money)."""
+    """Stage 3: profile each video (sections, entities, sponsor reads). Calls the LLM."""
     services, c = _setup(config_path, creator)
     ids = list(video) if video else None
     if limit is not None:
-        pending = [
+        ids = [
             v.platform_id
             for v in services.store.list_videos(c.slug)
-            if ids is None or v.platform_id in ids
-        ]
-        ids = pending[:limit]
-    report = extract_videos(
+            if (ids is None or v.platform_id in ids) and not services.store.get_profile(v.id)
+        ][:limit]
+    report = understand_videos(
         c,
         services.store,
         services.search,
@@ -187,16 +187,38 @@ def extract(
         force=force,
         on_progress=lambda vid, msg: typer.echo(f"{vid}  {msg}"),
     )
-    claims = sum(v.claims for v in report.extracted)
-    rejected = sum(len(v.rejected) for v in report.extracted)
     typer.echo(
-        f"extracted {len(report.extracted)} videos ({claims} claims, {rejected} rejected), "
-        f"skipped {len(report.skipped)}, failed {len(report.failed)}"
+        f"profiled {len(report.profiled)}, skipped {len(report.skipped)}, "
+        f"failed {len(report.failed)}"
     )
     if report.usage:
         typer.echo("tokens: " + ", ".join(f"{k} {n:,}" for k, n in report.usage.items()))
     if report.failed:
         raise typer.Exit(1)
+
+
+@app.command(name="ask")
+def ask_command(
+    creator: CreatorArg,
+    question: Annotated[str, typer.Argument(help="The fan's question, in plain language.")],
+    config_path: ConfigOption = DEFAULT_CONFIG_PATH,
+) -> None:
+    """Answer a question from the creator's videos, with verified quotes. Calls the LLM."""
+    services, c = _setup(config_path, creator)
+    result = ask(c, question, services.store, services.search, services.llm)
+    a = result.answer
+    typer.echo(a.text)
+    if a.sources:
+        typer.echo("\nSources:")
+        for s in sorted(a.sources, key=lambda s: s.n):
+            typer.echo(f'[{s.n}] {s.title} ({s.published}) {s.url}\n    "{s.quote}"')
+    typer.echo(f"\ncoverage: {a.coverage.value} | read {len(result.videos_read)} videos")
+    if a.problems:
+        typer.secho("unverified citations removed:", fg=typer.colors.YELLOW)
+        for problem in a.problems:
+            typer.echo(f"  {problem}")
+    if result.usage:
+        typer.echo("tokens: " + ", ".join(f"{k} {n:,}" for k, n in result.usage.items()))
 
 
 @app.command()
