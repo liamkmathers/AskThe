@@ -7,6 +7,7 @@ from askthe.core.extraction import (
     EntityResolver,
     ProfileDraft,
     SegmentRangeRole,
+    claims_from_drafts,
     normalise,
     quote_location,
 )
@@ -61,17 +62,40 @@ def claim_draft(segment, quote, **over):
     fields = dict(
         segment=segment,
         quote=quote,
-        kind=ClaimKind.VERDICT,
+        kind="verdict",
         entities=[],
         statement="He says something.",
-        held_by=HeldByKind.CREATOR,
+        held_by="creator",
+        held_by_name="",
+        aspect="",
+        stance="",
         certainty="firm",
+        basis="",
         he_wears_it=False,
         pros=[],
         cons=[],
         good_for=[],
         bad_for=[],
+        price_as_said="",
+        price_amount=0,
+        price_amount_max=0,
+        price_currency="",
+        price_type="",
+        buy_condition="",
+        buy_notes="",
+        fit_advice="",
+        version_label="",
+        version_era="",
+        version_made_in="",
+        ranking_list="",
+        ranking_criterion="",
+        ranking_position=0,
+        compared_against=[],
+        comparison_aspect="",
+        comparison_winner="",
+        context="",
         attributes=[],
+        use="",
         confidence=0.9,
     )
     return ClaimDraft(**(fields | over))
@@ -125,9 +149,9 @@ def test_extract_end_to_end_with_checks():
                 claim_draft(
                     3,
                     "People say the Bronson tee is loopwheel",
-                    held_by=HeldByKind.OTHERS,
+                    held_by="others",
                     entities=["Bronson tee"],
-                    kind=ClaimKind.MENTION,
+                    kind="mention",
                 ),
                 claim_draft(1, "the best shirt ever made"),  # not in the transcript
             ]
@@ -171,3 +195,29 @@ def test_one_failing_video_does_not_stop_the_rest():
     report = extract_videos(creator(), store, search, llm)  # nothing scripted: LLM fails
     assert list(report.failed) == [video.id]
     assert store.get_profile(video.id) is None
+
+
+def test_unreadable_values_never_strengthen_or_misattribute():
+    store, search, llm, video = setup()
+    segs = store.get_segments(video.id)
+    build = claims_from_drafts(
+        video,
+        [
+            claim_draft(
+                1,
+                "The Unilo tee is great",
+                held_by="???",
+                certainty="very sure",
+                kind="banana",
+                price_as_said="fifteen bucks",
+                price_amount=15,
+            )
+        ],
+        segs,
+        {},
+        EntityResolver(creator()),
+        "m",
+    )
+    [claim] = build.claims
+    assert claim.held_by.kind is HeldByKind.OTHERS and claim.certainty == "tentative"
+    assert claim.kind is ClaimKind.OTHER and claim.price.amount == 15

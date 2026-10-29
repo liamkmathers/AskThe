@@ -52,7 +52,7 @@ from askthe.core.models import (
 )
 
 # Bump whenever prompts, draft schemas or conversion rules change what is extracted.
-EXTRACTOR_VERSION = "x2"
+EXTRACTOR_VERSION = "x3"
 
 
 # --- Draft shapes: what the LLM returns -----------------------------------------
@@ -110,68 +110,59 @@ class ProfileDraft(Draft):
     related_videos: list[str]
 
 
-class PriceDraft(Draft):
-    amount: float | None = None
-    amount_max: float | None = None
-    currency: str | None = None
-    type: PriceType = PriceType.UNSPECIFIED
-    as_said: str
-
-
-class RankingDraft(Draft):
-    list_name: str
-    criterion: Aspect
-    position: int | None = None
-    category: str | None = None
-
-
-class ComparisonDraft(Draft):
-    against: list[str] = Field(description="Names of the other entities compared.")
-    aspect: Aspect
-    winner: str | None = Field(None, description="Name of the winner, if he picked one.")
-
-
-class VersionDraft(Draft):
-    label: str = Field(description='e.g. "Vintage, made in USA" or "Modern"')
-    era: str | None = None
-    made_in: str | None = None
-
-
 class AttributeDraft(Draft):
     key: str
     value: str
 
 
+def _choices(enum: type) -> str:
+    return ", ".join(f'"{m.value}"' for m in enum)
+
+
+# Claim drafts are deliberately flat: every field is always present, with "" or [] or
+# 0 meaning "not said". Optional and nested fields multiply the size of the grammar
+# the API compiles for structured output, past its limit. Code turns these strings
+# into typed values in claims_from_drafts, with safe fallbacks.
 class ClaimDraft(Draft):
     segment: int = Field(description="Number of the segment the quote is in.")
     quote: str = Field(description="Exact words copied from that segment. Never paraphrased.")
-    kind: ClaimKind
+    kind: str = Field(description=f"One of: {_choices(ClaimKind)}.")
     entities: list[str] = Field(description="Names of the entities the claim is about.")
-    version: VersionDraft | None = Field(
-        None, description="The specific version of the (first) entity, if the video names one."
-    )
     statement: str = Field(description='One sentence, third person: "He says ..."')
-    held_by: HeldByKind
-    held_by_name: str | None = None
-    aspect: Aspect | None = None
-    stance: Stance | None = None
-    certainty: Certainty
-    basis: Basis | None = None
+    held_by: str = Field(description=f"One of: {_choices(HeldByKind)}.")
+    held_by_name: str = Field(description='Named person or brand holding the view, or "".')
+    aspect: str = Field(description=f'One of: {_choices(Aspect)}; or "" if not a judgement.')
+    stance: str = Field(description=f'One of: {_choices(Stance)}; or "" if not a judgement.')
+    certainty: str = Field(description=f"One of: {_choices(Certainty)}.")
+    basis: str = Field(description=f'One of: {_choices(Basis)}; or "".')
     he_wears_it: bool
     pros: list[str]
     cons: list[str]
     good_for: list[str]
     bad_for: list[str]
-    price: PriceDraft | None = None
-    buy_condition: BuyCondition | None = None
-    buy_notes: str | None = None
-    fit_advice: str | None = None
-    ranking: RankingDraft | None = None
-    comparison: ComparisonDraft | None = None
-    context: str | None = None
+    price_as_said: str = Field(description='Price in his words, or "".')
+    price_amount: float = Field(description="Price as a number, or 0.")
+    price_amount_max: float = Field(description="Upper end of a price range, or 0.")
+    price_currency: str = Field(description='e.g. "USD", or "".')
+    price_type: str = Field(description=f'One of: {_choices(PriceType)}; or "".')
+    buy_condition: str = Field(description=f'One of: {_choices(BuyCondition)}; or "".')
+    buy_notes: str = Field(description='Where or how to buy, in brief, or "".')
+    fit_advice: str = Field(description='Sizing advice, or "".')
+    version_label: str = Field(
+        description='The specific version of the first entity, e.g. "Vintage, made in USA"; or "".'
+    )
+    version_era: str
+    version_made_in: str
+    ranking_list: str = Field(description='Name of the ranked list, or "".')
+    ranking_criterion: str = Field(description=f'One of: {_choices(Aspect)}; or "".')
+    ranking_position: int = Field(description="1 for first place; 0 if not ranked.")
+    compared_against: list[str] = Field(description="Names of other entities compared.")
+    comparison_aspect: str = Field(description=f'One of: {_choices(Aspect)}; or "".')
+    comparison_winner: str = Field(description='Name of the winner, or "".')
+    context: str = Field(description='Conditions the claim depends on, or "".')
     attributes: list[AttributeDraft]
-    use: Use | None = None
-    confidence: float = Field(ge=0, le=1)
+    use: str = Field(description=f'One of: {_choices(Use)}; or "".')
+    confidence: float = Field(description="0 to 1: how sure you are of this reading.")
 
 
 class ClaimsDraft(Draft):
@@ -415,6 +406,13 @@ class ClaimBuild:
     rejected: list[str] = field(default_factory=list)  # why drafts were dropped
 
 
+def _enum[E](enum: type[E], value: str, default: E | None = None) -> E | None:
+    try:
+        return enum(value.strip().lower()) if value.strip() else default
+    except ValueError:
+        return default
+
+
 def claims_from_drafts(
     video: Video,
     drafts: Sequence[ClaimDraft],
@@ -425,7 +423,9 @@ def claims_from_drafts(
     first_index: int = 0,
 ) -> ClaimBuild:
     """Checked claims from drafts. Drafts whose quote isn't in the cited segment are
-    dropped and reported, never repaired."""
+    dropped and reported, never repaired. Unrecognised enum values fall back safely:
+    to "other" for the kind, to "others"/"tentative" for attribution and certainty
+    (never to the creator's firm view), and to unset for everything else."""
     build = ClaimBuild()
     for draft in drafts:
         located = quote_location(draft.quote, draft.segment, segments)
@@ -434,64 +434,87 @@ def claims_from_drafts(
                 f"quote not found in segment {draft.segment}: {draft.quote[:80]!r}"
             )
             continue
-        entity_ids = list(dict.fromkeys(resolver.id_for(n) for n in draft.entities))
+        entity_ids = list(dict.fromkeys(resolver.id_for(n) for n in draft.entities if n.strip()))
         version_ids: list[str] = []
-        if draft.version and entity_ids:
+        if draft.version_label.strip() and entity_ids:
             version = ProductVersion(
-                id=ids.version_id(entity_ids[0], draft.version.label),
+                id=ids.version_id(entity_ids[0], draft.version_label),
                 entity_id=entity_ids[0],
-                label=draft.version.label,
-                era=draft.version.era,
-                made_in=draft.version.made_in,
+                label=draft.version_label,
+                era=draft.version_era or None,
+                made_in=draft.version_made_in or None,
             )
             build.versions.append(version)
             version_ids.append(version.id)
 
-        sponsored = draft.kind is ClaimKind.SPONSORSHIP or any(
+        kind = _enum(ClaimKind, draft.kind, ClaimKind.OTHER)
+        sponsored = kind is ClaimKind.SPONSORSHIP or any(
             roles.get(i) is SegmentRole.SPONSOR for i in located
         )
+        # An unreadable attribution or certainty must never default to the creator's
+        # firm view: that would strengthen or misattribute the claim.
+        held_by = _enum(HeldByKind, draft.held_by, HeldByKind.OTHERS)
+        certainty = _enum(Certainty, draft.certainty, Certainty.TENTATIVE)
+
+        price = None
+        if draft.price_as_said.strip():
+            price = Price(
+                amount=draft.price_amount or None,
+                amount_max=draft.price_amount_max or None,
+                currency=draft.price_currency or None,
+                type=_enum(PriceType, draft.price_type, PriceType.UNSPECIFIED),
+                as_said=draft.price_as_said,
+            )
+        ranking = None
+        criterion = _enum(Aspect, draft.ranking_criterion)
+        if draft.ranking_list.strip() and criterion:
+            ranking = Ranking(
+                list_name=draft.ranking_list,
+                criterion=criterion,
+                position=draft.ranking_position or None,
+            )
         compared = None
-        if draft.comparison:
-            others = [resolver.id_for(n) for n in draft.comparison.against]
+        if draft.compared_against:
             compared = ComparedWith(
-                entity_ids=others,
-                aspect=draft.comparison.aspect,
-                winner_id=resolver.id_for(draft.comparison.winner)
-                if draft.comparison.winner
+                entity_ids=[resolver.id_for(n) for n in draft.compared_against if n.strip()],
+                aspect=_enum(Aspect, draft.comparison_aspect, Aspect.OVERALL),
+                winner_id=resolver.id_for(draft.comparison_winner)
+                if draft.comparison_winner.strip()
                 else None,
             )
+        condition = _enum(BuyCondition, draft.buy_condition)
         build.claims.append(
             Claim(
                 id=ids.claim_id(video.id, first_index + len(build.claims)),
                 video_id=video.id,
                 segment_ids=[ids.segment_id(video.id, i) for i in located],
                 quote=draft.quote,
-                kind=ClaimKind.SPONSORSHIP if sponsored else draft.kind,
+                kind=ClaimKind.SPONSORSHIP if sponsored else kind,
                 entity_ids=entity_ids,
                 version_ids=version_ids,
                 statement=draft.statement,
-                held_by=HeldBy(kind=draft.held_by, name=draft.held_by_name),
-                aspect=draft.aspect,
-                stance=draft.stance,
-                certainty=draft.certainty,
-                basis=draft.basis,
+                held_by=HeldBy(kind=held_by, name=draft.held_by_name or None),
+                aspect=_enum(Aspect, draft.aspect),
+                stance=_enum(Stance, draft.stance),
+                certainty=certainty,
+                basis=_enum(Basis, draft.basis),
                 he_wears_it=draft.he_wears_it,
                 pros=draft.pros,
                 cons=draft.cons,
                 good_for=draft.good_for,
                 bad_for=draft.bad_for,
-                price=Price(**draft.price.model_dump()) if draft.price else None,
-                buy_advice=BuyAdvice(condition=draft.buy_condition, notes=draft.buy_notes)
-                if draft.buy_condition or draft.buy_notes
+                price=price,
+                buy_advice=BuyAdvice(condition=condition, notes=draft.buy_notes or None)
+                if condition or draft.buy_notes.strip()
                 else None,
-                fit_advice=draft.fit_advice,
-                ranking=Ranking(**draft.ranking.model_dump()) if draft.ranking else None,
+                fit_advice=draft.fit_advice or None,
+                ranking=ranking,
                 compared_with=compared,
-                context=draft.context,
+                context=draft.context or None,
                 attributes={a.key: a.value for a in draft.attributes},
-                use=draft.use,
+                use=_enum(Use, draft.use),
                 sponsored=sponsored,
-                confidence=draft.confidence,
+                confidence=min(max(draft.confidence, 0.0), 1.0),
                 extractor_version=EXTRACTOR_VERSION,
                 model=model,
             )
