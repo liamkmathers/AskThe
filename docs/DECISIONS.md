@@ -118,3 +118,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** each video profile is saved, with the entities it names, to `data/<creator>/profiles/<video_id>.json` and committed. `segment` restores saved profiles into the rebuilt database when the segments they were made from are unchanged (checked by a fingerprint of the segment texts). Stale ones are reported, and `understand` makes new ones.
 **Why:** a profile costs about $0.20 of model time and comes out slightly differently each run, so it is expensive and not exactly reproducible. With profiles only in the git-ignored database, a fresh environment lost them and paid again. Files also make profiles reviewable in diffs.
 **Still rebuildable:** profiles remain derived. Deleting the folder and running `understand` rebuilds them; raw files stay the only source of truth.
+
+### D18. Comments are used only for the test set, for now
+*2026-10-29*
+
+**Chose:** viewers' comments are collected (`askthe comments`, `askthe questions`) only to find real fan questions for the test set. They are not indexed, retrieved or shown to the answering model.
+**Why:** fans' views are not his (rules 1 and 7), and likes measure agreement, not truth: a well-liked comment contradicting him is a bigger risk, not a smaller one. The useful uses need more design than the prototype warrants yet.
+**Later options:** his own comments and replies as citable content (fetching replies only for the most-liked threads, to limit requests); nicknames mined from comments, weighted by likes, as glossary suggestions; demand and coverage gaps for a creator dashboard. Each would be checked with `askthe eval` before being kept.

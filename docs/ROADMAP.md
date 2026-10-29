@@ -28,7 +28,7 @@ Each milestone ends with something we can run and check. The spec is in [PROTOTY
 
 Milestones M4 can start in parallel with M2 and M3: collecting real questions early shows what answering needs to handle.
 
-**Nice-to-haves**, if time allows after M5: affiliate link placeholders on products, a log of asked questions (dashboard preview), a browsable product and verdict list.
+**Nice-to-haves**, if time allows after M5: affiliate link placeholders on products, a log of asked questions (dashboard preview), a browsable product and verdict list, and the comment uses parked in D18 (his own replies as content, nickname mining, demand from comments).
 
 ## Choosing the ~50 videos
 
