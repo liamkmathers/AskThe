@@ -1,0 +1,1041 @@
+{
+  "platform_id": "w3nib0_vlfk",
+  "profile": {
+    "video_id": "iron-snail:w3nib0_vlfk",
+    "purpose": "A beginner-to-enthusiast guide to raw Japanese selvedge denim, meant as the first entry in a planned raw selvedge denim series. It covers what raw and selvedge denim are, how shuttle looms work, key denim vocabulary, durability, sizing, and why Japanese selvedge is expensive and prized.",
+    "video_type": "explainer",
+    "thesis": "Raw and selvedge denim are two different things. Selvedge comes from slow, inefficient shuttle looms that produce a self-finished edge. Japanese selvedge grew out of mills obsessively reproducing vintage Levi's denim. Its cost and appeal come from slow half-width weaving, low-processed character yarns, and logistically complex small runs full of details.",
+    "key_takeaways": [
+      "Raw denim is any denim not yet washed by you or the manufacturer. Selvedge denim is a self-finished fabric made on a shuttle loom; the two are often paired but are separate concepts.",
+      "On a shuttle loom the weft yarn loops back and forth instead of being cut, which creates the self-edge. Air-jet and projectile looms shoot cut weft yarns and need the edges closed.",
+      "Early shuttles were threaded by mouth and shared around factories, which the video links to the spread of disease (said as typhoid and corrected once to tuberculosis).",
+      "Vocabulary covered: slub, nep, chain stitch (Union Special 43200G and roping), vintage vs high-contrast fades, whiskers, honeycombs, train tracks and stacking.",
+      "On durability: short-staple cotton, low-tension weaving, slubs, neps and vegetable matter can weaken the fabric, but heavier weights (14–16 oz+) offset this. Many selvedge brands such as Iron Heart use strong, consistent cottons.",
+      "Sizing advice: go about one size up in the waist and roughly 3.5–4% longer in length to allow for shrinkage, then hem later, ideally with a Union Special chain stitch.",
+      "History: post-WWII American GIs popularised Levi's in Japan, and Osaka mills replicated the denim. Levi's lawsuits pushed repro brands to remix details such as patches, arcuates and tabs with Japanese influences.",
+      "Cost drivers: half-width, slow shuttle-loom denim (around 4x regular denim cost), ethical labour and water treatment, plus logistically complex small production runs with many special threads, rivets and patches."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Shows reproductions of vintage Levi's denim and explains why Japanese collectors demand exact recreations. Teases the shuttle-loom disease story and showcases textured, strong denims.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Agenda",
+        "summary": "Introduces the ultimate raw Japanese selvedge denim guide and the larger planned series. Lays out the agenda: definitions, vocabulary, durability, washing, fit, and cost/specialness.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Raw vs Selvedge",
+        "summary": "Distinguishes raw denim (unwashed, possibly sanforized or skewed; loom state denim leg twist) from selvedge denim. Explains the self-finished edge, the selvedge ID and the shuttle loom's inefficiencies.",
+        "first_segment": 3,
+        "last_segment": 6
+      },
+      {
+        "title": "Weaving",
+        "summary": "Explains warp, weft, shed and reed, then contrasts shuttle looms (playing catch) with modern projectile and air-jet looms. Shows why weft looping creates a self edge, and tells the story of mouth-threaded shuttles spreading disease.",
+        "first_segment": 7,
+        "last_segment": 11
+      },
+      {
+        "title": "Vocabulary",
+        "summary": "Rapid-fire denim terms: slub, nep, chain stitch and the Union Special 43200G, roping, vintage vs high-contrast fades, whiskers, honeycombs, train tracks and stacking.",
+        "first_segment": 13,
+        "last_segment": 15
+      },
+      {
+        "title": "Durability",
+        "summary": "Asks whether selvedge denim is stronger than regular denim. Covers short-staple cotton, low-tension weaving, slubs, neps and vegetable matter as weaknesses, offset by heavier fabric weights and stronger cottons used by brands like Iron Heart.",
+        "first_segment": 17,
+        "last_segment": 20
+      },
+      {
+        "title": "Sizing",
+        "summary": "Recommends sizing up slightly in the waist and buying 3.5–4% longer to allow for shrinkage, then hemming later with a Union Special machine, e.g. at Railcar.",
+        "first_segment": 20,
+        "last_segment": 21
+      },
+      {
+        "title": "Why is it so expensive",
+        "summary": "Traces post-WWII Levi's popularity in Japan, Osaka mills replicating denim, and Levi's lawsuits leading to remixed details with Japanese influences. Breaks down costs from half-width shuttle-loom denim, ethical production and complex small-run logistics.",
+        "first_segment": 22,
+        "last_segment": 27
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "This is an exact recreation of the",
+        "last_segment": 3,
+        "ends_with": "out of the tube into the little intestine thing.",
+        "note": "Cold open showing vintage Levi's reproduction denims, a teaser of the shuttle disease story, and the plan for the denim series."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "Ollie, it's go time. Pull up the HUD.",
+        "last_segment": 7,
+        "ends_with": "and let's get playing. Blow up this tree.",
+        "note": "Joke cue to the editor before the weaving graphics."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "Holly, edit in a friend for me there.",
+        "last_segment": 8,
+        "ends_with": "see if I wanted to hang out instead of me.",
+        "note": "Self-deprecating joke about wanting friends while setting up the shuttle-loom analogy."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 11,
+        "starts_with": "Hey, pretend this is 150 m down",
+        "last_segment": 12,
+        "ends_with": "I highly recommend you take a look on their website.",
+        "note": "Sponsor read for the Vaer D2 Meridian dive watch."
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "But wow, big problem. Sorry, my microphone went out.",
+        "last_segment": 14,
+        "ends_with": "that this is dubbed over. Sorry about that.",
+        "note": "Microphone failure and joke about dubbing the audio."
+      },
+      {
+        "role": "aside",
+        "first_segment": 16,
+        "starts_with": "I was saying here I was saying",
+        "last_segment": 16,
+        "ends_with": "but you can certainly try.",
+        "note": "Snack break story about the mic dying and a giant apple."
+      },
+      {
+        "role": "outro",
+        "first_segment": 27,
+        "starts_with": "Anyways, that is that. I will see",
+        "last_segment": 27,
+        "ends_with": "See you soon. The by.",
+        "note": "Sign-off teasing next week's wax jacket video."
+      }
+    ],
+    "topics": [
+      "raw denim",
+      "selvedge denim",
+      "Japanese denim",
+      "shuttle looms vs air-jet and projectile looms",
+      "weaving basics (warp, weft, shed, reed)",
+      "shuttle threading and disease history",
+      "denim vocabulary",
+      "chain stitch and Union Special roping",
+      "fade types",
+      "denim durability and cotton staple length",
+      "raw denim sizing and shrinkage",
+      "history of Japanese Levi's reproduction brands",
+      "why selvedge denim is expensive"
+    ],
+    "entity_ids": [
+      "iron-snail:e:levi-s",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:raw-denim",
+      "iron-snail:e:sanforization",
+      "iron-snail:e:skewing",
+      "iron-snail:e:loom-state-denim",
+      "iron-snail:e:leg-twist",
+      "iron-snail:e:selvedge-id",
+      "iron-snail:e:shuttle-loom",
+      "iron-snail:e:air-jet-loom",
+      "iron-snail:e:projectile-loom",
+      "iron-snail:e:warp",
+      "iron-snail:e:weft",
+      "iron-snail:e:shed",
+      "iron-snail:e:reed",
+      "iron-snail:e:per",
+      "iron-snail:e:blanket-lining",
+      "iron-snail:e:vaer",
+      "iron-snail:e:vaer-d2-meridian",
+      "iron-snail:e:slub",
+      "iron-snail:e:nep",
+      "iron-snail:e:chain-stitch",
+      "iron-snail:e:union-special-43200g",
+      "iron-snail:e:roping",
+      "iron-snail:e:fades",
+      "iron-snail:e:high-contrast-fades",
+      "iron-snail:e:whiskers",
+      "iron-snail:e:honeycombs",
+      "iron-snail:e:train-tracks",
+      "iron-snail:e:stacking",
+      "iron-snail:e:samurai",
+      "iron-snail:e:samurai-cotton-project",
+      "iron-snail:e:short-staple-cotton",
+      "iron-snail:e:wool-silk-and-linen-yarn",
+      "iron-snail:e:vegetable-matter",
+      "iron-snail:e:iron-heart",
+      "iron-snail:e:zimbabwe-cotton",
+      "iron-snail:e:egyptian-cotton",
+      "iron-snail:e:pima-cotton",
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:railcar",
+      "iron-snail:e:arcuate",
+      "iron-snail:e:leather-patch",
+      "iron-snail:e:red-tab",
+      "iron-snail:e:rivets",
+      "iron-snail:e:motaro",
+      "iron-snail:e:studio-d-artisan",
+      "iron-snail:e:tcb-jeans",
+      "iron-snail:e:iron-heart-634s",
+      "iron-snail:e:oni-denim-595-kasuri",
+      "iron-snail:e:studio-d-artisan-sp-108",
+      "iron-snail:e:sugar-cane-hawaii",
+      "iron-snail:e:samurai-s500ax",
+      "iron-snail:e:japanese-selvedge-denim"
+    ],
+    "categories": [
+      "denim"
+    ],
+    "answers_questions": [
+      "What's the difference between raw denim and selvedge denim?",
+      "Why does selvedge denim have that finished edge with the red line?",
+      "How is a shuttle loom different from a modern air-jet loom?",
+      "Is it true shuttle looms spread disease back in the day?",
+      "What do slub and nep mean in denim?",
+      "What is chain stitch roping and why does the Union Special 43200G matter?",
+      "What's the difference between vintage fades and high contrast fades?",
+      "What are whiskers, honeycombs and train tracks on jeans?",
+      "Is Japanese selvedge denim actually more durable than regular denim?",
+      "How should I size raw selvedge jeans to account for shrinkage?",
+      "Why is Japanese selvedge denim so expensive?",
+      "How did Japan get so obsessed with reproducing vintage Levi's?",
+      "Why do Japanese denim brands have different patches and arcuates than Levi's?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision",
+      "background_history",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:w3nib0_vlfk:s0001",
+        "note": "He says shuttles were a leading cause of typhoid, then corrects himself to tuberculosis, though he keeps saying typhoid afterwards."
+      },
+      {
+        "segment_id": "iron-snail:w3nib0_vlfk:s0026",
+        "note": "Starts to say 'a brand like Sam(urai)', notes the jean shown is actually Iron Heart, then continues with Samurai as the example."
+      }
+    ],
+    "related_videos": [
+      "T-shirt comparison video (Uniqlo vs Japanese brands shrinkage)",
+      "Upcoming wax jacket video",
+      "Planned raw selvedge denim series: every raw selvedge denim brand",
+      "Planned video visiting Pennsylvania where Iron Snail custom denim is made",
+      "Planned trip to Japan to see denim being made"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "salvage",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raw-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "raw denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "broad denim",
+        "rod denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sanforization",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "sanforization",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "samuraized",
+        "sanerize",
+        "unsamprized"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:skewing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "skewing",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "skew"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loom-state-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loom state denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leg-twist",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "leg twist",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Leg twist",
+        "leg Twist",
+        "leg twists",
+        "leg would twist",
+        "length twist"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge-id",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "selvedge ID",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "salvage ID",
+        "salvage ticker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shuttle-loom",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "shuttle loom",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "shuttle looms"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:air-jet-loom",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "air-jet loom",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "air jet loom",
+        "airjet loom"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:projectile-loom",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "projectile loom",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "projectile looms"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:warp",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "warp",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weft",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "weft",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "wefts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shed",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "shed",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:reed",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "reed",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:per",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "per",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blanket-lining",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "blanket lining",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vaer",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Veyer",
+        "Veyor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer-d2-meridian",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vaer D2 Meridian",
+      "brand": "Vaer",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "D2 Meridian",
+        "Veyor D2 Meridian"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:slub",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "slub",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Slub"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nep",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "nep",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Nep",
+        "neps",
+        "net"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chain-stitch",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "chain stitch",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Chain stitch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:union-special-43200g",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Union Special 43200G",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "43200G",
+        "Union Special"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:roping",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "roping",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fades",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "fades",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Vintage fades",
+        "contrast fades",
+        "vintage fades"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:high-contrast-fades",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "high contrast fades",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:whiskers",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "whiskers",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:honeycombs",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "honeycombs",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:train-tracks",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "train tracks",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Train tracks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stacking",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "stacking",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "stacks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samurai",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Samurai",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Sam",
+        "samurai"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samurai-cotton-project",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Samurai cotton project",
+      "brand": "Samurai",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "cotton project"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:short-staple-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "short staple cotton",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Japanese cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wool-silk-and-linen-yarn",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "wool, silk and linen yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wool, silk, and linen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vegetable-matter",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "vegetable matter",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-heart",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Iron Heart",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "iron heart"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zimbabwe-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Zimbabwe cotton",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:egyptian-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Egyptian cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pima-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Pima cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:railcar",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Railcar",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arcuate",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "arcuate",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "argument",
+        "arit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-patch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather patch",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "leather patches",
+        "patch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-tab",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "red tab",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rivets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rivets",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:motaro",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Motaro",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:studio-d-artisan",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Studio D'Artisan",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Studio to Artisan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tcb-jeans",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "TCB Jeans",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "two cap brand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-heart-634s",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Iron Heart 634S",
+      "brand": "Iron Heart",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oni-denim-595-kasuri",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Oni Denim 595 \"Kasuri\"",
+      "brand": "Oni Denim",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:studio-d-artisan-sp-108",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Studio D'Artisan SP-108",
+      "brand": "Studio D'Artisan",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sugar-cane-hawaii",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Sugar Cane \"Hawaii\"",
+      "brand": "Sugar Cane",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samurai-s500ax",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Samurai S500AX",
+      "brand": "Samurai",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:japanese-selvedge-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Japanese selvedge denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Japanese salvaged denim",
+        "raw Japanese salvage denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "cb0587cd1ef9480c"
+}

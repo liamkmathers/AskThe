@@ -1,0 +1,678 @@
+{
+  "platform_id": "cyAzm8O3RwY",
+  "profile": {
+    "video_id": "iron-snail:cyAzm8O3RwY",
+    "purpose": "A review of the Red Wing 3335 boots, covering their leather and waxed-canvas uppers, sole, a standing-in-water test, fit, and how their stitch-down construction compares with Goodyear-welted Red Wings like the 875 and 1907.",
+    "video_type": "review",
+    "thesis": "The creator explains why the Red Wing 3335 is his favourite boot over the 875 and 1907 and other boots. He also argues that its single-stitch stitch-down construction doesn't give it much real edge over a well-made Goodyear welt.",
+    "key_takeaways": [
+      "The 3335 combines Red Wing's Copper Rough and Tough pull-up leather with Martexin waxed canvas from Fairfield Textiles in New Jersey.",
+      "It uses a Vibram mini lug sole rather than the crepe soles on the 875 and 1907.",
+      "The video explains the main ways of joining upper to sole: Blake stitch, cementing, Goodyear welting and stitch-down.",
+      "In the water test the boots lasted about 30 seconds fully submerged before the left one leaked.",
+      "Fit is described as true to size but slim and tapered, so the toes feel tight with thick wool socks.",
+      "The 3335 uses a single stitch rather than the double stitch some stitch-down boots use, so its advantage over Goodyear welts is modest.",
+      "Red Wing uses a Puritan machine with triple stitching and wax-dipped thread to help seal out water."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Michael introduces the Red Wing 3335s while standing in water and lists the topics: leather, canvas, stitch-down vs Goodyear welt, and Puritan stitching.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Masterworks sponsor",
+        "summary": "Sponsor read for the art-investment platform Masterworks.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Leather and canvas",
+        "summary": "Describes the Copper Rough and Tough pull-up leather and the Martexin waxed canvas from Fairfield Textiles, plus which other brands use that canvas.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Price and sole",
+        "summary": "Notes the boots are not expensive for stitch-down and covers the Vibram mini lug sole versus the crepe soles on the 875 and 1907.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Construction part 1: how boots are built",
+        "summary": "Explains Blake stitch, cementing, Goodyear welting and stitch-down construction, and how the welt or flared upper attaches to the outsole.",
+        "first_segment": 6,
+        "last_segment": 9
+      },
+      {
+        "title": "Water test",
+        "summary": "Reports how long the boots lasted submerged before leaking and what water exposure they can handle.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Sizing and fit",
+        "summary": "True-to-size fit, but a slim, tapered profile that squeezes the toes with wool socks.",
+        "first_segment": 10,
+        "last_segment": 10
+      },
+      {
+        "title": "Verdict versus other boots",
+        "summary": "Explains why these are his favourite boots over Blundstones, the 1907 and the 875, and who should choose the beefier heritage boots instead.",
+        "first_segment": 11,
+        "last_segment": 12
+      },
+      {
+        "title": "Construction part 2: stitch-down vs Goodyear welt",
+        "summary": "Discusses why stitch-down seals better, cites Nick's Boots on the modest difference, and explains how the 3335's single stitch limits its advantage. Also covers the Puritan machine and wax-dipped thread.",
+        "first_segment": 12,
+        "last_segment": 15
+      },
+      {
+        "title": "Outro",
+        "summary": "Final praise, a mention of a Carrot boot collection, and a teaser for the next video on Japanese denim.",
+        "first_segment": 15,
+        "last_segment": 15
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "What's up YouTube? It's Michael,",
+        "last_segment": 1,
+        "ends_with": "my left toe is wet. Here we go.",
+        "note": "Opening joke, Carrot link plug and preview of topics."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 1,
+        "starts_with": "But first, a very brief message",
+        "last_segment": 3,
+        "ends_with": "a free tote or something like that.",
+        "note": "Sponsor read for Masterworks art investing."
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "Also, I'm doing two videos at",
+        "last_segment": 4,
+        "ends_with": "or maybe a few days after.",
+        "note": "Explains he is wearing tight pants because he is filming another video at the same time."
+      },
+      {
+        "role": "outro",
+        "first_segment": 15,
+        "starts_with": "I'm going to be making a",
+        "last_segment": 15,
+        "ends_with": "with these sunglasses are good yet.",
+        "note": "Carrot boot collection mention and teaser for the Japanese denim video."
+      }
+    ],
+    "topics": [
+      "Red Wing 3335 review",
+      "stitch-down vs Goodyear welt construction",
+      "boot water resistance test",
+      "waxed canvas boots",
+      "boot sizing and fit",
+      "Vibram mini lug vs crepe sole",
+      "Puritan stitching",
+      "Red Wing 875 and 1907 comparison"
+    ],
+    "entity_ids": [
+      "iron-snail:e:red-wing",
+      "iron-snail:e:red-wing-3335",
+      "iron-snail:e:red-wing-875",
+      "iron-snail:e:red-wing-1907",
+      "iron-snail:e:copper-rough-and-tough-leather",
+      "iron-snail:e:pull-up-leather",
+      "iron-snail:e:martexin",
+      "iron-snail:e:fairfield-textiles",
+      "iron-snail:e:martexin-oxford-sailcloth",
+      "iron-snail:e:waxed-canvas",
+      "iron-snail:e:vibram",
+      "iron-snail:e:vibram-honey-wheat-mini-lug-sole",
+      "iron-snail:e:crepe-sole",
+      "iron-snail:e:stitch-down-construction",
+      "iron-snail:e:goodyear-welt",
+      "iron-snail:e:blake-stitch",
+      "iron-snail:e:cementing",
+      "iron-snail:e:welt",
+      "iron-snail:e:midsole",
+      "iron-snail:e:puritan-stitching-machine",
+      "iron-snail:e:nick-stridewise",
+      "iron-snail:e:nick-s-handmade-boots",
+      "iron-snail:e:white-s-boots",
+      "iron-snail:e:blundstone",
+      "iron-snail:e:clarks",
+      "iron-snail:e:huckberry",
+      "iron-snail:e:rogue-territory",
+      "iron-snail:e:pre-out-cloth",
+      "iron-snail:e:masterworks",
+      "iron-snail:e:carrot",
+      "iron-snail:e:frankie-muniz"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "Are Red Wing 3335s better than the 875 or the 1907?",
+      "Are Red Wing 3335s waterproof? How long can you stand in water in them?",
+      "What's the difference between stitch-down and Goodyear welt construction?",
+      "Is stitch-down construction actually better than a Goodyear welt?",
+      "How do Red Wing 3335s fit? Should I size down?",
+      "What leather and canvas are the Red Wing 3335s made from?",
+      "What sole do the 3335s have compared with the crepe sole on the 875?",
+      "Are the Red Wing 3335s good for hiking?",
+      "Why are the 3335s cheaper than other stitch-down boots?",
+      "How do Red Wings compare to Nick's or White's boots?",
+      "What is a Blake stitch, and how do the different boot constructions work?",
+      "What is pull-up leather?",
+      "What are Michael's favourite boots?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Huckberry video featuring a jacket made of Martexin Oxford sailcloth",
+      "Upcoming video: why Japanese denim is the best in the world",
+      "Another video filmed at the same time (the reason for the tight pants)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:red-wing",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Red Wing",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Red Wings",
+        "red rings",
+        "red wing",
+        "red wings",
+        "redwing",
+        "wedwing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing-3335",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Red Wing 3335",
+      "brand": "Red Wing",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "3335",
+        "3335s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing-875",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Red Wing 875",
+      "brand": "Red Wing",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "875",
+        "875s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing-1907",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Red Wing 1907",
+      "brand": "Red Wing",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "1907",
+        "1907's",
+        "1907s",
+        "redwing 1907's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:copper-rough-and-tough-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Copper Rough and Tough leather",
+      "brand": "Red Wing",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "copper rough and tough"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pull-up-leather",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "pull-up leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pull up",
+        "pull up leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:martexin",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Martexin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fairfield-textiles",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fairfield Textiles",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:martexin-oxford-sailcloth",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Martexin Oxford sailcloth",
+      "brand": "Martexin",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "canvas",
+        "wax canvas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "vibram"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram-honey-wheat-mini-lug-sole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "Vibram honey wheat mini lug sole",
+      "brand": "Vibram",
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crepe-sole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "crepe sole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "crepe soles",
+        "crepe souls"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stitch-down-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "stitch-down construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "stitch down",
+        "stitchdown"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goodyear-welt",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Goodyear welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Goodyear welted",
+        "Goodyear welting",
+        "good year welted",
+        "good your welt",
+        "goodyear welt",
+        "goodyear welted",
+        "goodyear welton",
+        "goodyear will"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blake-stitch",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Blake stitch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "blake stitch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cementing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "cementing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:welt",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:midsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "midsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "mid sole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:puritan-stitching-machine",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Puritan stitching machine",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Puritan machine",
+        "Puritan stitching"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nick-stridewise",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Nick (Stridewise)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Nick from Stridewise",
+        "Stridewise",
+        "drivewise",
+        "nick",
+        "stride wise",
+        "stridewise"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nick-s-handmade-boots",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Nick's Handmade Boots",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Nick's",
+        "Nick's boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:white-s-boots",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "White's Boots",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "White's boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Blundstone",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Bloodstones",
+        "Blundstones",
+        "blend stone",
+        "blendstone",
+        "blonde so",
+        "blonde stones",
+        "blood stones",
+        "bloodstone",
+        "bloodstones",
+        "blown stones",
+        "blun Stones",
+        "blun stones",
+        "blundstone",
+        "blundstones",
+        "blunt stone",
+        "blunt stones",
+        "blunts on boots",
+        "redstones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:clarks",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Clarks",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Clark's boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Huckberry",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "huckberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rogue-territory",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rogue Territory",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pre-out-cloth",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pre-out cloth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:masterworks",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Masterworks",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Carrot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:frankie-muniz",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Frankie Muniz",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "2d34ec4c377ffc85"
+}

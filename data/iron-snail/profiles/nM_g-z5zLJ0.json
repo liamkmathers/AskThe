@@ -1,0 +1,727 @@
+{
+  "platform_id": "nM_g-z5zLJ0",
+  "profile": {
+    "video_id": "iron-snail:nM_g-z5zLJ0",
+    "purpose": "Tests the claim that Levi's 'don't make them like they used to' by comparing a 1960s pair of Levi's 501s, a Levi's Vintage Clothing (LVC) replica of that era and a regular modern 501, detail by detail.",
+    "video_type": "comparison",
+    "thesis": "A side-by-side look at vintage, LVC replica and modern Levi's 501s, covering small design details, stitching, pocket bags, selvedge denim and loom technology, cotton fibre, shrinkage and leg twist, bartacking and inflation-adjusted price, to judge where quality has and hasn't declined.",
+    "key_takeaways": [
+      "Covers small design changes: paper (Jacron) vs leather patches, the arcuate stitching, the red tab lettering, button material and copper vs aluminium rivets.",
+      "Covers 1960s fit quirks: no vanity sizing, and lengths shorter than the tag states.",
+      "Compares stitches per inch and pocket bag material across the three pairs.",
+      "Explains selvedge denim, Cone Mills, and shuttle vs projectile looms, plus long vs short cotton fibres.",
+      "Covers unsanforized shrinkage of up to 10% and how much leg twist each pair shows.",
+      "Explains bartacking as a replacement for rivets and compares the bartacks on vintage and modern back pockets.",
+      "Compares the 1960s price adjusted for inflation with today's price, and notes production moved to Mexico and Egypt."
+    ],
+    "outline": [
+      {
+        "title": "Vintage vs modern jeans",
+        "summary": "Introduces the three pairs being compared (a $1,300 1960s 501, a $260 LVC replica and an $80 modern 501) and the question of whether Levi's quality has dropped. Credits the vintage reseller who supplied the jeans.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Small design differences",
+        "summary": "Compares the Jacron paper patches with leather patches, the arcuate stitching, 1960s sizing quirks, the red tab lettering, button material and rivet metals.",
+        "first_segment": 1,
+        "last_segment": 4
+      },
+      {
+        "title": "Sponsorship break",
+        "summary": "Sponsor read for Ritual vitamins, framed by an unopened MacBook Pro box.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Stitching and materials",
+        "summary": "Compares stitches per inch and pocket bag fabric, and the selvedge denim used by the vintage pair (Cone Mills) and the LVC pair (Japan).",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Denim manufacturing",
+        "summary": "Explains shuttle, projectile and modern looms, denim width, longer vs shorter cotton fibres, unsanforized shrinkage and the leg twist on each pair.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Durability and bartacking",
+        "summary": "Explains how bartacks replaced rivets and compares the back-pocket bartacks on the vintage and modern pairs. Includes a correction about why the vintage bartack is shallower.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Price and conclusion",
+        "summary": "Compares 1960s prices adjusted for inflation for Levi's, Wrangler and Filson with today's prices, and discusses offshore production and lower-grade cotton. Gives the final verdict and asks what to compare next.",
+        "first_segment": 10,
+        "last_segment": 11
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "these are $1,300 Levis from the",
+        "last_segment": 1,
+        "ends_with": "craziest pieces that I have ever seen",
+        "note": "Hook comparing the three pairs and their prices, greeting, framing of 'they don't make them like they used to', and credit to the vintage reseller who supplied the jeans."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 4,
+        "starts_with": "this is a refurbished MacBook Pro or",
+        "last_segment": 5,
+        "ends_with": "30% off your first month's order",
+        "note": "Sponsor read for Ritual vitamins, set up with an unopened MacBook Pro box and a ravioli diet joke."
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "I decided to stare into the sun",
+        "last_segment": 6,
+        "ends_with": "it's going to get pretty shady",
+        "note": "Joke about filming facing the sun."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "also 100% yes I do feel like",
+        "last_segment": 7,
+        "ends_with": "which was you know weird",
+        "note": "Personal anecdote about walking in on a man in a Port-A-Potty."
+      },
+      {
+        "role": "outro",
+        "first_segment": 11,
+        "starts_with": "so that is the end of",
+        "last_segment": 11,
+        "ends_with": "what should I compare next",
+        "note": "Ends part one of the series and asks viewers whether to compare vintage Wrangler, an Eddie Bauer down jacket or vintage Carhartt next."
+      }
+    ],
+    "topics": [
+      "vintage vs modern Levi's 501",
+      "Levi's Vintage Clothing replicas",
+      "Jacron paper patches",
+      "arcuate stitching",
+      "vanity sizing",
+      "rivets and button materials",
+      "stitches per inch",
+      "pocket bag fabric",
+      "selvedge denim",
+      "Cone Mills",
+      "shuttle looms vs projectile looms",
+      "cotton fibre length",
+      "unsanforized denim shrinkage",
+      "leg twist",
+      "bartacking",
+      "price and inflation",
+      "offshore production"
+    ],
+    "entity_ids": [
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-s-501",
+      "iron-snail:e:levi-s-vintage-clothing-lvc",
+      "iron-snail:e:we-buy-old-jeans",
+      "iron-snail:e:wrangler",
+      "iron-snail:e:carhartt",
+      "iron-snail:e:eddie-bauer",
+      "iron-snail:e:filson",
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:cone-mills",
+      "iron-snail:e:jacron",
+      "iron-snail:e:paper-patch",
+      "iron-snail:e:leather-patch",
+      "iron-snail:e:arcuate",
+      "iron-snail:e:red-tab",
+      "iron-snail:e:rivets",
+      "iron-snail:e:buttons",
+      "iron-snail:e:pocket-bags",
+      "iron-snail:e:bartacking",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:shuttle-loom",
+      "iron-snail:e:projectile-loom",
+      "iron-snail:e:unsanforized-denim",
+      "iron-snail:e:leg-twist",
+      "iron-snail:e:stitches-per-inch",
+      "iron-snail:e:vanity-sizing",
+      "iron-snail:e:natural-indigo",
+      "iron-snail:e:synthetic-indigo",
+      "iron-snail:e:copper",
+      "iron-snail:e:aluminium",
+      "iron-snail:e:zinc-alloy",
+      "iron-snail:e:ritual",
+      "iron-snail:e:macbook-pro",
+      "iron-snail:e:michael-kristy"
+    ],
+    "categories": [
+      "denim"
+    ],
+    "answers_questions": [
+      "Did Levi's jeans quality actually go down since the 60s?",
+      "What's the difference between vintage 501s, LVC and regular modern 501s?",
+      "Are Levi's paper patches actually made of paper?",
+      "Why are vintage Levi's shorter than the length on the tag?",
+      "Are Levi's rivets still solid copper?",
+      "Is selvedge denim stronger than regular denim?",
+      "What's the difference between shuttle looms and projectile looms?",
+      "How much do unsanforized jeans shrink?",
+      "Why do some jeans have so much leg twist?",
+      "What is bartacking and is it as strong as rivets?",
+      "Do modern Levi's beat vintage ones in anything?",
+      "Are Levi's priced the same as in the 60s after inflation?",
+      "Where did Levi's get their denim in the 1960s?",
+      "Is LVC worth it compared to vintage Levi's?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:nM_g-z5zLJ0:s0003",
+        "note": "Corrects the earlier claim (segment 2) that the 1960s arcuate looked hand-stitched: all of them were done by machine, and Levi's probably changed the pattern over time."
+      },
+      {
+        "segment_id": "iron-snail:nM_g-z5zLJ0:s0010",
+        "note": "Corrects the earlier claim (segment 10) that the vintage back-pocket bartack skipped a layer because machines couldn't sew through all the denim: since the belt loops are bartacked all the way through, Levi's more likely hid the bartack for style, though it is less durable."
+      }
+    ],
+    "related_videos": [
+      "Planned next part of the series comparing vintage pieces such as vintage Wrangler, an early Eddie Bauer down jacket or vintage Carhartt",
+      "The new channel @TheTaleofTheIronSnail (mentioned in the description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-501",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's 501",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "501",
+        "501s",
+        "Levi 501s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-vintage-clothing-lvc",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Vintage Clothing (LVC)",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "LBC",
+        "lvc",
+        "lvcs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:we-buy-old-jeans",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "We Buy Old Jeans",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "we buy old jeans gmail.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wrangler",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wrangler",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Wranglers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Carhartt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carart",
+        "carhartt",
+        "carheart"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Eddie Bauer",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bower",
+        "Eddie Bower"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cone-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Cone Mills",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "cone Mills",
+        "cone mills"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jacron",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Jacron",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "jacron",
+        "jakon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paper-patch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "paper patch",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "paper patches"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-patch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather patch",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "leather patches"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arcuate",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "arcuate",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "arit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-tab",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "red tab",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rivets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rivets",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "buttons",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "button"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pocket-bags",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "pocket bags",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bartacking",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "bartacking",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Barack",
+        "bar attack",
+        "bar tacking",
+        "bar tacks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "salvage",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shuttle-loom",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "shuttle loom",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "shuttle looms"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:projectile-loom",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "projectile loom",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "projectile looms"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unsanforized-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "unsanforized denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "on sam fry",
+        "unsamprised",
+        "unsand fried"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leg-twist",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "leg twist",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "leg Twist",
+        "leg twists",
+        "leg would twist",
+        "length twist"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stitches-per-inch",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "stitches per inch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vanity-sizing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "vanity sizing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "vanity size"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:natural-indigo",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "natural indigo",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "natural Indigo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:synthetic-indigo",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "synthetic indigo",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "synthetic Indigo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:copper",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "copper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:aluminium",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "aluminium",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "aluminum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zinc-alloy",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "zinc alloy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ritual",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Ritual",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ritual"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:macbook-pro",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "MacBook Pro",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:michael-kristy",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Michael Kristy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "3341e33469922a30"
+}

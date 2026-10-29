@@ -1,0 +1,704 @@
+{
+  "platform_id": "FbAkrx4mzg0",
+  "profile": {
+    "video_id": "iron-snail:FbAkrx4mzg0",
+    "purpose": "Explains what makes Limmer's Bavarian-style hiking boots special: their construction, fit and history, and who owns the company now. It is framed around the creator's quest to get a pair of custom Limmers for Rob, an 80-year-old trail maintainer who had wanted a pair for about 70 years.",
+    "video_type": "explainer",
+    "thesis": "Limmer boots are a stiff, snug, heavily built boot made for trail builders, rangers and people carrying heavy loads. The brand's history and its current owners keep it a small, tradition-driven workshop rather than a mass-market boot company.",
+    "key_takeaways": [
+      "Limmer upper construction: one single piece of leather with a six-stitch seam on the inside rather than a seam at the back.",
+      "Limmer has two programs. The stock boots are owned by Chris, made in Bavaria by Meindl, faster to get and cheaper. The custom boots are made by Adam and crew in Intervale, New Hampshire, cost more and take longer.",
+      "Stock models discussed: the Lightweight and the Standard, which is built for New Hampshire Fish and Game search and rescue.",
+      "Construction of the Standard boot: a 2.2 mm leather lining, a 3.6 mm leather heel counter and a 3.2 mm leather outer.",
+      "Limmer fitting practice: boots are sized snug, foam locks the heel, lacing does not run to the toe, and staff tie the boots very tight.",
+      "Brand history: Peter Limmer Sr., a Bavarian master bootmaker, emigrated to Jamaica Plain, patented a US ski boot in 1939, moved to the White Mountains and partnered with his friend Lukas Meindl Sr.",
+      "Ownership: the Limmer family declined buyout offers and eventually sold to Adam, a former banker who apprenticed under Pete Limmer, and to Chris, a former Philmont ranger and lifelong fan.",
+      "Custom process: a foot tracing, with an archive that includes the tracings of famous customers.",
+      "Rob's experience: he found the boots stiff at first, but on a wet descent he found them grippy and stable.",
+      "Sponsor: Vinted."
+    ],
+    "outline": [
+      {
+        "title": "The legacy of Limmer boots",
+        "summary": "Introduces Limmer as the boot all hiking boots are compared to, citing Randy Merrell, and teases Rob's story. Begins with the single-piece leather upper and its unusual six-stitch side seam.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Obsession and precision",
+        "summary": "Explains the inside seam, Limmer's insistence on teaching customers proper fit and lacing, and the Lightweight vs Standard models. Lists famous Limmer wearers.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Sponsorship and Vinted",
+        "summary": "Sponsor read for Vinted, with the creator listing pieces from his studio stockpile for sale.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Meeting Rob and his dream",
+        "summary": "How the creator met Rob, who had wanted Limmers since the 1950s, and the plan to get him a pair. Includes the visits to the workshop and to Chris, Adam and Kaminski.",
+        "first_segment": 6,
+        "last_segment": 9
+      },
+      {
+        "title": "The Bavarian roots",
+        "summary": "History of Peter Limmer Sr., his move from Bavaria to Jamaica Plain and then the White Mountains, the 1939 ski boot patent, and the Bavarian-influenced ski culture. Covers the partnership with Lukas Meindl Sr.",
+        "first_segment": 9,
+        "last_segment": 13
+      },
+      {
+        "title": "Rob's life and health scare",
+        "summary": "Rob's background in trail maintenance and as a water ski instructor, his introduction to the Limmer team, and his stroke and recovery.",
+        "first_segment": 13,
+        "last_segment": 17
+      },
+      {
+        "title": "The custom boot process",
+        "summary": "How Adam went from banker to Limmer owner, and the foot tracing process and archive. Gives the layer-by-layer leather specification of the Standard boot.",
+        "first_segment": 17,
+        "last_segment": 21
+      },
+      {
+        "title": "Designing for durability",
+        "summary": "Why Limmers are heavy and stiff for load-carrying stability. Covers Chris's background and the snug, heel-locking fit with its handshake-like hold and partial lacing.",
+        "first_segment": 21,
+        "last_segment": 26
+      },
+      {
+        "title": "Breaking in the boots",
+        "summary": "How tight Limmer staff lace boots, Rob's worried first reaction to the stiff Lightweights, and his grumpy break-in emails.",
+        "first_segment": 26,
+        "last_segment": 30
+      },
+      {
+        "title": "The mountain test",
+        "summary": "The group hike on Rob's trail. Rob describes how much grip and stability the boots gave him on a wet descent as he passed younger hikers.",
+        "first_segment": 30,
+        "last_segment": 33
+      },
+      {
+        "title": "The philosophy of the brand",
+        "summary": "Limmer's aim that boots be worn for a long time, and Adam's offer of boots to young trail-building volunteers. Contrasts Limmer with Merrell and covers who the family chose to sell to.",
+        "first_segment": 34,
+        "last_segment": 37
+      },
+      {
+        "title": "Preserving the tradition",
+        "summary": "Adam pulls old family tracings from the archive for visitors, and reflects on the past. Rob agrees to will his boots back to the shop for a young trail builder.",
+        "first_segment": 38,
+        "last_segment": 42
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "This is considered to be one",
+        "last_segment": 1,
+        "ends_with": "I was very excited about it.",
+        "note": "Cold open teasing Limmer's legacy and Rob, plus a broken camera filter."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "One time I was hiking up",
+        "last_segment": 3,
+        "ends_with": "Beautiful day for a hike, isn't it?\"",
+        "note": "Anecdote about a rescuer floating up a mountain."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 4,
+        "starts_with": "The story of Rob will return",
+        "last_segment": 6,
+        "ends_with": "that I obviously don't fit me, but still.",
+        "note": "Sponsor read for Vinted resale marketplace."
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "Also, I'm trying to make it",
+        "last_segment": 9,
+        "ends_with": "Please excuse that. I'm running.",
+        "note": "Creator racing to summit Peaked Mountain before sunset."
+      },
+      {
+        "role": "aside",
+        "first_segment": 24,
+        "starts_with": "Oh, yeah. We did it.",
+        "last_segment": 24,
+        "ends_with": "Now I just got to go down. Woo! Okay.",
+        "note": "Reaching the summit."
+      },
+      {
+        "role": "aside",
+        "first_segment": 26,
+        "starts_with": "Okay, we made it, but I'm",
+        "last_segment": 26,
+        "ends_with": "It works. Let's go to the woods.",
+        "note": "Hurrying down the mountain and the broken filter."
+      },
+      {
+        "role": "aside",
+        "first_segment": 29,
+        "starts_with": "It's from Rob. It says, \"Hi, Suzanne.",
+        "last_segment": 29,
+        "ends_with": "Darn Tough is a good sock brand.",
+        "note": "Misdirected email about Rob's Darn Tough sock warranty."
+      },
+      {
+        "role": "outro",
+        "first_segment": 42,
+        "starts_with": "Rob, great to meet you.",
+        "last_segment": 42,
+        "ends_with": "what was happening 50, 60 years",
+        "note": "Closing goodbye with Rob; partly repeats earlier footage."
+      }
+    ],
+    "topics": [
+      "Limmer boot history",
+      "custom vs stock Limmer boots",
+      "boot fit and lacing",
+      "heel counter and leather construction",
+      "boot stiffness and load carrying",
+      "breaking in stiff leather boots",
+      "Limmer and Meindl partnership",
+      "White Mountains Bavarian culture",
+      "trail maintenance",
+      "foot tracings and archives"
+    ],
+    "entity_ids": [
+      "iron-snail:e:limmer",
+      "iron-snail:e:limmer-lightweight",
+      "iron-snail:e:limmer-standard",
+      "iron-snail:e:limmer-custom-boot",
+      "iron-snail:e:merrell",
+      "iron-snail:e:randy-merrell",
+      "iron-snail:e:meindl",
+      "iron-snail:e:lukas-meindl-sr",
+      "iron-snail:e:peter-limmer-sr",
+      "iron-snail:e:pete-limmer",
+      "iron-snail:e:carl-limmer",
+      "iron-snail:e:adam",
+      "iron-snail:e:chris",
+      "iron-snail:e:rob",
+      "iron-snail:e:zeta",
+      "iron-snail:e:pat",
+      "iron-snail:e:kaminski",
+      "iron-snail:e:yvon-chouinard",
+      "iron-snail:e:j-d-salinger",
+      "iron-snail:e:ansel-adams",
+      "iron-snail:e:russell-moccasin",
+      "iron-snail:e:vinted",
+      "iron-snail:e:timex-weekender",
+      "iron-snail:e:darn-tough",
+      "iron-snail:e:vibram",
+      "iron-snail:e:wolverine",
+      "iron-snail:e:heel-counter",
+      "iron-snail:e:leather-lining",
+      "iron-snail:e:single-piece-leather-upper",
+      "iron-snail:e:foot-tracing",
+      "iron-snail:e:approach-shoes"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "What makes Limmer boots so special?",
+      "What's the difference between Limmer stock boots and custom boots?",
+      "Are Limmer stock boots made by Meindl in Germany?",
+      "How should Limmer boots fit, and why do they feel too small at first?",
+      "Why are Limmer boots so stiff and heavy?",
+      "How thick is the leather on the Limmer Standard?",
+      "Limmer Lightweight vs Standard: which is easier on the feet?",
+      "Are Limmer boots hard to break in?",
+      "Are Limmers good for older hikers?",
+      "Who owns Limmer now?",
+      "What's the history of Peter Limmer and the White Mountains?",
+      "How does the custom Limmer fitting process work?",
+      "Why is the Limmer seam on the side instead of the back?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:FbAkrx4mzg0:s0017",
+        "note": "Calls Pete Limmer 'Peter Limmer the third' then immediately says 'but not the third'."
+      },
+      {
+        "segment_id": "iron-snail:FbAkrx4mzg0:s0010",
+        "note": "Says Peter Limmer Sr. was born in the Free State of Bavaria, then corrects that at the time it was the Kingdom of Bavaria."
+      },
+      {
+        "segment_id": "iron-snail:FbAkrx4mzg0:s0004",
+        "note": "Adds after the list of famous wearers that Ansel Adams also photographed Limmers."
+      }
+    ],
+    "related_videos": [
+      "Kaminski's video on Limmer boots",
+      "The Iron Snail's video on Russell Moccasin boots"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:limmer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Limmer",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Limer",
+        "Limers",
+        "Limmers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:limmer-lightweight",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Limmer Lightweight",
+      "brand": "Limmer",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "lightweight",
+        "lightweights"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:limmer-standard",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Limmer Standard",
+      "brand": "Limmer",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "standard"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:limmer-custom-boot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Limmer custom boot",
+      "brand": "Limmer",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "custom Limmers",
+        "custom boot program"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merrell",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Merrell",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Merill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:randy-merrell",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Randy Merrell",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:meindl",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Meindl",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Mindel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lukas-meindl-sr",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Lukas Meindl Sr.",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:peter-limmer-sr",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Peter Limmer Sr.",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Peter Limmer senior"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pete-limmer",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Pete Limmer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Peter Limmer the third"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carl-limmer",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Carl Limmer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Carl",
+        "Carl Limer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adam",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Adam",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chris",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Chris",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cress"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rob",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Rob",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Roberto"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zeta",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Zeta",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pat",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Pat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kaminski",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Kaminski",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:yvon-chouinard",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Yvon Chouinard",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ivon Schwinard",
+        "Schwinard",
+        "Shinar",
+        "Shinard",
+        "Shinarid",
+        "Shrinard",
+        "Shwinard",
+        "Sweetard",
+        "Trinard"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:j-d-salinger",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "J.D. Salinger",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ansel-adams",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ansel Adams",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:russell-moccasin",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Russell Moccasin",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Russell moccasin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vinted",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Vinted",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:timex-weekender",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Timex Weekender",
+      "brand": "Timex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:darn-tough",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Darn Tough",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "vibram"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wolverine",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wolverine",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "wolverine",
+        "wolverines"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:heel-counter",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "heel counter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-lining",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather lining",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:single-piece-leather-upper",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "single-piece leather upper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "one single piece of leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:foot-tracing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "foot tracing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tracing",
+        "tracings"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:approach-shoes",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "approach shoes",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "c1eb4dfc3cef19ad"
+}

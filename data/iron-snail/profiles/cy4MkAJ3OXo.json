@@ -1,0 +1,651 @@
+{
+  "platform_id": "cy4MkAJ3OXo",
+  "profile": {
+    "video_id": "iron-snail:cy4MkAJ3OXo",
+    "purpose": "Explain the history and design of the Danner Mountain Light hiking boot, compare it with the Merrell Moab 3, and judge whether the Danner is still worth buying.",
+    "video_type": "comparison",
+    "thesis": "The Danner Mountain Light, descended from the 1970s 6490 that was once the best-value hiking boot, has clever design features but is no longer the best value; modern boots like the Merrell Moab 3 beat it on weight, drying, breathability and price, while Danner's recraftability, Portland union-made build and customer care are what you pay for.",
+    "key_takeaways": [
+      "The Danner 6490 came out in 1970, weighed about 4 lb when most boots were about 5 lb, and was named the best-value hiking boot in the US by Backpacker magazine.",
+      "The boot uses one-piece leather construction with few seams, which improves water resistance and reduces crease and pressure points.",
+      "Danner is described as the first boot to use Gore-Tex, which made it the first fully waterproof leather boot.",
+      "The modern sole is three pieces, with dense rubber, a foam midsole and more rubber, making it lighter and more cushioned than the original solid rubber block. Much of the interior is now synthetic so it dries faster.",
+      "The signature tongue folds a flap of leather over one side, adding protection and keeping water out.",
+      "The Merrell Moab 3 is lighter, dries faster, breathes better, is more cushioned and costs far less.",
+      "Michael is conflicted about pairing Gore-Tex with leather, because the leather still soaks through. He notes Danner does sell a Mountain Light without Gore-Tex.",
+      "Reasons the Danner may be worth it: made in Portland, Oregon by union labor, recraftable with about a 3-week turnaround, and responsive customer support.",
+      "Alternatives mentioned include G.H. Bass's 1876 collection, Paraboot, several unclear brands, Merrell, Salomon and Hoka."
+    ],
+    "outline": [
+      {
+        "title": "Cold open and introduction",
+        "summary": "Teaser of the water test and claims, then Michael introduces the Danner Mountain Light vs Merrell Moab 3 comparison and outlines the video's points.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "History of the Danner 6490",
+        "summary": "Covers the original 6490: a full-leather boot with a steel shank, light for its time, named best-value hiking boot in 1970 amid the outdoor and environmental boom.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "One-piece construction and Gore-Tex",
+        "summary": "Explains the low-seam, one-piece leather construction and its benefits, and Danner's early adoption of Gore-Tex as the first fully waterproof leather boot.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Sponsor: Saint Bones",
+        "summary": "Sponsor read for Saint Bones and their 53 sunglasses with a sterling silver skull.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Sole construction and synthetic materials",
+        "summary": "Describes the change from a solid rubber sole to a rubber, foam and rubber stack for less weight and more cushion, and why much of the boot is now synthetic.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Tongue design",
+        "summary": "Shows the folded, one-sided tongue flap that adds protection and keeps water out, a design attributed to a Paraboot sister company.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Merrell Moab 3 comparison and recraftability",
+        "summary": "Lists the Moab 3's advantages over the Danner, then argues Danner's recraftability and its persistence among modern boots in stores make it special.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Gore-Tex and leather water test",
+        "summary": "Soaks the boots and explains why Michael dislikes pairing a waterproof membrane with leather, contrasted with the synthetic Moab, where a membrane makes sense.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Are they worth it, and alternatives",
+        "summary": "Weighs US union manufacturing, leather quality and Danner's recrafting and customer service against cheaper or comparable alternatives. Concludes Danner is no longer the best value but Michael is happy with his.",
+        "first_segment": 11,
+        "last_segment": 13
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "adding a gortex oh this is",
+        "last_segment": 1,
+        "ends_with": "Roundup answer of also are they worth it",
+        "note": "Cold open teaser, greeting and outline of the video"
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "number two where did I get",
+        "last_segment": 1,
+        "ends_with": "she knit it for me for Christmas",
+        "note": "Joke about the scarf knit by Taylor's sister Cassidy"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 4,
+        "starts_with": "the goal of this ad integration",
+        "last_segment": 6,
+        "ends_with": "Taylor for a gift she likes fish",
+        "note": "Sponsor read for Saint Bones sunglasses and jewelry"
+      },
+      {
+        "role": "outro",
+        "first_segment": 13,
+        "starts_with": "all right anyways that is it",
+        "last_segment": 13,
+        "ends_with": "see you very soon okay goodbye",
+        "note": "Thanks and sign-off"
+      }
+    ],
+    "topics": [
+      "Danner Mountain Light history",
+      "Danner 6490",
+      "one-piece boot construction",
+      "Gore-Tex in leather boots",
+      "hiking boot sole construction",
+      "boot tongue design",
+      "recrafting boots",
+      "Merrell Moab 3 comparison",
+      "made in USA union labor",
+      "hiking boot alternatives",
+      "value of heritage boots"
+    ],
+    "entity_ids": [
+      "iron-snail:e:danner-mountain-light",
+      "iron-snail:e:danner-6490",
+      "iron-snail:e:danner",
+      "iron-snail:e:merrell-moab-3",
+      "iron-snail:e:merrell",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:backpacker-magazine",
+      "iron-snail:e:rose-anvil",
+      "iron-snail:e:saint-bones",
+      "iron-snail:e:saint-bones-53-sunglasses",
+      "iron-snail:e:paraboot",
+      "iron-snail:e:gia",
+      "iron-snail:e:salomon",
+      "iron-snail:e:hoka",
+      "iron-snail:e:frack-cab",
+      "iron-snail:e:eddy-b-case-six",
+      "iron-snail:e:g-h-bass",
+      "iron-snail:e:g-h-bass-1876-collection",
+      "iron-snail:e:dma",
+      "iron-snail:e:charles-danner",
+      "iron-snail:e:taylor",
+      "iron-snail:e:cassidy",
+      "iron-snail:e:one-piece-construction",
+      "iron-snail:e:recrafting",
+      "iron-snail:e:goodyear-welt",
+      "iron-snail:e:steel-shank",
+      "iron-snail:e:foam-midsole",
+      "iron-snail:e:folded-tongue",
+      "iron-snail:e:polyester-mesh",
+      "iron-snail:e:waterproof-membrane"
+    ],
+    "categories": [
+      "boots",
+      "accessories"
+    ],
+    "answers_questions": [
+      "Is the Danner Mountain Light worth the money?",
+      "Danner Mountain Light vs Merrell Moab 3, which is the better hiking boot?",
+      "What is the history of the Danner 6490?",
+      "Why does the Danner Mountain Light have synthetic materials inside now?",
+      "What's so special about the Danner Mountain Light tongue?",
+      "Does Gore-Tex make sense in a leather boot?",
+      "Is there a Danner Mountain Light without Gore-Tex?",
+      "Can you get Danner boots recrafted and how long does it take?",
+      "Where are Danner boots made?",
+      "What are some alternatives to the Danner Mountain Light?",
+      "Why is one-piece construction better for boots?",
+      "How is the Danner Mountain Light sole built?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:cy4MkAJ3OXo:s0010",
+        "note": "Michael notes he didn't realise until after filming that Danner does make a Mountain Light without Gore-Tex, so where it sounds like he wishes they did, they already do."
+      }
+    ],
+    "related_videos": [
+      "Rose Anvil video on Danner boots (one-piece construction and crease points)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:danner-mountain-light",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Danner Mountain Light",
+      "brand": "Danner",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Danner Mountain light",
+        "mountain light"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:danner-6490",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Danner 6490",
+      "brand": "Danner",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "6490"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:danner",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Danner",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "dam",
+        "daners",
+        "dinner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merrell-moab-3",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Merrell Moab 3",
+      "brand": "Merrell",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Maro Moab 3",
+        "Merill Moab 3",
+        "meril Moab 3",
+        "merils"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merrell",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Merrell",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Merill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:backpacker-magazine",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Backpacker magazine",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rose-anvil",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Rose Anvil",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rose anfield",
+        "rose Anvil",
+        "rose anvil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:saint-bones",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Saint Bones",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Saint bones",
+        "St bones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:saint-bones-53-sunglasses",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Saint Bones 53 sunglasses",
+      "brand": "Saint Bones",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "53 sunglasses",
+        "53s",
+        "the 53"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paraboot",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Paraboot",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "parab boot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Gia",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:salomon",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Salomon",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Solomon",
+        "Solomons"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hoka",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Hoka",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "hokas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:frack-cab",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Frack cab",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddy-b-case-six",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Eddy B case six",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Eddy B has their case six"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:g-h-bass",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "G.H. Bass",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "GH bass"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:g-h-bass-1876-collection",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "G.H. Bass 1876 collection",
+      "brand": "G.H. Bass",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "1876 collection"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dma",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "dma",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:charles-danner",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Charles Danner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Charles dner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cassidy",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Cassidy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:one-piece-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "one-piece construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "one piece construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:recrafting",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "recrafting",
+      "brand": "Danner",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rec crafting",
+        "recraftable"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goodyear-welt",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Goodyear welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Goodyear welted",
+        "Goodyear welting",
+        "good year welted",
+        "good your welt",
+        "goodye weled",
+        "goodyear welt",
+        "goodyear welted",
+        "goodyear welton",
+        "goodyear will"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:steel-shank",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "steel shank",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:foam-midsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "foam midsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "foam in the midsole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:folded-tongue",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "folded tongue",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tongue"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester-mesh",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester mesh",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waterproof-membrane",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "waterproof membrane",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "waterproof sock liner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "8a5dea9bd50cc6bf"
+}

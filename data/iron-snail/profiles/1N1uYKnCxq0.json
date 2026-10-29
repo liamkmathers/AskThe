@@ -1,0 +1,598 @@
+{
+  "platform_id": "1N1uYKnCxq0",
+  "profile": {
+    "video_id": "iron-snail:1N1uYKnCxq0",
+    "purpose": "Compare the Made in England Dr. Martens 1460 boot with the cheaper Made in Thailand 1460, break down every difference between them with estimated dollar values, and judge who the $90 premium is for.",
+    "video_type": "comparison",
+    "thesis": "Most of the Made in England 1460's $90 premium comes from manufacturing location and old-style production rather than material upgrades. The video argues the boots are mainly for dedicated Dr. Martens fans rather than a better objective value.",
+    "key_takeaways": [
+      "The Made in England 1460 costs about $260, roughly $90 more than the Made in Thailand version.",
+      "Dr. Martens sells about 14 million pairs a year, and only about 100,000 (around 1%) are made in England, so the Thailand line has economies of scale.",
+      "The England pair comes with a booklet, a dust bag and a premium box, which he estimates at about $5 in total.",
+      "Structural differences covered: a metallic-thread pull tab, a heavier rubber outsole, a felt midsole instead of foam, a better ribbed welt material and a slimmer last.",
+      "The England boots use Quilon leather, which is still finished, with embossed pores. Unlike the drum-dyed Thailand leather, it shows brown where scratched.",
+      "He estimates the material differences plus add-ons at about $23, leaving about $67 that he attributes to English labor, old machines, hand selection of leather and slower production.",
+      "He compares this to L.L.Bean making its boots in Maine as a core part of its brand.",
+      "His verdict is that the England pair is probably not worth it on purely objective grounds but makes sense for big Dr. Martens fans."
+    ],
+    "outline": [
+      {
+        "title": "Made in England vs Thailand",
+        "summary": "Introduces the $260 Made in England 1460 versus the cheaper Made in Thailand pair, the plan to price every difference, and the wrong-size mix-up.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Scale of production",
+        "summary": "Explains that Dr. Martens makes about 14 million pairs a year, with only around 100,000 made in England, and how scale lowers costs for the Thailand line.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Included premium add-ons",
+        "summary": "Covers the booklet, dust bag and upgraded box included with Made in England boots, with estimated costs of about $5 total.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Structural differences",
+        "summary": "Goes through the metallic-thread pull tab, heavier rubber outsole, felt versus foam midsole (citing Rose Anvil's cut-in-half boots) and the better ribbed welt material.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Squarespace sponsorship",
+        "summary": "Sponsor read for Squarespace website building.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Last and leather quality analysis",
+        "summary": "Notes the slimmer last on the England boots, then discusses Quilon leather: a finished leather with embossed pores, compared with the drum-dyed Thailand leather. Also covers how scratches show, and the brand philosophy of Dr. Martens being heavily finished boots.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Manufacturing cost breakdown",
+        "summary": "Assigns dollar estimates to each difference, totalling about $23, and attributes the remaining $67 to manufacturing in England, with an example of overseas manufacturing quotes for his own denim jacket.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Final verdict on value",
+        "summary": "Argues the England boots are for big Dr. Martens fans, citing reviewer Gemma A and comparing to L.L.Bean making boots in Maine. Concludes they're probably not objectively worth the extra $90.",
+        "first_segment": 10,
+        "last_segment": 12
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "These Boots cost 260 dollars but",
+        "last_segment": 1,
+        "ends_with": "should Gemma a is one of them",
+        "note": "Intro setting up the England vs Thailand comparison, the Squarespace mention and the wrong-size mix-up."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "as always if you see anything you like",
+        "last_segment": 1,
+        "ends_with": "ever seen so it carrot Lincoln bio",
+        "note": "Carrot link plug and mention of a wax jacket comparison, including Bradley Mountain gear."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 5,
+        "starts_with": "ah oh dear I just got off",
+        "last_segment": 6,
+        "ends_with": "first order of a website or domain",
+        "note": "Sponsor read for Squarespace."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "FYI that does say everyone welcome",
+        "last_segment": 8,
+        "ends_with": "so I do have permission to enter",
+        "note": "Brief joke while filming."
+      },
+      {
+        "role": "outro",
+        "first_segment": 12,
+        "starts_with": "but anyways that's about it thank",
+        "last_segment": 12,
+        "ends_with": "see you later thank you foreign",
+        "note": "Sign-off; taking next week off to visit Taylor in Denmark."
+      }
+    ],
+    "topics": [
+      "Made in England vs Made in Thailand Dr. Martens",
+      "Dr. Martens 1460 price difference",
+      "economies of scale in boot production",
+      "felt vs foam midsole",
+      "welt construction",
+      "boot lasts",
+      "Quilon leather vs drum-dyed leather",
+      "corrected grain finished leather",
+      "manufacturing location and labor cost",
+      "brand heritage manufacturing"
+    ],
+    "entity_ids": [
+      "iron-snail:e:dr-martens",
+      "iron-snail:e:dr-martens-1460-made-in-england",
+      "iron-snail:e:dr-martens-1460-made-in-thailand",
+      "iron-snail:e:quilon-leather",
+      "iron-snail:e:drum-dyed-leather",
+      "iron-snail:e:felt-midsole",
+      "iron-snail:e:welt",
+      "iron-snail:e:last",
+      "iron-snail:e:pull-tab",
+      "iron-snail:e:outsole",
+      "iron-snail:e:dust-bag",
+      "iron-snail:e:squarespace",
+      "iron-snail:e:rose-anvil",
+      "iron-snail:e:gemma-a",
+      "iron-snail:e:bradley-mountain",
+      "iron-snail:e:bradley-mountain-cabin-jacket",
+      "iron-snail:e:bradley-mountain-wilder-backpack-10-year-anniversary-edition",
+      "iron-snail:e:free-now-cloth",
+      "iron-snail:e:road-territory",
+      "iron-snail:e:red-wing",
+      "iron-snail:e:viburg",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:l-l-bean-boots",
+      "iron-snail:e:the-iron-snail-denim-pro-jacket",
+      "iron-snail:e:the-iron-snail-prologue-jacket",
+      "iron-snail:e:taylor",
+      "iron-snail:e:carrot-link"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "Are Made in England Doc Martens worth the extra money over the regular ones?",
+      "What's actually different between Made in England and Made in Thailand Dr. Martens 1460s?",
+      "Why do Made in England Doc Martens cost $90 more?",
+      "What is Quilon leather on Dr. Martens?",
+      "Do Made in England Docs have a better sole or midsole?",
+      "Do Made in England Dr. Martens fit differently or run slimmer?",
+      "What happens when you scratch Made in England Docs vs the Thailand ones?",
+      "How many Dr. Martens are made in England compared to Thailand?",
+      "Who should buy the Made in England Dr. Martens?",
+      "What comes in the box with Made in England Doc Martens?",
+      "Is the Made in England Doc Martens leather better quality?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "The Iron Snail's previous Dr. Martens video, which suggested sticking with the cheaper pair",
+      "Upcoming wax jacket comparison ('wax jacket Olympics') featuring Bradley Mountain and other brands",
+      "Rose Anvil's video cutting Dr. Martens boots in half"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:dr-martens",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dr. Martens",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Doc Martens",
+        "Doc Martin",
+        "doc marten",
+        "doc martens",
+        "doc martin",
+        "dog martens"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dr-martens-1460-made-in-england",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Dr. Martens 1460 Made in England",
+      "brand": "Dr. Martens",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Doc Martens made in England",
+        "made in England Doc Martin Boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dr-martens-1460-made-in-thailand",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Dr. Martens 1460 Made in Thailand",
+      "brand": "Dr. Martens",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Doc Martens made in Thailand",
+        "made and Thailand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:quilon-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Quilon leather",
+      "brand": "Dr. Martens",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Quail on leather",
+        "Quillon",
+        "quill on leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:drum-dyed-leather",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "drum-dyed leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "drum dyed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felt-midsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "felt midsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Felton material",
+        "felted material"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:welt",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:last",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "last",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pull-tab",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "pull tab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:outsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "outsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "soul"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dust-bag",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "dust bag",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dust cover"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:squarespace",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Squarespace",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rose-anvil",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Rose Anvil",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rose anfield",
+        "rose anvil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gemma-a",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Gemma A",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gemma a"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bradley-mountain",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Bradley Mountain",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bradley-mountain-cabin-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bradley Mountain Cabin Jacket",
+      "brand": "Bradley Mountain",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "cabin jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bradley-mountain-wilder-backpack-10-year-anniversary-edition",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bradley Mountain Wilder backpack (10-year anniversary edition)",
+      "brand": "Bradley Mountain",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Wilder backpack"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:free-now-cloth",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "free now cloth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:road-territory",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Road territory",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Red Wing",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Red Wings",
+        "red rings",
+        "red wing",
+        "red wings",
+        "redwing",
+        "wedwing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:viburg",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "viburg",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-boots",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean boots",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "LL Bean boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail-denim-pro-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Iron Snail Denim Pro Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "denim Pro jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail-prologue-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Iron Snail Prologue Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "prologue jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot-link",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "carrot link",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carrot Lincoln bio",
+        "carrot Link"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "d72bdeec588ce6fd"
+}
