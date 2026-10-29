@@ -99,6 +99,8 @@ def test_yt_dlp_comments_drop_the_author():
         ("Would these work for wide feet?", True),
         ("Thoughts on the Red Wing Iron Ranger", True),
         ("Which one would you pick for winter", True),
+        ("What a time to be alive", False),
+        ("Can we all agree that stretch pants ain't jeans.", False),
         ("Great video, love the channel", False),
         ("Nice", False),
     ],
@@ -119,6 +121,8 @@ def test_candidates_are_viewer_questions_most_liked_first_without_duplicates():
                 comment("c5", "What boots are you wearing in this one?", 50, by_creator=True),
                 comment("c6", "Where to buy? https://example.com/x", 9),
                 comment("c7", "Why?", 40),
+                comment("c8", "Can anyone ID the boots he's wearing?", 30),
+                comment("c9", "What jacket is he wearing at 1:55?", 30),
             )
         ],
         titles={"abc": "T-shirts ranked"},

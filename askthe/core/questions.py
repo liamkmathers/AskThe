@@ -15,29 +15,6 @@ from pydantic import BaseModel
 
 from askthe.core.models import RawComments
 
-_STARTERS = (
-    "what",
-    "which",
-    "how",
-    "is",
-    "are",
-    "does",
-    "do",
-    "did",
-    "should",
-    "would",
-    "can",
-    "could",
-    "any",
-    "where",
-    "why",
-    "will",
-    "have",
-    "has",
-    "thoughts",
-    "opinion",
-    "recommend",
-)
 _QUESTION_PHRASES = re.compile(
     r"\b(thoughts on|opinion on|worth it|vs\.?|versus|recommend|any recs|which one|"
     r"is it worth|should i)\b",
@@ -49,7 +26,8 @@ _REQUEST = re.compile(
     re.IGNORECASE,
 )
 _URL = re.compile(r"https?://\S+")
-_TIMESTAMP = re.compile(r"^\s*\d{1,2}:\d{2}")
+_TIMESTAMP = re.compile(r"\b\d{1,2}:\d{2}\b")  # "what jacket at 1:55?": out of scope (D12)
+_TO_VIEWERS = re.compile(r"^\W*(can |does |did |has |is )?(any ?one|any ?body)\b", re.IGNORECASE)
 
 
 class QuestionCandidate(BaseModel):
@@ -63,8 +41,9 @@ class QuestionCandidate(BaseModel):
 
 
 def is_question(text: str) -> bool:
-    first = text.strip().split(maxsplit=1)[0].lower().strip(",.!:") if text.strip() else ""
-    return "?" in text or first in _STARTERS or bool(_QUESTION_PHRASES.search(text))
+    """Asks something: a question mark, or a phrase like "thoughts on" or "should I".
+    An opening "what" or "can" alone is not enough; such comments are mostly remarks."""
+    return "?" in text or bool(_QUESTION_PHRASES.search(text))
 
 
 def question_candidates(
@@ -87,7 +66,7 @@ def question_candidates(
             words = text.split()
             if c.by_creator or not (min_words <= len(words) <= max_words):
                 continue
-            if _TIMESTAMP.match(text) or len(_URL.findall(text)) > 0:
+            if _TIMESTAMP.search(text) or _URL.search(text) or _TO_VIEWERS.match(text):
                 continue
             if not is_question(text):
                 continue
