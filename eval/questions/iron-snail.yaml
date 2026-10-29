@@ -235,7 +235,7 @@
   type: comparison
   expected:
     covered: full
-    must_mention: ["Bedale", "Flint and Tinder | Flint & Tinder"]
+    must_mention: ["Bedale | Barbour", "Flint and Tinder | Flint & Tinder"]
     sources: [0ZLO5gHDneY, y3giKIuJjDk]
   notes: >-
     "This" is the Barbour Bedale (2021 guide with a waterproof test); Flint and Tinder
