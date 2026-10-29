@@ -79,6 +79,8 @@ If vector search fails, retrieval continues on keywords alone and the answer car
 
 **First real comparison** (22 videos, keyword-only because embeddings were not yet reachable): hybrid read 715 to 2,104 words per question instead of 63,000, gave the same conclusions as full context, and cost about $0.06 to $0.10 per question regardless of catalogue size. Full context costs about $0.60 per question when the cache is cold.
 
+**With vector search** (same 22 videos, 3 profiled): embedding all 421 chunks took 90k tokens, about $0.002. On the same three questions vector search changed about a third of the candidates but no conclusion: keyword search alone already found every passage full mode cited, near the top. Hybrid cost $0.01 to $0.08 per question against $0.03 to $0.62 for full mode, and read 0 to 2,745 words against 63,000. Whether vectors help with questions that don't name the product is for the M4 test set to show.
+
 ## Swappable components
 
 Each of these is an interface in the engine core, with implementations as adapters. The config file picks which adapter is used.
