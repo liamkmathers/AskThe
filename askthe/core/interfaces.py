@@ -139,7 +139,7 @@ class SearchQuery(BaseModel):
 
 @runtime_checkable
 class SearchIndex(Protocol):
-    """Finds relevant segments, claims and profile questions for a query."""
+    """Keyword search over segments, profiles and profile questions."""
 
     def index(self, docs: Sequence[SearchDoc]) -> None: ...
 
@@ -150,12 +150,47 @@ class SearchIndex(Protocol):
 
 @runtime_checkable
 class Embedder(Protocol):
-    """Turns text into vectors. Not used until vector search is added."""
+    """Turns text into vectors that are close when meanings are close."""
 
     @property
-    def dimension(self) -> int: ...
+    def name(self) -> str:
+        """Identifies the model: vectors from different embedders are never mixed."""
+        ...
 
     def embed(self, texts: Sequence[str]) -> list[list[float]]: ...
+
+
+class VectorItem(BaseModel):
+    id: str  # same ID as the matching SearchDoc
+    kind: DocKind
+    creator_id: str
+    video_id: str
+    content_hash: str  # of the embedded text and embedder name; unchanged means skip
+    vector: list[float]
+
+
+class VectorHit(BaseModel):
+    doc_id: str
+    kind: DocKind
+    video_id: str
+    score: float  # cosine similarity: higher is closer
+
+
+@runtime_checkable
+class VectorIndex(Protocol):
+    """Nearest-neighbour search over embedded documents."""
+
+    def upsert(self, items: Sequence[VectorItem]) -> None: ...
+
+    def content_hashes(self, video_id: str) -> dict[str, str]: ...
+
+    def remove_video(self, video_id: str) -> None: ...
+
+    def remove(self, ids: Sequence[str]) -> None: ...
+
+    def search(
+        self, vector: Sequence[float], creator_id: str, kinds: Sequence[DocKind], limit: int
+    ) -> list[VectorHit]: ...
 
 
 # --- LLM ------------------------------------------------------------------------
@@ -164,9 +199,14 @@ class Embedder(Protocol):
 class LLMTask(StrEnum):
     """What the model is being asked to do. Config maps each task to a model."""
 
-    UNDERSTAND = "understand"
-    EXTRACT = "extract"
+    UNDERSTAND = "understand"  # profile a video
+    PLAN = "plan"  # turn a question into search queries
+    RERANK = "rerank"  # score retrieved passages for relevance
     ANSWER = "answer"
+
+
+class EmbeddingError(Exception):
+    """Text could not be embedded (no key, rejected, unreachable)."""
 
 
 class LLMError(Exception):

@@ -27,15 +27,30 @@ use = "sqlite"
 [adapters.search]
 use = "sqlite"
 
+[adapters.embedder]
+# "openai" reads ASKTHE_OPENAI_API_KEY (or OPENAI_API_KEY); "memory" is the test fake.
+use = "openai"
+model = "text-embedding-3-small"
+
+[adapters.vectors]
+use = "sqlite"
+
 [adapters.llm]
 # "anthropic" calls Claude and reads ASKTHE_ANTHROPIC_API_KEY (or ANTHROPIC_API_KEY);
 # "memory" is the scripted test fake.
 use = "anthropic"
 # Effort per task: low | medium | high | xhigh | max. Extraction is judgement-heavy.
-effort = { understand = "high", extract = "high", answer = "high" }
+effort = { understand = "high", plan = "low", rerank = "low", answer = "high" }
 
 # Model per task. Model names live here, never in code.
 [models]
 understand = "claude-opus-5-5"
-extract = "claude-opus-5-5"
+plan = "claude-haiku-5-5"    # quick query expansion
+rerank = "claude-haiku-5-5"  # scoring many short passages
 answer = "claude-opus-5-5"
+
+# How answers choose what to read. "hybrid": plan, keyword + vector search, rerank,
+# then the relevant sections. "full": whole transcripts (all of them if they fit).
+[retrieval]
+mode = "hybrid"
+context_words = 12000

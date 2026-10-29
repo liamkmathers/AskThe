@@ -100,11 +100,18 @@ def mark_passages(
     return texts, unlocated
 
 
-def render_video(video: Video, profile: VideoProfile | None, segments: Sequence[Segment]) -> str:
+def render_video(
+    video: Video,
+    profile: VideoProfile | None,
+    segments: Sequence[Segment],
+    only: Sequence[int] | None = None,
+) -> str:
     """One video as the model reads it: what it is, its sections, then the transcript.
 
     Segments are labelled [platform_id:index] so citations can name them. Sponsor reads,
-    asides, intro and outro are marked inline with «...» markers.
+    asides, intro and outro are marked inline with «...» markers. With `only`, just
+    those segments are shown and skipped stretches are marked, so the model knows the
+    transcript is partial.
     """
     lines = [
         f'<video id="{video.platform_id}">',
@@ -128,8 +135,16 @@ def render_video(video: Video, profile: VideoProfile | None, segments: Sequence[
             )
         for c in profile.corrections:
             lines.append(f"Correction at {c.segment_id.rsplit(':', 1)[-1]}: {c.note}")
-    lines.append("Transcript:")
-    lines += [f"[{video.platform_id}:{i}] {texts[i]}" for i in sorted(texts)]
+    shown = sorted(texts) if only is None else sorted(i for i in set(only) if i in texts)
+    lines.append("Transcript:" if only is None else "Transcript (relevant parts only):")
+    previous = -1
+    for i in shown:
+        if only is not None and i > previous + 1:
+            lines.append(f"[... segments {previous + 1}-{i - 1} not shown ...]")
+        lines.append(f"[{video.platform_id}:{i}] {texts[i]}")
+        previous = i
+    if only is not None and texts and previous < max(texts):
+        lines.append(f"[... segments {previous + 1}-{max(texts)} not shown ...]")
     lines.append("</video>")
     return "\n".join(lines)
 
@@ -146,7 +161,7 @@ def answer_system_prompt(creator: Creator) -> str:
     who, pron = creator.refer_to_creator_as, creator.pronoun
     return f"""You answer fans' questions about what {creator.display_name} \
 ({creator.niche}) has said in their videos. You are given the transcripts of the \
-relevant videos. Answer from them only.
+relevant videos, in full or as the relevant parts. Answer from them only.
 
 How to answer:
 1. His opinion is the point. Lead with what {who} thinks, prefers, wears and \

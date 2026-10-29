@@ -38,6 +38,7 @@ class AppConfig(BaseModel):
     creators_dir: Path
     adapters: dict[str, AdapterChoice]
     models: dict[str, str] = Field(default_factory=dict)
+    retrieval: dict[str, Any] = Field(default_factory=dict)
 
     @model_validator(mode="after")
     def _resolve_paths(self) -> AppConfig:

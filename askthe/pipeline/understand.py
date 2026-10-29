@@ -1,4 +1,4 @@
-"""Stage 3: profile each video, and index the profiles for search.
+"""Stage 3: profile each video. Run `index` afterwards to make profiles searchable.
 
 A profile describes a video (sections, entities, sponsor reads, the questions it
 answers); it holds no opinions (D15). Videos already profiled by the current profiler
@@ -11,12 +11,9 @@ from collections.abc import Callable
 from dataclasses import dataclass, field
 
 from askthe.core.interfaces import (
-    DocKind,
     KnowledgeStore,
     LLMClient,
     LLMTask,
-    SearchDoc,
-    SearchIndex,
 )
 from askthe.core.models import Creator
 from askthe.core.profiling import (
@@ -25,7 +22,6 @@ from askthe.core.profiling import (
     EntityResolver,
     ProfileDraft,
     profile_from_draft,
-    profile_search_text,
     profile_system_prompt,
     video_context,
 )
@@ -42,7 +38,6 @@ class UnderstandReport:
 def understand_videos(
     creator: Creator,
     store: KnowledgeStore,
-    search: SearchIndex,
     llm: LLMClient,
     platform_ids: list[str] | None = None,
     force: bool = False,
@@ -83,38 +78,6 @@ def understand_videos(
             store.upsert_entity(entity)
         store.save_profile(profile)
 
-        search.remove_video(video.id)
-        search.index(
-            [
-                SearchDoc(
-                    id=s.id,
-                    kind=DocKind.SEGMENT,
-                    creator_id=creator.slug,
-                    video_id=video.id,
-                    text=s.text,
-                )
-                for s in segments
-            ]
-            + [
-                SearchDoc(
-                    id=f"{video.id}:profile",
-                    kind=DocKind.PROFILE,
-                    creator_id=creator.slug,
-                    video_id=video.id,
-                    text=profile_search_text(video, profile, entities),
-                ),
-            ]
-            + [
-                SearchDoc(
-                    id=f"{video.id}:q{i:03d}",
-                    kind=DocKind.PROFILE_QUESTION,
-                    creator_id=creator.slug,
-                    video_id=video.id,
-                    text=q,
-                )
-                for i, q in enumerate(profile.answers_questions)
-            ]
-        )
         report.profiled.append(video.id)
         on_progress(
             video.id,

@@ -12,9 +12,17 @@ import sqlite3
 from collections.abc import Iterable, Sequence
 from pathlib import Path
 
+import numpy as np
 from pydantic import BaseModel
 
-from askthe.core.interfaces import SearchDoc, SearchHit, SearchQuery
+from askthe.core.interfaces import (
+    DocKind,
+    SearchDoc,
+    SearchHit,
+    SearchQuery,
+    VectorHit,
+    VectorItem,
+)
 from askthe.core.models import (
     AnswerLog,
     Claim,
@@ -246,3 +254,101 @@ class SqliteSearchIndex:
             SearchHit(doc_id=doc_id, kind=kind, video_id=video_id, score=-rank)
             for doc_id, kind, video_id, rank in rows
         ]
+
+
+_VECTOR_SCHEMA = """
+CREATE TABLE IF NOT EXISTS vectors (
+    id TEXT PRIMARY KEY, kind TEXT NOT NULL, creator_id TEXT NOT NULL,
+    video_id TEXT NOT NULL, content_hash TEXT NOT NULL, vector BLOB NOT NULL);
+CREATE INDEX IF NOT EXISTS vectors_video ON vectors (video_id);
+CREATE INDEX IF NOT EXISTS vectors_creator ON vectors (creator_id, kind);
+"""
+
+
+class SqliteVectorIndex:
+    """Vectors stored normalised as float32 blobs; search is exact cosine similarity,
+    computed with numpy over the creator's vectors (kept in memory between searches).
+
+    Exact search is fast enough for tens of thousands of chunks. Beyond that, swap in
+    an approximate index (sqlite-vec, pgvector) behind the same interface.
+    """
+
+    def __init__(self, path: Path | str) -> None:
+        self._db = connect(path)
+        self._db.executescript(_VECTOR_SCHEMA)
+        self._cache: dict[str, tuple[list[tuple[str, str, str]], np.ndarray]] = {}
+
+    def upsert(self, items: Sequence[VectorItem]) -> None:
+        rows = []
+        for item in items:
+            v = np.asarray(item.vector, dtype=np.float32)
+            norm = float(np.linalg.norm(v))
+            v = v / norm if norm else v
+            rows.append(
+                (
+                    item.id,
+                    item.kind.value,
+                    item.creator_id,
+                    item.video_id,
+                    item.content_hash,
+                    v.tobytes(),
+                )
+            )
+        with self._db:
+            self._db.executemany("INSERT OR REPLACE INTO vectors VALUES (?, ?, ?, ?, ?, ?)", rows)
+        self._cache.clear()
+
+    def content_hashes(self, video_id: str) -> dict[str, str]:
+        rows = self._db.execute(
+            "SELECT id, content_hash FROM vectors WHERE video_id = ?", (video_id,)
+        )
+        return dict(rows)
+
+    def remove_video(self, video_id: str) -> None:
+        with self._db:
+            self._db.execute("DELETE FROM vectors WHERE video_id = ?", (video_id,))
+        self._cache.clear()
+
+    def remove(self, ids: Sequence[str]) -> None:
+        with self._db:
+            self._db.executemany("DELETE FROM vectors WHERE id = ?", [(i,) for i in ids])
+        self._cache.clear()
+
+    def _matrix(self, creator_id: str) -> tuple[list[tuple[str, str, str]], np.ndarray]:
+        if creator_id not in self._cache:
+            rows = self._db.execute(
+                "SELECT id, kind, video_id, vector FROM vectors WHERE creator_id = ? ORDER BY id",
+                (creator_id,),
+            ).fetchall()
+            meta = [(r[0], r[1], r[2]) for r in rows]
+            matrix = (
+                np.vstack([np.frombuffer(r[3], dtype=np.float32) for r in rows])
+                if rows
+                else np.zeros((0, 0), dtype=np.float32)
+            )
+            self._cache[creator_id] = (meta, matrix)
+        return self._cache[creator_id]
+
+    def search(
+        self, vector: Sequence[float], creator_id: str, kinds: Sequence[DocKind], limit: int
+    ) -> list[VectorHit]:
+        meta, matrix = self._matrix(creator_id)
+        if not meta:
+            return []
+        q = np.asarray(vector, dtype=np.float32)
+        norm = float(np.linalg.norm(q))
+        if not norm or q.shape[0] != matrix.shape[1]:
+            return []
+        scores = matrix @ (q / norm)
+        wanted = {k.value for k in kinds}
+        order = np.argsort(-scores, kind="stable")
+        hits = []
+        for i in order:
+            doc_id, kind, video_id = meta[i]
+            if kind in wanted:
+                hits.append(
+                    VectorHit(doc_id=doc_id, kind=kind, video_id=video_id, score=float(scores[i]))
+                )
+                if len(hits) == limit:
+                    break
+        return hits

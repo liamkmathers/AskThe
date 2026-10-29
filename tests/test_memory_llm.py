@@ -10,16 +10,14 @@ class Out(BaseModel):
 
 
 def test_scripted_responses_are_returned_in_order_and_calls_recorded():
-    llm = MemoryLLMClient(models={"extract": "some-model"})
+    llm = MemoryLLMClient(models={"plan": "some-model"})
     assert isinstance(llm, LLMClient)
-    llm.script(LLMTask.EXTRACT, Out(value=1), lambda context, prompt: Out(value=len(prompt)))
+    llm.script(LLMTask.PLAN, Out(value=1), lambda context, prompt: Out(value=len(prompt)))
 
-    first = llm.generate_structured(LLMTask.EXTRACT, "sys", "p", Out)
+    first = llm.generate_structured(LLMTask.PLAN, "sys", "p", Out)
     assert first.value.value == 1 and first.model == "some-model"
-    assert (
-        llm.generate_structured(LLMTask.EXTRACT, "sys", "four", Out, context="c").value.value == 4
-    )
-    assert llm.calls[-1] == (LLMTask.EXTRACT, "sys", "four", "c")
+    assert llm.generate_structured(LLMTask.PLAN, "sys", "four", Out, context="c").value.value == 4
+    assert llm.calls[-1] == (LLMTask.PLAN, "sys", "four", "c")
     assert llm.model_for(LLMTask.ANSWER) == "memory"
 
 

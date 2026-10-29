@@ -5,14 +5,17 @@ from typer.testing import CliRunner
 from askthe.adapters.files import FileRawArchive
 from askthe.adapters.memory import (
     MemoryCatalogSource,
+    MemoryEmbedder,
     MemoryKnowledgeStore,
     MemoryRawArchive,
     MemorySearchIndex,
     MemoryTranscriptSource,
+    MemoryVectorIndex,
 )
 from askthe.cli import app
-from askthe.core.interfaces import SearchQuery
+from askthe.core.interfaces import DocKind, SearchQuery
 from askthe.pipeline.fetch import fetch_videos
+from askthe.pipeline.index import index_videos
 from askthe.pipeline.segment import segment_videos
 from tests import factories as f
 
@@ -43,21 +46,33 @@ def test_fetch_archives_new_videos_skips_existing_and_reports_failures():
     assert archive.load(f.CREATOR, "b").source == "test"
 
 
-def test_segment_rebuilds_store_and_index_from_raw():
+def test_segment_then_index_builds_keyword_and_vector_search():
     creator = f.creator()
     catalog, transcripts = sources("a", "b")
     archive, store, search = MemoryRawArchive(), MemoryKnowledgeStore(), MemorySearchIndex()
+    vectors, embedder = MemoryVectorIndex(), MemoryEmbedder()
     fetch_videos(creator, ["a", "b"], catalog, transcripts, archive, source="test")
 
-    first = segment_videos(creator, archive, store, search)
-    again = segment_videos(creator, archive, store, search)
+    first = segment_videos(creator, archive, store)
+    again = segment_videos(creator, archive, store)
     assert first == again and first.videos == 2 and first.segments > 2
     assert [v.platform_id for v in store.list_videos(f.CREATOR)] == ["a", "b"]
 
+    report = index_videos(creator, store, search, vectors, embedder)
+    assert report.embedded == report.documents and report.unprofiled == [
+        "test-creator:a",
+        "test-creator:b",
+    ]
     hits = search.search(SearchQuery(text="warm boots", creator_id=f.CREATOR))
     assert {h.video_id for h in hits} == {"test-creator:a", "test-creator:b"}
-    # Every segment found in search exists in the store.
     assert all(store.get_segment(h.doc_id) for h in hits)
+    # Chunks carry their video title, so they make sense on their own.
+    [query] = embedder.embed(["Video a warm boots"])
+    assert vectors.search(query, f.CREATOR, [DocKind.SEGMENT], 1)[0].video_id == "test-creator:a"
+
+    # Re-indexing unchanged content embeds nothing.
+    again = index_videos(creator, store, search, vectors, embedder)
+    assert again.embedded == 0 and again.unchanged == report.documents
 
 
 def test_cli_segment_and_status_on_disk(tmp_path):
@@ -75,6 +90,8 @@ def test_cli_segment_and_status_on_disk(tmp_path):
                 "raw_archive": "files",
                 "store": "sqlite",
                 "search": "sqlite",
+                "embedder": "memory",
+                "vectors": "sqlite",
                 "llm": "memory",
             }.items()
         )

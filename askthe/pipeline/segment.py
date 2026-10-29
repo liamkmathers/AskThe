@@ -1,4 +1,4 @@
-"""Stage 2: rebuild videos and segments from the raw archive, and index the segments.
+"""Stage 2: rebuild videos and segments from the raw archive. Run `index` afterwards.
 
 Everything written here is derived, so it is replaced on each run: re-running after
 changing the segmenting rules gives the same result as a fresh database.
@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from askthe.core.interfaces import DocKind, KnowledgeStore, RawArchive, SearchDoc, SearchIndex
+from askthe.core.interfaces import KnowledgeStore, RawArchive
 from askthe.core.models import Creator
 from askthe.core.segmenting import SegmentingRules, segment_text, video_from_raw
 
@@ -23,7 +23,6 @@ def segment_videos(
     creator: Creator,
     archive: RawArchive,
     store: KnowledgeStore,
-    search: SearchIndex,
     rules: SegmentingRules | None = None,
 ) -> SegmentReport:
     report = SegmentReport()
@@ -34,19 +33,6 @@ def segment_videos(
 
         store.upsert_video(video)
         store.replace_segments(video.id, segments)
-        search.remove_video(video.id)
-        search.index(
-            [
-                SearchDoc(
-                    id=s.id,
-                    kind=DocKind.SEGMENT,
-                    creator_id=creator.slug,
-                    video_id=video.id,
-                    text=s.text,
-                )
-                for s in segments
-            ]
-        )
         report.videos += 1
         report.segments += len(segments)
     return report

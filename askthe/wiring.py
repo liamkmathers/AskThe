@@ -14,11 +14,13 @@ from typing import Any
 from askthe.config import AppConfig, ConfigError
 from askthe.core.interfaces import (
     CatalogSource,
+    Embedder,
     KnowledgeStore,
     LLMClient,
     RawArchive,
     SearchIndex,
     TranscriptSource,
+    VectorIndex,
 )
 
 # Each adapter factory takes (options from askthe.toml, the app config) and returns
@@ -32,6 +34,8 @@ PORTS: dict[str, type] = {
     "raw_archive": RawArchive,
     "store": KnowledgeStore,
     "search": SearchIndex,
+    "embedder": Embedder,
+    "vectors": VectorIndex,
     "llm": LLMClient,
 }
 
@@ -57,6 +61,14 @@ REGISTRY: dict[str, dict[str, str]] = {
         "memory": "askthe.wiring:_memory_search",
         "sqlite": "askthe.wiring:_sqlite_search",
     },
+    "embedder": {
+        "memory": "askthe.wiring:_memory_embedder",
+        "openai": "askthe.wiring:_openai_embedder",
+    },
+    "vectors": {
+        "memory": "askthe.wiring:_memory_vectors",
+        "sqlite": "askthe.wiring:_sqlite_vectors",
+    },
     "llm": {
         "memory": "askthe.wiring:_memory_llm",
         "anthropic": "askthe.wiring:_anthropic_llm",
@@ -72,6 +84,8 @@ class Services:
     raw_archive: RawArchive
     store: KnowledgeStore
     search: SearchIndex
+    embedder: Embedder
+    vectors: VectorIndex
     llm: LLMClient
 
 
@@ -194,3 +208,30 @@ def _anthropic_llm(options: dict[str, Any], config: AppConfig) -> Any:
         fallbacks=options.get("fallbacks", True),
         base_url=options.get("base_url", "https://api.anthropic.com"),
     )
+
+
+def _memory_embedder(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.memory import MemoryEmbedder
+
+    return MemoryEmbedder()
+
+
+def _openai_embedder(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.openai_embedder import OpenAIEmbedder
+
+    return OpenAIEmbedder(
+        model=options.get("model", "text-embedding-3-small"),
+        batch_size=options.get("batch_size", 256),
+    )
+
+
+def _memory_vectors(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.memory import MemoryVectorIndex
+
+    return MemoryVectorIndex()
+
+
+def _sqlite_vectors(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.sqlite import SqliteVectorIndex
+
+    return SqliteVectorIndex(config.data_dir / options.get("path", "askthe.db"))

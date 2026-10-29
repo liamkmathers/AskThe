@@ -8,6 +8,7 @@ interface's contract.
 from __future__ import annotations
 
 import re
+import zlib
 from collections import defaultdict, deque
 from collections.abc import Callable, Sequence
 from typing import Any
@@ -15,12 +16,15 @@ from typing import Any
 from pydantic import BaseModel
 
 from askthe.core.interfaces import (
+    DocKind,
     Generated,
     LLMTask,
     SearchDoc,
     SearchHit,
     SearchQuery,
     T,
+    VectorHit,
+    VectorItem,
 )
 from askthe.core.models import (
     AnswerLog,
@@ -217,19 +221,59 @@ class MemorySearchIndex:
 
 
 class MemoryEmbedder:
-    """Deterministic bag-of-letters vectors. Only for exercising code paths in tests."""
+    """Hashed bag-of-words vectors: texts sharing words are close. Only for tests."""
 
-    dimension = 26
+    name = "memory"
+    dimension = 64
 
     def embed(self, texts: Sequence[str]) -> list[list[float]]:
         vectors = []
         for text in texts:
-            counts = [0.0] * self.dimension
-            for ch in text.lower():
-                if "a" <= ch <= "z":
-                    counts[ord(ch) - ord("a")] += 1
-            vectors.append(counts)
+            v = [0.0] * self.dimension
+            for word in _terms(text):
+                v[zlib.crc32(word.encode()) % self.dimension] += 1.0
+            vectors.append(v)
         return vectors
+
+
+class MemoryVectorIndex:
+    """Brute-force cosine similarity over vectors held in memory."""
+
+    def __init__(self) -> None:
+        self._items: dict[str, VectorItem] = {}
+
+    def upsert(self, items: Sequence[VectorItem]) -> None:
+        for item in items:
+            self._items[item.id] = item
+
+    def content_hashes(self, video_id: str) -> dict[str, str]:
+        return {i.id: i.content_hash for i in self._items.values() if i.video_id == video_id}
+
+    def remove_video(self, video_id: str) -> None:
+        self._items = {k: i for k, i in self._items.items() if i.video_id != video_id}
+
+    def remove(self, ids: Sequence[str]) -> None:
+        for i in ids:
+            self._items.pop(i, None)
+
+    def search(
+        self, vector: Sequence[float], creator_id: str, kinds: Sequence[DocKind], limit: int
+    ) -> list[VectorHit]:
+        hits = [
+            VectorHit(
+                doc_id=i.id, kind=i.kind, video_id=i.video_id, score=_cosine(vector, i.vector)
+            )
+            for i in self._items.values()
+            if i.creator_id == creator_id and i.kind in kinds
+        ]
+        hits.sort(key=lambda h: (-h.score, h.doc_id))
+        return hits[:limit]
+
+
+def _cosine(a: Sequence[float], b: Sequence[float]) -> float:
+    dot = sum(x * y for x, y in zip(a, b, strict=True))
+    norm = (sum(x * x for x in a) ** 0.5) * (sum(y * y for y in b) ** 0.5)
+    return dot / norm if norm else 0.0
 
 
 Response = BaseModel | Callable[[str, str], Any]

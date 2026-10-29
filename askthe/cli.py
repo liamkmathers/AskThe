@@ -16,11 +16,12 @@ from askthe.config import (
     load_video_selection,
 )
 from askthe.core.models import Creator
-from askthe.pipeline.ask import ask
+from askthe.pipeline.ask import RetrievalSettings, ask
 from askthe.pipeline.fetch import fetch_videos
+from askthe.pipeline.index import index_videos
 from askthe.pipeline.segment import segment_videos
 from askthe.pipeline.understand import understand_videos
-from askthe.wiring import Services, build_services
+from askthe.wiring import PORTS, Services, build_services
 
 app = typer.Typer(help="AskThe: a creator's back catalogue, answerable.", no_args_is_help=True)
 
@@ -52,7 +53,7 @@ def check(config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
 
     typer.echo(f"{'config':<12} {config_path}")
     typer.echo(f"{'data dir':<12} {config.data_dir}")
-    for port in ("catalog", "transcripts", "raw_archive", "store", "search", "llm"):
+    for port in PORTS:
         adapter = getattr(services, port)
         typer.echo(f"{port:<12} {config.adapters[port].use} ({type(adapter).__name__})")
     if not creators:
@@ -153,7 +154,7 @@ def videos(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH)
 def segment(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
     """Stage 2: rebuild videos and segments from the raw archive, and index them."""
     services, c = _setup(config_path, creator)
-    report = segment_videos(c, services.raw_archive, services.store, services.search)
+    report = segment_videos(c, services.raw_archive, services.store)
     typer.echo(f"segmented {report.videos} videos into {report.segments} segments")
 
 
@@ -181,7 +182,6 @@ def understand(
     report = understand_videos(
         c,
         services.store,
-        services.search,
         services.llm,
         platform_ids=ids,
         force=force,
@@ -197,6 +197,19 @@ def understand(
         raise typer.Exit(1)
 
 
+@app.command(name="index")
+def index_command(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
+    """Stage 4: build keyword and vector search. Embeds only what changed."""
+    services, c = _setup(config_path, creator)
+    report = index_videos(c, services.store, services.search, services.vectors, services.embedder)
+    typer.echo(
+        f"indexed {report.videos} videos, {report.documents} documents "
+        f"({report.embedded} embedded, {report.unchanged} unchanged)"
+    )
+    if report.unprofiled:
+        typer.echo(f"{len(report.unprofiled)} videos have no profile yet; run understand")
+
+
 @app.command(name="ask")
 def ask_command(
     creator: CreatorArg,
@@ -205,14 +218,30 @@ def ask_command(
 ) -> None:
     """Answer a question from the creator's videos, with verified quotes. Calls the LLM."""
     services, c = _setup(config_path, creator)
-    result = ask(c, question, services.store, services.search, services.llm)
+    result = ask(
+        c,
+        question,
+        services.store,
+        services.search,
+        services.llm,
+        vectors=services.vectors,
+        embedder=services.embedder,
+        settings=RetrievalSettings.from_config(services.config.retrieval),
+    )
     a = result.answer
     typer.echo(a.text)
     if a.sources:
         typer.echo("\nSources:")
         for s in sorted(a.sources, key=lambda s: s.n):
             typer.echo(f'[{s.n}] {s.title} ({s.published}) {s.url}\n    "{s.quote}"')
-    typer.echo(f"\ncoverage: {a.coverage.value} | read {len(result.videos_read)} videos")
+    t = result.trace
+    typer.echo(
+        f"\ncoverage: {a.coverage.value} | {t['mode']} retrieval: read "
+        f"{len(result.videos_read)} videos, {t.get('context_words', 0):,} words"
+        + (f" ({t['kept']} of {t['candidates']} candidates kept)" if "kept" in t else "")
+    )
+    for warning in t.get("warnings", []):
+        typer.secho(f"warning: {warning}", fg=typer.colors.YELLOW)
     if a.problems:
         typer.secho("unverified citations removed:", fg=typer.colors.YELLOW)
         for problem in a.problems:

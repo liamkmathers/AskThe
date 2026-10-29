@@ -19,7 +19,7 @@ from askthe.core.profiling import (
     ProfileDraft,
     SectionDraft,
 )
-from askthe.pipeline.ask import ask
+from askthe.pipeline.ask import RetrievalSettings, ask
 from askthe.pipeline.understand import understand_videos
 from tests import factories as f
 
@@ -148,20 +148,20 @@ def setup():
 def test_understand_profiles_and_indexes_and_skips_on_rerun():
     store, search, llm, video = setup()
     llm.script(LLMTask.UNDERSTAND, profile_draft())
-    report = understand_videos(creator(), store, search, llm)
+    report = understand_videos(creator(), store, llm)
     assert report.profiled == [video.id] and not report.failed
     profile = store.get_profile(video.id)
     assert profile.passages[0].role is PassageRole.SPONSOR
     assert profile.outline[0].summary == "Uniqlo and others"
     assert store.get_entity("test-creator:e:uniqlo").aliases == ["Unilo"]
-    again = understand_videos(creator(), store, search, llm)
+    again = understand_videos(creator(), store, llm)
     assert again.skipped == [video.id]
 
 
 def test_ask_reads_marked_transcripts_and_retries_bad_citations():
     store, search, llm, video = setup()
     llm.script(LLMTask.UNDERSTAND, profile_draft())
-    understand_videos(creator(), store, search, llm)
+    understand_videos(creator(), store, llm)
 
     bad = AnswerDraft(
         answer="Best ever [1].",
@@ -175,7 +175,15 @@ def test_ask_reads_marked_transcripts_and_retries_bad_citations():
     )
     llm.script(LLMTask.ANSWER, bad, good)
 
-    result = ask(creator(), "best value t-shirt?", store, search, llm, today=date(2026, 10, 29))
+    result = ask(
+        creator(),
+        "best value t-shirt?",
+        store,
+        search,
+        llm,
+        settings=RetrievalSettings(mode="full"),
+        today=date(2026, 10, 29),
+    )
     assert result.videos_read == [video.id]
     assert [s.quote for s in result.answer.sources] == ["I wear it all the time"]
     assert not result.answer.problems
