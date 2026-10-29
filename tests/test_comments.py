@@ -127,3 +127,50 @@ def test_candidates_are_viewer_questions_most_liked_first_without_duplicates():
     assert [(q.id, q.kind) for q in found] == [("c3", "request"), ("c2", "question")]
     assert found[1].url == "https://www.youtube.com/watch?v=abc&lc=c2"
     assert found[1].video_title == "T-shirts ranked"
+
+
+def test_limit_counts_only_videos_not_yet_done(tmp_path):
+    from typer.testing import CliRunner
+
+    from askthe.cli import app
+
+    (tmp_path / "creators").mkdir()
+    (tmp_path / "creators" / f"{f.CREATOR}.yaml").write_text(f.creator().model_dump_json())
+    ports = {
+        "catalog": "memory",
+        "transcripts": "memory",
+        "comments": "memory",
+        "raw_archive": "files",
+        "profiles": "files",
+        "store": "memory",
+        "search": "memory",
+        "embedder": "memory",
+        "vectors": "memory",
+        "llm": "memory",
+    }
+    (tmp_path / "askthe.toml").write_text(
+        'data_dir = "data"\ncreators_dir = "creators"\n'
+        + "".join(f'[adapters.{p}]\nuse = "{u}"\n' for p, u in ports.items())
+    )
+    FileRawArchive(tmp_path / "data").save_comments(batch("a"))
+    result = CliRunner().invoke(
+        app,
+        [
+            "comments",
+            f.CREATOR,
+            "-v",
+            "a",
+            "-v",
+            "b",
+            "-v",
+            "c",
+            "--limit",
+            "1",
+            "--delay",
+            "0",
+            "--config",
+            str(tmp_path / "askthe.toml"),
+        ],
+    )
+    assert result.exit_code == 0, result.output
+    assert FileRawArchive(tmp_path / "data").list_comment_ids(f.CREATOR) == ["a", "b"]

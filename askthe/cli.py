@@ -98,7 +98,9 @@ def fetch(
     channel: Annotated[
         bool, typer.Option("--channel", help="Fetch every video on the channel.")
     ] = False,
-    limit: Annotated[int | None, typer.Option(help="Fetch at most this many videos.")] = None,
+    limit: Annotated[
+        int | None, typer.Option(help="Fetch at most this many videos not yet fetched.")
+    ] = None,
     delay: Annotated[
         float, typer.Option(help="Seconds to wait between videos (12 = 5 videos a minute).")
     ] = 12.0,
@@ -115,7 +117,8 @@ def fetch(
         ids = [v.platform_id for v in services.catalog.list_videos(c)]
     else:
         ids = load_video_selection(services.config, c)
-    ids = ids[:limit] if limit is not None else ids
+    if limit is not None:  # count only videos still to fetch
+        ids = [v for v in ids if not services.raw_archive.has(c.slug, v)][:limit]
     if not ids:
         typer.echo("no videos to fetch: add IDs to the selection file, or use --video/--channel")
         raise typer.Exit(1)
@@ -152,7 +155,9 @@ def comments(
         typer.Option("--video", "-v", help="These video IDs instead of the selection file."),
     ] = None,
     per_video: Annotated[int, typer.Option(help="Top comments to keep per video.")] = 300,
-    limit: Annotated[int | None, typer.Option(help="At most this many videos.")] = None,
+    limit: Annotated[
+        int | None, typer.Option(help="At most this many videos not yet done.")
+    ] = None,
     delay: Annotated[float, typer.Option(help="Seconds to wait between videos.")] = 12.0,
     stop_after: Annotated[
         int, typer.Option(help="Stop after this many failures in a row (likely rate-limited).")
@@ -162,7 +167,8 @@ def comments(
     """Fetch viewers' top comments into the raw archive, for the test set. Needs YouTube."""
     services, c = _setup(config_path, creator)
     ids = list(video) if video else load_video_selection(services.config, c)
-    ids = ids[:limit] if limit is not None else ids
+    if limit is not None:  # count only videos still to do
+        ids = [v for v in ids if not services.raw_archive.has_comments(c.slug, v)][:limit]
     if not ids:
         typer.echo("no videos: add IDs to the selection file, or use --video")
         raise typer.Exit(1)
