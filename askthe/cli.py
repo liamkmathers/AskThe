@@ -405,7 +405,7 @@ def eval_command(
     modes = list(mode) if mode else ["hybrid", "full"]
 
     if rescore_run:
-        run = rescore(json.loads(rescore_run.read_text()), test_set)
+        run = rescore(json.loads(rescore_run.read_text()), test_set, c.pronoun)
         out = rescore_run.with_name(rescore_run.stem + "-rescored.json")
         out.write_text(json.dumps(run, indent=2, ensure_ascii=False) + "\n")
         _print_summary(run)
@@ -447,6 +447,7 @@ def _print_summary(run: dict) -> None:
         typer.echo(
             f"{m}: {s['passed_checks']}/{s['questions']} passed automated checks, "
             f"coverage right {s['coverage_right']}, citations hold {s['citations_hold']}, "
+            f"personal life {s.get('personal_life', 0)}, "
             f"mean {s['mean_context_words']:,} words, "
             + (f"${s['cost_usd']:.2f}" if s["cost_usd"] is not None else "cost unknown")
             + (

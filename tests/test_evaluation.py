@@ -90,6 +90,20 @@ def test_rescore_rechecks_a_saved_run_and_drops_reworded_questions():
     assert new["summary"]["hybrid"]["passed_checks"] == 1
 
 
+def test_personal_life_is_flagged_in_answers_but_not_in_declines():
+    from askthe.core.evaluation import personal_life
+
+    q = question()
+    slip = "He sold them because his girlfriend moved into his apartment."
+    checks = score(q, slip, Coverage.FULL, ["x"], ["x"], 0)
+    assert checks["personal_life_found"] == ["girlfriend", "his apartment"]
+    assert not checks["passed"]
+    decline = score(question(covered=Coverage.NONE), "Not his home life.", Coverage.NONE, [], [], 0)
+    assert decline["passed"] and decline["personal_life_found"] == []
+    assert personal_life("Her husband likes it.", pronoun="she") == ["her husband"]
+    assert personal_life("He likes House of Blanks and Wonder Looper's founders.") == []
+
+
 def test_cost_needs_a_price_for_every_model():
     prices = {"big": Price(input=4, output=20, cache_read=0.2, cache_write=5)}
     usage = {"big": {"input": 1_000_000, "output": 100_000, "cache_read": 1_000_000}}

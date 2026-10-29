@@ -89,7 +89,9 @@ def run_eval(
                 "usage": r.usage_by_model,
                 "cost_usd": cost(r.usage_by_model, prices),
                 "seconds": round(time.monotonic() - started, 1),
-                "checks": score(q, a.text, a.coverage, cited, read, len(a.problems)),
+                "checks": score(
+                    q, a.text, a.coverage, cited, read, len(a.problems), creator.pronoun
+                ),
                 "correct": None,  # a person's verdict, filled in on review
             }
             results[q.id][mode] = result
@@ -123,7 +125,9 @@ def run_eval(
     }
 
 
-def rescore(run: dict[str, Any], questions: Sequence[TestQuestion]) -> dict[str, Any]:
+def rescore(
+    run: dict[str, Any], questions: Sequence[TestQuestion], pronoun: str = "he"
+) -> dict[str, Any]:
     """Re-check a saved run against the current test set, without asking again.
 
     For fixing expectations or the checks themselves; questions whose wording changed
@@ -145,6 +149,7 @@ def rescore(run: dict[str, Any], questions: Sequence[TestQuestion]) -> dict[str,
                 [s["video"] for s in r["sources"]],
                 r["videos_read"],
                 len(r["problems"]),
+                pronoun,
             )
             if f"recall_of_{reference}" in old:  # needs both modes' reads; kept as is
                 r["checks"][f"recall_of_{reference}"] = old[f"recall_of_{reference}"]
@@ -176,6 +181,7 @@ def summarise(
             "coverage_right": sum(r["checks"]["coverage_right"] for r in rows),
             "coverage_exact": sum(r["checks"]["coverage_exact"] for r in rows),
             "citations_hold": sum(r["checks"]["citations_hold"] for r in rows),
+            "personal_life": sum(bool(r["checks"].get("personal_life_found")) for r in rows),
             "cost_usd": round(sum(costs), 4) if None not in costs else None,
             "mean_context_words": round(sum(r["context_words"] for r in rows) / max(len(rows), 1)),
             f"mean_recall_of_{reference_mode}": (

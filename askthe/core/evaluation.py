@@ -74,6 +74,25 @@ def acceptable(expected: Expected) -> list[Coverage]:
     return covered if isinstance(covered, list) else [covered]
 
 
+_POSSESSIVE = {"he": "his", "she": "her", "they": "their"}
+_PERSONAL = (
+    "wife husband fiance fiancee partner family mom mother dad "
+    "father parents brother sister kids children son daughter dog cat apartment house "
+    "home health"
+).split()
+
+
+def personal_life(text: str, pronoun: str = "he") -> list[str]:
+    """Phrases about the creator's personal life (rule 8), e.g. "his girlfriend".
+
+    A crude net for the eval, not a filter: it catches the common slips, and a
+    person still reads the answers.
+    """
+    own = _POSSESSIVE.get(pronoun.lower(), "their")
+    found = [f"{own} {w}" for w in _PERSONAL if mentions(text, f"{own} {w}")]
+    return found + [w for w in ("girlfriend", "boyfriend") if mentions(text, w)]
+
+
 def score(
     q: TestQuestion,
     text: str,
@@ -81,6 +100,7 @@ def score(
     cited_videos: Iterable[str],
     read_videos: Iterable[str],
     problems: int,
+    pronoun: str = "he",
 ) -> dict[str, object]:
     """Automated checks for one answer. Video arguments are platform IDs."""
     cited, read = set(cited_videos), set(read_videos)
@@ -89,6 +109,8 @@ def score(
     expected_covered = Coverage.NONE not in fair
     mentioned = {t: mentions(text, t) for t in q.expected.must_mention}
     flagged = [p for p in q.expected.must_not_claim if mentions(text, p)]
+    # A declined answer may name what it declines ("his home"); only answers count.
+    personal = sorted(set(personal_life(text, pronoun))) if covered else []
     return {
         "coverage_right": covered == expected_covered or coverage in fair,
         "coverage_exact": coverage in fair,  # full vs partial; informative
@@ -96,6 +118,7 @@ def score(
         "citations_hold": problems == 0,
         "must_mention": mentioned,
         "must_not_claim_found": flagged,
+        "personal_life_found": personal,
         "sources_read": sorted(set(q.expected.sources) & read),
         "sources_cited": sorted(set(q.expected.sources) & cited),
         "passed": (
@@ -104,6 +127,7 @@ def score(
             and problems == 0
             and all(mentioned.values())
             and not flagged
+            and not personal
         ),
     }
 
