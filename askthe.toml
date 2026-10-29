@@ -56,7 +56,7 @@ effort = { understand = "high", plan = "low", rerank = "low", answer = "high" }
 understand = "claude-opus-5-5"
 plan = "claude-haiku-5-5"    # quick query expansion
 rerank = "claude-haiku-5-5"  # scoring many short passages
-answer = "claude-opus-5-5"
+answer = "claude-sonnet-5-5"
 
 # How answers choose what to read. "hybrid": plan, keyword + vector search, rerank,
 # then the relevant sections. "full": whole transcripts (all of them if they fit).

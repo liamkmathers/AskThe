@@ -136,3 +136,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 - **Length follows the question:** several products earn a part each; it stays readable.
 - **Descriptions are his words.** Each video's description is shown with links collapsed and is citable (segment -1), its quotes verified in code like any other; promo codes and sponsor mentions in it are advertising. Section summaries written by the profiler are for finding things only and are never cited.
 **Why:** the baseline's only two failures (q18, q19) were answers that talked about missing transcripts; one answer stated a profile summary as fact; descriptions hold real opinions ("not featured in video but amazing pieces").
+
+### D20. Sonnet 5.5 answers questions
+*2026-10-29*
+
+**Chose:** Claude Sonnet 5.5 (effort `high`) for answering, set in `askthe.toml`. Profiles stay on Opus 5.5; planning and reranking stay on Haiku 5.5. Supersedes D13 for answering.
+**Why:** compared on the 23-question set in hybrid mode (answering model only): Opus high $0.093 a question, Opus medium $0.072, Sonnet $0.041, Haiku $0.007. All passed the automated checks, and reading the answers showed no quality worth Opus's price. Haiku was accurate but thin; Sonnet keeps structure and depth at under half Opus's cost, and is the fastest (about 14 s). With the D19 rules and the personal-life rule, Sonnet's run passed every check with no personal-life slips, for $0.92 for all 23.
+**Watch:** Sonnet dropped part of a hedge once (q05: "still might be", without "but probably not") and labels many complete answers "partial". Both are prompt fixes, checked with `askthe eval`.
