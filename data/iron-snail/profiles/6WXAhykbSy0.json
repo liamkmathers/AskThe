@@ -1,0 +1,691 @@
+{
+  "platform_id": "6WXAhykbSy0",
+  "profile": {
+    "video_id": "iron-snail:6WXAhykbSy0",
+    "purpose": "Explains what hemp is as a textile fiber, how it differs from cotton, why it hasn't replaced cotton, and why Patagonia is investing heavily in hemp.",
+    "video_type": "explainer",
+    "thesis": "Hemp is a bast fiber that has been miscompared to cotton. It is strong and durable but coarser and less comfortable. Its real value is in blends with other materials, and Patagonia is building the infrastructure to grow and process hemp in the hope that it gets refined over time.",
+    "key_takeaways": [
+      "Many famous hemp claims (the hemp Porsche, the hemp plane) are exaggerated or unfinished.",
+      "Cotton is a seed-hair fiber; hemp is a bast fiber, closer to jute, linen, nettle and sisal than to cotton.",
+      "Cotton became dominant because it balances strength and softness, was industrialized first and was a major US and British export.",
+      "Hemp is called one of the strongest natural fibers, second only to spider silk in the creator's view, because bast fibers come from the plant stalk and are long.",
+      "Hemp fibers range from about 10 to 50 microns, compared with 9 to 22 for cotton, 10 to 25 for linen and 10 to 35 for wool, so hemp can feel itchy at first.",
+      "Hemp is a divisive plant, which pushes discussion to extremes. In reality it is good for some things but not everything.",
+      "Blends are where hemp shines: it adds durability and abrasion resistance to shirts and socks, can replace synthetics in base layers, and can reduce plastic use.",
+      "Patagonia is building US hemp farming and processing infrastructure, much as it once did for organic cotton, in the hope that hemp gets softer and cheaper over time."
+    ],
+    "outline": [
+      {
+        "title": "Intro: hemp hype vs reality",
+        "summary": "Historical and modern hemp claims (Old Ironsides, Betsy Ross, the hemp Porsche, the hemp plane) and why they fall short. Poses the question of why Patagonia invests in hemp, and introduces the outfit worn in the video.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Why cotton won",
+        "summary": "Hemp is always compared to the wrong things. Covers why cotton became the most popular textile and hemp's past in US farming.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Seed hair vs bast fiber",
+        "summary": "Explains that cotton comes from seed hairs while hemp is a bast fiber related to jute, linen, nettle and sisal, which brings both benefits and drawbacks.",
+        "first_segment": 3,
+        "last_segment": 3
+      },
+      {
+        "title": "Strength and comfort: fiber length and microns",
+        "summary": "Covers why hemp is so strong (long stalk fibers, compared to spider silk and jute) and how its fiber thickness compares to cotton, linen and wool, making it less comfortable at first.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Number one: why hemp isn't taking over the world",
+        "summary": "Hemp's divisiveness pushes debate to extremes. Cotton, jute, regular plastic and concrete each outperform hemp in their own roles.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Number two: blends and Patagonia's investment",
+        "summary": "Hemp improves blends in shirts, plastics, base layers and socks. Patagonia is building farming and processing infrastructure, expecting hemp to be refined the way cotton was.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Closing: the potato analogy",
+        "summary": "Compares hemp to a potato: good, but not something to rely on exclusively.",
+        "first_segment": 10,
+        "last_segment": 10
+      }
+    ],
+    "passages": [
+      {
+        "role": "sponsor",
+        "first_segment": 0,
+        "starts_with": "this video is sponsored by Squarespace",
+        "last_segment": 0,
+        "ends_with": "need a website or domain and fast",
+        "note": "Opening sponsor mention for Squarespace"
+      },
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Old Ironsides is one of the",
+        "last_segment": 1,
+        "ends_with": "that should be uh that should be fun",
+        "note": "Cold open on hemp myths, framing the Patagonia question, the outfit worn and the weekly carrot link collection plug"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "listen YouTube I'm not your mother",
+        "last_segment": 4,
+        "ends_with": "your first order of a website or domain",
+        "note": "Sponsor read for Squarespace website builder"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "and the secret is in my",
+        "last_segment": 7,
+        "ends_with": "this is an Idaho Potato",
+        "note": "Joke pulling a potato out of the backpack"
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "anyway so I have to go",
+        "last_segment": 10,
+        "ends_with": "enjoy the rest of the video",
+        "note": "Joke fake goodbye"
+      },
+      {
+        "role": "outro",
+        "first_segment": 10,
+        "starts_with": "in closing hemp is a lot",
+        "last_segment": 10,
+        "ends_with": "before I cooked it for dinner",
+        "note": "Closing potato analogy and taking the potato for a walk"
+      }
+    ],
+    "topics": [
+      "hemp vs cotton",
+      "bast fibers",
+      "fiber micron thickness and itchiness",
+      "history of hemp",
+      "why cotton became dominant",
+      "hemp blends",
+      "Patagonia hemp clothing",
+      "sustainable textiles",
+      "organic cotton history",
+      "hempcrete and hemp plastic"
+    ],
+    "entity_ids": [
+      "iron-snail:e:patagonia",
+      "iron-snail:e:the-north-face",
+      "iron-snail:e:squarespace",
+      "iron-snail:e:squarespace-fluid-engine",
+      "iron-snail:e:squarespace-point-of-sale-app",
+      "iron-snail:e:hemp",
+      "iron-snail:e:cotton",
+      "iron-snail:e:organic-cotton",
+      "iron-snail:e:bast-fiber",
+      "iron-snail:e:micron",
+      "iron-snail:e:jute",
+      "iron-snail:e:linen",
+      "iron-snail:e:nettle",
+      "iron-snail:e:sisal",
+      "iron-snail:e:burlap",
+      "iron-snail:e:spider-silk",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:arena",
+      "iron-snail:e:nylon",
+      "iron-snail:e:polyester",
+      "iron-snail:e:duck-canvas",
+      "iron-snail:e:cotton-gauze",
+      "iron-snail:e:hempcrete",
+      "iron-snail:e:hemp-plastic",
+      "iron-snail:e:canvas",
+      "iron-snail:e:birkenstock",
+      "iron-snail:e:porsche",
+      "iron-snail:e:hemp-earth",
+      "iron-snail:e:old-ironsides",
+      "iron-snail:e:betsy-ross",
+      "iron-snail:e:jim-green",
+      "iron-snail:e:bradley-mountain",
+      "iron-snail:e:patagonia-hemp-jeans",
+      "iron-snail:e:carrot-link"
+    ],
+    "categories": [
+      "t-shirts",
+      "denim",
+      "shirts",
+      "accessories"
+    ],
+    "answers_questions": [
+      "Is hemp better than cotton for t-shirts?",
+      "Why is Patagonia so into hemp?",
+      "Why does hemp feel itchy or rough compared to cotton?",
+      "What's the difference between a bast fiber and cotton?",
+      "Is hemp really the strongest natural fiber?",
+      "Why did cotton become the most popular fabric?",
+      "Why hasn't hemp taken over the clothing industry?",
+      "How many microns are hemp, cotton, linen and wool fibers?",
+      "What are hemp blends good for?",
+      "Will hemp clothing get softer and cheaper in the future?",
+      "Is hemp related to linen or jute?",
+      "Was the hemp car or hemp plane real?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:6WXAhykbSy0:s0007",
+        "note": "Earlier (segment 1) he says he is covered in 100% hemp. He now says he is not wearing 100% hemp: the jeans are an unusual blend."
+      },
+      {
+        "segment_id": "iron-snail:6WXAhykbSy0:s0010",
+        "note": "He admits the potato was a poor example for his analogy, since a human can almost survive on potatoes alone if they also drink milk."
+      },
+      {
+        "segment_id": "iron-snail:6WXAhykbSy0:s0000",
+        "note": "After listing hemp's 'miracle' claims, he says the hemp Porsche was only partially hemp and couldn't be in the rain, and the hemp plane is unfinished after more than eight years."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The North Face",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "North Face"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:squarespace",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Squarespace",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:squarespace-fluid-engine",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Squarespace Fluid Engine",
+      "brand": "Squarespace",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fluid engine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:squarespace-point-of-sale-app",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Squarespace point of sale app",
+      "brand": "Squarespace",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hemp",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "hemp",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "cannabis",
+        "him"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:organic-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "organic cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "organic"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bast-fiber",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "bast fiber",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bass fiber",
+        "fast fiber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:micron",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "micron",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "microns"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jute",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "jute",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:linen",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "linen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nettle",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nettle",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sisal",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "sisal",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sissel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:burlap",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "burlap",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:spider-silk",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "spider silk",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arena",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Arena",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:duck-canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "duck canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Duck canvas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton-gauze",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton gauze",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hempcrete",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "hempcrete",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hem Crete",
+        "hemp Crete"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hemp-plastic",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "hemp plastic",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:birkenstock",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Birkenstock",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Birkenstocks",
+        "birkenstock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:porsche",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Porsche",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hemp-earth",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Hemp Earth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hemp Earth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:old-ironsides",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Old Ironsides",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:betsy-ross",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Betsy Ross",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jim-green",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Jim Green",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Jim green",
+        "gym green"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bradley-mountain",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Bradley Mountain",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-hemp-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia hemp jeans",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "these jeans"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot-link",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "carrot link",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carrot",
+        "carrot Lincoln bio",
+        "carrot Link"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "286d4f449af7944b"
+}

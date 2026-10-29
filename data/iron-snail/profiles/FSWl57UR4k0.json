@@ -1,0 +1,1063 @@
+{
+  "platform_id": "FSWl57UR4k0",
+  "profile": {
+    "video_id": "iron-snail:FSWl57UR4k0",
+    "purpose": "A large ranking roundup of the best t-shirts Michael has tested across past videos plus newcomers. The shirts were measured, washed, stress-washed and checked for shrinkage and torque, then sorted into five categories, with a personal winner picked in each.",
+    "video_type": "ranking",
+    "thesis": "Almost anyone can make a good t-shirt today, so the 'best' one depends on personal preference. The video describes how each top shirt feels, fits and holds up so viewers can match one to what they want, and names a personal favourite per category.",
+    "key_takeaways": [
+      "Shirts were measured, washed per care instructions, stress-washed, then re-measured for shrinkage and torque.",
+      "Five categories: all-arounders, Japan's might, heaviest monsters, supremes, and best value deals.",
+      "Category picks: J.Press x American Trench (all-arounders), Wonder Looper (Japan), American Giant Everest (heavyweights), Merz b. Schwanen 2M15 (supremes), Front General Store or House of Blanks (value).",
+      "Loopwheel knitting is explained as helping a shirt recover its shape better.",
+      "Shirts on the 3Sixteen/House of Blanks fabric from a Canadian mill showed essentially zero torque.",
+      "Extra shirts cut from the video are listed with shrink and torque data in the description.",
+      "Video includes a Koio sneaker sponsor read."
+    ],
+    "outline": [
+      {
+        "title": "Introduction and method",
+        "summary": "Shows torque on an 'old faithful' tee and explains the testing method (measuring, washing, stress-washing, torque). Lays out the five categories.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "The all-arounders",
+        "summary": "Mid-to-high tier shirts recommendable to anyone: J.Press x American Trench, Buck Mason ToughKnit (possible Supima, heavy torque) and the 3Sixteen heavyweight two-pack (no torque, Canadian-made fabric).",
+        "first_segment": 2,
+        "last_segment": 6
+      },
+      {
+        "title": "Koio sponsor read",
+        "summary": "Sponsor segment for Koio sneakers, made in Italy, and the Capri model.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Japan's might",
+        "summary": "Japanese tees: Iron Heart loopwheel, Warehouse slub-yarn tee, Wonder Looper ELS heather tee (zero torque), Samurai (cropped, size up) and Allevol as an alternative fit.",
+        "first_segment": 7,
+        "last_segment": 11
+      },
+      {
+        "title": "Heavyweight monsters",
+        "summary": "The heaviest shirts: The Real McCoys Buco, The Flat Head, and the more wearable American Giant Everest Tee.",
+        "first_segment": 11,
+        "last_segment": 13
+      },
+      {
+        "title": "The supremes",
+        "summary": "Elevated, clean minimalist tees: Merz b. Schwanen 2M15 (updated version of the 215 from The Bear), Asket, Lady White Our T-Shirt, and Knickerbocker's discounted basics program.",
+        "first_segment": 13,
+        "last_segment": 17
+      },
+      {
+        "title": "Best budget deals",
+        "summary": "Value picks: Uniqlo ($20), Muji (longer and wider), Front General Store ($40, made in Japan) and House of Blanks ($35, made in Canada, zero torque).",
+        "first_segment": 18,
+        "last_segment": 20
+      },
+      {
+        "title": "Winner's circle and conclusion",
+        "summary": "Mentions Bronson as an omission and argues the best tee is about preference. Picks a personal favourite in each category and points viewers to extra shirts in the description.",
+        "first_segment": 20,
+        "last_segment": 24
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "I like to call this t-shirt",
+        "last_segment": 2,
+        "ends_with": "and tell you all about them.",
+        "note": "Cold open on torque, testing method, category overview and greeting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "Right now, I'm not I've gained",
+        "last_segment": 3,
+        "ends_with": "Not feeling so hot about that.",
+        "note": "Personal remark about gaining weight after moving to Portland"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 6,
+        "starts_with": "Iron snail No, English. I did",
+        "last_segment": 7,
+        "ends_with": "and thanks for the sneakers.",
+        "note": "Sponsor read for Koio sneakers (Capri)"
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "Gigi Hadid is going to walk",
+        "last_segment": 13,
+        "ends_with": "Mark my words, it'll happen.",
+        "note": "Joke about Gigi Hadid buying a heavyweight tee at Self Edge"
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "The bear. Jeremy Allen White. Jeremy",
+        "last_segment": 14,
+        "ends_with": "spin around and talk about Jeremy.",
+        "note": "Joking riff about Jeremy Allen White and sneaking into Merz b. Schwanen in Germany"
+      },
+      {
+        "role": "outro",
+        "first_segment": 24,
+        "starts_with": "Before you go, please look in",
+        "last_segment": 24,
+        "ends_with": "if you're really interested.",
+        "note": "Points viewers to extra t-shirts listed in the description"
+      }
+    ],
+    "topics": [
+      "best white t-shirts 2025",
+      "t-shirt torque and shrinkage testing",
+      "loopwheel t-shirts",
+      "open-end vs ring-spun yarn",
+      "Japanese heavyweight t-shirts",
+      "heavyweight t-shirts",
+      "minimalist premium t-shirts",
+      "budget t-shirts",
+      "t-shirt fit and sizing advice",
+      "The Bear Jeremy Allen White t-shirt"
+    ],
+    "entity_ids": [
+      "iron-snail:e:studio-d-artisan-foxfibre-t-shirt",
+      "iron-snail:e:j-press-x-american-trench-t-shirt",
+      "iron-snail:e:buck-mason-toughknit-classic-tee",
+      "iron-snail:e:buck-mason",
+      "iron-snail:e:3sixteen-heavyweight-two-pack",
+      "iron-snail:e:rupa",
+      "iron-snail:e:koio",
+      "iron-snail:e:koio-capri",
+      "iron-snail:e:johannes",
+      "iron-snail:e:iron-heart-loopwheel-t-shirt",
+      "iron-snail:e:loopwheel",
+      "iron-snail:e:warehouse-4601-t-shirt",
+      "iron-snail:e:slub-yarn",
+      "iron-snail:e:healthknit",
+      "iron-snail:e:wonder-looper-els-t-shirt",
+      "iron-snail:e:wonder-looper-triple-heavyweight-t-shirt",
+      "iron-snail:e:basad",
+      "iron-snail:e:extra-long-staple-cotton",
+      "iron-snail:e:samurai-t-shirt",
+      "iron-snail:e:allevol-t-shirt",
+      "iron-snail:e:the-real-mccoys-buco-t-shirt",
+      "iron-snail:e:the-flat-head-t-shirt",
+      "iron-snail:e:freewheelers",
+      "iron-snail:e:gsm",
+      "iron-snail:e:self-edge",
+      "iron-snail:e:gigi-hadid",
+      "iron-snail:e:american-giant-everest-tee",
+      "iron-snail:e:merz-b-schwanen-2m15",
+      "iron-snail:e:merz-b-schwanen-215",
+      "iron-snail:e:merz-b-schwanen",
+      "iron-snail:e:jeremy-allen-white",
+      "iron-snail:e:the-bear",
+      "iron-snail:e:pedro-pascal",
+      "iron-snail:e:asket-t-shirt",
+      "iron-snail:e:asket",
+      "iron-snail:e:lady-white-our-t-shirt",
+      "iron-snail:e:knickerbocker-basics-program-t-shirt",
+      "iron-snail:e:uniqlo-t-shirt",
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:muji-washed-heavyweight-crew-neck-t-shirt",
+      "iron-snail:e:the-front-general-store-heavyweight-t-shirt",
+      "iron-snail:e:house-of-blanks-heavyweight-t-shirt",
+      "iron-snail:e:bronson",
+      "iron-snail:e:torque",
+      "iron-snail:e:open-end-yarn",
+      "iron-snail:e:ring-spun-yarn",
+      "iron-snail:e:supima-cotton",
+      "iron-snail:e:underarm-gusset",
+      "iron-snail:e:bound-collar",
+      "iron-snail:e:lwg-certified-leather",
+      "iron-snail:e:michael-kristy"
+    ],
+    "categories": [
+      "t-shirts",
+      "shoes"
+    ],
+    "answers_questions": [
+      "What's the best white t-shirt you've tested overall?",
+      "Which t-shirts don't twist or torque after washing?",
+      "Is the Buck Mason ToughKnit tee worth it and does it shrink or twist?",
+      "How does the 3Sixteen heavyweight tee compare to House of Blanks?",
+      "What's the best Japanese t-shirt brand for a regular fit?",
+      "How should I size the Samurai t-shirt?",
+      "What's the heaviest t-shirt you can buy?",
+      "Is the American Giant Everest tee too heavy to wear daily?",
+      "Is the Merz b. Schwanen 2M15 the same as the t-shirt from The Bear?",
+      "Is Lady White worth $70?",
+      "How does the Knickerbocker basics discount program work?",
+      "What's the best cheap t-shirt, Uniqlo or Muji?",
+      "Is the Front General Store tee better than House of Blanks?",
+      "What does loopwheel mean and why does it matter?",
+      "Asket vs Merz b. Schwanen, which is better?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:FSWl57UR4k0:s0012",
+        "note": "Starts attributing the heaviest tee to Freewheelers, then corrects himself: it is The Flat Head, which doesn't publish its GSM."
+      },
+      {
+        "segment_id": "iron-snail:FSWl57UR4k0:s0020",
+        "note": "Realises he forgot to include Bronson in the list and notes it usually wins or comes close in t-shirt comparisons."
+      },
+      {
+        "segment_id": "iron-snail:FSWl57UR4k0:s0011",
+        "note": "Says he sized too small in Samurai and too big in Allevol, then swaps to the small Allevol on camera."
+      }
+    ],
+    "related_videos": [
+      "Previous Iron Snail t-shirt comparison videos (greatest hits drawn from them)",
+      "Earlier t-shirt competition video that Asket won",
+      "Previous video mentioning The Real McCoys Buco as the hardest t-shirt",
+      "Earlier video covering Healthknit's bound collar",
+      "Other creators' t-shirt videos where Bronson wins"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:studio-d-artisan-foxfibre-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Studio D'Artisan FoxFibre t-shirt",
+      "brand": "Studio D'Artisan",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "old faithful"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:j-press-x-american-trench-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "J.Press x American Trench t-shirt",
+      "brand": "J.Press",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "J Press",
+        "J Press X-American Trench",
+        "Jress X-American Trench"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason-toughknit-classic-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Buck Mason ToughKnit Classic Tee",
+      "brand": "Buck Mason",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Buck Mason",
+        "BuckMason",
+        "Buckmason"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Buck Mason",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "BuckMason",
+        "Buckmason",
+        "Spock fairy",
+        "[ __ ] Mason"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:3sixteen-heavyweight-two-pack",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "3Sixteen Heavyweight Two Pack",
+      "brand": "3Sixteen",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "316",
+        "N316"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rupa",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rupa",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ruba"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:koio",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Koio",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Co",
+        "Coyo",
+        "Ecoyo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:koio-capri",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Koio Capri",
+      "brand": "Koio",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Capri X Marzoko"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:johannes",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Johannes",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ghanes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-heart-loopwheel-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Iron Heart loopwheel t-shirt",
+      "brand": "Iron Heart",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Iron Heart"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loopwheel",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loopwheel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Loop wheel",
+        "Loop wheeled",
+        "Loop will",
+        "loop whe",
+        "loop wheel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:warehouse-4601-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Warehouse 4601 t-shirt",
+      "brand": "Warehouse",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "4061",
+        "Warehouse",
+        "Warehouse 4061",
+        "warehouse 4061"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:slub-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "slub yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "slub Yarns",
+        "slub yarns",
+        "slubby"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:healthknit",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Healthknit",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "healthnit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wonder-looper-els-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wonder Looper ELS t-shirt",
+      "brand": "Wonder Looper",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Wonder Looper",
+        "Wonderlooper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wonder-looper-triple-heavyweight-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wonder Looper triple heavyweight t-shirt",
+      "brand": "Wonder Looper",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Wonderloopers triple heavyweight",
+        "one of one prototype",
+        "triple heavyweight t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:basad",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "basad",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Basad"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:extra-long-staple-cotton",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "extra long staple cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Extra long staple",
+        "extra long staple cotton fiber",
+        "extra-L long staple ELS cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samurai-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Samurai t-shirt",
+      "brand": "Samurai",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Samurai"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:allevol-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Allevol t-shirt",
+      "brand": "Allevol",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Alivol"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-real-mccoys-buco-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Real McCoys Buco t-shirt",
+      "brand": "The Real McCoys",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Real McCoys",
+        "buoah collection",
+        "real McCoys"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-flat-head-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Flat Head t-shirt",
+      "brand": "The Flat Head",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "flathead"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:freewheelers",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Freewheelers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "freewheelers",
+        "freo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gsm",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "GSM",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:self-edge",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Self Edge",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gigi-hadid",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Gigi Hadid",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:american-giant-everest-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "American Giant Everest Tee",
+      "brand": "American Giant",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "American Giant",
+        "American Giant Everest Tea"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merz-b-schwanen-2m15",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Merz b. Schwanen 2M15",
+      "brand": "Merz b. Schwanen",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "2M15",
+        "MSB"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merz-b-schwanen-215",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Merz b. Schwanen 215",
+      "brand": "Merz b. Schwanen",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "215",
+        "MS bee shirt",
+        "MSB 215",
+        "msby the 215"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merz-b-schwanen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Merz b. Schwanen",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "B",
+        "MS bee",
+        "MSB",
+        "MSB's",
+        "MSby",
+        "msby"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jeremy-allen-white",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Jeremy Allen White",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Jeremy Allen Whites",
+        "Jeremy White"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-bear",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "The Bear",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The bear",
+        "the bear"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pedro-pascal",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Pedro Pascal",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Pedro Pascet"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:asket-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Asket t-shirt",
+      "brand": "Asket",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Ascuit",
+        "Aset",
+        "Ask",
+        "ask",
+        "asket askit asket t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:asket",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Asket",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Ascuit",
+        "Aset",
+        "Ask",
+        "as Cat",
+        "aset",
+        "ask",
+        "ask it",
+        "asket",
+        "askit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lady-white-our-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Lady White Our T-Shirt",
+      "brand": "Lady White",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Lady White"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:knickerbocker-basics-program-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Knickerbocker basics program t-shirt",
+      "brand": "Knickerbocker",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Nickerbacher",
+        "Nickerbacher basics program t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo t-shirt",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unilo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo",
+        "Uno",
+        "uni",
+        "unic",
+        "unic clo",
+        "uniclo",
+        "uniqlo's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:muji-washed-heavyweight-crew-neck-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Muji Washed Heavyweight Crew Neck T-Shirt",
+      "brand": "Muji",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Muji",
+        "Muji shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-front-general-store-heavyweight-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Front General Store heavyweight t-shirt",
+      "brand": "The Front General Store",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Front General Store"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:house-of-blanks-heavyweight-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "House of Blanks heavyweight t-shirt",
+      "brand": "House of Blanks",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "House and Blanks",
+        "House of Blanks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Bronson",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:torque",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "torque",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "torquers",
+        "torquing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:open-end-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "open-end yarn",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Open-ended",
+        "open-end",
+        "open-ended Yarns",
+        "open-ended yards",
+        "open-ended yarn"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ring-spun-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "ring-spun yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "combed ringspun",
+        "ring spun",
+        "ringspun"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:supima-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "supima cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Puma supima",
+        "Supima",
+        "sepa",
+        "supima"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:underarm-gusset",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "underarm gusset",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bound-collar",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "bound collar",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "double bound collar",
+        "triple stitched bound collar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lwg-certified-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "LWG certified leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:michael-kristy",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Michael Kristy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael",
+        "Michael Christie",
+        "Mikey"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "0f6bf31b79887dba"
+}

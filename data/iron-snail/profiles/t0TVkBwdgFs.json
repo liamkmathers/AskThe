@@ -1,0 +1,404 @@
+{
+  "platform_id": "t0TVkBwdgFs",
+  "profile": {
+    "video_id": "iron-snail:t0TVkBwdgFs",
+    "purpose": "Teach viewers how to get a well-fitting pair of jeans by separating fit from style, measuring correctly, avoiding tension in the top block, and using brand-measurement matching or tailoring when nothing fits off the rack.",
+    "video_type": "how_to",
+    "thesis": "Fit is objective and must be understood before style. A good pair of jeans comes from measuring every time, ignoring the advice to size down, and removing tension from the top block. If off-the-rack jeans still don't work, match measurements across brands or have them tailored.",
+    "key_takeaways": [
+      "Fit (too tight or too loose) is objective. Style (skinny, wide, bootcut, straight) is subjective and comes after fit.",
+      "Measure your natural waist snugly and check each brand's size chart; don't assume your measurement equals the tag size.",
+      "Re-measure every time you buy pants; tagged sizes vary by brand and era, even within Levi's.",
+      "The common advice to size down one or two sizes is rejected because it introduces tension, which ruins fit and comfort.",
+      "Thigh measurements are inconsistent between manufacturers, so check where each brand measures; men's rise is usually around 11-12 inches.",
+      "Manufacturing tolerances mean even identical jeans can fit differently, especially from cheaper brands.",
+      "The top block (waist, seat, fly) shows whether jeans fit; ideally you should be unsure whether you need a belt.",
+      "The palm test: you should be able to slide a palm into the waistband without sucking in.",
+      "Tension shows as ridges at the fly buttons, a gaping fly flap, or the top button area folding over.",
+      "If nothing fits, break jeans into areas (calf, thigh, top block) and compare brand measurements, or buy slightly big in the waist and have a tailor take it in."
+    ],
+    "outline": [
+      {
+        "title": "Fit vs style",
+        "summary": "Explains the difference between fit (objective) and style (subjective), with a depop joke and the goal of the video.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Measuring for the right size",
+        "summary": "How to measure your natural waist, why the measurement doesn't equal tag size, and why tagged sizes differ between Levi's eras.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "The dangers of tight pants",
+        "summary": "Rejects the advice to size down one or two sizes, explaining that tension causes discomfort, repeated stretching after washing and a bad look.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Hair wellness promotion",
+        "summary": "Sponsor read for the MDhair hair regrowth service.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Consistency issues in sizing",
+        "summary": "Covers inconsistent thigh measurement points between brands, typical men's rise, and manufacturing tolerances.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Mastering the top block",
+        "summary": "Why the top block determines good fit, the belt question, the palm test, and how to spot tension at the fly and top button.",
+        "first_segment": 5,
+        "last_segment": 9
+      },
+      {
+        "title": "Tailoring and finding solutions",
+        "summary": "For people who don't fit the mold: the 'Franken jeans' method of comparing measurements by area across brands, and tailoring the waist of slightly large jeans.",
+        "first_segment": 9,
+        "last_segment": 10
+      }
+    ],
+    "passages": [
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "these are not all my jeans",
+        "last_segment": 0,
+        "ends_with": "how honest the sellers are",
+        "note": "Joke about buying clothes on Depop that don't fit"
+      },
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "my goal for today is to",
+        "last_segment": 0,
+        "ends_with": "will help you so let's go",
+        "note": "States the goal of the video"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "God oh my God it's spreading",
+        "last_segment": 4,
+        "ends_with": "thank thank you MD hair",
+        "note": "Sponsor read for MDhair, a hair regrowth service"
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "I found a lemon works the",
+        "last_segment": 7,
+        "ends_with": "we'll need a tomato",
+        "note": "Fruit joke before explaining where to find tension points"
+      }
+    ],
+    "topics": [
+      "jeans fit",
+      "fit vs style",
+      "measuring waist size",
+      "vanity sizing and size inconsistency",
+      "sizing down myth",
+      "thigh and rise measurements",
+      "manufacturing tolerances",
+      "top block fit",
+      "palm test",
+      "spotting tension in jeans",
+      "tailoring jeans"
+    ],
+    "entity_ids": [
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-s-501",
+      "iron-snail:e:wrangler",
+      "iron-snail:e:wrangler-cowboy-cut",
+      "iron-snail:e:wrangler-jacket",
+      "iron-snail:e:depop",
+      "iron-snail:e:mdhair",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:top-block",
+      "iron-snail:e:palm-test",
+      "iron-snail:e:rise",
+      "iron-snail:e:button-fly",
+      "iron-snail:e:zipper-fly",
+      "iron-snail:e:franken-jeans",
+      "iron-snail:e:tailoring"
+    ],
+    "categories": [
+      "denim"
+    ],
+    "answers_questions": [
+      "How do I measure my waist for jeans?",
+      "Should I size down when buying raw or Levi's jeans?",
+      "Why do my jeans say 30 but fit like a 28?",
+      "How do I know if my jeans are too tight?",
+      "What is the palm test for jeans?",
+      "What is the top block on jeans and why does it matter?",
+      "Why does the top button of my jeans fold over?",
+      "What rise should I get if I have a long torso?",
+      "Why do two pairs of the same jeans fit differently?",
+      "What's the difference between fit and style in jeans?",
+      "What do I do if no jeans fit my big thighs or calves?",
+      "Is it worth getting jeans tailored at the waist?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:t0TVkBwdgFs:s0001",
+        "note": "Says to start at the hips, then corrects himself: measuring actually starts at the waist."
+      },
+      {
+        "segment_id": "iron-snail:t0TVkBwdgFs:s0009",
+        "note": "Calls the Franken jeans method brute force, then corrects that it is more tactical but laborious."
+      }
+    ],
+    "related_videos": [
+      "10 things I can't live without (list linked in description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-501",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's 501",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "501",
+        "501s",
+        "Levi 501s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wrangler",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wrangler",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Wranglers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wrangler-cowboy-cut",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wrangler Cowboy Cut",
+      "brand": "Wrangler",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wrangler-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wrangler jacket",
+      "brand": "Wrangler",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "men's Wrangler jacket"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:depop",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Depop",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "depop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mdhair",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "MDhair",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "MD hair",
+        "empty hair",
+        "empty hairs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "Selvage",
+        "salvage",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:top-block",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "top block",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "top Block's",
+        "top black"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:palm-test",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "palm test",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Palm test"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rise",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "rise",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Rises"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:button-fly",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "button fly",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zipper-fly",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "zipper fly",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:franken-jeans",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Franken jeans",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "frankenfind"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tailoring",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "tailoring",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tailor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "33162bac57545057"
+}

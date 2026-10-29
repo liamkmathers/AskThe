@@ -1,0 +1,836 @@
+{
+  "platform_id": "y6yYCELsmqo",
+  "profile": {
+    "video_id": "iron-snail:y6yYCELsmqo",
+    "purpose": "Compare three pairs of selvedge denim jeans at very different prices (Uniqlo at about $50, TCB at about $160 and Levi's Vintage Clothing at about $260) and explain what drives the price differences.",
+    "video_type": "comparison",
+    "thesis": "The price gaps between Uniqlo, TCB and Levi's Vintage Clothing selvedge jeans come from mill sourcing goals, country of manufacture, batch size, import duties and exchange rates, reproduction detail and Levi's brand heritage. The video closes with a verdict on which pair is worth buying for whom.",
+    "key_takeaways": [
+      "Uniqlo's selvedge denim was developed with a large Japanese mill (heard as 'kahara Mills') to hit a low price, and the jeans are sewn in Bangladesh.",
+      "Levi's LVC jeans are cut and sewn in Japan in small batches, reproduce era-specific fabrics and hardware (for example a Talon zipper on the 1967 505), and pay US import duties.",
+      "TCB mixes details from several vintage eras rather than reproducing one exactly. Its jeans use Zimbabwe cotton, unsanforized denim, iron buttons and Union Special chain stitching that produces roping.",
+      "Unsanforized denim shrinks about 10% and can develop leg twist, which keeps more of the denim's character.",
+      "The 'Levi's tax' is the premium Levi's can charge as the originator of rivets, the red tab, the back patch and jeans themselves.",
+      "The verdict: Uniqlo is the best selvedge deal, LVC makes sense mainly for Levi's devotees, and brands like TCB, Sugar Cane, Naked & Famous, Oni and Pure Blue Japan give more for the money."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to the comparison",
+        "summary": "Sets up the three-way comparison of Uniqlo, TCB and Levi's selvedge jeans by price, and mentions the FOB Factory pullover the creator is wearing, gifted by Haku Clothing.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Uniqlo's affordable selvedge denim",
+        "summary": "Explains how Uniqlo gets cheap selvedge from a large Japanese mill and has the jeans made in Bangladesh, and what the jeans lack compared with craft Japanese denim.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Levi's LVC 1967 505: why it costs more",
+        "summary": "Introduces the Levi's Vintage Clothing 1967 jeans. After a sponsor read, covers import duties, Japanese manufacture, small batches and reproduction of era-specific fabrics.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Levi's LVC hardware and era details",
+        "summary": "Covers era-specific hardware such as the Talon zipper, the 1937 crotch rivet and why it was removed, and how the character of the denim differs by era.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "TCB Japanese denim",
+        "summary": "Introduces TCB, its exchange-rate-dependent price and its approach of mixing vintage Levi's details across eras. Covers the rusting iron buttons, its avoidance of the Levi's name and its Zimbabwe cotton.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Production techniques",
+        "summary": "Explains unsanforized denim and shrinkage, leg twist, and chain stitching on vintage Union Special machines that creates roping.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Why Levi's can charge more and final verdict",
+        "summary": "Lists the reasons for Levi's higher price, including the 'Levi's tax' of being first, then gives a verdict on each pair and suggests alternative brands.",
+        "first_segment": 10,
+        "last_segment": 11
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this video is sponsored by Squarespace today",
+        "last_segment": 0,
+        "ends_with": "versus Levi's 260 Dollar Salvage jeans",
+        "note": "Opening that sets up the three-way jeans comparison by price"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 0,
+        "starts_with": "I am wearing the fob Factory",
+        "last_segment": 0,
+        "ends_with": "if you're looking for any Japanese denim",
+        "note": "Mention requested by Haku Clothing in exchange for the gifted FOB Factory denim pullover"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "but you may be thinking why am",
+        "last_segment": 0,
+        "ends_with": "to become a full denim daddy yet",
+        "note": "Joke about not wearing jeans in a jeans video"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "this is the second video in a",
+        "last_segment": 1,
+        "ends_with": "I look like a greasy fat pig",
+        "note": "Personal aside about greasy hair"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "I gotta be honest it's like",
+        "last_segment": 3,
+        "ends_with": "so they're a little bit small",
+        "note": "Aside about the heat, wearing double denim and the jeans being small after washing"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "picture this a world where the internet",
+        "last_segment": 4,
+        "ends_with": "thank you Squarespace for sponsoring this video",
+        "note": "Sponsor read for Squarespace websites and domains"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "oh yeah I got a lot of",
+        "last_segment": 7,
+        "ends_with": "room here",
+        "note": "Brief remark on the fit of the jeans"
+      },
+      {
+        "role": "outro",
+        "first_segment": 11,
+        "starts_with": "anyways though those are my thoughts",
+        "last_segment": 11,
+        "ends_with": "nice to have you stop",
+        "note": "Sign-off, mention of going to Italy to officiate a friend's wedding, and a teaser for a boots video"
+      }
+    ],
+    "topics": [
+      "selvedge denim",
+      "raw denim",
+      "price comparison of jeans",
+      "Japanese denim mills",
+      "country of origin and cost",
+      "import duties and exchange rates",
+      "vintage reproduction jeans",
+      "denim hardware",
+      "unsanforized denim",
+      "leg twist",
+      "chain stitching and roping",
+      "Levi's heritage"
+    ],
+    "entity_ids": [
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:uniqlo-selvedge-jeans",
+      "iron-snail:e:kahara-mills",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-s-vintage-clothing-lvc",
+      "iron-snail:e:levi-s-vintage-clothing-1967-505-jeans",
+      "iron-snail:e:levi-s-vintage-clothing-1937-jeans",
+      "iron-snail:e:tcb-jeans",
+      "iron-snail:e:tcb-1950s-jeans",
+      "iron-snail:e:fob-factory",
+      "iron-snail:e:fob-factory-denim-pullover",
+      "iron-snail:e:haku-clothing",
+      "iron-snail:e:toyota-gl3-shuttle-loom",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:raw-denim",
+      "iron-snail:e:squarespace",
+      "iron-snail:e:talon-zipper",
+      "iron-snail:e:ykk-zipper",
+      "iron-snail:e:copper-crotch-rivet",
+      "iron-snail:e:red-tab",
+      "iron-snail:e:back-patch",
+      "iron-snail:e:cone-mills",
+      "iron-snail:e:iron-buttons",
+      "iron-snail:e:zimbabwe-cotton",
+      "iron-snail:e:staple-length",
+      "iron-snail:e:unsanforized-denim",
+      "iron-snail:e:leg-twist",
+      "iron-snail:e:chain-stitching",
+      "iron-snail:e:union-special-43200g",
+      "iron-snail:e:roping",
+      "iron-snail:e:levi-s-tax",
+      "iron-snail:e:country-of-origin",
+      "iron-snail:e:import-duties",
+      "iron-snail:e:sugarcane",
+      "iron-snail:e:unbranded",
+      "iron-snail:e:naked-famous",
+      "iron-snail:e:oni",
+      "iron-snail:e:pure-blue-japan",
+      "iron-snail:e:walmart"
+    ],
+    "categories": [
+      "denim"
+    ],
+    "answers_questions": [
+      "Are Uniqlo selvedge jeans actually good for the price?",
+      "Is Levi's Vintage Clothing (LVC) worth $260?",
+      "Are TCB jeans worth buying?",
+      "Where are Uniqlo selvedge jeans made, and where does the denim come from?",
+      "Why is Japanese denim more expensive in US shops?",
+      "Why does Levi's charge so much more than Japanese repro brands?",
+      "What is the 'Levi's tax'?",
+      "Why do the buttons on my TCB jeans rust?",
+      "What is unsanforized denim, and how much does it shrink?",
+      "What is leg twist in jeans?",
+      "What is roping, and why do brands use Union Special machines?",
+      "Why was the copper crotch rivet removed from old Levi's?",
+      "What zipper does the LVC 1967 505 use?",
+      "What brands should I look at instead of Levi's LVC?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:y6yYCELsmqo:s0010",
+        "note": "Says there are three reasons Levi's can charge more, then immediately corrects it to four, adding US trade agreements and yen strength."
+      },
+      {
+        "segment_id": "iron-snail:y6yYCELsmqo:s0010",
+        "note": "Begins to credit the red selvedge ID to Levi's, then says it was first done by Cone Mills for Levi's."
+      }
+    ],
+    "related_videos": [
+      "Two earlier videos on how country of origin affects the cost of products",
+      "Japanese denim vs Walmart jeans video",
+      "Upcoming video about boots"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo",
+        "uniqlo's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-selvedge-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo selvedge jeans",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Japanese Salvage denim jeans",
+        "Uniqlo Salvage denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kahara-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Kahara Mills",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "kahara Mills",
+        "kahara mills",
+        "kahara omotaro kahara mills"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-vintage-clothing-lvc",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Vintage Clothing (LVC)",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "LBC",
+        "lvc",
+        "lvcs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-vintage-clothing-1967-505-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Vintage Clothing 1967 505 jeans",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "1967 505",
+        "Levi's 1967 lvc 50o"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-vintage-clothing-1937-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Vintage Clothing 1937 jeans",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi's LBC 1937s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tcb-jeans",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "TCB Jeans",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "TC CB",
+        "TCB",
+        "t c b",
+        "taking care of business",
+        "two Cat brand",
+        "two cap brand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tcb-1950s-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "TCB 1950s jeans",
+      "brand": "TCB Jeans",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fob-factory",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "FOB Factory",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fob Factory"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fob-factory-denim-pullover",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "FOB Factory denim pullover",
+      "brand": "FOB Factory",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "fob Factory pullover"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:haku-clothing",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Haku Clothing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Haku clothing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:toyota-gl3-shuttle-loom",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Toyota GL3 shuttle loom",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Toyota gl3 shuttle looms"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "Selvage",
+        "salvage",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raw-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "raw denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "broad denim",
+        "rod denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:squarespace",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Squarespace",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:talon-zipper",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "Talon zipper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ykk-zipper",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "YKK zipper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:copper-crotch-rivet",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "copper crotch rivet",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "single copper rivet"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-tab",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "red tab",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:back-patch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "back patch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "the little patch on the back"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cone-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Cone Mills",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "cone Mills",
+        "cone mills"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "iron buttons",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "buttons... made of iron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zimbabwe-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Zimbabwe cotton",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:staple-length",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "staple length",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "longer staple cotton",
+        "shorter staple cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unsanforized-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "unsanforized denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "San frize",
+        "on sam fry",
+        "on stamp fries",
+        "unsafeized",
+        "unsamperized",
+        "unsamprised",
+        "unsampurized",
+        "unsand fried"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leg-twist",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "leg twist",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Leg twist",
+        "leg Twist",
+        "leg twists",
+        "leg would twist",
+        "length twist"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chain-stitching",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "chain stitching",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chain stitched"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:union-special-43200g",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Union Special 43200G",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "43200G",
+        "Union Special",
+        "union special"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:roping",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "roping",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-tax",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Levi's tax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:country-of-origin",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "country of origin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:import-duties",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "import duties",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fees in duties"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sugarcane",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sugarcane",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "sugar cane",
+        "sugarcane"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbranded",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Unbranded",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "unbranded"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:naked-famous",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Naked & Famous",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Naked and Famous",
+        "naked and famous"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oni",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Oni",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "oni"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pure-blue-japan",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pure Blue Japan",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "pure blue Japan",
+        "pure blue japan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:walmart",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Walmart",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "4b565c33cba83ab1"
+}

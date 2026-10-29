@@ -1,0 +1,562 @@
+{
+  "platform_id": "6n9t0SDne44",
+  "profile": {
+    "video_id": "iron-snail:6n9t0SDne44",
+    "purpose": "Compare four waxed canvas jackets (Huckberry, Bradley Mountain, Freenote Cloth and Rogue Territory) as the start of the creator's fall 'Waxed Jacket Olympics', covering specs, fit, standout traits, drawbacks and who each jacket suits.",
+    "video_type": "comparison",
+    "thesis": "Each of the four waxed jackets is run through the same format of base specs, sizing, 'accolades', cons and the stereotypical wearer. The video moves from the cheapest unlined Huckberry jacket up to the celebrity-famous Rogue Territory Supply Jacket.",
+    "key_takeaways": [
+      "Huckberry Waxed Trucker Jacket: $228, 7 oz Martexin-waxed sail cloth from Fairfield Textile Mills, unlined, generously cut, the cheapest jacket in the lineup.",
+      "Bradley Mountain Cabin Jacket: 12 oz canvas, Japanese cotton flannel lining, eight front pockets, fly rod snap, leather D-ring tool tab, leather washers behind the buttons; cut burlier for layering; the creator fits an XS.",
+      "Freenote Cloth Rider's Jacket: 10 oz Martexin-waxed fabric, flannel body lining with satin-lined sleeves, gusseted back with internal elastic bands; the creator fits a size small.",
+      "Rogue Territory Supply Jacket in tan: 10 oz Indian fabric waxed by Martexin, unlined, the slimmest fit, worn by Daniel Craig as James Bond and by Ryan Reynolds.",
+      "Martexin wax is used across all four jackets.",
+      "Cons named: Bradley Mountain's short hem and lack of flat-felled seams; the Huckberry and Rogue Territory jackets have no lining.",
+      "The creator is 5'9\" and 148 lb, which gives context for his sizing comments."
+    ],
+    "outline": [
+      {
+        "title": "Intro and Olympics format",
+        "summary": "Teases the Huckberry jacket and introduces the Waxed Jacket Olympics. Explains the categories: base stats, sizing, accolades, cons and who should wear each jacket.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Huckberry Waxed Trucker Jacket",
+        "summary": "Covers the 7 oz Martexin sail cloth and the Fairfield Textile Mills/Martexin relationship. Also covers the unlined construction, the generous fit, the low-price accolade and the everyday guy it suits.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Sponsor: Carrot",
+        "summary": "Sponsor read for the Carrot shopping app and browser extension and its Deal Hop feature.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Bradley Mountain Cabin Jacket",
+        "summary": "Covers the 12 oz canvas, Japanese flannel lining, pockets and utility details such as the fly rod snap, tool D-ring and leather button washers. Also covers the burlier fit, the accolades, the cons (short hem, no flat-felled seams) and the outdoorsy wearer.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "Freenote Cloth Rider's Jacket",
+        "summary": "Covers the 10 oz waxed fabric, flannel and satin lining, and the gusseted back with elastic bands. Also covers sizing, the best-construction accolade and the California motorcycle-guy wearer.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Rogue Territory Supply Jacket",
+        "summary": "Covers the famous tan Supply Jacket: Indian fabric waxed by Martexin, unlined, slimmest fit. Also covers its James Bond and Ryan Reynolds fame, construction details and the best-dressed accolade, with an umbrella skit along the way.",
+        "first_segment": 9,
+        "last_segment": 12
+      },
+      {
+        "title": "Unlined con and wrap-up",
+        "summary": "Adds the shared con of the Huckberry and Rogue Territory jackets (no lining) and previews the next video.",
+        "first_segment": 12,
+        "last_segment": 12
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this is the huckberry wax trucker",
+        "last_segment": 1,
+        "ends_with": "I think should actually wear this jacket",
+        "note": "Teaser, greeting and explanation of the Waxed Jacket Olympics categories"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "hey sweet cheeks picture this you're",
+        "last_segment": 4,
+        "ends_with": "somewhere else on the Internet thanks carrot",
+        "note": "Sponsor read for the Carrot shopping app/extension and its Deal Hop feature"
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "and I am also returning the",
+        "last_segment": 10,
+        "ends_with": "that way the jacket doesn't get wet",
+        "note": "Skit about planning to return the jacket and not finding an umbrella in the rain"
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "I guess I'm just gonna buy",
+        "last_segment": 11,
+        "ends_with": "got to live your life you know",
+        "note": "Joke about deciding to keep the jacket and wear it in the rain"
+      },
+      {
+        "role": "outro",
+        "first_segment": 12,
+        "starts_with": "thank you for watching that is",
+        "last_segment": 12,
+        "ends_with": "thank you for watching as always",
+        "note": "Sign-off and preview of the next video, a boot hike"
+      }
+    ],
+    "topics": [
+      "waxed canvas jackets",
+      "waxed cotton fabric weights",
+      "Martexin wax",
+      "jacket linings",
+      "jacket fit and sizing",
+      "utility pocket details",
+      "gusseted backs",
+      "celebrity-worn jackets",
+      "fall outerwear"
+    ],
+    "entity_ids": [
+      "iron-snail:e:huckberry",
+      "iron-snail:e:huckberry-waxed-trucker-jacket",
+      "iron-snail:e:bradley-mountain",
+      "iron-snail:e:bradley-mountain-cabin-jacket",
+      "iron-snail:e:bradley-mountain-backpack",
+      "iron-snail:e:freenote-cloth",
+      "iron-snail:e:freenote-cloth-rider-s-jacket",
+      "iron-snail:e:rogue-territory",
+      "iron-snail:e:rogue-territory-supply-jacket",
+      "iron-snail:e:martexin",
+      "iron-snail:e:fairfield-textile-mills",
+      "iron-snail:e:carrot",
+      "iron-snail:e:deal-hop",
+      "iron-snail:e:waxed-cotton-canvas",
+      "iron-snail:e:japanese-cotton-flannel-lining",
+      "iron-snail:e:satin-lining",
+      "iron-snail:e:fly-rod-snap",
+      "iron-snail:e:leather-d-ring-tool-tab",
+      "iron-snail:e:leather-button-washers",
+      "iron-snail:e:gusset",
+      "iron-snail:e:flat-felled-seams",
+      "iron-snail:e:ryan-reynolds",
+      "iron-snail:e:daniel-craig",
+      "iron-snail:e:garth-brooks",
+      "iron-snail:e:taylor"
+    ],
+    "categories": [
+      "jackets",
+      "accessories"
+    ],
+    "answers_questions": [
+      "What's the cheapest good waxed jacket?",
+      "How does the Huckberry waxed trucker jacket fit and is it lined?",
+      "What jacket does Ryan Reynolds / James Bond wear?",
+      "Is the Rogue Territory Supply Jacket slim fitting?",
+      "What size Rogue Territory Supply Jacket should I get?",
+      "What's so special about the Bradley Mountain Cabin Jacket?",
+      "Is the Bradley Mountain jacket good for layering?",
+      "What are the downsides of the Bradley Mountain Cabin Jacket?",
+      "How is the Freenote Rider's jacket built and how does it fit?",
+      "Who makes the wax and fabric used on these waxed jackets?",
+      "How heavy is the fabric on each of these waxed jackets?",
+      "Which waxed jackets have a lining?",
+      "Which waxed jacket is best constructed?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:6n9t0SDne44:s0011",
+        "note": "Segment 10 says he is returning the Rogue Territory jacket; segment 11 reverses this, saying he'll just buy it and wear it in the rain."
+      },
+      {
+        "segment_id": "iron-snail:6n9t0SDne44:s0012",
+        "note": "Segment 2 defers the Huckberry jacket's con until later; segment 12 admits he forgot to record it and states it: the Huckberry and Rogue Territory jackets are unlined."
+      }
+    ],
+    "related_videos": [
+      "Earlier Waxed Jacket Olympics video from the previous year (part one)",
+      "Upcoming video hiking a mountain in two pairs of boots, one 100 years old and one new",
+      "Possible future video on how to care for waxed jackets (mentioned in description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:huckberry",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Huckberry",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "hockberry",
+        "huckberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry-waxed-trucker-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Huckberry Waxed Trucker Jacket",
+      "brand": "Huckberry",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "huckberry online wax record jackets",
+        "huckberry wax trucker jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bradley-mountain",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Bradley Mountain",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bradley-mountain-cabin-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bradley Mountain Cabin Jacket",
+      "brand": "Bradley Mountain",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "cabin jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bradley-mountain-backpack",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bradley Mountain backpack",
+      "brand": "Bradley Mountain",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "this backpack"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:freenote-cloth",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Freenote Cloth",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "free note cloth",
+        "pre-note cloth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:freenote-cloth-rider-s-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Freenote Cloth Rider's Jacket",
+      "brand": "Freenote Cloth",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "free note cloth Rider's jacket",
+        "writer's jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rogue-territory",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rogue Territory",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Rogue territory"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rogue-territory-supply-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rogue Territory Supply Jacket",
+      "brand": "Rogue Territory",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Rogue territory Supply jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:martexin",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Martexin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mark Texan",
+        "martecin",
+        "marteksen",
+        "martesan",
+        "martexin",
+        "more Texan",
+        "mortex and"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fairfield-textile-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fairfield Textile Mills",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Fairfield Mills",
+        "Fairfield textile mills"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Carrot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carrot",
+        "carrots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:deal-hop",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Deal Hop",
+      "brand": "Carrot",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "deal hop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-cotton-canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed cotton canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sail cloth",
+        "wax jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:japanese-cotton-flannel-lining",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Japanese cotton flannel lining",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "100 Japanese cotton lining",
+        "100 cotton Japanese flannel lining"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:satin-lining",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "satin lining",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fly-rod-snap",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "fly rod snap",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-d-ring-tool-tab",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather D-ring tool tab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "leather tab with a d-ring"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-button-washers",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather button washers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "leather washers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gusset",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "gusset",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "gusseted",
+        "gussets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:flat-felled-seams",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "flat-felled seams",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "flat-filled in seams"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ryan-reynolds",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ryan Reynolds",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:daniel-craig",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Daniel Craig",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:garth-brooks",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Garth Brooks",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "cf043e65391d1234"
+}

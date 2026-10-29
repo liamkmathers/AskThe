@@ -1,0 +1,1102 @@
+{
+  "platform_id": "qqZyGm0aqh4",
+  "profile": {
+    "video_id": "iron-snail:qqZyGm0aqh4",
+    "purpose": "Evaluate whether Uniqlo is really as good as its reputation by comparing its pieces with far more expensive, similarly styled garments across cotton knits, woven goods, denim, wool and synthetics. It also covers how Uniqlo designs and manufactures, and ethical criticisms of the company.",
+    "video_type": "comparison",
+    "thesis": "Uniqlo's quality comes from strong design, construction and quality control, but its fabrics are limited by the price point. Cheap raw materials like cotton and polyester come out well, while costlier natural fibres like wool show the compromises.",
+    "key_takeaways": [
+      "The video opens with background on Uniqlo's head Mr Yanai, his controlling leadership style and the brand's cult following.",
+      "Uniqlo's cotton knits (Uniqlo U t-shirt, sweatshirt) are compared with a Standard & Strange Wakayama loopwheel tee and a Real McCoy's loopwheel sweatshirt, explaining loopwheel knitting, long staple cotton and finishing.",
+      "Woven cotton is compared via Uniqlo wide fit chinos versus Black Sign chinos, with long staple cotton explained as the source of luster and softness.",
+      "Uniqlo selvedge denim is compared with Mr Freedom x Sugar Cane California Lot 54 jeans made from new old stock Cone Mills unsanforized denim.",
+      "Uniqlo's Barbour Spey-style jacket is discussed as the item that prompted the video.",
+      "The video explains why Uniqlo argues it is not fast fashion, and how it prototypes garments in its own facilities and has manufacturers copy them.",
+      "Uniqlo merino and cashmere are compared with a thrifted Max Mara sweater, with a detailed explanation of superwash treatment, its pros and cons, and plasma treatment as an alternative.",
+      "The creator argues Uniqlo's quality lies in construction while its materials are up for debate, and calls its polyester wool-imitation jackets top tier.",
+      "The video closes with forced labour accusations, including a 2021 US Customs seizure of Uniqlo t-shirts."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Yanai",
+        "summary": "A hook about Uniqlo's billionaire head Mr Yanai, a sweater price trick, his dictatorial leadership style and the brand's cult following. The creator then sets out the question and the four-part structure.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "The Good: Cotton knit comparison",
+        "summary": "Uniqlo U t-shirt and sweatshirt compared with a Standard & Strange Wakayama loopwheel tee and a Real McCoy's loopwheel sweatshirt. Covers knit tension, loopwheel knitting, long staple cotton and fabric finishing.",
+        "first_segment": 2,
+        "last_segment": 5
+      },
+      {
+        "title": "Woven goods: Chinos",
+        "summary": "Uniqlo wide fit chinos compared with Black Sign chinos, explaining the luster, strength and softness of longer staple cotton.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Denim and the Barbour-style jacket",
+        "summary": "Uniqlo selvedge denim compared with Mr Freedom x Sugar Cane Lot 54 jeans in Cone Mills unsanforized denim, and why cheap cotton lets Uniqlo make good cotton goods. Also covers Uniqlo's Barbour Spey-inspired jacket.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Is Uniqlo fast fashion? Manufacturing processes",
+        "summary": "Uniqlo's position that Fast Retailing is not fast fashion, contrasted with true fast fashion. Explains how Uniqlo develops fabrics and prototypes in-house, then has manufacturers replicate them.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "The Bad: Wool and cashmere analysis",
+        "summary": "Uniqlo merino and cashmere compared with a thrifted Max Mara sweater, focusing on loose knits and superwash treatment. Covers how superwash works, its benefits and drawbacks, and plasma treatment as an alternative.",
+        "first_segment": 11,
+        "last_segment": 14
+      },
+      {
+        "title": "3.5: Construction vs materials",
+        "summary": "Using an 11.11 shirt comparison and Uniqlo's polyester wool-imitation jackets, the creator argues Uniqlo excels at construction and quality control but is limited by raw materials at its price point.",
+        "first_segment": 14,
+        "last_segment": 16
+      },
+      {
+        "title": "The Ugly: Ethical considerations",
+        "summary": "Profit pressure and forced labour accusations against Uniqlo, including a 2021 US Customs seizure, balanced against claims that it is improving transparency.",
+        "first_segment": 16,
+        "last_segment": 17
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this is the richest man in Japan",
+        "last_segment": 2,
+        "ends_with": "for better understanding thank you for your viewership",
+        "note": "Cold open hook about Mr Yanai and a sweater price trick, then the video's premise and four-part structure"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "sup nerds it's Michael it's really",
+        "last_segment": 2,
+        "ends_with": "when I've moved my arms which is kind of weird",
+        "note": "Greeting and joke about being outdoors covered in bug spray"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "also look at the size of",
+        "last_segment": 2,
+        "ends_with": "I saw while walking through the woods",
+        "note": "Aside about a deer seen in the woods"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "which by the way thank you to",
+        "last_segment": 3,
+        "ends_with": "and I said okay sounds good so thank you guys",
+        "note": "Thanks to Standard & Strange for lending garments, with a robbery joke"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 6,
+        "starts_with": "this video is sponsored by manscaped",
+        "last_segment": 7,
+        "ends_with": "and a free gift for your Jewels",
+        "note": "Sponsor read for Manscaped Performance Package 5.0 and Lawn Mower 5.0 shaver"
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "picture this it's Christmas time",
+        "last_segment": 8,
+        "ends_with": "they say wow I love the denim Community",
+        "note": "Christmas skit about Uniqlo selvedge jeans versus artisan denim"
+      },
+      {
+        "role": "outro",
+        "first_segment": 17,
+        "starts_with": "thank you very much for watching",
+        "last_segment": 17,
+        "ends_with": "can't wait to show you okay byebye",
+        "note": "Sign-off and teaser for the next video"
+      }
+    ],
+    "topics": [
+      "Uniqlo quality",
+      "Tadashi Yanai and Uniqlo history",
+      "loopwheel knitting",
+      "long staple cotton",
+      "fabric finishing",
+      "selvedge denim",
+      "unsanforized denim",
+      "fast fashion definition",
+      "Uniqlo manufacturing process",
+      "superwash wool",
+      "plasma treated wool",
+      "synthetic wool imitation jackets",
+      "construction vs materials",
+      "forced labour accusations",
+      "price vs quality comparison"
+    ],
+    "entity_ids": [
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:yanai",
+      "iron-snail:e:fast-retailing",
+      "iron-snail:e:john-cj",
+      "iron-snail:e:standard-strange",
+      "iron-snail:e:uniqlo-u-t-shirt",
+      "iron-snail:e:uniqlo-sweatshirt",
+      "iron-snail:e:standard-strange-wakayama-special-loopwheel-tee",
+      "iron-snail:e:the-real-mccoy-s-loopwheel-crewneck-sweatshirt",
+      "iron-snail:e:the-real-mccoy-s",
+      "iron-snail:e:loopwheel",
+      "iron-snail:e:long-staple-cotton",
+      "iron-snail:e:cotton",
+      "iron-snail:e:fabric-finishing",
+      "iron-snail:e:uniqlo-wide-fit-chinos",
+      "iron-snail:e:black-sign-khaki-chino-trousers",
+      "iron-snail:e:black-sign",
+      "iron-snail:e:manscaped",
+      "iron-snail:e:manscaped-performance-package-5-0",
+      "iron-snail:e:manscaped-lawn-mower-5-0",
+      "iron-snail:e:manscaped-weed-whacker-2-0",
+      "iron-snail:e:uniqlo-selvedge-jeans",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:mr-freedom-x-sugar-cane-california-lot-54-reissue",
+      "iron-snail:e:mr-freedom",
+      "iron-snail:e:sugarcane",
+      "iron-snail:e:cone-mills",
+      "iron-snail:e:new-old-stock",
+      "iron-snail:e:unsanforized-denim",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:uniqlo-barbour-spey-homage-jacket",
+      "iron-snail:e:barbour-spey-jacket",
+      "iron-snail:e:barbour",
+      "iron-snail:e:dwr",
+      "iron-snail:e:fast-fashion",
+      "iron-snail:e:teu",
+      "iron-snail:e:shen",
+      "iron-snail:e:uniqlo-merino-sweater",
+      "iron-snail:e:uniqlo-cashmere-sweater",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:cashmere",
+      "iron-snail:e:max-mara-sweater",
+      "iron-snail:e:max-mara",
+      "iron-snail:e:taylor",
+      "iron-snail:e:superwash",
+      "iron-snail:e:felting",
+      "iron-snail:e:plasma-treatment",
+      "iron-snail:e:polyester",
+      "iron-snail:e:11-11-breeze-shirt",
+      "iron-snail:e:11-11",
+      "iron-snail:e:uniqlo-jersey-workshirt",
+      "iron-snail:e:uniqlo-polyester-wool-imitation-jacket",
+      "iron-snail:e:forced-labour"
+    ],
+    "categories": [
+      "t-shirts",
+      "sweatshirts",
+      "chinos",
+      "denim",
+      "jackets",
+      "knitwear",
+      "shirts"
+    ],
+    "answers_questions": [
+      "Is Uniqlo actually good quality?",
+      "How does a Uniqlo t-shirt compare to an expensive Japanese loopwheel tee?",
+      "What is loopwheel knitting and why does it matter?",
+      "Are Uniqlo chinos good compared to pricier chinos?",
+      "Are Uniqlo selvedge jeans worth it compared to high-end raw denim?",
+      "Is Uniqlo fast fashion?",
+      "How does Uniqlo make its clothes so cheap but well made?",
+      "Is Uniqlo merino or cashmere worth buying?",
+      "What is superwash wool and is it bad?",
+      "What's the best Uniqlo stuff to buy?",
+      "Is the Uniqlo Barbour-style jacket any good?",
+      "Does Uniqlo use forced labour?",
+      "Why does long staple cotton look shinier and feel softer?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:qqZyGm0aqh4:s0001",
+        "note": "Corrects the opening claim that both sweaters/shirts cost $40: one is actually $40 and the other $350, and they are very different."
+      },
+      {
+        "segment_id": "iron-snail:qqZyGm0aqh4:s0015",
+        "note": "Clarifies that the Uniqlo 'wool jacket' and sweater he loved actually felt like wool but were polyester."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo",
+        "Uno",
+        "uni",
+        "unic",
+        "unic clo",
+        "uniclo",
+        "uniqlo's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:yanai",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Yanai",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr unai",
+        "Mr yanai"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fast-retailing",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fast Retailing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fast retailing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:john-cj",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "John CJ",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:standard-strange",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Standard & Strange",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "s the strange",
+        "standard and strange"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-u-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo U t-shirt",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unico U t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo sweatshirt",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "sweater that goes for $40"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:standard-strange-wakayama-special-loopwheel-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Standard & Strange Wakayama Special Loopwheel Tee",
+      "brand": "Standard & Strange",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Roe t-shirt",
+        "wakayama t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-real-mccoy-s-loopwheel-crewneck-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Real McCoy's Loopwheel Crewneck Sweatshirt",
+      "brand": "The Real McCoy's",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Real McCoy Loop wheel sweater",
+        "The Real McCoy sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-real-mccoy-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Real McCoy's",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Real McCoy",
+        "The Real McCoy",
+        "The Real McCoys"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loopwheel",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loopwheel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Loop wheel",
+        "Loop wheeled",
+        "Loop will",
+        "loop whe",
+        "loop wheel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:long-staple-cotton",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "long staple cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "longer stable",
+        "longer staple"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fabric-finishing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "fabric finishing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "finished",
+        "finishing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-wide-fit-chinos",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo wide fit chinos",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "Unico Chino",
+        "giant fit wide fit genos"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:black-sign-khaki-chino-trousers",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Black Sign Khaki Chino Trousers",
+      "brand": "Black Sign",
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "black sign chinos"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:black-sign",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Black Sign",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "black sign"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:manscaped",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Manscaped",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "manscape",
+        "manscaped"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:manscaped-performance-package-5-0",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Manscaped Performance Package 5.0",
+      "brand": "Manscaped",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "performance package 5.0"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:manscaped-lawn-mower-5-0",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Manscaped Lawn Mower 5.0",
+      "brand": "Manscaped",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lawnmower 5.0"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:manscaped-weed-whacker-2-0",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Manscaped Weed Whacker 2.0",
+      "brand": "Manscaped",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "weed whacker 2.0"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-selvedge-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo selvedge jeans",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Japanese Salvage denim jeans",
+        "Unico Salvage denim jeans",
+        "Uniqlo Salvage denim",
+        "non-stretch regular fit Salvage denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "Selvage",
+        "salvage",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mr-freedom-x-sugar-cane-california-lot-54-reissue",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mr Freedom x Sugar Cane California Lot 54 Reissue",
+      "brand": "Mr Freedom",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Mr Freedom X sugarcane California Lot Number 54 reedition"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mr-freedom",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Mr Freedom",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sugarcane",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sugarcane",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "sugar cane",
+        "sugarcane"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cone-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Cone Mills",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "cone Mills",
+        "cone mills"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-old-stock",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "new old stock",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New Old Stock",
+        "new old star"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unsanforized-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "unsanforized denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "San frize",
+        "on sam fry",
+        "on stamp fries",
+        "unsafeized",
+        "unsam Friz",
+        "unsamperized",
+        "unsamprised",
+        "unsampurized",
+        "unsand fried",
+        "unsanforized"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-barbour-spey-homage-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo Barbour Spey homage jacket",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "unico's ripoff of a barber spay jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-spey-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Spey jacket",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "barber spay jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Barbour",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Barbara",
+        "Barber",
+        "Barbera"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dwr",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "DWR",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dwr"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fast-fashion",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "fast fashion",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fast fashioned"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:teu",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "teu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Shen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-merino-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo merino sweater",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "$40 Marino wool sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-cashmere-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo cashmere sweater",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "$100 cashmere sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marino",
+        "Marino wool",
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cashmere",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cashmere",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:max-mara-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Max Mara sweater",
+      "brand": "Max Mara",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "max Mara sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:max-mara",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Max Mara",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:superwash",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "superwash",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Super Washing",
+        "Superwash"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "felting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Felts",
+        "felted"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:plasma-treatment",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "plasma treatment",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "plasm treat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marino",
+        "Marino wool",
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:11-11-breeze-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "11.11 Breeze Shirt",
+      "brand": "11.11",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "1111"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:11-11",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "11.11",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "1111"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-jersey-workshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo Jersey Workshirt",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-polyester-wool-imitation-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo polyester wool-imitation jacket",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "synthetic wool jackets polyester jackets"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:forced-labour",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "forced labour",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Force labor",
+        "forced labor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "7926df9c028acdef"
+}

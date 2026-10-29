@@ -1,0 +1,799 @@
+{
+  "platform_id": "fuNp6W4DUWs",
+  "profile": {
+    "video_id": "iron-snail:fuNp6W4DUWs",
+    "purpose": "Part two of a community-voted t-shirt roundup. Michael tries on the t-shirt brands most often recommended in comments on his previous t-shirt video, and reports vote share, fabric details, fit, shrinkage after washing and a softness score for each.",
+    "video_type": "ranking",
+    "thesis": "The internet's most-recommended t-shirts, from $10 basics to $200 luxury tees, are tried on and measured. The most-voted brand, Bronson, gets a closer look because of how it markets its shirts as loopwheel.",
+    "key_takeaways": [
+      "The shirts were chosen by tallying brands mentioned in comments on the previous t-shirt video. Vote shares are given for each: Front General Store 3.5%, Samurai 10.34%, Sunspel 13.68%, Warehouse 20.68% and Bronson 25.8%.",
+      "Each shirt gets width and length shrink percentages and a softness score out of 10.",
+      "The video explains yarn types: open-end, ring-spun and compact.",
+      "Merino and alpaca blend tees (Paka, Wool&Prince) are discussed: why animal fibers weren't historically used for tees, and how nylon-wrapped merino changes that.",
+      "Samurai's loopwheel claims are covered: half a meter of fabric per hour, and cotton conditioned in a controlled environment.",
+      "Loop & Weft is an off-list personal pick, a very slubby tee bought from Redcast Heritage.",
+      "The Sunspel Sea Island cotton tee costs $200. Its shrink numbers are high because it was accidentally machine dried; it should be washed like a fine sweater.",
+      "The video looks at whether Bronson's 'loopwheel' label is accurate, and at a possibly related brand ('older best') that uses Tompkins knitting machines, which are confirmed not to be loopwheel."
+    ],
+    "outline": [
+      {
+        "title": "Intro: how the shirts were picked",
+        "summary": "Explains that the shirts come from tallied comment votes, teases a controversy around the most-voted brand, and gives height and weight for fit reference.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "The Low-Cost Bangers: Front General Store, Pro Club, Hanes, Reigning Champ",
+        "summary": "Reviews the cheaper picks: the Japan-made Front General Store tee, Pro Club, the Hanes Beefy-T and the Reigning Champ lightweight tee. Explains open-end, ring-spun and compact yarns, with shrink and softness scores for each.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Intro to the animal-fiber group",
+        "summary": "Introduces three merino and alpaca shirts that only made the list as a combined group.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "trainwell sponsor read",
+        "summary": "Sponsor segment for the trainwell personal-training app.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "The Bad Boys: alpaca and merino tees",
+        "summary": "Covers the Paka supima/alpaca tee and the Wool&Prince merino tee. Discusses odor resistance, moisture wicking, nylon-wrapped merino, and why their drape reads as workout wear rather than a casual tee.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Samurai loopwheel tee",
+        "summary": "Covers Samurai's extreme loopwheel and cotton-conditioning claims and the shirt's inner knit, compares it with an older Samurai tee, and gives shrink and softness.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Loop & Weft (personal pick)",
+        "summary": "An off-list slub tee from Loop & Weft bought via Redcast Heritage, with notes on its gauzy slub fabric and small collar.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "The Big 3: Sunspel Sea Island cotton tee",
+        "summary": "Covers the $200 Sunspel tee: Sea Island cotton's staple length, the Queen Victoria and James Bond anecdotes, care instructions, and accidental-drying shrinkage.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "The Big 3: Warehouse 4601",
+        "summary": "Covers the Warehouse loopwheel tee's colors, bound and reinforced collar, slubby fabric, and shrink and softness.",
+        "first_segment": 11,
+        "last_segment": 12
+      },
+      {
+        "title": "Mr. Controversy: Bronson",
+        "summary": "Covers the most-voted $30 Bronson tee and its link to 'older best', which uses Tompkins knitting machines. Discusses why Bronson's tee is not loopwheel by definition, plus fit, long-term wear, shrink and softness.",
+        "first_segment": 12,
+        "last_segment": 15
+      },
+      {
+        "title": "Wrap-up and outro",
+        "summary": "Names Front General Store the title-holder for the video and signs off.",
+        "first_segment": 15,
+        "last_segment": 15
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "these are three of the most expensive",
+        "last_segment": 1,
+        "ends_with": "an impromptu wet t-shirt contest",
+        "note": "Explains how comment votes picked the shirts, teases the Bronson controversy, gives body stats and the nipple-test joke."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "sorry battery on my camera died",
+        "last_segment": 3,
+        "ends_with": "talking about nipples still raining",
+        "note": "Camera battery died mid-take."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 4,
+        "starts_with": "this video is sponsored by my huge",
+        "last_segment": 5,
+        "ends_with": "personal trainer thanks tranwell",
+        "note": "Sponsor read for trainwell personal-training app."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "also it is like 90° in here",
+        "last_segment": 8,
+        "ends_with": "I'm about to drop dead",
+        "note": "Comment about the heat and sweating."
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "oh going on got another one",
+        "last_segment": 13,
+        "ends_with": "just got a delivery of cashmere",
+        "note": "Interrupted by a package delivery."
+      },
+      {
+        "role": "outro",
+        "first_segment": 15,
+        "starts_with": "thank you for watching I will see",
+        "last_segment": 15,
+        "ends_with": "linky pinky down below to sign up",
+        "note": "Sign-off and sponsor reminder."
+      }
+    ],
+    "topics": [
+      "t-shirt rankings",
+      "community-voted t-shirts",
+      "loopwheel t-shirts",
+      "Japanese t-shirts",
+      "t-shirt shrinkage",
+      "t-shirt softness",
+      "open-end vs ring-spun vs compact yarn",
+      "merino and alpaca t-shirts",
+      "Sea Island cotton",
+      "slub yarn",
+      "budget t-shirts",
+      "Bronson loopwheel controversy",
+      "Tompkins knitting machines",
+      "nipple test / sheerness"
+    ],
+    "entity_ids": [
+      "iron-snail:e:front-general-store-t-shirt",
+      "iron-snail:e:pro-club-t-shirt",
+      "iron-snail:e:hanes-beefy-t",
+      "iron-snail:e:hanes",
+      "iron-snail:e:fruit-of-the-loom",
+      "iron-snail:e:esquire",
+      "iron-snail:e:reigning-champ-lightweight-t-shirt",
+      "iron-snail:e:paka-t-shirt",
+      "iron-snail:e:wool-prince-crew-neck-t-shirt",
+      "iron-snail:e:proof-72-hour-merino-t-shirt",
+      "iron-snail:e:samurai-loopwheel-t-shirt",
+      "iron-snail:e:loop-weft-super-slub-t-shirt",
+      "iron-snail:e:redcast-heritage",
+      "iron-snail:e:okama-denim",
+      "iron-snail:e:sunspel-sea-island-cotton-t-shirt",
+      "iron-snail:e:sea-island-cotton",
+      "iron-snail:e:supima-cotton",
+      "iron-snail:e:egyptian-cotton",
+      "iron-snail:e:warehouse-4601-t-shirt",
+      "iron-snail:e:bronson-loopwheel-tubular-athletic-t-shirt",
+      "iron-snail:e:older-best",
+      "iron-snail:e:tomkins-knitting-machine",
+      "iron-snail:e:loopwheel",
+      "iron-snail:e:open-end-yarn",
+      "iron-snail:e:ring-spun-yarn",
+      "iron-snail:e:compact-yarn",
+      "iron-snail:e:slub-yarn",
+      "iron-snail:e:lyra",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:alpaca",
+      "iron-snail:e:nylon",
+      "iron-snail:e:trainwell",
+      "iron-snail:e:aj",
+      "iron-snail:e:taylor",
+      "iron-snail:e:queen-victoria",
+      "iron-snail:e:daniel-craig",
+      "iron-snail:e:james-bond"
+    ],
+    "categories": [
+      "t-shirts"
+    ],
+    "answers_questions": [
+      "Are Bronson t-shirts actually loopwheel?",
+      "Is the Sunspel Sea Island cotton t-shirt worth $200?",
+      "How much do Pro Club t-shirts shrink?",
+      "Is Front General Store a good cheap Japanese-made t-shirt?",
+      "Why didn't merino t-shirts make the best t-shirt list?",
+      "How does the Samurai loopwheel tee compare to other Japanese tees?",
+      "What is the difference between open-end, ring-spun and compact yarn?",
+      "Is the Reigning Champ lightweight tee see-through?",
+      "What's the Warehouse 4601 t-shirt like?",
+      "How should I wash a Sunspel Sea Island cotton tee?",
+      "What is a Tompkins knitting machine, and is it loopwheel?",
+      "How does the Hanes Beefy-T compare to Pro Club?",
+      "What's the Loop & Weft slub t-shirt like and where can I buy it?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:fuNp6W4DUWs:s0014",
+        "note": "Earlier (segment 13) Tompkins knitting machines were described as rarer than loopwheel machines and associated with loopwheel knitting. An edit insert confirms Tompkins machines are not loopwheel by definition, since the knit is under tension, so older best's Tompkins shirt is not loopwheel either."
+      },
+      {
+        "segment_id": "iron-snail:fuNp6W4DUWs:s0013",
+        "note": "An 'editing the edit' insert interrupts the claim about what older best offers, deferring the conclusion to the end of the section."
+      }
+    ],
+    "related_videos": [
+      "Part 1 of the internet's favorite t-shirts ranking (previous t-shirt video whose comments were tallied)",
+      "Earlier review of the Bronson loopwheel t-shirt from about two years before",
+      "Planned full video on the Sunspel Sea Island cotton t-shirt"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:front-general-store-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Front General Store t-shirt",
+      "brand": "Front General Store",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "front General Store"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pro-club-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Pro Club t-shirt",
+      "brand": "Pro Club",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Pro Club",
+        "proc Club"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hanes-beefy-t",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Hanes Beefy-T",
+      "brand": "Hanes",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Hayes",
+        "Haynes",
+        "pays"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hanes",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Hanes",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Hannes",
+        "Hayes",
+        "Haynes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fruit-of-the-loom",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fruit of the Loom",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fruit of loom"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:esquire",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Esquire",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Esquire magazine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:reigning-champ-lightweight-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Reigning Champ lightweight t-shirt",
+      "brand": "Reigning Champ",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "champ",
+        "rating Champs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paka-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Paka t-shirt",
+      "brand": "Paka",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Paca"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wool-prince-crew-neck-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wool&Prince crew neck t-shirt",
+      "brand": "Wool&Prince",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Woolen Prince",
+        "wool and Prince"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:proof-72-hour-merino-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Proof 72-Hour Merino T-Shirt",
+      "brand": "Proof",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samurai-loopwheel-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Samurai loopwheel t-shirt",
+      "brand": "Samurai Jeans",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Samurai",
+        "samurai Loop wheel t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loop-weft-super-slub-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Loop & Weft super slub t-shirt",
+      "brand": "Loop & Weft",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Loop and we's",
+        "Loop and weft"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:redcast-heritage",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Redcast Heritage",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "redcast",
+        "redcast Heritage",
+        "redcast Heritage Co"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:okama-denim",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "okama denim",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sunspel-sea-island-cotton-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Sunspel Sea Island cotton t-shirt",
+      "brand": "Sunspel",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Suns spell",
+        "suns spell",
+        "sunsbell"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sea-island-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Sea Island cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "SE Allen cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:supima-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "supima cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Puma supima",
+        "sepa",
+        "supima"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:egyptian-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Egyptian cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:warehouse-4601-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Warehouse 4601 t-shirt",
+      "brand": "Warehouse",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Warehouse 4061",
+        "warehouse 4061"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson-loopwheel-tubular-athletic-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bronson loopwheel tubular athletic t-shirt",
+      "brand": "Bronson",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Bronson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:older-best",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "older best",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "older Beast",
+        "older best older Beast"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tomkins-knitting-machine",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Tomkins knitting machine",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loopwheel",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loopwheel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Loop wheel",
+        "Loop wheeled",
+        "Loop will",
+        "loop whe",
+        "loop wheel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:open-end-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "open-end yarn",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "open-end",
+        "open-ended Yarns",
+        "open-ended yards",
+        "open-ended yarn"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ring-spun-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "ring-spun yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ring spun",
+        "ringspun"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:compact-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "compact yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:slub-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "slub yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "slub Yarns",
+        "slubby"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lyra",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Lyra",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marino",
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alpaca",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "alpaca",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "alaca",
+        "royal baby alpaca"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:trainwell",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "trainwell",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "train well",
+        "tranwell",
+        "trawell"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:aj",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "AJ",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:queen-victoria",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Queen Victoria",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:daniel-craig",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Daniel Craig",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:james-bond",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "James Bond",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "80ea84255dc8c0c3"
+}
