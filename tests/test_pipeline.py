@@ -87,6 +87,7 @@ def test_cli_segment_and_status_on_disk(tmp_path):
             for port, use in {
                 "catalog": "memory",
                 "transcripts": "memory",
+                "comments": "memory",
                 "raw_archive": "files",
                 "profiles": "files",
                 "store": "sqlite",

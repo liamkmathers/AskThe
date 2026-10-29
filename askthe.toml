@@ -18,6 +18,10 @@ use = "yt-dlp"
 use = "youtube-transcript-api"
 languages = ["en"]
 
+[adapters.comments]
+# Viewers' comments, for collecting real fan questions (M4). Like fetch, needs YouTube.
+use = "yt-dlp"
+
 [adapters.raw_archive]
 use = "files"
 

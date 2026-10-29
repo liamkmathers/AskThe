@@ -16,10 +16,12 @@ from pydantic import BaseModel, Field
 from askthe.core.models import (
     AnswerLog,
     Claim,
+    Comment,
     Creator,
     Entity,
     ProductVersion,
     ProfileRecord,
+    RawComments,
     RawVideo,
     Segment,
     Transcript,
@@ -52,8 +54,15 @@ class TranscriptSource(Protocol):
 
 
 @runtime_checkable
+class CommentSource(Protocol):
+    """Gets viewers' comments on one video, most liked first where the platform can."""
+
+    def get_comments(self, platform_id: str, limit: int) -> list[Comment]: ...
+
+
+@runtime_checkable
 class RawArchive(Protocol):
-    """Stores fetched videos: the source of truth. Records are never modified."""
+    """Stores fetched videos and their comments: the source of truth. Never modified."""
 
     def has(self, creator_slug: str, platform_id: str) -> bool: ...
 
@@ -62,6 +71,14 @@ class RawArchive(Protocol):
     def load(self, creator_slug: str, platform_id: str) -> RawVideo: ...
 
     def list_ids(self, creator_slug: str) -> list[str]: ...
+
+    def has_comments(self, creator_slug: str, platform_id: str) -> bool: ...
+
+    def save_comments(self, raw: RawComments) -> None: ...
+
+    def load_comments(self, creator_slug: str, platform_id: str) -> RawComments: ...
+
+    def list_comment_ids(self, creator_slug: str) -> list[str]: ...
 
 
 @runtime_checkable

@@ -29,10 +29,12 @@ from askthe.core.interfaces import (
 from askthe.core.models import (
     AnswerLog,
     Claim,
+    Comment,
     Creator,
     Entity,
     ProductVersion,
     ProfileRecord,
+    RawComments,
     RawVideo,
     Segment,
     Transcript,
@@ -78,9 +80,25 @@ class MemoryTranscriptSource:
             raise LookupError(f"no transcript for {platform_id!r}") from None
 
 
+class MemoryCommentSource:
+    def __init__(self) -> None:
+        self._comments: dict[str, list[Comment]] = {}
+        self.fail: set[str] = set()  # platform IDs whose fetch raises, for tests
+
+    def add(self, platform_id: str, *comments: Comment) -> None:
+        self._comments.setdefault(platform_id, []).extend(comments)
+
+    def get_comments(self, platform_id: str, limit: int) -> list[Comment]:
+        if platform_id in self.fail:
+            raise RuntimeError(f"comments unavailable for {platform_id!r}")
+        ranked = sorted(self._comments.get(platform_id, []), key=lambda c: -c.like_count)
+        return [c.model_copy() for c in ranked[:limit]]
+
+
 class MemoryRawArchive:
     def __init__(self) -> None:
         self._raw: dict[tuple[str, str], RawVideo] = {}
+        self._comments: dict[tuple[str, str], RawComments] = {}
 
     def has(self, creator_slug: str, platform_id: str) -> bool:
         return (creator_slug, platform_id) in self._raw
@@ -99,6 +117,24 @@ class MemoryRawArchive:
 
     def list_ids(self, creator_slug: str) -> list[str]:
         return sorted(pid for slug, pid in self._raw if slug == creator_slug)
+
+    def has_comments(self, creator_slug: str, platform_id: str) -> bool:
+        return (creator_slug, platform_id) in self._comments
+
+    def save_comments(self, raw: RawComments) -> None:
+        key = (raw.creator_slug, raw.platform_id)
+        if key in self._comments:
+            raise FileExistsError(f"comments {key} already archived; raw records are immutable")
+        self._comments[key] = raw.model_copy(deep=True)
+
+    def load_comments(self, creator_slug: str, platform_id: str) -> RawComments:
+        try:
+            return self._comments[(creator_slug, platform_id)].model_copy(deep=True)
+        except KeyError:
+            raise LookupError(f"no comments for {platform_id!r} of {creator_slug!r}") from None
+
+    def list_comment_ids(self, creator_slug: str) -> list[str]:
+        return sorted(pid for slug, pid in self._comments if slug == creator_slug)
 
 
 class MemoryProfileArchive:

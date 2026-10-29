@@ -36,6 +36,7 @@ class AppConfig(BaseModel):
     root: Path = Field(exclude=True)
     data_dir: Path
     creators_dir: Path
+    eval_dir: Path = Path("eval")
     adapters: dict[str, AdapterChoice]
     models: dict[str, str] = Field(default_factory=dict)
     retrieval: dict[str, Any] = Field(default_factory=dict)
@@ -44,6 +45,7 @@ class AppConfig(BaseModel):
     def _resolve_paths(self) -> AppConfig:
         self.data_dir = (self.root / self.data_dir).resolve()
         self.creators_dir = (self.root / self.creators_dir).resolve()
+        self.eval_dir = (self.root / self.eval_dir).resolve()
         return self
 
 

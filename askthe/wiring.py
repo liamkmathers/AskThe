@@ -14,6 +14,7 @@ from typing import Any
 from askthe.config import AppConfig, ConfigError
 from askthe.core.interfaces import (
     CatalogSource,
+    CommentSource,
     Embedder,
     KnowledgeStore,
     LLMClient,
@@ -32,6 +33,7 @@ Factory = Callable[[dict[str, Any], AppConfig], Any]
 PORTS: dict[str, type] = {
     "catalog": CatalogSource,
     "transcripts": TranscriptSource,
+    "comments": CommentSource,
     "raw_archive": RawArchive,
     "profiles": ProfileArchive,
     "store": KnowledgeStore,
@@ -50,6 +52,10 @@ REGISTRY: dict[str, dict[str, str]] = {
         "memory": "askthe.wiring:_memory_transcripts",
         "youtube-transcript-api": "askthe.wiring:_transcript_api",
         "files": "askthe.wiring:_transcript_files",
+    },
+    "comments": {
+        "memory": "askthe.wiring:_memory_comments",
+        "yt-dlp": "askthe.wiring:_ytdlp_comments",
     },
     "raw_archive": {
         "memory": "askthe.wiring:_memory_raw_archive",
@@ -87,6 +93,7 @@ class Services:
     config: AppConfig
     catalog: CatalogSource
     transcripts: TranscriptSource
+    comments: CommentSource
     raw_archive: RawArchive
     profiles: ProfileArchive
     store: KnowledgeStore
@@ -140,6 +147,12 @@ def _memory_transcripts(options: dict[str, Any], config: AppConfig) -> Any:
     return MemoryTranscriptSource()
 
 
+def _memory_comments(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.memory import MemoryCommentSource
+
+    return MemoryCommentSource()
+
+
 def _memory_raw_archive(options: dict[str, Any], config: AppConfig) -> Any:
     from askthe.adapters.memory import MemoryRawArchive
 
@@ -174,6 +187,12 @@ def _ytdlp_catalog(options: dict[str, Any], config: AppConfig) -> Any:
     from askthe.adapters.youtube import YtDlpCatalogSource
 
     return YtDlpCatalogSource()
+
+
+def _ytdlp_comments(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.youtube import YtDlpCommentSource
+
+    return YtDlpCommentSource()
 
 
 def _transcript_api(options: dict[str, Any], config: AppConfig) -> Any:

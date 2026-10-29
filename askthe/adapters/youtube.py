@@ -1,5 +1,5 @@
-"""YouTube adapters: yt-dlp for the catalogue and metadata, youtube-transcript-api for
-transcripts.
+"""YouTube adapters: yt-dlp for the catalogue, metadata and comments,
+youtube-transcript-api for transcripts.
 
 YouTube blocks many cloud and datacenter IPs as bots. If fetching fails with a bot
 or sign-in error, run `askthe fetch` from a home connection; every later stage works
@@ -13,6 +13,7 @@ from datetime import UTC, datetime
 from typing import Any
 
 from askthe.core.models import (
+    Comment,
     Creator,
     Transcript,
     TranscriptKind,
@@ -48,18 +49,56 @@ class YtDlpCatalogSource:
         return meta_from_info(self._extract(WATCH_URL.format(platform_id)))
 
     def _extract(self, url: str, **options: Any) -> dict[str, Any]:
-        params = {
-            "quiet": True,
-            "no_warnings": True,
-            "skip_download": True,
-            "logger": _QuietLogger(),  # errors are raised as FetchError instead
-            **options,
-        }
-        try:
-            with self._yt_dlp.YoutubeDL(params) as ydl:
-                return ydl.extract_info(url, download=False)
-        except self._yt_dlp.utils.DownloadError as e:
-            raise FetchError(str(e)) from None
+        return _extract(self._yt_dlp, url, **options)
+
+
+class YtDlpCommentSource:
+    """Top comments (YouTube's "top" order), without replies: fans' questions are
+    nearly always top-level, and replies multiply the requests made."""
+
+    def __init__(self) -> None:
+        import yt_dlp
+
+        self._yt_dlp = yt_dlp
+
+    def get_comments(self, platform_id: str, limit: int) -> list[Comment]:
+        info = _extract(
+            self._yt_dlp,
+            WATCH_URL.format(platform_id),
+            getcomments=True,
+            # max-comments, max-parents, max-replies
+            extractor_args={
+                "youtube": {"comment_sort": ["top"], "max_comments": [str(limit), "all", "0"]}
+            },
+        )
+        return [comment_from_info(c) for c in info.get("comments") or [] if c.get("id")][:limit]
+
+
+def comment_from_info(c: dict[str, Any]) -> Comment:
+    """Map a yt-dlp comment dict to Comment. The author is deliberately dropped."""
+    return Comment(
+        id=c["id"],
+        text=c.get("text") or "",
+        like_count=c.get("like_count") or 0,
+        is_reply=(c.get("parent") or "root") != "root",
+        by_creator=bool(c.get("author_is_uploader")),
+        published_at=datetime.fromtimestamp(c["timestamp"], tz=UTC) if c.get("timestamp") else None,
+    )
+
+
+def _extract(yt_dlp: Any, url: str, **options: Any) -> dict[str, Any]:
+    params = {
+        "quiet": True,
+        "no_warnings": True,
+        "skip_download": True,
+        "logger": _QuietLogger(),  # errors are raised as FetchError instead
+        **options,
+    }
+    try:
+        with yt_dlp.YoutubeDL(params) as ydl:
+            return ydl.extract_info(url, download=False)
+    except yt_dlp.utils.DownloadError as e:
+        raise FetchError(str(e)) from None
 
 
 class _QuietLogger:

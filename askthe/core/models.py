@@ -222,6 +222,27 @@ class RawVideo(Model):
     source: str  # which adapter fetched it, e.g. "yt-dlp"
 
 
+class Comment(Model):
+    """A viewer's comment on a video. Authors are not stored: only what was asked."""
+
+    id: str  # the platform's comment ID, so the comment can be linked to
+    text: str
+    like_count: int = 0
+    is_reply: bool = False
+    by_creator: bool = False
+    published_at: datetime | None = None
+
+
+class RawComments(Model):
+    """Comments fetched for one video. Raw data: saved once, never modified."""
+
+    creator_slug: str
+    platform_id: str
+    comments: list[Comment]
+    fetched_at: datetime
+    source: str
+
+
 # --- Segment layer --------------------------------------------------------------
 
 

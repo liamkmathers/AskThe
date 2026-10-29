@@ -6,12 +6,36 @@ import os
 import tempfile
 from pathlib import Path
 
+from pydantic import BaseModel
+
 from askthe.core.captions import caption_file_text
-from askthe.core.models import ProfileRecord, RawVideo, Transcript, TranscriptKind
+from askthe.core.models import (
+    ProfileRecord,
+    RawComments,
+    RawVideo,
+    Transcript,
+    TranscriptKind,
+)
+
+
+def _write_once(path: Path, record: BaseModel) -> None:
+    """Write a record that must never be overwritten."""
+    if path.exists():
+        raise FileExistsError(f"{path} already exists; raw records are immutable")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    # Write then link, so an interrupted save never leaves a partial file.
+    fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w") as f:
+            f.write(record.model_dump_json(indent=2))
+        os.link(tmp, path)  # fails if the file appeared meanwhile
+    finally:
+        os.unlink(tmp)
 
 
 class FileRawArchive:
-    """Raw videos as JSON at <root>/<creator>/raw/<platform_id>.json. Never overwritten."""
+    """Raw videos as JSON at <root>/<creator>/raw/<platform_id>.json, and their comments
+    at <root>/<creator>/raw/comments/<platform_id>.json. Never overwritten."""
 
     def __init__(self, root: Path) -> None:
         self._root = Path(root)
@@ -26,18 +50,7 @@ class FileRawArchive:
         return self._path(creator_slug, platform_id).exists()
 
     def save(self, raw: RawVideo) -> None:
-        path = self._path(raw.creator_slug, raw.meta.platform_id)
-        if path.exists():
-            raise FileExistsError(f"{path} already exists; raw records are immutable")
-        path.parent.mkdir(parents=True, exist_ok=True)
-        # Write then rename, so an interrupted save never leaves a partial file.
-        fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
-        try:
-            with os.fdopen(fd, "w") as f:
-                f.write(raw.model_dump_json(indent=2))
-            os.link(tmp, path)  # fails if the file appeared meanwhile
-        finally:
-            os.unlink(tmp)
+        _write_once(self._path(raw.creator_slug, raw.meta.platform_id), raw)
 
     def load(self, creator_slug: str, platform_id: str) -> RawVideo:
         path = self._path(creator_slug, platform_id)
@@ -48,6 +61,28 @@ class FileRawArchive:
 
     def list_ids(self, creator_slug: str) -> list[str]:
         directory = self._dir(creator_slug)
+        if not directory.exists():
+            return []
+        return sorted(p.stem for p in directory.glob("*.json"))
+
+    def _comments_path(self, creator_slug: str, platform_id: str) -> Path:
+        return self._dir(creator_slug) / "comments" / f"{platform_id}.json"
+
+    def has_comments(self, creator_slug: str, platform_id: str) -> bool:
+        return self._comments_path(creator_slug, platform_id).exists()
+
+    def save_comments(self, raw: RawComments) -> None:
+        _write_once(self._comments_path(raw.creator_slug, raw.platform_id), raw)
+
+    def load_comments(self, creator_slug: str, platform_id: str) -> RawComments:
+        path = self._comments_path(creator_slug, platform_id)
+        try:
+            return RawComments.model_validate_json(path.read_text())
+        except FileNotFoundError:
+            raise LookupError(f"no comments at {path}") from None
+
+    def list_comment_ids(self, creator_slug: str) -> list[str]:
+        directory = self._dir(creator_slug) / "comments"
         if not directory.exists():
             return []
         return sorted(p.stem for p in directory.glob("*.json"))
