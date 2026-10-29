@@ -2,7 +2,9 @@
 
 A profile describes a video (sections, entities, sponsor reads, the questions it
 answers); it holds no opinions (D15). Videos already profiled by the current profiler
-version are skipped unless forced, so the stage only pays for what changed.
+version are skipped unless forced, so the stage only pays for what changed. Each
+profile is also saved to the profile archive, so rebuilding the database restores it
+instead of paying for it again (D17).
 """
 
 from __future__ import annotations
@@ -14,8 +16,9 @@ from askthe.core.interfaces import (
     KnowledgeStore,
     LLMClient,
     LLMTask,
+    ProfileArchive,
 )
-from askthe.core.models import Creator
+from askthe.core.models import Creator, Entity, ProfileRecord, Segment, Video, VideoProfile
 from askthe.core.profiling import (
     PROFILE_PROMPT,
     PROFILER_VERSION,
@@ -23,6 +26,7 @@ from askthe.core.profiling import (
     ProfileDraft,
     profile_from_draft,
     profile_system_prompt,
+    segments_fingerprint,
     video_context,
 )
 
@@ -42,6 +46,7 @@ def understand_videos(
     platform_ids: list[str] | None = None,
     force: bool = False,
     on_progress: Callable[[str, str], None] = lambda video_id, status: None,
+    archive: ProfileArchive | None = None,
 ) -> UnderstandReport:
     report = UnderstandReport()
     resolver = EntityResolver(creator, store.list_entities(creator.slug))
@@ -50,10 +55,15 @@ def understand_videos(
         if platform_ids is not None and video.platform_id not in platform_ids:
             continue
         existing = store.get_profile(video.id)
+        segments = store.get_segments(video.id)
         if existing and existing.profiler_version == PROFILER_VERSION and not force:
+            if archive and segments:  # profiles made before the archive existed
+                saved = archive.load(creator.slug, video.platform_id)
+                if saved is None or saved.profile != existing:
+                    entities = [store.get_entity(i) for i in existing.entity_ids]
+                    _archive(archive, creator, video, existing, entities, segments)
             report.skipped.append(video.id)
             continue
-        segments = store.get_segments(video.id)
         if not segments:
             report.failed[video.id] = "no segments; run segment first"
             continue
@@ -77,6 +87,8 @@ def understand_videos(
         for entity in entities:  # shared across videos: upserted, never replaced
             store.upsert_entity(entity)
         store.save_profile(profile)
+        if archive:
+            _archive(archive, creator, video, profile, entities, segments)
 
         report.profiled.append(video.id)
         on_progress(
@@ -85,3 +97,22 @@ def understand_videos(
             f"{len(entities)} entities: {video.title}",
         )
     return report
+
+
+def _archive(
+    archive: ProfileArchive,
+    creator: Creator,
+    video: Video,
+    profile: VideoProfile,
+    entities: list[Entity | None],
+    segments: list[Segment],
+) -> None:
+    archive.save(
+        creator.slug,
+        ProfileRecord(
+            platform_id=video.platform_id,
+            profile=profile,
+            entities=[e for e in entities if e is not None],
+            segments_fingerprint=segments_fingerprint(segments),
+        ),
+    )

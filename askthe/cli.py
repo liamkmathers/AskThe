@@ -154,8 +154,17 @@ def videos(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH)
 def segment(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
     """Stage 2: rebuild videos and segments from the raw archive, and index them."""
     services, c = _setup(config_path, creator)
-    report = segment_videos(c, services.raw_archive, services.store)
-    typer.echo(f"segmented {report.videos} videos into {report.segments} segments")
+    report = segment_videos(c, services.raw_archive, services.store, profiles=services.profiles)
+    typer.echo(
+        f"segmented {report.videos} videos into {report.segments} segments; "
+        f"restored {report.restored} saved profiles"
+    )
+    if report.stale:
+        typer.secho(
+            f"{len(report.stale)} saved profiles no longer match their segments; "
+            "run understand to redo them",
+            fg=typer.colors.YELLOW,
+        )
 
 
 @app.command()
@@ -186,6 +195,7 @@ def understand(
         platform_ids=ids,
         force=force,
         on_progress=lambda vid, msg: typer.echo(f"{vid}  {msg}"),
+        archive=services.profiles,
     )
     typer.echo(
         f"profiled {len(report.profiled)}, skipped {len(report.skipped)}, "
@@ -265,6 +275,9 @@ def status(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH)
     typer.echo(f"{'selected':<12} {len(selected)} videos")
     typer.echo(f"{'fetched':<12} {len(raw_ids)} raw videos ({len(missing)} selected not yet)")
     typer.echo(f"{'segmented':<12} {len(videos)} videos, {segments} segments")
+    profiled = sum(1 for v in videos if services.store.get_profile(v.id))
+    saved = len(services.profiles.list_ids(c.slug))
+    typer.echo(f"{'profiled':<12} {profiled} videos ({saved} profiles saved)")
 
 
 if __name__ == "__main__":

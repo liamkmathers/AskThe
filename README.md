@@ -63,7 +63,7 @@ uv run askthe index iron-snail
 uv run askthe ask iron-snail "What's the best value t-shirt he's tested?"
 ```
 
-`fetch` downloads metadata and transcripts for the videos listed in `creators/iron-snail.videos.txt` into `data/iron-snail/raw/`. It skips videos already fetched, so it's safe to re-run. `segment` rebuilds the database (`data/askthe.db`) from those raw files.
+`fetch` downloads metadata and transcripts for the videos listed in `creators/iron-snail.videos.txt` into `data/iron-snail/raw/`. It skips videos already fetched, so it's safe to re-run. `segment` rebuilds the database (`data/askthe.db`) from those raw files, restoring the video profiles saved in `data/iron-snail/profiles/`.
 
 **YouTube blocks cloud servers**, so run `fetch` from a home connection. Every other stage works anywhere from the raw files. Transcripts can also come from files instead: set `use = "files"` under `[adapters.transcripts]` in `askthe.toml` and put `<video_id>.vtt`, `.srt` or `.txt` files in `data/transcripts/`.
 

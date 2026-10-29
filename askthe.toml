@@ -21,6 +21,11 @@ languages = ["en"]
 [adapters.raw_archive]
 use = "files"
 
+[adapters.profiles]
+# Profiles are kept as files (data/<creator>/profiles/) so the database can be rebuilt
+# without paying for them again (D17).
+use = "files"
+
 [adapters.store]
 use = "sqlite"
 

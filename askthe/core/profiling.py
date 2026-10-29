@@ -11,6 +11,7 @@ Pure functions only: no I/O, no LLM calls.
 
 from __future__ import annotations
 
+import hashlib
 import re
 import unicodedata
 from collections.abc import Sequence
@@ -211,6 +212,14 @@ class EntityResolver:
         )
         self._remember(entity)
         return entity
+
+
+def segments_fingerprint(segments: Sequence[Segment]) -> str:
+    """Identifies a segmentation: a profile's segment ranges hold only for this one."""
+    digest = hashlib.sha256()
+    for segment in sorted(segments, key=lambda s: s.index):
+        digest.update(f"{segment.index}\x00{segment.text}\x1e".encode())
+    return digest.hexdigest()[:16]
 
 
 def profile_from_draft(

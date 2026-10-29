@@ -1,9 +1,11 @@
 # Data: raw files are the source of truth and are committed; everything derived
-# from them (the database, caches) is rebuildable and ignored.
+# from them (the database, caches) is rebuildable and ignored, except profiles,
+# which cost an LLM call each to rebuild (D17).
 data/*
 !data/*/
 data/*/*
 !data/*/raw/
+!data/*/profiles/
 !data/*/channel.tsv
 .env
 __pycache__/

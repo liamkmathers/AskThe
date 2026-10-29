@@ -1,0 +1,637 @@
+{
+  "platform_id": "VtBFkFZoaII",
+  "profile": {
+    "video_id": "iron-snail:VtBFkFZoaII",
+    "purpose": "Explain why Vibram outsoles appear on so many good boots and sneakers. It covers the company's origin story, the difference between grip and traction, how Vibram designs outsoles, and why giant brands still outsource soles to it. The explanation draws on the creator's visit to Vibram in Italy.",
+    "video_type": "explainer",
+    "thesis": "Vibram stays dominant because it has always focused on understanding how rubber outsoles work in different environments. That engineering knowledge cannot simply be bought, even by a company as big as Nike.",
+    "key_takeaways": [
+      "Vibram was founded by climber Vitale Bramani; the name combines his first and last names.",
+      "A 1930s climbing disaster on Punta Rasica, where six of Bramani's companions died partly because rope-soled shoes failed in freezing conditions, led to the Carrarmato sole.",
+      "Carrarmato is Italian for 'tank'; Bramani designed the sole to bite like tank treads instead of copying leather dress shoe soles.",
+      "Grip means friction from sticky rubber on smooth surfaces, while traction means lugs or spikes biting into the ground. Bramani wanted both in one sole.",
+      "The video uses the Nike Air Force 1 to show how Vibram reworked a basketball pivot-circle outsole for street use by breaking up the circles and adding edges.",
+      "The Carrarmato's features are covered: the large heel lug, angled flat side lugs, and four-pointed star lugs linked to Gothic architecture and the four cardinal directions.",
+      "Megagrip gets grip from a firmer rubber with damped rebound rather than a very soft compound, so it stays durable.",
+      "Big brands outsource to Vibram because of the complexity involved and Vibram's knowledge base, and Vibram uses lab testing to show brands which design changes work.",
+      "The original Carrarmato survives for general use, while Vibram makes more specialised soles for mountaineering and other specific uses."
+    ],
+    "outline": [
+      {
+        "title": "The history of Vibram",
+        "summary": "Introduces Vibram, Vitale Bramani and the tank-inspired Carrarmato sole. Teases the freezer experiment and the creator's visit to Vibram, and sets the agenda: traction, grip, and what $70 billion can't buy.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Underwear brand promotion",
+        "summary": "A comedic funeral skit for the creator's old Alfani underwear, which becomes a sponsor read for Unbound Merino boxer briefs.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Grip versus traction",
+        "summary": "Uses espadrille rope soles and 1940s French over boots with iron spikes to separate grip from traction. Tells the story of the Punta Rasica tragedy that pushed Bramani to combine the two.",
+        "first_segment": 5,
+        "last_segment": 10
+      },
+      {
+        "title": "Design and engineering",
+        "summary": "Breaks down the Nike Air Force 1 outsole: pivot circles, edges and heel and toe pockets for basketball. Then shows how Vibram redesigned it for street traction by breaking up the circles.",
+        "first_segment": 10,
+        "last_segment": 14
+      },
+      {
+        "title": "The Carrarmato lug design",
+        "summary": "Explains the Carrarmato's heel lug, angled flat side lugs and four-pointed star lugs. Covers the logo and tile origin stories, the Gothic architecture symbolism and the four cardinal directions.",
+        "first_segment": 14,
+        "last_segment": 17
+      },
+      {
+        "title": "Rubber compounds and testing",
+        "summary": "Explains how Megagrip gets grip from a firmer, damped-rebound rubber instead of a soft compound, with reversed lugs for descending. Demonstrated by running up a wet 45° concrete ramp.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "Vibram's market dominance",
+        "summary": "Covers why Nike and other giants don't make their own soles, and an anonymised story of Vibram using a ramp test to talk a brand out of a bad change. Ends with why the Carrarmato survives and why Vibram has no rival.",
+        "first_segment": 19,
+        "last_segment": 25
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Riddle me this, why is this",
+        "last_segment": 3,
+        "ends_with": "and what $70 billion still can't buy.",
+        "note": "Cold open hook about Vibram, the freezer demo and the visit to Vibram, ending with the agenda"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "And they said, \"Ask your mom.\"",
+        "last_segment": 2,
+        "ends_with": "And I My mom said yes.",
+        "note": "Joke about asking Vibram to visit"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "We are gathered here today to celebrate",
+        "last_segment": 5,
+        "ends_with": "unbound bounds of actually good underwear.",
+        "note": "Sponsor read for Unbound Merino merino wool boxer briefs, framed as a funeral skit for old Alfani underwear"
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "That just like shot into my",
+        "last_segment": 8,
+        "ends_with": "possessed by King Albert I of Belgium again?",
+        "note": "Skit about being possessed by King Albert I of Belgium"
+      },
+      {
+        "role": "aside",
+        "first_segment": 16,
+        "starts_with": "But, she kind of like puffed",
+        "last_segment": 16,
+        "ends_with": "Thank you, Domy.",
+        "note": "Joke about friend Domy recording the Italian pronunciation"
+      },
+      {
+        "role": "outro",
+        "first_segment": 25,
+        "starts_with": "Okay, anyways, that's about it.",
+        "last_segment": 25,
+        "ends_with": "We're talking about Ventile next video.",
+        "note": "Sign-off teasing the next video on Ventile"
+      }
+    ],
+    "topics": [
+      "Vibram history",
+      "Vitale Bramani",
+      "Carrarmato outsole design",
+      "grip vs traction",
+      "rope-soled climbing shoes",
+      "Punta Rasica climbing disaster",
+      "Nike Air Force 1 outsole redesign",
+      "lug design",
+      "four-pointed star symbolism",
+      "rubber compounds and rebound damping",
+      "Vibram Megagrip",
+      "outsole testing",
+      "why brands outsource outsoles",
+      "merino wool underwear"
+    ],
+    "entity_ids": [
+      "iron-snail:e:vibram",
+      "iron-snail:e:vibram-carrarmato",
+      "iron-snail:e:vibram-megagrip",
+      "iron-snail:e:vitale-bramani",
+      "iron-snail:e:jim-whittaker",
+      "iron-snail:e:king-albert-i-of-belgium",
+      "iron-snail:e:sam",
+      "iron-snail:e:punta-rasica",
+      "iron-snail:e:nike",
+      "iron-snail:e:nike-air-force-1",
+      "iron-snail:e:new-balance",
+      "iron-snail:e:la-sportiva",
+      "iron-snail:e:espadrilles",
+      "iron-snail:e:rope-sole",
+      "iron-snail:e:jute",
+      "iron-snail:e:hobnail-boots",
+      "iron-snail:e:limmer",
+      "iron-snail:e:1940s-french-over-boots",
+      "iron-snail:e:grip",
+      "iron-snail:e:traction",
+      "iron-snail:e:lug",
+      "iron-snail:e:four-pointed-star",
+      "iron-snail:e:unbound-merino",
+      "iron-snail:e:unbound-merino-men-s-merino-wool-boxer-briefs",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:alfani",
+      "iron-snail:e:macy-s",
+      "iron-snail:e:ventile",
+      "iron-snail:e:domi",
+      "iron-snail:e:taylor",
+      "iron-snail:e:ted"
+    ],
+    "categories": [
+      "boots",
+      "shoes",
+      "underwear"
+    ],
+    "answers_questions": [
+      "Why does every good boot have the yellow Vibram logo on the sole?",
+      "Who invented Vibram and where does the name come from?",
+      "What does Carrarmato mean and why was it designed?",
+      "What's the difference between grip and traction on a boot sole?",
+      "What happened on the climb that led to the Vibram sole?",
+      "Why are there four-pointed stars on the Vibram Carrarmato lugs?",
+      "How did Vibram redesign the Nike Air Force 1 outsole?",
+      "How does Vibram Megagrip work on wet surfaces?",
+      "Why doesn't Nike just make its own outsoles instead of using Vibram?",
+      "Is the Carrarmato sole still good today or outdated?",
+      "What did climbers wear on their feet in the 1930s?",
+      "What underwear does the Iron Snail recommend?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:VtBFkFZoaII:s0002",
+        "note": "After saying Vibram is still making the exact same outsole, he corrects himself: the design has been updated a little but is pretty similar."
+      },
+      {
+        "segment_id": "iron-snail:VtBFkFZoaII:s0006",
+        "note": "Says rope soles gave climbers 'a lot of grip', then corrects it to 'some grip'."
+      },
+      {
+        "segment_id": "iron-snail:VtBFkFZoaII:s0019",
+        "note": "Nike was earlier called a $70 billion company; here he gives Nike's market cap as 67 billion dollars when he last checked."
+      }
+    ],
+    "related_videos": [
+      "Upcoming video about Ventile"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram-carrarmato",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "Vibram Carrarmato",
+      "brand": "Vibram",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Carramato"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram-megagrip",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Vibram Megagrip",
+      "brand": "Vibram",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "mega grip"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vitale-bramani",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Vitale Bramani",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bramani",
+        "Mr. Vibram",
+        "Vibram"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jim-whittaker",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Jim Whittaker",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:king-albert-i-of-belgium",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "King Albert I of Belgium",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sam",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "SAM",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:punta-rasica",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Punta Rasica",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nike",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Nike",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nike-air-force-1",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Nike Air Force 1",
+      "brand": "Nike",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Air Force 1"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "New Balance",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:la-sportiva",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "La Sportiva",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:espadrilles",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "espadrilles",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rope-sole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rope sole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rope-soled shoes",
+        "wrapped rope sole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jute",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "jute",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hobnail-boots",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "hobnail boots",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:limmer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Limmer",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:1940s-french-over-boots",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "1940s French over boots",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:grip",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "grip",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:traction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "traction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lug",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "lug",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lugs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:four-pointed-star",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "four-pointed star",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "four-sided stars"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Unbound Merino",
+      "brand": null,
+      "model": null,
+      "category": "underwear",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino-men-s-merino-wool-boxer-briefs",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Unbound Merino men's merino wool boxer briefs",
+      "brand": "Unbound Merino",
+      "model": null,
+      "category": "underwear",
+      "aliases": [
+        "men's merino wool boxer briefs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alfani",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Alfani",
+      "brand": null,
+      "model": null,
+      "category": "underwear",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:macy-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Macy's",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ventile",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Ventile",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:domi",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Domi",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Domy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ted",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ted",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "57914ca8ef9eb466"
+}

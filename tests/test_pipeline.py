@@ -88,6 +88,7 @@ def test_cli_segment_and_status_on_disk(tmp_path):
                 "catalog": "memory",
                 "transcripts": "memory",
                 "raw_archive": "files",
+                "profiles": "files",
                 "store": "sqlite",
                 "search": "sqlite",
                 "embedder": "memory",
@@ -107,6 +108,7 @@ def test_cli_segment_and_status_on_disk(tmp_path):
     result = runner.invoke(app, ["status", f.CREATOR, *config])
     assert result.exit_code == 0, result.output
     assert "1 raw videos" in result.output and "1 videos, 1 segments" in result.output
+    assert "0 videos (0 profiles saved)" in result.output
 
     result = runner.invoke(app, ["fetch", f.CREATOR, *config])
     assert result.exit_code == 1  # nothing selected

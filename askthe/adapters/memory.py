@@ -32,6 +32,7 @@ from askthe.core.models import (
     Creator,
     Entity,
     ProductVersion,
+    ProfileRecord,
     RawVideo,
     Segment,
     Transcript,
@@ -98,6 +99,21 @@ class MemoryRawArchive:
 
     def list_ids(self, creator_slug: str) -> list[str]:
         return sorted(pid for slug, pid in self._raw if slug == creator_slug)
+
+
+class MemoryProfileArchive:
+    def __init__(self) -> None:
+        self._records: dict[tuple[str, str], ProfileRecord] = {}
+
+    def save(self, creator_slug: str, record: ProfileRecord) -> None:
+        self._records[(creator_slug, record.platform_id)] = record.model_copy(deep=True)
+
+    def load(self, creator_slug: str, platform_id: str) -> ProfileRecord | None:
+        record = self._records.get((creator_slug, platform_id))
+        return record.model_copy(deep=True) if record else None
+
+    def list_ids(self, creator_slug: str) -> list[str]:
+        return sorted(pid for slug, pid in self._records if slug == creator_slug)
 
 
 class MemoryKnowledgeStore:

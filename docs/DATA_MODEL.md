@@ -63,6 +63,8 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | `related_videos` | Other videos it refers to ("part one", "full video on denim coming"), when identifiable |
 | `profiler_version`, `model` | What produced this profile |
 
+Saved with the entities it names and a fingerprint of the segments it describes in `data/<creator>/profiles/<video_id>.json` (D17), so rebuilding the database restores it without another model call.
+
 ### Segment
 
 | Field | Notes |

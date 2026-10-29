@@ -40,6 +40,6 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 ## Environment notes
 
 - Fetching from YouTube needs network access to YouTube. If it's blocked, run `askthe fetch` locally and copy `data/<creator>/raw/`; all later stages run offline.
-- Raw data in `data/<creator>/raw/` is committed; the database is ignored and rebuildable. Secrets come from environment variables, never committed.
+- Raw data in `data/<creator>/raw/` and profiles in `data/<creator>/profiles/` are committed; the database is ignored and rebuildable (`segment` restores saved profiles, D17). Secrets come from environment variables, never committed.
 - The app's Anthropic key is `ASKTHE_ANTHROPIC_API_KEY`: hosted Claude Code environments reserve `ANTHROPIC_API_KEY` for Claude Code itself.
 - Embeddings use `ASKTHE_OPENAI_API_KEY` and need `api.openai.com` in the environment's allowed domains. Without them, indexing and retrieval fall back to keyword search and warn.

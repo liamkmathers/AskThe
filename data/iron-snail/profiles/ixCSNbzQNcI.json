@@ -1,0 +1,907 @@
+{
+  "platform_id": "ixCSNbzQNcI",
+  "profile": {
+    "video_id": "iron-snail:ixCSNbzQNcI",
+    "purpose": "An investigation into whether Patagonia deserves its reputation. It covers the brand's history through three 'brilliant' moves by founder Yvon Chouinard, alternated with vintage-vs-modern Patagonia gear head-to-heads, an undercover visit to the Worn Wear repair program, and a closing look at the brand's environmental paradox and influence on supply chains.",
+    "video_type": "explainer",
+    "thesis": "Patagonia became what it is through three founder moves: premium-priced reusable products, relentless material innovation, and authentic customer-driven marketing. It also kept a 1970s-style business model of warranties, repair and quality control while other brands cut corners. The video weighs this against its synthetic-heavy, microplastic-shedding products and its 'buy less' messaging, and leaves the verdict to the viewer.",
+    "key_takeaways": [
+      "The video is framed around three moves by Yvon Chouinard: making products about five times more expensive but reusable (steel pitons), innovating materials (Capilene, reversed and double-faced fleece), and marketing with photos of real customers.",
+      "Old vs new rounds: a vintage Patagonia wool sweater against the modern 50th Anniversary Rugby Sweater, a 1988 made-in-USA Retro-X against the modern Retro-X, and a look at the Better Sweater.",
+      "A warmth test found the modern Retro-X lost no warmth against the vintage one. The creator argues the fleece changes are probably for comfort rather than cost-cutting, because polyester is cheap and fleece is shaved to height.",
+      "Recycled wool is weaker because it is mechanically recycled. Mechanically recycled synthetics may pill more, while chemically recycled synthetics are as strong as virgin fibre. Patagonia uses both.",
+      "The creator took Taylor's grandfather's holey 1970s Pendleton wool flannel undercover to the Worn Wear repair program in Freeport, Maine. The program repairs any brand, one fix per garment.",
+      "Chouinard's notes ('A Note' on pitons damaging mountains, 'Reality Check' on buying less) are discussed, along with the fact that sales grew after them.",
+      "Patagonia's scale lets it push global suppliers on organic cotton, RWS wool, labour rights, recycling, dyes and chemicals such as those in zippers."
+    ],
+    "outline": [
+      {
+        "title": "Introduction",
+        "summary": "Opens on a 1970s reverse pile Synchilla cardigan, then covers the trouble filming the video, the research and gear bought, and the plan to test old vs new Patagonia.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "The Paradox of Patagonia",
+        "summary": "Covers the contradictions: an eco-friendly brand selling mostly synthetic, microplastic-shedding clothing, 'don't buy this jacket' ads that boosted sales, and an anti-business founder who became a billionaire. It also sets out the video's three-part frame.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Worn Wear Repair Program",
+        "summary": "Explains Worn Wear resale and repair, and the undercover visit to Patagonia Freeport, Maine with a badly damaged vintage Pendleton flannel.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "The Founder's First Strategy",
+        "summary": "Brilliant idea one: Chouinard's reusable steel pitons cost five times more but lightened climbers' loads. Covers how he taught himself blacksmithing, promoted the gear by climbing, and ran into his first environmental problem.",
+        "first_segment": 6,
+        "last_segment": 9
+      },
+      {
+        "title": "Vintage vs. Modern Sweaters",
+        "summary": "Compares the modern 50th Anniversary Rugby Sweater with a vintage 100% virgin worsted wool Patagonia sweater. The point goes to vintage.",
+        "first_segment": 10,
+        "last_segment": 12
+      },
+      {
+        "title": "Innovation in Fleece",
+        "summary": "Brilliant idea two: Capilene base layers, then the fleece design choices of pile outside, funnel neck, bold colours, tougher cuffs and double-faced fleece. Ends with the downside of durable synthetics such as Gore-Tex, fluorocarbons and DWR, and microplastic shedding.",
+        "first_segment": 12,
+        "last_segment": 16
+      },
+      {
+        "title": "Fleece Comparison & Testing",
+        "summary": "Compares a 1988 made-in-USA Retro-X with the modern one on pile, density, pocket and placket, plus a warmth test. Then discusses Better Sweater durability complaints and mechanical vs chemical recycling.",
+        "first_segment": 17,
+        "last_segment": 21
+      },
+      {
+        "title": "Marketing and Brand Image",
+        "summary": "Brilliant idea three: catalogs built from customers' own photos, low-spend clever marketing like Worn Wear, and Chouinard's notes 'A Note' (aluminium chocks replacing pitons) and 'Reality Check' (buy less), which increased sales.",
+        "first_segment": 21,
+        "last_segment": 25
+      },
+      {
+        "title": "Legacy and Environmental Impact",
+        "summary": "Covers Chouinard refusing to sell the company and how brands like L.L.Bean and Levi's cut quality after going global. Patagonia instead kept a 70s business model and uses its size to push suppliers on environmental and labour issues.",
+        "first_segment": 25,
+        "last_segment": 30
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Patagonia, Patagonia, Patagonia, Patagonia.",
+        "last_segment": 2,
+        "ends_with": "I might after the testing. So, hello.",
+        "note": "Intro about filming the video three times, the research done and the plan to test old vs new gear"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "My friend Chance calls Patagonia Plastagonia.",
+        "last_segment": 3,
+        "ends_with": "I would mention it in the video.",
+        "note": "Joke about a friend's 'Plastagonia' nickname"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 9,
+        "starts_with": "Hey men, let's be real.",
+        "last_segment": 10,
+        "ends_with": "sponsoring this video. Link is in the description.",
+        "note": "Sponsor read for the Fanttik H10 Apex hair dryer"
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "Help. I've soaked my undies.",
+        "last_segment": 12,
+        "ends_with": "Help. I've soaked my undies.",
+        "note": "Short comedic skit line"
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "Did my voice come out really deep",
+        "last_segment": 15,
+        "ends_with": "What's up, babe? Love the orange.",
+        "note": "Joke about his deep voice saying 'Love the orange'"
+      },
+      {
+        "role": "aside",
+        "first_segment": 29,
+        "starts_with": "Gosh, so glad I got to use",
+        "last_segment": 30,
+        "ends_with": "figure out a way to put this in this video.",
+        "note": "Aside about reusing Holly's graphic from an earlier video"
+      },
+      {
+        "role": "outro",
+        "first_segment": 30,
+        "starts_with": "So that's all I have.",
+        "last_segment": 30,
+        "ends_with": "You can choose. I have to go home",
+        "note": "Brief sign-off leaving the verdict to viewers"
+      }
+    ],
+    "topics": [
+      "Patagonia brand history",
+      "Yvon Chouinard",
+      "vintage vs modern Patagonia quality",
+      "fleece design and innovation",
+      "Retro-X fleece",
+      "Better Sweater pilling",
+      "recycled wool and recycled synthetics",
+      "microplastics from synthetic clothing",
+      "Worn Wear repair program",
+      "Patagonia marketing",
+      "sustainability and supply chain influence",
+      "lifetime warranties and repair"
+    ],
+    "entity_ids": [
+      "iron-snail:e:patagonia",
+      "iron-snail:e:yvon-chouinard",
+      "iron-snail:e:patagonia-1970s-reverse-pile-cardigan",
+      "iron-snail:e:synchilla",
+      "iron-snail:e:worn-wear",
+      "iron-snail:e:pendleton-wool-flannel-shirt",
+      "iron-snail:e:pendleton",
+      "iron-snail:e:piton",
+      "iron-snail:e:chouinard-equipment",
+      "iron-snail:e:aluminum-chalks",
+      "iron-snail:e:el-capitan",
+      "iron-snail:e:patagonia-50th-anniversary-rugby-sweater",
+      "iron-snail:e:patagonia-vintage-wool-sweater",
+      "iron-snail:e:ebay",
+      "iron-snail:e:capilene",
+      "iron-snail:e:double-faced-fleece",
+      "iron-snail:e:funnel-neck",
+      "iron-snail:e:patagonia-retro-x-1988-made-in-usa",
+      "iron-snail:e:patagonia-retro-x-modern",
+      "iron-snail:e:patagonia-better-sweater",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:fluorocarbons",
+      "iron-snail:e:dwr-coating",
+      "iron-snail:e:polyester-fleece",
+      "iron-snail:e:microplastics",
+      "iron-snail:e:recycled-wool",
+      "iron-snail:e:virgin-worsted-wool",
+      "iron-snail:e:nylon",
+      "iron-snail:e:mechanical-vs-chemical-recycling",
+      "iron-snail:e:fanttik",
+      "iron-snail:e:fanttiksolo-h10-apex-smart-hair-dryer",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:fjallraven",
+      "iron-snail:e:donna-bruns",
+      "iron-snail:e:pas",
+      "iron-snail:e:organic-cotton",
+      "iron-snail:e:rws-wool",
+      "iron-snail:e:certified-b-corporation",
+      "iron-snail:e:1-for-the-planet",
+      "iron-snail:e:don-t-buy-this-jacket-ad-2011-black-friday",
+      "iron-snail:e:reality-check-chouinard-note",
+      "iron-snail:e:apple",
+      "iron-snail:e:ford-model-a",
+      "iron-snail:e:taylor",
+      "iron-snail:e:chance"
+    ],
+    "categories": [
+      "fleece",
+      "knitwear",
+      "shirts",
+      "underwear"
+    ],
+    "answers_questions": [
+      "Is vintage Patagonia actually better than new Patagonia?",
+      "Is the new Retro-X fleece as warm as the old made-in-USA one?",
+      "Why does the new Better Sweater seem to pill more?",
+      "Is the Patagonia 50th Anniversary Rugby Sweater worth it compared to a vintage Patagonia sweater?",
+      "Will Patagonia's Worn Wear program repair clothes from other brands?",
+      "How did Yvon Chouinard start Patagonia?",
+      "Why is Patagonia so expensive?",
+      "Is Patagonia hypocritical about being eco-friendly when it sells so much synthetic fleece?",
+      "Why did Patagonia put the fleece pile on the outside?",
+      "Is recycled wool weaker than virgin wool?",
+      "Did Patagonia start cheaping out on quality?",
+      "How does Patagonia do its marketing?",
+      "What has Patagonia actually done for the environment and the supply chain?"
+    ],
+    "uses": [
+      "background_history",
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:ixCSNbzQNcI:s0020",
+        "note": "He misspeaks that pilling wouldn't make sense 'if it was mechanically recycled' and immediately corrects it to 'chemically recycled': mechanically recycled fibre would pill more, chemically recycled would not."
+      }
+    ],
+    "related_videos": [
+      "The Iron Snail's Fjällräven video (featuring Donna Bruns on pushing suppliers)",
+      "Upcoming sweater video ('next week or at the end of the month')"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:yvon-chouinard",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Yvon Chouinard",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ivon Schwinard",
+        "Schwinard",
+        "Shinar",
+        "Shinard",
+        "Shinarid",
+        "Shrinard",
+        "Shwinard",
+        "Sweetard",
+        "Trinard"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-1970s-reverse-pile-cardigan",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia 1970s reverse pile cardigan",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "fleece",
+      "aliases": [
+        "1970s Patagonia reverse pile cardigan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:synchilla",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Synchilla",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "fleece",
+      "aliases": [
+        "cinchilla"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:worn-wear",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Worn Wear",
+      "brand": "Patagonia",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "worn repair program",
+        "worn wear"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pendleton-wool-flannel-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Pendleton wool flannel shirt",
+      "brand": "Pendleton",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "100% wool Pendleton flannel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pendleton",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pendleton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:piton",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "piton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "peton",
+        "petons"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chouinard-equipment",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Chouinard Equipment",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Shwinard equipment"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:aluminum-chalks",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "aluminum chalks",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "aluminum chalk"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:el-capitan",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "El Capitan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Al Capitan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-50th-anniversary-rugby-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia 50th Anniversary Rugby Sweater",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "50th anniversary rugby sweater",
+        "Patagonia rugby sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-vintage-wool-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia vintage wool sweater",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "old Patagonia sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:capilene",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Capilene",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "underwear",
+      "aliases": [
+        "Kapalene"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:double-faced-fleece",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "double-faced fleece",
+      "brand": null,
+      "model": null,
+      "category": "fleece",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:funnel-neck",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "funnel neck",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-retro-x-1988-made-in-usa",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia Retro-X (1988, made in USA)",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "fleece",
+      "aliases": [
+        "original made in USA 1988 retro xfleece"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-retro-x-modern",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia Retro-X (modern)",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "fleece",
+      "aliases": [
+        "the modern one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-better-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia Better Sweater",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "fleece",
+      "aliases": [
+        "better sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fluorocarbons",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "fluorocarbons",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dwr-coating",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "DWR coating",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "DWR coatings"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester-fleece",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester fleece",
+      "brand": null,
+      "model": null,
+      "category": "fleece",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:microplastics",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "microplastics",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:recycled-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "recycled wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:virgin-worsted-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "virgin worsted wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "100% virgin worsted wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mechanical-vs-chemical-recycling",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "mechanical vs chemical recycling",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chemically recycle",
+        "mechanically recycle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fanttik",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fanttik",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Fantic"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fanttiksolo-h10-apex-smart-hair-dryer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "FanttikSolo H10 Apex Smart Hair Dryer",
+      "brand": "Fanttik",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "H10 Apex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "LLBA",
+        "LLBAN"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levis",
+        "Levis's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fjällräven",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Fel Raven",
+        "Fial Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:donna-bruns",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Donna Bruns",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pas",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "PAS",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:organic-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "organic cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rws-wool",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "RWS wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:certified-b-corporation",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "certified B corporation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "certified B corporations"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:1-for-the-planet",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "1% for the Planet",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "1% for the planet"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:don-t-buy-this-jacket-ad-2011-black-friday",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Don't Buy This Jacket ad (2011 Black Friday)",
+      "brand": "Patagonia",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "2011 Black Friday ad",
+        "Don't buy this jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:reality-check-chouinard-note",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Reality Check (Chouinard note)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "reality check"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:apple",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Apple",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ford-model-a",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ford Model A",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chance",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Chance",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "5174678d515d53da"
+}

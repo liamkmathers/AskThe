@@ -1,4 +1,4 @@
-"""File-based adapters: the raw archive on disk, and transcripts from caption files."""
+"""File-based adapters: the raw archive and profiles on disk, and transcripts from caption files."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ import tempfile
 from pathlib import Path
 
 from askthe.core.captions import caption_file_text
-from askthe.core.models import RawVideo, Transcript, TranscriptKind
+from askthe.core.models import ProfileRecord, RawVideo, Transcript, TranscriptKind
 
 
 class FileRawArchive:
@@ -45,6 +45,40 @@ class FileRawArchive:
             return RawVideo.model_validate_json(path.read_text())
         except FileNotFoundError:
             raise LookupError(f"no raw video at {path}") from None
+
+    def list_ids(self, creator_slug: str) -> list[str]:
+        directory = self._dir(creator_slug)
+        if not directory.exists():
+            return []
+        return sorted(p.stem for p in directory.glob("*.json"))
+
+
+class FileProfileArchive:
+    """Profiles as JSON at <root>/<creator>/profiles/<platform_id>.json."""
+
+    def __init__(self, root: Path) -> None:
+        self._root = Path(root)
+
+    def _dir(self, creator_slug: str) -> Path:
+        return self._root / creator_slug / "profiles"
+
+    def save(self, creator_slug: str, record: ProfileRecord) -> None:
+        path = self._dir(creator_slug) / f"{record.platform_id}.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
+        try:
+            with os.fdopen(fd, "w") as f:
+                f.write(record.model_dump_json(indent=2))
+            os.replace(tmp, path)  # atomic, so a reader never sees a partial file
+        except BaseException:
+            os.unlink(tmp)
+            raise
+
+    def load(self, creator_slug: str, platform_id: str) -> ProfileRecord | None:
+        path = self._dir(creator_slug) / f"{platform_id}.json"
+        if not path.exists():
+            return None
+        return ProfileRecord.model_validate_json(path.read_text())
 
     def list_ids(self, creator_slug: str) -> list[str]:
         directory = self._dir(creator_slug)

@@ -19,6 +19,7 @@ from askthe.core.models import (
     Creator,
     Entity,
     ProductVersion,
+    ProfileRecord,
     RawVideo,
     Segment,
     Transcript,
@@ -59,6 +60,20 @@ class RawArchive(Protocol):
     def save(self, raw: RawVideo) -> None: ...
 
     def load(self, creator_slug: str, platform_id: str) -> RawVideo: ...
+
+    def list_ids(self, creator_slug: str) -> list[str]: ...
+
+
+@runtime_checkable
+class ProfileArchive(Protocol):
+    """Keeps video profiles outside the database, since they cost an LLM call to make.
+
+    Derived, so a record may be replaced; the database is rebuilt from these (D17).
+    """
+
+    def save(self, creator_slug: str, record: ProfileRecord) -> None: ...
+
+    def load(self, creator_slug: str, platform_id: str) -> ProfileRecord | None: ...
 
     def list_ids(self, creator_slug: str) -> list[str]: ...
 

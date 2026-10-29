@@ -309,6 +309,19 @@ class Entity(Model):
     affiliate_url: str | None = None
 
 
+class ProfileRecord(Model):
+    """A profile saved outside the database, with the entities it names (D17).
+
+    `segments_fingerprint` identifies the segmentation the profile's segment ranges
+    refer to; a record whose fingerprint no longer matches is stale and not restored.
+    """
+
+    platform_id: str
+    profile: VideoProfile
+    entities: list[Entity] = Field(default_factory=list)
+    segments_fingerprint: str
+
+
 class ProductVersion(Model):
     id: str
     entity_id: str

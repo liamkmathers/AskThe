@@ -1,0 +1,1100 @@
+{
+  "platform_id": "A6SkEwdjj-8",
+  "profile": {
+    "video_id": "iron-snail:A6SkEwdjj-8",
+    "purpose": "Rank clothing from the creator's earlier reviews by value (quality for the price) across denim, chinos, sweatshirts and t-shirts, and explain what each price step gets you.",
+    "video_type": "ranking",
+    "thesis": "As price rises, specific tangible features unlock real value. The video picks the best-value options in each category and explains what each one offers for its price.",
+    "key_takeaways": [
+      "Denim covers only Wrangler and Levi's. Wrangler's Rigid Cowboy Cut is ranked first for value, and Levi's 501 Shrink-to-Fit is discussed alongside Levi's wide range of styles.",
+      "Uniqlo and Muji chinos are contrasted by cotton sourcing and how much fabric each puts in for the price.",
+      "J.Crew chinos use two-ply yarn instead of single-ply. Asket uses a higher-grade cotton with a lustre. Used J.Crew and Ralph Lauren chinos on eBay are suggested as the true value play.",
+      "Sweatshirts covered: the WATC hoodie, Muji Labo loopwheel (loose knit), House of Blanks quarter zip and Camber cross-knit (with fit quirks).",
+      "T-shirts are labelled part one: mass-market blanks (Gildan, Hanes, Comfort Colors), Uniqlo, Muji, Los Angeles Apparel, Bronson, Bravestar Selvage and Front General Store.",
+      "The final t-shirt ranking is revised at the end, putting Bronson's standard loopwheel tubular tee and Los Angeles Apparel higher."
+    ],
+    "outline": [
+      {
+        "title": "Introduction",
+        "summary": "Sets up the question of which garments from past videos give the highest quality for the lowest price, and what features unlock value as price rises.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Value denim showdown",
+        "summary": "A short denim segment comparing Wrangler's rigid Cowboy Cut jeans with Levi's 501 Shrink-to-Fit and Levi's broader range, including selvedge options.",
+        "first_segment": 1,
+        "last_segment": 5
+      },
+      {
+        "title": "Chino pants review",
+        "summary": "Covers Uniqlo's regular-fit chino, including fading after one wash, and Muji's slub chino. Contrasts the brands' cotton sourcing and how that affects fabric weight and durability.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "Macbook maintenance ad",
+        "summary": "Sponsor skit for CleanMyMac.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Premium chinos and materials",
+        "summary": "J.Crew chinos' two-ply yarn construction versus single-ply Uniqlo and Muji, buying used on eBay, and Asket chinos' lustrous, high-quality cotton and comfort in heat.",
+        "first_segment": 10,
+        "last_segment": 15
+      },
+      {
+        "title": "Top sweatshirt picks",
+        "summary": "Covers the WATC vintage-style hoodie compared against Abercrombie & Fitch, the Muji Labo loopwheel sweatshirt and its loose knit, the House of Blanks quarter zip, and the Camber heavyweight hoodie with its odd fit.",
+        "first_segment": 15,
+        "last_segment": 20
+      },
+      {
+        "title": "T-shirt value comparison",
+        "summary": "Covers low-price mass-market tees (Gildan, Hanes, Comfort Colors) and their defects, then Uniqlo, Muji, Los Angeles Apparel, Bronson, Bravestar Selvage and Front General Store, ending with a revised ranking.",
+        "first_segment": 20,
+        "last_segment": 27
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "We've looked at $400 sweatshirts and",
+        "last_segment": 0,
+        "ends_with": "babbling Brooke isn't chatting too much.",
+        "note": "Opening question about best value and creator greeting."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "Dead turtle. That's very sad.",
+        "last_segment": 1,
+        "ends_with": "The word is obviously golden geek.",
+        "note": "Joke about a dead turtle and misspeaking 'golden geese'."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 8,
+        "starts_with": "Mac, enhance image by 600%.",
+        "last_segment": 10,
+        "ends_with": "Thank you, Clean My Mac. Goodbye.",
+        "note": "Skit-style sponsor read for CleanMyMac."
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "Sometimes there's a log with just",
+        "last_segment": 10,
+        "ends_with": "That means you can't sit on it.",
+        "note": "Joke about a spiky log while filming outdoors."
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "Look at me just holding that",
+        "last_segment": 14,
+        "ends_with": "holding that dumb log here.",
+        "note": "Self-deprecating comment about holding a log."
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "Also, this is just such a beautiful shade of wood",
+        "last_segment": 15,
+        "ends_with": "going to put it on my desk.",
+        "note": "Comment about taking the log home."
+      },
+      {
+        "role": "outro",
+        "first_segment": 27,
+        "starts_with": "Anyways, thank you very much.",
+        "last_segment": 27,
+        "ends_with": "but I'm feeling much better lately.",
+        "note": "Sign-off with personal note about slow uploads and feeling better."
+      }
+    ],
+    "topics": [
+      "value for money",
+      "non-selvedge vs selvedge denim",
+      "broken twill denim",
+      "shrink-to-fit denim sizing",
+      "chino fabric quality",
+      "cotton sourcing",
+      "single-ply vs two-ply yarn",
+      "cotton lustre",
+      "loopwheel sweatshirts",
+      "knit density",
+      "sweatshirt fit",
+      "mass-market t-shirt defects",
+      "bound neck collars",
+      "open-end yarn",
+      "buying used on eBay"
+    ],
+    "entity_ids": [
+      "iron-snail:e:wrangler",
+      "iron-snail:e:wrangler-rigid-cowboy-cut-original-fit-jean",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-s-501-original-shrink-to-fit",
+      "iron-snail:e:levi-s-made-in-japan-1947-recreation-jeans",
+      "iron-snail:e:levi-s-premium-selvedge-jeans",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:broken-twill",
+      "iron-snail:e:shrink-to-fit",
+      "iron-snail:e:rivets",
+      "iron-snail:e:elasticated-back-gussets",
+      "iron-snail:e:red-tab",
+      "iron-snail:e:arcuate-stitching",
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:uniqlo-regular-fit-chino",
+      "iron-snail:e:uniqlo-t-shirt",
+      "iron-snail:e:muji",
+      "iron-snail:e:muji-slub-yarn-chino",
+      "iron-snail:e:muji-labo-loopwheel-sweatshirt",
+      "iron-snail:e:muji-washed-heavyweight-crew-neck-t-shirt",
+      "iron-snail:e:j-crew",
+      "iron-snail:e:j-crew-classic-chino",
+      "iron-snail:e:ralph-lauren",
+      "iron-snail:e:asket",
+      "iron-snail:e:asket-regular-twill-chino",
+      "iron-snail:e:two-ply-yarn",
+      "iron-snail:e:organic-cotton",
+      "iron-snail:e:ebay",
+      "iron-snail:e:cleanmymac",
+      "iron-snail:e:watc",
+      "iron-snail:e:watc-vintage-black-regular-hoodie",
+      "iron-snail:e:abercrombie-fitch",
+      "iron-snail:e:loopwheel",
+      "iron-snail:e:camber",
+      "iron-snail:e:camber-cross-knit-heavyweight-hooded-pullover",
+      "iron-snail:e:house-of-blanks",
+      "iron-snail:e:house-of-blanks-quarter-zip-sweatshirt",
+      "iron-snail:e:buck-mason",
+      "iron-snail:e:buck-mason-quarter-zip",
+      "iron-snail:e:hanes",
+      "iron-snail:e:gildan",
+      "iron-snail:e:gildan-hammer-t-shirt",
+      "iron-snail:e:comfort-colors",
+      "iron-snail:e:los-angeles-apparel",
+      "iron-snail:e:los-angeles-apparel-1203gd-binding-garment-dye-t-shirt",
+      "iron-snail:e:american-apparel",
+      "iron-snail:e:bound-neck",
+      "iron-snail:e:open-end-yarn",
+      "iron-snail:e:carded-cotton",
+      "iron-snail:e:bronson",
+      "iron-snail:e:bronson-loopwheel-tubular-slub-cotton-pocket-t-shirt",
+      "iron-snail:e:bronson-loopwheel-tubular-t-shirt-standard",
+      "iron-snail:e:front-general-store",
+      "iron-snail:e:bravestar-selvage",
+      "iron-snail:e:bravestar-selvage-t-shirt",
+      "iron-snail:e:taylor",
+      "iron-snail:e:michael"
+    ],
+    "categories": [
+      "denim",
+      "chinos",
+      "sweatshirts",
+      "t-shirts"
+    ],
+    "answers_questions": [
+      "What's the best value pair of jeans, Wrangler or Levi's?",
+      "Is the Levi's 501 Shrink-to-Fit worth it and how should I size it?",
+      "Uniqlo chinos vs Muji chinos, which should I buy?",
+      "Are J.Crew chinos worth $100 compared to Uniqlo?",
+      "What makes Asket chinos better than cheaper chinos?",
+      "Is the Muji Labo loopwheel sweatshirt good value?",
+      "Camber vs House of Blanks sweatshirt, which is better?",
+      "How does the Camber hoodie fit?",
+      "What's a good cheap alternative to the Abercrombie vintage sweatshirt?",
+      "Are Gildan, Hanes and Comfort Colors t-shirts any good?",
+      "Is the Uniqlo t-shirt the best value t-shirt?",
+      "Bronson vs Bravestar t-shirts, which is the better value?",
+      "Are Los Angeles Apparel t-shirts worth it and how do they fit?",
+      "What's the difference between single-ply and two-ply yarn in pants?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:A6SkEwdjj-8:s0001",
+        "note": "Jokingly corrects 'golden goosees' (to 'golden geek' in the captions, presumably meaning golden geese)."
+      },
+      {
+        "segment_id": "iron-snail:A6SkEwdjj-8:s0008",
+        "note": "Clarifies that Muji's pilling and durability warnings are on its t-shirts and sweatshirts, not on the chinos."
+      },
+      {
+        "segment_id": "iron-snail:A6SkEwdjj-8:s0014",
+        "note": "Re-explains the Asket section: the point was that the higher-quality cotton made the pants silky, drapey and comfortable in heat, not just shiny."
+      },
+      {
+        "segment_id": "iron-snail:A6SkEwdjj-8:s0026",
+        "note": "Revises the t-shirt pick: remembers Bronson's standard loopwheel tubular tee and would give it the win over Bravestar."
+      },
+      {
+        "segment_id": "iron-snail:A6SkEwdjj-8:s0027",
+        "note": "Moves the Los Angeles Apparel t-shirt higher in the final ranking, saying it might win if sized down one."
+      }
+    ],
+    "related_videos": [
+      "$400 sweatshirt vs $10 sweatshirt comparison",
+      "$1,000 jeans vs $12 jeans comparison",
+      "$200 t-shirt vs $1 t-shirt comparison",
+      "Upcoming full video on the best value denim in the world",
+      "The Internet's Favorite Sweatshirts part one (included the Abercrombie & Fitch sweatshirt)",
+      "Planned part two of the best value t-shirts"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:wrangler",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wrangler",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wrangler-rigid-cowboy-cut-original-fit-jean",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wrangler Rigid Cowboy Cut Original Fit Jean",
+      "brand": "Wrangler",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "rigid cowboy cut jeans"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levis",
+        "Levis's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-501-original-shrink-to-fit",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's 501 Original Shrink-to-Fit",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "shrink to fit 501"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-made-in-japan-1947-recreation-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's made in Japan 1947 recreation jeans",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "made in Japan Levis's recreation from 1947 jeans"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-premium-selvedge-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Premium selvedge jeans",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levis's premium"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "salvage"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:broken-twill",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "broken twill",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shrink-to-fit",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "shrink-to-fit",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "shrink to fit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rivets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rivets",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:elasticated-back-gussets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "elasticated back gussets",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "gussets in the back that are elasticated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-tab",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "red tab",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arcuate-stitching",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "arcuate stitching",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "arcuits"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unilo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-regular-fit-chino",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo Regular Fit Chino",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "Unilo Chinos"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo t-shirt",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unilo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:muji",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Muji",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:muji-slub-yarn-chino",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Muji Slub Yarn Chino",
+      "brand": "Muji",
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "Muji"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:muji-labo-loopwheel-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Muji Labo Loopwheel Sweatshirt",
+      "brand": "Muji",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "$64 sweatshirt",
+        "Muji's Labo brand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:muji-washed-heavyweight-crew-neck-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Muji Washed Heavyweight Crew Neck T-Shirt",
+      "brand": "Muji",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Muji shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:j-crew",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "J.Crew",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "J Crew",
+        "J. Crew",
+        "Jay Krue"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:j-crew-classic-chino",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "J.Crew Classic Chino",
+      "brand": "J.Crew",
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "J Crew"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Ralph Lauren",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr. R. Lauren"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:asket",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Asket",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ask",
+        "ask it"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:asket-regular-twill-chino",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Asket Regular Twill Chino",
+      "brand": "Asket",
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "ask it"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:two-ply-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "two-ply yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "one ply yarn",
+        "plies",
+        "two pies"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:organic-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "organic cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cleanmymac",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "CleanMyMac",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Clean My Mac"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:watc",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "WATC",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "waxed",
+        "whacked"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:watc-vintage-black-regular-hoodie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "WATC Vintage Black Regular Hoodie",
+      "brand": "WATC",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "waxed",
+        "whacked one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:abercrombie-fitch",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Abercrombie & Fitch",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Abberrombi",
+        "abbercrombi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loopwheel",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loopwheel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "loop wheel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:camber",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Camber",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "camber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:camber-cross-knit-heavyweight-hooded-pullover",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Camber Cross-Knit Heavyweight Hooded Pullover",
+      "brand": "Camber",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Camber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:house-of-blanks",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "House of Blanks",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:house-of-blanks-quarter-zip-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "House of Blanks Quarter Zip Sweatshirt",
+      "brand": "House of Blanks",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "quarter zip from House of Blanks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Buck Mason",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason-quarter-zip",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Buck Mason quarter zip",
+      "brand": "Buck Mason",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "one from Buck Mason"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hanes",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Hanes",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Hannes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gildan",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Gildan",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Gild",
+        "Gilden"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gildan-hammer-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Gildan Hammer T-Shirt",
+      "brand": "Gildan",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Gilden"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:comfort-colors",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Comfort Colors",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "comfort colors"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:los-angeles-apparel",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Los Angeles Apparel",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "LA apparel",
+        "Los Angeles apparel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:los-angeles-apparel-1203gd-binding-garment-dye-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Los Angeles Apparel 1203GD Binding Garment Dye T-Shirt",
+      "brand": "Los Angeles Apparel",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "LA apparel t-shirt",
+        "the one with the bound neck"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:american-apparel",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "American Apparel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bound-neck",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "bound neck",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "bound neck collar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:open-end-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "open-end yarn",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "open-end"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carded-cotton",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "carded cotton",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "carded"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Bronson",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson-loopwheel-tubular-slub-cotton-pocket-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bronson Loopwheel Tubular Slub Cotton Pocket T-Shirt",
+      "brand": "Bronson",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "slub loop wheel one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson-loopwheel-tubular-t-shirt-standard",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bronson loopwheel tubular t-shirt (standard)",
+      "brand": "Bronson",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "loop wheel tubular t-shirt that Bronson sells like the standard one"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:front-general-store",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Front General Store",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bravestar-selvage",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Bravestar Selvage",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Bravear",
+        "Bravestar",
+        "Bravestar Salvage"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bravestar-selvage-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bravestar Selvage t-shirt",
+      "brand": "Bravestar Selvage",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "shirt from Bravestar Salvage"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:michael",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Michael",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "79d0cc84e21cc81c"
+}

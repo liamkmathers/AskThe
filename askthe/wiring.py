@@ -17,6 +17,7 @@ from askthe.core.interfaces import (
     Embedder,
     KnowledgeStore,
     LLMClient,
+    ProfileArchive,
     RawArchive,
     SearchIndex,
     TranscriptSource,
@@ -32,6 +33,7 @@ PORTS: dict[str, type] = {
     "catalog": CatalogSource,
     "transcripts": TranscriptSource,
     "raw_archive": RawArchive,
+    "profiles": ProfileArchive,
     "store": KnowledgeStore,
     "search": SearchIndex,
     "embedder": Embedder,
@@ -52,6 +54,10 @@ REGISTRY: dict[str, dict[str, str]] = {
     "raw_archive": {
         "memory": "askthe.wiring:_memory_raw_archive",
         "files": "askthe.wiring:_file_raw_archive",
+    },
+    "profiles": {
+        "memory": "askthe.wiring:_memory_profiles",
+        "files": "askthe.wiring:_file_profiles",
     },
     "store": {
         "memory": "askthe.wiring:_memory_store",
@@ -82,6 +88,7 @@ class Services:
     catalog: CatalogSource
     transcripts: TranscriptSource
     raw_archive: RawArchive
+    profiles: ProfileArchive
     store: KnowledgeStore
     search: SearchIndex
     embedder: Embedder
@@ -139,6 +146,12 @@ def _memory_raw_archive(options: dict[str, Any], config: AppConfig) -> Any:
     return MemoryRawArchive()
 
 
+def _memory_profiles(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.memory import MemoryProfileArchive
+
+    return MemoryProfileArchive()
+
+
 def _memory_store(options: dict[str, Any], config: AppConfig) -> Any:
     from askthe.adapters.memory import MemoryKnowledgeStore
 
@@ -184,6 +197,12 @@ def _file_raw_archive(options: dict[str, Any], config: AppConfig) -> Any:
     from askthe.adapters.files import FileRawArchive
 
     return FileRawArchive(root=config.data_dir)
+
+
+def _file_profiles(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.files import FileProfileArchive
+
+    return FileProfileArchive(root=config.data_dir)
 
 
 def _sqlite_store(options: dict[str, Any], config: AppConfig) -> Any:

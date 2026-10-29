@@ -111,3 +111,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** answers read retrieved sections, not whole transcripts: contextual chunks indexed for keyword (BM25) and vector search, queries planned and expanded by a fast model, lists fused with reciprocal rank fusion, candidates reranked by a fast model, and kept passages expanded to their sections within a word budget. Embeddings from OpenAI (`text-embedding-3-small`), behind the `Embedder` interface. Whole-transcript reading stays as `mode = "full"`.
 **Why:** reading every transcript doesn't scale (his full channel is about 800k tokens; multiple creators far more), costs about $0.60 per question once the cache is cold, and dilutes attention. In the first comparison hybrid read 2 to 3 percent as much text and gave the same conclusions.
 **Measure:** hybrid is checked against full mode on the test set (EVALUATION), including recall of the videos and segments full mode cites.
+
+### D17. Profiles are kept as committed files
+*2026-10-29*
+
+**Chose:** each video profile is saved, with the entities it names, to `data/<creator>/profiles/<video_id>.json` and committed. `segment` restores saved profiles into the rebuilt database when the segments they were made from are unchanged (checked by a fingerprint of the segment texts). Stale ones are reported, and `understand` makes new ones.
+**Why:** a profile costs about $0.20 of model time and comes out slightly differently each run, so it is expensive and not exactly reproducible. With profiles only in the git-ignored database, a fresh environment lost them and paid again. Files also make profiles reviewable in diffs.
+**Still rebuildable:** profiles remain derived. Deleting the folder and running `understand` rebuilds them; raw files stay the only source of truth.

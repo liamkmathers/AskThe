@@ -4,7 +4,7 @@ How content gets from a creator's videos to a cited answer, and how the system i
 
 ## Design rules
 
-1. **Transcripts are the source of truth.** Raw fetched material is saved as files and never thrown away. Everything else (segments, extracted knowledge, search indexes, the database) is derived from those files and can be rebuilt.
+1. **Transcripts are the source of truth.** Raw fetched material is saved as files and never thrown away. Everything else (segments, profiles, search indexes, the database) is derived from those files and can be rebuilt. Profiles are also committed as files, because each costs a model call to remake (D17).
 2. **Reason at question time, from his actual words.** What matters in a video depends on the question, so nothing about his opinions is extracted in advance. Pre-processing describes videos (metadata, sections, sponsor reads) so the right ones are found and read well; the model reasons over the full transcripts when a question is asked. See [D15](DECISIONS.md#d15-reason-at-question-time-not-extraction-time).
 3. **Every stage is re-runnable on its own.** Each stage reads the previous stage's saved output and writes its own. A better profile prompt or a new database means re-running from that stage, not re-downloading.
 4. **Swappable by design.** Each external dependency sits behind a small interface. Which implementation is used is chosen in config. Swapping one is a new adapter plus a config change, never a pipeline change.
@@ -49,7 +49,7 @@ One LLM call per video reads the whole transcript and writes a **video profile**
 - **Passages:** the intro, sponsor reads, asides (skits, jokes, personal life) and outro, each pinned to its exact first and last words, so it can be marked precisely inside the transcript, even mid-segment. Talk about his own products is not a sponsor read (D14).
 - **Corrections**, **the questions it answers** (in a fan's words), **related videos**.
 
-Profiles are versioned (`PROFILER_VERSION`) and re-run only when that changes. Cost in the first trial: about $0.19 per video.
+Profiles are versioned (`PROFILER_VERSION`) and re-run only when that changes. Each is also saved as a committed file (`data/<creator>/profiles/`), which `segment` restores into a rebuilt database while the video's segments are unchanged ([D17](DECISIONS.md#d17-profiles-are-kept-as-committed-files)). Cost in the first trial: about $0.19 per video.
 
 ### 4. Index
 
