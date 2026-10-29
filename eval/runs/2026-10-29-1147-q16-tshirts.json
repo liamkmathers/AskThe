@@ -289,7 +289,7 @@
             "passed": true,
             "recall_of_full": 0.8888888888888888
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",

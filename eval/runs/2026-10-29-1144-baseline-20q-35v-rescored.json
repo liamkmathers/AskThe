@@ -289,7 +289,7 @@
             "passed": true,
             "recall_of_full": 0.6666666666666666
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -1383,7 +1383,7 @@
             "passed": true,
             "recall_of_full": 0.9
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -2409,7 +2409,7 @@
             "passed": true,
             "recall_of_full": 0.7142857142857143
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "partial",
@@ -3318,7 +3318,7 @@
             "passed": true,
             "recall_of_full": 0.75
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -4207,7 +4207,7 @@
             "passed": true,
             "recall_of_full": 0.8333333333333334
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -5121,7 +5121,7 @@
             "passed": true,
             "recall_of_full": 0.3333333333333333
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -6104,7 +6104,7 @@
             "passed": true,
             "recall_of_full": 0.6428571428571429
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -7241,7 +7241,7 @@
             "passed": true,
             "recall_of_full": 0.8333333333333334
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -8292,7 +8292,7 @@
             "passed": true,
             "recall_of_full": 0.5555555555555556
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "partial",
@@ -9382,7 +9382,7 @@
             "passed": true,
             "recall_of_full": 0.8
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "partial",
@@ -10356,7 +10356,7 @@
             "passed": true,
             "recall_of_full": 0.25
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "partial",
@@ -11265,7 +11265,7 @@
             "passed": true,
             "recall_of_full": 0.4
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "partial",
@@ -12157,7 +12157,7 @@
             "passed": true,
             "recall_of_full": 1.0
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "none",
@@ -13015,7 +13015,7 @@
             "passed": true,
             "recall_of_full": 0.5454545454545454
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "partial",
@@ -13875,7 +13875,7 @@
             "passed": true,
             "recall_of_full": 0.0
           },
-          "correct": null
+          "correct": false
         },
         "full": {
           "coverage": "partial",
@@ -14659,7 +14659,7 @@
             "passed": true,
             "recall_of_full": null
           },
-          "correct": null
+          "correct": false
         },
         "full": {
           "coverage": "none",
@@ -15525,7 +15525,7 @@
             "passed": true,
             "recall_of_full": 0.6666666666666666
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -16637,7 +16637,7 @@
             "passed": true,
             "recall_of_full": 0.5384615384615384
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "full",
@@ -17754,7 +17754,7 @@
             "passed": true,
             "recall_of_full": 0.9230769230769231
           },
-          "correct": null
+          "correct": true
         },
         "full": {
           "coverage": "partial",
@@ -18578,5 +18578,11 @@
       }
     }
   ],
-  "rescored_at": "2026-10-29T11:45:51+00:00"
+  "rescored_at": "2026-10-29T11:45:51+00:00",
+  "review": {
+    "by": "Liam, on Claude's reading",
+    "date": "2026-10-29",
+    "mode": "hybrid only",
+    "notes": "q18, q19: right coverage, but the answer talked about missing transcripts and asked the fan for a video. q03 applying his rule to the fan's size is fine; q05's general lean with dated views is fine."
+  }
 }

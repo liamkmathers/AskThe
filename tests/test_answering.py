@@ -206,3 +206,36 @@ def test_resolver_uses_glossary():
 def test_published_dates_reach_the_model():
     video = f.video("abc", published_at=datetime(2024, 3, 9, tzinfo=UTC))
     assert "Published: 2024-03-09" in render_video(video, None, segments())
+
+
+def test_descriptions_are_shown_and_citable_with_links_collapsed():
+    from askthe.core.answering import DESCRIPTION, clean_description
+
+    video = f.video(
+        "abc",
+        description="Use code SNAIL10 https://example.com/x?utm=1\n\n\n\nI also love the Muji tee.",
+    )
+    rendered = render_video(video, None, segments(video.id))
+    assert "[abc:-1] Use code SNAIL10 <link>" in rendered
+    assert clean_description(video.description).count("\n") == 2
+    draft = AnswerDraft(
+        answer="He loves the Muji tee [1], and the code [2], and more [3].",
+        coverage=Coverage.FULL,
+        citations=[
+            CitationDraft(n=1, video="abc", segment=DESCRIPTION, quote="I also love the Muji tee"),
+            CitationDraft(n=2, video="abc", segment=DESCRIPTION, quote="SNAIL10 link"),
+            CitationDraft(n=3, video="abc", segment=DESCRIPTION, quote="not in the description"),
+        ],
+    )
+    checked = check_answer(draft, {"abc": (video, segments(video.id))}, "youtube")
+    assert [(s.n, s.in_description, s.segment_ids) for s in checked.sources] == [
+        (1, True, []),
+        (2, True, []),
+    ]
+    assert len(checked.problems) == 1
+
+
+def test_an_empty_corpus_says_nothing_matched():
+    from askthe.core.answering import render_corpus
+
+    assert "Nothing in his videos matched" in render_corpus([])

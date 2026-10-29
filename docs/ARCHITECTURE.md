@@ -75,7 +75,7 @@ If vector search fails, retrieval continues on keywords alone and the answer car
 
 **`full`**: whole transcripts, every video if the catalogue fits `full_budget_words`, otherwise the best-matching videos. The reference hybrid is measured against.
 
-**Answer, verify, log (both modes).** The model answers this question from what it was given, following the product rules, and cites every statement with a video, segment and exact quote. Code checks every quote appears in the segment it cites; one retry is allowed, and anything still failing is removed and reported. The question, answer, coverage, cited segments and retrieval mode are logged.
+**Answer, verify, log (both modes).** Each video is shown with its description (his words, links collapsed) and its transcript. The model answers this question from what it was given, following the product rules and D19, and cites every statement with a video, a segment (or the description) and an exact quote. Code checks every quote appears in the segment it cites; one retry is allowed, and anything still failing is removed and reported. The question, answer, coverage, cited segments and retrieval mode are logged.
 
 **First real comparison** (22 videos, keyword-only because embeddings were not yet reachable): hybrid read 715 to 2,104 words per question instead of 63,000, gave the same conclusions as full context, and cost about $0.06 to $0.10 per question regardless of catalogue size. Full context costs about $0.60 per question when the cache is cold.
 

@@ -5,10 +5,11 @@
 # from reading the transcripts (35 videos fetched), not from model answers; `notes`
 # says what a correct answer contains.
 #
-# Mix: 5 lookups, 4 comparisons, 3 change of mind, 1 how-to, 3 taste, 4 not covered,
+# Mix: 7 lookups, 5 comparisons, 3 change of mind, 1 how-to, 3 taste, 4 not covered,
 # one of them a personal-life question that must be declined. Includes caption misspellings
-# (q06, q08), a sponsor read that must not become a verdict (q18) and a multi-part
-# question (q01, q21).
+# (q06, q08), a sponsor read that must not become a verdict (q18), multi-part questions
+# (q01, q21), his own product (q23), a challenge to what he said (q24) and a follow-up
+# whose subject is implicit (q25).
 
 - id: q01
   question: "should I treat my boots out of box ? Annnnd how often should I treat them ?"
@@ -241,3 +242,40 @@
     is in the 2025 waxed jacket ranking. A correct answer uses both and says if he
     never compared them directly for that use.
 
+
+- id: q23
+  question: "October is almost over, any updates on the V3 versions of the Iron Snail denim jackets?"
+  source: https://www.youtube.com/watch?v=ixCSNbzQNcI
+  type: lookup
+  expected:
+    covered: [none, partial]
+  notes: >-
+    His own product (D14: his opinion, not sponsorship). In the 35 fetched videos he
+    only says (2022) the Prologue jackets were delayed to mid-February; nothing on a
+    V3. Re-check once his own-product videos (Mammoth, Prologue) are fetched.
+
+- id: q24
+  question: "Great video. But just curious, how can you say it's a con that the Huckberry jacket is unlined when they sell two different versions of lined waxed truckers: wool, and flannel?"
+  source: https://www.youtube.com/watch?v=6n9t0SDne44
+  type: comparison
+  expected:
+    covered: [full, partial]
+    sources: [6n9t0SDne44, y3giKIuJjDk]
+  notes: >-
+    Challenge to what he said. 2023: "the one con that Rogue Territory and Huckberry
+    have for me is that they are not lined"; he likes a lining so the wax doesn't touch
+    you. 2025 (newest): the Flint and Tinder waxed trucker is lined, so you don't get
+    wax on your skin. The fan's claim about two lined versions is theirs, not his.
+
+- id: q25
+  question: "Do you know how these fit compared to the 875s? [Red Wing 3335s]"
+  source: https://www.youtube.com/watch?v=cyAzm8O3RwY
+  type: lookup
+  expected:
+    covered: [partial, full]
+    must_mention: ["true to size"]
+    sources: [cyAzm8O3RwY]
+  notes: >-
+    A follow-up whose subject is implicit (posted under the 3335 review). He went true
+    to size and they fit fine, but they look slim in profile because the outsole is
+    very thin. No direct fit comparison with the 875, which should be said.

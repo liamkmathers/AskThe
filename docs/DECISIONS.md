@@ -125,3 +125,14 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** viewers' comments are collected (`askthe comments`, `askthe questions`) only to find real fan questions for the test set. They are not indexed, retrieved or shown to the answering model.
 **Why:** fans' views are not his (rules 1 and 7), and likes measure agreement, not truth: a well-liked comment contradicting him is a bigger risk, not a smaller one. The useful uses need more design than the prototype warrants yet.
 **Later options:** his own comments and replies as citable content (fetching replies only for the most-liked threads, to limit requests); nicknames mined from comments, weighted by likes, as glossary suggestions; demand and coverage gaps for a creator dashboard. Each would be checked with `askthe eval` before being kept.
+
+### D19. How answers read, from the first review
+*2026-10-29*
+
+**Chose**, after Liam reviewed the baseline answers:
+- **His rules may be applied** to the fan's details ("two sizes up" from their size), as long as it's clearly his rule applied.
+- **Mixed views get a general lean** ("mostly yes, but…") followed by his dated opinions; answers needn't force black and white.
+- **Not covered is said briefly** ("hasn't covered X in the videos available here"), with at most one cited line on the closest thing he did cover. Answers never mention transcripts, excerpts or their inputs, and never ask the fan for a video.
+- **Length follows the question:** several products earn a part each; it stays readable.
+- **Descriptions are his words.** Each video's description is shown with links collapsed and is citable (segment -1), its quotes verified in code like any other; promo codes and sponsor mentions in it are advertising. Section summaries written by the profiler are for finding things only and are never cited.
+**Why:** the baseline's only two failures (q18, q19) were answers that talked about missing transcripts; one answer stated a profile summary as fact; descriptions hold real opinions ("not featured in video but amazing pieces").

@@ -100,6 +100,16 @@ def mark_passages(
     return texts, unlocated
 
 
+DESCRIPTION = -1  # the "segment" number a citation uses for the video's description
+_URL = re.compile(r"https?://\S+")
+
+
+def clean_description(text: str) -> str:
+    """The description as the model reads it: links collapsed, blank runs squeezed."""
+    text = _URL.sub("<link>", text)
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
 def render_video(
     video: Video,
     profile: VideoProfile | None,
@@ -108,7 +118,8 @@ def render_video(
 ) -> str:
     """One video as the model reads it: what it is, its sections, then the transcript.
 
-    Segments are labelled [platform_id:index] so citations can name them. Sponsor reads,
+    Segments are labelled [platform_id:index] so citations can name them; the
+    description, which he wrote, is labelled [platform_id:-1]. Sponsor reads,
     asides, intro and outro are marked inline with «...» markers. With `only`, just
     those segments are shown and skipped stretches are marked, so the model knows the
     transcript is partial.
@@ -118,6 +129,13 @@ def render_video(
         f"Title: {video.title}",
         f"Published: {video.published_at.date().isoformat()}",
     ]
+    description = clean_description(video.description)
+    if description:
+        lines += [
+            "Description (written by him; promo codes, sponsor and affiliate mentions in it "
+            "are advertising, not verdicts):",
+            f"[{video.platform_id}:{DESCRIPTION}] {description}",
+        ]
     texts = {s.index: s.text for s in segments}
     if profile:
         lines += [f"Type: {profile.video_type.value}", f"Purpose: {profile.purpose}"]
@@ -150,6 +168,8 @@ def render_video(
 
 
 def render_corpus(blocks: Sequence[str]) -> str:
+    if not blocks:  # nothing matched: say so, rather than send an empty corpus
+        return "<videos>\nNothing in his videos matched this question.\n</videos>"
     return "<videos>\n" + "\n\n".join(blocks) + "\n</videos>"
 
 
@@ -160,34 +180,51 @@ def answer_system_prompt(creator: Creator) -> str:
     """Stable per creator, so it can be cached across every question."""
     who, pron = creator.refer_to_creator_as, creator.pronoun
     return f"""You answer fans' questions about what {creator.display_name} \
-({creator.niche}) has said in their videos. You are given the transcripts of the \
-relevant videos, in full or as the relevant parts. Answer from them only.
+({creator.niche}) has said in their videos. You are given the relevant videos: each \
+one's description (which he wrote) and its transcript, in full or as the relevant \
+parts. Answer from them only.
 
 How to answer:
 1. His opinion is the point. Lead with what {who} thinks, prefers, wears and \
 recommends, and why, in plain language. His personal taste is exactly what fans want; \
 present it confidently as his taste.
-2. Grounded or silent. Use only what is in the transcripts. If he hasn't covered \
-something, say so plainly; never fill gaps from general knowledge. If he covered part \
-of the question, answer that part and say what's missing.
-3. Cite everything. Every statement about what he said gets a citation marker like \
-[1], pointing to a citation with the video id, the segment number and a short quote \
-copied exactly from that segment.
-4. Newest first. Videos have publish dates. Lead with his most recent view; if he \
-changed his mind, or the product changed, say so and cite both.
-5. Third person. Describe what {who} says ("{pron} recommends..."). Never write as him \
+2. Grounded or silent. Use only what he says in the transcripts and wrote in the \
+descriptions; never fill gaps from general knowledge. You may apply his stated advice \
+to the fan's own details (his "two sizes up" to their size, say), as long as it's \
+clearly his rule applied. If he covered part of the question, answer that part and \
+say plainly what he hasn't covered.
+3. Not covered. If nothing he said answers the question, say so in a sentence or two: \
+"{who} hasn't covered X in the videos available here." At most, point to the closest \
+thing he did cover, in a line, cited. Don't build an answer from loosely related \
+material, and never mention transcripts, excerpts, segments or what you were given, \
+and never ask the fan to supply a video: speak about his videos, not your inputs.
+4. Cite everything. Every statement about what he said gets a citation marker like \
+[1], pointing to a citation with the video id, the segment number (-1 for the \
+description) and a short quote copied exactly from it. Section summaries and notes \
+are only there to help you find things; they are not his words, so never state \
+something that appears only there.
+5. Newest first, with nuance. Videos have publish dates. Lead with his most recent \
+view; if he changed his mind, or the product changed, say so and cite both. When his \
+views are mixed, give the general lean ("mostly yes, but...") and then his dated \
+opinions; not everything he says is black and white, and you needn't force it to be.
+6. Third person. Describe what {who} says ("{pron} recommends..."). Never write as him \
 or imitate his voice.
-6. Sponsorship. Text inside «SPONSOR ...» markers is a paid read. Never present it as \
-his independent opinion; if it is relevant, say it was sponsored. What he says about \
+7. Sponsorship. Text inside «SPONSOR ...» markers is a paid read, and so are promo \
+codes and sponsor mentions in descriptions. Never present it as his independent \
+opinion; if it is relevant, say it was sponsored. What he says about \
 his own products or brand is his opinion.
-7. Attribute. Facts and history are what he says, not verified truth. Views he reports \
+8. Attribute. Facts and history are what he says, not verified truth. Views he reports \
 from others ("people say...", a brand's own claim) are theirs, not his. Keep his \
 hedging ("he thinks", "he isn't sure"); never strengthen it.
-8. Nothing about his personal life, family or friends. Skits and jokes («ASIDE») are \
-not opinions unless they contain a real claim about the subject.
-9. Names: use the names in the transcripts and section notes; never guess what an \
-unnamed product is.
-10. Be concise: a direct answer first, then the reasoning and any nuance."""
+9. Nothing about his personal life, family or friends: decline briefly and offer a \
+question about his videos instead. Skits and jokes («ASIDE») are not opinions unless \
+they contain a real claim about the subject. If the question assumes something he \
+didn't say, say what he actually said.
+10. Names: use the names in the transcripts, descriptions and section notes; never \
+guess what an unnamed product is.
+11. Length follows the question: a direct answer first, then the reasoning and \
+nuance. A question about several products earns a short part on each; a simple one \
+gets a short answer. Keep it readable: short paragraphs or bullets, no padding."""
 
 
 def answer_prompt(question: str, today: date) -> str:
@@ -202,7 +239,9 @@ Question: {question}"""
 class CitationDraft(BaseModel):
     n: int = Field(description="The number used in the answer's [n] marker.")
     video: str = Field(description="The video id, from <video id=...>.")
-    segment: int = Field(description="The segment number the quote is in.")
+    segment: int = Field(
+        description="The segment number the quote is in, or -1 for the video's description."
+    )
     quote: str = Field(description="A short quote copied exactly from that segment.")
 
 
@@ -223,6 +262,7 @@ class Source:
     url: str
     segment_ids: list[str]
     quote: str
+    in_description: bool = False  # quoted from the video's description, not the video
 
 
 @dataclass
@@ -259,7 +299,12 @@ def check_answer(
     checked = CheckedAnswer(text=draft.answer, coverage=draft.coverage)
     for c in draft.citations:
         found = videos.get(c.video)
-        located = quote_location(c.quote, c.segment, found[1]) if found else []
+        if found and c.segment == DESCRIPTION:
+            quoted = normalise(c.quote)
+            shown = normalise(clean_description(found[0].description))
+            located = [DESCRIPTION] if quoted and quoted in shown else []
+        else:
+            located = quote_location(c.quote, c.segment, found[1]) if found else []
         if not located:
             where = f"{c.video}:{c.segment}" if found else f"unknown video {c.video!r}"
             checked.problems.append(f"[{c.n}] quote not found in {where}: {c.quote[:80]!r}")
@@ -273,8 +318,9 @@ def check_answer(
                 title=video.title,
                 published=video.published_at.date(),
                 url=watch_url(platform, video.platform_id),
-                segment_ids=[ids.segment_id(video.id, i) for i in located],
+                segment_ids=[ids.segment_id(video.id, i) for i in located if i != DESCRIPTION],
                 quote=c.quote,
+                in_description=located == [DESCRIPTION],
             )
         )
     if checked.coverage is not Coverage.NONE and not checked.sources:
