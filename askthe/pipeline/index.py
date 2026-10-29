@@ -12,6 +12,7 @@ from dataclasses import dataclass, field
 from askthe.core.chunking import content_hash, video_documents
 from askthe.core.interfaces import (
     Embedder,
+    EmbeddingError,
     KnowledgeStore,
     SearchDoc,
     SearchIndex,
@@ -28,6 +29,7 @@ class IndexReport:
     embedded: int = 0
     unchanged: int = 0
     unprofiled: list[str] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
 
 
 def index_videos(
@@ -69,7 +71,12 @@ def index_videos(
         on_progress(video.id, f"{len(docs)} documents" + ("" if profile else " (no profile yet)"))
 
     if pending:
-        embedded = embedder.embed([d.text for d, _ in pending])
+        try:
+            embedded = embedder.embed([d.text for d, _ in pending])
+        except EmbeddingError as e:
+            # Keyword search is already built; vector search waits for the next run.
+            report.warnings.append(f"{len(pending)} documents not embedded: {e}")
+            return report
         vectors.upsert(
             [
                 VectorItem(

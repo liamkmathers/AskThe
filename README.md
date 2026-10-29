@@ -49,10 +49,14 @@ uv run askthe segment iron-snail
 uv run askthe status iron-snail
 ```
 
-Then profile the videos and ask questions with Claude (needs an API key in `ASKTHE_ANTHROPIC_API_KEY`, or `ANTHROPIC_API_KEY` locally; these steps cost money):
+Then profile the videos and ask questions with Claude (needs `ASKTHE_ANTHROPIC_API_KEY`, and `ASKTHE_OPENAI_API_KEY` for embeddings; locally the usual `ANTHROPIC_API_KEY` and `OPENAI_API_KEY` also work. These steps cost money):
 
 ```bash
 uv run askthe understand iron-snail
+```
+
+```bash
+uv run askthe index iron-snail
 ```
 
 ```bash

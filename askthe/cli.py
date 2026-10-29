@@ -208,6 +208,8 @@ def index_command(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFI
     )
     if report.unprofiled:
         typer.echo(f"{len(report.unprofiled)} videos have no profile yet; run understand")
+    for warning in report.warnings:
+        typer.secho(f"warning: {warning}", fg=typer.colors.YELLOW)
 
 
 @app.command(name="ask")

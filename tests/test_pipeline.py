@@ -149,3 +149,22 @@ def test_fetch_stops_after_consecutive_failures_and_keeps_errors_short():
         max_consecutive_failures=2,
     )
     assert report.fetched == ["a"] and not report.stopped_early
+
+
+def test_index_builds_keyword_search_even_when_embeddings_fail():
+    from askthe.core.interfaces import EmbeddingError
+
+    class Down:
+        name = "down"
+
+        def embed(self, texts):
+            raise EmbeddingError("no API key")
+
+    creator = f.creator()
+    catalog, transcripts = sources("a")
+    archive, store, search = MemoryRawArchive(), MemoryKnowledgeStore(), MemorySearchIndex()
+    fetch_videos(creator, ["a"], catalog, transcripts, archive, source="test")
+    segment_videos(creator, archive, store)
+    report = index_videos(creator, store, search, MemoryVectorIndex(), Down())
+    assert report.embedded == 0 and "not embedded" in report.warnings[0]
+    assert search.search(SearchQuery(text="warm boots", creator_id=f.CREATOR))

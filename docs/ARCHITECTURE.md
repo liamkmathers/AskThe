@@ -53,20 +53,31 @@ Profiles are versioned (`PROFILER_VERSION`) and re-run only when that changes. C
 
 ### 4. Index
 
-- **Store:** videos, segments, profiles and entities in SQLite.
-- **Search** (SQLite FTS5) over three kinds of document: transcript segments, each video's profile text (title, purpose, thesis, sections, topics, entity names and aliases), and the questions each video answers.
+Every transcript segment becomes a **contextual chunk**: the segment text plus a header naming its video, publish date, section (title and summary) and any sponsor read or aside it overlaps. A chunk then makes sense on its own when retrieved. Each video's profile text and the questions it answers are indexed alongside.
 
-Search is used to choose videos, not passages: the model reads whole transcripts.
+- **Keyword search:** SQLite FTS5 (BM25, stemming).
+- **Vector search:** chunks embedded (OpenAI `text-embedding-3-small` by default) and searched by cosine similarity (SQLite, exact search with numpy). An embedding is reused while its chunk's text and the embedder are unchanged.
+
+If embeddings are unavailable, keyword search is still built and the run warns.
 
 ### 5. Answer
 
-1. **Choose videos.** If the whole catalogue fits the reading budget (`budget_words`, default 400,000 words; the 50-video prototype is about 150,000), read everything. Otherwise rank videos by search relevance and take the best that fit. Videos are ordered by date, so the same set produces the same input and is served from the prompt cache.
-2. **Lay them out.** Each video is given with its title, publish date, type, purpose and sections, then its transcript as `[video_id:segment]` lines with passages marked inline (`«SPONSOR: ...» ... «END SPONSOR»`), and any corrections noted.
-3. **Reason and answer.** The model answers this question from the transcripts, following the product rules (his opinion first, grounded or silent, newest first, attributed, sponsorship flagged, hedging kept), and cites every statement with a video, segment and exact quote.
-4. **Verify.** Code checks every quote appears in the segment it cites. If any fail, the model gets one retry told which; whatever still fails is removed and reported, never repaired.
-5. **Log** the question, answer, coverage and cited segments (feeds evaluation and the future creator dashboard).
+Set by `[retrieval] mode` in `askthe.toml`.
 
-First trial (22 videos, 112k tokens of transcript): about $0.60 for the first question, which writes the cache, then $0.03 to $0.06 per question.
+**`hybrid` (default)**
+1. **Plan.** A fast model (Claude Haiku) turns the question into 3 to 6 search queries (rephrasings, synonyms, the informal words he would say) and the names involved; names are expanded with glossary aliases and caption misspellings. It also says whether the question needs a catalogue-wide sweep.
+2. **Search and fuse.** Every query runs on keyword and vector search; the ranked lists are combined with **reciprocal rank fusion**, with a boost for passages from videos whose profile matches. The top 60 (100 for sweeps) become candidates.
+3. **Rerank.** The fast model scores each candidate 0 to 3 for this question; passages scoring 2 or more are kept.
+4. **Assemble.** Each kept passage expands to its section when the section is short, otherwise to its neighbours, within a word budget (`context_words`, default 12,000). Videos are shown with their sections listed and skipped stretches marked, so the model knows the transcript is partial.
+5. **Answer, verify, log** as below.
+
+If vector search fails, retrieval continues on keywords alone and the answer carries a warning.
+
+**`full`**: whole transcripts, every video if the catalogue fits `full_budget_words`, otherwise the best-matching videos. The reference hybrid is measured against.
+
+**Answer, verify, log (both modes).** The model answers this question from what it was given, following the product rules, and cites every statement with a video, segment and exact quote. Code checks every quote appears in the segment it cites; one retry is allowed, and anything still failing is removed and reported. The question, answer, coverage, cited segments and retrieval mode are logged.
+
+**First real comparison** (22 videos, keyword-only because embeddings were not yet reachable): hybrid read 715 to 2,104 words per question instead of 63,000, gave the same conclusions as full context, and cost about $0.06 to $0.10 per question regardless of catalogue size. Full context costs about $0.60 per question when the cache is cold.
 
 ## Swappable components
 
@@ -78,7 +89,8 @@ Each of these is an interface in the engine core, with implementations as adapte
 | `TranscriptSource` | Get the transcript text for a video | youtube-transcript-api; or `files` (`.vtt`, `.srt`, `.txt`) | yt-dlp subtitles; Whisper on audio; a transcript service |
 | `KnowledgeStore` | Save and query videos, segments, profiles, entities, answer logs | SQLite | Postgres |
 | `SearchIndex` | Find relevant segments and claims for a query | SQLite full-text search (FTS5) | Hybrid with vectors; a dedicated search service |
-| `Embedder` | Turn text into vectors (only once vectors are added) | none | Any embedding provider or local model |
+| `Embedder` | Turn text into vectors | OpenAI `text-embedding-3-small` | Voyage; a local model (BGE) |
+| `VectorIndex` | Nearest-neighbour search over embeddings | SQLite + numpy (exact) | sqlite-vec, pgvector, a vector database |
 | `LLMClient` | Structured extraction and answer generation | Anthropic API (Claude), model set in config | Other models or providers |
 
 Rules for adapters:
@@ -107,7 +119,7 @@ Rules for adapters:
 askthe/
   core/            domain models, interfaces, pure logic (no I/O)
   adapters/        sources/, storage/, search/, llm/, embeddings/
-  pipeline/        fetch, segment, understand, ask
+  pipeline/        fetch, segment, understand, index, ask
   app/             web chat (FastAPI)
   cli.py           command line
   wiring.py        composition root: config → adapters
