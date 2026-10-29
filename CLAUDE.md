@@ -35,7 +35,7 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 
 - Record significant decisions in [DECISIONS](docs/DECISIONS.md) as a new entry.
 - What fans actually ask is in [FAN_QUESTIONS](docs/FAN_QUESTIONS.md).
-- Keep [ROADMAP](docs/ROADMAP.md) milestone status current.
+- Keep [ROADMAP](docs/ROADMAP.md) milestone status current. The proposed UI is in [UI_PLAN](docs/UI_PLAN.md).
 - Update [DATA_MODEL](docs/DATA_MODEL.md) when the schema changes.
 
 ## Environment notes
