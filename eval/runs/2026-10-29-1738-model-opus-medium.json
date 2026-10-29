@@ -1,0 +1,4089 @@
+{
+  "label": "model-opus-medium",
+  "created_at": "2026-10-29T17:38:27+00:00",
+  "creator": "iron-snail",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-opus-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 23,
+      "passed_checks": 22,
+      "coverage_right": 22,
+      "coverage_exact": 20,
+      "citations_hold": 23,
+      "cost_usd": 1.6466,
+      "mean_context_words": 3166,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "question": "should I treat my boots out of box ? Annnnd how often should I treat them ?",
+      "type": "how_to",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "**Out of the box: it depends on the leather.** The Iron Snail's view comes from Blundstone's own FAQ, which he read out. It says most Blundstones are pretreated, so treating them straight out of the box isn't recommended, because the product will just roll off [1]. The exception is distressed leathers like rustic brown, Crazy Horse brown or rustic black, which don't carry the same pretreatment [2].\n\nFor those distressed styles, he recommends treating them \"100%\" rather than keeping them dry, if you want them to last [3]. He oiled his own rustic brown pair about two days after getting them [4]. Two caveats he gives:\n- Oiling or waxing **darkens** the leather [5].\n- If you hate that look, he suggests at least looking into a silicone \"nano spray,\" which keeps water and stains off without changing the look as much. You do still have to reapply it [6].\n\nHis first opinion was a bit muddled. In his original review he first thought his distressed pair wasn't treated. After a puddle test he took that back [7]. In the follow-up video, the FAQ led him to conclude that rustic leathers aren't pretreated like finished, oiled ones [2]. For what it's worth, in his one-year review the pair had gone a year without treatment and still let him stand in a pond for a while before his feet got wet [8].\n\n**How often: no fixed schedule.** His most recent take (2022) is that he treats them when he feels they need it, and he admits he probably does it too little [9]. His rule of thumb:\n- If they look or feel dry, or water isn't beading on top, they likely need more wax or oil [10].\n- Clean them regularly if they're dirty, because dirt wears leather down faster [10].\n- The order is always clean, then condition, then wax [11].\n\nEarlier (2019) he gave rougher ranges. You might wax them every month, or every week if you go \"super crazy\" with them, though probably not that often [12]. Anything leather you haven't conditioned in a few months should get conditioned [13].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "H6lDr__B3GM",
+              "title": "How to Treat/Weatherproof/Condition Your Leather Boots! (Blundstones/Otterwax)",
+              "published": "2019-05-16",
+              "segments": [
+                "iron-snail:H6lDr__B3GM:s0001"
+              ],
+              "quote": "we do not recommend treating them out of the box basically because they're treated if you do try and treat them again something's just gonna roll off"
+            },
+            {
+              "n": 2,
+              "video": "H6lDr__B3GM",
+              "title": "How to Treat/Weatherproof/Condition Your Leather Boots! (Blundstones/Otterwax)",
+              "published": "2019-05-16",
+              "segments": [
+                "iron-snail:H6lDr__B3GM:s0001"
+              ],
+              "quote": "the exception to this rule would be styles that are manufactured with rustic Brown Crazy Horse brown or rustic black leathers"
+            },
+            {
+              "n": 3,
+              "video": "H6lDr__B3GM",
+              "title": "How to Treat/Weatherproof/Condition Your Leather Boots! (Blundstones/Otterwax)",
+              "published": "2019-05-16",
+              "segments": [
+                "iron-snail:H6lDr__B3GM:s0005"
+              ],
+              "quote": "I recommend you do this 100% I don't recommend you keep it dry"
+            },
+            {
+              "n": 4,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0008"
+              ],
+              "quote": "i think was like two days after i got the bloodstone"
+            },
+            {
+              "n": 5,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [
+                "iron-snail:4cRAkEHfXKo:s0008"
+              ],
+              "quote": "wax and oils will definitely darken the boots"
+            },
+            {
+              "n": 6,
+              "video": "H6lDr__B3GM",
+              "title": "How to Treat/Weatherproof/Condition Your Leather Boots! (Blundstones/Otterwax)",
+              "published": "2019-05-16",
+              "segments": [
+                "iron-snail:H6lDr__B3GM:s0008"
+              ],
+              "quote": "it won't change the look of your boots as much as this will"
+            },
+            {
+              "n": 7,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0009"
+              ],
+              "quote": "I'm going to take back my claim that the distressed ones aren't treated"
+            },
+            {
+              "n": 8,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0010"
+              ],
+              "quote": "they're water repellent enough to stand in the water for however long"
+            },
+            {
+              "n": 9,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [
+                "iron-snail:4cRAkEHfXKo:s0009"
+              ],
+              "quote": "I personally probably do too little but also at the same time maybe not too little I do it when I feel like they need it"
+            },
+            {
+              "n": 10,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [
+                "iron-snail:4cRAkEHfXKo:s0009"
+              ],
+              "quote": "if it looks dry if it feels dry if it's not beating water on the top maybe you need more wax"
+            },
+            {
+              "n": 11,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [
+                "iron-snail:4cRAkEHfXKo:s0008"
+              ],
+              "quote": "you always go in that order you clean condition wax"
+            },
+            {
+              "n": 12,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0010"
+              ],
+              "quote": "you may have to really marry wax them every month maybe every week if you just go super crazy with your boots you probably won't have to do with that much"
+            },
+            {
+              "n": 13,
+              "video": "H6lDr__B3GM",
+              "title": "How to Treat/Weatherproof/Condition Your Leather Boots! (Blundstones/Otterwax)",
+              "published": "2019-05-16",
+              "segments": [
+                "iron-snail:H6lDr__B3GM:s0005"
+              ],
+              "quote": "really leather anything that you haven't conditioned in a few months definitely condition it"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "a38PivchXTw",
+            "H6lDr__B3GM",
+            "rb-33aSBxyE",
+            "4cRAkEHfXKo"
+          ],
+          "segments_read": [
+            "iron-snail:a38PivchXTw:s0005",
+            "iron-snail:a38PivchXTw:s0006",
+            "iron-snail:a38PivchXTw:s0007",
+            "iron-snail:a38PivchXTw:s0008",
+            "iron-snail:a38PivchXTw:s0009",
+            "iron-snail:a38PivchXTw:s0010",
+            "iron-snail:a38PivchXTw:s0011",
+            "iron-snail:H6lDr__B3GM:s0000",
+            "iron-snail:H6lDr__B3GM:s0001",
+            "iron-snail:H6lDr__B3GM:s0002",
+            "iron-snail:H6lDr__B3GM:s0004",
+            "iron-snail:H6lDr__B3GM:s0005",
+            "iron-snail:H6lDr__B3GM:s0006",
+            "iron-snail:H6lDr__B3GM:s0007",
+            "iron-snail:H6lDr__B3GM:s0008",
+            "iron-snail:rb-33aSBxyE:s0008",
+            "iron-snail:rb-33aSBxyE:s0009",
+            "iron-snail:rb-33aSBxyE:s0010",
+            "iron-snail:4cRAkEHfXKo:s0002",
+            "iron-snail:4cRAkEHfXKo:s0003",
+            "iron-snail:4cRAkEHfXKo:s0004",
+            "iron-snail:4cRAkEHfXKo:s0005",
+            "iron-snail:4cRAkEHfXKo:s0006",
+            "iron-snail:4cRAkEHfXKo:s0007",
+            "iron-snail:4cRAkEHfXKo:s0008",
+            "iron-snail:4cRAkEHfXKo:s0009"
+          ],
+          "context_words": 5075,
+          "queries": [
+            "should I treat my boots out of box ? Annnnd how often should I treat them ?",
+            "treat boots out of the box",
+            "break in new boots before treatment",
+            "how often to treat leather boots",
+            "boot conditioner waterproofing frequency",
+            "leather boot care treatment schedule",
+            "when to apply boot wax or conditioner"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23126,
+              "output": 760,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 14404,
+              "output": 1709,
+              "cache_read": 0,
+              "cache_write": 1728
+            }
+          },
+          "cost_usd": 0.10314485999999999,
+          "seconds": 22.2,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [
+              "4cRAkEHfXKo",
+              "H6lDr__B3GM"
+            ],
+            "sources_cited": [
+              "4cRAkEHfXKo",
+              "H6lDr__B3GM"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q02",
+      "question": "So if I buy the levis 501 shrink to fit will they get tighter after washing?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "**Yes, he says they will.** The 501 Shrink-to-Fit is unsanforized denim, so it shrinks when it gets wet. His advice is to size up beforehand so they end up fitting rather than too tight.\n\n**How to size them (his most recent advice)**\n- In 2025 he still calls the STF 501 a good, iconic choice. He notes that you put it in the bathtub and it shrinks, so \"you should usually go two sizes up\" [1].\n- In 2021 he gave the fuller version: two sizes bigger in the waist and two inches longer than you'd normally wear. He admits it took him four pairs of 501s to accept that Levi's advice is correct [2]. He also warns that before you get them wet they'll feel too big, but they'll be right afterwards [3].\n- In 2023 he said unsanforized 501s can shrink up to 10% on the first wash [4].\n\n**What happened when he ignored that advice (2019)**\nHe skipped sizing up because jeans are usually too long on him [5]. After a hot tub soak and air-drying, the waist got very tight, though the length looked \"pretty much the same\" [6]. A week later the waist and upper thighs had stretched enough that he could wear a belt comfortably [7]. So in his experience the waist shrinks most at first and then loosens with wear. He also notes that the earlier, slimmer look in the lower legs came from him tapering them, not from shrinking [7].\n\n**How much they shrink depends on how you wash them**\nIn his 2023 Wrangler comparison, his shrunk STFs came out smaller than regular rinsed 501s [8]. They also looked much better than the other pair because he didn't use super hot water and didn't put them in the dryer. His tip: don't put STFs in the dryer or rinse them that hot, and you can get a really nice fit [9].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0004"
+              ],
+              "quote": "So you put it in the bathtub, it'll shrink. Not to fit. You should usually go two sizes up."
+            },
+            {
+              "n": 2,
+              "video": "JcDBrIvLD_8",
+              "title": "Worth it? The Most Expensive Levi 501 Jeans ($260)",
+              "published": "2021-04-23",
+              "segments": [
+                "iron-snail:JcDBrIvLD_8:s0003"
+              ],
+              "quote": "levi's recommends you go two sizes bigger in the waist and then two inches longer than you would normally wear"
+            },
+            {
+              "n": 3,
+              "video": "JcDBrIvLD_8",
+              "title": "Worth it? The Most Expensive Levi 501 Jeans ($260)",
+              "published": "2021-04-23",
+              "segments": [
+                "iron-snail:JcDBrIvLD_8:s0004"
+              ],
+              "quote": "if you try them on before you get them wet they'll be too big but trust me"
+            },
+            {
+              "n": 4,
+              "video": "nM_g-z5zLJ0",
+              "title": "Did Levi’s Jeans Quality Tank? 63 Year Old vs. Modern",
+              "published": "2023-11-19",
+              "segments": [
+                "iron-snail:nM_g-z5zLJ0:s0008"
+              ],
+              "quote": "they will shrink up to 10% when you wash them for the first time"
+            },
+            {
+              "n": 5,
+              "video": "5cpsrt14fkc",
+              "title": "The Original Raw Denim Jeans: Levi 501 STF (Shrink to Fit)",
+              "published": "2019-06-27",
+              "segments": [
+                "iron-snail:5cpsrt14fkc:s0003"
+              ],
+              "quote": "I didn't listen to Levi at all because jeans are usually too long on me"
+            },
+            {
+              "n": 6,
+              "video": "5cpsrt14fkc",
+              "title": "The Original Raw Denim Jeans: Levi 501 STF (Shrink to Fit)",
+              "published": "2019-06-27",
+              "segments": [
+                "iron-snail:5cpsrt14fkc:s0012"
+              ],
+              "quote": "it really doesn't look like length shrink much at all"
+            },
+            {
+              "n": 7,
+              "video": "5cpsrt14fkc",
+              "title": "The Original Raw Denim Jeans: Levi 501 STF (Shrink to Fit)",
+              "published": "2019-06-27",
+              "segments": [
+                "iron-snail:5cpsrt14fkc:s0013"
+              ],
+              "quote": "up in the upper thigh and the waist has definitely stretched now I can wear a belt"
+            },
+            {
+              "n": 8,
+              "video": "IQrhvbWN1Uw",
+              "title": "How Wrangler Jeans Crush Levi’s At Half The Price.",
+              "published": "2023-09-21",
+              "segments": [
+                "iron-snail:IQrhvbWN1Uw:s0010"
+              ],
+              "quote": "they did get smaller than regular rinsed Levi 501s"
+            },
+            {
+              "n": 9,
+              "video": "IQrhvbWN1Uw",
+              "title": "How Wrangler Jeans Crush Levi’s At Half The Price.",
+              "published": "2023-09-21",
+              "segments": [
+                "iron-snail:IQrhvbWN1Uw:s0011"
+              ],
+              "quote": "don't toss your stfs in the dryer or rinse them that hot and you can get a really nice fit"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "5cpsrt14fkc",
+            "JcDBrIvLD_8",
+            "IQrhvbWN1Uw",
+            "nM_g-z5zLJ0",
+            "A6SkEwdjj-8"
+          ],
+          "segments_read": [
+            "iron-snail:5cpsrt14fkc:s0002",
+            "iron-snail:5cpsrt14fkc:s0003",
+            "iron-snail:5cpsrt14fkc:s0004",
+            "iron-snail:5cpsrt14fkc:s0005",
+            "iron-snail:5cpsrt14fkc:s0006",
+            "iron-snail:5cpsrt14fkc:s0007",
+            "iron-snail:5cpsrt14fkc:s0008",
+            "iron-snail:5cpsrt14fkc:s0009",
+            "iron-snail:5cpsrt14fkc:s0010",
+            "iron-snail:5cpsrt14fkc:s0011",
+            "iron-snail:5cpsrt14fkc:s0012",
+            "iron-snail:5cpsrt14fkc:s0013",
+            "iron-snail:JcDBrIvLD_8:s0001",
+            "iron-snail:JcDBrIvLD_8:s0002",
+            "iron-snail:JcDBrIvLD_8:s0003",
+            "iron-snail:JcDBrIvLD_8:s0004",
+            "iron-snail:JcDBrIvLD_8:s0005",
+            "iron-snail:JcDBrIvLD_8:s0006",
+            "iron-snail:JcDBrIvLD_8:s0007",
+            "iron-snail:JcDBrIvLD_8:s0008",
+            "iron-snail:IQrhvbWN1Uw:s0010",
+            "iron-snail:IQrhvbWN1Uw:s0011",
+            "iron-snail:nM_g-z5zLJ0:s0007",
+            "iron-snail:nM_g-z5zLJ0:s0008",
+            "iron-snail:A6SkEwdjj-8:s0001",
+            "iron-snail:A6SkEwdjj-8:s0002",
+            "iron-snail:A6SkEwdjj-8:s0003",
+            "iron-snail:A6SkEwdjj-8:s0004",
+            "iron-snail:A6SkEwdjj-8:s0005"
+          ],
+          "context_words": 5335,
+          "queries": [
+            "So if I buy the levis 501 shrink to fit will they get tighter after washing?",
+            "Levi's 501 shrink to fit shrinkage after washing",
+            "501 shrink-to-fit raw denim shrink in wash",
+            "Levi's 501 sizing shrink tighter after washing",
+            "shrink to fit jeans wash cold water dryer shrinkage",
+            "Levi's 501 unwashed fit how much they shrink",
+            "Levi's",
+            "Levis's",
+            "Levis",
+            "Levi",
+            "level",
+            "levi",
+            "levi's",
+            "Levi's 1955 recreation jean",
+            "Recreation Levi's jean from 1955",
+            "Levi's 501",
+            "501",
+            "501s",
+            "Levi 501s",
+            "Levi's 501 Original Shrink-to-Fit",
+            "shrink to fit 501",
+            "Levi's 501 Rinsed",
+            "Levi 501s rinsed",
+            "rinsed 501 Levi's",
+            "Levi's 501 Shrink-to-Fit",
+            "Levi 501 shrink to fits",
+            "shrink defense",
+            "stfs",
+            "strength defense",
+            "strength of fits",
+            "strength to fits",
+            "Levi's 501 STF (Shrink to Fit)",
+            "501 shrink to fit",
+            "Levi's 501s",
+            "five oh ones",
+            "levi 501s",
+            "levi's 501s",
+            "Levi's 511",
+            "Levi's 511 s",
+            "Levi's LVC 1947 501XX",
+            "1947 501",
+            "levi's lvc 1947 jeans",
+            "Levi's made in Japan 1947 recreation jeans",
+            "made in Japan Levis's recreation from 1947 jeans",
+            "Levi's Premium selvedge jeans",
+            "Levis's premium",
+            "Levi's red tab",
+            "red tab",
+            "Levi's tax",
+            "Levi's Type I jacket",
+            "type one jacket",
+            "Levi's Vintage Clothing",
+            "lbc",
+            "lvc",
+            "Levi's Vintage Clothing 1937 jeans",
+            "Levi's LBC 1937s",
+            "Levi's Vintage Clothing 1967 505 jeans",
+            "1967 505",
+            "Levi's 1967 lvc 50o",
+            "Levi's Vintage Clothing (LVC)",
+            "LBC",
+            "lvcs",
+            "vintage 1990s Levi's jeans",
+            "vintage pair of Levi's jeans from the 90s"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 24000,
+              "output": 803,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 17287,
+              "output": 1406,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.10043136000000001,
+          "seconds": 19.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "shrink": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "5cpsrt14fkc",
+              "JcDBrIvLD_8"
+            ],
+            "sources_cited": [
+              "5cpsrt14fkc",
+              "JcDBrIvLD_8"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q03",
+      "question": "I'm usually a 33x30 in Levi's 502s, what size should I buy in these? [501 STF]",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "answer": "**Applying his rule, that would be roughly a 35x32.** His consistent advice for 501 Shrink-to-Fits is to go two sizes up in the waist and about two inches longer than you normally wear, so from your 33x30 that works out to 35x32.\n\n**Why he recommends sizing up:**\n- In his most recent mention (2025) he notes they shrink when you put them in the bathtub and says you should usually go two sizes up [1].\n- In 2021 he admitted it took him four pairs of 501s to accept that Levi's is right: size up two in the waist and go two inches longer. If you follow that, he says, the pants will fit normally after you get them wet [2][3].\n- In his 2023 Wrangler comparison he bought his STFs two sizes up (32s against his normal 30s), because the tagged waist runs bigger than the label before shrinking [4].\n\n**His own early mistake:**\n- In 2019 he ignored Levi's sizing advice because jeans are usually too long on him [5].\n- A year later he said he could barely pull on his 29x30s at first and couldn't breathe. The waist did loosen into a good fit over time, but he said he definitely would have gotten a 32 length [6].\n- Shrinking barely changed the length, though the waist tightened a lot [7].\n\n**What he hasn't covered:** he hasn't talked about converting from a 502 fit specifically, or whether odd waist sizes like a 35 are available. The above is just his general two-up rule applied to your size.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0004"
+              ],
+              "quote": "You should usually go two sizes up."
+            },
+            {
+              "n": 2,
+              "video": "JcDBrIvLD_8",
+              "title": "Worth it? The Most Expensive Levi 501 Jeans ($260)",
+              "published": "2021-04-23",
+              "segments": [
+                "iron-snail:JcDBrIvLD_8:s0003"
+              ],
+              "quote": "it took me three levi well four levi 501s to realize that levi's is correct and that's what you should do size up two and length one length two inches more"
+            },
+            {
+              "n": 3,
+              "video": "JcDBrIvLD_8",
+              "title": "Worth it? The Most Expensive Levi 501 Jeans ($260)",
+              "published": "2021-04-23",
+              "segments": [
+                "iron-snail:JcDBrIvLD_8:s0004"
+              ],
+              "quote": "fit regularly after you get them wet"
+            },
+            {
+              "n": 4,
+              "video": "IQrhvbWN1Uw",
+              "title": "How Wrangler Jeans Crush Levi’s At Half The Price.",
+              "published": "2023-09-21",
+              "segments": [
+                "iron-snail:IQrhvbWN1Uw:s0008"
+              ],
+              "quote": "both of these strength of fits are a size 32 I went up two sizes"
+            },
+            {
+              "n": 5,
+              "video": "5cpsrt14fkc",
+              "title": "The Original Raw Denim Jeans: Levi 501 STF (Shrink to Fit)",
+              "published": "2019-06-27",
+              "segments": [
+                "iron-snail:5cpsrt14fkc:s0003"
+              ],
+              "quote": "I didn't listen to Levi at all because jeans are usually too long on me"
+            },
+            {
+              "n": 6,
+              "video": "vXHDbKKuXQ0",
+              "title": "Levi 501 STF (Shrink to Fit) - 1 Year of Progress (Raw Denim)",
+              "published": "2020-07-28",
+              "segments": [
+                "iron-snail:vXHDbKKuXQ0:s0003"
+              ],
+              "quote": "the length i definitely would have gotten a 32"
+            },
+            {
+              "n": 7,
+              "video": "5cpsrt14fkc",
+              "title": "The Original Raw Denim Jeans: Levi 501 STF (Shrink to Fit)",
+              "published": "2019-06-27",
+              "segments": [
+                "iron-snail:5cpsrt14fkc:s0012"
+              ],
+              "quote": "it really doesn't look like length shrink much at all"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "5cpsrt14fkc",
+            "vXHDbKKuXQ0",
+            "JcDBrIvLD_8",
+            "IQrhvbWN1Uw",
+            "A6SkEwdjj-8"
+          ],
+          "segments_read": [
+            "iron-snail:5cpsrt14fkc:s0002",
+            "iron-snail:5cpsrt14fkc:s0003",
+            "iron-snail:5cpsrt14fkc:s0004",
+            "iron-snail:5cpsrt14fkc:s0005",
+            "iron-snail:5cpsrt14fkc:s0006",
+            "iron-snail:5cpsrt14fkc:s0010",
+            "iron-snail:5cpsrt14fkc:s0011",
+            "iron-snail:5cpsrt14fkc:s0012",
+            "iron-snail:vXHDbKKuXQ0:s0002",
+            "iron-snail:vXHDbKKuXQ0:s0003",
+            "iron-snail:vXHDbKKuXQ0:s0004",
+            "iron-snail:JcDBrIvLD_8:s0001",
+            "iron-snail:JcDBrIvLD_8:s0002",
+            "iron-snail:JcDBrIvLD_8:s0003",
+            "iron-snail:JcDBrIvLD_8:s0004",
+            "iron-snail:IQrhvbWN1Uw:s0007",
+            "iron-snail:IQrhvbWN1Uw:s0008",
+            "iron-snail:A6SkEwdjj-8:s0001",
+            "iron-snail:A6SkEwdjj-8:s0002",
+            "iron-snail:A6SkEwdjj-8:s0003",
+            "iron-snail:A6SkEwdjj-8:s0004",
+            "iron-snail:A6SkEwdjj-8:s0005"
+          ],
+          "context_words": 3985,
+          "queries": [
+            "I'm usually a 33x30 in Levi's 502s, what size should I buy in these? [501 STF]",
+            "Levi's 501 STF sizing",
+            "Levi's 501 size fit true to size",
+            "501 STF waist inseam fit",
+            "Levi's 502 vs 501 sizing",
+            "size up or down Levi's 501 jeans",
+            "Levi's",
+            "Levis's",
+            "Levis",
+            "Levi",
+            "level",
+            "levi",
+            "levi's",
+            "Levi's 1955 recreation jean",
+            "Recreation Levi's jean from 1955",
+            "Levi's 501",
+            "501",
+            "501s",
+            "Levi 501s",
+            "Levi's 501 Original Shrink-to-Fit",
+            "shrink to fit 501",
+            "Levi's 501 Rinsed",
+            "Levi 501s rinsed",
+            "rinsed 501 Levi's",
+            "Levi's 501 Shrink-to-Fit",
+            "Levi 501 shrink to fits",
+            "shrink defense",
+            "stfs",
+            "strength defense",
+            "strength of fits",
+            "strength to fits",
+            "Levi's 501 STF (Shrink to Fit)",
+            "501 shrink to fit",
+            "Levi's 501s",
+            "five oh ones",
+            "levi 501s",
+            "levi's 501s",
+            "Levi's 511",
+            "Levi's 511 s",
+            "Levi's LVC 1947 501XX",
+            "1947 501",
+            "levi's lvc 1947 jeans",
+            "Levi's made in Japan 1947 recreation jeans",
+            "made in Japan Levis's recreation from 1947 jeans",
+            "Levi's Premium selvedge jeans",
+            "Levis's premium",
+            "Levi's red tab",
+            "red tab",
+            "Levi's tax",
+            "Levi's Type I jacket",
+            "type one jacket",
+            "Levi's Vintage Clothing",
+            "lbc",
+            "lvc",
+            "Levi's Vintage Clothing 1937 jeans",
+            "Levi's LBC 1937s",
+            "Levi's Vintage Clothing 1967 505 jeans",
+            "1967 505",
+            "Levi's 1967 lvc 50o",
+            "Levi's Vintage Clothing (LVC)",
+            "LBC",
+            "lvcs",
+            "vintage 1990s Levi's jeans",
+            "vintage pair of Levi's jeans from the 90s",
+            "501 STF"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23997,
+              "output": 770,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 14803,
+              "output": 1368,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.08971856000000002,
+          "seconds": 20.4,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [
+              "JcDBrIvLD_8",
+              "vXHDbKKuXQ0"
+            ],
+            "sources_cited": [
+              "JcDBrIvLD_8",
+              "vXHDbKKuXQ0"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Why do you cuff your jeans?",
+      "type": "taste",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "The Iron Snail cuffs mainly for **length** and for **how the jeans fit his style**. His preference has shifted somewhat over time, though.\n\n**His most recent reason (2020):** In his one-year update on his Levi's 501 STFs, he said he cuffed them even though they had ended up on the short side. He'd have gotten a 32 length in hindsight [1]. His reasoning was that his current style doesn't suit wider-legged pants worn uncuffed [1].\n\n**Length first (2019):** When he first tried on the 501s, he said it's \"all about length\" for him. If jeans look too long, they just look bad, and that's the first and foremost thing [2]. He added that the cuff shouldn't be too thick [2]. He found a basic cuff made the wide 501s fit and feel a little better [2]. A pin roll looked a little better still, but they were still too wide for him [2].\n\n**A shift with boots (late 2019):** In his L.L. Bean boot review, he said he always used to cuff his jeans but had come to like them worn down over his boots a bit more [3]. He thinks jeans over the boots calms down a loud statement boot like the Bean boot [3]. For that more workwear look, he recommends a 7 to 7.5 inch leg opening pulled down over the boot [4].\n\nSo his lean is: cuff to get the length right and keep wider jeans looking tidy, but leave them uncuffed over boots when you want a more toned-down workwear look.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "vXHDbKKuXQ0",
+              "title": "Levi 501 STF (Shrink to Fit) - 1 Year of Progress (Raw Denim)",
+              "published": "2020-07-28",
+              "segments": [
+                "iron-snail:vXHDbKKuXQ0:s0003"
+              ],
+              "quote": "i cuffed them anyways just because i don't think my current style kind of lends itself to not cuffed wider legged pants"
+            },
+            {
+              "n": 2,
+              "video": "5cpsrt14fkc",
+              "title": "The Original Raw Denim Jeans: Levi 501 STF (Shrink to Fit)",
+              "published": "2019-06-27",
+              "segments": [
+                "iron-snail:5cpsrt14fkc:s0006"
+              ],
+              "quote": "honestly it's all about length for me I feel like if it looks too long the jeans just look bad that's the first and foremost thing"
+            },
+            {
+              "n": 3,
+              "video": "upPOeJxFExQ",
+              "title": "Should You Buy L.L. Bean Boots?",
+              "published": "2019-11-02",
+              "segments": [
+                "iron-snail:upPOeJxFExQ:s0009"
+              ],
+              "quote": "I always used to cuff my jeans now I kind of like them over my boots a little bit more and I think it really calms these boots down"
+            },
+            {
+              "n": 4,
+              "video": "upPOeJxFExQ",
+              "title": "Should You Buy L.L. Bean Boots?",
+              "published": "2019-11-02",
+              "segments": [
+                "iron-snail:upPOeJxFExQ:s0008"
+              ],
+              "quote": "you should get a 7 inch leg opening a 7.5 inch leg opening and pull it down over the boot"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "5cpsrt14fkc",
+            "upPOeJxFExQ",
+            "vXHDbKKuXQ0",
+            "IQrhvbWN1Uw"
+          ],
+          "segments_read": [
+            "iron-snail:5cpsrt14fkc:s0004",
+            "iron-snail:5cpsrt14fkc:s0005",
+            "iron-snail:5cpsrt14fkc:s0006",
+            "iron-snail:upPOeJxFExQ:s0007",
+            "iron-snail:upPOeJxFExQ:s0008",
+            "iron-snail:upPOeJxFExQ:s0009",
+            "iron-snail:vXHDbKKuXQ0:s0002",
+            "iron-snail:vXHDbKKuXQ0:s0003",
+            "iron-snail:vXHDbKKuXQ0:s0004",
+            "iron-snail:IQrhvbWN1Uw:s0009",
+            "iron-snail:IQrhvbWN1Uw:s0010"
+          ],
+          "context_words": 2200,
+          "queries": [
+            "Why do you cuff your jeans?",
+            "why I cuff my jeans",
+            "cuffed jeans reasons",
+            "jean cuff fit and length",
+            "rolling up jean cuffs look",
+            "cuffing selvedge denim",
+            "cuff vs hem jeans length"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23517,
+              "output": 756,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 9737,
+              "output": 1062,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.06327956,
+          "seconds": 16.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [
+              "5cpsrt14fkc",
+              "vXHDbKKuXQ0"
+            ],
+            "sources_cited": [
+              "5cpsrt14fkc",
+              "vXHDbKKuXQ0"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q05",
+      "question": "So do you prefer [the Red Wing 3335s] over the 1907s?",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "**Mostly yes, at least as of his last word on it, though he's softened a bit.**\n\n**Most recent (Sept 2023):** In his boot-collection cull, he said he's \"on record saying that the Red Wing 3335s are my favorite Red Wings of all time and they still might be,\" but added that the 875s, 1907s and Iron Rangers \"all have their own characteristics\" he really likes [1]. He still likes the 3335s for their stitch-down construction, lighter weight and nimbler feel, which make them easier for walking or a light hike. Even so, he put them on the list of boots he's getting rid of [2].\n\n**Original review (Oct 2022):** He was more emphatic then. He called the 3335s his favorite boots he'd ever had, saying they beat his Blundstones, the 1907s and the 875s [3]. His reasoning was about use:\n- Heritage work boots are for heritage work, and he's mostly hiking and walking in the woods [3].\n- The 1907s and 875s are \"more beefily constructed,\" so if you need a tough boot he says the 3335s probably aren't the ones. To him, though, the 3335s are \"a dramatically better all-around boot\" [3].\n- He also thinks they look \"way cooler\" [4].\n\n**A caveat on construction:** Despite the video's title, he said he doesn't think the 3335s are necessarily *better made* than Goodyear-welted boots like the 1907. Stitch-down isn't infinitely better, and the 3335 uses only a single stitch, so it isn't on \"some infinitely better level than 1907s or 875s\" [5].\n\nIn short, he preferred the 3335s as a lighter all-rounder, while acknowledging the 1907 is the tougher boot.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "I am on record saying that the Red Wing 3335s are my favorite Red Wings of all time and they still might be"
+            },
+            {
+              "n": 2,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "they're lighter weight you can feel more Nimble in them they're a little easier to go walking with maybe a light hike or something like that but they're going"
+            },
+            {
+              "n": 3,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0011"
+              ],
+              "quote": "They beat my Blundstones, they beat the 1907s, they beat the 875s."
+            },
+            {
+              "n": 4,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0012"
+              ],
+              "quote": "I think they look way cooler"
+            },
+            {
+              "n": 5,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0014"
+              ],
+              "quote": "they aren't some infinitely better level than 1907s or 875s in that regard because stitch down isn't infinitely better but also because they're doing a single stitch"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "cyAzm8O3RwY",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:cyAzm8O3RwY:s0011",
+            "iron-snail:cyAzm8O3RwY:s0012",
+            "iron-snail:cyAzm8O3RwY:s0013",
+            "iron-snail:cyAzm8O3RwY:s0014",
+            "iron-snail:cyAzm8O3RwY:s0015",
+            "iron-snail:mS6Jqq_GWlo:s0002",
+            "iron-snail:mS6Jqq_GWlo:s0003",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007"
+          ],
+          "context_words": 1461,
+          "queries": [
+            "So do you prefer [the Red Wing 3335s] over the 1907s?",
+            "Red Wing 3335 vs 1907 comparison",
+            "Red Wing 3335 boots review",
+            "Red Wing 1907 boots review",
+            "Red Wing 3335 versus 1907 which do you prefer",
+            "Red Wing boots comfort fit preference",
+            "Red Wing 3335",
+            "Red Wing",
+            "Red Wings",
+            "red rings",
+            "red wing",
+            "red wings",
+            "redwing",
+            "wedwing",
+            "333 fives",
+            "3335",
+            "3335s",
+            "Red Wing 3335s",
+            "Red Wing 1907",
+            "1907",
+            "1907's",
+            "1907s",
+            "redwing 1907's"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22927,
+              "output": 790,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 6588,
+              "output": 947,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.04834156,
+          "seconds": 14.7,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "3335": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "cyAzm8O3RwY",
+              "mS6Jqq_GWlo"
+            ],
+            "sources_cited": [
+              "cyAzm8O3RwY",
+              "mS6Jqq_GWlo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q06",
+      "question": "How do you feel bout blunnies as of Late 2023?",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "answer": "The Iron Snail hasn't covered Blundstones (\"Blunnies\") in the videos available here, so there's no late-2023 opinion from him to share on them.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [],
+          "segments_read": [],
+          "context_words": 0,
+          "queries": [
+            "How do you feel bout blunnies as of Late 2023?",
+            "bunnies",
+            "blunnies",
+            "bunny ears",
+            "bunny lapin",
+            "Levi's blunnies opinion 2023",
+            "hare hanes gildan blunnies review",
+            "blunnies thoughts late 2023",
+            "Levi's",
+            "Levis's",
+            "Levis",
+            "Levi",
+            "level",
+            "levi",
+            "levi's",
+            "Levi's 1955 recreation jean",
+            "Recreation Levi's jean from 1955",
+            "Levi's 501",
+            "501",
+            "501s",
+            "Levi 501s",
+            "Levi's 501 Original Shrink-to-Fit",
+            "shrink to fit 501",
+            "Levi's 501 Rinsed",
+            "Levi 501s rinsed",
+            "rinsed 501 Levi's",
+            "Levi's 501 Shrink-to-Fit",
+            "Levi 501 shrink to fits",
+            "shrink defense",
+            "stfs",
+            "strength defense",
+            "strength of fits",
+            "strength to fits",
+            "Levi's 501 STF (Shrink to Fit)",
+            "501 shrink to fit",
+            "Levi's 501s",
+            "five oh ones",
+            "levi 501s",
+            "levi's 501s",
+            "Levi's 511",
+            "Levi's 511 s",
+            "Levi's LVC 1947 501XX",
+            "1947 501",
+            "levi's lvc 1947 jeans",
+            "Levi's made in Japan 1947 recreation jeans",
+            "made in Japan Levis's recreation from 1947 jeans",
+            "Levi's Premium selvedge jeans",
+            "Levis's premium",
+            "Levi's red tab",
+            "red tab",
+            "Levi's tax",
+            "Levi's Type I jacket",
+            "type one jacket",
+            "Levi's Vintage Clothing",
+            "lbc",
+            "lvc",
+            "Levi's Vintage Clothing 1937 jeans",
+            "Levi's LBC 1937s",
+            "Levi's Vintage Clothing 1967 505 jeans",
+            "1967 505",
+            "Levi's 1967 lvc 50o",
+            "Levi's Vintage Clothing (LVC)",
+            "LBC",
+            "lvcs",
+            "vintage 1990s Levi's jeans",
+            "vintage pair of Levi's jeans from the 90s"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 24033,
+              "output": 760,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 64,
+              "output": 76,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.004921160000000001,
+          "seconds": 7.1,
+          "checks": {
+            "coverage_right": false,
+            "coverage_exact": false,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Blundstone | blunnies": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": false
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q07",
+      "question": "I'm wondering if you still have these boots and how are they holding up??? [Blundstones]",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "**Short answer:** In his most recent boot video (September 2023), The Iron Snail said he's retiring his Blundstone 585s. They held up well right to the end, but he was clearing out most of his boot collection [1][2]. His videos don't say anything after that about where they ended up.\n\n**Latest: 2023, the collection clear-out**\n- He says the 585s, the boots from his first ever video, \"hold a very special place in my heart\" [3].\n- He wore them constantly. The leather is \"all beat up\" and shiny from old wax and conditioner, but \"they've held up through it all\" and stayed \"probably my most water resistant boots\" [1].\n- He calls Blundstones \"just incredible\" and says he's a big fan. He still decides \"it's time to retire\" them [1].\n- He's also letting go of a second pair, the heavy-duty Blundstone Extremes (steel toe, fire and electrical hazard resistant). He notes they're only very water-resistant nubuck, while his 585s are \"virtually waterproof for all intents and purposes\" [2].\n\n**2022: two years in, restored**\n- He'd had them a little over two years, wearing them from when it gets cold until mid-spring [4][5].\n- He cleaned, conditioned, oiled and waxed them with Otterwax. He says Otterwax didn't sponsor that video, though its owner gave him a referral code [6]. That same video was sponsored by Huckberry.\n- He still called Blundstones \"some of my favorites\". His caveat is that they're not as repairable as Goodyear-welted boots like Red Wings or Wolverines [7].\n\n**2020: one year in**\n- His verdict was \"they look great\" [8]. They performed about how he'd expect for the price [9].\n- Wear he noted:\n  - more scuffs than expected, from clumsy mountain descents\n  - elastics a little looser but still tight\n  - the lining wearing away at the big toe [10]\n- He said he'd pick a smoother leather over the rustic nubuck next time, for more protection [11].\n- After a year untreated, they kept his feet basically dry standing in a pond, and he still called them great boots [12][13].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "they've held up through it all they've remained probably my most water resistant boots through it all bluntstones are just incredible I'm a big fan of them I've always loved them some people seem to really not like them I will get to RM Williams one day and test those out but I think it's time to retire those"
+            },
+            {
+              "n": 2,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0002"
+              ],
+              "quote": "my other bloodstones that we'll talk about later are virtually waterproof for all intents and purposes"
+            },
+            {
+              "n": 3,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0006"
+              ],
+              "quote": "these bloodstones hold a very special place in my heart because this is the first ever video I did on the iron snail"
+            },
+            {
+              "n": 4,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [
+                "iron-snail:4cRAkEHfXKo:s0000"
+              ],
+              "quote": "I've had these blundstones officially for like 2 years and a little bit"
+            },
+            {
+              "n": 5,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [
+                "iron-snail:4cRAkEHfXKo:s0001"
+              ],
+              "quote": "I have worn them for 2 years basically from the second it gets cold till like middle of spring"
+            },
+            {
+              "n": 6,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [
+                "iron-snail:4cRAkEHfXKo:s0001"
+              ],
+              "quote": "this video is not sponsored by otter wax in any way shape or form"
+            },
+            {
+              "n": 7,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [],
+              "quote": "Not as repairable as good year welted boots like Red Wings, or Wolverines but still some of my favorites."
+            },
+            {
+              "n": 8,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0000"
+              ],
+              "quote": "these are them after a year they look great"
+            },
+            {
+              "n": 9,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0002"
+              ],
+              "quote": "they're kind of performing exactly how i'd hope and kind of expect for the price point they're at"
+            },
+            {
+              "n": 10,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0003"
+              ],
+              "quote": "the elastics are still holding up there you could tell they're a little looser than when i first got them which was kind of expected but they're still tight"
+            },
+            {
+              "n": 11,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0004"
+              ],
+              "quote": "i would have gotten a smoother leather just because i think it adds a little bit more protection"
+            },
+            {
+              "n": 12,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0010"
+              ],
+              "quote": "my feet are a little wet socks are basically like dry to the touch it was just the band that got a little wet"
+            },
+            {
+              "n": 13,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0011"
+              ],
+              "quote": "so all in all year in these are still great boots"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "a38PivchXTw",
+            "H6lDr__B3GM",
+            "rb-33aSBxyE",
+            "4cRAkEHfXKo",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:a38PivchXTw:s0000",
+            "iron-snail:a38PivchXTw:s0001",
+            "iron-snail:a38PivchXTw:s0002",
+            "iron-snail:a38PivchXTw:s0003",
+            "iron-snail:a38PivchXTw:s0004",
+            "iron-snail:a38PivchXTw:s0005",
+            "iron-snail:a38PivchXTw:s0006",
+            "iron-snail:a38PivchXTw:s0007",
+            "iron-snail:a38PivchXTw:s0008",
+            "iron-snail:a38PivchXTw:s0009",
+            "iron-snail:a38PivchXTw:s0010",
+            "iron-snail:a38PivchXTw:s0011",
+            "iron-snail:H6lDr__B3GM:s0000",
+            "iron-snail:H6lDr__B3GM:s0001",
+            "iron-snail:H6lDr__B3GM:s0002",
+            "iron-snail:H6lDr__B3GM:s0007",
+            "iron-snail:H6lDr__B3GM:s0008",
+            "iron-snail:rb-33aSBxyE:s0000",
+            "iron-snail:rb-33aSBxyE:s0001",
+            "iron-snail:rb-33aSBxyE:s0002",
+            "iron-snail:rb-33aSBxyE:s0003",
+            "iron-snail:rb-33aSBxyE:s0004",
+            "iron-snail:rb-33aSBxyE:s0005",
+            "iron-snail:rb-33aSBxyE:s0006",
+            "iron-snail:rb-33aSBxyE:s0007",
+            "iron-snail:rb-33aSBxyE:s0008",
+            "iron-snail:rb-33aSBxyE:s0009",
+            "iron-snail:rb-33aSBxyE:s0010",
+            "iron-snail:rb-33aSBxyE:s0011",
+            "iron-snail:4cRAkEHfXKo:s0000",
+            "iron-snail:4cRAkEHfXKo:s0001",
+            "iron-snail:mS6Jqq_GWlo:s0001",
+            "iron-snail:mS6Jqq_GWlo:s0002",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007"
+          ],
+          "context_words": 6895,
+          "queries": [
+            "I'm wondering if you still have these boots and how are they holding up??? [Blundstones]",
+            "Blundstone boots review",
+            "Blundstone boots durability wear",
+            "Blundstone boots update long term",
+            "Blundstones holding up after months of wear",
+            "Blundstone leather cracking sole wear",
+            "Blundstone",
+            "Bloodstones",
+            "blend stone",
+            "blonde so",
+            "blonde stones",
+            "blood stones",
+            "bloodstone",
+            "blown stones",
+            "blunt stone",
+            "blunt stones",
+            "blunts on boots",
+            "Blundstone 500",
+            "500s",
+            "Blundstone 550",
+            "blunt stones 550's",
+            "Blundstone 550 Rustic Brown (Style 585)",
+            "Blundstone 585",
+            "585s",
+            "blundstones",
+            "Blundstone 585 Rustic Brown",
+            "rustic",
+            "Blundstone 989 Extreme",
+            "Bloodstone super heavy duty work boots",
+            "Blundstone dress boot",
+            "dress version of these boots",
+            "Blundstone Waxy Oil Conditioner",
+            "blunt stone waxy oil conditioner",
+            "box toe dress Chelsea boot (girlfriend's slimmer Blundstone)",
+            "slimmer version of the boot with a box toe"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23697,
+              "output": 757,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 19771,
+              "output": 1742,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.11703406,
+          "seconds": 20.3,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [
+              "4cRAkEHfXKo",
+              "mS6Jqq_GWlo",
+              "rb-33aSBxyE"
+            ],
+            "sources_cited": [
+              "4cRAkEHfXKo",
+              "mS6Jqq_GWlo",
+              "rb-33aSBxyE"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q08",
+      "question": "How does the made in England boot stack up to Solovairs? [Dr. Martens]",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "**Short answer:** In his 2022 Dr. Martens guide, The Iron Snail called it for Solovair. He thought Solovair beats Made in England Docs on value and build, unless the yellow stitching matters to you [1][2].\n\n**Why he favors Solovair (2022):**\n- **Price:** He pointed out that Solovairs are actually cheaper than Made in England Docs [3]. He felt most of the Made in England premium, about a third of the boot price, pays for the \"made in England\" part itself [4].\n- **Materials:** He thought the Made in England leather and midsoles are probably on par with Solovair's [5].\n- **Comfort:** Solovair boots have a shank, so he found them more comfortable over long periods [6]. Docs don't have one [7]. The trade-off he noted is that Docs are easier to break in, while Solovairs are tougher at first but more comfortable down the line [8].\n- **Resoling:** He said Solovairs are Goodyear welted in a more regularly accepted way, so they're easier to resole [6].\n- **Pedigree:** He described Solovair as one of the original makers of Doc Martens. In his view, their 8-eye derby boot is essentially the exact same boot [9].\n- **The one catch:** Solovair doesn't do the yellow stitching. If that's a big deal to you, he said you'd have to get Made in England Docs [2].\n\n**A caveat he raised:** His own Solovairs had problems. After eight wears, a tab on the back had ripped off and a lace snapped. He assumed it was a manufacturing defect and had contacted them [10].\n\n**His later take (2023):** In a newer video he compared Made in England 1460s against the made-in-Thailand ones but didn't revisit Solovair. He noted the Made in England boots have a felted midsole, a heavier outsole and a better welt material [11][12]. Still, he concluded that from a purely objective stance they're probably not worth the extra $90 and are really for big Dr. Martens fans [13][14]. He hasn't directly re-compared them with Solovair since the 2022 video.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "if you're going for pure value and you just want a better built boot that i feel like is where sullivan so i love solaveir"
+            },
+            {
+              "n": 2,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0014"
+              ],
+              "quote": "if the yellow stitching is a big deal then you kind of have to get the made in england doc martens"
+            },
+            {
+              "n": 3,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "silver boots are actually cheaper than doc martin made in england"
+            },
+            {
+              "n": 4,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "a third of the boot price added on to the made in england versions is the made in england part"
+            },
+            {
+              "n": 5,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "better midsoles that's probably also on par with solaveir"
+            },
+            {
+              "n": 6,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0014"
+              ],
+              "quote": "they're good year welted in a more regularly accepted way so they're easier to resole"
+            },
+            {
+              "n": 7,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0011"
+              ],
+              "quote": "doc martens all of them do not have a shank"
+            },
+            {
+              "n": 8,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0012"
+              ],
+              "quote": "doc martens are easier to break in from the start but solar bears are a bit tougher but you'll have more comfort down the line"
+            },
+            {
+              "n": 9,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0014"
+              ],
+              "quote": "if you get the derby eight-eyed boot it's essentially the exact same boot as doc martens"
+            },
+            {
+              "n": 10,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "a tab on the back is ripped off on the right boot and my boot lace snapped"
+            },
+            {
+              "n": 11,
+              "video": "1N1uYKnCxq0",
+              "title": "The Most Expensive Dr. Martens vs. The Cheapest.",
+              "published": "2023-05-02",
+              "segments": [
+                "iron-snail:1N1uYKnCxq0:s0004"
+              ],
+              "quote": "you'll see it's a felted material and not a foam material"
+            },
+            {
+              "n": 12,
+              "video": "1N1uYKnCxq0",
+              "title": "The Most Expensive Dr. Martens vs. The Cheapest.",
+              "published": "2023-05-02",
+              "segments": [
+                "iron-snail:1N1uYKnCxq0:s0003"
+              ],
+              "quote": "the outsole is a heavier rubber"
+            },
+            {
+              "n": 13,
+              "video": "1N1uYKnCxq0",
+              "title": "The Most Expensive Dr. Martens vs. The Cheapest.",
+              "published": "2023-05-02",
+              "segments": [
+                "iron-snail:1N1uYKnCxq0:s0011"
+              ],
+              "quote": "are they worth the extra 90 dollars I'd say probably not"
+            },
+            {
+              "n": 14,
+              "video": "1N1uYKnCxq0",
+              "title": "The Most Expensive Dr. Martens vs. The Cheapest.",
+              "published": "2023-05-02",
+              "segments": [
+                "iron-snail:1N1uYKnCxq0:s0012"
+              ],
+              "quote": "right now you have to be a mega fan to get them"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "5P_FYJ9rIbU",
+            "1N1uYKnCxq0"
+          ],
+          "segments_read": [
+            "iron-snail:5P_FYJ9rIbU:s0000",
+            "iron-snail:5P_FYJ9rIbU:s0001",
+            "iron-snail:5P_FYJ9rIbU:s0003",
+            "iron-snail:5P_FYJ9rIbU:s0004",
+            "iron-snail:5P_FYJ9rIbU:s0005",
+            "iron-snail:5P_FYJ9rIbU:s0006",
+            "iron-snail:5P_FYJ9rIbU:s0009",
+            "iron-snail:5P_FYJ9rIbU:s0010",
+            "iron-snail:5P_FYJ9rIbU:s0011",
+            "iron-snail:5P_FYJ9rIbU:s0012",
+            "iron-snail:5P_FYJ9rIbU:s0013",
+            "iron-snail:5P_FYJ9rIbU:s0014",
+            "iron-snail:1N1uYKnCxq0:s0000",
+            "iron-snail:1N1uYKnCxq0:s0001",
+            "iron-snail:1N1uYKnCxq0:s0002",
+            "iron-snail:1N1uYKnCxq0:s0003",
+            "iron-snail:1N1uYKnCxq0:s0004",
+            "iron-snail:1N1uYKnCxq0:s0005",
+            "iron-snail:1N1uYKnCxq0:s0006",
+            "iron-snail:1N1uYKnCxq0:s0007",
+            "iron-snail:1N1uYKnCxq0:s0008",
+            "iron-snail:1N1uYKnCxq0:s0009",
+            "iron-snail:1N1uYKnCxq0:s0010",
+            "iron-snail:1N1uYKnCxq0:s0011",
+            "iron-snail:1N1uYKnCxq0:s0012"
+          ],
+          "context_words": 4964,
+          "queries": [
+            "How does the made in England boot stack up to Solovairs? [Dr. Martens]",
+            "made in England boots comparison Solovair",
+            "Solovair boots review",
+            "Dr. Martens Solovair made in England",
+            "Solovair versus Dr. Martens leather durability",
+            "English made boots break in comfort Solovair",
+            "Solovair",
+            "silver boots",
+            "solar bears",
+            "solaveir",
+            "solo air",
+            "solo there",
+            "soloveir",
+            "sullivan",
+            "Solovair 8-eye derby boot",
+            "derby eight-eyed boot",
+            "Solovair Monkey Boots",
+            "solo air monkey boots",
+            "solo there monkey boots",
+            "Dr. Martens",
+            "Doc Martens",
+            "Doc Martin",
+            "doc marten",
+            "doc martens",
+            "doc martin",
+            "dog martens",
+            "Dr. Martens 1460",
+            "1460",
+            "1460s",
+            "Doc Martin 1460s",
+            "Dr. Martens 1460 Made in England",
+            "Doc Martens made in England",
+            "made in England Doc Martin Boots",
+            "Dr. Martens 1460 Made in Thailand",
+            "Doc Martens made in Thailand",
+            "made and Thailand",
+            "Dr. Martens 1461 Vegan",
+            "1461's",
+            "1461s",
+            "Dr. Martens Made in England",
+            "made in england",
+            "maiden england"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23381,
+              "output": 771,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 11401,
+              "output": 1876,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.08620946,
+          "seconds": 22.8,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Solovair": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "5P_FYJ9rIbU"
+            ],
+            "sources_cited": [
+              "5P_FYJ9rIbU"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q09",
+      "question": "Hi, I am going on a 4 day hike and I am wondering if I can use my blundstone for them, what do you think?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "answer": "The Iron Snail hasn't talked about multi-day hiking in Blundstones specifically. From his own experience, though, they can handle hikes, with one real caveat: **ankle support.**\n\n**His most recent take (one-year review, 2020)**\n- He wore his Blundstones on a lot of hikes and climbed mountains in them, but he says they \"are not good boots for mountaining apparently because they don't have uh good ankle support\" [1].\n- On a trip to Maine he went up and down a few mountains, got them scuffed, and says \"they held up well\" [2]. The scuffs came mostly from him kicking rocks on descents [3].\n- On water, after a year untreated he stood in a pond. His verdict was that they're fine \"if you're crossing a brook or a stream or you just want to stand in some mud for a little bit\" [4], though he wouldn't stand in still water in them for long [4].\n\n**His earlier view (2019)**\n- He liked that they \"can kind of go anywhere\", from winter boots to fashion [5]. He mentioned that his girlfriend's untreated pair looked brand new after hikes and snowshoeing [6].\n- He still owned separate hiking boots (Keens) for that job [7].\n- His big condition was care. He recommends them \"100% if you're going to treat them\" and wax them and brush the salt off to keep them water resistant [8]. He also later noted that rustic and Crazy Horse leathers aren't pretreated like other styles and may need conditioning [9].\n\n**Applying his take to your trip:** going by what he's said, they'll likely cope with trails, streams and mud if they're treated. If your route is mountainous or rocky, he flagged the lack of ankle support as their weak spot. He hasn't said anything about comfort over four straight days of hiking.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0001"
+              ],
+              "quote": "are not good boots for mountaining apparently because they don't have uh good ankle support"
+            },
+            {
+              "n": 2,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0001"
+              ],
+              "quote": "went up and down a few mountains with these got them a little scuffed up and they held up well"
+            },
+            {
+              "n": 3,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0003"
+              ],
+              "quote": "if there's a rock i'm gonna scuff it every single time"
+            },
+            {
+              "n": 4,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0010"
+              ],
+              "quote": "if you're crossing a brook or a stream or you just want to stand in some mud for a little bit like you should be good"
+            },
+            {
+              "n": 5,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0002"
+              ],
+              "quote": "these boots can kind of go anywhere"
+            },
+            {
+              "n": 6,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0001"
+              ],
+              "quote": "we've gone on hikes we've gone snowshoeing we've gone just walking through the snow she wears them all the time and they look brand new"
+            },
+            {
+              "n": 7,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0002"
+              ],
+              "quote": "Keens I actually got like five to eight years ago I barely use them but there again hiking boots"
+            },
+            {
+              "n": 8,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0010"
+              ],
+              "quote": "do I recommend these boots yes 100% if you're going to treat them"
+            },
+            {
+              "n": 9,
+              "video": "H6lDr__B3GM",
+              "title": "How to Treat/Weatherproof/Condition Your Leather Boots! (Blundstones/Otterwax)",
+              "published": "2019-05-16",
+              "segments": [
+                "iron-snail:H6lDr__B3GM:s0001"
+              ],
+              "quote": "do not carry the same pretreatments as a finished and oiled leather"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "a38PivchXTw",
+            "H6lDr__B3GM",
+            "rb-33aSBxyE"
+          ],
+          "segments_read": [
+            "iron-snail:a38PivchXTw:s0001",
+            "iron-snail:a38PivchXTw:s0002",
+            "iron-snail:a38PivchXTw:s0003",
+            "iron-snail:a38PivchXTw:s0004",
+            "iron-snail:a38PivchXTw:s0005",
+            "iron-snail:a38PivchXTw:s0006",
+            "iron-snail:a38PivchXTw:s0007",
+            "iron-snail:a38PivchXTw:s0008",
+            "iron-snail:a38PivchXTw:s0009",
+            "iron-snail:a38PivchXTw:s0010",
+            "iron-snail:a38PivchXTw:s0011",
+            "iron-snail:H6lDr__B3GM:s0000",
+            "iron-snail:H6lDr__B3GM:s0001",
+            "iron-snail:H6lDr__B3GM:s0002",
+            "iron-snail:rb-33aSBxyE:s0000",
+            "iron-snail:rb-33aSBxyE:s0001",
+            "iron-snail:rb-33aSBxyE:s0002",
+            "iron-snail:rb-33aSBxyE:s0003",
+            "iron-snail:rb-33aSBxyE:s0004",
+            "iron-snail:rb-33aSBxyE:s0008",
+            "iron-snail:rb-33aSBxyE:s0009",
+            "iron-snail:rb-33aSBxyE:s0010",
+            "iron-snail:rb-33aSBxyE:s0011"
+          ],
+          "context_words": 4511,
+          "queries": [
+            "Hi, I am going on a 4 day hike and I am wondering if I can use my blundstone for them, what do you think?",
+            "Blundstone hiking boots",
+            "Blundstone multi-day hike",
+            "Blundstone boots trail walking",
+            "Blundstone durability comfort outdoors",
+            "wearing Blundstones on the trail",
+            "Blundstone",
+            "Bloodstones",
+            "blend stone",
+            "blonde so",
+            "blonde stones",
+            "blood stones",
+            "bloodstone",
+            "blown stones",
+            "blunt stone",
+            "blunt stones",
+            "blunts on boots",
+            "Blundstone 500",
+            "500s",
+            "Blundstone 550",
+            "blunt stones 550's",
+            "Blundstone 550 Rustic Brown (Style 585)",
+            "Blundstone 585",
+            "585s",
+            "blundstones",
+            "Blundstone 585 Rustic Brown",
+            "rustic",
+            "Blundstone 989 Extreme",
+            "Bloodstone super heavy duty work boots",
+            "Blundstone dress boot",
+            "dress version of these boots",
+            "Blundstone Waxy Oil Conditioner",
+            "blunt stone waxy oil conditioner",
+            "box toe dress Chelsea boot (girlfriend's slimmer Blundstone)",
+            "slimmer version of the boot with a box toe"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23715,
+              "output": 759,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 11695,
+              "output": 1382,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.07753286,
+          "seconds": 19.8,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": false,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [
+              "rb-33aSBxyE"
+            ],
+            "sources_cited": [
+              "rb-33aSBxyE"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q11",
+      "question": "I'm 5'11-225 lbs with a dad bod. What's the most cost efficient and quality t shirt for me? Also, what size would u prefer?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "answer": "**Short answer:** For a bigger build, The Iron Snail's most recent value pick points you to **Muji** over Uniqlo. He hasn't given a size recommendation for a build like yours.\n\n**His pick for you: Muji**\n- In his newest t-shirt roundup (Sept 2025), he calls Uniqlo, at about $20, \"probably the best t-shirt that you can get bar none for the price\" and \"your starter t-shirt\" [1][2].\n- But he adds a caveat that fits you: if you're \"taller or wider in any way, shape, or form, you'd want Muji.\" It's about $4–5 more but \"significantly longer and a good deal wider,\" and he says \"you'd probably like this if you're a little bigger\" [2].\n- Earlier in 2025 he said Muji's higher price \"does feel justified.\" He found it feels better, with a thicker, tighter collar [3].\n\n**Other value options he likes**\n- **Uniqlo:** He praises its bound neck collar that \"doesn't wiggle a lot\" and says he wears the black one all the time [4].\n- **Los Angeles Apparel:** A very heavyweight, rough shirt that fits him \"a bit like a tent\" [5]. He says it might win his value ranking if you size down one [6].\n- **Kirkland (Costco six-pack):** Back in 2024 he loved it at about $4.20 a shirt. It was soft, quite long and had a sturdy collar [7].\n- **Step-up picks:** His 2025 best-value winners were House of Blanks ($35, zero torque, made in Canada) and Front General Store ($40, made in Japan) [8][9].\n\n**His own fit taste**\nHe mentioned he'd gained a little weight and likes \"t-shirts that kind of flatten me out,\" with plenty of space across the shoulders [10]. That's his personal preference, not sizing advice.\n\n**On size:** He hasn't said what size someone at 5'11\", 225 lbs should wear. The closest sizing comments he's made are brand-specific: size down one in LA Apparel [6], and he thought he should have gotten a small in the 3Sixteen [11].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0018"
+              ],
+              "quote": "This being $20 is probably the best t-shirt that you can get bar none for the price."
+            },
+            {
+              "n": 2,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0019"
+              ],
+              "quote": "Unless if you're taller or wider in any way, shape, or form, you'd want Muji. It's like $4 or $5 more expensive, but it is significantly longer and a good deal wider. So, this is slightly tented out a little bit. So, you'd probably like this if you're a little bigger."
+            },
+            {
+              "n": 3,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0023"
+              ],
+              "quote": "It does feel justified to be $10 more though. That shirt does feel better. The collar is a little thicker, a little tighter."
+            },
+            {
+              "n": 4,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0023"
+              ],
+              "quote": "You get a bound neck collar so it doesn't wiggle a lot."
+            },
+            {
+              "n": 5,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0025"
+              ],
+              "quote": "Very, very heavyweight shirt. Oh, and it fits. It's very large. It fits me a bit like a tent."
+            },
+            {
+              "n": 6,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0027"
+              ],
+              "quote": "I want to put the LA apparel t-shirt higher at the end rank because if you size down one, I think it would that might win."
+            },
+            {
+              "n": 7,
+              "video": "GMM_Hl1fTQ0",
+              "title": "The Internet's Favorite T-Shirts, Ranked.",
+              "published": "2024-07-11",
+              "segments": [
+                "iron-snail:GMM_Hl1fTQ0:s0001"
+              ],
+              "quote": "it's quite long long obviously you always have to tuck it in but for $4.20 this is freaking it's a fantastic t-shirt it's incredibly soft"
+            },
+            {
+              "n": 8,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0020"
+              ],
+              "quote": "for $35 combed ringspun made cut and sewn Canada this is just truly an outstanding value"
+            },
+            {
+              "n": 9,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0024"
+              ],
+              "quote": "most affordable, best value packed ones. House of Blanks and Front General Store."
+            },
+            {
+              "n": 10,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0003"
+              ],
+              "quote": "So, I like t-shirts that kind of flatten me out."
+            },
+            {
+              "n": 11,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0005"
+              ],
+              "quote": "Probably I should have gotten a small"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "GMM_Hl1fTQ0",
+            "A6SkEwdjj-8",
+            "FSWl57UR4k0"
+          ],
+          "segments_read": [
+            "iron-snail:GMM_Hl1fTQ0:s0001",
+            "iron-snail:GMM_Hl1fTQ0:s0002",
+            "iron-snail:GMM_Hl1fTQ0:s0003",
+            "iron-snail:GMM_Hl1fTQ0:s0013",
+            "iron-snail:GMM_Hl1fTQ0:s0014",
+            "iron-snail:A6SkEwdjj-8:s0022",
+            "iron-snail:A6SkEwdjj-8:s0023",
+            "iron-snail:A6SkEwdjj-8:s0024",
+            "iron-snail:A6SkEwdjj-8:s0025",
+            "iron-snail:A6SkEwdjj-8:s0026",
+            "iron-snail:A6SkEwdjj-8:s0027",
+            "iron-snail:FSWl57UR4k0:s0002",
+            "iron-snail:FSWl57UR4k0:s0003",
+            "iron-snail:FSWl57UR4k0:s0004",
+            "iron-snail:FSWl57UR4k0:s0005",
+            "iron-snail:FSWl57UR4k0:s0006",
+            "iron-snail:FSWl57UR4k0:s0018",
+            "iron-snail:FSWl57UR4k0:s0019",
+            "iron-snail:FSWl57UR4k0:s0020",
+            "iron-snail:FSWl57UR4k0:s0021",
+            "iron-snail:FSWl57UR4k0:s0022",
+            "iron-snail:FSWl57UR4k0:s0023",
+            "iron-snail:FSWl57UR4k0:s0024"
+          ],
+          "context_words": 3322,
+          "queries": [
+            "I'm 5'11-225 lbs with a dad bod. What's the most cost efficient and quality t shirt for me? Also, what size would u prefer?",
+            "best value t-shirt for bigger build",
+            "t-shirt sizing fit heavier build dad bod",
+            "cheap quality t-shirt recommendation",
+            "Gildan Hanes Uniqlo t-shirt review",
+            "t-shirt fabric weight thickness cost efficient",
+            "what size t-shirt I wear fit",
+            "Gildan",
+            "Gild",
+            "Gilden",
+            "Gildan Hammer T-Shirt",
+            "Hanes",
+            "Hannes",
+            "Hayes",
+            "Haynes",
+            "Hanes Beefy-T",
+            "pays",
+            "Uniqlo",
+            "Unilo",
+            "Uniclo",
+            "Unic",
+            "Unico",
+            "Uno",
+            "uni",
+            "unic",
+            "unic clo",
+            "uniclo",
+            "uniqlo's",
+            "Uniqlo Barbour Spey homage jacket",
+            "unico's ripoff of a barber spay jacket",
+            "Uniqlo cashmere sweater",
+            "$100 cashmere sweater",
+            "Uniqlo heavyweight crew neck t-shirt",
+            "Unico heavyweight crew neck shirt",
+            "Uniqlo Jersey Workshirt",
+            "Uniqlo merino sweater",
+            "$40 Marino wool sweater",
+            "Uniqlo polyester wool-imitation jacket",
+            "synthetic wool jackets polyester jackets",
+            "Uniqlo Regular Fit Chino",
+            "Unilo Chinos",
+            "Uniqlo selvedge jeans",
+            "Japanese Salvage denim jeans",
+            "Unico Salvage denim jeans",
+            "Uniqlo Salvage denim",
+            "non-stretch regular fit Salvage denim",
+            "Uniqlo Supima cotton t-shirt",
+            "Unico supima cotton t-shirt",
+            "uniclo supima T-shirt",
+            "Uniqlo sweatshirt",
+            "budget $40 sweatshirt",
+            "sweater that goes for $40",
+            "Uniqlo t-shirt",
+            "Uniqlo U t-shirt",
+            "Unico U t-shirt",
+            "Uniqlo wide fit chinos",
+            "Unico Chino",
+            "giant fit wide fit genos"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 39878,
+              "output": 1247,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 12861,
+              "output": 1884,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.09409716000000001,
+          "seconds": 24.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Muji": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "FSWl57UR4k0"
+            ],
+            "sources_cited": [
+              "FSWl57UR4k0"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q13",
+      "question": "Is it my impression or RL has MUCH lower quality now than what it used to?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "answer": "The Iron Snail hasn't covered Ralph Lauren's quality, then or now, in the videos available here.\n\nThe closest he's come is a general point: he says that when big heritage brands went global, many cut quality to make things faster and cheaper, naming L.L.Bean and Levi's as examples [1]. When he actually tested old versus modern Levi's 501s, he concluded the quality and durability gap is \"not as much as you probably would think\" [2].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "ixCSNbzQNcI",
+              "title": "Is Patagonia Really THAT Good?",
+              "published": "2025-10-24",
+              "segments": [
+                "iron-snail:ixCSNbzQNcI:s0026"
+              ],
+              "quote": "All we need to do is cut quality to make things faster"
+            },
+            {
+              "n": 2,
+              "video": "nM_g-z5zLJ0",
+              "title": "Did Levi’s Jeans Quality Tank? 63 Year Old vs. Modern",
+              "published": "2023-11-19",
+              "segments": [
+                "iron-snail:nM_g-z5zLJ0:s0011"
+              ],
+              "quote": "the difference in quality between modern and vintage and durability as well is not as much as you probably would think"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "nM_g-z5zLJ0",
+            "qqZyGm0aqh4",
+            "ixCSNbzQNcI"
+          ],
+          "segments_read": [
+            "iron-snail:nM_g-z5zLJ0:s0000",
+            "iron-snail:nM_g-z5zLJ0:s0001",
+            "iron-snail:nM_g-z5zLJ0:s0002",
+            "iron-snail:nM_g-z5zLJ0:s0003",
+            "iron-snail:nM_g-z5zLJ0:s0004",
+            "iron-snail:nM_g-z5zLJ0:s0005",
+            "iron-snail:nM_g-z5zLJ0:s0006",
+            "iron-snail:nM_g-z5zLJ0:s0007",
+            "iron-snail:nM_g-z5zLJ0:s0008",
+            "iron-snail:nM_g-z5zLJ0:s0009",
+            "iron-snail:nM_g-z5zLJ0:s0010",
+            "iron-snail:nM_g-z5zLJ0:s0011",
+            "iron-snail:qqZyGm0aqh4:s0014",
+            "iron-snail:qqZyGm0aqh4:s0015",
+            "iron-snail:qqZyGm0aqh4:s0016",
+            "iron-snail:ixCSNbzQNcI:s0017",
+            "iron-snail:ixCSNbzQNcI:s0018",
+            "iron-snail:ixCSNbzQNcI:s0019",
+            "iron-snail:ixCSNbzQNcI:s0020",
+            "iron-snail:ixCSNbzQNcI:s0021",
+            "iron-snail:ixCSNbzQNcI:s0025",
+            "iron-snail:ixCSNbzQNcI:s0026",
+            "iron-snail:ixCSNbzQNcI:s0027",
+            "iron-snail:ixCSNbzQNcI:s0028",
+            "iron-snail:ixCSNbzQNcI:s0029",
+            "iron-snail:ixCSNbzQNcI:s0030"
+          ],
+          "context_words": 4540,
+          "queries": [
+            "Is it my impression or RL has MUCH lower quality now than what it used to?",
+            "Ralph Lauren quality decline",
+            "Ralph Lauren quality compared to before",
+            "Ralph Lauren cheaper materials now",
+            "Ralph Lauren fabric and construction changes",
+            "RL clothing quality worse than it used to be",
+            "Ralph Lauren",
+            "Mr. R. Lauren"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 39239,
+              "output": 1215,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 13616,
+              "output": 367,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.06669726,
+          "seconds": 11.4,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q14",
+      "question": "Where's Whitesville?? It's literally the most well known White Tee from Japan",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "He did cover it! Whitesville is in his t-shirt ranking, and it also shows up in his sweatshirt ranking.\n\n**The Whitesville tee (July 2024)**\n- He describes it as coming from a Japanese company riffing on old Americana underwear. It's cut tight like vintage undershirts, and he jokingly calls it \"the jacked Instagram model special\" [1].\n- He'd \"really recommend it\" and calls it one of the softest shirts on the list [1].\n- On price, he wasn't sure it was worth it until he looked at the collar. It has binding tape over it, so it doesn't stretch much and holds its shape better over time [1][2].\n- His shrink test: 5.4% in width and 3% in length [2].\n- In his final superlatives, Whitesville won **softest, coziest shirt** [3].\n\n**The Whitesville sweatshirt (October 2024)**\n- He calls it one of the best sweatshirts on the list, a fantastic-quality loopwheel sweatshirt from Japan. His one complaint is aesthetic [4].\n- That complaint is the 5x1 rib knit on the cuffs, hem and collar. It's not his favorite; he'd prefer 2x1 or 1x1 [4].\n- It's very loose and soft, \"kind of fluffy and cozy\" rather than silky. It's pre-washed, so it showed zero shrinkage [5].\n- Its main competitor is Buzz Rickson's, from the same parent company. He thinks the choice comes down to whether you like the 5x1 cuff: if you do, go Whitesville [6].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "GMM_Hl1fTQ0",
+              "title": "The Internet's Favorite T-Shirts, Ranked.",
+              "published": "2024-07-11",
+              "segments": [
+                "iron-snail:GMM_Hl1fTQ0:s0003"
+              ],
+              "quote": "this is the jacked Instagram model special this is the Whitesville t-shirt it's from a Japanese company that's riffing on Old Americana underwear"
+            },
+            {
+              "n": 2,
+              "video": "GMM_Hl1fTQ0",
+              "title": "The Internet's Favorite T-Shirts, Ranked.",
+              "published": "2024-07-11",
+              "segments": [
+                "iron-snail:GMM_Hl1fTQ0:s0004"
+              ],
+              "quote": "Whitesville shrink test 5.4% in width 3% in length"
+            },
+            {
+              "n": 3,
+              "video": "GMM_Hl1fTQ0",
+              "title": "The Internet's Favorite T-Shirts, Ranked.",
+              "published": "2024-07-11",
+              "segments": [
+                "iron-snail:GMM_Hl1fTQ0:s0014"
+              ],
+              "quote": "the softest coziest West shirt that would go to Whitesville"
+            },
+            {
+              "n": 4,
+              "video": "gy9_-Qbmzsk",
+              "title": "The Internet's Favorite Sweatshirts, Ranked.",
+              "published": "2024-10-21",
+              "segments": [
+                "iron-snail:gy9_-Qbmzsk:s0013"
+              ],
+              "quote": "it's not my favorite I wish it was a 2x1 or 1ex one"
+            },
+            {
+              "n": 5,
+              "video": "gy9_-Qbmzsk",
+              "title": "The Internet's Favorite Sweatshirts, Ranked.",
+              "published": "2024-10-21",
+              "segments": [
+                "iron-snail:gy9_-Qbmzsk:s0014"
+              ],
+              "quote": "Whitesville shrink percentage zero pre-washed"
+            },
+            {
+              "n": 6,
+              "video": "gy9_-Qbmzsk",
+              "title": "The Internet's Favorite Sweatshirts, Ranked.",
+              "published": "2024-10-21",
+              "segments": [
+                "iron-snail:gy9_-Qbmzsk:s0017"
+              ],
+              "quote": "do you like the 5x1 rib knit cuff if you do go Whitesville"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "GMM_Hl1fTQ0",
+            "gy9_-Qbmzsk"
+          ],
+          "segments_read": [
+            "iron-snail:GMM_Hl1fTQ0:s0003",
+            "iron-snail:GMM_Hl1fTQ0:s0004",
+            "iron-snail:GMM_Hl1fTQ0:s0009",
+            "iron-snail:GMM_Hl1fTQ0:s0010",
+            "iron-snail:GMM_Hl1fTQ0:s0011",
+            "iron-snail:GMM_Hl1fTQ0:s0013",
+            "iron-snail:GMM_Hl1fTQ0:s0014",
+            "iron-snail:gy9_-Qbmzsk:s0010",
+            "iron-snail:gy9_-Qbmzsk:s0011",
+            "iron-snail:gy9_-Qbmzsk:s0012",
+            "iron-snail:gy9_-Qbmzsk:s0013",
+            "iron-snail:gy9_-Qbmzsk:s0014",
+            "iron-snail:gy9_-Qbmzsk:s0016",
+            "iron-snail:gy9_-Qbmzsk:s0017"
+          ],
+          "context_words": 2800,
+          "queries": [
+            "Where's Whitesville?? It's literally the most well known White Tee from Japan",
+            "Whitesville white tee Japan",
+            "Whitesville T-shirt review",
+            "Whitesville tee heavyweight cotton",
+            "Japanese white t-shirt brands",
+            "Whitesville Japan clothing brand",
+            "Whitesville",
+            "Whitesville loopwheel sweatshirt",
+            "Whitesville sweatshirt"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 25098,
+              "output": 763,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 9877,
+              "output": 1200,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.06676116,
+          "seconds": 16.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Whitesville": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "GMM_Hl1fTQ0"
+            ],
+            "sources_cited": [
+              "GMM_Hl1fTQ0"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q15",
+      "question": "Are gucci jeans worth the money??",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "answer": "The Iron Snail hasn't covered Gucci jeans in the videos available here, so there's no verdict from him on them.\n\nThe closest he's come is on pricey premium denim generally. In 2023 he concluded that Levi's $260 LVC jeans aren't worth it \"unless you are a mega fan of the Levi's brand,\" and that brands like TCB, Sugarcane, Unbranded or Naked & Famous give \"a little more bang for your buck\" [1]. He has also passed along Naked & Famous's argument that what you're really paying for in expensive jeans is \"exclusivity\" more than materials [2].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "y6yYCELsmqo",
+              "title": "Levi's VS. Uniqlo VS. 1 Tiny Japanese Denim Brand.",
+              "published": "2023-07-01",
+              "segments": [
+                "iron-snail:y6yYCELsmqo:s0011"
+              ],
+              "quote": "it's not worth it unless you are a mega fan of the Levi's brand"
+            },
+            {
+              "n": 2,
+              "video": "JcDBrIvLD_8",
+              "title": "Worth it? The Most Expensive Levi 501 Jeans ($260)",
+              "published": "2021-04-23",
+              "segments": [
+                "iron-snail:JcDBrIvLD_8:s0010"
+              ],
+              "quote": "what you're really paying for is exclusivity"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "JcDBrIvLD_8",
+            "8vtFJhMEnfE",
+            "y6yYCELsmqo",
+            "nM_g-z5zLJ0"
+          ],
+          "segments_read": [
+            "iron-snail:JcDBrIvLD_8:s0009",
+            "iron-snail:JcDBrIvLD_8:s0010",
+            "iron-snail:JcDBrIvLD_8:s0011",
+            "iron-snail:JcDBrIvLD_8:s0012",
+            "iron-snail:JcDBrIvLD_8:s0013",
+            "iron-snail:JcDBrIvLD_8:s0014",
+            "iron-snail:8vtFJhMEnfE:s0003",
+            "iron-snail:8vtFJhMEnfE:s0004",
+            "iron-snail:8vtFJhMEnfE:s0005",
+            "iron-snail:8vtFJhMEnfE:s0010",
+            "iron-snail:8vtFJhMEnfE:s0011",
+            "iron-snail:8vtFJhMEnfE:s0012",
+            "iron-snail:y6yYCELsmqo:s0003",
+            "iron-snail:y6yYCELsmqo:s0004",
+            "iron-snail:y6yYCELsmqo:s0005",
+            "iron-snail:y6yYCELsmqo:s0010",
+            "iron-snail:y6yYCELsmqo:s0011",
+            "iron-snail:nM_g-z5zLJ0:s0010",
+            "iron-snail:nM_g-z5zLJ0:s0011"
+          ],
+          "context_words": 3707,
+          "queries": [
+            "Are gucci jeans worth the money??",
+            "Gucci jeans worth the money",
+            "Gucci denim review price quality",
+            "expensive designer jeans value versus cheaper denim",
+            "Gucci jeans fit and fabric",
+            "luxury denim worth it",
+            "Gucci"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23653,
+              "output": 759,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 12493,
+              "output": 398,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.06103866,
+          "seconds": 11.5,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q16",
+      "question": "Am I the only one who loves these videos but in the end still has no idea which to buy? Please just tell me: buy this one, or these 3. I can't decide between 25 options. [t-shirts]",
+      "type": "taste",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "You're not alone, and The Iron Snail would partly agree with you: in his most recent big roundup (Sept 2025) he says almost anyone can make a good tee now, so the \"best\" one is whichever matches your preferences [1][2]. Still, he does name favourites, so here is a short list drawn from his own picks.\n\n**If you buy just one: Uniqlo.** He calls the roughly $20 Uniqlo tee \"probably the best t-shirt that you can get bar none for the price\" and \"your starter t-shirt\" [3][4]. If you're taller or bigger, he'd point you to Muji instead, which costs a few dollars more but is significantly longer and wider [4].\n\n**If you want three, one at each budget level:**\n1. **Uniqlo**, the cheap everyday starter (above) [3].\n2. **Front General Store** (about $40, made in Japan), his value pick \"today.\" Choose **House of Blanks** ($35, made in Canada) instead if you prefer a perfectly smooth shirt with no twisting. He says Front General Store is for people who like character in the fabric, and House of Blanks for people who want smooth, no torque, perfect [5][6].\n3. **Merz b. Schwanen 2M15**, the splurge. The \"Supremes\" are his favourite category, and MSB just edges out Lady White for him [7][8]. Lady White is about $70, and he says he doesn't think you'd ever regret buying one [9].\n\n**His other category winners**, if one of those styles fits you better:\n- J.Press x American Trench for an all-rounder [10].\n- Wonder Looper for a Japanese tee, mainly because of its more universal fit [11].\n- American Giant Everest for a heavyweight [12].\n\nHe also admits he left Bronson out of that roundup, even though it usually wins or comes close in these comparisons [13]. In his mid-2025 value ranking, he'd give the win to Bronson's standard loopwheel tubular tee [14].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0021"
+              ],
+              "quote": "99.999% of people can make a really good t-shirt."
+            },
+            {
+              "n": 2,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0022"
+              ],
+              "quote": "It just has to line up with your preferences to be the best t-shirt."
+            },
+            {
+              "n": 3,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0018"
+              ],
+              "quote": "This being $20 is probably the best t-shirt that you can get bar none for the price."
+            },
+            {
+              "n": 4,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0019"
+              ],
+              "quote": "This is your starter t-shirt. Unless if you're taller or wider in any way, shape, or form, you'd want Muji."
+            },
+            {
+              "n": 5,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0024"
+              ],
+              "quote": "If you like a lot of character and feeling and stuff like that, you got to go Front General Store. If you like perfectly smooth, no torque, perfect, then you got to go House of Blanks."
+            },
+            {
+              "n": 6,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0024"
+              ],
+              "quote": "Today I'm feeling the Front General Store."
+            },
+            {
+              "n": 7,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0023"
+              ],
+              "quote": "Category number Supremes. This is my favorite category."
+            },
+            {
+              "n": 8,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0024"
+              ],
+              "quote": "But for some reason today, I feel like MSB eekes out just a little bit."
+            },
+            {
+              "n": 9,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0016"
+              ],
+              "quote": "I don't think you would ever regret getting a Lady White T-shirt."
+            },
+            {
+              "n": 10,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0022"
+              ],
+              "quote": "So, I'll give it to J Press X-American Trench."
+            },
+            {
+              "n": 11,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0023"
+              ],
+              "quote": "Wonder Looper just has a much better fit, much more universal fit."
+            },
+            {
+              "n": 12,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0023"
+              ],
+              "quote": "American Giant by a long shot"
+            },
+            {
+              "n": 13,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0020"
+              ],
+              "quote": "I forgot to include Bronson. Bronson is kind of look at any other t-shirt video, people will tell you why Bronson usually wins or comes close."
+            },
+            {
+              "n": 14,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0026"
+              ],
+              "quote": "That one I would probably give the win to versus Bravear."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "C-OZAlpnkTk",
+            "GMM_Hl1fTQ0",
+            "fuNp6W4DUWs",
+            "A6SkEwdjj-8",
+            "FSWl57UR4k0"
+          ],
+          "segments_read": [
+            "iron-snail:C-OZAlpnkTk:s0010",
+            "iron-snail:C-OZAlpnkTk:s0011",
+            "iron-snail:C-OZAlpnkTk:s0012",
+            "iron-snail:GMM_Hl1fTQ0:s0002",
+            "iron-snail:GMM_Hl1fTQ0:s0003",
+            "iron-snail:GMM_Hl1fTQ0:s0013",
+            "iron-snail:GMM_Hl1fTQ0:s0014",
+            "iron-snail:GMM_Hl1fTQ0:s0015",
+            "iron-snail:fuNp6W4DUWs:s0001",
+            "iron-snail:fuNp6W4DUWs:s0002",
+            "iron-snail:fuNp6W4DUWs:s0003",
+            "iron-snail:A6SkEwdjj-8:s0022",
+            "iron-snail:A6SkEwdjj-8:s0023",
+            "iron-snail:A6SkEwdjj-8:s0024",
+            "iron-snail:A6SkEwdjj-8:s0025",
+            "iron-snail:A6SkEwdjj-8:s0026",
+            "iron-snail:A6SkEwdjj-8:s0027",
+            "iron-snail:FSWl57UR4k0:s0002",
+            "iron-snail:FSWl57UR4k0:s0003",
+            "iron-snail:FSWl57UR4k0:s0004",
+            "iron-snail:FSWl57UR4k0:s0005",
+            "iron-snail:FSWl57UR4k0:s0006",
+            "iron-snail:FSWl57UR4k0:s0007",
+            "iron-snail:FSWl57UR4k0:s0008",
+            "iron-snail:FSWl57UR4k0:s0009",
+            "iron-snail:FSWl57UR4k0:s0010",
+            "iron-snail:FSWl57UR4k0:s0011",
+            "iron-snail:FSWl57UR4k0:s0013",
+            "iron-snail:FSWl57UR4k0:s0014",
+            "iron-snail:FSWl57UR4k0:s0015",
+            "iron-snail:FSWl57UR4k0:s0016",
+            "iron-snail:FSWl57UR4k0:s0017",
+            "iron-snail:FSWl57UR4k0:s0018",
+            "iron-snail:FSWl57UR4k0:s0019",
+            "iron-snail:FSWl57UR4k0:s0020",
+            "iron-snail:FSWl57UR4k0:s0021",
+            "iron-snail:FSWl57UR4k0:s0022",
+            "iron-snail:FSWl57UR4k0:s0023",
+            "iron-snail:FSWl57UR4k0:s0024"
+          ],
+          "context_words": 5662,
+          "queries": [
+            "Am I the only one who loves these videos but in the end still has no idea which to buy? Please just tell me: buy this one, or these 3. I can't decide between 25 options. [t-shirts]",
+            "best t-shirt recommendation",
+            "which t-shirt to buy",
+            "t-shirt comparison favorite pick",
+            "best value t-shirts under budget",
+            "t-shirt fit and fabric review verdict",
+            "Gildan Hanes Uniqlo t-shirt"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 40380,
+              "output": 1212,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 21075,
+              "output": 2342,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.13614586,
+          "seconds": 26.8,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "J Press | Wonderlooper | American Giant | MSB": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "FSWl57UR4k0"
+            ],
+            "sources_cited": [
+              "FSWl57UR4k0"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q17",
+      "question": "Do you have any particular favorites for more athletic builds? I sometimes have trouble with high quality tees being tight on the shoulders and boxy around the waist",
+      "type": "taste",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "answer": "The Iron Snail hasn't made picks specifically for athletic builds or for the tight-shoulders, boxy-waist problem. A few of his comments in his 2025 t-shirt roundup touch on shoulder room and fit, though:\n\n- **J.Press x American Trench**: This is the closest match to your shoulder issue. He calls it a \"good freaking fit\" and says he likes \"a lot of space across the shoulders\" [1][2]. It was also his personal winner in the all-arounder category [3].\n- **Asket**: He says this is what he imagines \"very jacked or slim men\" wearing, because it \"just flows\" and \"feels like glass\" [4]. He doesn't describe how it fits through the shoulders or waist.\n- **Merz b. Schwanen 2M15**: He likes its \"unique fit, especially across the neck and chest\" [5]. He doesn't say it suits athletic builds.\n- **Muji**: He recommends it over Uniqlo if you're \"taller or wider,\" but describes it as \"slightly tented out\" [6]. That roomier cut may not help with a boxy waist.\n- **Samurai**: He calls it \"cropped and wide\" and says to size up one \"no matter what\" [7][8].\n\nHis overall point is that the \"best\" tee depends on what fits your preferences [9]. He didn't compare these shirts on how they fit a V-shaped torso.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0002"
+              ],
+              "quote": "Good freaking fit. I like a lot of space."
+            },
+            {
+              "n": 2,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0003"
+              ],
+              "quote": "across the shoulders."
+            },
+            {
+              "n": 3,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0022"
+              ],
+              "quote": "So, I'll give it to J Press X-American Trench."
+            },
+            {
+              "n": 4,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0015"
+              ],
+              "quote": "this is what I imagine very jacked or slim men wearing at coffee shops because it just flows, feels like glass"
+            },
+            {
+              "n": 5,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0024"
+              ],
+              "quote": "Has a unique fit, especially across the neck and chest, which I like."
+            },
+            {
+              "n": 6,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0019"
+              ],
+              "quote": "So, this is slightly tented out a little bit."
+            },
+            {
+              "n": 7,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0023"
+              ],
+              "quote": "Samurai is cropped and wide"
+            },
+            {
+              "n": 8,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0010"
+              ],
+              "quote": "size up one with this t-shirt, no matter what."
+            },
+            {
+              "n": 9,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0022"
+              ],
+              "quote": "It just has to line up with your preferences to be the best t-shirt."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "FSWl57UR4k0"
+          ],
+          "segments_read": [
+            "iron-snail:FSWl57UR4k0:s0002",
+            "iron-snail:FSWl57UR4k0:s0003",
+            "iron-snail:FSWl57UR4k0:s0004",
+            "iron-snail:FSWl57UR4k0:s0005",
+            "iron-snail:FSWl57UR4k0:s0006",
+            "iron-snail:FSWl57UR4k0:s0007",
+            "iron-snail:FSWl57UR4k0:s0008",
+            "iron-snail:FSWl57UR4k0:s0009",
+            "iron-snail:FSWl57UR4k0:s0010",
+            "iron-snail:FSWl57UR4k0:s0011",
+            "iron-snail:FSWl57UR4k0:s0012",
+            "iron-snail:FSWl57UR4k0:s0013",
+            "iron-snail:FSWl57UR4k0:s0014",
+            "iron-snail:FSWl57UR4k0:s0015",
+            "iron-snail:FSWl57UR4k0:s0016",
+            "iron-snail:FSWl57UR4k0:s0017",
+            "iron-snail:FSWl57UR4k0:s0018",
+            "iron-snail:FSWl57UR4k0:s0019",
+            "iron-snail:FSWl57UR4k0:s0020",
+            "iron-snail:FSWl57UR4k0:s0021",
+            "iron-snail:FSWl57UR4k0:s0022",
+            "iron-snail:FSWl57UR4k0:s0023",
+            "iron-snail:FSWl57UR4k0:s0024"
+          ],
+          "context_words": 3041,
+          "queries": [
+            "Do you have any particular favorites for more athletic builds? I sometimes have trouble with high quality tees being tight on the shoulders and boxy around the waist",
+            "tees for athletic build broad shoulders fit",
+            "t-shirt fit tight shoulders boxy waist",
+            "athletic fit tee recommendation",
+            "well-fitting t-shirts V taper shoulders",
+            "best fitting tees for muscular chest and shoulders"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 39973,
+              "output": 1213,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 8491,
+              "output": 1271,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.06434966,
+          "seconds": 22.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [
+              "FSWl57UR4k0"
+            ],
+            "sources_cited": [
+              "FSWl57UR4k0"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q18",
+      "question": "Hi, what are some fall/winter sneakers you'd recommend?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "answer": "The Iron Snail hasn't covered fall/winter sneakers in the videos available here.\n\nThe only sneakers that come up are Koio's, and that was a **paid sponsor read** in his t-shirt ranking, not an independent recommendation. In it he calls the Capri his favorite [1] and says Koio's sneakers are made in a factory in Italy [2]. He doesn't say anything there about wearing them in fall or winter.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0006"
+              ],
+              "quote": "These are my favorite. Capri X Marzoko."
+            },
+            {
+              "n": 2,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0006"
+              ],
+              "quote": "are made in a factory in Italy"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "FSWl57UR4k0"
+          ],
+          "segments_read": [
+            "iron-snail:FSWl57UR4k0:s0002",
+            "iron-snail:FSWl57UR4k0:s0003",
+            "iron-snail:FSWl57UR4k0:s0004",
+            "iron-snail:FSWl57UR4k0:s0005",
+            "iron-snail:FSWl57UR4k0:s0006",
+            "iron-snail:FSWl57UR4k0:s0007"
+          ],
+          "context_words": 818,
+          "queries": [
+            "Hi, what are some fall/winter sneakers you'd recommend?",
+            "fall winter sneakers recommendation",
+            "winter sneakers that kept my feet warm",
+            "waterproof sneakers for cold weather",
+            "Vibram Megagrip sneakers winter grip",
+            "sneakers for rain and cold slush",
+            "best sneakers for fall and winter",
+            "Vibram",
+            "vibram",
+            "Vibram Carrarmato",
+            "Carramato",
+            "Vibram Megagrip",
+            "mega grip",
+            "Vibram honey wheat mini lug sole",
+            "grip",
+            "Gore-Tex",
+            "Gortex",
+            "gore-tex"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 37767,
+              "output": 1238,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 4108,
+              "output": 316,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.02750956,
+          "seconds": 9.7,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q19",
+      "question": "Your house looks great, house tour video?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "answer": "The Iron Snail's home and personal life aren't something covered here, and he hasn't done a house tour in the videos available. Happy to help with anything from his videos instead, such as what clothing or gear he recommends, how he suggests sizing a piece, or his take on a particular brand.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [],
+          "segments_read": [],
+          "context_words": 0,
+          "queries": [
+            "Your house looks great, house tour video?",
+            "house tour",
+            "home tour apartment",
+            "my house room",
+            "where I live home",
+            "closet and room setup",
+            "house tour video"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23449,
+              "output": 1102,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 57,
+              "output": 148,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.00644576,
+          "seconds": 9.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q20",
+      "question": "1907 vs the 875's? What's the difference?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "**Short version:** In his 2021 review, The Iron Snail thinks the 1907 is the better Red Wing moc toe. For about $10 more than the 875, you get a storm welt plus some extras he values. [1]\n\n**The differences he points out**\n\n- **Welt construction.** He says the 875s are Goodyear welted. He calls Goodyear welts \"incredible,\" durable and pretty water resistant, and says the space they create holds the cork that molds to your foot. [2] The 1907 has a storm welt, which he calls \"a bit more sophisticated.\" [3] He passes on a popular Reddit view that Red Wing's version is basically just an extra strip of leather stitched onto the welt. He adds that he isn't quite sure about this. [4] Red Wing itself sometimes calls it a \"Norwegian like\" welt. [5]\n- **Freebies.** The 1907 comes with Red Wing's removable leather footbed, which he says typically costs $40 on its own. He likes that you can pull it out at the end of the day so the boots dry faster. [6] It also comes with leather laces, which he says usually cost $15. By his math that's $45 of net value for the extra $10, and he considers the storm welt \"invaluable\" on top of that. [6]\n- **What they share.** He notes both use crepe soles. He doesn't really like those [7] and thinks they'll break down faster than a dense Vibram lug sole. [8]\n\n**How the 1907 did in his water test:** The right boot leaked almost immediately through the stitching, while the left stayed dry. He still has no doubt they'd hold up fine in rain, grass or mud. [9] He didn't run the same test on the 875s.\n\n**Later views:** In 2022 he said the Red Wing 3335s beat both the 1907s and the 875s as an all-around boot for hiking and walking. He still called the 1907s and 875s the more \"beefily constructed\" boots if you need something tough. [10] By 2023 he said the 875s, 1907s and Iron Rangers \"all have their own characteristics\" that he really likes. [11]",
+          "sources": [
+            {
+              "n": 1,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0011"
+              ],
+              "quote": "so the 1907s are ten dollars more expensive than the 875s"
+            },
+            {
+              "n": 2,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0008"
+              ],
+              "quote": "when you look at a pair of red wing 875s those are goodyear welted and goodyear welts are incredible they are really durable they are pretty water resistant"
+            },
+            {
+              "n": 3,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0009"
+              ],
+              "quote": "then though we have the storm welt a bit more sophisticated"
+            },
+            {
+              "n": 4,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0009"
+              ],
+              "quote": "it's basically red wing stitching another strip of leather onto the welt itself"
+            },
+            {
+              "n": 5,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0000"
+              ],
+              "quote": "sometimes red wing says a norwegian like welt"
+            },
+            {
+              "n": 6,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0012"
+              ],
+              "quote": "you get the storm welt which you know to me is invaluable and you also get a pair of leather laces thrown in for free"
+            },
+            {
+              "n": 7,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0000"
+              ],
+              "quote": "also crepe souls i don't really like those"
+            },
+            {
+              "n": 8,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0006"
+              ],
+              "quote": "I don't feel like will break down very, very fast like the crepe soles on the 875s and 1907s"
+            },
+            {
+              "n": 9,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0014"
+              ],
+              "quote": "i have no doubt if it's raining or if you're just walking through grass or mud or anything like that these boots would hold up fine"
+            },
+            {
+              "n": 10,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0011"
+              ],
+              "quote": "1907s and 875s are definitely more beefily constructed, so if you need a tough boot, these are probably not the ones to go for"
+            },
+            {
+              "n": 11,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "the 875s the 1907s the iron Rangers all have their own characteristics that I really really like"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "UTArIR26tMw",
+            "cyAzm8O3RwY",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:UTArIR26tMw:s0000",
+            "iron-snail:UTArIR26tMw:s0001",
+            "iron-snail:UTArIR26tMw:s0006",
+            "iron-snail:UTArIR26tMw:s0007",
+            "iron-snail:UTArIR26tMw:s0008",
+            "iron-snail:UTArIR26tMw:s0009",
+            "iron-snail:UTArIR26tMw:s0010",
+            "iron-snail:UTArIR26tMw:s0011",
+            "iron-snail:UTArIR26tMw:s0012",
+            "iron-snail:UTArIR26tMw:s0013",
+            "iron-snail:UTArIR26tMw:s0014",
+            "iron-snail:cyAzm8O3RwY:s0005",
+            "iron-snail:cyAzm8O3RwY:s0006",
+            "iron-snail:cyAzm8O3RwY:s0007",
+            "iron-snail:cyAzm8O3RwY:s0008",
+            "iron-snail:cyAzm8O3RwY:s0009",
+            "iron-snail:cyAzm8O3RwY:s0010",
+            "iron-snail:cyAzm8O3RwY:s0011",
+            "iron-snail:cyAzm8O3RwY:s0012",
+            "iron-snail:cyAzm8O3RwY:s0013",
+            "iron-snail:cyAzm8O3RwY:s0014",
+            "iron-snail:cyAzm8O3RwY:s0015",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007"
+          ],
+          "context_words": 4002,
+          "queries": [
+            "1907 vs the 875's? What's the difference?",
+            "1907 vs 875 difference",
+            "1907 boots compared to 875 boots",
+            "Red Wing 1907 and 875 comparison",
+            "875 versus 1907 fit and leather",
+            "1907 875 which one to buy",
+            "1907",
+            "Red Wing 1907",
+            "1907's",
+            "1907s",
+            "redwing 1907's",
+            "875",
+            "Red Wing 875",
+            "875s"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22967,
+              "output": 762,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 12757,
+              "output": 1700,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.08806756,
+          "seconds": 21.2,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "875": true,
+              "1907": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "UTArIR26tMw"
+            ],
+            "sources_cited": [
+              "UTArIR26tMw"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q21",
+      "question": "How does Uniqlo compare to The Front General Store,  Proclub, and Hanes? ie what is the best budget shirt?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "answer": "**Short answer:** In his most recent t-shirt roundup, The Iron Snail names **Uniqlo** the best budget tee for the money, and **Front General Store** the step up if you want a Japan-made shirt for about twice the price. He never compares Pro Club or Hanes directly against Uniqlo. He reviewed those two separately, and they scored lower on softness and shrank more in length.\n\n**Uniqlo (his top budget pick)**\n- Sept 2025: he calls the $20 Uniqlo tee \"probably the best t-shirt that you can get bar none for the price\" [1]. It's open-end yarn and \"kind of rough,\" and he calls it \"your starter t-shirt\" [2].\n- He says that if you're taller or wider, you'd want Muji instead, since it's significantly longer and wider [2].\n- June 2025: he praised the bound neck collar and called the price-to-quality ratio \"insane.\" He wears the black one all the time [3].\n- In that same June 2025 video he rated Bronson and Bravestar as \"slightly above\" Uniqlo on value [4].\n- July 2024: he highly recommended the Uniqlo heavyweight crew for its coarse feel and bound, ribbed collar, saying it may be the best bargain tee [5]. It shrank 2.3% in width and 2% in length [6].\n\n**Front General Store (the step up)**\n- Sept 2025: he describes it as a $40, 100% made-in-Japan shirt with \"great proportions, great feel,\" and a previous winner tied with Asket [7].\n- June 2025: he still called it a really good tee, made in Japan for about $38 [8].\n- Aug 2024: he thinks it uses open-end yarn that's been sanded for softness. He rated it 6/10 for softness, and because it's pre-washed it shrank only 1.2% in width and 0% in length. He called it one of the best shirts you can get if you don't want to spend over $40 [9].\n\n**Pro Club**\n- Aug 2024: he found it the roughest shirt on that list but said he liked everything about it. That includes a high neck with Lycra that supposedly keeps its shape. It scored 4/10 for softness and shrank 6.86% in length [10].\n\n**Hanes**\n- Aug 2024: he found it much softer and lighter than Pro Club, calling it \"your classic $10 great shirt.\" It scored 7/10 for softness but shrank 6.73% in length [11].\n- June 2025: he was critical of ultra-cheap mass-market tees. All five he bought from these brands (he named Hanes and Gildan as examples) had defects, though he noted they cost only a few dollars [12].\n\n**Bottom line:** For the best budget shirt, his clear lean is Uniqlo. Front General Store is his pick if you'll spend around $40 for a made-in-Japan tee with low shrinkage. Hanes and Pro Club are cheaper, but by his numbers they shrink a lot more in length.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0018"
+              ],
+              "quote": "This being $20 is probably the best t-shirt that you can get bar none for the price."
+            },
+            {
+              "n": 2,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0019"
+              ],
+              "quote": "This is your starter t-shirt. Unless if you're taller or wider in any way, shape, or form, you'd want Muji."
+            },
+            {
+              "n": 3,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0023"
+              ],
+              "quote": "You get a bound neck collar so it doesn't wiggle a lot. You could end the video here. The price to quality ratio there insane."
+            },
+            {
+              "n": 4,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0026"
+              ],
+              "quote": "That's slightly above Uniclo."
+            },
+            {
+              "n": 5,
+              "video": "GMM_Hl1fTQ0",
+              "title": "The Internet's Favorite T-Shirts, Ranked.",
+              "published": "2024-07-11",
+              "segments": [
+                "iron-snail:GMM_Hl1fTQ0:s0002"
+              ],
+              "quote": "if you're looking for the best bargain t-shirt this may be it"
+            },
+            {
+              "n": 6,
+              "video": "GMM_Hl1fTQ0",
+              "title": "The Internet's Favorite T-Shirts, Ranked.",
+              "published": "2024-07-11",
+              "segments": [
+                "iron-snail:GMM_Hl1fTQ0:s0003"
+              ],
+              "quote": "Unico 1 shrink test 2.3% in width 2% in length"
+            },
+            {
+              "n": 7,
+              "video": "FSWl57UR4k0",
+              "title": "I've Reviewed 100+ T-shirts. Here Are The Best Ones.",
+              "published": "2025-09-17",
+              "segments": [
+                "iron-snail:FSWl57UR4k0:s0019"
+              ],
+              "quote": "This is a $40 100% made in Japan shirt. Great proportions, great feel."
+            },
+            {
+              "n": 8,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0025"
+              ],
+              "quote": "Front General Store, still really good t-shirt, made in Japan for like 38 bucks."
+            },
+            {
+              "n": 9,
+              "video": "fuNp6W4DUWs",
+              "title": "The Internet's Favorite T-Shirts, Ranked. (Pt. 2)",
+              "published": "2024-08-05",
+              "segments": [
+                "iron-snail:fuNp6W4DUWs:s0001"
+              ],
+              "quote": "front General Store shrink percentage with 1.2% length 0% it's pre-washed softness 6 out of 10"
+            },
+            {
+              "n": 10,
+              "video": "fuNp6W4DUWs",
+              "title": "The Internet's Favorite T-Shirts, Ranked. (Pt. 2)",
+              "published": "2024-08-05",
+              "segments": [
+                "iron-snail:fuNp6W4DUWs:s0002"
+              ],
+              "quote": "proc Club shrink percentage width 2.78% length 6.86% softness 4 of 10"
+            },
+            {
+              "n": 11,
+              "video": "fuNp6W4DUWs",
+              "title": "The Internet's Favorite T-Shirts, Ranked. (Pt. 2)",
+              "published": "2024-08-05",
+              "segments": [
+                "iron-snail:fuNp6W4DUWs:s0003"
+              ],
+              "quote": "your classic $10 great shirt pays shrink percentage with 1.45% l length 6.73% softness 7 out of 10"
+            },
+            {
+              "n": 12,
+              "video": "A6SkEwdjj-8",
+              "title": "The Highest Quality, Lowest Price Clothing, Ranked.",
+              "published": "2025-06-30",
+              "segments": [
+                "iron-snail:A6SkEwdjj-8:s0021"
+              ],
+              "quote": "out of the five shirts I have from these brands, all of them had a defect on them."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "GMM_Hl1fTQ0",
+            "fuNp6W4DUWs",
+            "A6SkEwdjj-8",
+            "FSWl57UR4k0"
+          ],
+          "segments_read": [
+            "iron-snail:GMM_Hl1fTQ0:s0000",
+            "iron-snail:GMM_Hl1fTQ0:s0001",
+            "iron-snail:GMM_Hl1fTQ0:s0002",
+            "iron-snail:GMM_Hl1fTQ0:s0003",
+            "iron-snail:fuNp6W4DUWs:s0001",
+            "iron-snail:fuNp6W4DUWs:s0002",
+            "iron-snail:fuNp6W4DUWs:s0003",
+            "iron-snail:A6SkEwdjj-8:s0020",
+            "iron-snail:A6SkEwdjj-8:s0021",
+            "iron-snail:A6SkEwdjj-8:s0022",
+            "iron-snail:A6SkEwdjj-8:s0023",
+            "iron-snail:A6SkEwdjj-8:s0024",
+            "iron-snail:A6SkEwdjj-8:s0025",
+            "iron-snail:A6SkEwdjj-8:s0026",
+            "iron-snail:A6SkEwdjj-8:s0027",
+            "iron-snail:FSWl57UR4k0:s0002",
+            "iron-snail:FSWl57UR4k0:s0003",
+            "iron-snail:FSWl57UR4k0:s0004",
+            "iron-snail:FSWl57UR4k0:s0005",
+            "iron-snail:FSWl57UR4k0:s0006",
+            "iron-snail:FSWl57UR4k0:s0018",
+            "iron-snail:FSWl57UR4k0:s0019",
+            "iron-snail:FSWl57UR4k0:s0020"
+          ],
+          "context_words": 3443,
+          "queries": [
+            "How does Uniqlo compare to The Front General Store,  Proclub, and Hanes? ie what is the best budget shirt?",
+            "Uniqlo shirt review budget",
+            "Uniqlo vs Hanes t-shirt comparison",
+            "Proclub heavyweight tee review",
+            "The Front General Store shirt review",
+            "best budget shirt cheap tee recommendation",
+            "Hanes tagless tee fit and quality",
+            "Uniqlo",
+            "Unilo",
+            "Uniclo",
+            "Unic",
+            "Unico",
+            "Uno",
+            "uni",
+            "unic",
+            "unic clo",
+            "uniclo",
+            "uniqlo's",
+            "Uniqlo Barbour Spey homage jacket",
+            "unico's ripoff of a barber spay jacket",
+            "Uniqlo cashmere sweater",
+            "$100 cashmere sweater",
+            "Uniqlo heavyweight crew neck t-shirt",
+            "Unico heavyweight crew neck shirt",
+            "Uniqlo Jersey Workshirt",
+            "Uniqlo merino sweater",
+            "$40 Marino wool sweater",
+            "Uniqlo polyester wool-imitation jacket",
+            "synthetic wool jackets polyester jackets",
+            "Uniqlo Regular Fit Chino",
+            "Unilo Chinos",
+            "Uniqlo selvedge jeans",
+            "Japanese Salvage denim jeans",
+            "Unico Salvage denim jeans",
+            "Uniqlo Salvage denim",
+            "non-stretch regular fit Salvage denim",
+            "Uniqlo Supima cotton t-shirt",
+            "Unico supima cotton t-shirt",
+            "uniclo supima T-shirt",
+            "Uniqlo sweatshirt",
+            "budget $40 sweatshirt",
+            "sweater that goes for $40",
+            "Uniqlo t-shirt",
+            "Uniqlo U t-shirt",
+            "Unico U t-shirt",
+            "Uniqlo wide fit chinos",
+            "Unico Chino",
+            "giant fit wide fit genos",
+            "The Front General Store",
+            "Front General Store",
+            "The Front General Store heavyweight t-shirt",
+            "Proclub",
+            "Hanes",
+            "Hannes",
+            "Hayes",
+            "Haynes",
+            "Hanes Beefy-T",
+            "pays"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 39962,
+              "output": 1243,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 15015,
+              "output": 2291,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.11085956000000001,
+          "seconds": 28.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Uniqlo": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "FSWl57UR4k0",
+              "fuNp6W4DUWs"
+            ],
+            "sources_cited": [
+              "FSWl57UR4k0",
+              "fuNp6W4DUWs"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q22",
+      "question": "Would you recommend this or the flint and tinder for someone who would use it like a rain jacket but also a windbreaker and a spring light jacket?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "answer": "The Iron Snail hasn't directly compared the two for a rain/wind/spring-jacket role, and I'm assuming \"this\" means the Barbour. Going by what he's said about each, the **Barbour** has more of the weather features you'd want for rain, while the **Flint and Tinder** is his easy, good-value recommendation for almost anyone.\n\n**Barbour (his top-voted pick, May 2025)**\n- He says a Barbour isn't a designated rain jacket, and its 6 oz Sylkoil is the lightest fabric in that lineup [1].\n- He likes that it's roomy enough to layer under, so you can be comfortable in fall, summer or spring [2].\n- He points to rain-friendly details: a throat latch he loves, a hood, storm cuffs that help in bad weather, and vents at the hem and underarms [3][4]. You can also add or remove liners as the temperature changes [5].\n- On rain, his 2021 shower test found a freshly waxed jacket didn't leak at all [6]. He calls them not waterproof but \"very very very\" water resistant when properly treated, and thinks you'll be fine even in a downpour [7].\n- The catch: as it wears in and develops patina, it loses wax and becomes less water resistant [8]. After a few seasons, water will come right in [9]. So it needs upkeep to stay a good rain jacket.\n\n**Flint and Tinder Waxed Trucker (Huckberry)**\n- He says it's built for everyone. It's lighter weight, cut for full freedom of movement and goes with anything [10].\n- It's lined, so you don't get wax on your skin [11].\n- He thinks the real magic is the $300 price for a lined, US-made jacket in Martexin fabric, which makes it hard not to recommend [12].\n- Note that his 2025 video was sponsored by Huckberry, though he says he'd talked about this jacket many times before the sponsorship [13].\n- In 2023 he pictured its typical wearer as a regular guy who likes wearing it in the rain with a hat [14].\n\n**How his views apply to you:** if keeping rain out is the priority, his comments favour the Barbour's hood, storm cuffs and throat latch, as long as you keep it waxed. If you want a lighter, cheaper all-rounder for spring, his reasoning points to the Flint and Tinder. He hasn't said how either performs specifically as a windbreaker.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0035"
+              ],
+              "quote": "it's not a designated rain jacket, which in my head means the fabric is lightweight"
+            },
+            {
+              "n": 2,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0035"
+              ],
+              "quote": "if it's the fall time, if it's the summertime, if it's the springtime, any time of year, you could toss on your Barber and be super comfortable"
+            },
+            {
+              "n": 3,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0036"
+              ],
+              "quote": "We have a throat latch, which I love"
+            },
+            {
+              "n": 4,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0036"
+              ],
+              "quote": "You have storm cuffs which is really helpful in inclement weather"
+            },
+            {
+              "n": 5,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0037"
+              ],
+              "quote": "So if it's cold you can add one in. If it's not take it off"
+            },
+            {
+              "n": 6,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0012"
+              ],
+              "quote": "the jacket didn't leak at all"
+            },
+            {
+              "n": 7,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0012"
+              ],
+              "quote": "these aren't waterproof but they are very very very waterresistant when they are properly treated"
+            },
+            {
+              "n": 8,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0011"
+              ],
+              "quote": "the jacket is not as water resistant as normal so you get the beauty but you you lose a little bit of the practicality"
+            },
+            {
+              "n": 9,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0012"
+              ],
+              "quote": "if you've worn it for a while like a few seasons it's starting to turn a lighter green or something like that it won't be that waterproof"
+            },
+            {
+              "n": 10,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0032"
+              ],
+              "quote": "It is literally built for everyone."
+            },
+            {
+              "n": 11,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0033"
+              ],
+              "quote": "It's lined, so that way it's comfortable. You don't get wax on your skin."
+            },
+            {
+              "n": 12,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0033"
+              ],
+              "quote": "That's why this jacket is so hard to not recommend to people."
+            },
+            {
+              "n": 13,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0031"
+              ],
+              "quote": "This video is sponsored by Huckberry"
+            },
+            {
+              "n": 14,
+              "video": "6n9t0SDne44",
+              "title": "The Ultimate WAXED JACKET Guide.",
+              "published": "2023-09-25",
+              "segments": [
+                "iron-snail:6n9t0SDne44:s0003"
+              ],
+              "quote": "likes to wear this jacket when it's raining outside with a hat"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "0ZLO5gHDneY",
+            "6n9t0SDne44",
+            "y3giKIuJjDk"
+          ],
+          "segments_read": [
+            "iron-snail:0ZLO5gHDneY:s0011",
+            "iron-snail:0ZLO5gHDneY:s0012",
+            "iron-snail:0ZLO5gHDneY:s0013",
+            "iron-snail:6n9t0SDne44:s0001",
+            "iron-snail:6n9t0SDne44:s0002",
+            "iron-snail:6n9t0SDne44:s0003",
+            "iron-snail:y3giKIuJjDk:s0003",
+            "iron-snail:y3giKIuJjDk:s0004",
+            "iron-snail:y3giKIuJjDk:s0005",
+            "iron-snail:y3giKIuJjDk:s0006",
+            "iron-snail:y3giKIuJjDk:s0031",
+            "iron-snail:y3giKIuJjDk:s0032",
+            "iron-snail:y3giKIuJjDk:s0033",
+            "iron-snail:y3giKIuJjDk:s0034",
+            "iron-snail:y3giKIuJjDk:s0035",
+            "iron-snail:y3giKIuJjDk:s0036",
+            "iron-snail:y3giKIuJjDk:s0037"
+          ],
+          "context_words": 2598,
+          "queries": [
+            "Would you recommend this or the flint and tinder for someone who would use it like a rain jacket but also a windbreaker and a spring light jacket?",
+            "Flint and Tinder jacket rain wind spring",
+            "Flint and Tinder waterproof jacket review",
+            "lightweight jacket rain windbreaker spring layering",
+            "water resistant shell windbreaker light jacket recommendation",
+            "Flint and Tinder jacket versus comparison",
+            "Flint and Tinder",
+            "Flint and Tender",
+            "Flint and Tinder 10-Year Flannel",
+            "10year flannel from Flint and Tinder",
+            "Flint and Tinder Waxed Trucker Jacket",
+            "Flint and Tender Wax Trucker",
+            "Flint and Tinder waxed trucker jacket"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23538,
+              "output": 790,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 10485,
+              "output": 2141,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.08787066,
+          "seconds": 25.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": false,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Bedale | Barbour": true,
+              "Flint and Tinder | Flint & Tinder": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "0ZLO5gHDneY",
+              "y3giKIuJjDk"
+            ],
+            "sources_cited": [
+              "0ZLO5gHDneY",
+              "y3giKIuJjDk"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q23",
+      "question": "October is almost over, any updates on the V3 versions of the Iron Snail denim jackets?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "answer": "The Iron Snail hasn't covered V3 versions of his denim jackets in the videos available here, so there's no update on them to share.\n\nThe closest thing is a much older update from November 2022 about his own brand's prologue jackets. He said they were delayed \"until mid-February\" [1], and that anyone who ordered could choose bonuses or a full refund [2]. That was about the prologue jackets four years ago, not V3, so it doesn't tell you anything about where V3 stands now.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "8vtFJhMEnfE",
+              "title": "The Best Japanese Denim Jeans Under $200.",
+              "published": "2022-11-22",
+              "segments": [
+                "iron-snail:8vtFJhMEnfE:s0001"
+              ],
+              "quote": "the iron snail prologue jackets are delayed until mid-February"
+            },
+            {
+              "n": 2,
+              "video": "8vtFJhMEnfE",
+              "title": "The Best Japanese Denim Jeans Under $200.",
+              "published": "2022-11-22",
+              "segments": [
+                "iron-snail:8vtFJhMEnfE:s0002"
+              ],
+              "quote": "you're getting bonuses and all this fun stuff or just a full refund so can't lose"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "8vtFJhMEnfE"
+          ],
+          "segments_read": [
+            "iron-snail:8vtFJhMEnfE:s0000",
+            "iron-snail:8vtFJhMEnfE:s0001",
+            "iron-snail:8vtFJhMEnfE:s0002"
+          ],
+          "context_words": 600,
+          "queries": [
+            "October is almost over, any updates on the V3 versions of the Iron Snail denim jackets?",
+            "V3 denim jacket Iron Snail update",
+            "Iron Snail denim jacket new version release",
+            "denim jacket V2 V3 changes",
+            "Iron Snail jacket restock October",
+            "denim jacket version three updates",
+            "Iron Snail",
+            "The Iron Snail clothing line",
+            "iron snail clothing line",
+            "The Iron Snail Denim Pro Jacket",
+            "denim Pro jacket",
+            "The Iron Snail Prologue Jacket",
+            "iron snail prologue jackets",
+            "prologue jacket",
+            "The Tale of The Iron Snail",
+            "the tail of the iron snail"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23225,
+              "output": 1408,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 2834,
+              "output": 366,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.02204436,
+          "seconds": 12.2,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q24",
+      "question": "Great video. But just curious, how can you say it's a con that the Huckberry jacket is unlined when they sell two different versions of lined waxed truckers: wool, and flannel?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "answer": "Fair point, and The Iron Snail himself acknowledged a lined version existed. In his 2023 video, the \"unlined\" con applied to the specific jacket he was reviewing, not to every Huckberry waxed trucker.\n\n**What he reviewed in 2023:** He described the Huckberry Waxed Trucker on his list as \"the cheapest most simple unlined basic jacket\" [1]. While talking about its fit, he compared it to a lined version, saying it's \"a little more cropped than the line version\" [2]. His con was that this jacket and the Rogue Territory Supply Jacket aren't lined. He personally likes a lining so the wax isn't touching your clothes or arms [3]. So the criticism was about the unlined model he had on hand, not a claim that Huckberry doesn't make lined ones.\n\n**What he said later (2025):** In a video sponsored by Huckberry [4], he covered the Flint and Tinder Waxed Trucker as a lined jacket. He said that because it's lined, it's comfortable and you don't get wax on your skin [5]. He also mentioned Huckberry makes a wool-lined version that he hadn't tried yet [6].\n\nHis stance on linings has also softened. He still says he usually wants a liner on waxed jackets [7]. But he now sees why you might skip one: satin or polyester-lined sleeves can stick to your skin once it gets a little warm, which limits how often you can wear the jacket [8].\n\nHe hasn't talked about a flannel-lined Huckberry waxed trucker in his videos.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "6n9t0SDne44",
+              "title": "The Ultimate WAXED JACKET Guide.",
+              "published": "2023-09-25",
+              "segments": [
+                "iron-snail:6n9t0SDne44:s0000"
+              ],
+              "quote": "the cheapest most simple unlined basic jacket on this list"
+            },
+            {
+              "n": 2,
+              "video": "6n9t0SDne44",
+              "title": "The Ultimate WAXED JACKET Guide.",
+              "published": "2023-09-25",
+              "segments": [
+                "iron-snail:6n9t0SDne44:s0002"
+              ],
+              "quote": "It's a little more cropped than the line version I believe"
+            },
+            {
+              "n": 3,
+              "video": "6n9t0SDne44",
+              "title": "The Ultimate WAXED JACKET Guide.",
+              "published": "2023-09-25",
+              "segments": [
+                "iron-snail:6n9t0SDne44:s0012"
+              ],
+              "quote": "the one con that Rogue territory and huckberry have for me is that they are not lined I personally always like aligning on wax jackets"
+            },
+            {
+              "n": 4,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0031"
+              ],
+              "quote": "This video is sponsored by Huckberry"
+            },
+            {
+              "n": 5,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0033"
+              ],
+              "quote": "It's lined, so that way it's comfortable. You don't get wax on your skin."
+            },
+            {
+              "n": 6,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0033"
+              ],
+              "quote": "They also make a really nice wool lined one that I'm yet to get"
+            },
+            {
+              "n": 7,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0022"
+              ],
+              "quote": "usually I kind of always want a liner, especially with wax jackets"
+            },
+            {
+              "n": 8,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0023"
+              ],
+              "quote": "Sometimes if you go the satin sleeve route, you really limit how often you can wear the jacket"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "6n9t0SDne44",
+            "y3giKIuJjDk"
+          ],
+          "segments_read": [
+            "iron-snail:6n9t0SDne44:s0000",
+            "iron-snail:6n9t0SDne44:s0001",
+            "iron-snail:6n9t0SDne44:s0002",
+            "iron-snail:6n9t0SDne44:s0003",
+            "iron-snail:6n9t0SDne44:s0009",
+            "iron-snail:6n9t0SDne44:s0010",
+            "iron-snail:6n9t0SDne44:s0011",
+            "iron-snail:6n9t0SDne44:s0012",
+            "iron-snail:y3giKIuJjDk:s0021",
+            "iron-snail:y3giKIuJjDk:s0022",
+            "iron-snail:y3giKIuJjDk:s0023",
+            "iron-snail:y3giKIuJjDk:s0031",
+            "iron-snail:y3giKIuJjDk:s0032",
+            "iron-snail:y3giKIuJjDk:s0033",
+            "iron-snail:y3giKIuJjDk:s0034"
+          ],
+          "context_words": 2515,
+          "queries": [
+            "Great video. But just curious, how can you say it's a con that the Huckberry jacket is unlined when they sell two different versions of lined waxed truckers: wool, and flannel?",
+            "Huckberry jacket unlined con",
+            "Huckberry waxed trucker lined wool flannel",
+            "unlined jacket drawback warmth layering",
+            "Huckberry waxed cotton trucker jacket review",
+            "lined vs unlined trucker jacket wool flannel lining",
+            "Huckberry",
+            "Huck Berry",
+            "hockberry",
+            "huckberry",
+            "Huckberry Portland boots",
+            "Portland boots",
+            "Huckberry Waxed Trucker Jacket",
+            "huckberry online wax record jackets",
+            "huckberry wax trucker jacket"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23546,
+              "output": 783,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 8831,
+              "output": 1510,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.06863196,
+          "seconds": 18.9,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "sources_read": [
+              "6n9t0SDne44",
+              "y3giKIuJjDk"
+            ],
+            "sources_cited": [
+              "6n9t0SDne44",
+              "y3giKIuJjDk"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q25",
+      "question": "Do you know how these fit compared to the 875s? [Red Wing 3335s]",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "answer": "**Partly.** The Iron Snail hasn't directly compared the fit of the 3335s against the 875s. Here is what he did say about each.\n\n**Red Wing 3335 fit (2022):**\n- He went true to size and they fit fine [1].\n- He does flag that they run slim. The outsole is very thin and the boot tapers down, so the profile is narrow [1].\n- With thin cotton socks in warm weather he had no discomfort or tightness. With wool socks, though, his toes felt squished and he couldn't wiggle them much [1].\n\n**How they differ from the 875s:**\n- He describes the 875s (and 1907s) as more \"beefily constructed\" heritage work boots. He sees the 3335s as a lighter, better all-around boot for hikes and walks in the woods [2].\n- In 2023 he added that the stitch-down 3335s are lighter weight and feel more nimble [3].\n- He didn't tie any of this to sizing differences.\n\n**Closest sizing note on his other Red Wings:** In his 2021 1907 moc toe review, he said he usually wears an 8 in boots, bought an 8 in Red Wings, and they fit perfectly [4]. His general rule for leather boots is to buy them snug, not squished, so they mold to your feet over time [4]. He didn't give separate sizing for the 875 there.\n\nIf you plan to wear thick wool socks, his experience suggests the 3335's tapered toe is the thing to watch.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0010"
+              ],
+              "quote": "I went true to size and they fit fine."
+            },
+            {
+              "n": 2,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0011"
+              ],
+              "quote": "1907s and 875s are definitely more beefily constructed"
+            },
+            {
+              "n": 3,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "they're lighter weight you can feel more Nimble in them"
+            },
+            {
+              "n": 4,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0002"
+              ],
+              "quote": "bought an 8 in red wings and they fit perfect"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "UTArIR26tMw",
+            "cyAzm8O3RwY",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:UTArIR26tMw:s0001",
+            "iron-snail:UTArIR26tMw:s0002",
+            "iron-snail:cyAzm8O3RwY:s0009",
+            "iron-snail:cyAzm8O3RwY:s0010",
+            "iron-snail:cyAzm8O3RwY:s0011",
+            "iron-snail:cyAzm8O3RwY:s0012",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007"
+          ],
+          "context_words": 1339,
+          "queries": [
+            "Do you know how these fit compared to the 875s? [Red Wing 3335s]",
+            "Red Wing 875 fit compared to 3335 sizing",
+            "Red Wing 3335 fit true to size",
+            "Red Wing 875 boots sizing and fit",
+            "Red Wing 3335 vs 875 comparison last",
+            "Red Wing boots run big or small width",
+            "Red Wing 3335",
+            "Red Wing",
+            "Red Wings",
+            "red rings",
+            "red wing",
+            "red wings",
+            "redwing",
+            "wedwing",
+            "333 fives",
+            "3335",
+            "3335s",
+            "Red Wing 3335s",
+            "Red Wing 875",
+            "875",
+            "875s"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22824,
+              "output": 792,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-opus-5-5": {
+              "input": 8323,
+              "output": 955,
+              "cache_read": 1728,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.05543226,
+          "seconds": 16.9,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "true to size": true
+            },
+            "must_not_claim_found": [],
+            "sources_read": [
+              "cyAzm8O3RwY"
+            ],
+            "sources_cited": [
+              "cyAzm8O3RwY"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}
