@@ -1,12 +1,14 @@
 # M4 test set for The Iron Snail. DRAFT: needs Liam's review before it counts as the gate.
 #
-# Questions are real viewer comments on his videos (verbatim; [brackets] add the
-# product a comment left implicit because it was posted under that video), except
-# where `source` says "paraphrase". Expected answers come from reading the
-# transcripts, not from model answers. Each `notes` says what the answer should say.
+# 20 real viewer comments on his videos, verbatim; [brackets] add the product a
+# comment left implicit because it was posted under that video. Expected answers come
+# from reading the transcripts (35 videos fetched), not from model answers; `notes`
+# says what a correct answer contains.
 #
-# Still to add once `askthe comments` has run: 2 taste questions, more questions that
-# name no product, and the remaining comparisons. See docs/EVALUATION.md for the mix.
+# Mix: 4 lookups, 4 comparisons, 3 change of mind, 1 how-to, 3 taste, 5 not covered,
+# one of them a personal-life question that must be declined. Includes caption misspellings
+# (q06, q08), a sponsor read that must not become a verdict (q18) and a multi-part
+# question (q01, q21).
 
 - id: q01
   question: "should I treat my boots out of box ? Annnnd how often should I treat them ?"
@@ -112,37 +114,18 @@
     sources: [rb-33aSBxyE]
   notes: "He hiked and climbed in his for months but says they are not good for mountaineering, with little ankle support."
 
-- id: q10
-  question: "Did Levi's quality go downhill?"
-  source: paraphrase of a common Reddit question
-  type: change_of_mind
-  expected:
-    covered: full
-    sources: [nM_g-z5zLJ0]
-  notes: >-
-    2023: "do they make Levi's like they used to? The answer has to be no", but the gap
-    in quality and durability is smaller than people think; vintage charm makes a
-    cooler jean, not a better one. Some of today's $80 jeans are built better.
-
 - id: q11
   question: "I'm 5'11-225 lbs with a dad bod. What's the most cost efficient and quality t shirt for me? Also, what size would u prefer?"
   source: https://www.youtube.com/watch?v=FSWl57UR4k0
   type: lookup
   expected:
     covered: partial
-    must_mention: ["Bronson | Uniqlo"]
-    sources: [A6SkEwdjj-8]
-  notes: Value pick from the 2025 ranking; nothing on sizing for a build, which must be said, not guessed.
-
-- id: q12
-  question: "Is vintage Patagonia better than new Patagonia?"
-  source: paraphrase of a common Reddit question
-  type: comparison
-  expected:
-    covered: full
-    must_mention: ["sweater"]
-    sources: [ixCSNbzQNcI]
-  notes: Vintage wins the wool sweater clearly; fleece closer and hedged; doubts Patagonia is cheaping out.
+    must_mention: ["Muji"]
+    sources: [FSWl57UR4k0]
+  notes: >-
+    Sept 2025 (newest): Uniqlo at $20 is "probably the best t-shirt you can get bar none
+    for the price", but if you're taller or wider, Muji: a few dollars more, longer and
+    wider. No size advice for a build, which must be said, not guessed.
 
 - id: q13
   question: "Is it my impression or RL has MUCH lower quality now than what it used to?"
@@ -167,3 +150,88 @@
   expected:
     covered: none
   notes: Gucci is never mentioned.
+
+- id: q16
+  question: "Am I the only one who loves these videos but in the end still has no idea which to buy? Please just tell me: buy this one, or these 3. I can't decide between 25 options."
+  source: https://www.youtube.com/watch?v=FSWl57UR4k0
+  type: taste
+  expected:
+    covered: full
+    must_mention: ["J Press | Wonderlooper | American Giant | MSB"]
+    sources: [FSWl57UR4k0]
+  notes: >-
+    Sept 2025 "winner circle", his own favourites per category: J Press x American
+    Trench (over 316), Wonderlooper (over Samurai), American Giant for heavyweights,
+    MSB just ahead of Lady White; Uniqlo the best deal. He also says most t-shirts
+    are good now and the best one depends on your preferences: keep that framing.
+
+- id: q17
+  question: "Do you have any particular favorites for more athletic builds? I sometimes have trouble with high quality tees being tight on the shoulders and boxy around the waist"
+  source: https://www.youtube.com/watch?v=FSWl57UR4k0
+  type: taste
+  expected:
+    covered: partial
+    sources: [FSWl57UR4k0]
+  notes: >-
+    Nothing for athletic builds as such. Related: he likes a lot of space across the
+    shoulders (J Press x American Trench), and Muji runs longer and wider. Must say
+    what isn't covered rather than stretch.
+
+- id: q18
+  question: "Hi, what are some fall/winter sneakers you'd recommend?"
+  source: https://www.youtube.com/watch?v=arGLNRKC6Ss
+  type: not_covered
+  expected:
+    covered: none
+  notes: >-
+    No independent sneaker recommendation in the fetched videos. The Sept 2025 t-shirt
+    video has a Koio sponsor read ("These are my favorite"): if mentioned at all, it
+    must be marked as sponsored, never given as his recommendation (rule 6).
+
+- id: q19
+  question: "Your house looks great, house tour video?"
+  source: https://www.youtube.com/watch?v=FSWl57UR4k0
+  type: not_covered
+  expected:
+    covered: none
+  notes: Personal life (rule 8). Must decline without describing his home.
+
+- id: q20
+  question: "1907 vs the 875's? What's the difference?"
+  source: https://www.youtube.com/watch?v=UTArIR26tMw
+  type: comparison
+  expected:
+    covered: full
+    must_mention: ["875", "1907"]
+    sources: [UTArIR26tMw]
+  notes: >-
+    2021: he calls the 1907 Red Wing's best moc toe; the storm welt is the key
+    difference, which he calls invaluable, plus the waterproof test. Later views (3335
+    in 2022, the 2023 cull) may be added, newest first.
+
+- id: q21
+  question: "How does Uniqlo compare to The Front General Store,  Proclub, and Hanes? ie what is the best budget shirt?"
+  source: https://www.youtube.com/watch?v=fuNp6W4DUWs
+  type: comparison
+  expected:
+    covered: full
+    must_mention: ["Uniqlo"]
+    sources: [fuNp6W4DUWs, FSWl57UR4k0]
+  notes: >-
+    All four appear in the 2024 rankings; Sept 2025 keeps Uniqlo as the best t-shirt
+    for the price and Front General Store as a $40 made-in-Japan runner-up. Each of
+    the four should be addressed or said to be missing.
+
+- id: q22
+  question: "Would you recommend this or the flint and tinder for someone who would use it like a rain jacket but also a windbreaker and a spring light jacket?"
+  source: https://www.youtube.com/watch?v=0ZLO5gHDneY
+  type: comparison
+  expected:
+    covered: full
+    must_mention: ["Bedale", "Flint and Tinder | Flint & Tinder"]
+    sources: [0ZLO5gHDneY, y3giKIuJjDk]
+  notes: >-
+    "This" is the Barbour Bedale (2021 guide with a waterproof test); Flint and Tinder
+    is in the 2025 waxed jacket ranking. A correct answer uses both and says if he
+    never compared them directly for that use.
+

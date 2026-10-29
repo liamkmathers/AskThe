@@ -1,0 +1,589 @@
+{
+  "platform_id": "0ZLO5gHDneY",
+  "profile": {
+    "video_id": "iron-snail:0ZLO5gHDneY",
+    "purpose": "A first-impressions review and buying guide for the Barbour Bedale waxed jacket. It covers model choice, sizing, the difference between Sylkoil and thornproof wax finishes, the jacket's features, patina, and a shower water-resistance test.",
+    "video_type": "review",
+    "thesis": "The creator walks through his first Barbour, the classic Bedale, explaining what a buyer needs to know about fit, finish types, details and how water resistant a waxed jacket really is.",
+    "key_takeaways": [
+      "The creator chose the regular-cut Bedale over the slimmer, more modern Ashby, wanting room for layers and long-term wear.",
+      "He sized down from his usual 38 to a 36 and suggests sizing down one if you can't try it on in person.",
+      "Sylkoil uses uncombed cotton that looks fuzzier as the wax wears, while thornproof uses combed and calendered cotton that is smoother and glassier.",
+      "The calendering process presses the weave tighter, which he says adds wind and water resistance and lets thorns slide off instead of snagging.",
+      "The video covers the jacket's details: zipper bottle opener, snap-on hood, tartan lining, zip-in liner, knit storm cuffs, storm flap, throat latch, corduroy collar and moleskin-lined handwarmer pockets.",
+      "Barbour has a repair program for damaged jackets.",
+      "Patina is a trade-off: worn areas look good but have less wax, so they are less water resistant.",
+      "In a shower test the freshly waxed jacket did not leak; he stresses it is water resistant rather than waterproof and depends on upkeep.",
+      "According to the creator, Barbour's own re-wax product is used for both finishes."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to the hike",
+        "summary": "Michael opens on a fall hike, introduces his first Barbour and previews the topics: Sylkoil vs thornproof, the water test, fit, model choice and details.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "First Barbour jacket",
+        "summary": "Why he picked the classic Bedale in regular cut over the slimmer Ashby, including trying both on over a flannel and sweater. Also covers the Barbour pin and the jacket's British and ivy/prep connotations.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Sizing and fit guide",
+        "summary": "His sizing (a 36 instead of his usual 38) and the advice to size down one when buying without trying on.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Waxed finish comparison",
+        "summary": "Explains Sylkoil versus thornproof finishes, using a fisherman sweater vs glass pane analogy. Covers uncombed versus combed and calendered cotton, and the resulting wind and water resistance; he notes he couldn't confirm whether the factory wax blends differ.",
+        "first_segment": 3,
+        "last_segment": 7
+      },
+      {
+        "title": "Jacket details and features",
+        "summary": "A rundown of the Bedale's features, from the bottle-opener zipper to the hood, lining, cuffs, flap, collar and pockets, plus Barbour's repair program. Ends with the patina versus water resistance catch-22.",
+        "first_segment": 7,
+        "last_segment": 11
+      },
+      {
+        "title": "Water resistance test",
+        "summary": "A shower test of the new jacket, which didn't leak, and a discussion of how water resistance depends on the state of the wax. Includes an anecdote about oilskins failing in storms.",
+        "first_segment": 11,
+        "last_segment": 13
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "I cut my hand so it's",
+        "last_segment": 1,
+        "ends_with": "going to be a great day it's raining",
+        "note": "Cold open on a hike with bloopers (twist-top, brownie and peanuts), welcome, and a preview of topics."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "at 4:22 p.m. ETD Doppler radar",
+        "last_segment": 1,
+        "ends_with": "thunderstorms along a line extend",
+        "note": "Weather report clip joke about the rain forecast."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "it's a beautiful fall day I got",
+        "last_segment": 7,
+        "ends_with": "I guess I'll go home how peaceful",
+        "note": "Hike skit that ends in rain."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "what up welcome to the barber bar",
+        "last_segment": 8,
+        "ends_with": "big bottle of sod Pop I",
+        "note": "Barbour bar skit using the zipper bottle opener."
+      },
+      {
+        "role": "outro",
+        "first_segment": 13,
+        "starts_with": "so anyways that's why I like Barbera",
+        "last_segment": 13,
+        "ends_with": "are these episodes I can't even tell",
+        "note": "Recommendation sign-off and teaser for next week's Friday the 13th episode."
+      }
+    ],
+    "topics": [
+      "Barbour Bedale review",
+      "Bedale vs Ashby fit",
+      "Barbour sizing",
+      "Sylkoil vs thornproof wax finish",
+      "calendered and combed cotton",
+      "waxed jacket water resistance",
+      "Barbour jacket details and features",
+      "Barbour patina",
+      "Barbour repair program",
+      "re-waxing waxed jackets",
+      "Barbour hood"
+    ],
+    "entity_ids": [
+      "iron-snail:e:barbour",
+      "iron-snail:e:barbour-bedale",
+      "iron-snail:e:barbour-ashby",
+      "iron-snail:e:sylkoil",
+      "iron-snail:e:thornproof-wax-finish",
+      "iron-snail:e:barbour-pin",
+      "iron-snail:e:barbour-snap-on-hood",
+      "iron-snail:e:tartan-lining",
+      "iron-snail:e:zip-in-quilted-lining",
+      "iron-snail:e:knit-storm-cuffs",
+      "iron-snail:e:storm-flap",
+      "iron-snail:e:throat-latch",
+      "iron-snail:e:corduroy-collar",
+      "iron-snail:e:moleskin-lined-handwarmer-pockets",
+      "iron-snail:e:zipper-bottle-opener",
+      "iron-snail:e:calendering",
+      "iron-snail:e:combed-cotton",
+      "iron-snail:e:uncombed-cotton",
+      "iron-snail:e:waxed-cotton",
+      "iron-snail:e:oilskin",
+      "iron-snail:e:patina",
+      "iron-snail:e:barbour-repair-program",
+      "iron-snail:e:barbour-re-waxing",
+      "iron-snail:e:taylor-stitch",
+      "iron-snail:e:taylor-stitch-wisel-parka",
+      "iron-snail:e:the-iron-snail-clothing-line",
+      "iron-snail:e:otterwax"
+    ],
+    "categories": [
+      "jackets"
+    ],
+    "answers_questions": [
+      "What's the difference between Barbour Sylkoil and thornproof wax?",
+      "Should I get the Barbour Bedale or the Ashby?",
+      "How should a Barbour Bedale fit, and should I size down?",
+      "Is a Barbour waxed jacket actually waterproof?",
+      "Is the Barbour hood worth getting?",
+      "What is the tartan lining on a Barbour like?",
+      "Does Barbour repair damaged jackets?",
+      "Why does the patina on a Barbour make it less water resistant?",
+      "What does calendered cotton mean for a waxed jacket?",
+      "Can you add a zip-in liner to a Barbour Bedale for winter?",
+      "What features does the Barbour Bedale have, like storm cuffs and a throat latch?",
+      "Do Sylkoil and thornproof jackets use different re-wax products?",
+      "Does the Bedale have storm cuffs while the Ashby doesn't?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "care_maintenance",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:0ZLO5gHDneY:s0003",
+        "note": "He first says he went with a size 38, then corrects himself: he got a size 36, sizing down from his usual 38."
+      }
+    ],
+    "related_videos": [
+      "Taylor Stitch parka review (combed cotton jacket)",
+      "Upcoming Friday the 13th special episode",
+      "Planned future video on re-waxing a Barbour jacket"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:barbour",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Barbour",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Barbara",
+        "Barber",
+        "Barbera"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-bedale",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Bedale",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bedale"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-ashby",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Ashby",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Ashby",
+        "ashb"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sylkoil",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Sylkoil",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Silk Oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:thornproof-wax-finish",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "thornproof wax finish",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Thorn proof",
+        "stormproof",
+        "thornproof"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-pin",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour pin",
+      "brand": "Barbour",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Barber pin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-snap-on-hood",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "Barbour snap-on hood",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "snap on Hood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tartan-lining",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "tartan lining",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Tartan lined"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zip-in-quilted-lining",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "zip-in quilted lining",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "quilted lining"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:knit-storm-cuffs",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "knit storm cuffs",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "storm cffs",
+        "storm cuffs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:storm-flap",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "storm flap",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:throat-latch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "throat latch",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:corduroy-collar",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "corduroy collar",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Cordo collar",
+        "Corduroy collar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:moleskin-lined-handwarmer-pockets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "moleskin-lined handwarmer pockets",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "mol skin lined hand warmer Pockets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zipper-bottle-opener",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "zipper bottle opener",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "the zipper is also a bottle opener"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:calendering",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "calendering",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "calendar",
+        "calendered"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:combed-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "combed cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "combed and calendered cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uncombed-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "uncombed cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "unshorn cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed cotton",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wax jackets",
+        "waxed jackets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oilskin",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "oilskin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "oil skins"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patina",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "patina",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-repair-program",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Barbour repair program",
+      "brand": "Barbour",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "repair program"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-re-waxing",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Barbour re-waxing",
+      "brand": "Barbour",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rewaxed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor-stitch",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Taylor Stitch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tailor Stitch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor-stitch-wisel-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Taylor Stitch wisel parka",
+      "brand": "Taylor Stitch",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wisel Parker",
+        "wissow parka"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail-clothing-line",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Iron Snail clothing line",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "iron snail clothing line"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Otterwax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "1cab7b3add309fc2"
+}

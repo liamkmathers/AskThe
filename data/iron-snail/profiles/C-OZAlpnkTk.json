@@ -1,0 +1,789 @@
+{
+  "platform_id": "C-OZAlpnkTk",
+  "profile": {
+    "video_id": "iron-snail:C-OZAlpnkTk",
+    "purpose": "Rank 12 men's t-shirts across a range of weights and prices from best to worst, including a few unranked bonus shirts, with a pick for best value.",
+    "video_type": "ranking",
+    "thesis": "A follow-up t-shirt ranking that is not limited to heavyweight tees. Each shirt is judged on fabric weight, cotton type, collar construction, fit, origin and price, ending with a final ranked list and a best-value pick.",
+    "key_takeaways": [
+      "Each shirt is described by fabric weight in ounces, cotton type (ring spun, supima, slub, loopwheel), collar construction, country of manufacture and price.",
+      "Unbleached Apparel, the Huckberry slub pocket tee and Wonder Looper's The Beast are bonus shirts left out of the ranking because of personal connections.",
+      "Bronson is named best value, especially its loopwheel tee at about $27 on sale.",
+      "The final ranking, from 8th to 1st: Sunspel, Patagonia, Adidas Human Race, Carhartt K87, Velva Sheen, Buck Mason, Bronson loopwheel, Standard & Strange Wakayama Special.",
+      "Velva Sheen and Buck Mason swap places in the ranking after the list is first read out.",
+      "Wonder Looper's The Beast is presented as the heaviest t-shirt in the world, at about 12.1 oz, and can be custom chain stitched.",
+      "The tip given for better fit is to iron t-shirts."
+    ],
+    "outline": [
+      {
+        "title": "The quest for the best tee",
+        "summary": "Intro with Taylor and Risa from Wonder Looper. Explains that this ranking is not focused only on heavyweight tees and will name a best value pick.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Unbleached and Carhartt",
+        "summary": "Covers the bonus Unbleached Apparel 6.1 oz undyed ring spun tee made in Haiti, then the Carhartt K87 heavyweight loose fit tee made in Guatemala.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Bronson manufacturing tees",
+        "summary": "Covers Bronson's 9 oz heavyweight tee in the 'embryo' color, made in China, and Bronson's loopwheel tee with a stitched-over collar at about $27.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Lighter weight options",
+        "summary": "Covers a bonus slub cotton pocket tee made in Peru and the Buck Mason 4.2 oz pocket tee made in the USA for $42.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Premium and branded tees",
+        "summary": "Covers the Patagonia organic graphic tee at 4.5 oz and the heavy, silky Adidas x Pharrell Human Race premium basics tee.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Velva Sheen and Sunspel",
+        "summary": "Covers the pigment-dyed Velva Sheen tee, which runs very small, and the very light $90 Sunspel supima cotton tee made in England.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Standard & Strange special",
+        "summary": "Covers the Standard & Strange Wakayama Special loopwheel tee at about $100 and its ribbed fold-over collar; it is the favorite shirt.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "The Beast by Bayside",
+        "summary": "Covers Wonder Looper's The Beast, claimed as the heaviest t-shirt in the world at about 12.1 oz. Also explains why ounce figures can mislead and that the shirts can be custom chain stitched.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Final rankings and outro",
+        "summary": "Names Bronson best value, reads out the ranking from 8th to 1st with one reordering, and signs off with a blooper.",
+        "first_segment": 10,
+        "last_segment": 12
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Taylor oh my God it's like",
+        "last_segment": 0,
+        "ends_with": "a carrot link there they'll take",
+        "note": "Mic test, New Year greeting, Taylor and Risa introduced, and the premise of the ranking explained."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "as they say in Denmark",
+        "last_segment": 7,
+        "ends_with": "and I talk no thank you",
+        "note": "Joke after the Velva Sheen fit."
+      },
+      {
+        "role": "outro",
+        "first_segment": 11,
+        "starts_with": "anyways that is about it I",
+        "last_segment": 12,
+        "ends_with": "look at her while you have her here",
+        "note": "Sign-off and goodbye to Taylor."
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "rice paper do you think they'll",
+        "last_segment": 12,
+        "ends_with": "why do you keep getting nut things",
+        "note": "Blooper about food allergies and nut butters."
+      }
+    ],
+    "topics": [
+      "t-shirt ranking",
+      "fabric weight in ounces",
+      "loopwheel cotton",
+      "ring spun cotton",
+      "supima cotton",
+      "slub cotton",
+      "collar construction",
+      "t-shirt fit and sizing",
+      "country of manufacture",
+      "best value t-shirt",
+      "heaviest t-shirt",
+      "chain stitching"
+    ],
+    "entity_ids": [
+      "iron-snail:e:unbleached-apparel",
+      "iron-snail:e:chance",
+      "iron-snail:e:carhartt",
+      "iron-snail:e:carhartt-k87-heavyweight-loose-fit-t-shirt",
+      "iron-snail:e:bronson",
+      "iron-snail:e:bronson-heavyweight-tee-embryo",
+      "iron-snail:e:bronson-loopwheel-t-shirt",
+      "iron-snail:e:huckberry",
+      "iron-snail:e:slub-cotton-pocket-tee",
+      "iron-snail:e:buck-mason",
+      "iron-snail:e:buck-mason-pocket-tee",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:patagonia-organic-graphic-tee",
+      "iron-snail:e:adidas",
+      "iron-snail:e:adidas-human-race-tee",
+      "iron-snail:e:pharrell",
+      "iron-snail:e:new-balance",
+      "iron-snail:e:velva-sheen",
+      "iron-snail:e:velva-sheen-pigment-dyed-tee",
+      "iron-snail:e:sunspel",
+      "iron-snail:e:h-m",
+      "iron-snail:e:standard-strange",
+      "iron-snail:e:standard-strange-wakayama-special",
+      "iron-snail:e:wonder-looper-super-heavyweight-t-shirt",
+      "iron-snail:e:the-beast",
+      "iron-snail:e:bayside",
+      "iron-snail:e:risa",
+      "iron-snail:e:naked-famous",
+      "iron-snail:e:taylor",
+      "iron-snail:e:loopwheel",
+      "iron-snail:e:ring-spun-cotton",
+      "iron-snail:e:supima-cotton",
+      "iron-snail:e:slub-cotton",
+      "iron-snail:e:organic-cotton",
+      "iron-snail:e:staple-length",
+      "iron-snail:e:chain-stitching",
+      "iron-snail:e:pigment-dyeing",
+      "iron-snail:e:fabric-weight-ounces",
+      "iron-snail:e:fold-over-collar"
+    ],
+    "categories": [
+      "t-shirts"
+    ],
+    "answers_questions": [
+      "What's the best t-shirt you've ever tested?",
+      "Which t-shirt is the best value for the money?",
+      "Is the Carhartt K87 a good t-shirt?",
+      "How does the Velva Sheen tee fit? Does it run small?",
+      "Is the Sunspel t-shirt worth $90?",
+      "What's the heaviest t-shirt in the world?",
+      "Is the Standard & Strange Wakayama Special worth $100?",
+      "Are Bronson loopwheel tees any good?",
+      "Buck Mason vs Huckberry slub tee, which is better?",
+      "What's the Adidas Human Race t-shirt quality like?",
+      "Is the Patagonia t-shirt worth it?",
+      "What is Unbleached Apparel?",
+      "Can I get a custom chain stitched t-shirt from Wonder Looper?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:C-OZAlpnkTk:s0011",
+        "note": "While reading the final ranking, Velva Sheen is first placed 3rd and Buck Mason 4th. They are then swapped: Buck Mason 3rd and Velva Sheen 4th, because of Velva Sheen's poor fit."
+      }
+    ],
+    "related_videos": [
+      "Previous t-shirt ranking video focused on heavyweight tees (included a $4 H&M shirt and explained loopwheel)",
+      "Upcoming video on how to look good in a t-shirt",
+      "Article: 12 best men's t-shirts ranked",
+      "Article: Types of cotton fabric quick guide"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:unbleached-apparel",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Unbleached Apparel",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "unbleached apparel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chance",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Chance",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chance"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Carhartt",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "carhartt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt-k87-heavyweight-loose-fit-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Carhartt K87 Heavyweight Loose Fit T-Shirt",
+      "brand": "Carhartt",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Carhartt k87"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Bronson",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson-heavyweight-tee-embryo",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bronson heavyweight tee (embryo)",
+      "brand": "Bronson",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "embryo"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bronson-loopwheel-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Bronson loopwheel t-shirt",
+      "brand": "Bronson",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Bronson Loop wheel",
+        "loop wheel t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Huckberry",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "huckberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:slub-cotton-pocket-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "slub cotton pocket tee",
+      "brand": "Huckberry",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "45 slub cotton pocket tee"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Buck Mason",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Spock fairy",
+        "[ __ ] Mason"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason-pocket-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Buck Mason pocket tee",
+      "brand": "Buck Mason",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Buck Mason"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-organic-graphic-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia organic graphic tee",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Patagonia shirt"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adidas",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Adidas",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adidas-human-race-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Adidas Human Race tee",
+      "brand": "Adidas",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "cyborg",
+        "human race shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pharrell",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Pharrell",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "New Balance",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "New Balances"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:velva-sheen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Velva Sheen",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Bell machines",
+        "bubble machine",
+        "velve Sheen",
+        "velve machine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:velva-sheen-pigment-dyed-tee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Velva Sheen pigment dyed tee",
+      "brand": "Velva Sheen",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "pigment dyed version"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sunspel",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sunspel",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Sun spell"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:h-m",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "H&M",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "h m"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:standard-strange",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Standard & Strange",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "standard and strange"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:standard-strange-wakayama-special",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Standard & Strange Wakayama Special",
+      "brand": "Standard & Strange",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "wakayama special"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wonder-looper-super-heavyweight-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wonder Looper super heavyweight t-shirt",
+      "brand": "Wonder Looper",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Wonder Looper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-beast",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Beast",
+      "brand": "Wonder Looper",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "the Beast"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bayside",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Bayside",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bayes Ed",
+        "base adds",
+        "base ads",
+        "base had",
+        "base has",
+        "bass ad",
+        "bazad",
+        "beza's"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:risa",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Risa",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Reese"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:naked-famous",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Naked & Famous",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Naked and Famous",
+        "naked and famous"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loopwheel",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loopwheel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "loop wheel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ring-spun-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "ring spun cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:supima-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "supima cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:slub-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "slub cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:organic-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "organic cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "organic"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:staple-length",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "staple length",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "longer staple cotton",
+        "shorter staple cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chain-stitching",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "chain stitching",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chain stitched"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pigment-dyeing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "pigment dyeing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pigment dyed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fabric-weight-ounces",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "fabric weight (ounces)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ounces"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fold-over-collar",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "fold-over collar",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fold over collar",
+        "stitched over collar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "3638a24ace370359"
+}
