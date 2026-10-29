@@ -1,0 +1,606 @@
+{
+  "platform_id": "YqcaWn7zzDU",
+  "profile": {
+    "video_id": "iron-snail:YqcaWn7zzDU",
+    "purpose": "A four-year review of the Wolverine Original 1000 Mile Boot, asking whether it is a good first Goodyear-welted boot. It covers sizing, wear, leather, sole, construction and style, and compares it with the Red Wing Iron Ranger and Thursday Boots.",
+    "video_type": "long_term_review",
+    "thesis": "After four years of occasional wear, the creator assesses the Wolverine 1000 Mile as an entry-level heritage boot. He weighs its Horween Chromexcel leather, US manufacture, cork midsole and resoleable welt against its slick leather sole, mid-grade leather and cosmetic quality-control flaws.",
+    "key_takeaways": [
+      "Covers sizing: he went true to his boot size (8D) and discusses whether a half size up suits thick wool socks.",
+      "Explains Horween Chromexcel leather: pull-up, history, tanning process, and that Wolverine uses a mid grade.",
+      "Discusses the leather outsole's lack of traction, gravel pitting, the stacked leather and rubber heel, and the idea of having a cobbler add a Vibram sole.",
+      "Describes the cork midsole, break-in, triple stitching, Goodyear welt resoleability and the boot's weight.",
+      "Discusses quality-control issues such as loose threads and odd creasing, which he sees as cosmetic.",
+      "Positions the boot as a dressier basic boot rather than a modern work boot, and gives styling ideas.",
+      "Compares it with the Red Wing Iron Ranger and Thursday Boots on price, leather, heritage and style."
+    ],
+    "outline": [
+      {
+        "title": "Introduction",
+        "summary": "A no-music intro filmed at his old elementary school, framing the question of how tough the boots are.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "The backstory",
+        "summary": "How he chose between Red Wing Iron Rangers and Wolverine 1000 Miles about four years ago, and won the Wolverines in a contest.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Acquisition and details",
+        "summary": "Context on how much he has actually worn them, the aftermarket leather laces, and the boot's place as a popular entry-level Goodyear-welted boot. The filming moves to New York.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Sizing and fit",
+        "summary": "He went true to size (8D) against advice to size up, and discusses fit with thin cotton versus thick wool socks. He recommends trying them on in person.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Wear and durability",
+        "summary": "How the boots held up through a week of snow and slush at Sundance, and a scratch from a stiletto heel. Chromexcel pull-up lets scratches be buffed out.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Leather quality and origin",
+        "summary": "The history of Horween and Chromexcel, including use on war-era tanks, and its tanning process. Wolverine uses a mid grade of leather, with loose grain creasing. Both leather and construction are US-made.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Sole and outsole issues",
+        "summary": "The leather outsole has almost no traction and gets pitted by gravel, and he would like a rubber Vibram-type sole added. The heel is stacked leather with rubber.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Construction and comfort",
+        "summary": "The cork midsole molds to the foot, so break-in is manageable and comfort is good afterwards. Triple stitching on the vamp adds durability.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Quality control and style",
+        "summary": "Loose threads and creasing are cosmetic QC issues. The boots are heavy and stiff when new, more professor or desk-job than construction boot, dressier than Iron Rangers, and resoleable thanks to the Goodyear welt.",
+        "first_segment": 11,
+        "last_segment": 13
+      },
+      {
+        "title": "Conclusion and comparison",
+        "summary": "Summary and styling with jeans and leather laces. He asks why the 1000 Mile has a cult following compared with Red Wing Iron Rangers, and compares it with Thursday Boots on price and heritage.",
+        "first_segment": 13,
+        "last_segment": 16
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "first video i made i tried",
+        "last_segment": 0,
+        "ends_with": "wanna talk my video monetize my video",
+        "note": "Intro explaining why there's no music, filmed at his old school."
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "definitely tougher than me during the eight",
+        "last_segment": 0,
+        "ends_with": "stand up more than i could to maverick",
+        "note": "Joke about being bullied at the school and about his dog Maverick."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "quick change of plans i forgot",
+        "last_segment": 2,
+        "ends_with": "if new york mike has to come out if i forget something",
+        "note": "Explains he went on vacation and is finishing the video in Queensbury, New York."
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "and that's actually because i went to a ball",
+        "last_segment": 5,
+        "ends_with": "a pretty uh pretty dangerous night",
+        "note": "Story about dancing at a ball with his girlfriend Taylor and being stepped on by a stiletto."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "also really quick i'm staying in an airbnb",
+        "last_segment": 7,
+        "ends_with": "with things being well above average",
+        "note": "Joke about a giant zucchini at the Airbnb."
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "which is honestly a big adjustment for me",
+        "last_segment": 10,
+        "ends_with": "they redid the entire playground that's the true story",
+        "note": "Heelies joke and a childhood playground story."
+      },
+      {
+        "role": "outro",
+        "first_segment": 16,
+        "starts_with": "anyways thanks so much for watching",
+        "last_segment": 16,
+        "ends_with": "anyways talk to you all soon bye",
+        "note": "Sign-off with a subscribe request and a zucchini joke."
+      }
+    ],
+    "topics": [
+      "Wolverine 1000 Mile boot review",
+      "boot sizing",
+      "Horween Chromexcel leather",
+      "leather vs rubber outsoles",
+      "cork midsole break-in",
+      "Goodyear welt resoling",
+      "quality control",
+      "entry-level heritage boots",
+      "Red Wing Iron Ranger comparison",
+      "Thursday Boots comparison",
+      "styling boots with jeans"
+    ],
+    "entity_ids": [
+      "iron-snail:e:wolverine-1000-mile-boot",
+      "iron-snail:e:wolverine",
+      "iron-snail:e:red-wing-iron-ranger",
+      "iron-snail:e:red-wing",
+      "iron-snail:e:horween",
+      "iron-snail:e:chromexcel",
+      "iron-snail:e:vibram",
+      "iron-snail:e:vyberg",
+      "iron-snail:e:thursday-boots",
+      "iron-snail:e:clarks-desert-boot",
+      "iron-snail:e:stan-smith",
+      "iron-snail:e:birkenstock",
+      "iron-snail:e:heelies",
+      "iron-snail:e:stridewise",
+      "iron-snail:e:taylor",
+      "iron-snail:e:goodyear-welt",
+      "iron-snail:e:leather-outsole",
+      "iron-snail:e:cork-midsole",
+      "iron-snail:e:stacked-leather-heel",
+      "iron-snail:e:triple-stitching",
+      "iron-snail:e:leather-laces",
+      "iron-snail:e:pull-up-leather",
+      "iron-snail:e:loose-grain-creasing",
+      "iron-snail:e:resoling",
+      "iron-snail:e:wool-socks"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "Should I size up in Wolverine 1000 Mile boots?",
+      "How do Wolverine 1000 Miles hold up after four years?",
+      "What leather do Wolverine 1000 Mile boots use and is it good quality?",
+      "Do Wolverine 1000 Miles have a leather sole, and are they slippery?",
+      "Can you add a Vibram sole to Wolverine 1000 Mile boots?",
+      "Are Wolverine 1000 Miles comfortable and how bad is the break-in?",
+      "Wolverine 1000 Mile vs Red Wing Iron Ranger: which should I get?",
+      "Are Wolverine 1000 Miles good as work boots?",
+      "Do Wolverine 1000 Miles have quality control issues?",
+      "Are Thursday Boots a better deal than Wolverine 1000 Miles?",
+      "Are Wolverine 1000 Mile boots made in the USA?",
+      "What should I wear with Wolverine 1000 Mile boots?",
+      "Can Wolverine 1000 Miles be resoled?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "style",
+      "care_maintenance",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:YqcaWn7zzDU:s0005",
+        "note": "He was unsure whether Chromexcel was first used on WWI or WWII tanks. After checking, he confirms it was used on tanks, but still can't say which war and asks viewers to comment."
+      },
+      {
+        "segment_id": "iron-snail:YqcaWn7zzDU:s0002",
+        "note": "He pauses to check his boot size and confirms he got an 8 (8D)."
+      }
+    ],
+    "related_videos": [
+      "The Iron Snail's Birkenstock review (released the week before)",
+      "Stridewise's review of Thursday Boots",
+      "The Iron Snail's first video, which had a music intro and became his most popular video"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:wolverine-1000-mile-boot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wolverine 1000 Mile Boot",
+      "brand": "Wolverine",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "thousand miles",
+        "wolverine thousand mile boots",
+        "wolverine thousand miles"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wolverine",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wolverine",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wolverine",
+        "wolverines"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing-iron-ranger",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Red Wing Iron Ranger",
+      "brand": "Red Wing",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "iron rangers",
+        "red wing iron rangers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Red Wing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "red wings"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:horween",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Horween",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "horween"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chromexcel",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Chromexcel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chromaxo",
+        "chromexa",
+        "chromexo",
+        "chromexyl"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "vibram"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vyberg",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "vyberg",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "vibrate"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:thursday-boots",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Thursday Boots",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "thursday",
+        "thursday boots",
+        "thursday's boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:clarks-desert-boot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Clarks Desert Boot",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "clark desert boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stan-smith",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Stan Smith",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "stan smith's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:birkenstock",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Birkenstock",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "birkenstock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:heelies",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Heelies",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "heelies"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stridewise",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Stridewise",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "stride wise",
+        "stridewise"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goodyear-welt",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Goodyear welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Goodyear welted",
+        "goodyear welted",
+        "goodyear welton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-outsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather outsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "leather sole",
+        "the bottom is leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cork-midsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "cork midsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "midsole of these boots is actually cork"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stacked-leather-heel",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "stacked leather heel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "stacked leather and then rubber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:triple-stitching",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "triple stitching",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "triple stitching along the vamp"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-laces",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather laces",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pull-up-leather",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "pull-up leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pull up"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loose-grain-creasing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loose grain creasing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:resoling",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "resoling",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "resold",
+        "resoled"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wool-socks",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "wool socks",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "83b2d96acf4e9d96"
+}

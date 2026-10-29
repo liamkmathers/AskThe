@@ -1,0 +1,599 @@
+{
+  "platform_id": "4cRAkEHfXKo",
+  "profile": {
+    "video_id": "iron-snail:4cRAkEHfXKo",
+    "purpose": "Show how to clean, condition, oil and wax a two-year-old pair of leather Blundstone boots using Otterwax products, with a brief look at how the boots have held up.",
+    "video_type": "how_to",
+    "thesis": "After about two years of wear, the creator restores his Blundstones by cleaning, conditioning, oiling and waxing them in that order.",
+    "key_takeaways": [
+      "The order is clean, condition, then wax, because conditioner and wax applied over dirt just make a mess.",
+      "Cleaning means brushing off loose dirt with a horse hair brush, then scrubbing with saddle soap on a wet Tampico brush and wiping it off with a damp lint-free cloth.",
+      "Salve is a deep, heavy moisturiser for dry, cracked leather. Leather oil is a lighter treatment that adds sheen, and the creator uses both.",
+      "Wax is applied like the salve, left to dry, massaged in and buffed with horse hair to make the boots more water resistant.",
+      "Wax and oils darken the leather, but it lightens again with wear.",
+      "There is no fixed schedule. Treat the boots when they look or feel dry or stop beading water, and clean them regularly because dirt wears leather down.",
+      "A Huckberry sponsor segment covers the Naglev Unico hiker: a seamless Kevlar upper, reinforced rand, wool sock liner, water resistant rather than waterproof, sold in EU sizes, with a suggestion to size up half a size."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Michael introduces Blundstones as the boot of the channel's first video, says he has had this pair about two years, and shows how worn the Rustic Brown leather has become.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Disclaimer",
+        "summary": "Explains that the video is not sponsored by Otterwax, though its owner Chris provided a referral code, and why the creator likes Otterwax's all-natural products.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Step 1: Cleaning",
+        "summary": "Brushing off dirt, then cleaning with saddle soap, a Tampico brush and a damp lint-free cloth, including why Tampico fibre suits leather.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Step 2: Conditioning",
+        "summary": "The difference between leather salve and leather oil, then applying salve with a cloth and with fingers to fill cracks in the leather.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Sponsor: Naglev Unico hiker",
+        "summary": "Huckberry-sponsored look at the Naglev Unico low hiking shoe: its Kevlar upper, reinforced rand, traction, wool liner and sizing.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Step 4: Oil",
+        "summary": "Applying Otterwax leather oil, which contains safflower and vitamin E, after the salve to polish the boot.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Step 5: Wax",
+        "summary": "Applying wax as the final weatherproofing layer, then massaging it in and buffing it with horse hair.",
+        "first_segment": 8,
+        "last_segment": 8
+      },
+      {
+        "title": "Common questions: darkening and frequency",
+        "summary": "Whether wax and oil darken boots, and how often to treat leather, ending with a before-and-after feel comparison.",
+        "first_segment": 8,
+        "last_segment": 9
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "what's up YouTube it's Michael your",
+        "last_segment": 0,
+        "ends_with": "new phone that won't stop dinging",
+        "note": "Greeting, a joke about vape haze, the new-channel plug, and the plan for the video."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 0,
+        "starts_with": "also this video is",
+        "last_segment": 1,
+        "ends_with": "and talk about the blun stones",
+        "note": "Huckberry sponsor mention for the Naglev Unico hiker he is wearing."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "wow look the eight tree bloomed",
+        "last_segment": 1,
+        "ends_with": "everyone I feel so bloated",
+        "note": "Passing remarks while hiking."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 1,
+        "starts_with": "this is a general disclaimer brought",
+        "last_segment": 2,
+        "ends_with": "when did I turn into a sellout",
+        "note": "Disclaimer that Otterwax is not a sponsor, with its referral code, plus a Huckberry plug for the Flint and Tinder 10-Year Flannel."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 6,
+        "starts_with": "today like I said said we're",
+        "last_segment": 7,
+        "ends_with": "gosh dang shame so check it out",
+        "note": "Huckberry sponsor read for the Naglev Unico hiker."
+      },
+      {
+        "role": "outro",
+        "first_segment": 9,
+        "starts_with": "I have to go shoot another",
+        "last_segment": 9,
+        "ends_with": "I'm talking about the pants",
+        "note": "Sign-off and a teaser that the next video is about Dickies pants."
+      }
+    ],
+    "topics": [
+      "leather boot restoration",
+      "cleaning leather with saddle soap",
+      "conditioning with leather salve vs leather oil",
+      "waxing boots for water resistance",
+      "order of leather care steps",
+      "Tampico vs horse hair brushes",
+      "leather darkening after treatment",
+      "how often to condition boots",
+      "Blundstone boots after two years of wear",
+      "Naglev Unico hiker"
+    ],
+    "entity_ids": [
+      "iron-snail:e:blundstone",
+      "iron-snail:e:blundstone-585",
+      "iron-snail:e:otterwax",
+      "iron-snail:e:chris",
+      "iron-snail:e:otterwax-saddle-soap",
+      "iron-snail:e:otterwax-leather-salve",
+      "iron-snail:e:otterwax-leather-oil",
+      "iron-snail:e:otterwax-boot-wax",
+      "iron-snail:e:huckberry",
+      "iron-snail:e:naglev",
+      "iron-snail:e:naglev-unico-hiker",
+      "iron-snail:e:kevlar",
+      "iron-snail:e:rand",
+      "iron-snail:e:wool-sock-liner",
+      "iron-snail:e:flint-and-tinder-10-year-flannel",
+      "iron-snail:e:flint-and-tinder",
+      "iron-snail:e:tampico-brush",
+      "iron-snail:e:alo-lugia-plant",
+      "iron-snail:e:horse-hair-brush",
+      "iron-snail:e:kiwi-saddle-soap",
+      "iron-snail:e:leather-salve",
+      "iron-snail:e:rustic-brown-leather",
+      "iron-snail:e:safflower-oil",
+      "iron-snail:e:vitamin-e",
+      "iron-snail:e:dickies"
+    ],
+    "categories": [
+      "boots",
+      "shoes",
+      "shirts",
+      "accessories"
+    ],
+    "answers_questions": [
+      "How do I clean and restore old Blundstone boots?",
+      "What order should I clean, condition and wax leather boots in?",
+      "What's the difference between leather salve and leather oil?",
+      "Should I use a Tampico brush or a horse hair brush on leather?",
+      "Does waxing or oiling darken leather boots?",
+      "Will my boots lighten again after waxing?",
+      "How often should I condition and wax my boots?",
+      "How do I make leather boots more water resistant?",
+      "How do Otterwax products work on leather boots?",
+      "How do Blundstones hold up after two years of wear?",
+      "How does the Naglev Unico hiker fit, and should I size up?",
+      "Is the Naglev Unico hiker waterproof?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:4cRAkEHfXKo:s0003",
+        "note": "He says he skipped a step: before saddle-soaping, brush the boot with a horse hair brush (not the Tampico brush) to remove as much dirt as possible."
+      },
+      {
+        "segment_id": "iron-snail:4cRAkEHfXKo:s0000",
+        "note": "He first says 'waterproofing', then corrects this to water resisting, only to a point."
+      },
+      {
+        "segment_id": "iron-snail:4cRAkEHfXKo:s0005",
+        "note": "Having been saying 'Sav', he notes the label says 'Salve' and spells it s-a-l-v-e for anyone searching for it."
+      }
+    ],
+    "related_videos": [
+      "The channel's first-ever video, about Blundstones, from when it was called Wool and Linen",
+      "Upcoming video about Dickies pants",
+      "New video on Michael's second channel, coming Tuesday"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:blundstone",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Blundstone",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Bloodstones",
+        "blend stone",
+        "blendstone",
+        "blonde so",
+        "blonde stones",
+        "blood stones",
+        "bloodstone",
+        "bloodstones",
+        "blown stones",
+        "blun Stones",
+        "blun stones",
+        "blundstone",
+        "blundstones",
+        "blunt stone",
+        "blunt stones",
+        "blunts on boots",
+        "redstones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-585",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone 585",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "blundstones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Otterwax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "auto wax",
+        "autowax",
+        "otter wax",
+        "otter waxes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chris",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Chris",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cress"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax-saddle-soap",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Otterwax Saddle Soap",
+      "brand": "Otterwax",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "saddle soap"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax-leather-salve",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Otterwax Leather Salve",
+      "brand": "Otterwax",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Salve",
+        "Sav",
+        "salv"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax-leather-oil",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Otterwax Leather Oil",
+      "brand": "Otterwax",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "leather oil",
+        "otter wax",
+        "otter wax leather oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax-boot-wax",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Otterwax boot wax",
+      "brand": "Otterwax",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "wax"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Huckberry",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "huckberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:naglev",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Naglev",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "nagl",
+        "naglev"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:naglev-unico-hiker",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Naglev Unico Hiker",
+      "brand": "Naglev",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "naglev Uno hiker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kevlar",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Kevlar",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "klar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rand",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rand",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wool-sock-liner",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "wool sock liner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:flint-and-tinder-10-year-flannel",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Flint and Tinder 10-Year Flannel",
+      "brand": "Flint and Tinder",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "10year flannel from Flint and Tinder"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:flint-and-tinder",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Flint and Tinder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tampico-brush",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Tampico brush",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Tempo",
+        "Tempo brush",
+        "tempico",
+        "tempico brush"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alo-lugia-plant",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Alo Lugia plant",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:horse-hair-brush",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "horse hair brush",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "course ha brush"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kiwi-saddle-soap",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Kiwi Saddle Soap",
+      "brand": "Kiwi",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Kiwi",
+        "saddle soap"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-salve",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "leather salve",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Salve",
+        "Sav"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rustic-brown-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Rustic Brown leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rustic Brown"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:safflower-oil",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "safflower oil",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "safflower"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vitamin-e",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "vitamin E",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dickies",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dickies",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "6f41d730499f97f9"
+}

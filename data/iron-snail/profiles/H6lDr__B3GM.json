@@ -1,0 +1,401 @@
+{
+  "platform_id": "H6lDr__B3GM",
+  "profile": {
+    "video_id": "iron-snail:H6lDr__B3GM",
+    "purpose": "A supplementary how-to to the creator's Blundstone review. It explains whether Blundstones come pretreated, why rustic or distressed leathers need conditioning, and shows a pair being cleaned and oiled with Otterwax Leather Oil.",
+    "video_type": "how_to",
+    "thesis": "Not all Blundstones are made the same. Rustic and Crazy Horse leather styles aren't pretreated like finished, oiled leathers, so they should be conditioned to resist water and last longer, even though this darkens them.",
+    "key_takeaways": [
+      "Blundstone's Canadian FAQ says most Blundstones are pretreated and shouldn't be treated out of the box, except rustic brown, Crazy Horse brown and rustic black leathers.",
+      "This corrects the creator's earlier review claim that his distressed rustic pair was already water resistant.",
+      "Untreated rustic pairs may break down sooner, which may explain some reports of poor quality control.",
+      "Clean the boot first with a brush, or saddle soap if it is dirty, so you oil the leather and not the dirt; avoid dish soap.",
+      "Apply thin coats of oil with a rag, work it into the welt edges, and possibly the rubber too; drying takes a day or two.",
+      "Oiling darkens the leather noticeably.",
+      "Silicone or 'nano' sprays are an option that changes the look less, but they need reapplying."
+    ],
+    "outline": [
+      {
+        "title": "Are Blundstones waterproof?",
+        "summary": "Revisits a claim from his Blundstone review and reads Blundstone's FAQ: most styles are pretreated, but rustic and Crazy Horse leathers are not and may be conditioned. Discusses why untreated leather breaks down.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Brush and saddle soap",
+        "summary": "Introduces a Kiwi horsehair brush and Kiwi saddle soap. Explains why saddle soap beats dish soap, which strips the oils from leather.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Applying leather oil",
+        "summary": "Introduces Otterwax Leather Oil and recommends conditioning. Demonstrates cleaning, brushing and applying thin coats of oil with a rag, including the rubber and the welt edges.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "Results and maintenance",
+        "summary": "Compares the oiled boot with the untreated one and stresses regular conditioning. Mentions silicone or nano sprays as a lower-impact alternative.",
+        "first_segment": 7,
+        "last_segment": 8
+      }
+    ],
+    "passages": [
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "so I was like you know",
+        "last_segment": 4,
+        "ends_with": "concerned about the oil I use",
+        "note": "Joke about caring about eco-friendly oil while buying leather boots."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "but this is also more fun",
+        "last_segment": 8,
+        "ends_with": "wet and healthy like a live cow",
+        "note": "Joke about the oiled boots looking like a live cow."
+      },
+      {
+        "role": "outro",
+        "first_segment": 8,
+        "starts_with": "anyways if you like this video",
+        "last_segment": 8,
+        "ends_with": "to but other than that",
+        "note": "Subscribe request and mention of his full Blundstone review."
+      }
+    ],
+    "topics": [
+      "Blundstone waterproofing",
+      "leather conditioning",
+      "rustic and Crazy Horse leather",
+      "boot cleaning",
+      "saddle soap vs dish soap",
+      "applying leather oil",
+      "leather darkening after oiling",
+      "silicone waterproofing sprays"
+    ],
+    "entity_ids": [
+      "iron-snail:e:blundstone",
+      "iron-snail:e:blundstone-550-rustic-brown-style-585",
+      "iron-snail:e:otterwax-leather-oil",
+      "iron-snail:e:otterwax",
+      "iron-snail:e:kiwi-saddle-soap",
+      "iron-snail:e:kiwi-horsehair-brush",
+      "iron-snail:e:blundstone-waxy-oil-conditioner",
+      "iron-snail:e:mink-oil",
+      "iron-snail:e:crazy-horse-leather",
+      "iron-snail:e:rustic-leather",
+      "iron-snail:e:red-wing-811",
+      "iron-snail:e:silicone-nano-spray",
+      "iron-snail:e:dish-soap",
+      "iron-snail:e:target",
+      "iron-snail:e:cvs",
+      "iron-snail:e:leather-conditioning"
+    ],
+    "categories": [
+      "boots",
+      "accessories"
+    ],
+    "answers_questions": [
+      "Are Blundstones waterproof out of the box?",
+      "Should I treat or oil my new Blundstones?",
+      "Why are rustic brown Blundstones different from the other leathers?",
+      "How do I apply Otterwax leather oil to boots?",
+      "Will oiling my Blundstones darken them?",
+      "Can I clean leather boots with dish soap?",
+      "Do I need saddle soap before conditioning my boots?",
+      "Should I oil the rubber part of my Chelsea boots?",
+      "How long does leather oil take to dry on boots?",
+      "Is there a way to waterproof boots without changing how they look?",
+      "Why do some people say Blundstone quality control is bad?",
+      "How often should I condition leather boots?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:H6lDr__B3GM:s0000",
+        "note": "Corrects his earlier Blundstone review, where he said his distressed rustic pair was water resistant. Blundstone's FAQ shows rustic leathers are not pretreated like finished, oiled leathers."
+      }
+    ],
+    "related_videos": [
+      "The Iron Snail's Blundstone review",
+      "A video of someone cleaning Red Wing 811 boots with dish soap",
+      "A video suggesting oiling the rubber of boots too"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:blundstone",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Blundstone",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Bloodstones",
+        "blend stone",
+        "blonde so",
+        "blonde stones",
+        "blood stones",
+        "bloodstone",
+        "blown stones",
+        "blunt stone",
+        "blunt stones",
+        "blunts on boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-550-rustic-brown-style-585",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone 550 Rustic Brown (Style 585)",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "bloodstone",
+        "blunts on boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax-leather-oil",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Otterwax Leather Oil",
+      "brand": "Otterwax",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "otter wax",
+        "otter wax leather oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Otterwax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "otter wax"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kiwi-saddle-soap",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Kiwi Saddle Soap",
+      "brand": "Kiwi",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Kiwi",
+        "saddle soap"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kiwi-horsehair-brush",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Kiwi Horsehair Brush",
+      "brand": "Kiwi",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "horsehair brush that I got from Kiwi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kiwi-saddle-soap",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Kiwi Saddle Soap",
+      "brand": "Kiwi",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Kiwi",
+        "saddle soap"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-waxy-oil-conditioner",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone Waxy Oil Conditioner",
+      "brand": "Blundstone",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "blunt stone waxy oil conditioner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mink-oil",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "mink oil",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crazy-horse-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Crazy Horse leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Crazy Horse",
+        "Crazy Horse brown"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rustic-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "rustic leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rustic Brown",
+        "rustic black"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing-811",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Red Wing 811",
+      "brand": "Red Wing",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Red Wings eight one one ones"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:silicone-nano-spray",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "silicone nano spray",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "nano sprays",
+        "silicone spray"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dish-soap",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "dish soap",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:target",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Target",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cvs",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "CVS",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-conditioning",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "leather conditioning",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "condition",
+        "treat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "49a88175d36793af"
+}

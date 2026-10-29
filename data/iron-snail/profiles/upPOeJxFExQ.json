@@ -1,0 +1,487 @@
+{
+  "platform_id": "upPOeJxFExQ",
+  "profile": {
+    "video_id": "iron-snail:upPOeJxFExQ",
+    "purpose": "A review of the classic 8-inch tumbled-leather L.L.Bean boot that walks through height, lining and material options, manufacturing, warranty and resoling, construction, and how to style and age the boots.",
+    "video_type": "review",
+    "thesis": "The L.L.Bean boot is still a well-made, functional original worth buying over copies. Whether it reads as prep or workwear depends on how it is worn and aged.",
+    "key_takeaways": [
+      "The creator bought the 8-inch unlined tumbled-leather version, the most basic configuration, for three-season versatility.",
+      "Height options: 8 inch is the standard height, taller boots give more leg protection, and he advises against going lower.",
+      "Lining options covered are unlined, shearling, Thinsulate and Gore-Tex. A waxed canvas upper is offered as a non-leather option.",
+      "The boots are made in Maine, USA. The lifetime guarantee is gone, replaced by a one-year warranty, and the boots can be resoled by replacing the whole rubber bottom.",
+      "Construction details covered: mostly triple stitched, a maker's name tag, and a rubber bottom that is waterproof up to the rubber line. The leather needs waxing to stay water resistant.",
+      "Styling and aging are discussed: wider jean leg openings worn over the boot, and how wear and patina shift the boots from prep toward workwear."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Bean Boots",
+        "summary": "Opens with the question of whether the iconic boot is still functional, gives a short verdict, and covers its origin as a wading boot and its adoption by preppy fashion.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "History and Styles",
+        "summary": "Introduces the specific pair (8-inch tumbled leather) and compares textured with smooth leather before turning to the many configurations available.",
+        "first_segment": 1,
+        "last_segment": 1
+      },
+      {
+        "title": "Choosing the right height",
+        "summary": "Covers boot heights, with 8 inch as the standard, and stresses deciding what you will use the boots for.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Lining options and use cases",
+        "summary": "Explains why he chose unlined boots for three-season use with thick socks or a shearling footbed, and when shearling-lined boots make sense.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Alternative lining and materials",
+        "summary": "Covers Thinsulate and Gore-Tex linings and the waxed canvas upper as an alternative to leather.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Manufacturing and warranty",
+        "summary": "Notes the boots are made in Maine, that the lifetime guarantee has been replaced by a one-year warranty, and how resoling works.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Construction and durability",
+        "summary": "Covers the maker's name tag, triple stitching, the rubber-to-leather seam, and waterproofing with leather upkeep.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Styling the boots",
+        "summary": "Discusses the boot's preppy image and how to bend it toward workwear, including jean leg opening sizes and wearing jeans over the boots.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Aging, care, and conclusion",
+        "summary": "Explains how wear, conditioning and patina change the boots and the outfit over years, then closes with his recommendation.",
+        "first_segment": 9,
+        "last_segment": 11
+      }
+    ],
+    "passages": [
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "my girlfriend landscapes and her beam",
+        "last_segment": 2,
+        "ends_with": "landscaping but you know whatever",
+        "note": "Joke about his girlfriend landscaping in bean boots"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "I'm gonna do a review on",
+        "last_segment": 4,
+        "ends_with": "okay follow me on your telephone",
+        "note": "Subscribe, like and Instagram follower plug, including his follower count"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "one time I remember it was",
+        "last_segment": 4,
+        "ends_with": "I didn't like Sonia any more",
+        "note": "Seventh-grade story about trying on a crush's Uggs"
+      },
+      {
+        "role": "outro",
+        "first_segment": 11,
+        "starts_with": "if you liked this video please",
+        "last_segment": 11,
+        "ends_with": "see you guys in the next one",
+        "note": "Subscribe, like and Instagram call to action, then sign-off"
+      }
+    ],
+    "topics": [
+      "L.L.Bean boot review",
+      "boot height options",
+      "shearling vs unlined vs Thinsulate vs Gore-Tex lining",
+      "waxed canvas upper",
+      "made in USA",
+      "warranty and lifetime guarantee",
+      "resoling",
+      "boot construction and waterproofing",
+      "leather care and waxing",
+      "prep vs workwear styling",
+      "jean leg opening with boots",
+      "patina and aging"
+    ],
+    "entity_ids": [
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:l-l-bean-boot",
+      "iron-snail:e:tumbled-leather",
+      "iron-snail:e:smooth-leather",
+      "iron-snail:e:shearling",
+      "iron-snail:e:thinsulate",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:waxed-canvas",
+      "iron-snail:e:sorel",
+      "iron-snail:e:sperry",
+      "iron-snail:e:ugg",
+      "iron-snail:e:blend-stones",
+      "iron-snail:e:sugar-cane-type-2-jacket",
+      "iron-snail:e:resoling",
+      "iron-snail:e:patina",
+      "iron-snail:e:lifetime-guarantee",
+      "iron-snail:e:leg-opening",
+      "iron-snail:e:prep-fashion",
+      "iron-snail:e:workwear"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "Are L.L.Bean boots still worth buying or did quality go down?",
+      "Should I get the original bean boots or Sorels or Sperrys?",
+      "What height of bean boot should I get?",
+      "Should I get unlined, shearling, Thinsulate or Gore-Tex bean boots?",
+      "Can unlined bean boots be worn in winter?",
+      "Are L.L.Bean boots still made in the USA?",
+      "Does L.L.Bean still have the lifetime guarantee on boots?",
+      "Can you resole L.L.Bean boots?",
+      "Are bean boots waterproof?",
+      "How do I style bean boots so they look less preppy?",
+      "Should jeans go over or be cuffed above bean boots?",
+      "Tumbled leather or smooth leather bean boots?",
+      "Is there a non-leather version of the bean boot?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance",
+      "style"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Upcoming review of a shearling-lined jacket"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L o beam",
+        "LL Bean",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-boot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean Boot",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "LL Bean boot",
+        "beam boots",
+        "bean boot",
+        "l.l.bean boot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tumbled-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "tumbled leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "textured leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:smooth-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "smooth leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "smooth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shearling",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "shearling",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "shilling"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:thinsulate",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Thinsulate",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wax canvas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sorel",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sorel",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Sorels"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sperry",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sperry",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Sperrys"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ugg",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Ugg",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Uggs",
+        "hugs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blend-stones",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "blend stones",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sugar-cane-type-2-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Sugar Cane Type 2 jacket",
+      "brand": "Sugar Cane",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "type 2 sugar cane jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:resoling",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "resoling",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "resoled"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patina",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "patina",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lifetime-guarantee",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "lifetime guarantee",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leg-opening",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "leg opening",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:prep-fashion",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "prep fashion",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "preppy lifestyle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:workwear",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "workwear",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "work wear",
+        "work weary"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "a6716f83db719239"
+}

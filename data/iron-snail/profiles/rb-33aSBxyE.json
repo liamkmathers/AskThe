@@ -1,0 +1,409 @@
+{
+  "platform_id": "rb-33aSBxyE",
+  "profile": {
+    "video_id": "iron-snail:rb-33aSBxyE",
+    "purpose": "A one-year long-term review of Blundstone Chelsea boots in rustic brown nubuck, covering wear, break-in and work versus fashion use, with a pond-standing water resistance test.",
+    "video_type": "long_term_review",
+    "thesis": "After about a year of near-daily wear, including hikes, runs and city walking, the Blundstones are judged to be performing about as expected for their price. The creator weighs their scuffing, nubuck leather, break-in and place as a work-versus-fashion boot, then tests how long the untreated boots keep water out.",
+    "key_takeaways": [
+      "Worn almost daily for about eight months, including hikes in Maine, daily two-mile runs for about four months and 10,000 steps a day.",
+      "The leather is described as decent, about as thick as Birkenstock straps; the interior is soft and the treads are fine after a year.",
+      "Scuffs are heavier than expected, partly blamed on kicking rocks while descending mountains and on the distressed nubuck finish.",
+      "He says he would choose a smoother leather next time because it holds protection better than sanded nubuck.",
+      "The elastic side panels are slightly looser but still hold the boot on.",
+      "Break-in blisters appeared when he started running and walking track in them and stopped after two to three weeks.",
+      "He sees Blundstone as having shifted from work boot toward fashion boot, compared with Carhartt and Carhartt WIP.",
+      "In a pond test, with boots untreated for about a year, his feet stayed mostly dry; only the elastic band area got slightly wet."
+    ],
+    "outline": [
+      {
+        "title": "Intro and Comment Responses",
+        "summary": "Responds to comments on his first Blundstone video, including that the boots are injection molded and that better boots exist in this style. Says they look great after a year.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "How They Were Worn",
+        "summary": "Describes a year of wear: daily use for about eight months, hikes in Maine despite little ankle support, and daily runs and walks to fade his jeans.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "After a Year They Look Great",
+        "summary": "Overall condition relative to price: leather quality and thickness, soft inner leather, fine treads, and what he expects over the coming years.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Scuffs, Elastics and Interior Wear",
+        "summary": "Covers scuffing from mountain descents, elastics that are slightly looser but still tight, the footbed imprint, and lining wearing at the big toe.",
+        "first_segment": 3,
+        "last_segment": 3
+      },
+      {
+        "title": "Nubuck vs Smooth Leather",
+        "summary": "Explains why the sanded, artificially aged rustic nubuck shows wear more and why he would pick a smoother leather.",
+        "first_segment": 4,
+        "last_segment": 4
+      },
+      {
+        "title": "Break-In and Blisters",
+        "summary": "Describes getting break-in blisters once he started running and walking track in the boots, which stopped after two to three weeks.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Work Boot or Fashion Boot",
+        "summary": "Discusses Blundstone's manufacturing history and its shift into a fashion boot, compared with Carhartt and Carhartt WIP. Concludes it is decent but not exceptional for work and fits casual everyday wear.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Water Resistance Test",
+        "summary": "With the boots untreated for a year, he plans an ocean test but instead stands in a local pond to see how long his feet stay dry, including submerging the elastic bands.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Final Verdict",
+        "summary": "Concludes the boots are fine for crossing streams or standing in mud and remain great after a year.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Childhood Swing Story",
+        "summary": "A closing personal anecdote about growing up near the swings and his old school.",
+        "first_segment": 11,
+        "last_segment": 11
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "so there was a lot of",
+        "last_segment": 0,
+        "ends_with": "get into it a little bit more in depth",
+        "note": "Intro responding to comments on his first Blundstone video, with a quick 'they look great' verdict."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "i want to get fades for",
+        "last_segment": 1,
+        "ends_with": "get into all that hush kabosh later",
+        "note": "Teases an upcoming fading video and asks viewers to subscribe."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "definitely comment and also you should subscribe",
+        "last_segment": 7,
+        "ends_with": "remind you of that i probably did",
+        "note": "Asks viewers to comment and subscribe."
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "all right so the worst part probably",
+        "last_segment": 9,
+        "ends_with": "take for my feet to get wet",
+        "note": "Joke about being seen standing in mud in his hometown after graduating college."
+      },
+      {
+        "role": "outro",
+        "first_segment": 11,
+        "starts_with": "so all in all year in",
+        "last_segment": 11,
+        "ends_with": "but uh yeah that's it bye",
+        "note": "Sign-off."
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "so i grew up on these swings",
+        "last_segment": 11,
+        "ends_with": "head glued together that's about",
+        "note": "Childhood story about his demolished school, complimenting a kid's 'neck', and cutting his head on a cabinet."
+      }
+    ],
+    "topics": [
+      "Blundstone long-term durability",
+      "nubuck vs smooth leather",
+      "boot break-in and blisters",
+      "Chelsea boot elastic side panels",
+      "water resistance test",
+      "work boots vs fashion boots",
+      "injection molded boot construction",
+      "boot scuffing",
+      "Blundstone manufacturing history"
+    ],
+    "entity_ids": [
+      "iron-snail:e:blundstone",
+      "iron-snail:e:blundstone-585-rustic-brown",
+      "iron-snail:e:nubuck-leather",
+      "iron-snail:e:elastic-side-panels",
+      "iron-snail:e:injection-molding",
+      "iron-snail:e:chelsea-boot",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:birkenstock",
+      "iron-snail:e:carhartt",
+      "iron-snail:e:carhartt-wip",
+      "iron-snail:e:redback",
+      "iron-snail:e:box-toe-dress-chelsea-boot-girlfriend-s-slimmer-blundstone",
+      "iron-snail:e:patrick-wilbur"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "How do Blundstones hold up after a year of daily wear?",
+      "Are Blundstones good for hiking?",
+      "Do Blundstones need breaking in, and do they give you blisters?",
+      "Should I get the rustic brown nubuck Blundstones or a smooth leather?",
+      "Do the elastic sides on Blundstones stretch out over time?",
+      "Are Blundstones waterproof? Can you stand in water with them?",
+      "Are Blundstones a real work boot or more of a fashion boot?",
+      "Do Blundstones scuff easily?",
+      "Can you run in Blundstone boots?",
+      "Are Blundstones worth the price?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:rb-33aSBxyE:s0000",
+        "note": "Corrects his first Blundstone video, citing commenters: the boots are injection molded, with the rubber formed around the leather."
+      },
+      {
+        "segment_id": "iron-snail:rb-33aSBxyE:s0008",
+        "note": "Changes the water test plan: instead of the ocean on Cape Cod, he uses a pond near where he was filming."
+      }
+    ],
+    "related_videos": [
+      "His first Blundstone boot review video",
+      "His video treating the Blundstone boots shortly after buying them",
+      "Upcoming Birkenstock review",
+      "Upcoming video about fading clothes",
+      "His Levi's jeans wear test (the jeans worn while running)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:blundstone",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Blundstone",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Bloodstones",
+        "blend stone",
+        "blendstone",
+        "blonde so",
+        "blonde stones",
+        "blood stones",
+        "bloodstone",
+        "bloodstones",
+        "blown stones",
+        "blundstone",
+        "blunt stone",
+        "blunt stones",
+        "blunts on boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-585-rustic-brown",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone 585 Rustic Brown",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "rustic"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nubuck-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nubuck leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:elastic-side-panels",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "elastic side panels",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "bands",
+        "elastics"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:injection-molding",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "injection molding",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "injection molded"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chelsea-boot",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Chelsea boot",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "work chelsea boot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:birkenstock",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Birkenstock",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "birkenstock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Carhartt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carhartt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt-wip",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Carhartt WIP",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carhartt whip",
+        "wip"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:redback",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Redback",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:box-toe-dress-chelsea-boot-girlfriend-s-slimmer-blundstone",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "box toe dress Chelsea boot (girlfriend's slimmer Blundstone)",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "slimmer version of the boot with a box toe"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patrick-wilbur",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Patrick Wilbur",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patrick wilbur"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "971d85b8913c4c7d"
+}

@@ -1,0 +1,518 @@
+{
+  "platform_id": "a38PivchXTw",
+  "profile": {
+    "video_id": "iron-snail:a38PivchXTw",
+    "purpose": "A first-impressions review of Blundstone 550 Chelsea boots in rustic brown, covering construction, leather, resoling and comfort, with a puddle test of how water resistant the distressed leather is.",
+    "video_type": "review",
+    "thesis": "The video asks whether Blundstones live up to the hype, focusing on whether the distressed rustic brown leather is still water resistant and what owners must do to keep it that way.",
+    "key_takeaways": [
+      "The creator bought Blundstone 550s (description says the specific style is a 585, apparently nubuck) after seeing his girlfriend's pair hold up untreated for a year.",
+      "The 550 differs from the 500 by a side seam near the ankle and a leather lining.",
+      "Blundstones are full-grain leather with a cemented one-piece construction, not Goodyear welted, so resoling is not officially supported. Third parties can resole them, likely with a Vibram sole, but the original footbed is lost.",
+      "Blundstone's Canadian FAQ says conditioning changes the look of distressed styles like rustic brown, which raised the question of whether distressed boots are treated.",
+      "A walk through a muddy puddle showed the boots and their elastic side panels kept water out, and water beaded on the leather.",
+      "Blundstones are water resistant, not waterproof, and need regular conditioning or waxing to stay that way."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Blundstones",
+        "summary": "Why he bought Blundstone 550s, how they differ from the 500s, and his girlfriend's dress version of the boot.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Durability and alternatives",
+        "summary": "How his girlfriend's untreated Blundstones have held up through hikes and snow, and the other boots he owns: L.L.Bean Bean Boots, Wolverine 1000 Mile and Keens.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Features and benefits",
+        "summary": "He likes the slip-on, no-laces design and that the boots work for winter, hiking or fashion.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Leather quality and design",
+        "summary": "Full-grain leather upper and the one-piece cemented construction, which keeps water out but is not Goodyear welted.",
+        "first_segment": 3,
+        "last_segment": 3
+      },
+      {
+        "title": "Resoling and comfort",
+        "summary": "His main gripe: the soles can't officially be replaced, though third parties can resole them, likely with Vibram soles, losing the shock-absorbing footbed. He also reports comfort and no break-in blisters.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Waterproofing myths",
+        "summary": "What Blundstone's Canadian FAQ says about oil treatment, and how fashion buyers may misunderstand the water resistance of distressed styles like rustic brown.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Maintenance and treatment",
+        "summary": "Whether distressed boots lose their treatment, and treating them yourself with mink oil or Blundstone-recommended products, which darkens the leather.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Water test setup",
+        "summary": "Pouring water on the boots to check for beading, then preparing to walk into a puddle to test the leather and elastic side panels.",
+        "first_segment": 8,
+        "last_segment": 8
+      },
+      {
+        "title": "Water test results",
+        "summary": "Walking through a muddy puddle: no water gets in, the elastics hold, and water beads on the leather.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Final verdict and advice",
+        "summary": "He recommends them if you will keep them treated (waxing, brushing off salt). Otherwise get plastic or Gore-Tex boots. He calls them his favourite boots and plans an oiling video.",
+        "first_segment": 10,
+        "last_segment": 11
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "so luckily there is a giant",
+        "last_segment": 0,
+        "ends_with": "little rusty but we'll risk it",
+        "note": "Opening remark about sitting on a rusty iron thing"
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "but I just couldn't copy her",
+        "last_segment": 1,
+        "ends_with": "feel like that's not who we are",
+        "note": "Joke about not wanting matching boots with his girlfriend"
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "sad I",
+        "last_segment": 6,
+        "ends_with": "cutting a skin off net what",
+        "note": "Joke about leather being animal skin"
+      },
+      {
+        "role": "outro",
+        "first_segment": 11,
+        "starts_with": "but anyways that's about it",
+        "last_segment": 11,
+        "ends_with": "because I'll have more",
+        "note": "Subscribe call to action"
+      }
+    ],
+    "topics": [
+      "Blundstone boot review",
+      "Chelsea boots",
+      "water resistance vs waterproof",
+      "leather conditioning",
+      "resoling cemented boots",
+      "full-grain leather",
+      "distressed leather treatment",
+      "boot comfort and break-in"
+    ],
+    "entity_ids": [
+      "iron-snail:e:blundstone",
+      "iron-snail:e:blundstone-550",
+      "iron-snail:e:blundstone-500",
+      "iron-snail:e:blundstone-585",
+      "iron-snail:e:blundstone-dress-boot",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:l-l-bean-bean-boots",
+      "iron-snail:e:wolverine-1000-mile",
+      "iron-snail:e:keen",
+      "iron-snail:e:adidas-stan-smith",
+      "iron-snail:e:full-grain-leather",
+      "iron-snail:e:nubuck",
+      "iron-snail:e:goodyear-welt",
+      "iron-snail:e:cemented-construction",
+      "iron-snail:e:vibram",
+      "iron-snail:e:mink-oil",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:crazy-horse-leather",
+      "iron-snail:e:rustic-brown",
+      "iron-snail:e:elastic-side-panels",
+      "iron-snail:e:footbed",
+      "iron-snail:e:otterwax"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "Are Blundstones waterproof?",
+      "What's the difference between Blundstone 550 and 500?",
+      "Can you resole Blundstone boots?",
+      "Are Blundstones Goodyear welted?",
+      "Do the distressed rustic brown Blundstones lose water resistance?",
+      "Do Blundstone elastic sides let water in?",
+      "Do Blundstones need a break-in period?",
+      "How should I treat or condition my Blundstones?",
+      "Will mink oil darken rustic brown Blundstones?",
+      "Are Blundstones worth the hype?",
+      "What leather are Blundstones made of?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:a38PivchXTw:s0008",
+        "note": "After pouring water on the boots, he says he looks to be wrong: the distressed boots do have some water resistance."
+      },
+      {
+        "segment_id": "iron-snail:a38PivchXTw:s0009",
+        "note": "After the puddle walk, he takes back his claim that the distressed rustic brown boots aren't treated."
+      },
+      {
+        "segment_id": "iron-snail:a38PivchXTw:s0000",
+        "note": "He calls the boots 550s. The description says the specific style is a 585 that appears to be nubuck."
+      }
+    ],
+    "related_videos": [
+      "Upcoming video treating/oiling his Blundstones to see how they darken"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:blundstone",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Blundstone",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "blood stones",
+        "blunt stone",
+        "blunt stones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-550",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone 550",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "blunt stones 550's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-500",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone 500",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "500s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-585",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone 585",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone-dress-boot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Blundstone dress boot",
+      "brand": "Blundstone",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "dress version of these boots"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "LL Bean",
+        "LLBA",
+        "LLBAN",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-bean-boots",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean Bean Boots",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "LL Bean boots",
+        "l.l.bean beam boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wolverine-1000-mile",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wolverine 1000 Mile",
+      "brand": "Wolverine",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Wolverine thousand miles",
+        "Wolverines"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:keen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Keen",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Keens"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adidas-stan-smith",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Adidas Stan Smith",
+      "brand": "Adidas",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Stan Smith's the white Adidas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:full-grain-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "full-grain leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "full grain",
+        "full-grain"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nubuck",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nubuck",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goodyear-welt",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Goodyear welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Goodyear welted"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cemented-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "cemented construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cemented on to the sole",
+        "unibody"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mink-oil",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "mink oil",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crazy-horse-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Crazy Horse leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Crazy Horse"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rustic-brown",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "rustic brown",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rustic Brown"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:elastic-side-panels",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "elastic side panels",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "elastics"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:footbed",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "footbed",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Otterwax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "6d5bc6ad11886bf6"
+}

@@ -1,0 +1,470 @@
+{
+  "platform_id": "vXHDbKKuXQ0",
+  "profile": {
+    "video_id": "iron-snail:vXHDbKKuXQ0",
+    "purpose": "A one-year progress update on a pair of Levi's 501 Shrink-to-Fit raw denim jeans, showing their modifications, repairs, fit, fades and wear damage.",
+    "video_type": "long_term_review",
+    "thesis": "After about a year (roughly six to seven months of steady wear), cheap mass-produced Levi's 501 STF raw denim is wearing and fading about as expected for a $30–50 jean, and the creator plans to keep wearing and repairing them.",
+    "key_takeaways": [
+      "The jeans had been tapered earlier; the stitches were removed to return them to a straight leg, leaving visible fade lines on the sides.",
+      "A seam-ripper accident on the cuffs was patched with fabric from old brown pants, to be replaced later with a proper denim patch.",
+      "The jeans cost about $30, are lighter-weight denim (he believes around 12 oz), and were bought in a 29 waist and 30 length, a size that was very tight at first but now fits well.",
+      "He says he would have bought a 32 length, and he cuffs them.",
+      "They were worn for runs and walks; fades are vintage-style rather than high contrast, with good whiskers and honeycombs and some yellowing.",
+      "Wear damage includes a phone-pocket rip, holes in the thin pocket bags and thinning holes in the crotch.",
+      "He plans self-repairs and more frequent washing to make them last longer."
+    ],
+    "outline": [
+      {
+        "title": "Introduction",
+        "summary": "Responds to viewer requests for a progress revisit and explains he will do a regular video rather than a typical fade close-up review.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Levi's 501 modifications",
+        "summary": "Explains the side lines left from tapering the jeans and then removing the stitches to go back to a straight leg, and gives his view on straight leg fits.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Repairs and sewing",
+        "summary": "Describes the poorly sewn patch on the cuffs after a seam ripper accident and his plan to replace it with a denim patch.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Denim wear history",
+        "summary": "Covers how long and how much he has worn them, the $30 price, the light denim weight, the sizing and fit, cuffing, and wearing them for runs and walks.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Fade progress and damage",
+        "summary": "Reviews the vintage-style fades versus high-contrast denim, the phone-pocket rip, worn-through pocket bags, whiskers, yellowing and honeycombs.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Crotch blowout analysis",
+        "summary": "Shows the thinning holes developing in the crotch and notes his limited experience judging raw denim longevity.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Channel future and repairs",
+        "summary": "Talks about a hoped-for Patreon to fund reviews, then his plan to self-repair the jeans and wash them more often so they last longer.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Conclusion",
+        "summary": "Sums up that they are holding up as expected for cheap jeans, asks viewers to subscribe and mentions the channel's approaching one-year mark.",
+        "first_segment": 8,
+        "last_segment": 8
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "so there's been a fair amount",
+        "last_segment": 0,
+        "ends_with": "and lick the denim like you all want",
+        "note": "Intro responding to requests for a progress revisit and explaining the video format."
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "and you know at the end of the day",
+        "last_segment": 6,
+        "ends_with": "people can't escape me at jean time",
+        "note": "Joke about putting pants on his head and peeing through the crotch holes."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "no someone's staring at me have you",
+        "last_segment": 7,
+        "ends_with": "but still i think that'd be really cool so",
+        "note": "Aside to a passerby, plus talk about subscriber count and a hoped-for Patreon."
+      },
+      {
+        "role": "outro",
+        "first_segment": 8,
+        "starts_with": "so anyways like i said if you want to subscribe",
+        "last_segment": 8,
+        "ends_with": "but that's about it bye",
+        "note": "Outro with subscribe request and channel one-year mark."
+      }
+    ],
+    "topics": [
+      "raw denim progress",
+      "shrink-to-fit unsanforized denim",
+      "fades",
+      "whiskers and honeycombs",
+      "crotch blowout",
+      "pocket bag wear",
+      "tapering and untapering jeans",
+      "denim repairs and patching",
+      "jean sizing and fit",
+      "straight leg fit",
+      "cuffing",
+      "washing raw denim"
+    ],
+    "entity_ids": [
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-s-501-stf-shrink-to-fit",
+      "iron-snail:e:blundstone",
+      "iron-snail:e:iron-heart",
+      "iron-snail:e:unbranded",
+      "iron-snail:e:oxiclean",
+      "iron-snail:e:patreon",
+      "iron-snail:e:raw-denim",
+      "iron-snail:e:fades",
+      "iron-snail:e:whiskers",
+      "iron-snail:e:honeycombs",
+      "iron-snail:e:crotch-blowout",
+      "iron-snail:e:weft",
+      "iron-snail:e:pocket-bags",
+      "iron-snail:e:straight-leg",
+      "iron-snail:e:tapering",
+      "iron-snail:e:cuffing",
+      "iron-snail:e:seam-ripper",
+      "iron-snail:e:denim-patch"
+    ],
+    "categories": [
+      "denim"
+    ],
+    "answers_questions": [
+      "How do Levi's 501 Shrink to Fit jeans look after a year of wear?",
+      "Are cheap Levi's 501 STF raw denim jeans worth it?",
+      "What size should I get in Levi's 501 STF since they shrink?",
+      "Can you get high contrast fades on Levi's 501s?",
+      "Do Levi's 501 pocket bags hold up?",
+      "Do Levi's 501s get a crotch blowout?",
+      "Can you undo tapering on jeans and go back to a straight leg?",
+      "How heavy is the denim on Levi's 501 STF?",
+      "How do the whiskers and honeycombs look on 501s after a year?",
+      "How much did you pay for your Levi's 501s?",
+      "Should I wash raw denim more often to make it last longer?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance",
+      "style"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Original Levi's 501 STF video covering initial wear, soaking and tapering",
+      "Requested revisit of the 'blood stones'",
+      "Possible future fashion video on how he wears pants"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-501-stf-shrink-to-fit",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's 501 STF (Shrink to Fit)",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "501 shrink to fit",
+        "501s",
+        "Levi's 501s",
+        "five oh ones",
+        "levi 501s",
+        "levi's 501s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blundstone",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Blundstone",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Bloodstones",
+        "blend stone",
+        "blonde so",
+        "blonde stones",
+        "blood stones",
+        "bloodstone",
+        "blown stones",
+        "blunt stone",
+        "blunt stones",
+        "blunts on boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-heart",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Iron Heart",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "iron heart"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbranded",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Unbranded",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "unbranded"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oxiclean",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "OxiClean",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "oxiclean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patreon",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raw-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "raw denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "broad denim",
+        "rod denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fades",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "fades",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "contrast fades",
+        "vintage fades"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:whiskers",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "whiskers",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:honeycombs",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "honeycombs",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crotch-blowout",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "crotch blowout",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "crotch area"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weft",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "weft",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "wefts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pocket-bags",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "pocket bags",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:straight-leg",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "straight leg",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "slim straight"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tapering",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "tapering",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "tapered",
+        "tapered cut",
+        "tapered the leg"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cuffing",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "cuffing",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "cuffed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seam-ripper",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "seam ripper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:denim-patch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "denim patch",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "jean patch",
+        "patch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "e63f1fbc064a1e7d"
+}

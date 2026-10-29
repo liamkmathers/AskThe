@@ -1,0 +1,654 @@
+{
+  "platform_id": "JcDBrIvLD_8",
+  "profile": {
+    "video_id": "iron-snail:JcDBrIvLD_8",
+    "purpose": "Review of the Levi's Vintage Clothing 1947 501XX raw selvedge jeans, covering fit and sizing, construction details and the creator's theory about why they cost $260.",
+    "video_type": "review",
+    "thesis": "The LVC 1947 501 is a carefully reproduced vintage jean. Its $260 price is hard to explain by materials alone. The creator theorises that it comes from exclusivity: each LVC year line needs its own period-accurate hardware.",
+    "key_takeaways": [
+      "LVC (Levi's Vintage Clothing) reproduces vintage Levi's designs; the 1947 501 is a reproduction of the post-WWII 501, without suspender buttons or a back cinch.",
+      "Levi's recommends sizing up two in the waist and adding length for the shrink-to-fit unsanforized denim; the creator bought too small.",
+      "The different LVC 501 years (1954, 1955, 1966, etc.) all fit differently.",
+      "The denim is 12 oz unsanforized selvedge from a Japanese mill, about 14 oz after shrinking, and it develops leg twist.",
+      "Details include iron buttons, copper rivets, hidden rivets in the back pockets and a cowhide patch; whether the thread is cotton or polyester is unclear.",
+      "LVC denim now comes from Japan and the jeans are sewn in Turkey, where they used to be US-made.",
+      "Price comparisons are made with Sugarcane's 1947 reproduction (~$200) and LSG Denim (~$198).",
+      "The creator's price theory, drawing on a Naked & Famous comment, is that exclusivity drives the price, because each LVC year line uses different hardware."
+    ],
+    "outline": [
+      {
+        "title": "Intro and what LVC is",
+        "summary": "Michael introduces the $260 LVC 1947 jeans, admits his pair is too small, and explains LVC as Levi's vintage reproduction line. He also tells how a Levi's fire lost the original records, so the jeans were recreated from existing pairs.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Overview: the 1947 501",
+        "summary": "Historical changes in the post-war 501: no suspender buttons, no back cinch, and wartime painted arcs on the back pockets. Then the video's three-part layout is explained.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Fit and sizing",
+        "summary": "Levi's sizing advice for shrink-to-fit 501s (size up in waist and length), the tub soak, and a note that each LVC year model has a different fit.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Denim details",
+        "summary": "Covers the source of the denim: originally Cone Mills, now a Japanese mill reproducing the 1947 fabric. Also its weight before and after shrinking, leg twist, hair, slub and nep, and American versus Japanese denim character.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "Hardware, thread and hidden rivets",
+        "summary": "Iron buttons and rivets, uncertainty about cotton versus polyester thread, and the hidden back-pocket rivets along with the wear around them.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Why these jeans cost so much",
+        "summary": "Uses a Naked & Famous comment on a Stridewise video to argue that exclusivity drives price. The section covers the move from US production to Japanese denim and Turkish manufacturing, and compares prices with Sugarcane and LSG Denim. It ends on the theory that each LVC year line needs unique hardware.",
+        "first_segment": 9,
+        "last_segment": 14
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "tall and tan and young and",
+        "last_segment": 0,
+        "ends_with": "i think we'll get along okay",
+        "note": "Song snippet, greeting, and the creator admitting the jeans are too small"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "also if you like this video",
+        "last_segment": 2,
+        "ends_with": "follow me on instagram you know",
+        "note": "Like/subscribe plug with a 'lick it' joke"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "this is where it all begins",
+        "last_segment": 5,
+        "ends_with": "shave your mustache and slap your face",
+        "note": "Mutton chops joke"
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "people uh after the war weren't",
+        "last_segment": 8,
+        "ends_with": "thrilled that my pants are twisting",
+        "note": "Joke about post-war buyers and leg twist"
+      },
+      {
+        "role": "outro",
+        "first_segment": 14,
+        "starts_with": "anyways though that's about it",
+        "last_segment": 14,
+        "ends_with": "huge announcement coming next week",
+        "note": "Wrap-up and teaser for an announcement"
+      }
+    ],
+    "topics": [
+      "Levi's Vintage Clothing",
+      "Levi's 501 history",
+      "raw unsanforized selvedge denim",
+      "shrink-to-fit sizing",
+      "leg twist",
+      "denim weight",
+      "jean hardware and thread",
+      "hidden rivets",
+      "denim pricing",
+      "Japanese vs American denim"
+    ],
+    "entity_ids": [
+      "iron-snail:e:levi-s-lvc-1947-501xx",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-s-vintage-clothing",
+      "iron-snail:e:levi-s-501",
+      "iron-snail:e:levi-s-type-i-jacket",
+      "iron-snail:e:cone-mills",
+      "iron-snail:e:kahara-mills",
+      "iron-snail:e:sugarcane",
+      "iron-snail:e:toyo",
+      "iron-snail:e:lsg-denim",
+      "iron-snail:e:naked-famous",
+      "iron-snail:e:stridewise",
+      "iron-snail:e:bezad",
+      "iron-snail:e:pure-blue-japan",
+      "iron-snail:e:oni",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:unsanforized-denim",
+      "iron-snail:e:sanforized-denim",
+      "iron-snail:e:raw-denim",
+      "iron-snail:e:leg-twist",
+      "iron-snail:e:slub",
+      "iron-snail:e:nep",
+      "iron-snail:e:hidden-rivets",
+      "iron-snail:e:back-cinch",
+      "iron-snail:e:suspender-buttons",
+      "iron-snail:e:back-pocket-arcuates",
+      "iron-snail:e:iron-buttons",
+      "iron-snail:e:copper-rivets",
+      "iron-snail:e:cowhide-patch",
+      "iron-snail:e:polyester-thread",
+      "iron-snail:e:cotton-thread"
+    ],
+    "categories": [
+      "denim"
+    ],
+    "answers_questions": [
+      "Are the Levi's LVC 1947 501 jeans worth $260?",
+      "What size should I get in Levi's LVC shrink-to-fit 501s?",
+      "What is Levi's Vintage Clothing?",
+      "How does the 1947 501 differ from older 501s?",
+      "Where is the LVC denim made, and where are the jeans sewn?",
+      "How heavy is the LVC 1947 denim after shrinking?",
+      "Do LVC jeans get leg twist?",
+      "Do the LVC 1947 jeans use cotton or polyester thread?",
+      "Why are LVC jeans so expensive compared to Sugarcane?",
+      "Do the different LVC 501 years fit the same?",
+      "Should I soak raw unsanforized jeans in the tub?",
+      "Why does Japanese denim have more character than American denim?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:JcDBrIvLD_8:s0007",
+        "note": "He first says the post-war buyers' pants twisting was '65 years later', then rechecks his math and says it's 76 years."
+      },
+      {
+        "segment_id": "iron-snail:JcDBrIvLD_8:s0003",
+        "note": "While giving the sizing advice he corrects himself: two inches more in length rather than 'one length'."
+      }
+    ],
+    "related_videos": [
+      "Stridewise: seven reasons why Japanese jeans are so expensive"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:levi-s-lvc-1947-501xx",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's LVC 1947 501XX",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "1947 501",
+        "levi's lvc 1947 jeans"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-vintage-clothing",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's Vintage Clothing",
+      "brand": "Levi's",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lbc",
+        "lvc"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-501",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's 501",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "501",
+        "501s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-type-i-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Type I jacket",
+      "brand": "Levi's",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "type one jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cone-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Cone Mills",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cone mills"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kahara-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Kahara Mills",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "kahara mills",
+        "kahara omotaro kahara mills"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sugarcane",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sugarcane",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "sugar cane",
+        "sugarcane"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:toyo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Toyo",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "toyo's"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lsg-denim",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "LSG Denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "lsg denim"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:naked-famous",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Naked & Famous",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "naked and famous"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stridewise",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Stridewise",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "stride wise",
+        "stridewise"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bezad",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Bezad",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bazaar",
+        "bezad"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pure-blue-japan",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pure Blue Japan",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "pure blue japan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oni",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Oni",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "oni"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "salvage",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unsanforized-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "unsanforized denim",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "on sam fry",
+        "unsamprised"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sanforized-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "sanforized denim",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sand for eyes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raw-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "raw denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "broad denim",
+        "rod denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leg-twist",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "leg twist",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:slub",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "slub",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nep",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "nep",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "net"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hidden-rivets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "hidden rivets",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:back-cinch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "back cinch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "denim cinch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:suspender-buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "suspender buttons",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:back-pocket-arcuates",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "back pocket arcuates",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "arcs",
+        "arks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "iron buttons",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:copper-rivets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "copper rivets",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cotton rivets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cowhide-patch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "cowhide patch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester-thread",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester thread",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "poly thread"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton-thread",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton thread",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "e7c0415fca7bd926"
+}
