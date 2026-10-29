@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Annotated
 
@@ -14,6 +16,7 @@ from askthe.config import (
     list_creator_slugs,
     load_app_config,
     load_creator,
+    load_questions,
     load_video_selection,
 )
 from askthe.core.answering import WATCH_URLS
@@ -21,6 +24,7 @@ from askthe.core.models import Creator
 from askthe.core.questions import question_candidates
 from askthe.pipeline.ask import RetrievalSettings, ask
 from askthe.pipeline.comments import fetch_comments
+from askthe.pipeline.evaluate import run_eval
 from askthe.pipeline.fetch import fetch_videos
 from askthe.pipeline.index import index_videos
 from askthe.pipeline.segment import segment_videos
@@ -355,6 +359,78 @@ def ask_command(
             typer.echo(f"  {problem}")
     if result.usage:
         typer.echo("tokens: " + ", ".join(f"{k} {n:,}" for k, n in result.usage.items()))
+
+
+@app.command(name="eval")
+def eval_command(
+    creator: CreatorArg,
+    mode: Annotated[
+        list[str] | None,
+        typer.Option(
+            "--mode", "-m", help="Retrieval modes to run, in order. Default: hybrid, full."
+        ),
+    ] = None,
+    label: Annotated[str, typer.Option(help="Names the saved run.")] = "run",
+    questions_file: Annotated[
+        Path | None,
+        typer.Option("--questions", help="Test set. Default: eval/questions/<creator>.yaml"),
+    ] = None,
+    only: Annotated[
+        list[str] | None, typer.Option("--only", help="Run only these question ids.")
+    ] = None,
+    config_path: ConfigOption = DEFAULT_CONFIG_PATH,
+) -> None:
+    """Run the test set, score every answer, and save the run to eval/runs/. Calls the LLM."""
+    services, c = _setup(config_path, creator)
+    eval_dir = services.config.eval_dir
+    try:
+        test_set = load_questions(questions_file or eval_dir / "questions" / f"{c.slug}.yaml")
+    except ConfigError as e:
+        typer.secho(f"config error: {e}", fg=typer.colors.RED, err=True)
+        raise typer.Exit(1) from None
+    if only:
+        test_set = [q for q in test_set if q.id in only]
+    modes = list(mode) if mode else ["hybrid", "full"]
+
+    def progress(qid: str, m: str, r: dict) -> None:
+        ok = "pass" if r["checks"]["passed"] else "FAIL"
+        dollars = f"${r['cost_usd']:.3f}" if r["cost_usd"] is not None else "$?"
+        typer.echo(
+            f"{qid:<6} {m:<7} {ok}  {r['coverage']:<8} {len(r['sources']):>2} cites  "
+            f"{r['context_words']:>6,} words  {len(r['videos_read']):>2} videos  {dollars}"
+        )
+
+    run = run_eval(
+        c,
+        test_set,
+        modes,
+        services.store,
+        services.search,
+        services.llm,
+        services.vectors,
+        services.embedder,
+        RetrievalSettings.from_config(services.config.retrieval),
+        services.config.prices,
+        label,
+        on_progress=progress,
+    )
+    stamp = datetime.now(UTC).strftime("%Y-%m-%d-%H%M")
+    path = eval_dir / "runs" / f"{stamp}-{label}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(run, indent=2, ensure_ascii=False) + "\n")
+    for m, s in run["summary"].items():
+        typer.echo(
+            f"{m}: {s['passed_checks']}/{s['questions']} passed automated checks, "
+            f"coverage right {s['coverage_right']}, citations hold {s['citations_hold']}, "
+            f"mean {s['mean_context_words']:,} words, "
+            + (f"${s['cost_usd']:.2f}" if s["cost_usd"] is not None else "cost unknown")
+            + (
+                f", recall of full {s['mean_recall_of_full']:.0%}"
+                if s.get("mean_recall_of_full") is not None
+                else ""
+            )
+        )
+    typer.echo(f"saved {path}; mark each answer's `correct` after reading it")
 
 
 @app.command()

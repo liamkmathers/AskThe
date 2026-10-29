@@ -89,6 +89,8 @@ Each of these is an interface in the engine core, with implementations as adapte
 | --- | --- | --- | --- |
 | `CatalogSource` | List a creator's videos and their metadata | yt-dlp | YouTube Data API; creator-supplied export |
 | `TranscriptSource` | Get the transcript text for a video | youtube-transcript-api; or `files` (`.vtt`, `.srt`, `.txt`) | yt-dlp subtitles; Whisper on audio; a transcript service |
+| `CommentSource` | Get viewers' comments on a video, for collecting real fan questions | yt-dlp (top comments, no replies, no authors) | YouTube Data API |
+| `ProfileArchive` | Keep video profiles outside the database (D17) | files in `data/<creator>/profiles/` | |
 | `KnowledgeStore` | Save and query videos, segments, profiles, entities, answer logs | SQLite | Postgres |
 | `SearchIndex` | Find relevant segments and claims for a query | SQLite full-text search (FTS5) | Hybrid with vectors; a dedicated search service |
 | `Embedder` | Turn text into vectors | OpenAI `text-embedding-3-small` | Voyage; a local model (BGE) |

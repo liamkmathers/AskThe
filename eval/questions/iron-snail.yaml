@@ -1,0 +1,165 @@
+# M4 test set for The Iron Snail. DRAFT: needs Liam's review before it counts as the gate.
+#
+# Questions are real viewer comments on his videos (verbatim; [brackets] add the
+# product a comment left implicit because it was posted under that video), except
+# where `source` says "paraphrase". Expected answers come from reading the
+# transcripts, not from model answers. Each `notes` says what the answer should say.
+#
+# Still to add once `askthe comments` has run: 2 taste questions, more questions that
+# name no product, and the remaining comparisons. See docs/EVALUATION.md for the mix.
+
+- id: q01
+  question: "should I treat my boots out of box ? Annnnd how often should I treat them ?"
+  source: https://www.youtube.com/watch?v=H6lDr__B3GM
+  type: how_to
+  expected:
+    covered: full
+    sources: [H6lDr__B3GM, 4cRAkEHfXKo]
+  notes: >-
+    2019: Blundstone says most of its boots are pre-treated, so not out of the box (his
+    pair looked dry, the exception). 2022: how often is "when I feel like they need
+    it", use your intuition; he admits he probably does it too little. Two parts, both
+    answered.
+
+- id: q02
+  question: "So if I buy the levis 501 shrink to fit will they get tighter after washing?"
+  source: https://www.youtube.com/watch?v=5cpsrt14fkc
+  type: lookup
+  expected:
+    covered: full
+    must_mention: ["shrink"]
+    sources: [5cpsrt14fkc, JcDBrIvLD_8]
+  notes: Yes, STF shrinks on the first soak; he soaked his and in 2021 says size up two in the waist.
+
+- id: q03
+  question: "I'm usually a 33x30 in Levi's 502s, what size should I buy in these? [501 STF]"
+  source: https://www.youtube.com/watch?v=vXHDbKKuXQ0
+  type: lookup
+  expected:
+    covered: partial
+    sources: [JcDBrIvLD_8, vXHDbKKuXQ0]
+  notes: >-
+    His rule (2021): size up two in the waist and one to two in length for STF. He never
+    compares 502 sizing, so no invented conversion; partial is right.
+
+- id: q04
+  question: "Why do you cuff your jeans?"
+  source: https://www.youtube.com/watch?v=5cpsrt14fkc
+  type: taste
+  expected:
+    covered: full
+    sources: [5cpsrt14fkc, vXHDbKKuXQ0]
+  notes: >-
+    Length is "first and foremost": too long looks bad (2019). In 2020 he cuffed anyway
+    because his style doesn't suit uncuffed wide-legged pants. His taste, said plainly.
+
+- id: q05
+  question: "So do you prefer [the Red Wing 3335s] over the 1907s?"
+  source: https://www.youtube.com/watch?v=cyAzm8O3RwY
+  type: change_of_mind
+  expected:
+    covered: full
+    must_mention: ["3335"]
+    sources: [cyAzm8O3RwY, mS6Jqq_GWlo]
+  notes: >-
+    2022: yes, his favourite boots ever, beating the 1907s, 875s and Blundstones
+    (stitchdown, lighter, mini-lug sole). Sept 2023: "they still might be but probably
+    not"; newest verdict first, with the hedge kept.
+
+- id: q06
+  question: "How do you feel bout blunnies as of Late 2023?"
+  source: https://www.youtube.com/watch?v=rb-33aSBxyE
+  type: change_of_mind
+  expected:
+    covered: full
+    must_mention: ["Blundstone | blunnies"]
+    sources: [mS6Jqq_GWlo]
+  notes: >-
+    Sept 2023: "incredible", a big fan, his most water-resistant boots, but "time to
+    retire" his worn pair (585s). Captions spell them "bluntstones"/"blunstones":
+    tests name expansion.
+
+- id: q07
+  question: "I'm wondering if you still have these boots and how are they holding up??? [Blundstones]"
+  source: https://www.youtube.com/watch?v=4cRAkEHfXKo
+  type: change_of_mind
+  expected:
+    covered: full
+    sources: [rb-33aSBxyE, 4cRAkEHfXKo, mS6Jqq_GWlo]
+  notes: Holding up after 1 year (2020) and 2 years (2022, restored); worn constantly and retired in 2023.
+
+- id: q08
+  question: "How does the made in England boot stack up to Solovairs? [Dr. Martens]"
+  source: https://www.youtube.com/watch?v=1N1uYKnCxq0
+  type: comparison
+  expected:
+    covered: partial
+    sources: [1N1uYKnCxq0]
+  notes: >-
+    He compared Made in England with Made in Thailand Docs; Solovair is never mentioned.
+    Should say what he said about Made in England and that Solovair isn't covered.
+
+- id: q09
+  question: "Hi, I am going on a 4 day hike and I am wondering if I can use my blundstone for them, what do you think?"
+  source: https://www.youtube.com/watch?v=a38PivchXTw
+  type: lookup
+  expected:
+    covered: full
+    sources: [rb-33aSBxyE]
+  notes: "He hiked and climbed in his for months but says they are not good for mountaineering, with little ankle support."
+
+- id: q10
+  question: "Did Levi's quality go downhill?"
+  source: paraphrase of a common Reddit question
+  type: change_of_mind
+  expected:
+    covered: full
+    sources: [nM_g-z5zLJ0]
+  notes: >-
+    2023: "do they make Levi's like they used to? The answer has to be no", but the gap
+    in quality and durability is smaller than people think; vintage charm makes a
+    cooler jean, not a better one. Some of today's $80 jeans are built better.
+
+- id: q11
+  question: "I'm 5'11-225 lbs with a dad bod. What's the most cost efficient and quality t shirt for me? Also, what size would u prefer?"
+  source: https://www.youtube.com/watch?v=FSWl57UR4k0
+  type: lookup
+  expected:
+    covered: partial
+    must_mention: ["Bronson | Uniqlo"]
+    sources: [A6SkEwdjj-8]
+  notes: Value pick from the 2025 ranking; nothing on sizing for a build, which must be said, not guessed.
+
+- id: q12
+  question: "Is vintage Patagonia better than new Patagonia?"
+  source: paraphrase of a common Reddit question
+  type: comparison
+  expected:
+    covered: full
+    must_mention: ["sweater"]
+    sources: [ixCSNbzQNcI]
+  notes: Vintage wins the wool sweater clearly; fleece closer and hedged; doubts Patagonia is cheaping out.
+
+- id: q13
+  question: "Is it my impression or RL has MUCH lower quality now than what it used to?"
+  source: https://www.youtube.com/watch?v=0QXZKkaMdwQ
+  type: not_covered
+  expected:
+    covered: none
+  notes: Ralph Lauren comes up once in passing (fabric weight, 2025); nothing on its quality over time.
+
+- id: q14
+  question: "Where's Whitesville?? It's literally the most well known White Tee from Japan"
+  source: https://www.youtube.com/watch?v=FSWl57UR4k0
+  type: not_covered
+  expected:
+    covered: none
+  notes: Whitesville is never mentioned.
+
+- id: q15
+  question: "Are gucci jeans worth the money??"
+  source: https://www.youtube.com/watch?v=JcDBrIvLD_8
+  type: not_covered
+  expected:
+    covered: none
+  notes: Gucci is never mentioned.

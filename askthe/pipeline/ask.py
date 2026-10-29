@@ -80,6 +80,8 @@ class AskResult:
     videos_read: list[str]
     model: str
     usage: dict[str, int] = field(default_factory=dict)
+    usage_by_model: dict[str, dict[str, int]] = field(default_factory=dict)  # for costing
+    segments_read: list[str] = field(default_factory=list)  # IDs of every segment shown
     trace: dict[str, Any] = field(default_factory=dict)  # how the context was chosen
 
 
@@ -100,11 +102,14 @@ def ask(
     segments = {vid: store.get_segments(vid) for vid in videos}
     profiles = {vid: store.get_profile(vid) for vid in videos}
     usage: dict[str, int] = {}
+    usage_by_model: dict[str, dict[str, int]] = {}
     trace: dict[str, Any] = {"mode": settings.mode, "warnings": []}
 
-    def add_usage(u: dict[str, int]) -> None:
+    def add_usage(u: dict[str, int], model: str) -> None:
+        per_model = usage_by_model.setdefault(model, {})
         for k, n in u.items():
             usage[k] = usage.get(k, 0) + n
+            per_model[k] = per_model.get(k, 0) + n
 
     if settings.mode == "full":
         shown = _full_context(question, videos, segments, search, creator, settings)
@@ -145,7 +150,7 @@ def ask(
 
     def generate(p: str) -> tuple[AnswerDraft, str]:
         result = llm.generate_structured(LLMTask.ANSWER, system, p, AnswerDraft, context=corpus)
-        add_usage(result.usage)
+        add_usage(result.usage, result.model)
         return result.value, result.model
 
     draft, model = generate(prompt)
@@ -176,7 +181,17 @@ def ask(
                 },
             )
         )
-    return AskResult(answer=checked, videos_read=chosen, model=model, usage=usage, trace=trace)
+    return AskResult(
+        answer=checked,
+        videos_read=chosen,
+        model=model,
+        usage=usage,
+        usage_by_model=usage_by_model,
+        segments_read=[
+            s.id for v in chosen for s in segments[v] if shown[v] is None or s.index in shown[v]
+        ],
+        trace=trace,
+    )
 
 
 def _full_context(
@@ -212,7 +227,7 @@ def _hybrid_context(
     planned = llm.generate_structured(
         LLMTask.PLAN, plan_system_prompt(creator), plan_prompt(question), QueryPlan
     )
-    add_usage(planned.usage)
+    add_usage(planned.usage, planned.model)
     plan = planned.value
     names = name_variants(plan.names, creator, store.list_entities(creator.slug))
     queries = list(dict.fromkeys([question, *plan.queries, *names]))
@@ -280,7 +295,7 @@ def _hybrid_context(
     reranked = llm.generate_structured(
         LLMTask.RERANK, RERANK_SYSTEM, rerank_prompt(question, passages), RerankDraft
     )
-    add_usage(reranked.usage)
+    add_usage(reranked.usage, reranked.model)
     scores = {s.n: s.score for s in reranked.value.scores if 0 <= s.n < len(candidates)}
     picks = [
         Pick(

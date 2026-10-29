@@ -9,6 +9,7 @@ from typing import Any
 import yaml
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
+from askthe.core.evaluation import Price, TestQuestion
 from askthe.core.models import Creator
 
 DEFAULT_CONFIG_PATH = Path("askthe.toml")
@@ -40,6 +41,7 @@ class AppConfig(BaseModel):
     adapters: dict[str, AdapterChoice]
     models: dict[str, str] = Field(default_factory=dict)
     retrieval: dict[str, Any] = Field(default_factory=dict)
+    prices: dict[str, Price] = Field(default_factory=dict)  # per model, $ per MTok
 
     @model_validator(mode="after")
     def _resolve_paths(self) -> AppConfig:
@@ -104,3 +106,21 @@ def load_video_selection(config: AppConfig, creator: Creator) -> list[str]:
         if video and video not in ids:
             ids.append(video)
     return ids
+
+
+def load_questions(path: Path) -> list[TestQuestion]:
+    """A test set: a YAML list of questions in the format of docs/EVALUATION.md."""
+    try:
+        raw = yaml.safe_load(Path(path).read_text()) or []
+    except FileNotFoundError:
+        raise ConfigError(f"no test set at {path}") from None
+    except yaml.YAMLError as e:
+        raise ConfigError(f"{path}: {e}") from None
+    try:
+        questions = [TestQuestion(**item) for item in raw]
+    except (TypeError, ValidationError) as e:
+        raise ConfigError(f"{path}: {e}") from None
+    ids = [q.id for q in questions]
+    if len(ids) != len(set(ids)):
+        raise ConfigError(f"{path}: question ids repeat")
+    return questions

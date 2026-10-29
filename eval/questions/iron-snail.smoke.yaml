@@ -1,0 +1,25 @@
+# Smoke set: the first three questions asked of the prototype. Not the M4 gate set
+# (that is iron-snail.yaml, built from real fan comments). Run with
+#   askthe eval iron-snail --questions eval/questions/iron-snail.smoke.yaml
+- id: s01
+  question: "Is vintage Patagonia better than new Patagonia?"
+  type: comparison
+  expected:
+    covered: full
+    must_mention: ["sweater", "fleece | Retro-X"]
+    sources: [ixCSNbzQNcI]
+  notes: Vintage wins the wool sweater clearly; fleece is closer and hedged.
+- id: s02
+  question: "What's the best value t-shirt he's tested?"
+  type: lookup
+  expected:
+    covered: full
+    must_mention: ["Bronson"]
+    sources: [A6SkEwdjj-8]
+  notes: He revises his pick to Bronson's loopwheel tubular tee at the end of the ranking.
+- id: s03
+  question: "What does he think of Arc'teryx Beta jackets?"
+  type: not_covered
+  expected:
+    covered: none
+  notes: Arc'teryx is not mentioned in any fetched transcript.

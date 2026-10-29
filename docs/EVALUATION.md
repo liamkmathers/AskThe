@@ -45,9 +45,22 @@ Stored as `eval/questions/<creator>.yaml`:
 
 **Gate:** at least 18 of 20 correct, all citations holding, every not-covered question recognised.
 
+### Collecting the questions
+
+1. Where YouTube is reachable, `askthe comments <creator>` saves the top 300 comments of each selected video to `data/<creator>/raw/comments/` (no authors). Commit them like other raw data.
+2. `askthe questions <creator>` writes the most-liked question-like comments to `eval/questions/<creator>.candidates.yaml`. Comments asking for a video ("can you review…") are marked `request`: good sources of not-covered questions.
+3. A person picks the set into `eval/questions/<creator>.yaml` and writes the expected answers from the transcripts, not from model answers.
+
 ### Runs
 
-`askthe eval` runs the whole set and saves `eval/runs/<date>-<label>.json` with each answer, its scores, and the pipeline versions used. Runs are compared side by side, so a prompt change that fixes one question and breaks two is visible.
+`askthe eval <creator> --label <name>` runs the set in hybrid then full mode (`--mode` to choose, `--only q01` for one question, `--questions` for another set) and saves `eval/runs/<date>-<label>.json`. Each answer carries:
+
+- its text, coverage, sources with the cited segments, and the videos and segments it read;
+- token usage per model and the cost in dollars (prices are in `askthe.toml`);
+- the automated checks: coverage right, cited, citations hold, `must_mention` found, `must_not_claim` not found, expected sources read and cited, and, for hybrid, the share of the segments full mode cited that it read (`recall_of_full`);
+- `correct: null`, for a person to set after reading the answer.
+
+The summary per mode counts the checks passed, total cost, mean words read and mean recall of full. Runs are compared side by side, so a prompt change that fixes one question and breaks two is visible. A run of 20 questions in both modes costs about $3; full mode runs all its questions back to back so its shared context stays cached.
 
 ## 2. Profile and retrieval checks
 

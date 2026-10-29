@@ -65,6 +65,10 @@ What the video is, as a whole. Written by the understanding pass before any clai
 
 Saved with the entities it names and a fingerprint of the segments it describes in `data/<creator>/profiles/<video_id>.json` (D17), so rebuilding the database restores it without another model call.
 
+### Raw comments
+
+Viewers' top comments on a video, fetched by `askthe comments` into `data/<creator>/raw/comments/<video_id>.json` and kept like other raw data. Each keeps the comment ID (so it can be linked), text, like count, whether it is a reply or by the creator, and its date. **Authors are not stored.** Used only to collect test-set questions (EVALUATION).
+
 ### Segment
 
 | Field | Notes |

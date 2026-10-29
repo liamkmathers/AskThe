@@ -63,3 +63,17 @@ answer = "claude-opus-5-5"
 [retrieval]
 mode = "hybrid"
 context_words = 12000
+
+# Prices in US dollars per million tokens, for the costs `askthe eval` reports.
+# cache_write is the 5-minute cache rate. Check against the provider's price list.
+[prices."claude-opus-5-5"]
+input = 4.00
+output = 20.00
+cache_read = 0.20
+cache_write = 5.00
+
+[prices."claude-haiku-5-5"]
+input = 0.10
+output = 0.50
+cache_read = 0.01
+cache_write = 0.125

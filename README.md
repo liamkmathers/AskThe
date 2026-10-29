@@ -59,6 +59,8 @@ uv run askthe understand iron-snail
 uv run askthe index iron-snail
 ```
 
+To build and run the test set (see [EVALUATION](docs/EVALUATION.md)): `askthe comments iron-snail` (needs YouTube, like `fetch`), then `askthe questions iron-snail` to list candidate fan questions, and `askthe eval iron-snail --label <name>` to score hybrid against full mode.
+
 ```bash
 uv run askthe ask iron-snail "What's the best value t-shirt he's tested?"
 ```
