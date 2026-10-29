@@ -24,7 +24,7 @@ from askthe.core.interfaces import (
     SearchIndex,
     VectorIndex,
 )
-from askthe.core.models import Creator
+from askthe.core.models import Coverage, Creator
 from askthe.core.profiling import PROFILER_VERSION
 from askthe.pipeline.ask import RetrievalSettings, ask
 
@@ -120,6 +120,41 @@ def run_eval(
             {"id": q.id, "question": q.question, "type": q.type, "results": results[q.id]}
             for q in questions
         ],
+    }
+
+
+def rescore(run: dict[str, Any], questions: Sequence[TestQuestion]) -> dict[str, Any]:
+    """Re-check a saved run against the current test set, without asking again.
+
+    For fixing expectations or the checks themselves; questions whose wording changed
+    need a new run, and are left out.
+    """
+    by_id = {q.id: q for q in questions}
+    reference = "full"
+    kept = []
+    for entry in run["questions"]:
+        q = by_id.get(entry["id"])
+        if q is None or q.question != entry["question"]:
+            continue
+        for r in entry["results"].values():
+            old = r["checks"]
+            r["checks"] = score(
+                q,
+                r["answer"],
+                Coverage(r["coverage"]),
+                [s["video"] for s in r["sources"]],
+                r["videos_read"],
+                len(r["problems"]),
+            )
+            if f"recall_of_{reference}" in old:  # needs both modes' reads; kept as is
+                r["checks"][f"recall_of_{reference}"] = old[f"recall_of_{reference}"]
+        kept.append(entry)
+    results = {e["id"]: e["results"] for e in kept}
+    return {
+        **run,
+        "rescored_at": datetime.now(UTC).isoformat(timespec="seconds"),
+        "summary": summarise(results, run["modes"], reference),
+        "questions": kept,
     }
 
 

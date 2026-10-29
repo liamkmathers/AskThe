@@ -5,7 +5,7 @@
 # from reading the transcripts (35 videos fetched), not from model answers; `notes`
 # says what a correct answer contains.
 #
-# Mix: 4 lookups, 4 comparisons, 3 change of mind, 1 how-to, 3 taste, 5 not covered,
+# Mix: 5 lookups, 4 comparisons, 3 change of mind, 1 how-to, 3 taste, 4 not covered,
 # one of them a personal-life question that must be declined. Includes caption misspellings
 # (q06, q08), a sponsor read that must not become a verdict (q18) and a multi-part
 # question (q01, q21).
@@ -132,16 +132,22 @@
   source: https://www.youtube.com/watch?v=0QXZKkaMdwQ
   type: not_covered
   expected:
-    covered: none
+    covered: [none, partial]
   notes: Ralph Lauren comes up once in passing (fabric weight, 2025); nothing on its quality over time.
 
 - id: q14
   question: "Where's Whitesville?? It's literally the most well known White Tee from Japan"
   source: https://www.youtube.com/watch?v=FSWl57UR4k0
-  type: not_covered
+  type: lookup
   expected:
-    covered: none
-  notes: Whitesville is never mentioned.
+    covered: full
+    must_mention: ["Whitesville"]
+    sources: [GMM_Hl1fTQ0]
+  notes: >-
+    Not in the Sept 2025 roundup the comment was posted on, but reviewed in the July
+    2024 ranking: "by far one of the softest", he'd really recommend it, the softest /
+    coziest award; the Whitesville sweatshirt also rated well (Oct 2024). (First draft
+    wrongly said not covered; the eval caught it.)
 
 - id: q15
   question: "Are gucci jeans worth the money??"
@@ -152,7 +158,7 @@
   notes: Gucci is never mentioned.
 
 - id: q16
-  question: "Am I the only one who loves these videos but in the end still has no idea which to buy? Please just tell me: buy this one, or these 3. I can't decide between 25 options."
+  question: "Am I the only one who loves these videos but in the end still has no idea which to buy? Please just tell me: buy this one, or these 3. I can't decide between 25 options. [t-shirts]"
   source: https://www.youtube.com/watch?v=FSWl57UR4k0
   type: taste
   expected:
@@ -182,7 +188,7 @@
   source: https://www.youtube.com/watch?v=arGLNRKC6Ss
   type: not_covered
   expected:
-    covered: none
+    covered: [none, partial]
   notes: >-
     No independent sneaker recommendation in the fetched videos. The Sept 2025 t-shirt
     video has a Koio sponsor read ("These are my favorite"): if mentioned at all, it

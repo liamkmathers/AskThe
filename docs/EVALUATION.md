@@ -60,6 +60,10 @@ Stored as `eval/questions/<creator>.yaml`:
 - the automated checks: coverage right, cited, citations hold, `must_mention` found, `must_not_claim` not found, expected sources read and cited, and, for hybrid, the share of the segments full mode cited that it read (`recall_of_full`);
 - `correct: null`, for a person to set after reading the answer.
 
+`askthe eval <creator> --rescore eval/runs/<run>.json` re-checks a saved run against the current test set without calling the model, writing `<run>-rescored.json`: for fixing an expectation or a check. Questions whose wording changed are left out and need a new run.
+
+When more than one coverage level is fair (a brand mentioned only in passing), `covered` can be a list, e.g. `[none, partial]`.
+
 The summary per mode counts the checks passed, total cost, mean words read and mean recall of full. Runs are compared side by side, so a prompt change that fixes one question and breaks two is visible. A run of 20 questions in both modes costs about $3; full mode runs all its questions back to back so its shared context stays cached.
 
 ## 2. Profile and retrieval checks

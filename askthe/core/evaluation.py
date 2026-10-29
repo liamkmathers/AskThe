@@ -20,7 +20,7 @@ QUESTION_TYPES = ("lookup", "comparison", "change_of_mind", "how_to", "taste", "
 
 
 class Expected(BaseModel):
-    covered: Coverage
+    covered: Coverage | list[Coverage]  # a list when more than one level is fair
     must_mention: list[str] = Field(default_factory=list)  # names or facts, any spelling given
     must_not_claim: list[str] = Field(default_factory=list)  # phrases that flag an error
     sources: list[str] = Field(default_factory=list)  # platform IDs of supporting videos
@@ -63,10 +63,15 @@ def _fold(text: str) -> str:
 
 
 def mentions(text: str, term: str) -> bool:
-    """Whether `term` appears in `text`, ignoring case, accents and punctuation.
-    Alternatives can be given as "Arc'teryx | Arcteryx"."""
+    """Whether `term` appears in `text` as whole words (a plural "s" allowed), ignoring
+    case, accents and punctuation. Alternatives can be given as "Arc'teryx | Arcteryx"."""
     folded = f" {_fold(text)} "
-    return any(f" {_fold(t)} " in folded for t in term.split("|") if _fold(t))
+    return any(f" {t} " in folded or f" {t}s " in folded for t in map(_fold, term.split("|")) if t)
+
+
+def acceptable(expected: Expected) -> list[Coverage]:
+    covered = expected.covered
+    return covered if isinstance(covered, list) else [covered]
 
 
 def score(
@@ -80,12 +85,13 @@ def score(
     """Automated checks for one answer. Video arguments are platform IDs."""
     cited, read = set(cited_videos), set(read_videos)
     covered = coverage is not Coverage.NONE
-    expected_covered = q.expected.covered is not Coverage.NONE
+    fair = acceptable(q.expected)
+    expected_covered = Coverage.NONE not in fair
     mentioned = {t: mentions(text, t) for t in q.expected.must_mention}
     flagged = [p for p in q.expected.must_not_claim if mentions(text, p)]
     return {
-        "coverage_right": covered == expected_covered,
-        "coverage_exact": coverage == q.expected.covered,  # full vs partial; informative
+        "coverage_right": covered == expected_covered or coverage in fair,
+        "coverage_exact": coverage in fair,  # full vs partial; informative
         "cited": bool(cited) if covered else True,
         "citations_hold": problems == 0,
         "must_mention": mentioned,
@@ -93,7 +99,7 @@ def score(
         "sources_read": sorted(set(q.expected.sources) & read),
         "sources_cited": sorted(set(q.expected.sources) & cited),
         "passed": (
-            covered == expected_covered
+            (covered == expected_covered or coverage in fair)
             and (bool(cited) or not covered)
             and problems == 0
             and all(mentioned.values())

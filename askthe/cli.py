@@ -24,7 +24,7 @@ from askthe.core.models import Creator
 from askthe.core.questions import question_candidates
 from askthe.pipeline.ask import RetrievalSettings, ask
 from askthe.pipeline.comments import fetch_comments
-from askthe.pipeline.evaluate import run_eval
+from askthe.pipeline.evaluate import rescore, run_eval
 from askthe.pipeline.fetch import fetch_videos
 from askthe.pipeline.index import index_videos
 from askthe.pipeline.segment import segment_videos
@@ -384,6 +384,12 @@ def eval_command(
     only: Annotated[
         list[str] | None, typer.Option("--only", help="Run only these question ids.")
     ] = None,
+    rescore_run: Annotated[
+        Path | None,
+        typer.Option(
+            "--rescore", help="Re-check a saved run against the current test set; no LLM calls."
+        ),
+    ] = None,
     config_path: ConfigOption = DEFAULT_CONFIG_PATH,
 ) -> None:
     """Run the test set, score every answer, and save the run to eval/runs/. Calls the LLM."""
@@ -397,6 +403,14 @@ def eval_command(
     if only:
         test_set = [q for q in test_set if q.id in only]
     modes = list(mode) if mode else ["hybrid", "full"]
+
+    if rescore_run:
+        run = rescore(json.loads(rescore_run.read_text()), test_set)
+        out = rescore_run.with_name(rescore_run.stem + "-rescored.json")
+        out.write_text(json.dumps(run, indent=2, ensure_ascii=False) + "\n")
+        _print_summary(run)
+        typer.echo(f"rescored {len(run['questions'])} questions into {out}")
+        return
 
     def progress(qid: str, m: str, r: dict) -> None:
         ok = "pass" if r["checks"]["passed"] else "FAIL"
@@ -424,6 +438,11 @@ def eval_command(
     path = eval_dir / "runs" / f"{stamp}-{label}.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(run, indent=2, ensure_ascii=False) + "\n")
+    _print_summary(run)
+    typer.echo(f"saved {path}; mark each answer's `correct` after reading it")
+
+
+def _print_summary(run: dict) -> None:
     for m, s in run["summary"].items():
         typer.echo(
             f"{m}: {s['passed_checks']}/{s['questions']} passed automated checks, "
@@ -436,7 +455,6 @@ def eval_command(
                 else ""
             )
         )
-    typer.echo(f"saved {path}; mark each answer's `correct` after reading it")
 
 
 @app.command()

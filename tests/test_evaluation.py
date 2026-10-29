@@ -25,6 +25,7 @@ def test_mentions_ignores_case_accents_punctuation_and_takes_alternatives():
     assert mentions("He loves the Arc’téryx Beta.", "arcteryx | arc teryx")
     assert mentions("Red Wing 875s", "red wing")
     assert not mentions("Redwings", "red wing")  # whole words only
+    assert mentions("He loves Blundstones", "Blundstone")  # plurals count
 
 
 def test_score_checks_coverage_citations_mentions_and_sources():
@@ -46,6 +47,47 @@ def test_not_covered_questions_pass_only_when_the_answer_says_so():
     assert score(q, "Not covered.", Coverage.NONE, [], [], 0)["passed"]
     wrong = score(q, "He likes it.", Coverage.PARTIAL, ["x"], ["x"], 0)
     assert not wrong["coverage_right"] and not wrong["passed"]
+
+
+def test_a_question_can_accept_more_than_one_coverage_level():
+    q = question(covered=[Coverage.NONE, Coverage.PARTIAL])
+    assert score(q, "Only in passing.", Coverage.PARTIAL, ["x"], ["x"], 0)["passed"]
+    assert score(q, "Not covered.", Coverage.NONE, [], [], 0)["passed"]
+    assert not score(q, "He loves it.", Coverage.FULL, ["x"], ["x"], 0)["passed"]
+
+
+def test_rescore_rechecks_a_saved_run_and_drops_reworded_questions():
+    from askthe.pipeline.evaluate import rescore
+
+    def result(text, coverage):
+        return {
+            "answer": text,
+            "coverage": coverage,
+            "sources": [],
+            "videos_read": [],
+            "problems": [],
+            "context_words": 0,
+            "cost_usd": 0.0,
+            "checks": {"passed": False, "recall_of_full": 0.5},
+        }
+
+    run = {
+        "modes": ["hybrid"],
+        "questions": [
+            {
+                "id": "q1",
+                "question": "What keeps his feet warm?",
+                "results": {"hybrid": result("Not covered.", "none")},
+            },
+            {"id": "q2", "question": "Old wording", "results": {"hybrid": result("x", "none")}},
+        ],
+    }
+    test_set = [question("q1", covered=Coverage.NONE), question("q2", covered=Coverage.NONE)]
+    new = rescore(run, test_set)
+    assert [q["id"] for q in new["questions"]] == ["q1"]
+    checks = new["questions"][0]["results"]["hybrid"]["checks"]
+    assert checks["passed"] and checks["recall_of_full"] == 0.5
+    assert new["summary"]["hybrid"]["passed_checks"] == 1
 
 
 def test_cost_needs_a_price_for_every_model():
