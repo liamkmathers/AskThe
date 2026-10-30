@@ -1,9 +1,9 @@
 # First test set for Kenji (J. Kenji López-Alt). DRAFT: needs Liam's review before it
 # counts as a gate.
 #
-# Five questions are fans' own, read out in his "Ask Kenji Anything" episodes (k01–k03,
-# k09) or posted on his videos (none yet: his comments aren't fetched). The rest are
-# written to match what cooking fans ask. Expected answers come from reading the
+# Fans' own questions: k01–k03 and k09 read out in his "Ask Kenji Anything" episodes,
+# k13–k17 posted as comments on his videos (verbatim). The rest are written to match
+# what cooking fans ask. Expected answers come from reading the
 # transcripts of the 50 fetched videos, not from model answers; `notes` says what a
 # correct answer contains.
 #
@@ -146,3 +146,56 @@
   expected:
     covered: none
   notes: Personal life (rule 8). Must decline without describing his family.
+
+- id: k13
+  question: "Just wondering, what is the best way to clean the wok after each use? And should I use the heat & coat in oil technique after each use as well?"
+  source: https://www.youtube.com/watch?v=3kdkPUmrc20
+  type: how_to
+  expected:
+    covered: [full, partial]
+    sources: [bXwLmZBa0Lo]
+  notes: >-
+    Rinse it out, soap if you need it, then put it back on the burner and reheat: not
+    for seasoning but to get it fully dry. Second part only as far as he says it.
+
+- id: k14
+  question: "A genuine question: if a wok doesn't build up layers of polymers like a cast iron, what does it mean for a wok to build up seasoning?"
+  source: https://www.youtube.com/watch?v=3kdkPUmrc20
+  type: technique
+  expected:
+    covered: full
+    sources: [bXwLmZBa0Lo]
+  notes: >-
+    Polymer layers struggle on a wok: it gets very hot, the metal flexes between the hot
+    bottom and cooler sides so layers flake, and acidic sauces strip them. His account of
+    what wok seasoning is instead, as he says it.
+
+- id: k15
+  question: "Is there any advantage to salting hours ahead of time with this technique, or does the long time the steak spends hanging out in the oven make that moot? [reverse sear]"
+  source: https://www.youtube.com/watch?v=pO8TUuSv7HA
+  type: technique
+  expected:
+    covered: [full, partial]
+    sources: [Azarsj8xlBk, DtCqblM6Syg]
+  notes: >-
+    He salts ahead: in the newer reverse-sear video he seasons in advance and lets the
+    salt penetrate; his salting video shows an overnight-salted steak browning deeper.
+    Says if he never addresses the oven time making it moot.
+
+- id: k16
+  question: "where does the kettlepizza fall in these rankings?"
+  source: https://www.youtube.com/watch?v=gGNJbFQIr5g
+  type: not_covered
+  expected:
+    covered: none
+  notes: Never mentioned. Says so; the ovens he did rank are the closest thing.
+
+- id: k17
+  question: "So, Kenji, since you left Cook's Illustrated, they've started to advocate cold searing (starting in a cold pan and flipping every 2 minutes until done). What are your thoughts?"
+  source: https://www.youtube.com/watch?v=Azarsj8xlBk
+  type: not_covered
+  expected:
+    covered: [none, partial]
+  notes: >-
+    Cold searing is never discussed. Must not invent his view of it; may point to the
+    reverse sear, which he still calls the best way.

@@ -1,0 +1,813 @@
+{
+  "label": "kenji-comments",
+  "created_at": "2026-10-30T17:20:23+00:00",
+  "creator": "kenji",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-sonnet-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2,
+      "named_per_video": 2,
+      "named_total": 8,
+      "require_profiles": false,
+      "use_profiles": true
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 5,
+      "passed_checks": 5,
+      "coverage_right": 5,
+      "coverage_exact": 5,
+      "citations_hold": 5,
+      "personal_life": 0,
+      "cost_usd": 0.3096,
+      "mean_context_words": 3665,
+      "expected_sources_read": 1.0,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "k13",
+      "question": "Just wondering, what is the best way to clean the wok after each use? And should I use the heat & coat in oil technique after each use as well?",
+      "type": "how_to",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "Kenji's routine after each use is to rinse, dry the wok on the burner, and rub in a very thin film of oil. The oil step matters most if you'll store the wok. If you cook in it daily, it matters much less. This is from his most recent wok AMA (March 2026), and his earlier videos agree.\n\n**Cleaning**\n- He recommends rinsing it right after cooking, and says soap is fine if you need it. [1][2]\n- For anything stuck on, he says to rub with a scrubber. A bamboo wok brush is his favorite because it gives good leverage. [3][4]\n- For really burnt-on food, he says to heat the wok, add water and scrub. He says that won't damage it. [5]\n\n**Heat to dry**\n- He puts the rinsed wok back on the burner. He says this is \"not about seasoning\" but about getting it dry, because wiping with a towel still leaves some moisture. [2][6]\n- In his January 2026 video he cleans the new wok the same way: rinse, wipe out the oil, then heat it to dry. With the super nitride coating, he says you don't need to be as careful about drying as with cast iron, but it still helps maintain the seasoning. [7]\n\n**Oil coat afterward**\n- Once it's completely dry, he rubs in a final little layer of oil. [8]\n- He says the oil is not that important if you use the wok every day or even several times a day. It is important if you store it somewhere with moisture in the air, because a raw carbon steel wok can rust. [9]\n- He says it's \"not too much of an issue\" with his super nitrided wok, because it isn't reactive the way carbon steel is. [10]\n- Keep the coat very thin. A thick layer can turn gummy over time, so he says to put some oil on and then wipe it out as if you'd accidentally put it there. [11][12]\n\n**Seasoning**\n- He says not to try to build up polymer or burnt-on carbon layers. He washes his wok smooth each time he cooks. [13]",
+          "sources": [
+            {
+              "n": 1,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0024"
+              ],
+              "quote": "I always recommend after you cook with a wok that you put it on a burner"
+            },
+            {
+              "n": 2,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0025"
+              ],
+              "quote": "You rinse it out. If you need soap, you can use soap."
+            },
+            {
+              "n": 3,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0031"
+              ],
+              "quote": "I like using these because they give you good leverage."
+            },
+            {
+              "n": 4,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0025"
+              ],
+              "quote": "a bamboo brush like this, you know, which is specifically designed for walks, is actually the best tool for that"
+            },
+            {
+              "n": 5,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0025"
+              ],
+              "quote": "heating up the walk uh and then scrubbing is a great way"
+            },
+            {
+              "n": 6,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0025"
+              ],
+              "quote": "It's really about getting the wok nice and dry."
+            },
+            {
+              "n": 7,
+              "video": "JzccAFXcTqE",
+              "title": "I Make Spam Fried Rice in my New Wok",
+              "published": "2026-01-14",
+              "segments": [
+                "kenji:JzccAFXcTqE:s0011"
+              ],
+              "quote": "you don't need to be as careful about drying it out as with cast iron, but it still helps with maintain the seasoning that way"
+            },
+            {
+              "n": 8,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0025"
+              ],
+              "quote": "then I rub in a sort of final little layer of uh, oil back into it"
+            },
+            {
+              "n": 9,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0026"
+              ],
+              "quote": "it's not that important if you're going to be using your wok everyday or even multiple times a day"
+            },
+            {
+              "n": 10,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0026"
+              ],
+              "quote": "not too much of an issue with the super nitrided wok because it's not reactive the way carbon steel is"
+            },
+            {
+              "n": 11,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0027"
+              ],
+              "quote": "What you don't want is like a thick layer of oil that's going to sort of turn gummy over time"
+            },
+            {
+              "n": 12,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0027"
+              ],
+              "quote": "really you want to put some oil on it and then wipe it out as if you accidentally put it in there"
+            },
+            {
+              "n": 13,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0055"
+              ],
+              "quote": "you shouldn't be trying to build up those layers of uh, polymers or layers of burnt on carbon"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "3kdkPUmrc20",
+            "ikOtA7Va2YY",
+            "JzccAFXcTqE",
+            "021KahIfXfA",
+            "bXwLmZBa0Lo"
+          ],
+          "segments_read": [
+            "kenji:3kdkPUmrc20:s0000",
+            "kenji:3kdkPUmrc20:s0001",
+            "kenji:3kdkPUmrc20:s0002",
+            "kenji:ikOtA7Va2YY:s0000",
+            "kenji:ikOtA7Va2YY:s0001",
+            "kenji:JzccAFXcTqE:s0000",
+            "kenji:JzccAFXcTqE:s0001",
+            "kenji:JzccAFXcTqE:s0010",
+            "kenji:JzccAFXcTqE:s0011",
+            "kenji:JzccAFXcTqE:s0012",
+            "kenji:021KahIfXfA:s0017",
+            "kenji:021KahIfXfA:s0018",
+            "kenji:021KahIfXfA:s0019",
+            "kenji:021KahIfXfA:s0020",
+            "kenji:021KahIfXfA:s0021",
+            "kenji:021KahIfXfA:s0022",
+            "kenji:021KahIfXfA:s0023",
+            "kenji:021KahIfXfA:s0024",
+            "kenji:021KahIfXfA:s0025",
+            "kenji:021KahIfXfA:s0026",
+            "kenji:021KahIfXfA:s0027",
+            "kenji:021KahIfXfA:s0028",
+            "kenji:021KahIfXfA:s0029",
+            "kenji:021KahIfXfA:s0030",
+            "kenji:021KahIfXfA:s0031",
+            "kenji:021KahIfXfA:s0032",
+            "kenji:bXwLmZBa0Lo:s0000",
+            "kenji:bXwLmZBa0Lo:s0001",
+            "kenji:bXwLmZBa0Lo:s0014",
+            "kenji:bXwLmZBa0Lo:s0015",
+            "kenji:bXwLmZBa0Lo:s0016",
+            "kenji:bXwLmZBa0Lo:s0017",
+            "kenji:bXwLmZBa0Lo:s0020",
+            "kenji:bXwLmZBa0Lo:s0021",
+            "kenji:bXwLmZBa0Lo:s0022",
+            "kenji:bXwLmZBa0Lo:s0023",
+            "kenji:bXwLmZBa0Lo:s0024",
+            "kenji:bXwLmZBa0Lo:s0025",
+            "kenji:bXwLmZBa0Lo:s0026",
+            "kenji:bXwLmZBa0Lo:s0027",
+            "kenji:bXwLmZBa0Lo:s0028",
+            "kenji:bXwLmZBa0Lo:s0029",
+            "kenji:bXwLmZBa0Lo:s0030",
+            "kenji:bXwLmZBa0Lo:s0031",
+            "kenji:bXwLmZBa0Lo:s0055",
+            "kenji:bXwLmZBa0Lo:s0056",
+            "kenji:bXwLmZBa0Lo:s0057"
+          ],
+          "context_words": 6604,
+          "queries": [
+            "Just wondering, what is the best way to clean the wok after each use? And should I use the heat & coat in oil technique after each use as well?",
+            "how to clean a wok after each use",
+            "wok cleaning without soap",
+            "heat and oil coat seasoning wok after washing",
+            "wok maintenance after cooking, dry on stove, thin layer of oil",
+            "wash carbon steel wok water scrub brush",
+            "The Wok seasoning and cleaning",
+            "The Wok",
+            "my wok book",
+            "the wok book",
+            "Our Place carbon steel wok",
+            "my new walk",
+            "new walk",
+            "super nonstick one",
+            "the our place wok",
+            "the wok from our place",
+            "the wok that I designed with Our Place",
+            "walk",
+            "The Walk",
+            "my book",
+            "my book The Walk",
+            "my book The Wok",
+            "my walk book",
+            "my walkbook",
+            "the book The Walk",
+            "the walk"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 20752,
+              "output": 788,
+              "cache_read": 0,
+              "cache_write": 1214
+            },
+            "claude-sonnet-5-5": {
+              "input": 40866,
+              "output": 4526,
+              "cache_read": 2058,
+              "cache_write": 2058
+            }
+          },
+          "cost_usd": 0.13516955000000003,
+          "seconds": 47.2,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "bXwLmZBa0Lo"
+            ],
+            "sources_cited": [
+              "bXwLmZBa0Lo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k14",
+      "question": "A genuine question: if a wok doesn't build up layers of polymers like a cast iron, what does it mean for a wok to build up seasoning?",
+      "type": "technique",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "For Kenji, wok seasoning mostly means one thing: turning raw carbon steel into black oxide. After that it's a light, per-use upkeep, not a growing layer.\n\n**The initial seasoning.** He says that with a wok \"it's not about building up layers of polymers.\" It's about the initial step, converting the raw steel into black oxide [1]. You do that by heating the wok until the surface turns black or bluish black. On gas he says to heat it in different spots until the whole surface changes [2]. The first heating is what turns the silvery steel black, and he says that black oxide layer \"could be considered seasoning\" [3].\n\n**Why polymers don't build up.** He gives two reasons:\n- The bottom of a wok gets far hotter than the edges, so the metal warps and expands unevenly every time you cook. Hard polymer layers have a tough time sticking [4].\n- You almost always deglaze with a liquid that is often acidic, which strips the seasoning [5].\n\nHe adds that you shouldn't expect or aim for thick polymer seasoning in a wok [3].\n\n**What ongoing seasoning looks like.** He describes it as more of a per-use thing [3][6]. At home he starts by rubbing a little oil into the wok with a paper towel, about a quarter to half a teaspoon [7].\n\nHis view is consistent across the videos, from the 2022 wok-seasoning video through the 2026 wok AMA.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0016"
+              ],
+              "quote": "it's not about building up layers of polymers"
+            },
+            {
+              "n": 2,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0017"
+              ],
+              "quote": "you just you just heat it in different spots until the entire surface turns black"
+            },
+            {
+              "n": 3,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0029"
+              ],
+              "quote": "that could be considered seasoning"
+            },
+            {
+              "n": 4,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0015"
+              ],
+              "quote": "the metal is kind of warping every time you cook in a wok"
+            },
+            {
+              "n": 5,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0016"
+              ],
+              "quote": "that liquid is very often going to be um acidic. So, that's also going to strip the seasoning."
+            },
+            {
+              "n": 6,
+              "video": "3kdkPUmrc20",
+              "title": "How to Season a Wok (non-stick the first time you use it!) | Kenji's Cooking Show",
+              "published": "2022-07-27",
+              "segments": [
+                "kenji:3kdkPUmrc20:s0004"
+              ],
+              "quote": "process is much more of a sort of per use basis"
+            },
+            {
+              "n": 7,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0021"
+              ],
+              "quote": "So I'll start by getting just a little bit of oil in the wok."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "3kdkPUmrc20",
+            "ikOtA7Va2YY",
+            "JzccAFXcTqE",
+            "021KahIfXfA",
+            "bXwLmZBa0Lo"
+          ],
+          "segments_read": [
+            "kenji:3kdkPUmrc20:s0000",
+            "kenji:3kdkPUmrc20:s0001",
+            "kenji:3kdkPUmrc20:s0002",
+            "kenji:3kdkPUmrc20:s0003",
+            "kenji:3kdkPUmrc20:s0004",
+            "kenji:ikOtA7Va2YY:s0000",
+            "kenji:ikOtA7Va2YY:s0001",
+            "kenji:JzccAFXcTqE:s0000",
+            "kenji:JzccAFXcTqE:s0001",
+            "kenji:JzccAFXcTqE:s0003",
+            "kenji:JzccAFXcTqE:s0004",
+            "kenji:JzccAFXcTqE:s0005",
+            "kenji:021KahIfXfA:s0017",
+            "kenji:021KahIfXfA:s0018",
+            "kenji:021KahIfXfA:s0019",
+            "kenji:021KahIfXfA:s0025",
+            "kenji:021KahIfXfA:s0026",
+            "kenji:021KahIfXfA:s0027",
+            "kenji:021KahIfXfA:s0028",
+            "kenji:021KahIfXfA:s0029",
+            "kenji:021KahIfXfA:s0030",
+            "kenji:021KahIfXfA:s0031",
+            "kenji:021KahIfXfA:s0032",
+            "kenji:bXwLmZBa0Lo:s0000",
+            "kenji:bXwLmZBa0Lo:s0001",
+            "kenji:bXwLmZBa0Lo:s0011",
+            "kenji:bXwLmZBa0Lo:s0012",
+            "kenji:bXwLmZBa0Lo:s0013",
+            "kenji:bXwLmZBa0Lo:s0014",
+            "kenji:bXwLmZBa0Lo:s0015",
+            "kenji:bXwLmZBa0Lo:s0016",
+            "kenji:bXwLmZBa0Lo:s0017",
+            "kenji:bXwLmZBa0Lo:s0018",
+            "kenji:bXwLmZBa0Lo:s0019",
+            "kenji:bXwLmZBa0Lo:s0020",
+            "kenji:bXwLmZBa0Lo:s0021"
+          ],
+          "context_words": 5360,
+          "queries": [
+            "A genuine question: if a wok doesn't build up layers of polymers like a cast iron, what does it mean for a wok to build up seasoning?",
+            "wok seasoning how it builds up",
+            "carbon steel wok seasoning polymerization oil",
+            "wok does not form polymer layer like cast iron",
+            "wok seasoning patina oil heat carbonized",
+            "seasoning a wok seasoned layer explained",
+            "The Wok",
+            "my wok book",
+            "the wok book",
+            "Our Place carbon steel wok",
+            "my new walk",
+            "new walk",
+            "super nonstick one",
+            "the our place wok",
+            "the wok from our place",
+            "the wok that I designed with Our Place",
+            "walk",
+            "The Walk",
+            "my book",
+            "my book The Walk",
+            "my book The Wok",
+            "my walk book",
+            "my walkbook",
+            "the book The Walk",
+            "the walk"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 21560,
+              "output": 774,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 36451,
+              "output": 3155,
+              "cache_read": 4116,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.10783034,
+          "seconds": 26.7,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "bXwLmZBa0Lo"
+            ],
+            "sources_cited": [
+              "bXwLmZBa0Lo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k15",
+      "question": "Is there any advantage to salting hours ahead of time with this technique, or does the long time the steak spends hanging out in the oven make that moot? [reverse sear]",
+      "type": "technique",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "changed_mind": false,
+          "answer": "Yes, by his account there is an advantage, though he doesn't speak to the oven-time question directly. In his reverse sear video he salts the steak and lets it rest before it goes in the oven. He says 45 minutes is the minimum and that overnight is an option.\n\n**What he does with the reverse sear (2025)**\n- He seasons heavily with salt, pepper and a little MSG, then lets the steak sit before cooking. He says salt first pulls moisture out, and the brine that forms then breaks down some muscle proteins and the steak reabsorbs the moisture [1][2].\n- Because those proteins are broken down, they don't tighten as much when cooked, so less moisture gets squeezed out. He says you get a moister steak and \"better more penetrative seasoning\" [2].\n- He sets the steak aside for about 45 minutes, which he calls about the minimum time for this to happen. If you prefer, you can leave it uncovered in the fridge overnight. The surface dries and forms a pellicle, so it sears even better, but he says 45 minutes is enough [2].\n\n**His newer, related test (January 2026)**\nThis one is a pan-seared tenderloin, not a reverse sear. He compares a steak salted and left uncovered overnight with an unsalted one. He says the salted steak ends up juicier and more tender, browns a deeper mahogany, and its juices stay in rather than running out quickly [3][4][5]. He also says you can cook a great steak without salting ahead, and that it's partly a matter of preference [5][6].\n\n**What he hasn't said**\nIn the material available here, he doesn't say whether the time in the low oven does the same job as salting ahead, or whether hours of salting before a reverse sear beat 45 minutes. What he does say is that 45 minutes is enough for the reverse sear, and that longer, uncovered, gives a drier surface for searing.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0003"
+              ],
+              "quote": "the salt is going to pull out moisture through osmosis"
+            },
+            {
+              "n": 2,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0005"
+              ],
+              "quote": "you get a moisture steak and uh you get better more penetrative seasoning"
+            },
+            {
+              "n": 3,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0001"
+              ],
+              "quote": "you end up creating a steak that is able to retain moisture better and is also going to be more tender"
+            },
+            {
+              "n": 4,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0009"
+              ],
+              "quote": "look at how deep sort of deep mahogany brown that crust is"
+            },
+            {
+              "n": 5,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0018"
+              ],
+              "quote": "the juices that are in there kind of very quickly run out"
+            },
+            {
+              "n": 6,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0009"
+              ],
+              "quote": "You can absolutely cook a great steak without salting it and without letting it sit overnight like that."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "Azarsj8xlBk",
+            "DtCqblM6Syg"
+          ],
+          "segments_read": [
+            "kenji:Azarsj8xlBk:s0001",
+            "kenji:Azarsj8xlBk:s0002",
+            "kenji:Azarsj8xlBk:s0003",
+            "kenji:Azarsj8xlBk:s0004",
+            "kenji:Azarsj8xlBk:s0005",
+            "kenji:DtCqblM6Syg:s0000",
+            "kenji:DtCqblM6Syg:s0001",
+            "kenji:DtCqblM6Syg:s0002",
+            "kenji:DtCqblM6Syg:s0003",
+            "kenji:DtCqblM6Syg:s0004",
+            "kenji:DtCqblM6Syg:s0005",
+            "kenji:DtCqblM6Syg:s0006",
+            "kenji:DtCqblM6Syg:s0007",
+            "kenji:DtCqblM6Syg:s0008",
+            "kenji:DtCqblM6Syg:s0009",
+            "kenji:DtCqblM6Syg:s0010",
+            "kenji:DtCqblM6Syg:s0017",
+            "kenji:DtCqblM6Syg:s0018",
+            "kenji:DtCqblM6Syg:s0019",
+            "kenji:DtCqblM6Syg:s0020",
+            "kenji:DtCqblM6Syg:s0021",
+            "kenji:DtCqblM6Syg:s0022",
+            "kenji:DtCqblM6Syg:s0023",
+            "kenji:DtCqblM6Syg:s0024"
+          ],
+          "context_words": 3476,
+          "queries": [
+            "Is there any advantage to salting hours ahead of time with this technique, or does the long time the steak spends hanging out in the oven make that moot? [reverse sear]",
+            "dry brining steak salt hours ahead reverse sear",
+            "salting steak overnight vs just before cooking",
+            "reverse sear steak salt timing long time in oven",
+            "salt penetration steak dry brine moisture reabsorb",
+            "salted steak low oven rest surface dry"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22241,
+              "output": 775,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 8702,
+              "output": 1351,
+              "cache_read": 2058,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.033949339999999995,
+          "seconds": 16.3,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 2,
+            "sources_read": [
+              "Azarsj8xlBk",
+              "DtCqblM6Syg"
+            ],
+            "sources_cited": [
+              "Azarsj8xlBk",
+              "DtCqblM6Syg"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k16",
+      "question": "where does the kettlepizza fall in these rankings?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "Kenji hasn't covered the KettlePizza, or where it would fall in any ranking, in the videos available here.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [],
+          "segments_read": [],
+          "context_words": 0,
+          "queries": [
+            "where does the kettlepizza fall in these rankings?",
+            "kettle pizza ranking",
+            "Weber kettle pizza oven review",
+            "kettle pizza where it ranks",
+            "best pizza ovens for home ranking",
+            "kettle pizza grill pizza method",
+            "Kettle Pizza"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 37030,
+              "output": 1917,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 62,
+              "output": 68,
+              "cache_read": 2058,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.0058892400000000004,
+          "seconds": 11.3,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k17",
+      "question": "So, Kenji, since you left Cook's Illustrated, they've started to advocate cold searing (starting in a cold pan and flipping every 2 minutes until done). What are your thoughts?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "Kenji hasn't covered cold-pan searing or flipping steak every couple of minutes in the videos available here, so there's no verdict from him on Cook's Illustrated's newer approach.\n\nThe closest thing he did say is that he still prefers the reverse sear he developed at Cook's Illustrated. In 2025 he called it \"still my favorite way to cook a big steak\" [1]. He says it gives a much more even cook from edge to center than the traditional sear-then-oven method, which gives a bullseye pattern [2].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [],
+              "quote": "it's still my favorite way to cook a big steak"
+            },
+            {
+              "n": 2,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0003"
+              ],
+              "quote": "you get a much more even cook from Edge to Center"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "pO8TUuSv7HA",
+            "0Mss7hxdqvQ",
+            "Azarsj8xlBk",
+            "U5vJ3hlopUk"
+          ],
+          "segments_read": [
+            "kenji:pO8TUuSv7HA:s0000",
+            "kenji:pO8TUuSv7HA:s0001",
+            "kenji:pO8TUuSv7HA:s0002",
+            "kenji:0Mss7hxdqvQ:s0000",
+            "kenji:0Mss7hxdqvQ:s0001",
+            "kenji:Azarsj8xlBk:s0002",
+            "kenji:Azarsj8xlBk:s0003",
+            "kenji:Azarsj8xlBk:s0004",
+            "kenji:Azarsj8xlBk:s0008",
+            "kenji:Azarsj8xlBk:s0009",
+            "kenji:Azarsj8xlBk:s0010",
+            "kenji:U5vJ3hlopUk:s0000",
+            "kenji:U5vJ3hlopUk:s0001",
+            "kenji:U5vJ3hlopUk:s0010",
+            "kenji:U5vJ3hlopUk:s0011",
+            "kenji:U5vJ3hlopUk:s0012"
+          ],
+          "context_words": 2886,
+          "queries": [
+            "So, Kenji, since you left Cook's Illustrated, they've started to advocate cold searing (starting in a cold pan and flipping every 2 minutes until done). What are your thoughts?",
+            "cold pan searing steak",
+            "starting steak in a cold pan",
+            "Cook's Illustrated cold sear",
+            "cold searing flipping every two minutes",
+            "reverse sear versus cold start steak",
+            "rendering fat cold pan steak thickness",
+            "Cook's Illustrated",
+            "Cooks Illustrated",
+            "cooks illustrated",
+            "cooksillustrated"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22357,
+              "output": 782,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 10345,
+              "output": 303,
+              "cache_read": 2058,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.02677044,
+          "seconds": 9.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}

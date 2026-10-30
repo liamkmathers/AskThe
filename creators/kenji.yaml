@@ -43,12 +43,12 @@ categories:
 # channel list (data/kenji/channel.tsv) for verdicts: gear, comparisons, tests.
 video_selection: kenji.videos.txt
 
-# Shown on the ask page. Fans' questions read out in his "Ask Kenji Anything"
-# episodes, lightly shortened; refresh from his comments once they're fetched.
+# Shown on the ask page. Real fan questions, lightly shortened: two from comments on
+# his videos, one read out in an "Ask Kenji Anything" episode.
 starter_questions:
+  - "What's the best way to clean a wok after each use?"
+  - "Is it worth salting a steak hours ahead?"
   - "Do I need a gas burner to stir-fry?"
-  - "How often should I oil my wooden cutting board?"
-  - "Would you recommend using a cleaver?"
 
 # Known names and how auto-captions mangle them. Grows as videos are processed.
 glossary:
