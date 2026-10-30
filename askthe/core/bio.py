@@ -56,7 +56,7 @@ class ItemDraft(BaseModel):
 
 
 class BioDraft(BaseModel):
-    summary: str = Field(description="Two or three sentences: who they are as a creator.")
+    summary: str = Field(description="At most two sentences, about 40 words.")
     journey: list[ItemDraft] = Field(description="Milestones, oldest first.")
     ventures: list[ItemDraft] = Field(description="Their own brands, products, collaborations.")
 
@@ -69,14 +69,16 @@ Use only the material given: a catalogue of their videos (with descriptions) and
 passages where they talk about their own work.
 
 Write:
-- summary: two or three sentences on who {who} is and what their work is about.
+- summary: at most two sentences, about 40 words, on who {who} is and what their work \
+is about. It sits above the question box on a phone, so every word must earn its place.
 - journey: 4 to 8 dated milestones in their work, oldest first: how the channel \
 started and changed, formats, launching their own brand or products, collaborations, \
 building a team or studio.
 - ventures: their own brands, products and collaborations, each with what it is.
 
 Rules:
-- Third person, plain and respectful. Facts are what they said, not verified truth.
+- Third person, plain and respectful. Refer to them as "{who}" (or "{creator.pronoun}"), \
+the way answers do, not by any other name. Facts are what they said, not verified truth.
 - Every item cites one or two short quotes copied exactly from the material, with the \
 video id. No quote, no item.
 - Professional life only. Nothing about family, partners, friends, home, health, where \
