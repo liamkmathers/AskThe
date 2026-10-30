@@ -171,7 +171,7 @@ A snapshot of each answer given, so the web page can show it again by its link (
 | `question`, `answer` | The answer text after verification (failed citations removed) |
 | `covered` | `full`, `partial`, `none` |
 | `changed_mind` | The answer reports that he changed his mind or hedged over time |
-| `sources` | Verified citations: `n`, video, title, published date, URL, quote, segment IDs, `in_description`, and `sponsored` (the quote is inside a located sponsor read, set in code) |
+| `sources` | Verified citations: `n`, video, title, published date, URL, quote, segment IDs, `context_before` and `context_after` (about 60 words of his words on each side of the quote, verbatim, taken in code), `in_description`, and `sponsored` (the quote is inside a located sponsor read, set in code) |
 | `videos_read` | Videos the answer was based on |
 | `parent_id` | The answer this follows up; unused until the page has a chat thread |
 | `flagged` | "Something wrong?" notes from fans |

@@ -206,6 +206,15 @@ function openSheet(n) {
   if (!s) return;
   $("sheet-kind").textContent = s.in_description ? "From the video description" : "Listen for";
   $("sheet-quote").textContent = s.quote;
+  // What he said around the quote, verbatim, with the quote highlighted.
+  const hasContext = Boolean(s.context_before || s.context_after);
+  $("sheet-context-block").hidden = !hasContext;
+  $("sheet-context-label").textContent = s.in_description ? "In the description" : "In context";
+  const after = s.context_after || "";
+  const gap = /^[.,;:!?)]/.test(after) ? "" : " "; // no space before punctuation
+  $("sheet-context").innerHTML = hasContext
+    ? `${escapeHtml(s.context_before || "")} <mark>${escapeHtml(s.quote)}</mark>${gap}${escapeHtml(after)}`
+    : "";
   $("sheet-tags").innerHTML = s.sponsored
     ? '<span class="tag">Sponsored: a paid read, not his own verdict</span>'
     : "";

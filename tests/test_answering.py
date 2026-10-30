@@ -239,3 +239,26 @@ def test_an_empty_corpus_says_nothing_matched():
     from askthe.core.answering import render_corpus
 
     assert "Nothing in his videos matched" in render_corpus([])
+
+
+def test_verified_quotes_keep_the_words_around_them():
+    from askthe.core.answering import quote_context
+
+    text = " ".join(f"w{i}" for i in range(100)) + " the storm welt is invaluable to me " + "end"
+    before, after = quote_context("storm welt is invaluable", text, words=3)
+    assert before == "… w98 w99 the" and after == "to me end"
+    assert quote_context("not there", text) == ("", "")
+
+    video = f.video("abc")
+    segs = [
+        f.segment(video.id, 0, "Leading in. The Unilo tee"),
+        f.segment(video.id, 1, "is great for fifteen bucks. Moving on."),
+    ]
+    draft = AnswerDraft(
+        answer="He rates it [1].",
+        coverage=Coverage.FULL,
+        citations=[CitationDraft(n=1, video="abc", segment=1, quote="great for fifteen bucks")],
+    )
+    source = check_answer(draft, {"abc": (video, segs)}, "youtube").sources[0]
+    assert source.context_before == "Leading in. The Unilo tee is"  # runs into the segment before
+    assert source.context_after == ". Moving on."  # punctuation after the quote is kept

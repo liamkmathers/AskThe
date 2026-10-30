@@ -318,6 +318,23 @@ blockquote {
   font-weight: 500;
 }
 
+.sheet-panel { max-height: 88vh; overflow-y: auto; }
+
+.context {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.context mark {
+  background: var(--chip);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 1px 3px;
+  font-weight: 500;
+}
+
 blockquote::before { content: "“"; }
 
 blockquote::after { content: "”"; }

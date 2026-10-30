@@ -442,6 +442,9 @@ class AnswerSource(Model):
     url: str
     segment_ids: list[str] = Field(default_factory=list)  # empty for a description quote
     quote: str
+    # His words around the quote, verbatim, so a reader can see what it was part of.
+    context_before: str = ""
+    context_after: str = ""
     in_description: bool = False  # quoted from the video's description
     sponsored: bool = False  # inside a sponsor read, as marked in code (rule 6)
 

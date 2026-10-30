@@ -294,6 +294,24 @@ class CheckedAnswer:
     changed_mind: bool = False
 
 
+CONTEXT_WORDS = 60  # words of context kept on each side of a quote
+
+
+def quote_context(quote: str, text: str, words: int = CONTEXT_WORDS) -> tuple[str, str]:
+    """The words before and after `quote` in `text`, verbatim, cut to `words` a side
+    with "…" where cut. Empty if the quote can't be placed (it was verified by a
+    looser comparison, e.g. across punctuation the transcript doesn't have)."""
+    pattern = _words_pattern(quote)
+    match = pattern.search(text) if pattern else None
+    if not match:
+        return "", ""
+    before = text[: match.start()].split()
+    after = text[match.end() :].split()
+    head = ("… " if len(before) > words else "") + " ".join(before[-words:])
+    tail = " ".join(after[:words]) + (" …" if len(after) > words else "")
+    return head.strip(), tail.strip()
+
+
 def quote_location(quote: str, segment_index: int, segments: Sequence[Segment]) -> list[int]:
     """Segments the quote appears in, starting at the cited one; [] if it isn't there.
     A quote may run on into the next segment, so that pair is also checked."""
@@ -359,6 +377,13 @@ def check_answer(
             checked.text = checked.text.replace(f"[{c.n}]", "")
             continue
         video = found[0]
+        if located == [DESCRIPTION]:
+            around = clean_description(video.description)
+        else:  # the cited segments and their neighbours, in order
+            by_index = {s.index: s.text for s in found[1]}
+            span = range(located[0] - 1, located[-1] + 2)
+            around = " ".join(by_index[i] for i in span if i in by_index)
+        before, after = quote_context(c.quote, around)
         checked.sources.append(
             Source(
                 n=c.n,
@@ -368,6 +393,8 @@ def check_answer(
                 url=watch_url(platform, video.platform_id),
                 segment_ids=[ids.segment_id(video.id, i) for i in located if i != DESCRIPTION],
                 quote=c.quote,
+                context_before=before,
+                context_after=after,
                 in_description=located == [DESCRIPTION],
                 sponsored=any(
                     normalise(c.quote) in normalise(read) for read in reads.get(c.video, ())
