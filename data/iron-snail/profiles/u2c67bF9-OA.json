@@ -1,0 +1,813 @@
+{
+  "platform_id": "u2c67bF9-OA",
+  "profile": {
+    "video_id": "iron-snail:u2c67bF9-OA",
+    "purpose": "A roundup of heavy wool outdoor jackets: a vintage Filson Double Mackinaw Cruiser, the Duckworth Snowcrest Shirt Jacket, the WeatherWool Al's Anorak and the creator's own Iron Snail Mammoth Jacket. It covers wool weights, construction, features and prices, with a short 'Wool School' on coarse versus fine wool. A planned Woolrich segment was cancelled because the jacket never arrived.",
+    "video_type": "comparison",
+    "thesis": "The creator presents several of the greatest heritage and modern wool jackets for rugged outdoor use, explains how wool type and weave affect toughness, softness and warmth, and introduces his own Mammoth jacket as a contender.",
+    "key_takeaways": [
+      "The Woolrich hunting jacket segment was cancelled because the package was lost in the mail; it is promised for a future video.",
+      "The Filson featured is a 1980s Double Mackinaw Cruiser bought on eBay, with a double layer of wool across the top including the sleeves (a built-in cape) and a rear map pocket; vintage age can be told from the Woolmark logo on the neck tag.",
+      "The Duckworth Snowcrest is a $600 shirt jacket made from Rambouillet merino wool, with reinforced high-wear areas and bound inner seams; it is not a substitute for heavy outdoor jackets.",
+      "Wool School: coarse wool (Filson, Mammoth) is very abrasion resistant but scratchy; fine wool is soft and drapes well but is less tough; long-staple fine fibers regain strength; finer fibers give a better warmth-to-weight ratio.",
+      "WeatherWool uses its own jacquard-woven fabric; the Al's Anorak is $655, their shirt jac $550 and their CPO shirt $475. WeatherWool focuses on outdoor tops, while Duckworth focuses on base layers and wool-padded pieces.",
+      "The Iron Snail Mammoth uses 28 oz double-layered wool, a lockable collar, corozo nut buttons, custom-knit storm cuffs, an 'odd duck' pocket with a snap clip, and a 9 oz worsted wool lining.",
+      "Its 'windwall technology' is an internal cape-coat sandwich with the lining between the wool layers. The Mammoth retails for $550 versus $495 for the Filson Single Mackinaw, and a special edition in treadle-loomed Scottish wool is planned."
+    ],
+    "outline": [
+      {
+        "title": "Intro and cancelled Woolrich segment",
+        "summary": "Introduces the lineup of wool jackets and the criteria covered (weight, fit, insulation, lining, features). Explains that the Woolrich jacket never arrived, so its section is cancelled.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Filson Double Mackinaw Cruiser",
+        "summary": "Covers a vintage 1980s Filson Double Mackinaw Cruiser from eBay: fabric weight, how to date it by the Woolmark tag, the double-layer cape construction, the map pocket, quality and high prices.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Duckworth Snowcrest Shirt Jacket",
+        "summary": "Explains why the $600 Snowcrest disappoints anyone expecting a heavy jacket but excels as a shirt jacket. Covers its weight, its ranch-sourced Rambouillet merino wool, reinforced wear points and bound seams. Interrupted by a sponsor read.",
+        "first_segment": 2,
+        "last_segment": 6
+      },
+      {
+        "title": "Wool School",
+        "summary": "Explains coarse versus fine wool: toughness and itch versus softness and drape, how long-staple fibers add strength, and why finer fibers give a better warmth-to-weight ratio. Closes the Duckworth discussion.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "WeatherWool Al's Anorak",
+        "summary": "Discusses WeatherWool's jacquard-woven fabric, the Anorak's price alongside their shirt jac and CPO, and how WeatherWool and Duckworth target different uses.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "The Iron Snail Mammoth",
+        "summary": "Presents the creator's own Mammoth jacket and its fabric, collar, buttons, cuffs, pockets, worsted wool lining and windwall construction. Covers price versus the Filson Single Mackinaw, pre-order timing and the special edition.",
+        "first_segment": 10,
+        "last_segment": 19
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "today we will be looking at",
+        "last_segment": 0,
+        "ends_with": "I wish mine came had a cool patch on it",
+        "note": "Introduces the jacket lineup and criteria, and notes the cancelled Woolrich section because the mail lost the jacket."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "hey do me a favor just",
+        "last_segment": 2,
+        "ends_with": "what I was thinking during these shots",
+        "note": "Joke about his awkward looks to the camera."
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "all in all though I actually",
+        "last_segment": 2,
+        "ends_with": "short and drive to Massachusetts",
+        "note": "Personal note that he has to cut filming short to drive to Massachusetts."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "even though philson is trying to do holiday sales",
+        "last_segment": 5,
+        "ends_with": "and thank Carro for sponsoring this video",
+        "note": "Sponsor read for the Carrot shopping app and its DealHop price-finding feature."
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "ah I'm in the woods",
+        "last_segment": 5,
+        "ends_with": "cell phone surface boo",
+        "note": "Quip about having no cell service in the woods."
+      }
+    ],
+    "topics": [
+      "wool jackets",
+      "Mackinaw cruiser",
+      "cape coat construction",
+      "coarse vs fine wool",
+      "merino and Rambouillet wool",
+      "warmth-to-weight ratio",
+      "jacquard woven wool",
+      "worsted vs woollen wool",
+      "wool linings",
+      "corozo nut buttons",
+      "storm cuffs",
+      "vintage Filson dating",
+      "jacket pricing"
+    ],
+    "entity_ids": [
+      "iron-snail:e:woolrich",
+      "iron-snail:e:woolrich-hunting-jacket",
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-double-mackinaw-cruiser",
+      "iron-snail:e:filson-single-mackinaw-cruiser",
+      "iron-snail:e:duckworth",
+      "iron-snail:e:duckworth-snowcrest-shirt-jacket",
+      "iron-snail:e:heli-ranch",
+      "iron-snail:e:rambouillet-merino-wool",
+      "iron-snail:e:weatherwool",
+      "iron-snail:e:weatherwool-al-s-anorak",
+      "iron-snail:e:weatherwool-shirt-jac",
+      "iron-snail:e:weatherwool-cpo-shirt",
+      "iron-snail:e:ralph",
+      "iron-snail:e:jacquard-weave",
+      "iron-snail:e:the-iron-snail",
+      "iron-snail:e:the-iron-snail-mammoth-jacket",
+      "iron-snail:e:mammoth-special-edition",
+      "iron-snail:e:windwall-technology",
+      "iron-snail:e:corozo-nut-button",
+      "iron-snail:e:knit-storm-cuffs",
+      "iron-snail:e:lockable-collar",
+      "iron-snail:e:odd-duck-pocket",
+      "iron-snail:e:snap-action-lever",
+      "iron-snail:e:map-pocket",
+      "iron-snail:e:cape-coat",
+      "iron-snail:e:worsted-wool",
+      "iron-snail:e:woollen-wool",
+      "iron-snail:e:coarse-wool",
+      "iron-snail:e:fine-wool",
+      "iron-snail:e:cashmere",
+      "iron-snail:e:scottish-wool",
+      "iron-snail:e:wool-padding",
+      "iron-snail:e:long-staple-fiber",
+      "iron-snail:e:warmth-to-weight-ratio",
+      "iron-snail:e:woolmark",
+      "iron-snail:e:ebay",
+      "iron-snail:e:carrot",
+      "iron-snail:e:dealhop"
+    ],
+    "categories": [
+      "jackets",
+      "shirts"
+    ],
+    "answers_questions": [
+      "What's the difference between Filson and WeatherWool wool jackets?",
+      "Is the Duckworth Snowcrest worth $600, or is it more of a shirt than a jacket?",
+      "What makes the Filson Double Mackinaw Cruiser different from the single Mackinaw?",
+      "How can I tell if a Filson jacket is vintage from the 80s?",
+      "Is merino wool strong enough for an outdoor jacket?",
+      "Why is coarse wool itchy, and why is fine wool softer but less tough?",
+      "Why does finer wool give better warmth for its weight?",
+      "Should I buy WeatherWool or Duckworth?",
+      "What is jacquard-woven WeatherWool fabric and why do they weave it that way?",
+      "What features does the Iron Snail Mammoth jacket have, and how much does it cost?",
+      "What is windwall technology on the Mammoth jacket?",
+      "What's the difference between worsted wool and woollen wool?",
+      "How does the Mammoth compare in price to the Filson Single Mackinaw?",
+      "What are corozo nut buttons and why use them?",
+      "Is there a special edition Mammoth jacket?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:u2c67bF9-OA:s0017",
+        "note": "Corrects the Mammoth pre-order opening day from Friday to Saturday."
+      }
+    ],
+    "related_videos": [
+      "The creator's in-depth Filson vs WeatherWool comparison video",
+      "A promised future video covering the Woolrich hunting jacket",
+      "The Tale of the Iron Snail (new channel linked in the description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:woolrich",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Woolrich",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wool Rich",
+        "wool Rich's",
+        "wool rich"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woolrich-hunting-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Woolrich Hunting Jacket",
+      "brand": "Woolrich",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Woolrich",
+        "wool Rich jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phils and",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-double-mackinaw-cruiser",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Double Mackinaw Cruiser",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Filson double Mack cruiser",
+        "Mackinac Cruiser",
+        "Mackinaw cruiser",
+        "Pilsen Mackinaw Cruiser",
+        "double MAA Cruiser",
+        "double Mac",
+        "double max"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-single-mackinaw-cruiser",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Single Mackinaw Cruiser",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "single Mac",
+        "single ma Cruiser"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:duckworth",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Duckworth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:duckworth-snowcrest-shirt-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Duckworth Snowcrest Shirt Jacket",
+      "brand": "Duckworth",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "snow Crest",
+        "snow crest"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:heli-ranch",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "heli Ranch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "heli Farm"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rambouillet-merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Rambouillet merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina wool",
+        "Rambo Marino",
+        "Rambo wool",
+        "rambula Marino"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weatherwool",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "WeatherWool",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "weather Wolf's",
+        "weather will",
+        "weather wool",
+        "weatherwolves",
+        "weatherwool",
+        "whether we'll"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weatherwool-al-s-anorak",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "WeatherWool Al's Anorak",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "anara",
+        "anarak",
+        "weather wool anarak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weatherwool-shirt-jac",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "WeatherWool shirt jac",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "shirt Jack that weatherwool offers"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weatherwool-cpo-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "WeatherWool CPO shirt",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "CPO shirt"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ralph",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rob's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jacquard-weave",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "jacquard weave",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "jard woven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Iron Snail",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "iron snail"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail-mammoth-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Iron Snail Mammoth Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mammoth",
+        "mammoth",
+        "mmth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mammoth-special-edition",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mammoth Special Edition",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "special edition Mammoth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:windwall-technology",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "windwall technology",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wind wall technology",
+        "windw Technology"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:corozo-nut-button",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "corozo nut button",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "coroso nut button",
+        "toua nut button",
+        "tuua nut"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:knit-storm-cuffs",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "knit storm cuffs",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "storm cffs",
+        "storm cuffs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lockable-collar",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "lockable collar",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lock and collar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:odd-duck-pocket",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "odd duck pocket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "odd duck Pockets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:snap-action-lever",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "snap action lever",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "action clip"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:map-pocket",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "map pocket",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cape-coat",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "cape coat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cape coats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:worsted-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "worsted wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woollen-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "woollen wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Woolen wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:coarse-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "coarse wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Co wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fine-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "fine wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cashmere",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cashmere",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Kashmere"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:scottish-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Scottish wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hand foot treadle loomed Scottish wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wool-padding",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "wool padding",
+      "brand": "Duckworth",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:long-staple-fiber",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "long staple fiber",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "long stape of fibers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:warmth-to-weight-ratio",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "warmth-to-weight ratio",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "warmth to weight",
+        "warmth to weight ratio"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woolmark",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Woolmark",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wool Mark"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Carrot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Carro",
+        "Garrett",
+        "Karen",
+        "carrot",
+        "carrots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dealhop",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "DealHop",
+      "brand": "Carrot",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "deal HPP",
+        "deal hop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "66c8cbbd87a97966"
+}

@@ -1,0 +1,769 @@
+{
+  "platform_id": "arGLNRKC6Ss",
+  "profile": {
+    "video_id": "iron-snail:arGLNRKC6Ss",
+    "purpose": "Michael walks through clothing and footwear he regrets buying and explains, item by item, why each one hasn't worked for him personally, while stressing that the brands themselves are good quality.",
+    "video_type": "other",
+    "thesis": "None of these items are badly made. Each regret comes from personal factors: fit, trendiness, fabric behaviour, fabric weight matched to silhouette, or boot shape.",
+    "key_takeaways": [
+      "The regrets are personal preferences, not quality complaints; he says he would still recommend the items to people who like them.",
+      "3sixteen's Mechanic Jacket fit him slimmer than expected, which limits layering underneath; a later edit note reverses this and calls it a keeper.",
+      "He regrets buying the trendy New Balance 550s because following trends creates a 'rat race' about what is in or out.",
+      "His Samuel Zelig hoodie is an early piece that fits him poorly and uses a very heavy knit.",
+      "He can't get past linen's wrinkles and says he has grown tired of white sneakers.",
+      "He advises checking garment measurements rather than buying the size you think you are, since cuts vary between brands.",
+      "He argues that silhouettes have expected fabric types and weights, using a Corridor overshirt (light open weave with heavy corozo buttons) as an example.",
+      "His Red Wing Moc Toe gripes are the high, blocky toe box and the crepe wedge sole; he prefers the look with a lug sole. He then jokingly takes it all back."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Sponsor mention and setup: these are items he regrets buying despite good quality. The Red Wing Moc Toe opinion is saved for the end.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "3sixteen Mechanic Jacket",
+        "summary": "Covers the hairy Japanese wool jacket and 3sixteen's slim fit, which leaves little room to layer underneath. Ends with an edit note saying the jacket is a keeper.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "New Balance 550",
+        "summary": "He calls the shoes comfortable but explains he regrets buying them because they were on trend, and trend-chasing pressures you to keep up.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Samuel Zelig knitwear",
+        "summary": "His favourite knitwear brand. He regrets an early hoodie purchase because of limited choice at the time, an unflattering fit and an overly heavy knit. The section is interrupted by the Squarespace read.",
+        "first_segment": 3,
+        "last_segment": 6
+      },
+      {
+        "title": "Filson rain jacket and waterproof Vans",
+        "summary": "A quick answer about the Filson rain jacket he's wearing, plus the waterproof Vans his sister gave him.",
+        "first_segment": 6,
+        "last_segment": 6
+      },
+      {
+        "title": "Linen",
+        "summary": "He likes linen's look, shine and summer performance but can't tolerate its wrinkles.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "White sneakers",
+        "summary": "After wearing them constantly early on, he is tired of white sneakers such as Stan Smiths and 550s.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Buying the size you think you are",
+        "summary": "Using mislabeled vintage Levi's as an example, he urges checking measurements and sizing up when needed instead of clinging to a self-image size.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Rules of fashion: fabric weight and silhouette",
+        "summary": "Argues that garments have expected fabrics and weights. A Corridor overshirt's light open weave and heavy corozo buttons make it droop, and its chore-coat look calls for a beefier fabric.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Red Wing Moc Toe",
+        "summary": "Credits Red Wing with reviving Goodyear-welted boots. He explains that the high blocky toe box and crepe wedge sole aren't for him and that he prefers a lug-soled version, then jokingly reverses his opinion.",
+        "first_segment": 10,
+        "last_segment": 13
+      },
+      {
+        "title": "Outro",
+        "summary": "Sign-off, a mention of a university study survey, and his busy September upload plans.",
+        "first_segment": 13,
+        "last_segment": 13
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "sponsored by Squarespace what do the most",
+        "last_segment": 0,
+        "ends_with": "we'll talk about that at the end",
+        "note": "Intro and setup of the regret list"
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "because a few years ago before I",
+        "last_segment": 1,
+        "ends_with": "that was a performance I was just acting",
+        "note": "Joke about applying to manage 3sixteen's New York store"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "I don't need a website websites are stupid",
+        "last_segment": 4,
+        "ends_with": "off your first order of a website or domain",
+        "note": "Sponsor read for Squarespace with skit"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "a lot of people ask me whenever",
+        "last_segment": 6,
+        "ends_with": "so you can click on it super easily",
+        "note": "Aside on his Filson rain jacket, gifted waterproof Vans and link in bio"
+      },
+      {
+        "role": "outro",
+        "first_segment": 13,
+        "starts_with": "you know whatever I'll see you all next week",
+        "last_segment": 13,
+        "ends_with": "but I goodbye foreign",
+        "note": "Sign-off with university survey mention"
+      }
+    ],
+    "topics": [
+      "regretted purchases",
+      "jacket fit and sizing",
+      "layering",
+      "fashion trends",
+      "knitwear weight",
+      "linen wrinkles",
+      "white sneakers",
+      "checking measurements when sizing",
+      "fabric weight vs silhouette",
+      "overshirt vs chore coat",
+      "Goodyear welted boots",
+      "moc toe boot shape",
+      "crepe vs lug soles"
+    ],
+    "entity_ids": [
+      "iron-snail:e:3sixteen",
+      "iron-snail:e:3sixteen-mechanic-jacket",
+      "iron-snail:e:andrew-chen",
+      "iron-snail:e:japanese-wool",
+      "iron-snail:e:new-balance",
+      "iron-snail:e:new-balance-550",
+      "iron-snail:e:samuel-zelig",
+      "iron-snail:e:samuel-zelig-knit-hoodie",
+      "iron-snail:e:squarespace",
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-swiftwater-rain-jacket",
+      "iron-snail:e:vans",
+      "iron-snail:e:vans-waterproof-shoes",
+      "iron-snail:e:linen",
+      "iron-snail:e:cotton",
+      "iron-snail:e:adidas",
+      "iron-snail:e:adidas-stan-smith",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:vintage-levi-s-jeans",
+      "iron-snail:e:corridor",
+      "iron-snail:e:corridor-open-weave-overshirt",
+      "iron-snail:e:corozo-nut-buttons",
+      "iron-snail:e:chambray",
+      "iron-snail:e:chore-coat",
+      "iron-snail:e:overshirt",
+      "iron-snail:e:red-wing",
+      "iron-snail:e:red-wing-moc-toe",
+      "iron-snail:e:goodyear-welt",
+      "iron-snail:e:toe-box",
+      "iron-snail:e:crepe-wedge-sole",
+      "iron-snail:e:lug-sole",
+      "iron-snail:e:fashion-trends",
+      "iron-snail:e:taylor",
+      "iron-snail:e:sarah",
+      "iron-snail:e:the-iron-snail"
+    ],
+    "categories": [
+      "jackets",
+      "shoes",
+      "knitwear",
+      "denim",
+      "shirts",
+      "boots"
+    ],
+    "answers_questions": [
+      "Does the 3sixteen Mechanic Jacket run small or slim?",
+      "Should I size up in 3sixteen jackets if I want to layer?",
+      "Why did he regret buying the New Balance 550s?",
+      "Is Samuel Zelig knitwear worth it, and how does the hoodie fit?",
+      "Is the Samuel Zelig hoodie too heavy?",
+      "Is the Filson rain jacket any good in the rain?",
+      "Why doesn't he like wearing linen?",
+      "Is he over white sneakers like Stan Smiths?",
+      "How should I pick my size across different brands?",
+      "What fabric weight should a t-shirt or chore coat be?",
+      "What's wrong with the Corridor overshirt?",
+      "Why isn't the Red Wing Moc Toe his favourite boot?",
+      "Does a moc toe look better with a crepe wedge or a lug sole?"
+    ],
+    "uses": [
+      "buying_decision",
+      "style",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:arGLNRKC6Ss:s0002",
+        "note": "An edit note reverses the 3sixteen Mechanic Jacket regret: on review, he says the jacket looked great on him, he was wrong at the time, and it's a keeper."
+      },
+      {
+        "segment_id": "iron-snail:arGLNRKC6Ss:s0013",
+        "note": "After criticising the Red Wing Moc Toe, he jokingly takes it back, calls them the most beautiful boots he's seen, and says he doesn't know his opinion."
+      }
+    ],
+    "related_videos": [
+      "His New Balance 550 review"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:3sixteen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "3sixteen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "316"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:3sixteen-mechanic-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "3sixteen Mechanic Jacket",
+      "brand": "3sixteen",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "316 Harry mechanical wool jacket",
+        "mechanic jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:andrew-chen",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Andrew Chen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:japanese-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Japanese wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Japanese Wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "New Balance",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance-550",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "New Balance 550",
+      "brand": "New Balance",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "550s",
+        "New Balance 550s"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samuel-zelig",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Samuel Zelig",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Samuel zelig"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samuel-zelig-knit-hoodie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Samuel Zelig knit hoodie",
+      "brand": "Samuel Zelig",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "that hoodie"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:squarespace",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Squarespace",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-swiftwater-rain-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Swiftwater Rain Jacket",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "this jacket from Filson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vans",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vans",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "vans"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vans-waterproof-shoes",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vans waterproof shoes",
+      "brand": "Vans",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "waterproof vans"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:linen",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "linen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adidas",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Adidas",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adidas-stan-smith",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Adidas Stan Smith",
+      "brand": "Adidas",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Stan Smith's",
+        "Stan Smith's the white Adidas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vintage-levi-s-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "vintage Levi's jeans",
+      "brand": "Levi's",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "vintage pair of Levi's jeans"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:corridor",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Corridor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:corridor-open-weave-overshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Corridor open weave overshirt",
+      "brand": "Corridor",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "Corridor piece",
+        "over shirt"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:corozo-nut-buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "corozo nut buttons",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carrozo nut buttons"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chambray",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "chambray",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chore-coat",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "chore coat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chorecoat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:overshirt",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "overshirt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "over shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Red Wing",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Red Wings",
+        "red rings",
+        "red wing",
+        "red wings",
+        "redwing",
+        "wedwing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing-moc-toe",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Red Wing Moc Toe",
+      "brand": "Red Wing",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "mock toes",
+        "mocto",
+        "mocto boot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goodyear-welt",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Goodyear welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Goodyear welted",
+        "Goodyear welting",
+        "good year welted",
+        "good your welt",
+        "goodyear welt",
+        "goodyear welted",
+        "goodyear welton",
+        "goodyear will"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:toe-box",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "toe box",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "toe wall",
+        "tone wall"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crepe-wedge-sole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "crepe wedge sole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lug-sole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "lug sole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "heavy lug Sole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fashion-trends",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "fashion trends",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Trends"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sarah",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Sarah",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Iron Snail",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "iron snail"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "c962411e36a6c193"
+}

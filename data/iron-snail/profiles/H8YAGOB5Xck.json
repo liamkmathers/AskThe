@@ -1,0 +1,901 @@
+{
+  "platform_id": "H8YAGOB5Xck",
+  "profile": {
+    "video_id": "iron-snail:H8YAGOB5Xck",
+    "purpose": "Compare six well-known down jackets, explaining what makes each one distinct (fabric, denier, insulation, waterproofing, ageing, history), and name a favourite.",
+    "video_type": "comparison",
+    "thesis": "Each of six down jackets has a specific property that sets it apart. The video works through fabric basics (denier, nylon versus cotton, Gore-Tex versus wax) and each jacket's trade-offs. It names the Crescent Down Works x Imogene + Willie hoodie as the creator's favourite and The North Face Nuptse as second.",
+    "key_takeaways": [
+      "Covers The North Face Nuptse, Patagonia Cotton Down Jacket, Fjällräven Greenland No. 1 down jacket, the historic Karakoram jacket, Arc'teryx Beta Down Insulated Jacket and the Crescent Down Works x Imogene + Willie hooded jacket.",
+      "Explains denier as a measure of fibre weight. Lower denier is softer and silkier; higher denier is thicker and stronger (40D vs 1000D nylon).",
+      "Nylon is described as about twice as strong as cotton for its weight. Cotton breathes better but absorbs water and dries slowly.",
+      "Discusses a cotton jacket with a reapplicable DWR finish as an option for everyday, non-extreme use.",
+      "A waxable jacket lets the wearer choose between breathability (unwaxed) and weather resistance (waxed), and wax ages differently from Gore-Tex, which can delaminate.",
+      "Retells the 1953 K2 expedition belay, in which Pete Schoening (named in the captions as Shonen) arrested the fall of six climbers. The Karakoram jacket is tied to that expedition.",
+      "The Arc'teryx Beta Down mixes 800 fill down with synthetic insulation in wet-prone areas and uses a Gore-Tex shell. Its main long-term issue is adhesive delamination.",
+      "The Crescent Down Works hoodie uses sewn-through seams (cold spots), premium Seattle-made down and a white 'streak free' nylon. Its $700 price and how easily it will get dirty are discussed."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to down jackets",
+        "summary": "Teaser of the jackets in the lineup, a plug for the new second channel, and the setup of six down jackets each with a special property. Ranking hints are given.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "The North Face Nuptse and denier",
+        "summary": "The Nuptse as a stylish, warm 700 fill nylon jacket that is part of a layering system. Explains what denier means, comparing 1000D and 40D nylon.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Fabric strength comparison",
+        "summary": "Nylon versus cotton strength, noting nylon is roughly twice as strong for its weight.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Sponsor message",
+        "summary": "Sponsor read for the Carrot discount app and browser extension.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Patagonia cotton jacket",
+        "summary": "The $395 Patagonia cotton down jacket: slim fit, breathability of cotton versus nylon or polyester, cotton's downsides when wet, and DWR finishes. Compared with the North Face.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Fjällräven jacket review",
+        "summary": "Why the waxable Fjällräven down jacket is often recommended. Covers durability, thorn resistance, ageing, waxing versus not waxing (compared with L.L.Bean boots), and wax versus Gore-Tex for water resistance.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Historic Karakoram jacket",
+        "summary": "The Karakoram down jacket and the story of the 1953 K2 expedition. Retells the famous belay that saved six climbers, with a comedic dramatization.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Arc'teryx tech jacket",
+        "summary": "The Arc'teryx Beta Down Insulated Jacket's technical construction: 800 fill down plus synthetic insulation in wet zones and a Gore-Tex shell. Also covers delamination and how it ages compared with nylon, waxed or cotton jackets.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Crescent Down Works review",
+        "summary": "The Crescent Down Works x Imogene + Willie hooded jacket: history of the Seattle company, sewn-through construction, premium materials and looks. Covers the price dilemma and the white streak-free nylon, then teases next week's wool jacket video.",
+        "first_segment": 10,
+        "last_segment": 12
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this is the $1,000 arct beta",
+        "last_segment": 0,
+        "ends_with": "different from all the others quite shockingly",
+        "note": "Cold open teasing the jackets, then the greeting and setup of the six down jackets."
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "also the second channel the tail",
+        "last_segment": 0,
+        "ends_with": "if you haven't okay bye",
+        "note": "Plug for the creator's new second vlog channel."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "I think it's just because I",
+        "last_segment": 1,
+        "ends_with": "had the a in my throat",
+        "note": "Joke about mispronouncing Nuptse."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "hey what would you do if I",
+        "last_segment": 4,
+        "ends_with": "I'm good friends with the founder Bobby",
+        "note": "Sponsor read for the Carrot discount app and extension."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "Goosebumps six men on one of",
+        "last_segment": 8,
+        "ends_with": "didn't expect it to be so fun",
+        "note": "Comedic dramatization of the 1953 K2 belay."
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "oh my God I should become",
+        "last_segment": 12,
+        "ends_with": "coolest jacket I've ever seen oh my God",
+        "note": "Joke about becoming a fashion TikToker."
+      },
+      {
+        "role": "outro",
+        "first_segment": 12,
+        "starts_with": "in summary I think you should",
+        "last_segment": 12,
+        "ends_with": "it's time to show you what I got",
+        "note": "Teases next week's wool jacket video, including the creator's own brand."
+      }
+    ],
+    "topics": [
+      "down jackets",
+      "denier",
+      "nylon vs cotton",
+      "fabric strength",
+      "fill power",
+      "layering system",
+      "DWR finish",
+      "waxed jackets",
+      "Gore-Tex",
+      "delamination",
+      "synthetic insulation",
+      "1953 K2 expedition",
+      "jacket ageing and repair",
+      "sewn-through construction"
+    ],
+    "entity_ids": [
+      "iron-snail:e:arc-teryx-beta-down-insulated-jacket",
+      "iron-snail:e:arc-teryx",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:the-north-face-nuptse",
+      "iron-snail:e:the-north-face",
+      "iron-snail:e:patagonia-cotton-down-jacket",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:fjallraven-greenland-no-1-down-jacket",
+      "iron-snail:e:fjallraven",
+      "iron-snail:e:karakoram-jacket",
+      "iron-snail:e:eddie-bauer",
+      "iron-snail:e:crescent-down-works-x-imogene-willie-down-hoodie",
+      "iron-snail:e:crescent-down-works",
+      "iron-snail:e:imogene-willie",
+      "iron-snail:e:ann-mikkelson",
+      "iron-snail:e:streak-free-nylon",
+      "iron-snail:e:l-l-bean-boots",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:carrot",
+      "iron-snail:e:bobby",
+      "iron-snail:e:taylor",
+      "iron-snail:e:denier",
+      "iron-snail:e:nylon",
+      "iron-snail:e:cotton",
+      "iron-snail:e:polyester",
+      "iron-snail:e:down",
+      "iron-snail:e:synthetic-insulation",
+      "iron-snail:e:cordor",
+      "iron-snail:e:down-fill-power",
+      "iron-snail:e:dwr-finish",
+      "iron-snail:e:waxed-fabric",
+      "iron-snail:e:delamination",
+      "iron-snail:e:layering-system",
+      "iron-snail:e:sewn-through-seams",
+      "iron-snail:e:1953-k2-expedition",
+      "iron-snail:e:george-irving-bell",
+      "iron-snail:e:turny-strather",
+      "iron-snail:e:charles-houston",
+      "iron-snail:e:bob-bates",
+      "iron-snail:e:d-mire",
+      "iron-snail:e:gilki",
+      "iron-snail:e:shonen"
+    ],
+    "categories": [
+      "jackets",
+      "boots"
+    ],
+    "answers_questions": [
+      "What's the difference between Arc'teryx, North Face, Patagonia and Fjallraven down jackets?",
+      "What does denier mean on a jacket, like 40D nylon?",
+      "Is nylon stronger than cotton?",
+      "Is a cotton down jacket like the Patagonia one any good?",
+      "Why does everyone recommend the Fjallraven waxed down jacket?",
+      "Is a waxed jacket better than Gore-Tex?",
+      "What's the story behind the Karakoram down jacket and K2?",
+      "Is the Arc'teryx Beta Down jacket worth $1,000 and what's special about it?",
+      "What is Gore-Tex delamination?",
+      "Is the Crescent Down Works x Imogene + Willie down hoodie worth $700?",
+      "Which down jacket is Michael's favourite?",
+      "Is the North Face Nuptse warm?",
+      "Should I get a cotton jacket with DWR instead of nylon?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:H8YAGOB5Xck:s0001",
+        "note": "The creator mispronounces the Nuptse as 'nup NY' and then says it again as 'nups'."
+      },
+      {
+        "segment_id": "iron-snail:H8YAGOB5Xck:s0007",
+        "note": "The creator corrects his pronunciation of the Karakoram jacket name."
+      },
+      {
+        "segment_id": "iron-snail:H8YAGOB5Xck:s0004",
+        "note": "The creator hedges that the Patagonia jacket is 100% cotton, saying it could be 98%."
+      }
+    ],
+    "related_videos": [
+      "First video on the new second channel, The Tale of The Iron Snail vlog channel",
+      "Upcoming video on the greatest wool jackets of all time, including The Iron Snail's own brand",
+      "Planned full video on the Karakoram down jacket",
+      "Earlier videos where waxed jackets were tested standing in the shower"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:arc-teryx-beta-down-insulated-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Arc'teryx Beta Down Insulated Jacket",
+      "brand": "Arc'teryx",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "arct beta down insulated jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arc-teryx",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Arc'teryx",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Arc Terex",
+        "Arc terrex",
+        "Arters",
+        "arc Terex",
+        "arct",
+        "arcteric",
+        "arcterics",
+        "arcx",
+        "arteric",
+        "our Terex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face-nuptse",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The North Face Nuptse",
+      "brand": "The North Face",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Northface nsy",
+        "Northface nup NY",
+        "Northface nups"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The North Face",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "North Face",
+        "Northface"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-cotton-down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia Cotton Down Jacket",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Patagonia cotton jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven-greenland-no-1-down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Fjällräven Greenland No. 1 down jacket",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "F Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fjällräven",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "F Raven",
+        "Fel Raven",
+        "Fial Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:karakoram-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Karakoram jacket",
+      "brand": "Eddie Bower",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Cara Coram",
+        "Cara koram",
+        "Karam",
+        "Korum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Eddie Bauer",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bower",
+        "Eddie Bower",
+        "Eddie Bowers",
+        "bow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crescent-down-works-x-imogene-willie-down-hoodie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Crescent Down Works x Imogene + Willie Down Hoodie",
+      "brand": "Crescent Down Works",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Crescent down Works Imaging and Willie hooded jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crescent-down-works",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Crescent Down Works",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Crescent down Works"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:imogene-willie",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Imogene + Willie",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Imaging and Willie",
+        "imag and Willie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ann-mikkelson",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ann Mikkelson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ann mikkelson"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:streak-free-nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "streak free nylon",
+      "brand": "Crescent Down Works",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-boots",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean boots",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Bean boots",
+        "LL Bean boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Carrot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Garrett",
+        "Karen",
+        "carrot",
+        "carrots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bobby",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Bobby",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:denier",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "denier",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "D",
+        "Dair",
+        "daer",
+        "deir"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "down",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "700 fill down",
+        "800 fill down"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:synthetic-insulation",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "synthetic insulation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cordor",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cordor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-fill-power",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down fill power",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "600 fill",
+        "700 fill",
+        "800 fill",
+        "Phil down",
+        "down fill",
+        "fill power"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dwr-finish",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "DWR finish",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dwr finish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-fabric",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "waxed fabric",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wax",
+        "waxable"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:delamination",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "delamination",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "delaminate"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:layering-system",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "layering system",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "modular system"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sewn-through-seams",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "sewn-through seams",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "the seams go right through the jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:1953-k2-expedition",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "1953 K2 expedition",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "K2"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:george-irving-bell",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "George Irving Bell",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:turny-strather",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "turny Strather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Strather"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:charles-houston",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Charles Houston",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Houston"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bob-bates",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Bob Bates",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bates"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:d-mire",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "D mire",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gilki",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "gilki",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shonen",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Shonen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "showning"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "ea20568df0674399"
+}

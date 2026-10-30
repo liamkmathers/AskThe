@@ -1,0 +1,928 @@
+{
+  "platform_id": "c6blgVapNWY",
+  "profile": {
+    "video_id": "iron-snail:c6blgVapNWY",
+    "purpose": "A roundup of seven chore coats from different brands. It covers the history and anatomy of the chore coat, then looks at each coat's fabric, construction, fit and details, and at the brand behind it.",
+    "video_type": "comparison",
+    "thesis": "There is no single official historical chore coat. Details like cuffs, pockets, length, fabric and weight show what each brand is referencing, so the video takes the chore coat apart through seven examples, from American workwear to French moleskin to modern reinterpretations.",
+    "key_takeaways": [
+      "Chore coats became standardized and generic during the industrial revolution. Details like cuffs, pocket style, length and thickness reveal what a brand is referencing historically.",
+      "American chore coats (Carhartt, Levi's, Pointer) favoured duck canvas and denim with triple-stitched seams and rivets. French ones (Le Mont St. Michel) favoured brushed moleskin.",
+      "The Pointer coat (made by L.C. King) uses 12 oz Mount Vernon duck canvas, the same as Carhartt's made-in-USA line, and is cut short like a trucker jacket.",
+      "Buck Mason makes a P41-style herringbone chore jacket and a felted bouclé knit chore coat, a lighter California take on the style.",
+      "Paynter sells in numbered batches of about 800 that sell out in minutes. Its Bill's blue is named after photographer Bill Cunningham.",
+      "The video explains moleskin's popularity in Brittany by its mild, windy, rainy climate. Le Mont St. Michel used high-quality long-staple combed cotton.",
+      "The Drake's selvedge denim chore coat (about $700) has a double-layer shoulder panel, partial triple stitching, lined and riveted pockets, and an interior cut on the panel.",
+      "Chore coats, like denim, are meant to fade and soften with heavy wear."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to chore coats",
+        "summary": "A cold-open teaser of several coats, including a double-denim coat and a hyped sell-out brand, before the video's goal is set up.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "History and anatomy",
+        "summary": "Explains that chore coats were standardized during the industrial revolution. Cuffs, pockets, length and thickness show historical references, with Carhartt as an American example (triple stitching, duck canvas).",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "The French standard",
+        "summary": "Introduces Le Mont St. Michel's moleskin coat as the king of chore coats and sets the goal of breaking the chore coat into its parts. Includes a greeting and spring chat.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Pointer chore coat",
+        "summary": "The Pointer coat made by L.C. King, a Portlandia-embroidered eBay find in 12 oz Mount Vernon duck canvas. Covers its trucker-like short cut, simple sewing, and the brand's history and possible closure.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "Buck Mason P41 jacket",
+        "summary": "After a sponsor read, covers Buck Mason's herringbone twill P41 chore jacket, its WWII uniform reference, a midweight dense weave and reinforced stress points.",
+        "first_segment": 8,
+        "last_segment": 13
+      },
+      {
+        "title": "Buck Mason felted coat",
+        "summary": "Buck Mason's felted wool chore coat: a bouclé-yarn knit that is double felted for strength. Presented as a lighter, breathable California take.",
+        "first_segment": 13,
+        "last_segment": 16
+      },
+      {
+        "title": "Carhartt heritage",
+        "summary": "A heavily worn Carhartt chore coat with triple-stitched seams, an oversized fit and a corduroy collar. Covers how chore coats break in, and other US makers like Levi's, Pointer and Big Yank.",
+        "first_segment": 16,
+        "last_segment": 17
+      },
+      {
+        "title": "Paynter batch jackets",
+        "summary": "Paynter's husband-and-wife brand: numbered batch drops of about 800 that sell out fast, corozo nut buttons, limited patches, and the Bill's blue colour named after Bill Cunningham. Also covers why chore coats should fade.",
+        "first_segment": 17,
+        "last_segment": 20
+      },
+      {
+        "title": "Le Mont St. Michel",
+        "summary": "The Breton work jacket in heavyweight moleskin. Covers why moleskin suited Brittany's climate, how moleskin is made, and the brand's use of long-staple combed cotton.",
+        "first_segment": 20,
+        "last_segment": 25
+      },
+      {
+        "title": "Modern Drake's interpretation",
+        "summary": "The Drake's selvedge denim chore coat: lined and riveted pockets, mixed nickel and copper buttons, partial triple stitching, a double-layer shoulder panel and an interior cut. Covers what you pay for with Drake's.",
+        "first_segment": 25,
+        "last_segment": 29
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "This is the big daddy of",
+        "last_segment": 5,
+        "ends_with": "tour coat. What a lovely day.",
+        "note": "Cold-open teaser of several coats, then a greeting and spring chat"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "Holly, that's a Tyler Crater reference.",
+        "last_segment": 4,
+        "ends_with": "put the yoners beat here?",
+        "note": "Joke referencing Tyler, the Creator"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 8,
+        "starts_with": "So, basically, you want me to",
+        "last_segment": 11,
+        "ends_with": "subscription of AG1. Goodbye.",
+        "note": "Sponsor read for AG1, with a skit about his poor diet"
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "I was meeting Taylor at the",
+        "last_segment": 11,
+        "ends_with": "\"That's a really nice coat.\"",
+        "note": "Anecdote about strangers complimenting the Buck Mason coat at the grocery store"
+      },
+      {
+        "role": "outro",
+        "first_segment": 29,
+        "starts_with": "Anyway, thank you very much for",
+        "last_segment": 29,
+        "ends_with": "and I should. So thank you very",
+        "note": "Thanks viewers and teases next week's watch collection video"
+      }
+    ],
+    "topics": [
+      "chore coat history",
+      "chore coat anatomy",
+      "duck canvas",
+      "moleskin",
+      "selvedge denim",
+      "bouclé yarn and felting",
+      "Breton work jacket",
+      "P41 jacket",
+      "triple-stitched seams",
+      "fading and breaking in workwear",
+      "batch drops and limited releases",
+      "American vs French workwear"
+    ],
+    "entity_ids": [
+      "iron-snail:e:pointer-chore-coat",
+      "iron-snail:e:l-c-king",
+      "iron-snail:e:mount-vernon-duck-canvas",
+      "iron-snail:e:duck-canvas",
+      "iron-snail:e:portlandia",
+      "iron-snail:e:buck-mason",
+      "iron-snail:e:buck-mason-herringbone-twill-p-41-chore-jacket",
+      "iron-snail:e:p41-jacket",
+      "iron-snail:e:buck-mason-felted-wool-chore-coat",
+      "iron-snail:e:boucle-yarn",
+      "iron-snail:e:felting",
+      "iron-snail:e:carhartt",
+      "iron-snail:e:carhartt-chore-coat",
+      "iron-snail:e:triple-stitched-seams",
+      "iron-snail:e:corduroy-collar",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:big-yank",
+      "iron-snail:e:paynter",
+      "iron-snail:e:paynter-batch-jacket",
+      "iron-snail:e:bill-s-blue",
+      "iron-snail:e:bill-cunningham",
+      "iron-snail:e:corozo-nut-buttons",
+      "iron-snail:e:le-mont-st-michel",
+      "iron-snail:e:le-mont-st-michel-moleskin-work-jacket",
+      "iron-snail:e:moleskin",
+      "iron-snail:e:long-staple-combed-cotton",
+      "iron-snail:e:drake-s",
+      "iron-snail:e:drake-s-stone-wash-selvedge-denim-five-pocket-chore-jacket",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:rivets",
+      "iron-snail:e:gusset",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:filson",
+      "iron-snail:e:tyler-the-creator",
+      "iron-snail:e:ag1",
+      "iron-snail:e:taylor",
+      "iron-snail:e:the-iron-snail-prologue-jacket",
+      "iron-snail:e:the-iron-snail-mammoth-jacket",
+      "iron-snail:e:trucker-jacket-type-ii",
+      "iron-snail:e:new-york-times"
+    ],
+    "categories": [
+      "jackets",
+      "coats",
+      "denim"
+    ],
+    "answers_questions": [
+      "What actually makes a chore coat a chore coat, and what details should I look at?",
+      "Why do French chore coats use moleskin instead of denim or canvas?",
+      "Is the Le Mont St. Michel chore coat worth it compared to American ones?",
+      "What is the Pointer chore coat made of, and is it the same canvas as Carhartt?",
+      "How hard is it to buy a Paynter jacket, and how do their batch drops work?",
+      "Why is the Paynter blue called Bill's blue?",
+      "What's special about the Buck Mason felted chore coat?",
+      "Is the Buck Mason P41 chore jacket heavy enough for spring?",
+      "What do you pay for with the $700 Drake's chore coat?",
+      "Does the Carhartt chore coat get better with age?",
+      "What is moleskin fabric and how is it made?",
+      "Where does the P41 jacket design come from?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:c6blgVapNWY:s0003",
+        "note": "He concedes that the Carhartt coat is technically a barn coat rather than a chore coat."
+      },
+      {
+        "segment_id": "iron-snail:c6blgVapNWY:s0005",
+        "note": "He clarifies that the Pointer coat is technically L.C. King: Pointer is the brand, L.C. King the manufacturer."
+      },
+      {
+        "segment_id": "iron-snail:c6blgVapNWY:s0017",
+        "note": "He revises Carhartt's '100 years of chore coat' to over 100, 105 years."
+      },
+      {
+        "segment_id": "iron-snail:c6blgVapNWY:s0020",
+        "note": "He softens 'definitely' to 'probably' the highest quality chore coat on the list for Le Mont St. Michel."
+      },
+      {
+        "segment_id": "iron-snail:c6blgVapNWY:s0021",
+        "note": "He corrects that the coat was not originally called the Breton work jacket but nicknamed it."
+      },
+      {
+        "segment_id": "iron-snail:c6blgVapNWY:s0025",
+        "note": "After calling the Drake's one of his favorites, he says he loves all the chore coats equally."
+      }
+    ],
+    "related_videos": [
+      "Michael's watch collection video (next week)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:pointer-chore-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Pointer chore coat",
+      "brand": "Pointer",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Pointer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pointer-chore-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Pointer chore coat",
+      "brand": "Pointer",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Pointer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-c-king",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.C. King",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "LC King"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mount-vernon-duck-canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Mount Vernon duck canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mount Vernon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:duck-canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "duck canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Duck canvas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:portlandia",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Portlandia",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Buck Mason",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "BM boys",
+        "Beck Mason",
+        "Buckmason",
+        "Spock fairy",
+        "[ __ ] Mason"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason-herringbone-twill-p-41-chore-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Buck Mason Herringbone Twill P-41 Chore Jacket",
+      "brand": "Buck Mason",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "P41"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:p41-jacket",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "P41 jacket",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "P41"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason-felted-wool-chore-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Buck Mason Felted Wool Chore Coat",
+      "brand": "Buck Mason",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "felted chore coat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:boucle-yarn",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "bouclé yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "boulay yarn"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "felting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Felts",
+        "double felts",
+        "felted"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Carhartt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Carheart",
+        "car heart",
+        "carart",
+        "carhartt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt-chore-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Carhartt chore coat",
+      "brand": "Carhartt",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "Carheart Coat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:triple-stitched-seams",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "triple-stitched seams",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "triple stitch seams",
+        "triple stitched seams",
+        "triple stitching"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:corduroy-collar",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "corduroy collar",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Cordo collar",
+        "Corduroy collar",
+        "corduroy color"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:big-yank",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Big Yank",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paynter",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Paynter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Painter",
+        "painter",
+        "painters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paynter-batch-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Paynter batch jacket",
+      "brand": "Paynter",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Painter Jackets",
+        "batch 14 jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bill-s-blue",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Bill's blue",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bill-cunningham",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Bill Cunningham",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:corozo-nut-buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "corozo nut buttons",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Corroso nut buttons",
+        "carrozo nut buttons"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:le-mont-st-michel",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Le Mont St. Michel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lam say Michelle",
+        "Le Mont St Michelle",
+        "Lumal St. Michelle",
+        "Lumo St. Michelle",
+        "Mov"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:le-mont-st-michel-moleskin-work-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Le Mont St. Michel moleskin work jacket",
+      "brand": "Le Mont St. Michel",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Breton work jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:moleskin",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "moleskin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Moleskin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:le-mont-st-michel-moleskin-work-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Le Mont St. Michel moleskin work jacket",
+      "brand": "Le Mont St. Michel",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Betton",
+        "Bratton",
+        "Breton work jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:long-staple-combed-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "long-staple combed cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "longer staple combed cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:drake-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Drake's",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Drake",
+        "Drakes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:drake-s-stone-wash-selvedge-denim-five-pocket-chore-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Drake's Stone Wash Selvedge Denim Five-Pocket Chore Jacket",
+      "brand": "Drake's",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Drake's chore coat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "Selvage",
+        "salivage",
+        "salvage",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rivets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rivets",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "riveted"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gusset",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "gusset",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "back arm gussets",
+        "back gussetses",
+        "dart gusset type hybrid thing",
+        "gusseted",
+        "gussets",
+        "triangle gusset"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "El Bean",
+        "Ella bean",
+        "L Bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean",
+        "llban"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phils and",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tyler-the-creator",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Tyler, the Creator",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Tyler Crater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ag1",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "AG1",
+      "brand": "AG1",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Super Juicy",
+        "ag",
+        "super juice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail-prologue-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Iron Snail Prologue Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "iron snail prologue jackets",
+        "prologue jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail-mammoth-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Iron Snail Mammoth Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mammoth",
+        "mammoth",
+        "mmth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:trucker-jacket-type-ii",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "trucker jacket type II",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "trucker type two"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-york-times",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "New York Times",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "9957beeb462e84dd"
+}

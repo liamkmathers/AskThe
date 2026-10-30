@@ -1,0 +1,1234 @@
+{
+  "platform_id": "_x-_PLprz3g",
+  "profile": {
+    "video_id": "iron-snail:_x-_PLprz3g",
+    "purpose": "A wide tour of traditional wool sweater types (Norwegian, Icelandic, Shetland, Aran, cashmere, guide sweaters and the gansey). It covers the history and function behind each design, plus practical tips on fit, sleeve mobility, felting and finding high-quality vintage sweaters on eBay.",
+    "video_type": "explainer",
+    "thesis": "Most sweaters sold today copy a handful of traditional designs, each built for a specific function. Knowing that history and construction lets you pick the right sweater and find excellent ones cheaply, often used on eBay.",
+    "key_takeaways": [
+      "Norwegian lusekofte 'lice' patterns come from stranded knitting, which doubles the yarn layers for warmth; the same trick appears in Dale of Norway, Devold and L.L.Bean Norwegian sweaters.",
+      "The Icelandic lopapeysa traditionally uses untwisted yarn (pencil roving) that blends the sheep's coarse guard wool with its soft insulating wool.",
+      "Sleeve angle and taper decide mobility and how well a sweater layers: straight-out sleeves suit work, downward sleeves suit fashion.",
+      "Shetland wool feels dry rather than soft, resists pilling and has a long knitting heritage; undyed Shetland blends natural sheep colours.",
+      "The Aran sweater's fishermen-identification legends are largely folklore tied to an Irish economic and tourism push, which the creator sees as part of its real history.",
+      "Felted eBay sweaters often show lost stitch definition or sizes that 'fit small'; they can sometimes be blocked back to size.",
+      "Very cheap cashmere is often not genuine or pills quickly; buy used quality cashmere, or choose wool or lambswool instead.",
+      "The guide sweaters covered are Peter Storm, vintage Patagonia, Andersen-Andersen, Dehen 1920 and Filson, with the Filson the one he wears most.",
+      "Fully fashioned, handframed and handknit are good eBay search terms that signal care in construction.",
+      "The gansey is presented as the most well-thought-out sweater: plain lower body for easy repair, reversible design, shorter sleeves and an underarm diamond gusset."
+    ],
+    "outline": [
+      {
+        "title": "Intro: sweater history, myths and video structure",
+        "summary": "Opens with a Dale of Norway USA ski sweater and a gansey, Dutch gansey lore, and myths around fishermen's sweaters. Lays out the video's goal and its six-section structure.",
+        "first_segment": 0,
+        "last_segment": 4
+      },
+      {
+        "title": "Norwegian sweater design",
+        "summary": "Norway's national-pride sweater motifs and how the lusekofte 'lice' pattern uses stranded knitting to double the yarn layers for warmth, with Devold and L.L.Bean versions mentioned.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Icelandic lopapeysa",
+        "summary": "History of Icelandic sheep and the 1930s lopapeysa industry: seamless round yoke, stranded knitting, and untwisted yarn blending guard and insulating wool.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Sponsor message: Bilt",
+        "summary": "Sponsor read for Bilt rent rewards.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Fit and mobility",
+        "summary": "How sleeve angle (straight out vs. pointed down, raglan) and sleeve and body taper affect movement, layering, and rolling up sleeves for shorter wearers, using a Buck Mason example.",
+        "first_segment": 10,
+        "last_segment": 13
+      },
+      {
+        "title": "Shetland wool",
+        "summary": "Shetland sheep and the islands' knitting heritage, the dry, coarse but wearable hand of Shetland wool, and an undyed Shetland sweater with good texture and anti-pilling qualities.",
+        "first_segment": 13,
+        "last_segment": 16
+      },
+      {
+        "title": "Aran sweaters",
+        "summary": "Separates Aran sweater folklore (identifying drowned fishermen, symbolic stitches) from its likely origin as an Irish economic and tourism effort. Compares its loose, lofty white knit to the gansey.",
+        "first_segment": 16,
+        "last_segment": 21
+      },
+      {
+        "title": "Sweater tip: felting",
+        "summary": "How to spot a felted sweater on eBay (lost stitch definition, mislabelled sizes), blocking it back to size, and the upside of felted sweaters.",
+        "first_segment": 21,
+        "last_segment": 22
+      },
+      {
+        "title": "Cashmere and alternatives",
+        "summary": "Cashmere goat fibre, concerns about cheap cashmere that pills, a used William Lockie rub test, and a conversation with Maro of Wolf vs. Goat. Covers alternatives such as lambswool, alpaca, yak and possum, and why wool can beat cashmere at the same price.",
+        "first_segment": 22,
+        "last_segment": 26
+      },
+      {
+        "title": "Guide sweaters",
+        "summary": "Reviews guide-style sweaters: Peter Storm oiled wool, vintage Patagonia (cardigan stitch), Andersen-Andersen, Dehen 1920 quarter-zip and the $560 Filson guide sweater. Also shows the Iron Snail Billy Goat sample and explains fully fashioned construction.",
+        "first_segment": 26,
+        "last_segment": 37
+      },
+      {
+        "title": "The Gansey",
+        "summary": "A handknit gansey made by Jen: its 400-year design, plain lower body for repair, reversibility, shorter sleeves and underarm diamond gusset. Closes with thoughts on functional wool sweaters vs. fleece.",
+        "first_segment": 37,
+        "last_segment": 41
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "This is a modern version of the",
+        "last_segment": 4,
+        "ends_with": "that's the woods, and that's a sack.",
+        "note": "Hook with the Dale of Norway sweater, gansey lore, video goals and structure"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 8,
+        "starts_with": "Many of you already know my name",
+        "last_segment": 10,
+        "ends_with": "the link in the description. Thanks again. Bye-bye.",
+        "note": "Sponsor read for Bilt rent rewards, with Taylor's pottery as a prop"
+      },
+      {
+        "role": "aside",
+        "first_segment": 27,
+        "starts_with": "Oh, timer's going off. 10:50.",
+        "last_segment": 27,
+        "ends_with": "She's like, \"Yeah, I think so.\"",
+        "note": "Timer goes off; joke about picking Taylor up from yoga"
+      },
+      {
+        "role": "aside",
+        "first_segment": 31,
+        "starts_with": "One second. It's going to take me",
+        "last_segment": 32,
+        "ends_with": "Like back on my crotch. One, two.",
+        "note": "Blooper putting the Andersen-Andersen sweater on backwards and redoing the line"
+      },
+      {
+        "role": "outro",
+        "first_segment": 41,
+        "starts_with": "Anyways, that's about it. Thanks for watching.",
+        "last_segment": 41,
+        "ends_with": "Look at this bone head hit my car. H run.",
+        "note": "Sign-off with a joke about a car"
+      }
+    ],
+    "topics": [
+      "wool sweater history",
+      "stranded knitting",
+      "Norwegian lusekofte",
+      "Icelandic lopapeysa",
+      "Shetland wool",
+      "Aran sweater folklore",
+      "gansey construction",
+      "sleeve fit and mobility",
+      "felted sweaters",
+      "cashmere quality and pilling",
+      "cashmere alternatives",
+      "guide sweaters",
+      "fully fashioned knitwear",
+      "buying vintage sweaters on eBay",
+      "yarn twist and pilling"
+    ],
+    "entity_ids": [
+      "iron-snail:e:lusekofte",
+      "iron-snail:e:dale-of-norway-usa-ski-sweater",
+      "iron-snail:e:devold",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:l-l-bean-norwegian-sweater",
+      "iron-snail:e:l-l-bean-made-in-scotland-lambswool-sweater",
+      "iron-snail:e:stranded-knitting",
+      "iron-snail:e:gansey",
+      "iron-snail:e:stella-rue",
+      "iron-snail:e:lopapeysa",
+      "iron-snail:e:pencil-roving-untwisted-yarn",
+      "iron-snail:e:raglan-sleeve",
+      "iron-snail:e:buck-mason",
+      "iron-snail:e:shetland-wool",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:harley-of-scotland-sherpa-shetland-undyed-voe",
+      "iron-snail:e:aran-sweater",
+      "iron-snail:e:grace-kelly",
+      "iron-snail:e:felting",
+      "iron-snail:e:blocking",
+      "iron-snail:e:cashmere",
+      "iron-snail:e:wirecutter",
+      "iron-snail:e:william-lockie",
+      "iron-snail:e:william-lockie-cashmere-sweater",
+      "iron-snail:e:wolf-vs-goat",
+      "iron-snail:e:wolf-vs-goat-chunky-roll-neck-sweater",
+      "iron-snail:e:maro",
+      "iron-snail:e:lambswool",
+      "iron-snail:e:gong-or-geong",
+      "iron-snail:e:alpaca",
+      "iron-snail:e:yak",
+      "iron-snail:e:brushtail-possum",
+      "iron-snail:e:cotton",
+      "iron-snail:e:guide-sweater",
+      "iron-snail:e:peter-storm",
+      "iron-snail:e:peter-storm-vintage-sweater",
+      "iron-snail:e:oiled-wool",
+      "iron-snail:e:stockinette-jersey-knit",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:vintage-patagonia-wool-sweater",
+      "iron-snail:e:cardigan-stitch",
+      "iron-snail:e:iron-snail-billy-goat-sweater",
+      "iron-snail:e:andersen-andersen",
+      "iron-snail:e:andersen-andersen-navy-turtleneck",
+      "iron-snail:e:dehen-1920",
+      "iron-snail:e:dehen-1920-1-4-zip-moto-jersey",
+      "iron-snail:e:hmat",
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-guide-sweater",
+      "iron-snail:e:fully-fashioned",
+      "iron-snail:e:whole-garment-knitting",
+      "iron-snail:e:handframed",
+      "iron-snail:e:jen",
+      "iron-snail:e:diamond-gusset",
+      "iron-snail:e:bilt",
+      "iron-snail:e:ebay",
+      "iron-snail:e:etsy",
+      "iron-snail:e:taylor",
+      "iron-snail:e:robin",
+      "iron-snail:e:polyester-fleece"
+    ],
+    "categories": [
+      "knitwear"
+    ],
+    "answers_questions": [
+      "Why do Norwegian sweaters have that little 'lice' pattern?",
+      "What makes an Icelandic lopapeysa so warm?",
+      "Is the $560 Filson guide sweater actually worth it?",
+      "Did Aran sweaters really help identify drowned fishermen?",
+      "What is a gansey and why does it have a diamond under the arm?",
+      "How can I tell if a sweater on eBay is felted?",
+      "Is cheap cashmere under $100 worth buying?",
+      "What can I get instead of cashmere that feels soft?",
+      "What eBay search terms find good vintage wool sweaters?",
+      "How should sweater sleeves fit if I need to move my arms a lot or layer underneath?",
+      "What's special about Shetland wool compared to merino?",
+      "Which old Patagonia wool sweater should I hunt for?",
+      "What does fully fashioned mean on a sweater?",
+      "What is the heaviest, most durable wool sweater you'd recommend?",
+      "What's the status of the Iron Snail Billy Goat sweater?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:_x-_PLprz3g:s0032",
+        "note": "He had said the Andersen-Andersen sweater has no front or back; after putting it on backwards he retracts this ('Take back that front and back thing')."
+      },
+      {
+        "segment_id": "iron-snail:_x-_PLprz3g:s0014",
+        "note": "After calling Shetland wool rougher than expected, he refines it: you wouldn't say it's rough, it feels dry and slightly coarse but is wearable on bare skin."
+      }
+    ],
+    "related_videos": [
+      "Interview with Maro of Wolf vs. Goat about cashmere"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:lusekofte",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Lusekofte",
+      "brand": null,
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Luc",
+        "Luc sweater",
+        "Lucy Norwegian sweater",
+        "lice sweater",
+        "luc"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dale-of-norway-usa-ski-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Dale of Norway USA Ski Sweater",
+      "brand": "Dale of Norway",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Dale of Norway"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dale-of-norway-usa-ski-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Dale of Norway USA Ski Sweater",
+      "brand": "Dale of Norway",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Dale of Norway"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:devold",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Devold",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Devol D V O L D"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "El Bean",
+        "Ella bean",
+        "Eloan",
+        "L Bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLB",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean",
+        "llban"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-norwegian-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean Norwegian sweater",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "LLB Norwegian sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-made-in-scotland-lambswool-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean Made in Scotland Lambswool Sweater",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "LLBAN made in Scotland sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stranded-knitting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "stranded knitting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gansey",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Gansey",
+      "brand": null,
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Gansy",
+        "Ganszy",
+        "Gany",
+        "Ganyans",
+        "Ganzy",
+        "gans",
+        "ganszy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stella-rue",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Stella Rue",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lopapeysa",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Lopapeysa",
+      "brand": null,
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Lap pesa",
+        "Lapesa",
+        "Lopea",
+        "lapesa",
+        "low pesa",
+        "low pleat pesa"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pencil-roving-untwisted-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "pencil roving (untwisted yarn)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pencil roving",
+        "untwisted yarn"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raglan-sleeve",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "raglan sleeve",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "raglland"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Buck Mason",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "BM boys",
+        "Beck Mason",
+        "Buckmason",
+        "Spock fairy",
+        "[ __ ] Mason",
+        "book mason"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shetland-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Shetland wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Jetlin",
+        "Shaplin",
+        "Shepan",
+        "Shetland",
+        "Shetlin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "marino",
+        "merino",
+        "super fine merino",
+        "wool",
+        "wool yarn"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:harley-of-scotland-sherpa-shetland-undyed-voe",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Harley of Scotland Sherpa Shetland Undyed Voe",
+      "brand": "Harley of Scotland",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "This Shetland sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:aran-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Aran sweater",
+      "brand": null,
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Aaron sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:grace-kelly",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Grace Kelly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "felting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Felts",
+        "double felts",
+        "felt",
+        "felted"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blocking",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "blocking",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "block it"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cashmere",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cashmere",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Kashmere",
+        "Kashmir"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wirecutter",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Wirecutter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wire cutter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:william-lockie",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "William Lockie",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "William Locky",
+        "William Look"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:william-lockie-cashmere-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "William Lockie cashmere sweater",
+      "brand": "William Lockie",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "William Locky made in Scotland Kashmir sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wolf-vs-goat",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wolf vs. Goat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Wolf verse Goat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wolf-vs-goat-chunky-roll-neck-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wolf vs. Goat Chunky Roll Neck Sweater",
+      "brand": "Wolf vs. Goat",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "This piece that I'm wearing right now"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:maro",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Maro",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lambswool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Lambswool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lamb's wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gong-or-geong",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "gong or geong",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "geong",
+        "gong"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alpaca",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "alpaca",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Alpaca",
+        "alaca",
+        "royal baby alpaca"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:yak",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Yak",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "yak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:brushtail-possum",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Brushtail possum",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "brushtail possum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton",
+        "cotton sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:guide-sweater",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Guide sweater",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "guide sweater",
+        "guide sweaters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:peter-storm",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Peter Storm",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Peter stole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:peter-storm-vintage-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Peter Storm vintage sweater",
+      "brand": "Peter Storm",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Peter stole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oiled-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Oiled wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "oiled wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stockinette-jersey-knit",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Stockinette (jersey) knit",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "jersey",
+        "stockinet jersey knit",
+        "stockinet knit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vintage-patagonia-wool-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vintage Patagonia wool sweater",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Patagonia wool sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cardigan-stitch",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Cardigan stitch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cardigan stitch",
+        "half cardigan stitch",
+        "half cardigan stitching"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-snail-billy-goat-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Iron Snail Billy Goat sweater",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Billy Goat V1",
+        "Billy Goat VZ"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:andersen-andersen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Andersen-Andersen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Anderson Anderson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:andersen-andersen-navy-turtleneck",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Andersen-Andersen Navy Turtleneck",
+      "brand": "Andersen-Andersen",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Anderson Anderson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dehen-1920",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dehen 1920",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "D1920",
+        "Deen",
+        "Deen 1920",
+        "dehen",
+        "dehen 1920",
+        "dhen 1920"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dehen-1920-1-4-zip-moto-jersey",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Dehen 1920 1/4 Zip Moto Jersey",
+      "brand": "Dehen 1920",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "quartzip"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hmat",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "HMAT",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phils and",
+        "Philson's",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-guide-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Guide Sweater",
+      "brand": "Filson",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Filson guide sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fully-fashioned",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Fully fashioned",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fully fashioned"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:whole-garment-knitting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Whole garment knitting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "seamless sweater",
+        "whole garment knitting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:handframed",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Handframed",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "handframed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jen",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Jen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:diamond-gusset",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "Diamond gusset",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "diamond gusset",
+        "little diamond g"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bilt",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Bilt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Built"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:etsy",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Etsy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:robin",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Robin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester-fleece",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester fleece",
+      "brand": null,
+      "model": null,
+      "category": "fleece",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "61c7880f1dddfb31"
+}

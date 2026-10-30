@@ -1,0 +1,842 @@
+{
+  "platform_id": "VkQLrAPUzWM",
+  "profile": {
+    "video_id": "iron-snail:VkQLrAPUzWM",
+    "purpose": "Compare five winter down jackets/parkas (Filson, The North Face, Patagonia, Arc'teryx and Manifattura Ceccarelli), explain how down works, and give an informal cold-weather shiver test for each.",
+    "video_type": "comparison",
+    "thesis": "Down jackets differ mainly in construction philosophy, technical waterproof shells versus heritage waxed cotton or wool. There is no single winner. The right jacket depends on use and activity level, and layering correctly matters most.",
+    "key_takeaways": [
+      "Down is not feathers. Quality down jackets are mostly down, and 80/20 down-to-feather is roughly the lowest ratio worth buying.",
+      "Fill power is warmth-to-weight efficiency, while down weight is the amount of down. Lower fill power dries faster than higher fill power.",
+      "Fill powers covered: Filson Down Cruiser 650 (80/20), North Face McMurdo 600, Patagonia Tres 700, Arc'teryx 750, Manifattura Ceccarelli 800.",
+      "Informal time-to-shiver at about 5°F: Filson 1:52, McMurdo 6:12, Patagonia 2:02, Arc'teryx 4:45. He did not shiver in the Ceccarelli.",
+      "Of these brands, only Arc'teryx uses Gore-Tex. North Face and Patagonia use their own proprietary waterproof membranes.",
+      "Arc'teryx's down composite mapping and Contour construction add synthetic insulation in wet-prone areas. Synthetic insulation compresses over time, which can leave cold spots.",
+      "Waterproof membrane jackets can delaminate over time. Waxed cotton heritage jackets patina instead.",
+      "Activity level and correct layering matter more than the jacket itself."
+    ],
+    "outline": [
+      {
+        "title": "Video introduction",
+        "summary": "Previews the five coats and the shiver test, and describes the Huckberry duck boots and waxed leather mittens he is wearing.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Filson Down Cruiser",
+        "summary": "Construction of the Filson Down Cruiser: Shelter Cloth arms, lighter cover cloth upper, merino-lined collar and pockets, and why waxed cotton protects untreated down.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Understanding down fill",
+        "summary": "Explains down versus feathers, down/feather ratios, fill power and down weight, and drying speed. Then gives the Filson's specs (650 fill, 80/20), mentions another Filson down coat, and reports its shiver time.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "North Face McMurdo",
+        "summary": "Covers the McMurdo's proprietary waterproof shell, 600 fill down, hand warmer pockets, Velcro storm flap, hood with removable fur trim, and the drafts through the hood snaps, plus its shiver time.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Patagonia 3-in-1 parka",
+        "summary": "Explains why the Patagonia Tres 3-in-1 parka disappointed him: a good rain shell and good fit, but compromised as a winter jacket. Covers its 700 fill down, unlined parka length and weak pockets.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Arc'teryx technology",
+        "summary": "Covers Arc'teryx's philosophy of using cutting-edge technology with no low-end line, its use of Gore-Tex, micro seaming, and an introduction to down composite mapping and Contour construction, with 750 fill and its shiver time.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Manifattura Ceccarelli",
+        "summary": "Presents his Manifattura Ceccarelli fisherman down jacket: 800 fill, heavy down weight, vegetable-tanned adjusters, wool or waxed cotton outer, and the maker's history with Filson.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Final jacket comparisons",
+        "summary": "Compares technical and heritage jackets, covering delamination and the drawbacks of Arc'teryx's synthetic mapping. Groups down jacket types and stresses choosing by use and activity, with layering as the key to warmth.",
+        "first_segment": 10,
+        "last_segment": 14
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hello stallions and welcome to class",
+        "last_segment": 0,
+        "ends_with": "bring me an apple and let's get going",
+        "note": "Class-themed intro previewing the five coats and the shiver test"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "what's up everyone it's Michael",
+        "last_segment": 1,
+        "ends_with": "support the channel if that's what you're after",
+        "note": "Missed upload deadline, ice cream scoop pointer, boots and mittens he's wearing, affiliate link mention"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "I was trying to find a picture",
+        "last_segment": 3,
+        "ends_with": "powers of AI to get it done",
+        "note": "Joke about an AI image of a duck wearing a coat"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "look honey the American flag",
+        "last_segment": 6,
+        "ends_with": "wasn't actually as high as I thought",
+        "note": "Joke on reaching the top of a structure"
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "had to change my angle because uh",
+        "last_segment": 8,
+        "ends_with": "then obviously I'll let them in",
+        "note": "Filming interrupted by a passerby; joke about being next to the bathroom"
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "the Sun is setting so I",
+        "last_segment": 9,
+        "ends_with": "the American flag just like on the moon",
+        "note": "Changing filming location as the sun sets"
+      },
+      {
+        "role": "outro",
+        "first_segment": 15,
+        "starts_with": "you know how I said I",
+        "last_segment": 15,
+        "ends_with": "I'll see you next week",
+        "note": "Upload schedule and upcoming trip to Copenhagen to see Taylor"
+      }
+    ],
+    "topics": [
+      "down jackets",
+      "down fill power",
+      "down vs feathers",
+      "waterproof membranes",
+      "Gore-Tex",
+      "delamination",
+      "waxed cotton",
+      "synthetic insulation",
+      "down composite mapping",
+      "fur trim hoods",
+      "cold weather testing",
+      "layering"
+    ],
+    "entity_ids": [
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-down-cruiser",
+      "iron-snail:e:filson-wool-cruiser",
+      "iron-snail:e:shelter-cloth",
+      "iron-snail:e:cover-cloth",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:chill-coot",
+      "iron-snail:e:the-north-face",
+      "iron-snail:e:the-north-face-mcmurdo-parka",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:patagonia-tres-3-in-1-parka",
+      "iron-snail:e:arc-teryx",
+      "iron-snail:e:arc-teryx-therme-parka",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:down-composite-mapping",
+      "iron-snail:e:contour-construction",
+      "iron-snail:e:micro-seaming",
+      "iron-snail:e:manifattura-ceccarelli",
+      "iron-snail:e:manifattura-ceccarelli-fisherman-down-jacket",
+      "iron-snail:e:mr-ceccarelli",
+      "iron-snail:e:huckberry-all-weather-duck-boots",
+      "iron-snail:e:huckberry",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:giver-mittens",
+      "iron-snail:e:under-armour",
+      "iron-snail:e:down-fill-power",
+      "iron-snail:e:down-weight",
+      "iron-snail:e:down-vs-feathers",
+      "iron-snail:e:delamination",
+      "iron-snail:e:synthetic-insulation",
+      "iron-snail:e:waxed-cotton",
+      "iron-snail:e:nylon",
+      "iron-snail:e:fur-trim",
+      "iron-snail:e:baffles",
+      "iron-snail:e:vegetable-tanned-leather",
+      "iron-snail:e:patina",
+      "iron-snail:e:layering",
+      "iron-snail:e:taylor",
+      "iron-snail:e:carrot-link"
+    ],
+    "categories": [
+      "jackets",
+      "coats",
+      "boots",
+      "accessories"
+    ],
+    "answers_questions": [
+      "What's the difference between Arc'teryx, Patagonia and North Face down jackets?",
+      "Is the North Face McMurdo parka warm enough for really cold weather?",
+      "Is the Patagonia Tres 3-in-1 parka a good winter jacket?",
+      "What does down fill power actually mean, and is higher always better?",
+      "What's the difference between down and feathers in a jacket?",
+      "What is Arc'teryx down composite mapping and does it have downsides?",
+      "Why is Arc'teryx so expensive?",
+      "Do Gore-Tex jackets delaminate over time?",
+      "Is the Filson Down Cruiser worth it, and why does it use waxed cotton?",
+      "Who is Manifattura Ceccarelli and how good is their down jacket?",
+      "Which down jacket kept you warmest at 5 degrees?",
+      "Which brands use real Gore-Tex versus their own waterproofing?",
+      "Is a down jacket or layering more important for staying warm?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:VkQLrAPUzWM:s0005",
+        "note": "He first says the McMurdo has the most amazing hand warmer pockets of the bunch, then corrects this to the second most amazing."
+      }
+    ],
+    "related_videos": [
+      "Previous video in which he promised a new video within a week",
+      "Video from about a year earlier calling the Manifattura Ceccarelli jacket the jacket of his dreams",
+      "Possible upcoming video filmed in Copenhagen with Taylor"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-down-cruiser",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Down Cruiser",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Filson down Cruiser",
+        "filson's down Cruiser"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-wool-cruiser",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Wool Cruiser",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wool Cruiser"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shelter-cloth",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Shelter Cloth",
+      "brand": "Filson",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "shelter cloth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cover-cloth",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cover cloth",
+      "brand": "Filson",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chill-coot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "chill coot",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "chill Coop"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The North Face",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "North Face"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face-mcmurdo-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The North Face McMurdo Parka",
+      "brand": "The North Face",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "North Face McMurdo parka"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-tres-3-in-1-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia Tres 3-in-1 Parka",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "Patagonia Trace parka",
+        "Patagonia Trace three in one parka"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arc-teryx",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Arc'teryx",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Arc Terex",
+        "Arc terrex",
+        "arc Terex",
+        "arcteric",
+        "arcterics",
+        "our Terex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arc-teryx-therme-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Arc'teryx Therme Parka",
+      "brand": "Arc'teryx",
+      "model": null,
+      "category": "coats",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-composite-mapping",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down composite mapping",
+      "brand": "Arc'teryx",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:contour-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Contour construction",
+      "brand": "Arc'teryx",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:micro-seaming",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "micro seaming",
+      "brand": "Arc'teryx",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:manifattura-ceccarelli",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Manifattura Ceccarelli",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "manufactured chickenelli",
+        "manufacturer chicarelli"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:manifattura-ceccarelli-fisherman-down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Manifattura Ceccarelli fisherman down jacket",
+      "brand": "Manifattura Ceccarelli",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "the fisherman down jacket"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mr-ceccarelli",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Mr. Ceccarelli",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr chica really"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry-all-weather-duck-boots",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Huckberry All-Weather Duck Boots",
+      "brand": "Huckberry",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "huckberry all-weather duck boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Huckberry",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Huck Berry",
+        "hockberry",
+        "huckberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:giver-mittens",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Giver mittens",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:under-armour",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Under Armour",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Under Armor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-fill-power",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down fill power",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "600 fill",
+        "Phil down",
+        "down fill",
+        "fill power"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-weight",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down weight",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fill weight"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-vs-feathers",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down vs feathers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "down is not a feather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:delamination",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "delamination",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "delaminate"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:synthetic-insulation",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "synthetic insulation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed cotton",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wax",
+        "wax canvas",
+        "wax con",
+        "wax cotton",
+        "wax jackets",
+        "waxed",
+        "waxed jackets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fur-trim",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "fur trim",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "mining fake fur"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:baffles",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "baffles",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "baffle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vegetable-tanned-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "vegetable-tanned leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "vegetable tanned accents"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patina",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "patina",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:layering",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "layering",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "base layer mid layer outer layer shell",
+        "layer correctly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot-link",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "carrot link",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "carrot",
+        "carrot Lincoln bio",
+        "carrot Link"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "95b599f42765c66a"
+}

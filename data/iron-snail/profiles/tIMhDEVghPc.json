@@ -1,0 +1,982 @@
+{
+  "platform_id": "tIMhDEVghPc",
+  "profile": {
+    "video_id": "iron-snail:tIMhDEVghPc",
+    "purpose": "A basics guide to staying warm outdoors: how to layer (base, mid, outer, plus mittens and hats), how outerwear fabrics and insulation work (nylon, wool, down, Gore-Tex), and a simple system for choosing a winter jacket.",
+    "video_type": "explainer",
+    "thesis": "Being too cold or too hot outside usually comes from your layering, not your outer jacket. Start from the simplest jacket that works with a good layering system, and understand fabrics, fill power and construction so you don't chase new gear for its own sake.",
+    "key_takeaways": [
+      "Layering has three parts: a base layer (wicking, breathable), a mid layer (warmth, e.g. fleece or a wool sweater) and an outer layer.",
+      "Synthetic base layers dry fast but can stink sooner; wool insulates when wet and resists odor but is more fragile, so blends are often recommended.",
+      "Mittens, hats, balaclavas and gaiters follow the same layering logic.",
+      "Nylon shells are strong for their weight, but heavier nylon lasts longer; in wool jackets the wool itself is the insulation.",
+      "Brand fabric weights (e.g. Filson vs Weather Wool) aren't measured the same way, and fabric weight doesn't map directly to warmth.",
+      "Fill power measures how much space an ounce of down takes up; fill weight and baffle construction (sewn-through, box, offset, woven or bonded) also matter, and humidity reduces high-fill-power performance.",
+      "Treated down (e.g. DownTek) holds up better in wet weather than its reputation suggests; Gore-Tex membranes need DWR re-treatment and can delaminate.",
+      "Double-weave baffled jackets, like the L.L.Bean one shown, need no stitching, so they are more wind resistant, don't leak down and can stretch.",
+      "The winter jacket selection system: check what layers you have, note your use and climate, take a one-hour test walk, then start from the simplest jacket and add only what you need. Consider vintage, and check repair and warranty policies."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Introduces a modern baffled down jacket, a B6 bomber and a 1962 Eddie Bauer K2 parka, and sets up the video as a basics guide and a 'winter jacket selection system'.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Layering and base layers",
+        "summary": "Explains that layering is usually behind feeling too hot or too cold, outlines base, mid and outer layers, and compares synthetic, wool, blended and mesh base layers.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Mid layers, mittens and hats",
+        "summary": "Covers fleece and wool sweater mid layers, how fleece weight and stitch (jersey vs thermal knit) affect loft, and extends layering to socks, boots, chopper mittens, beanies, balaclavas and gaiters.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "Outerwear: nylon and wool",
+        "summary": "Compares nylon shells with wool outerwear, recommends wool jacket brands including the Iron Snail Mammoth, and stresses layering under wool.",
+        "first_segment": 8,
+        "last_segment": 11
+      },
+      {
+        "title": "Down: warmth ratings, fill power and construction",
+        "summary": "Explains why warmth is hard to rate, inconsistent fabric weight claims, fill power vs fill weight, humidity effects and baffle construction types.",
+        "first_segment": 11,
+        "last_segment": 13
+      },
+      {
+        "title": "Down in the wet, Gore-Tex and new tech",
+        "summary": "Discusses down's wet-weather reputation, treated down, Gore-Tex membranes (warranty, the banned original formula, delamination, DWR upkeep), future tech like aerogel, and the double-weave baffled L.L.Bean jacket.",
+        "first_segment": 14,
+        "last_segment": 18
+      },
+      {
+        "title": "Winter jacket selection system",
+        "summary": "A step-by-step method for choosing a jacket: assess your layers, note your use and climate, do a test walk, start simple and build up, consider vintage on eBay, and check repair and warranty policies.",
+        "first_segment": 18,
+        "last_segment": 21
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this is the down jacket that your",
+        "last_segment": 1,
+        "ends_with": "all you have to do is watch it",
+        "note": "Cold open showing several jackets and setting up the winter jacket selection system"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "here's a fun game let's see if",
+        "last_segment": 5,
+        "ends_with": "between your butt crack and belly button",
+        "note": "Sponsor read for Mando body deodorant"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "I'm currently wearing a synthetic mid layer",
+        "last_segment": 6,
+        "ends_with": "I haven't showered in 3 days",
+        "note": "Joke about lounging at his parents' house on Cape Cod"
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "oh this one by the way I'm",
+        "last_segment": 7,
+        "ends_with": "got me a glowing beanie for Christmas",
+        "note": "Night running and the glowing beanie his mom gave him"
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "oh also I forgot to say I",
+        "last_segment": 14,
+        "ends_with": "I'll be at the jacket drive like",
+        "note": "Bought many down jackets on eBay for the video and will donate them to a jacket drive in Maine"
+      },
+      {
+        "role": "aside",
+        "first_segment": 18,
+        "starts_with": "this is where me and my friends",
+        "last_segment": 18,
+        "ends_with": "we'd go right down this little thing",
+        "note": "Childhood sledding hill"
+      },
+      {
+        "role": "outro",
+        "first_segment": 21,
+        "starts_with": "anyways I hope that was helpful somewhat",
+        "last_segment": 21,
+        "ends_with": "we're talking about Rolex woo",
+        "note": "Sign-off teasing next week's Rolex video"
+      }
+    ],
+    "topics": [
+      "layering systems",
+      "base layers",
+      "synthetic vs wool",
+      "mid layers and fleece",
+      "mittens and hats",
+      "nylon vs wool outerwear",
+      "wool jacket brands",
+      "fill power and fill weight",
+      "down baffle construction",
+      "down in wet conditions",
+      "Gore-Tex and waterproof membranes",
+      "DWR finish",
+      "double-weave baffles",
+      "choosing a winter jacket",
+      "vintage jackets",
+      "repair and warranty policies"
+    ],
+    "entity_ids": [
+      "iron-snail:e:mando",
+      "iron-snail:e:b-6-bomber-jacket",
+      "iron-snail:e:ax",
+      "iron-snail:e:b3-bomber",
+      "iron-snail:e:fjallraven",
+      "iron-snail:e:ok",
+      "iron-snail:e:eddie-bauer",
+      "iron-snail:e:eddie-bauer-k2-parka",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:the-north-face",
+      "iron-snail:e:m-mills",
+      "iron-snail:e:billy-goat-sweatshirt",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:chopper-mittens",
+      "iron-snail:e:the-iron-snail",
+      "iron-snail:e:mammoth-jacket",
+      "iron-snail:e:filson",
+      "iron-snail:e:weather-wool",
+      "iron-snail:e:ralph-johnson-wool-and-mills",
+      "iron-snail:e:duckworth",
+      "iron-snail:e:woolrich",
+      "iron-snail:e:pendleton",
+      "iron-snail:e:gloverall",
+      "iron-snail:e:down-fill-power",
+      "iron-snail:e:down-weight",
+      "iron-snail:e:sewn-through-construction",
+      "iron-snail:e:box-baffle-construction",
+      "iron-snail:e:offset-baffle-construction",
+      "iron-snail:e:woven-and-bonded-baffles",
+      "iron-snail:e:double-weave-fabric",
+      "iron-snail:e:dwr-finish",
+      "iron-snail:e:nick-wax",
+      "iron-snail:e:down-te",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:aerogel",
+      "iron-snail:e:down",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:nylon",
+      "iron-snail:e:polyester",
+      "iron-snail:e:rab",
+      "iron-snail:e:the-north-face-mcmurdo",
+      "iron-snail:e:stormcraft",
+      "iron-snail:e:marmet-guide-jacket",
+      "iron-snail:e:outdoor-research",
+      "iron-snail:e:ebay",
+      "iron-snail:e:there-jacket-foundation",
+      "iron-snail:e:elan",
+      "iron-snail:e:rolex"
+    ],
+    "categories": [
+      "jackets",
+      "coats",
+      "fleece",
+      "sweatshirts",
+      "knitwear",
+      "accessories"
+    ],
+    "answers_questions": [
+      "Why am I always cold outside even with a big winter jacket?",
+      "What's the difference between a base layer, mid layer and outer layer?",
+      "Should my base layer be synthetic or wool?",
+      "What does fill power mean on a down jacket?",
+      "Is a 1000 fill power jacket always warmer than a 750 fill one?",
+      "What's the difference between sewn-through and box baffle down jackets?",
+      "Is down really useless in the rain?",
+      "Is Gore-Tex worth it, and what are its downsides?",
+      "Why do newer down jackets have that small square baffle pattern?",
+      "Are wool jackets warmer than down?",
+      "Why do Filson and Weather Wool list such different fabric weights?",
+      "What wool jacket brands do you recommend?",
+      "How should I pick out a winter jacket?",
+      "What mittens and hats are best for staying warm?",
+      "Should I buy a vintage winter jacket on eBay?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:tIMhDEVghPc:s0000",
+        "note": "After saying he would show another jacket, he says to scratch that: he left it at home because it didn't fit well, and shows the B6 jacket instead."
+      },
+      {
+        "segment_id": "iron-snail:tIMhDEVghPc:s0008",
+        "note": "Says the outer fabric is typically cotton, then corrects himself: it is typically nylon or wool."
+      }
+    ],
+    "related_videos": [
+      "Previous video covering down fill construction types",
+      "Earlier Iron Snail videos on winter jackets",
+      "Another YouTuber's video throwing a down jacket in water (unnamed channel)",
+      "Upcoming video about Rolex"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:mando",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mando",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Manda"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:b-6-bomber-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "B-6 bomber jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "B6 bomber",
+        "B6 jacket",
+        "b6 bomber jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ax",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "ax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:b3-bomber",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "B3 bomber",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fjällräven",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "F Raven",
+        "Fel Raven",
+        "Fial Raven",
+        "f Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ok",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "OK",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Eddie Bauer",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bower",
+        "Eddie Bower",
+        "Eddie Bowers",
+        "Eddie bow",
+        "bow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer-k2-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Eddie Bauer K2 parka",
+      "brand": "Eddie Bauer",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Eddie Bower K2"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The North Face",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "North Face",
+        "Northface"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:m-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "m Mills",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:billy-goat-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Billy Goat sweatshirt",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "billy goat version one",
+        "billy goat version two"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "El Bean",
+        "Ella bean",
+        "L Bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chopper-mittens",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Chopper mittens",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Iron Snail",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "iron SN",
+        "iron snail"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mammoth-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "mammoth jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "mammoths"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phils and",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weather-wool",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Weather Wool",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "weather will",
+        "weather wol",
+        "weather wolves",
+        "weather wool",
+        "weatherwool",
+        "whether wool",
+        "wonderful"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-johnson-wool-and-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Ralph Johnson wool and Mills",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:duckworth",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Duckworth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woolrich",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Woolrich",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wool Rich",
+        "wool Rich's",
+        "wool rich"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pendleton",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pendleton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Pendleton Blankets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gloverall",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Gloverall",
+      "brand": null,
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "gloverall"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-fill-power",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down fill power",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "600 fill",
+        "700 fill",
+        "800 fill",
+        "Phil down",
+        "down fill",
+        "fill power"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-weight",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down weight",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fill weight"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sewn-through-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "sewn-through construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sewn through construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:box-baffle-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "box baffle construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "box construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:offset-baffle-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "offset baffle construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woven-and-bonded-baffles",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "woven and bonded baffles",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bonded baffles",
+        "woven baffles"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:double-weave-fabric",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "double weave fabric",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "double weave"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dwr-finish",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "DWR finish",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dwr finish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nick-wax",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Nick Wax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-te",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "down te",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:aerogel",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "aerogel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "down",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "700 fill down",
+        "800 fill down"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rab",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "RAB"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face-mcmurdo",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The North Face McMurdo",
+      "brand": "The North Face",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Northface McMurdo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stormcraft",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "stormcraft",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:marmet-guide-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Marmet guide jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:outdoor-research",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Outdoor Research",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:there-jacket-foundation",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "there jacket foundation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:elan",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Elan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rolex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "63ab3c545e30fcb3"
+}
