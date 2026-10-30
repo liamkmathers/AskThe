@@ -2,6 +2,7 @@ from datetime import UTC, date, datetime
 
 from askthe.adapters.memory import MemoryKnowledgeStore, MemoryLLMClient, MemorySearchIndex
 from askthe.core.answering import (
+    UNMARKED,
     AnswerDraft,
     CitationDraft,
     check_answer,
@@ -262,3 +263,9 @@ def test_verified_quotes_keep_the_words_around_them():
     source = check_answer(draft, {"abc": (video, segs)}, "youtube").sources[0]
     assert source.context_before == "Leading in. The Unilo tee is"  # runs into the segment before
     assert source.context_after == ". Moving on."  # punctuation after the quote is kept
+
+
+def test_a_video_without_a_profile_is_flagged_as_unmarked():
+    video = f.video("boots")
+    segments = [f.segment(video.id, 0, text="This video is brought to you by a hair dryer.")]
+    assert UNMARKED in render_video(video, None, segments)

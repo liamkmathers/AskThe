@@ -49,15 +49,13 @@ uv run askthe segment iron-snail
 uv run askthe status iron-snail
 ```
 
-Then profile the videos and ask questions with Claude (needs `ASKTHE_ANTHROPIC_API_KEY`, and `ASKTHE_OPENAI_API_KEY` for embeddings; locally the usual `ANTHROPIC_API_KEY` and `OPENAI_API_KEY` also work. These steps cost money):
-
-```bash
-uv run askthe understand iron-snail
-```
+Then index the videos and ask questions with Claude (needs `ASKTHE_ANTHROPIC_API_KEY`, and `ASKTHE_OPENAI_API_KEY` for embeddings; locally the usual `ANTHROPIC_API_KEY` and `OPENAI_API_KEY` also work. These steps cost money):
 
 ```bash
 uv run askthe index iron-snail
 ```
+
+Profiling (`uv run askthe understand iron-snail`, about $0.14 a video) is paused for new videos (D25): answers use every fetched video, and the profiles already saved are still used.
 
 API keys can go in a `.env` file in the project folder (`ASKTHE_ANTHROPIC_API_KEY=...` and `ASKTHE_OPENAI_API_KEY=...`, one per line). Every command loads it; it's git-ignored, and variables set in your shell take priority.
 

@@ -73,7 +73,7 @@ Set by `[retrieval] mode` in `askthe.toml`.
 4. **Assemble.** Each kept passage expands to its section when the section is short, otherwise to its neighbours, within a word budget (`context_words`, default 12,000). Videos are shown with their sections listed and skipped stretches marked, so the model knows the transcript is partial.
 5. **Answer, verify, log** as below.
 
-If vector search fails, retrieval continues on keywords alone and the answer carries a warning. With `require_profiles` on (the default), only profiled videos are searched (D22).
+If vector search fails, retrieval continues on keywords alone and the answer carries a warning. With `require_profiles` on, only profiled videos are searched (D22); it is off for now (D25), so unprofiled videos are answered from their transcripts and the model is told their sponsor reads aren't marked.
 
 **`full`**: whole transcripts, every video if the catalogue fits `full_budget_words`, otherwise the best-matching videos. Kept as an option and an occasional sanity check; evals measure hybrid against the test set instead (D21).
 

@@ -25,7 +25,7 @@ def item(title, text, quote, video="boots"):
 
 
 def test_bio_keeps_verified_professional_items_only():
-    store, search, llm, _, _ = build()  # "boots" and "denim"; only boots gets a profile
+    store, search, llm, _, _ = build()  # "boots" and "denim"; only boots is profiled
     store.save_profile(profile(f.video("boots").id))
     seen = {}
 
@@ -45,6 +45,7 @@ def test_bio_keeps_verified_professional_items_only():
     report = make_bio(f.creator(), store, search, llm)
     assert [i.title for i in report.bio.journey] == ["Winter boots"]
     assert report.bio.journey[0].citations[0].video_id == "boots"
-    assert report.bio.ventures == []  # denim isn't profiled, so it can't be cited
-    assert len(report.dropped) == 3
-    assert "[boots]" in seen["context"] and "[denim]" not in seen["context"]
+    # Unprofiled videos can be cited too (D25).
+    assert report.bio.ventures[0].citations[0].video_id == "denim"
+    assert len(report.dropped) == 2
+    assert "[boots]" in seen["context"] and "[denim]" in seen["context"]

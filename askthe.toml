@@ -64,9 +64,10 @@ bio = "claude-opus-5-5"      # once per creator: judgement-heavy, cheap in total
 [retrieval]
 mode = "hybrid"
 context_words = 12000
-# Answer only from videos that have a profile: without one, sponsor reads and asides
-# aren't marked. New videos are used once `askthe understand` has profiled them.
-require_profiles = true
+# true: answer only from profiled videos. Off for now (D25): profiling is paused to
+# keep onboarding cheap, so unprofiled videos are answered from their transcripts,
+# with the model told their sponsor reads aren't marked.
+require_profiles = false
 
 # Prices in US dollars per million tokens, for the costs `askthe eval` reports.
 # cache_write is the 5-minute cache rate. Check against the provider's price list.

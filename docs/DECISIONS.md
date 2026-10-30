@@ -151,7 +151,7 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Why:** full mode was only ever a reference for hybrid, and its first question costs about $1.15 to load the catalogue. The test set already names the videos that hold each answer, which checks retrieval directly and stays meaningful as the catalogue outgrows full mode. Supersedes the measurement note in D16.
 **Trade-off:** expected sources count videos, not passages, so the expectations must name every video an answer should draw on (q05 now includes the 2021 1907 review).
 
-### D22. Answers use only profiled videos
+### D22. Answers use only profiled videos *(paused by D25)*
 *2026-10-30*
 
 **Chose:** with `[retrieval] require_profiles = true` (the default in `askthe.toml`), answers read only videos that have a profile. A newly fetched video is used once `askthe understand` has profiled it; `serve` warns how many are waiting, and the page's video count and "new video since you asked" count only usable videos.
@@ -171,3 +171,11 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** keep profiling (about $0.14 a video) and `require_profiles`.
 **Why:** sponsor and personal-life marking are the reason profiles exist (D22), and these test sets don't exercise them: no answer in either mode cited a located sponsor read. The model mentioned the Huckberry sponsorship both times from the transcript itself. The cost matters only at catalogue scale (about $90 for all 640 of Kenji's videos).
 **Next:** questions that land on sponsor reads, to measure the safety value; and a cheaper profiler (Sonnet or Haiku) checked with the same comparison before profiling whole catalogues.
+
+### D25. Pause profiling; answer from every fetched video
+*2026-10-30, from Liam*
+
+**Chose:** no new profiles for now. `require_profiles = false`, so answers and `askthe bio` use every fetched video; the 123 profiles already saved (The Iron Snail's 73, Kenji's 50) are still used. A video without a profile is shown to the answer model as "Unmarked", and rule 7 tells it to find sponsor reads itself: where he says the video is sponsored or brought to you by a brand, gives a promo code or reads an ad.
+**Why:** profiling is the largest cost of onboarding (about $0.14 a video; $90 for one 640-video catalogue), and D24 found it adds little to scores. Pausing it lets us onboard more creators and work on the site cheaply; profiles can be made later for the creators we keep.
+**Measured** (The Iron Snail, 23 questions, with the new prompt): profiled 23/23, expected videos read 97%, $1.31; as if unprofiled (`--no-profiles`) 23/23, 93%, $1.10.
+**Gives up:** sponsor reads in unprofiled videos are caught by the model reading, not marked in advance, and the `sponsored` tag on quotes needs a located read, so it never appears for them. Expect the occasional miss of the kind D24 saw (an own product found only through the profile). Revisit before going public (Phase C).

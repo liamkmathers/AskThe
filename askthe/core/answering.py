@@ -119,6 +119,11 @@ def clean_description(text: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
+# Shown for a video without a profile (D25): nothing in it is marked, so rule 7 has to
+# be applied by reading.
+UNMARKED = "Unmarked: sponsor reads and asides in this transcript are not marked."
+
+
 def render_video(
     video: Video,
     profile: VideoProfile | None,
@@ -162,6 +167,8 @@ def render_video(
             )
         for c in profile.corrections:
             lines.append(f"Correction at {c.segment_id.rsplit(':', 1)[-1]}: {c.note}")
+    else:
+        lines.append(UNMARKED)
     shown = sorted(texts) if only is None else sorted(i for i in set(only) if i in texts)
     lines.append("Transcript:" if only is None else "Transcript (relevant parts only):")
     previous = -1
@@ -221,8 +228,10 @@ force it to be.
 6. Third person. Describe what {who} says ("{pron} recommends..."). Never write as him \
 or imitate his voice.
 7. Sponsorship. Text inside «SPONSOR ...» markers is a paid read, and so are promo \
-codes and sponsor mentions in descriptions. Never present it as his independent \
-opinion; if it is relevant, say it was sponsored. What he says about \
+codes and sponsor mentions in descriptions. In a video noted as unmarked, find them \
+yourself: where he says the video is sponsored or brought to you by a brand, gives a \
+promo code or reads an ad, that stretch is a paid read. Never present it as his \
+independent opinion; if it is relevant, say it was sponsored. What he says about \
 his own products or brand is his opinion.
 8. Attribute. Facts and history are what he says, not verified truth. Views he reports \
 from others ("people say...", a brand's own claim) are theirs, not his. Keep his \

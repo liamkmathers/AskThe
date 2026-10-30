@@ -1,6 +1,6 @@
 """Make a creator's bio (core/bio.py) and save it to data/<slug>/bio.json.
 
-One model call per creator, over the profiled videos only. Re-run it when new
+One model call per creator, over all their videos. Re-run it when new
 videos change the story; the result is committed like profiles (D17).
 """
 
@@ -43,9 +43,11 @@ def make_bio(
     llm: LLMClient,
     max_passages: int = 80,
 ) -> BioReport:
-    videos = {v.id: v for v in store.list_videos(creator.slug) if store.get_profile(v.id)}
+    # Every video, profiled or not (D25): the catalogue lists titles and descriptions,
+    # with a profile's purpose where there is one.
+    videos = {v.id: v for v in store.list_videos(creator.slug)}
     if not videos:
-        raise ValueError("no profiled videos: run segment and understand first")
+        raise ValueError("no videos: run segment first")
     profiles = {vid: store.get_profile(vid) for vid in videos}
     segments = {vid: {s.id: s for s in store.get_segments(vid)} for vid in videos}
 
