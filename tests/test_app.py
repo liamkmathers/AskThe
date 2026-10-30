@@ -175,3 +175,43 @@ def test_app_rejects_empty_questions_and_reports_model_failures(tmp_path):
     broken.post("/api/ask", json={"question": QUESTION})  # uses up the scripted answer
     events = stream(broken.post("/api/ask", json={"question": QUESTION}))
     assert events[-1]["type"] == "error" and events[-1]["message"]
+
+
+def test_unprofiled_videos_are_left_out_when_profiles_are_required():
+    from askthe.core.models import VideoProfile, VideoType
+    from askthe.core.profiling import PROFILER_VERSION
+    from askthe.pipeline.ask import answerable_videos
+
+    store, search, llm, vectors, embedder = build()  # "boots" and "denim", unprofiled
+    store.save_profile(
+        VideoProfile(
+            video_id=f.video("denim").id,
+            purpose="p",
+            video_type=VideoType.REVIEW,
+            thesis="t",
+            profiler_version=PROFILER_VERSION,
+            model="m",
+        )
+    )
+    required = RetrievalSettings(require_profiles=True)
+    assert [v.platform_id for v in answerable_videos(f.creator(), store, required)] == ["denim"]
+    assert len(answerable_videos(f.creator(), store, RetrievalSettings())) == 2
+
+    llm.script(LLMTask.PLAN, QueryPlan(queries=["warm winter boots"], names=[], broad=False))
+    llm.script(LLMTask.RERANK, RerankDraft(scores=[]))
+    llm.script(
+        LLMTask.ANSWER, AnswerDraft(answer="Not covered.", coverage=Coverage.NONE, citations=[])
+    )
+    result = ask(
+        f.creator(),
+        QUESTION,
+        store,
+        search,
+        llm,
+        vectors=vectors,
+        embedder=embedder,
+        settings=required,
+    )
+    assert "test-creator:boots" not in result.videos_read  # its passages never reach the model
+    reranked = [c[2] for c in llm.calls if c[0] is LLMTask.RERANK]
+    assert reranked and "kept my feet warm" not in reranked[0] and "Raw denim" in reranked[0]

@@ -63,6 +63,9 @@ answer = "claude-sonnet-5-5"
 [retrieval]
 mode = "hybrid"
 context_words = 12000
+# Answer only from videos that have a profile: without one, sponsor reads and asides
+# aren't marked. New videos are used once `askthe understand` has profiled them.
+require_profiles = true
 
 # Prices in US dollars per million tokens, for the costs `askthe eval` reports.
 # cache_write is the 5-minute cache rate. Check against the provider's price list.

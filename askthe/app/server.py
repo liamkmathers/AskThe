@@ -24,7 +24,7 @@ from pydantic import BaseModel, Field
 from askthe.core.answering import watch_url
 from askthe.core.interfaces import LLMError
 from askthe.core.models import AnswerLog, Creator
-from askthe.pipeline.ask import RetrievalSettings, ask, newer_videos
+from askthe.pipeline.ask import RetrievalSettings, answerable_videos, ask, newer_videos
 from askthe.wiring import Services
 
 STATIC = Path(__file__).parent / "static"
@@ -63,7 +63,7 @@ def create_app(services: Services, creator: Creator, settings: RetrievalSettings
             "niche": creator.niche,
             "categories": creator.categories,
             "starters": creator.starter_questions,
-            "videos": len(store.list_videos(creator.slug)),
+            "videos": len(answerable_videos(creator, store, settings)),
         }
 
     @app.post("/api/ask")
@@ -115,7 +115,7 @@ def create_app(services: Services, creator: Creator, settings: RetrievalSettings
     @app.get("/api/answers/{answer_id}")
     def get_answer(answer_id: str) -> dict[str, Any]:
         log = load(answer_id)
-        return snapshot(log, newer_videos(creator, log, store, services.search))
+        return snapshot(log, newer_videos(creator, log, store, services.search, settings))
 
     @app.post("/api/answers/updates")
     def updates(request: UpdatesRequest) -> dict[str, int]:
@@ -124,7 +124,7 @@ def create_app(services: Services, creator: Creator, settings: RetrievalSettings
         for answer_id in request.ids:
             log = store.get_answer(answer_id)
             if log and log.creator_id == creator.slug:
-                found[answer_id] = len(newer_videos(creator, log, store, services.search))
+                found[answer_id] = len(newer_videos(creator, log, store, services.search, settings))
         return found
 
     @app.post("/api/answers/{answer_id}/flag")

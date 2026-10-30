@@ -150,3 +150,9 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** `askthe eval` runs hybrid mode, the one fans use, by default. Retrieval is checked against each question's expected source videos (`sources`), reported as the share of them read. Full mode stays in the code as an option (`--mode full`), not part of every run.
 **Why:** full mode was only ever a reference for hybrid, and its first question costs about $1.15 to load the catalogue. The test set already names the videos that hold each answer, which checks retrieval directly and stays meaningful as the catalogue outgrows full mode. Supersedes the measurement note in D16.
 **Trade-off:** expected sources count videos, not passages, so the expectations must name every video an answer should draw on (q05 now includes the 2021 1907 review).
+
+### D22. Answers use only profiled videos
+*2026-10-30*
+
+**Chose:** with `[retrieval] require_profiles = true` (the default in `askthe.toml`), answers read only videos that have a profile. A newly fetched video is used once `askthe understand` has profiled it; `serve` warns how many are waiting, and the page's video count and "new video since you asked" count only usable videos.
+**Why:** without a profile, sponsor reads and asides aren't marked, so a paid read could be presented as his opinion (rule 6) and personal remarks aren't flagged (rule 8). Transcripts arrive in batches ahead of profiling, and a missing profile shouldn't quietly weaken answers.

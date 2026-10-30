@@ -477,6 +477,13 @@ def _serve_problems(services: Services, c: Creator) -> list[str]:
         )
     elif not any(services.store.get_profile(v.id) for v in videos):
         problems.append(f"no profiles loaded: run `askthe segment {c.slug}` (restores saved ones)")
+    else:
+        unprofiled = sum(1 for v in videos if not services.store.get_profile(v.id))
+        if unprofiled and services.config.retrieval.get("require_profiles"):
+            problems.append(
+                f"{unprofiled} videos have no profile and won't be used in answers "
+                f"until `askthe understand {c.slug}` profiles them"
+            )
     adapters = services.config.adapters
     keys = {
         "llm": ("anthropic", ("ASKTHE_ANTHROPIC_API_KEY", "ANTHROPIC_API_KEY")),

@@ -71,6 +71,9 @@ class RetrievalSettings:
     candidates: int = 60  # "hybrid": fused candidates sent to the reranker
     broad_candidates: int = 100  # ... when the question needs a catalogue sweep
     min_score: int = 2  # "hybrid": lowest rerank score kept (0-3)
+    # Answer only from profiled videos: without a profile, sponsor reads and asides
+    # aren't marked (rules 6 and 8), so an unprofiled video waits for `understand`.
+    require_profiles: bool = False
 
     @classmethod
     def from_config(cls, values: dict[str, Any]) -> RetrievalSettings:
@@ -114,9 +117,13 @@ def ask(
     settings = settings or RetrievalSettings()
     emit = on_event or (lambda kind, data: None)
     emit("searching", {})
-    videos = {v.id: v for v in store.list_videos(creator.slug)}
+    profiles = {v.id: store.get_profile(v.id) for v in store.list_videos(creator.slug)}
+    videos = {
+        v.id: v
+        for v in store.list_videos(creator.slug)
+        if profiles[v.id] or not settings.require_profiles
+    }
     segments = {vid: store.get_segments(vid) for vid in videos}
-    profiles = {vid: store.get_profile(vid) for vid in videos}
     usage: dict[str, int] = {}
     usage_by_model: dict[str, dict[str, int]] = {}
     trace: dict[str, Any] = {"mode": settings.mode, "warnings": []}
@@ -255,12 +262,28 @@ def ask(
     )
 
 
+def answerable_videos(
+    creator: Creator, store: KnowledgeStore, settings: RetrievalSettings
+) -> list[Video]:
+    """The videos answers can draw on: all of them, or only profiled ones."""
+    return [
+        v
+        for v in store.list_videos(creator.slug)
+        if not settings.require_profiles or store.get_profile(v.id)
+    ]
+
+
 def newer_videos(
-    creator: Creator, log: AnswerLog, store: KnowledgeStore, search: SearchIndex
+    creator: Creator,
+    log: AnswerLog,
+    store: KnowledgeStore,
+    search: SearchIndex,
+    settings: RetrievalSettings | None = None,
 ) -> list[Video]:
     """Videos published after an answer was given that match its question: the
     "new video since you asked" signal. Keyword search only; no model call."""
-    later = {v.id: v for v in store.list_videos(creator.slug) if v.published_at > log.asked_at}
+    usable = answerable_videos(creator, store, settings or RetrievalSettings())
+    later = {v.id: v for v in usable if v.published_at > log.asked_at}
     if not later:
         return []
     hits = search.search(SearchQuery(text=log.question, creator_id=creator.slug, limit=100))
