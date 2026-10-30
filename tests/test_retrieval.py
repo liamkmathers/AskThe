@@ -179,3 +179,25 @@ def test_hybrid_falls_back_to_keywords_when_embeddings_fail():
     result = ask(f.creator(), "raw denim?", store, search, llm, vectors=vectors, embedder=Down())
     assert "keyword only" in result.trace["warnings"][0]
     assert result.answer.coverage is Coverage.NONE
+
+
+def test_named_in_matches_whole_names_but_not_short_or_ignored_ones():
+    from askthe.core.retrieval import named_in
+
+    text = "the prologue jacket which is coming back soon"
+    assert named_in(text, ["Prologue jacket"])
+    assert not named_in(text, ["pro", "jack"])  # too short, or not a whole word
+    assert not named_in("The Iron Snail says hi", ["The Iron Snail"], ignore=["The Iron Snail"])
+
+
+def test_hybrid_keeps_a_passage_naming_the_product_even_if_reranked_low():
+    store, search, llm, vectors, embedder = build()
+    llm.script(LLMTask.PLAN, QueryPlan(queries=["winter boots"], names=["Red Wing"], broad=False))
+    llm.script(LLMTask.RERANK, lambda c, p: RerankDraft(scores=[]))  # keeps nothing
+    llm.script(LLMTask.ANSWER, answer("boots", 1, "kept my feet warm in the snow"))
+    result = ask(
+        f.creator(), "Red Wings in winter?", store, search, llm, vectors=vectors, embedder=embedder
+    )
+    assert result.trace["kept"] == 0 and result.trace["kept_by_name"] == 1
+    assert result.videos_read == ["test-creator:boots"]
+    assert [s.quote for s in result.answer.sources] == ["kept my feet warm in the snow"]

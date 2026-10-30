@@ -73,6 +73,18 @@ def name_variants(names: Sequence[str], creator: Creator, entities: Sequence[Ent
     return list(dict.fromkeys(n for n in out if n.strip()))
 
 
+def named_in(text: str, names: Sequence[str], ignore: Sequence[str] = ()) -> bool:
+    """Whether `text` mentions any of `names` as whole words. Names under four
+    characters, and those in `ignore` (the creator's own name), don't count: they
+    match too much."""
+    skip = {normalise(n) for n in ignore}
+    folded = f" {normalise(text)} "
+    return any(
+        len(key) >= 4 and key not in skip and f" {key} " in folded
+        for key in (normalise(n) for n in names)
+    )
+
+
 # --- 2. Fuse ----------------------------------------------------------------------
 
 
@@ -131,6 +143,7 @@ class Pick:
     video_id: str
     segment_index: int
     score: float  # higher is more relevant
+    whole_section: bool = True  # False: just the passage and its neighbours
 
 
 def expand_to_sections(
@@ -167,7 +180,7 @@ def expand_to_sections(
 def _span(
     pick: Pick, profile: VideoProfile | None, count: int, max_section: int, neighbours: int
 ) -> range:
-    if profile:
+    if profile and pick.whole_section:
         for s in profile.outline:
             if s.first_segment <= pick.segment_index <= s.last_segment:
                 if s.last_segment - s.first_segment + 1 <= max_section:

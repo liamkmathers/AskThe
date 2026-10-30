@@ -54,6 +54,7 @@ from askthe.core.retrieval import (
     RerankDraft,
     expand_to_sections,
     name_variants,
+    named_in,
     plan_prompt,
     plan_system_prompt,
     reciprocal_rank_fusion,
@@ -71,6 +72,11 @@ class RetrievalSettings:
     candidates: int = 60  # "hybrid": fused candidates sent to the reranker
     broad_candidates: int = 100  # ... when the question needs a catalogue sweep
     min_score: int = 2  # "hybrid": lowest rerank score kept (0-3)
+    # "hybrid": candidates that name a product the question names are kept even if the
+    # reranker scored them low (brief mentions, often his newest word), this many per
+    # video and in all, after everything the reranker kept.
+    named_per_video: int = 2
+    named_total: int = 8
     # Answer only from profiled videos: without a profile, sponsor reads and asides
     # aren't marked (rules 6 and 8), so an unprofiled video waits for `understand`.
     require_profiles: bool = False
@@ -402,6 +408,24 @@ def _hybrid_context(
         if scores.get(i, 0) >= settings.min_score
     ]
     trace["kept"] = len(picks)
+
+    # 3b. Keep brief mentions of the products the question names. The reranker tends
+    # to drop a passing line ("the prologue jacket, which is coming back soon") in a
+    # video about something else, though it's often the newest thing he said.
+    named: list[Pick] = []
+    per_video: dict[str, int] = {}
+    ignore = [creator.display_name, creator.refer_to_creator_as]
+    for i, d in enumerate(candidates):
+        if len(named) >= settings.named_total or scores.get(i, 0) >= settings.min_score:
+            continue
+        vid, seg = by_id[d]
+        if per_video.get(vid, 0) < settings.named_per_video and named_in(seg.text, names, ignore):
+            per_video[vid] = per_video.get(vid, 0) + 1
+            named.append(  # a brief mention: read with its neighbours, not a whole section
+                Pick(video_id=vid, segment_index=seg.index, score=fused[d], whole_section=False)
+            )
+    picks += named  # their scores sit below every reranked pick, so they come last
+    trace["kept_by_name"] = len(named)
 
     # 4. Assemble sections within the word budget.
     shown = expand_to_sections(picks, profiles, segments, settings.context_words)
