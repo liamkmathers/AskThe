@@ -1,0 +1,954 @@
+{
+  "platform_id": "Wj_CPdb6ddk",
+  "profile": {
+    "video_id": "iron-snail:Wj_CPdb6ddk",
+    "purpose": "Explains the history of American hunting jackets and walks through the construction details of several vintage examples, ending with an answer to why old hunting jacket sleeves look so short.",
+    "video_type": "explainer",
+    "thesis": "Vintage hunting jackets are so cleverly built that people assume every detail is deliberate. Their popularity grew out of 'frontier anxiety' and the rise of the American city. The short sleeves are most likely shrinkage from heavy washing rather than design.",
+    "key_takeaways": [
+      "Common theories for short hunting-jacket sleeves (shooting, shorter people, gloves) are dismissed. Old catalogs suggest sleeves weren't short originally, and heavy washing likely shrank them.",
+      "American hunting jackets grew from an open, everyone-hunts culture and favour roomy cuts. English jackets like the Norfolk reflect restrictive, wealthy hunting culture and suit-like tailoring.",
+      "An L.L.Bean sportsman jacket with a canvas game bag but no rubber is argued to be 1940s (WWII rubber rationing) rather than the commonly assumed 1930s.",
+      "A pivot sleeve, rubberized game pouches, high hand pockets for carrying a broken shotgun, and shell pockets are typical features shown.",
+      "Frontier anxiety after the frontier closed, plus Teddy Roosevelt's 'strenuous life', drove the boom in hunting clothing from brands like Duxbak and L.L.Bean.",
+      "Duxbak was a premium brand. Its construction details include a one-piece folded shoulder, full-length facing, a two-layer upper sleeve, bound seams and a 'ducktail' to reduce bulk.",
+      "Duxbak declined with overseas production and nylon. Ralph Lauren and later Buck Mason revived the look as nostalgia."
+    ],
+    "outline": [
+      {
+        "title": "The short-sleeve mystery",
+        "summary": "Opens with the question of why hunting jacket sleeves are always short, lists online theories, and sets up a look at what makes these jackets special.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Why hunting jackets got popular; the Pontiac jacket",
+        "summary": "Previews the idea that hunting jackets exploded in the early 1900s out of male anxiety. Shows a 1950s Pontiac jacket as a cheap archetype, with its action back, simple sleeves and a clever shared pocket flap.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "English hunting culture and the Norfolk jacket",
+        "summary": "Contrasts restrictive, wealthy English hunting with American hunting, and explains the Norfolk jacket as suit-like utilitarian tailoring.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "L.L.Bean sportsman jacket",
+        "summary": "Examines an L.L.Bean sportsman jacket, its game bag and missing rubber, argues for a 1940s date due to rubber rationing, and demonstrates its pivot sleeve.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Hunting smocks and American identity",
+        "summary": "Covers indigenous influence on hunting gear and the linen hunting smock in the Revolutionary War. Explains how the hunter became core to American identity until the frontier closed.",
+        "first_segment": 10,
+        "last_segment": 12
+      },
+      {
+        "title": "Sponsor: Cometeer",
+        "summary": "Sponsor read for Cometeer frozen coffee pucks.",
+        "first_segment": 12,
+        "last_segment": 15
+      },
+      {
+        "title": "Frontier anxiety",
+        "summary": "Explains how the closing of the frontier in the census created 'frontier anxiety' and set off the outdoors craze.",
+        "first_segment": 15,
+        "last_segment": 17
+      },
+      {
+        "title": "1930s Red Head hunting jacket",
+        "summary": "Shows a rubber-coated Red Head jacket with lined hand pockets, a modified pivot sleeve and a rubberized game pouch. Explains why hand pockets sit high.",
+        "first_segment": 18,
+        "last_segment": 19
+      },
+      {
+        "title": "Teddy Roosevelt and the strenuous life",
+        "summary": "Covers Roosevelt's influence, the strenuous life, railroad vacations to places like Maine, and the market that opened for outdoor clothing.",
+        "first_segment": 20,
+        "last_segment": 22
+      },
+      {
+        "title": "Duxbak history and the Norfolk paradox",
+        "summary": "Introduces Duxbak (founded 1904) as a premium hunting brand that also sold Norfolk jackets. Argues the era really marks the rise of the American city.",
+        "first_segment": 22,
+        "last_segment": 25
+      },
+      {
+        "title": "Duxbak jacket construction",
+        "summary": "Details a Duxbak jacket: coated canvas, a folded one-piece shoulder, half-moon detail, full facing, two-layer upper sleeve and catalog features like the pack back. Compares seam choices with Filson's Mackinaw and shows bulk-reducing seam work.",
+        "first_segment": 26,
+        "last_segment": 31
+      },
+      {
+        "title": "Answer: why sleeves are short",
+        "summary": "Concludes from old catalogs that sleeves weren't originally short and were likely shrunk by heavy washing.",
+        "first_segment": 31,
+        "last_segment": 32
+      },
+      {
+        "title": "Duxbak's decline and the revival",
+        "summary": "Explains Duxbak's decline due to overseas production and nylon. Notes Ralph Lauren and Buck Mason reviving the style as a cycle of nostalgia.",
+        "first_segment": 32,
+        "last_segment": 34
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Why are hunting jacket's sleeves always so",
+        "last_segment": 1,
+        "ends_with": "actually make them special, in my opinion.",
+        "note": "Cold open posing the short-sleeve mystery and setting up the video."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "You're not going to pick the skewer",
+        "last_segment": 7,
+        "ends_with": "directly gnaw away at it. Very vulgar.",
+        "note": "Callback joke about the TikTok manners guy and skewers."
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "Out comes this guy named Dave from",
+        "last_segment": 11,
+        "ends_with": "would not believe this lady in traffic.",
+        "note": "Skit of a New England colonial hunter, plus a personal traffic remark."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 12,
+        "starts_with": "This is a frozen puck of coffee",
+        "last_segment": 15,
+        "ends_with": "by visiting the link in the description.",
+        "note": "Sponsor read for Cometeer frozen coffee."
+      },
+      {
+        "role": "aside",
+        "first_segment": 20,
+        "starts_with": "Although, I did hear actually that he",
+        "last_segment": 20,
+        "ends_with": "God. Okay. I wish he was better shot.",
+        "note": "Comedic skit imitating Teddy Roosevelt's voice and being shot."
+      },
+      {
+        "role": "outro",
+        "first_segment": 34,
+        "starts_with": "And that is the video. I hope",
+        "last_segment": 34,
+        "ends_with": "and their Dunkin' Donuts collaboration.",
+        "note": "Sign-off teasing the next video on L.L.Bean."
+      }
+    ],
+    "topics": [
+      "hunting jacket history",
+      "short sleeves on vintage jackets",
+      "American vs English hunting culture",
+      "Norfolk jacket",
+      "pivot sleeve",
+      "game pouch",
+      "dating vintage L.L.Bean jackets",
+      "WWII rubber rationing",
+      "frontier anxiety",
+      "Teddy Roosevelt and the strenuous life",
+      "Duxbak construction",
+      "seam construction and bulk reduction",
+      "garment shrinkage",
+      "Ralph Lauren and heritage revival"
+    ],
+    "entity_ids": [
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:l-l-bean-sportsman-jacket",
+      "iron-snail:e:l-l-bean-field-jacket-1930s",
+      "iron-snail:e:l-l-bean-waxed-jacket-modern-machine-washable",
+      "iron-snail:e:abercrombie-fitch",
+      "iron-snail:e:duxbak",
+      "iron-snail:e:duxbak-hunting-jacket",
+      "iron-snail:e:boy-scouts",
+      "iron-snail:e:pontiac",
+      "iron-snail:e:pontiac-hunting-jacket",
+      "iron-snail:e:red-head",
+      "iron-snail:e:red-head-hunting-jacket-1930s",
+      "iron-snail:e:norfolk-jacket",
+      "iron-snail:e:hunting-smock",
+      "iron-snail:e:pivot-sleeve",
+      "iron-snail:e:action-back",
+      "iron-snail:e:game-pouch",
+      "iron-snail:e:gusset",
+      "iron-snail:e:half-moon",
+      "iron-snail:e:flat-felled-seam",
+      "iron-snail:e:canvas",
+      "iron-snail:e:rubber",
+      "iron-snail:e:cravenette",
+      "iron-snail:e:dwr",
+      "iron-snail:e:nylon",
+      "iron-snail:e:buckskin",
+      "iron-snail:e:flannel",
+      "iron-snail:e:macintosh-raincoat",
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-mackinaw",
+      "iron-snail:e:arc-teryx",
+      "iron-snail:e:ralph-lauren",
+      "iron-snail:e:buck-mason",
+      "iron-snail:e:tiffany",
+      "iron-snail:e:dunkin-donuts",
+      "iron-snail:e:cometeer",
+      "iron-snail:e:counter-culture",
+      "iron-snail:e:onyx",
+      "iron-snail:e:intelligentsia",
+      "iron-snail:e:nespresso",
+      "iron-snail:e:frontier-anxiety",
+      "iron-snail:e:strenuous-life",
+      "iron-snail:e:teddy-roosevelt",
+      "iron-snail:e:george-washington",
+      "iron-snail:e:hemingway",
+      "iron-snail:e:john-wayne",
+      "iron-snail:e:buffalo-bill"
+    ],
+    "categories": [
+      "jackets"
+    ],
+    "answers_questions": [
+      "Why are the sleeves on old hunting jackets always so short?",
+      "What's the difference between American and English hunting jackets?",
+      "What is a Norfolk jacket and why does it look like a suit jacket?",
+      "What is a pivot sleeve and why is it useful?",
+      "How can I tell if my vintage L.L.Bean sportsman jacket is from the 1930s or 1940s?",
+      "Why are the hand pockets so high on hunting jackets?",
+      "What makes Duxbak jackets so well made?",
+      "Why did hunting jackets become popular in the early 1900s?",
+      "What is frontier anxiety?",
+      "Why did Duxbak go out of business?",
+      "Are flat-felled seams always better than double-stitched seams?",
+      "What was a Red Head hunting jacket like?",
+      "How did Ralph Lauren and Buck Mason fit into the hunting jacket look?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:Wj_CPdb6ddk:s0008",
+        "note": "The L.L.Bean sportsman jacket, introduced as being from the 1930s, is argued to be from the 1940s: it lacks rubber in the game pouch, likely due to WWII rubber rationing."
+      },
+      {
+        "segment_id": "iron-snail:Wj_CPdb6ddk:s0031",
+        "note": "Resolves the opening premise: from old catalogs, he concludes sleeves were not originally short and likely shrank from heavy washing."
+      },
+      {
+        "segment_id": "iron-snail:Wj_CPdb6ddk:s0032",
+        "note": "Corrects himself on Duxbak's end: they lasted into the 2000s but were already dying by the '80s."
+      }
+    ],
+    "related_videos": [
+      "Next video on L.L.Bean, what happened to them, and their Dunkin' Donuts collaboration",
+      "Upcoming bonus jackets video featuring L.L.Bean and Filson pieces"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L Bean",
+        "L o beam",
+        "L.L. Bean",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-sportsman-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean Sportsman Jacket",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "L.L.Bean sportsman jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-field-jacket-1930s",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean field jacket (1930s)",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "1930's LL Bean field jacket"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-waxed-jacket-modern-machine-washable",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean waxed jacket (modern, machine washable)",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "LL Bean jacket that has stay wax on it"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:abercrombie-fitch",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Abercrombie & Fitch",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Abberrombi",
+        "Abomi",
+        "abber cromie",
+        "abbercrombi",
+        "aboc cromie",
+        "abocom",
+        "abomi",
+        "abpy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:duxbak",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Duxbak",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ducksback"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:duxbak-hunting-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Duxbak hunting jacket",
+      "brand": "Duxbak",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Duxbak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:boy-scouts",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Boy Scouts",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pontiac",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pontiac",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pontiac-hunting-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Pontiac hunting jacket",
+      "brand": "Pontiac",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Pontiac"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-head",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Red Head",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-head-hunting-jacket-1930s",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Red Head hunting jacket (1930s)",
+      "brand": "Red Head",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "1930s Red Head hunting jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:norfolk-jacket",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Norfolk jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hunting-smock",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "hunting smock",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "linen smock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pivot-sleeve",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "pivot sleeve",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:action-back",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "action back",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:game-pouch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "game pouch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "little bag",
+        "pouch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gusset",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "gusset",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "back arm gussets",
+        "back gussetses",
+        "gusseted",
+        "gussets",
+        "triangle gusset"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:half-moon",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "half moon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:flat-felled-seam",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "flat-felled seam",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "felled seams",
+        "flat-felled out seam",
+        "flat-felled seams"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rubber",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "rubber",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cravenette",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cravenette",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dwr",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "DWR",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "DWR finish",
+        "dwr"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buckskin",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "buckskin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "buckskins"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:flannel",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "flannel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:macintosh-raincoat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Macintosh raincoat",
+      "brand": null,
+      "model": null,
+      "category": "coats",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phils",
+        "Pilson",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-mackinaw",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Mackinaw",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mackinaw"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arc-teryx",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Arc'teryx",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Arc Terex",
+        "Arc terrex",
+        "arc Terex",
+        "arcteric",
+        "arcterics",
+        "our Terex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Ralph Lauren",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lauren",
+        "Mr. R. Lauren",
+        "Ralph",
+        "Ralph Lifshitz"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-mason",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Buck Mason",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "BM boys",
+        "Beck Mason",
+        "Buckmason",
+        "Spock fairy",
+        "[ __ ] Mason"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tiffany",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Tiffany",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dunkin-donuts",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dunkin' Donuts",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Dunkin Donuts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cometeer",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Cometeer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:counter-culture",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Counter Culture",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:onyx",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Onyx",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:intelligentsia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Intelligentsia",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nespresso",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Nespresso",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:frontier-anxiety",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "frontier anxiety",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:strenuous-life",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "strenuous life",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:teddy-roosevelt",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Teddy Roosevelt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:george-washington",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "George Washington",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hemingway",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Hemingway",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:john-wayne",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "John Wayne",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buffalo-bill",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Buffalo Bill",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "dd86fe1f12ff70ab"
+}

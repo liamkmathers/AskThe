@@ -1,0 +1,732 @@
+{
+  "platform_id": "yw_dT1WgQQg",
+  "profile": {
+    "video_id": "iron-snail:yw_dT1WgQQg",
+    "purpose": "Behind-the-scenes story of The Iron Snail's failed attempt to make a wool sweater in the US. It explains why domestic clothing manufacturing is hard for a small brand and lays out the company's new strategy.",
+    "video_type": "explainer",
+    "thesis": "Making clothing in the US is extremely risky for a small brand. Without government support or running fabric stock, the brand funds and carries the risk of every step of the supply chain. After a yarn dispute and cascading delays nearly bankrupted The Iron Snail, Michael created 'Operation Gumby' to restructure how the company manufactures.",
+    "key_takeaways": [
+      "1,000 lb of raw wool sent to US spinners in May 2024 came back as yarn that torqued and snapped, and both knitters rejected it.",
+      "The spinner ('Mr. Buck Wild') angrily refused a refund. A third-party lab later confirmed that two standard yarn treatments (anti-friction and stabilising) were never done, though the yarn itself was good.",
+      "Countries that dominate clothing production support their manufacturers with subsidies, research labs, marketing and worker training. The US mainly offers the Berry Amendment for military contracts.",
+      "When US trade protections dropped, the US lost the low-price end to low-cost countries and the luxury end to Japan and Italy. Niche heritage makers like Russell Moccasin and Horween survived.",
+      "Japanese mills keep running fabrics ready to ship. Many US suppliers make everything to order, so the brand pays deposits up front and absorbs delays across sequential steps.",
+      "Paying deposits for Billy Goat sweaters, denim and Mammoth jackets at the same time locked up all the company's money when every supply chain was delayed.",
+      "Operation Gumby has four parts: keep good partners and go international to fill gaps; cut domestic orders by 75% but place them quarterly; send garments and yarns to NCSU's textile college to develop 'University Denim'; and eventually a 'hub' running fabrics for other manufacturers.",
+      "Japanese spinners re-treated the yarn, the Billy Goat sweater project is back on, and a Buckwild beanie was introduced."
+    ],
+    "outline": [
+      {
+        "title": "The supply chain conflict",
+        "summary": "The timeline of the wool yarn for the sweater, the knitters rejecting it, and the spinner's furious reply to a refund request. Michael proposes an independent lab test.",
+        "first_segment": 0,
+        "last_segment": 4
+      },
+      {
+        "title": "Sponsor: Unbound Merino",
+        "summary": "Sponsor read for Unbound Merino wool t-shirts, sweaters, turtlenecks and base layers.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "The global textile disadvantage",
+        "summary": "How other countries back their clothing manufacturers and how the end of US trade protection squeezed US makers on both price and luxury. Covers which heritage sectors survived and the role of the Berry Amendment.",
+        "first_segment": 7,
+        "last_segment": 12
+      },
+      {
+        "title": "The recipe for disaster",
+        "summary": "Michael's plan to fund Billy Goats, denim and Mammoth in sequence with simultaneous deposits. He contrasts running fabrics in Japan with make-to-order US supply chains, and shows how delays locked up funds and create boom-and-bust ordering.",
+        "first_segment": 12,
+        "last_segment": 19
+      },
+      {
+        "title": "Lessons in leadership",
+        "summary": "Three realisations: no one else will fix it, output beats hard work, and his parents' example of pushing through.",
+        "first_segment": 20,
+        "last_segment": 23
+      },
+      {
+        "title": "Operation Gumby",
+        "summary": "Courtney joins to reorganise operations, and Operation Firestorm focuses on denim. The four-part Operation Gumby plan is laid out.",
+        "first_segment": 23,
+        "last_segment": 28
+      },
+      {
+        "title": "Resolution and next steps",
+        "summary": "Lab results prove two yarn treatments were skipped, no refund ever came, and Japanese spinners re-treat the yarn. Billy Goats and a new Buckwild beanie are announced, ending with launch reactions.",
+        "first_segment": 28,
+        "last_segment": 32
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hello, I tried to make this sweater",
+        "last_segment": 0,
+        "ends_with": "subject of all the hooting and hollering.",
+        "note": "Cold-open hook showing the email thread, lawyers and sweater."
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "I was getting all cozy-wozy right here",
+        "last_segment": 2,
+        "ends_with": "It's very confusing. Something like that.",
+        "note": "Joke about watching an Arne and Carlos knitting show when the angry email arrived."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 4,
+        "starts_with": "This video is sponsored by Unbound Merino.",
+        "last_segment": 7,
+        "ends_with": "You're really using up all your airtime.",
+        "note": "Sponsor read for Unbound Merino wool clothing."
+      },
+      {
+        "role": "aside",
+        "first_segment": 21,
+        "starts_with": "My dad's dream was to be a fisherman.",
+        "last_segment": 22,
+        "ends_with": "die on certain days while being in New York.",
+        "note": "Personal story about his parents' work ethic and his own 20s."
+      },
+      {
+        "role": "aside",
+        "first_segment": 28,
+        "starts_with": "Did we measure from collar to wrist?",
+        "last_segment": 28,
+        "ends_with": "That's like shoulder to",
+        "note": "Behind-the-scenes measuring clip."
+      },
+      {
+        "role": "outro",
+        "first_segment": 31,
+        "starts_with": "Okay, here we go. One minute.",
+        "last_segment": 31,
+        "ends_with": "Oh, man. You guys are calm.",
+        "note": "Launch countdown clip interjected."
+      },
+      {
+        "role": "outro",
+        "first_segment": 32,
+        "starts_with": "Okay. 391 people.",
+        "last_segment": 32,
+        "ends_with": "number is that number is 800 people on",
+        "note": "Live reaction to a product launch and belt sales."
+      }
+    ],
+    "topics": [
+      "US clothing manufacturing",
+      "textile supply chain risk",
+      "wool yarn spinning and knitting defects",
+      "yarn treatments",
+      "manufacturer deposits and cash flow",
+      "government support for textile industries",
+      "trade protection history",
+      "Berry Amendment",
+      "running fabrics vs make-to-order",
+      "boom and bust ordering",
+      "small business lessons",
+      "Operation Gumby strategy",
+      "merino wool clothing"
+    ],
+    "entity_ids": [
+      "iron-snail:e:billy-goat-sweater",
+      "iron-snail:e:mammoth-jacket",
+      "iron-snail:e:buckwild-beanie",
+      "iron-snail:e:iron-snail-denim",
+      "iron-snail:e:iron-snail-belts",
+      "iron-snail:e:iron-snail-russell-moccasin-collaboration-boot",
+      "iron-snail:e:russell-moccasin",
+      "iron-snail:e:horween",
+      "iron-snail:e:unbound-merino",
+      "iron-snail:e:unbound-merino-t-shirt",
+      "iron-snail:e:unbound-merino-sweater",
+      "iron-snail:e:unbound-merino-turtleneck",
+      "iron-snail:e:unbound-merino-long-sleeve-shirt",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:us-military-sateen",
+      "iron-snail:e:imogene-willie",
+      "iron-snail:e:origin",
+      "iron-snail:e:mr-buck-wild",
+      "iron-snail:e:taylor",
+      "iron-snail:e:courtney",
+      "iron-snail:e:aaron",
+      "iron-snail:e:arne-and-carlos",
+      "iron-snail:e:lusekofte",
+      "iron-snail:e:ncsu-wilson-college-of-textiles",
+      "iron-snail:e:third-party-testing-lab",
+      "iron-snail:e:japanese-textile-mill-website",
+      "iron-snail:e:berry-amendment",
+      "iron-snail:e:running-fabric",
+      "iron-snail:e:yarn-treatments",
+      "iron-snail:e:boom-and-bust-cycle",
+      "iron-snail:e:operation-gumby",
+      "iron-snail:e:operation-firestorm",
+      "iron-snail:e:university-denim",
+      "iron-snail:e:the-hub"
+    ],
+    "categories": [
+      "knitwear",
+      "jackets",
+      "denim",
+      "boots",
+      "accessories",
+      "t-shirts"
+    ],
+    "answers_questions": [
+      "What happened with the Billy Goat sweater and why was it delayed?",
+      "Why is it so hard for The Iron Snail to manufacture clothes in the USA?",
+      "What was wrong with the yarn for the Iron Snail sweater?",
+      "Did Michael ever get a refund from the spinner?",
+      "Why is the Mammoth jacket taking so long?",
+      "What is Operation Gumby?",
+      "Is The Iron Snail moving production overseas?",
+      "What is University Denim?",
+      "Why are Japanese and Italian textile mills ahead of the US?",
+      "What is the Berry Amendment and how does it affect US clothing makers?",
+      "Who is Courtney at The Iron Snail?",
+      "What is the Buckwild beanie?",
+      "Is there an Iron Snail x Russell Moccasin boot coming?",
+      "How do deposits and running fabrics work when a brand makes clothes?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "The Iron Snail's earlier full video on wool t-shirts"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:billy-goat-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Billy Goat sweater",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Billy Goat",
+        "Billy Goats",
+        "billing go",
+        "billy goat",
+        "this sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mammoth-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mammoth Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mammoth",
+        "mammoth",
+        "mammoth V2",
+        "mammoths",
+        "primordial mammoth",
+        "wool jackets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buckwild-beanie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Buckwild beanie",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-snail-denim",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Iron Snail denim",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "denim"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-snail-belts",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Iron Snail belts",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "the belts"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-snail-russell-moccasin-collaboration-boot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Iron Snail Russell Moccasin collaboration boot",
+      "brand": "Russell Moccasin",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Iron Snail Russell Moccasin collaboration"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:russell-moccasin",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Russell Moccasin",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Russell moccasin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:horween",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Horween",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Horn",
+        "horine",
+        "horween",
+        "horwin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Unbound Merino",
+      "brand": null,
+      "model": null,
+      "category": "underwear",
+      "aliases": [
+        "Unbound",
+        "Unbound merino"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Unbound Merino t-shirt",
+      "brand": "Unbound Merino",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "100% merino wool t-shirt",
+        "A t-shirt from Unbound Merino",
+        "Unbound merino shirt",
+        "t-shirts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Unbound Merino sweater",
+      "brand": "Unbound Merino",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Unbound gray sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino-turtleneck",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Unbound Merino turtleneck",
+      "brand": "Unbound Merino",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "thin Unbound turtleneck"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino-long-sleeve-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Unbound Merino long-sleeve shirt",
+      "brand": "Unbound Merino",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "long-sleeve shirts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "Woolen",
+        "merino",
+        "sheep's wool",
+        "super fine merino",
+        "whe coat",
+        "wool",
+        "wool jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:us-military-sateen",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "US military sateen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:imogene-willie",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Imogene + Willie",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Imaging and Willie",
+        "Imogene and Willie",
+        "imag and Willie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:origin",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Origin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mr-buck-wild",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Mr. Buck Wild",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr. Buckwild"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:courtney",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Courtney",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:aaron",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Aaron",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arne-and-carlos",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Arne and Carlos",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lusekofte",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Lusekofte",
+      "brand": null,
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Luc",
+        "Luc sweater",
+        "Lucy Norwegian sweater",
+        "lice sweater",
+        "luc"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ncsu-wilson-college-of-textiles",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "NCSU Wilson College of Textiles",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "NCSU's Wilson State College of Textiles"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:third-party-testing-lab",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "third-party testing lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "testing center"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:japanese-textile-mill-website",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Japanese textile mill website",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "this website that just represents a ton of Japanese textile mills"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:berry-amendment",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Berry Amendment",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:running-fabric",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "running fabric",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "running fabrics"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:yarn-treatments",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "yarn treatments",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "those two tiny steps",
+        "two treatments"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:boom-and-bust-cycle",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "boom and bust cycle",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "boom and bust",
+        "boom, bust"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:operation-gumby",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Operation Gumby",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:operation-firestorm",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Operation Firestorm",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:university-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "University Denim",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-hub",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "the hub",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "b6a6e8cb6c3e1fd1"
+}

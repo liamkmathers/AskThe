@@ -1,0 +1,243 @@
+{
+  "label": "q22-fix--no-profiles",
+  "created_at": "2026-10-30T15:36:16+00:00",
+  "creator": "iron-snail",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-sonnet-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2,
+      "named_per_video": 2,
+      "named_total": 8,
+      "require_profiles": true,
+      "use_profiles": false
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 1,
+      "passed_checks": 1,
+      "coverage_right": 1,
+      "coverage_exact": 1,
+      "citations_hold": 1,
+      "personal_life": 0,
+      "cost_usd": 0.0587,
+      "mean_context_words": 5657,
+      "expected_sources_read": 1.0,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "q22",
+      "question": "Would you recommend this [Barbour Bedale] or the flint and tinder for someone who would use it like a rain jacket but also a windbreaker and a spring light jacket?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "changed_mind": false,
+          "answer": "He doesn't directly compare the two, but applying what he says, the Barbour Bedale looks like the better fit for a rain-first jacket that also doubles as a light spring layer, with the Flint and Tinder Waxed Trucker a solid, easier alternative. This is my read of his points, not a verdict from him.\n\n**Barbour Bedale**\n- In his 2025 ranking he calls Barbour's 6 oz silk oil \"the lightest weight fabric we're talking about today.\" He says you can toss on a Barbour in any season and be comfortable [1].\n- It has rain-specific details. He points to storm cuffs, \"really helpful in inclement weather\" [2], and he also likes the throat latch. He strongly suggests buying the snap-on hood [3].\n- Rain performance depends on upkeep. A freshly waxed one didn't leak in his shower test, and he calls them \"very very very waterresistant when they are properly treated\" [4]. As the patina develops and wax wears off, it becomes less water resistant [5].\n- On wind, he credits the tighter-weave thornproof cotton with \"added wind resistance and added water resistance\" [6]. He hasn't said how the silk oil version does against wind.\n\n**Flint and Tinder Waxed Trucker**\n- He says it's for everyone. It's \"not crazy lightweight, but it is a lighter weight, so it's comfortable\" [7].\n- It's lined, so you don't get wax on your skin. At $300 for a lined, US-made wax jacket, he finds it \"so hard to not recommend to people\" [8].\n- That video was sponsored by Huckberry. He says he'd praised this jacket many times before the sponsorship [9].\n- He hasn't said how it does in heavy rain or wind.\n\n**Bottom line:** For rain plus a light spring layer, his comments lean toward the Bedale, as long as you get the hood and keep the wax up. If you want a lined, easy-wearing all-rounder, the Flint and Tinder is the one he finds hardest not to recommend. He hasn't tested the two against each other for wind or rain.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0035"
+              ],
+              "quote": "you could toss on your Barber and be super comfortable"
+            },
+            {
+              "n": 2,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0036"
+              ],
+              "quote": "You have storm cuffs which is really helpful in inclement weather."
+            },
+            {
+              "n": 3,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0008"
+              ],
+              "quote": "which I highly suggest you get"
+            },
+            {
+              "n": 4,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0012"
+              ],
+              "quote": "they are very very very waterresistant when they are properly treated"
+            },
+            {
+              "n": 5,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0011"
+              ],
+              "quote": "so the jacket is not as water resistant as normal"
+            },
+            {
+              "n": 6,
+              "video": "0ZLO5gHDneY",
+              "title": "The Complete Barbour Waxed Jacket Guide. (+ Bedale waterproof test)",
+              "published": "2021-10-18",
+              "segments": [
+                "iron-snail:0ZLO5gHDneY:s0007"
+              ],
+              "quote": "added wind resistance and added water resistance"
+            },
+            {
+              "n": 7,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0032"
+              ],
+              "quote": "It's not crazy lightweight, but it is a lighter weight, so it's comfortable."
+            },
+            {
+              "n": 8,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0033"
+              ],
+              "quote": "That's why this jacket is so hard to not recommend to people."
+            },
+            {
+              "n": 9,
+              "video": "y3giKIuJjDk",
+              "title": "The Internet's Favorite Waxed Jackets, Ranked.",
+              "published": "2025-05-13",
+              "segments": [
+                "iron-snail:y3giKIuJjDk:s0031"
+              ],
+              "quote": "This video is sponsored by Huckberry"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "BR64w7CObU8",
+            "QjyCkMhP6HA",
+            "0ZLO5gHDneY",
+            "4cRAkEHfXKo",
+            "H8YAGOB5Xck",
+            "y3giKIuJjDk"
+          ],
+          "segments_read": [
+            "iron-snail:BR64w7CObU8:s0008",
+            "iron-snail:BR64w7CObU8:s0009",
+            "iron-snail:BR64w7CObU8:s0010",
+            "iron-snail:QjyCkMhP6HA:s0009",
+            "iron-snail:QjyCkMhP6HA:s0010",
+            "iron-snail:QjyCkMhP6HA:s0011",
+            "iron-snail:0ZLO5gHDneY:s0000",
+            "iron-snail:0ZLO5gHDneY:s0001",
+            "iron-snail:0ZLO5gHDneY:s0002",
+            "iron-snail:0ZLO5gHDneY:s0006",
+            "iron-snail:0ZLO5gHDneY:s0007",
+            "iron-snail:0ZLO5gHDneY:s0008",
+            "iron-snail:0ZLO5gHDneY:s0009",
+            "iron-snail:0ZLO5gHDneY:s0010",
+            "iron-snail:0ZLO5gHDneY:s0011",
+            "iron-snail:0ZLO5gHDneY:s0012",
+            "iron-snail:0ZLO5gHDneY:s0013",
+            "iron-snail:4cRAkEHfXKo:s0001",
+            "iron-snail:4cRAkEHfXKo:s0002",
+            "iron-snail:4cRAkEHfXKo:s0003",
+            "iron-snail:H8YAGOB5Xck:s0004",
+            "iron-snail:H8YAGOB5Xck:s0005",
+            "iron-snail:H8YAGOB5Xck:s0006",
+            "iron-snail:H8YAGOB5Xck:s0007",
+            "iron-snail:y3giKIuJjDk:s0030",
+            "iron-snail:y3giKIuJjDk:s0031",
+            "iron-snail:y3giKIuJjDk:s0032",
+            "iron-snail:y3giKIuJjDk:s0033",
+            "iron-snail:y3giKIuJjDk:s0034",
+            "iron-snail:y3giKIuJjDk:s0035",
+            "iron-snail:y3giKIuJjDk:s0036"
+          ],
+          "context_words": 5657,
+          "queries": [
+            "Would you recommend this [Barbour Bedale] or the flint and tinder for someone who would use it like a rain jacket but also a windbreaker and a spring light jacket?",
+            "Barbour Bedale review",
+            "Flint and Tinder jacket review",
+            "waxed cotton jacket rain windbreaker",
+            "Flint and Tinder waterproof jacket spring",
+            "Barbour Bedale wind rain warmth",
+            "lightweight jacket for rain and wind",
+            "Barbour Bedale",
+            "Flint and Tinder"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 20097,
+              "output": 796,
+              "cache_read": 1717,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 14995,
+              "output": 2593,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.05874567000000001,
+          "seconds": 23.8,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Bedale | Barbour": true,
+              "Flint and Tinder | Flint & Tinder": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 2,
+            "sources_read": [
+              "0ZLO5gHDneY",
+              "y3giKIuJjDk"
+            ],
+            "sources_cited": [
+              "0ZLO5gHDneY",
+              "y3giKIuJjDk"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}

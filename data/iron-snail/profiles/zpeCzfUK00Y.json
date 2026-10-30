@@ -1,0 +1,794 @@
+{
+  "platform_id": "zpeCzfUK00Y",
+  "profile": {
+    "video_id": "iron-snail:zpeCzfUK00Y",
+    "purpose": "Explains what actually makes a sweatshirt high quality. Standard rules such as 'ring-spun good, open-end bad' are tested against well-loved sweatshirts across six concepts, illustrated with specific sweatshirts from budget to Japanese loopwheel.",
+    "video_type": "explainer",
+    "thesis": "Yarn type alone does not determine sweatshirt quality. Density, weight, knitting tension, construction and hand feel all matter. The highest-quality sweatshirt is the one that meets your own priorities rather than a generic quality rubric.",
+    "key_takeaways": [
+      "Ring-spun yarn is traditionally considered higher quality, but some of the most highly rated sweatshirts, including House of Blanks and Camber, use open-end yarn.",
+      "Amit Dhaka, CEO of Rupa Knitting Mills, told the creator that density, weight, closeness of knit and knitting tension determine quality, not just the yarn.",
+      "Polyester shows pills more because its strong fibers anchor the pills instead of breaking off. Cotton fibers break away, so cotton may wear away less visibly.",
+      "Density is key for durability and pill resistance, but too much density makes a fabric stiff and board-like.",
+      "The 1960s and early 2000s Champion Reverse Weave sweatshirts are compared with the modern version, and the J.Crew Heritage Fleece is suggested for the classic heavy feel.",
+      "Two-end fleece is lighter and stretchier. Three-end fleece adds a tie-in yarn, which allows more weight, structure, loft and design choice.",
+      "Open-end yarn gives a rougher hand that many people like and associate with durability, which is why it is common in workwear.",
+      "Camber is heavily open-end and shrinks about 9% in width.",
+      "Premium sweatshirts covered include Freenote Cloth (enzyme washed, tight spandex cuffs), Merz b. Schwanen and the 3Sixteen Ultraweight (thick yarns knit not overly dense).",
+      "The 'end game' Japanese sweatshirts use loopwheel or Azuma machines, bias-cut collars, indigo dye and re-added short-staple fibers to emulate vintage pieces."
+    ],
+    "outline": [
+      {
+        "title": "The problem: ring-spun vs open-end yarn",
+        "summary": "Sets up the puzzle: top-rated sweatshirts use open-end yarn, which a quality rubric would score badly. Explains ring-spun versus open-end/rotor yarn and the creator's call with Amit Dhaka of Rupa Knitting Mills, maker for House of Blanks.",
+        "first_segment": 0,
+        "last_segment": 4
+      },
+      {
+        "title": "Concept one: polyester and pilling",
+        "summary": "Looks at the Champion Powerblend (70/30 cotton-poly) and the case for synthetics in sweatshirts. Explains how pills form and why strong polyester fibers make pills more visible than cotton does.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "Concept two: density and Champion Reverse Weave",
+        "summary": "Compares 1960s, early-2000s and modern Champion Reverse Weave to show the importance of density. After the ad break, recommends the J.Crew Heritage Fleece for the classic heavy reverse weave feel.",
+        "first_segment": 7,
+        "last_segment": 14
+      },
+      {
+        "title": "Concept three: two-end vs three-end fleece",
+        "summary": "Explains outer and inner yarns in two-end fleece, then the tie-in yarn in three-end fleece and its benefits: weight, structure, loft and design options.",
+        "first_segment": 14,
+        "last_segment": 17
+      },
+      {
+        "title": "Concept four: open-end yarn and hand feel",
+        "summary": "Uses the House of Blanks 400 GSM quarter-zip and Camber to show why the rough, dry hand of open-end yarn is appealing and durable when knit properly. Notes Camber's large shrinkage.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "Concept five: what makes a fancy sweatshirt",
+        "summary": "Covers premium pieces: the Freenote Cloth Deck sweatshirt (enzyme wash, spandex cuffs), Merz b. Schwanen (thick yarn, drape) and the cropped, heavy 3Sixteen Ultraweight hoodie.",
+        "first_segment": 19,
+        "last_segment": 24
+      },
+      {
+        "title": "Concept six: the end game, vintage-machine sweatshirts",
+        "summary": "Covers Japanese sweatshirts: the Wonder Looper 825 GSM fox fiber afterhood knit on Azuma machines, the Pherrow's bias-cut collar, and the Dubble Works loopwheel indigo sweatshirt with re-added short-staple fibers.",
+        "first_segment": 24,
+        "last_segment": 28
+      },
+      {
+        "title": "Conclusion",
+        "summary": "Concludes that the highest-quality sweatshirt is the one that checks your own boxes.",
+        "first_segment": 28,
+        "last_segment": 28
+      }
+    ],
+    "passages": [
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "Also, hello again.",
+        "last_segment": 2,
+        "ends_with": "You might even see me again shortly.",
+        "note": "Editing-Michael interjection joke"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "This is also editing Michael,",
+        "last_segment": 4,
+        "ends_with": "editing Michael, I'm still here.",
+        "note": "Another editing-Michael interjection"
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "My parents got me a reverse weave",
+        "last_segment": 10,
+        "ends_with": "16 hours before going home.",
+        "note": "Neighbour's cat Maverick sleeping on a sweatshirt"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 10,
+        "starts_with": "But first, a brief ad.",
+        "last_segment": 14,
+        "ends_with": "get 50% off your first year.",
+        "note": "Sponsor read for Monarch budgeting app"
+      },
+      {
+        "role": "outro",
+        "first_segment": 28,
+        "starts_with": "And yeah, that's what I found",
+        "last_segment": 28,
+        "ends_with": "That's my theory, at least.",
+        "note": "Closing wrap-up"
+      }
+    ],
+    "topics": [
+      "sweatshirt quality",
+      "ring-spun vs open-end yarn",
+      "pilling",
+      "polyester blends",
+      "knit density",
+      "two-end vs three-end fleece",
+      "tie-in yarn",
+      "hand feel",
+      "shrinkage",
+      "enzyme wash",
+      "loopwheel knitting",
+      "Azuma knitting machines",
+      "afterhood",
+      "bias-cut collar",
+      "vintage Champion Reverse Weave",
+      "heavyweight sweatshirts"
+    ],
+    "entity_ids": [
+      "iron-snail:e:champion",
+      "iron-snail:e:champion-powerblend",
+      "iron-snail:e:champion-reverse-weave",
+      "iron-snail:e:j-crew",
+      "iron-snail:e:j-crew-heritage-fleece-sweatshirt",
+      "iron-snail:e:lady-white-co",
+      "iron-snail:e:house-of-blanks",
+      "iron-snail:e:house-of-blanks-quarter-zip-sweatshirt",
+      "iron-snail:e:amit-dhaka",
+      "iron-snail:e:rupa-knitting-mills",
+      "iron-snail:e:camber",
+      "iron-snail:e:freenote-cloth-deck-sweatshirt",
+      "iron-snail:e:merz-b-schwanen",
+      "iron-snail:e:3sixteen-ultraweight-hoodie",
+      "iron-snail:e:wonder-looper-els-t-shirt",
+      "iron-snail:e:wonder-looper-azuma-knit-afterhood",
+      "iron-snail:e:pherrow-s",
+      "iron-snail:e:dubble-works",
+      "iron-snail:e:monarch",
+      "iron-snail:e:taylor",
+      "iron-snail:e:ring-spun-yarn",
+      "iron-snail:e:open-end-yarn",
+      "iron-snail:e:polyester",
+      "iron-snail:e:cotton",
+      "iron-snail:e:fox-fiber-cotton",
+      "iron-snail:e:spandex",
+      "iron-snail:e:pilling",
+      "iron-snail:e:knit-density",
+      "iron-snail:e:two-end-fleece",
+      "iron-snail:e:three-end-fleece",
+      "iron-snail:e:tie-in-yarn",
+      "iron-snail:e:enzyme-wash",
+      "iron-snail:e:loopwheel-knitting",
+      "iron-snail:e:azuma-knitting-machine",
+      "iron-snail:e:afterhood",
+      "iron-snail:e:bias-cut-collar",
+      "iron-snail:e:cross-grain-cutting",
+      "iron-snail:e:indigo-dye"
+    ],
+    "categories": [
+      "sweatshirts"
+    ],
+    "answers_questions": [
+      "Is open-end yarn actually worse than ring-spun for sweatshirts?",
+      "Why do polyester blend sweatshirts like Champion Powerblend pill so much?",
+      "Is modern Champion Reverse Weave as good as the vintage ones?",
+      "What's a good alternative to Champion Reverse Weave?",
+      "What's the difference between two-end and three-end fleece?",
+      "Why do House of Blanks and Camber use open-end yarn?",
+      "How much does a Camber hoodie shrink?",
+      "Is the Freenote Cloth Deck sweatshirt worth it?",
+      "What makes Japanese loopwheel sweatshirts special?",
+      "What is an afterhood?",
+      "What is a bias-cut collar on a sweatshirt?",
+      "Does enzyme washing weaken a sweatshirt?",
+      "How does knit density affect sweatshirt durability?",
+      "What's the best heavyweight sweatshirt?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:zpeCzfUK00Y:s0001",
+        "note": "Corrects the claim in segment 0 that ring spinning is 'one of the oldest spinning techniques ever' to 'one of the oldest modern industrial spinning techniques'."
+      },
+      {
+        "segment_id": "iron-snail:zpeCzfUK00Y:s0024",
+        "note": "Corrects the Wonder Looper sweatshirt's weight from '864' to 825 GSM."
+      }
+    ],
+    "related_videos": [
+      "The creator's previous sweatshirt video from about two years earlier (mentioned in the description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:champion",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Champion",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "champion"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:champion-powerblend",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Champion Powerblend",
+      "brand": "Champion",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:champion-reverse-weave",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Champion Reverse Weave",
+      "brand": "Champion",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "champion reverse weave",
+        "modern reverse weave",
+        "reverse weave"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:j-crew",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "J.Crew",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "J Crew",
+        "J crew",
+        "J. Crew",
+        "Jay Krue"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:j-crew-heritage-fleece-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "J.Crew Heritage Fleece Sweatshirt",
+      "brand": "J.Crew",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "J. Crew"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lady-white-co",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Lady White Co.",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Lady White",
+        "Lady White's",
+        "lady white",
+        "lady white company"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:house-of-blanks",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "House of Blanks",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:house-of-blanks-quarter-zip-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "House of Blanks Quarter Zip Sweatshirt",
+      "brand": "House of Blanks",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "quarter zip from House of Blanks",
+        "quarter-zip",
+        "quarter-zip fleece 400 GSM by House of Blanks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:amit-dhaka",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Amit Dhaka",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rupa-knitting-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rupa Knitting Mills",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rue Porter Knitting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:camber",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Camber",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "King Camber",
+        "camber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:freenote-cloth-deck-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Freenote Cloth Deck Sweatshirt",
+      "brand": "Freenote Cloth",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Free Note Cloth 10 sweatshirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merz-b-schwanen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Merz b. Schwanen",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "B",
+        "MS bee",
+        "MSB",
+        "Merz b.",
+        "msby"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:3sixteen-ultraweight-hoodie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "3Sixteen Ultraweight Hoodie",
+      "brand": "3Sixteen",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "316 ultra weight hoodie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wonder-looper-els-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wonder Looper ELS t-shirt",
+      "brand": "Wonder Looper",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Wonder Looper",
+        "Wonderlooper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wonder-looper-azuma-knit-afterhood",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wonder Looper Azuma Knit Afterhood",
+      "brand": "Wonder Looper",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "825 GSM fox fiber sweatshirt",
+        "after hood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pherrow-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pherrow's",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Pharaohs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dubble-works",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dubble Works",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Double Works",
+        "double works"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:monarch",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Monarch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ring-spun-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "ring-spun yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ring spun",
+        "ring-spun",
+        "ringspun"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:open-end-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "open-end yarn",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "carded open-ended yarn",
+        "open-end",
+        "open-ended Yarns",
+        "open-ended yards",
+        "open-ended yarn",
+        "open-ended yarns",
+        "rotor-spun yarn"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton",
+        "short staple cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fox-fiber-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "fox fiber cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fox fiber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:spandex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "spandex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pilling",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "pilling",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pile",
+        "pill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:knit-density",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "knit density",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "density"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:two-end-fleece",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "two-end fleece",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:three-end-fleece",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "three-end fleece",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "three-end yarn"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tie-in-yarn",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "tie-in yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:enzyme-wash",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "enzyme wash",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "enzyme dye",
+        "enzyme washed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loopwheel-knitting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loopwheel knitting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "loop wheel",
+        "loopwheel machines"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:azuma-knitting-machine",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Azuma knitting machine",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Azuma knitting machines"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:afterhood",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "afterhood",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "after hood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bias-cut-collar",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "bias-cut collar",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bias cut collar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cross-grain-cutting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "cross grain cutting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cutting on the cross grain"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:indigo-dye",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "indigo dye",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dyed in indigo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "46c1ca3558228d9a"
+}

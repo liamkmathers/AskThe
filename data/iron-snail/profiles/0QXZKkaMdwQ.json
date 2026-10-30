@@ -1,0 +1,913 @@
+{
+  "platform_id": "0QXZKkaMdwQ",
+  "profile": {
+    "video_id": "iron-snail:0QXZKkaMdwQ",
+    "purpose": "An essay-style look at Ralph Lauren the man and the brand. It covers his real biography, how his polo branding and marketing worked, and his habit of presenting himself as every kind of cool American. The creator tests that idea on himself by changing how he wears clothes on camera.",
+    "video_type": "explainer",
+    "thesis": "Ralph Lauren's success comes less from the clothes than from story and image: aspirational, nostalgic, effortless-looking self-presentation. Understanding this changes how you can approach getting dressed.",
+    "key_takeaways": [
+      "Opens with a fake Ralph Lauren biography, then reveals it was made up. The real story: born Ralph Lifshitz in the Bronx, worked at Brooks Brothers, has a $600 million car collection and the Presidential Medal of Freedom.",
+      "Explains why Lauren chose polo for the logo and name: it signals wealth and aspiration, and he never played the sport.",
+      "Traces the polo shirt's history: René Lacoste's cotton mesh tennis shirt, Lauren's push to keep it in high-twist cotton in many colours, and Brooks Brothers' button-down collar as the 'original' polo shirt.",
+      "Uses a Charlie Rose interview and Lauren's Cary Grant quote to show how Lauren built a persona, much as Cary Grant reinvented himself from Archibald Alec Leach.",
+      "Ties the 1989 Iconic Flag Sweater and the optimism of the 1990s to Ralph Lauren selling the American dream of reinventing yourself.",
+      "Argues Ralph Lauren quality is hard to pin down because the brand makes its own version of everything (Levi's, L.L.Bean, Brooks Brothers, etc.).",
+      "Tells a personal story of being called 'rich kid' at a dry cleaner for wearing an Oxford cloth button-down, which illustrates how clothes shape how others judge you.",
+      "Describes Ralph Lauren as the first male fashion influencer, built on worn-in clothes and looking like you're not trying.",
+      "Shows a three-phase B-roll experiment: awkward, then dressing as if he belongs, then dressing as a character. Ends with Taylor's point that clothing is just your vibe for the day, not a costume."
+    ],
+    "outline": [
+      {
+        "title": "Skepticism and a fake biography",
+        "summary": "Michael admits he never saw anything special in Ralph Lauren but has changed his mind. He then tells an invented, fantastical Ralph Lauren biography.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "The real Ralph Lauren",
+        "summary": "Reveals the fake bio, then gives the real background: born Ralph Lifshitz in the Bronx, Brooks Brothers job, car collection, Medal of Freedom, Lauren Bush Lauren. It sets up the question of who 'Ralph' really is.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Huckberry sponsor read",
+        "summary": "Sponsor segment for Huckberry's denim, framed around designer Nick Kemp and the brand's three tiers of jeans, including Cone Mills deadstock selvedge.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Why polo, and what a polo shirt really is",
+        "summary": "Covers how Lauren took on Brooks Brothers with the aspirational polo logo and name. It follows the polo shirt from Lacoste's tennis shirt to Lauren's colourful cotton version and to Brooks Brothers' button-down collar, then reflects on story-driven modern marketing.",
+        "first_segment": 6,
+        "last_segment": 12
+      },
+      {
+        "title": "Charlie Rose interview and Cary Grant",
+        "summary": "Michael describes being won over by Lauren in a Charlie Rose interview. He explains the 'I wish I was Cary Grant' quote and Cary Grant's own reinvention from Archibald Alec Leach.",
+        "first_segment": 13,
+        "last_segment": 18
+      },
+      {
+        "title": "The Iconic Flag Sweater and the American dream",
+        "summary": "Uses the 1989 Iconic Flag Sweater, Lauren's Star-Spangled Banner donation and 1990s optimism to explain the brand's appeal. Lauren's world draws on old movies and the idea of reinventing yourself.",
+        "first_segment": 19,
+        "last_segment": 24
+      },
+      {
+        "title": "Quality, costumes and the dry cleaner",
+        "summary": "Explains why Ralph Lauren quality is hard to judge, since the brand does everything. Michael then tells how wearing an Oxford cloth button-down got him called a rich kid, and how Lauren would use that judgement instead of fearing it.",
+        "first_segment": 25,
+        "last_segment": 30
+      },
+      {
+        "title": "The first fashion influencer: looking like you're not trying",
+        "summary": "Argues Lauren made English tailoring with jeans and pre-worn pieces like leather flight jackets feel natural. It calls him the first male fashion influencer, built on posed effortlessness like that of classic actors.",
+        "first_segment": 31,
+        "last_segment": 35
+      },
+      {
+        "title": "Dressing as a character, and Taylor's twist",
+        "summary": "Michael dresses as imagined characters and finally wears a thrifted wool tie. Taylor then reframes clothing as simply your vibe rather than a costume, and he concludes that how it began doesn't matter.",
+        "first_segment": 35,
+        "last_segment": 40
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Now, I also did not see",
+        "last_segment": 1,
+        "ends_with": "with his bio because it's insane.",
+        "note": "Cold open: Michael admits past skepticism about Ralph Lauren and teases a change of mind."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "Ralph Lauren was born in 1947",
+        "last_segment": 2,
+        "ends_with": "made all of that up. None of that is true.",
+        "note": "Joke fake biography of Ralph Lauren, revealed as made up."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 4,
+        "starts_with": "This video is sponsored by Huckberry.",
+        "last_segment": 6,
+        "ends_with": "You are the best. There he goes.",
+        "note": "Sponsor read for Huckberry denim, centred on designer Nick Kemp."
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "It's very Sorry, it's much hotter",
+        "last_segment": 13,
+        "ends_with": "Bit warm outside, isn't it?",
+        "note": "Staged 'too warm' bit, later revealed as part of the look-like-you're-not-trying experiment."
+      },
+      {
+        "role": "aside",
+        "first_segment": 26,
+        "starts_with": "But first, I was called a",
+        "last_segment": 29,
+        "ends_with": "Oxford cloth button-down and burn it.",
+        "note": "Personal story: called 'rich kid' at a Portland, Maine dry cleaner while dropping off a suit for a friend's wedding."
+      }
+    ],
+    "topics": [
+      "Ralph Lauren biography",
+      "Ralph Lauren marketing and branding",
+      "polo logo and name origin",
+      "history of the polo shirt",
+      "Lacoste tennis shirt",
+      "Brooks Brothers button-down collar",
+      "Cary Grant reinvention",
+      "Iconic Flag Sweater",
+      "1990s optimism and the American dream",
+      "Ralph Lauren quality",
+      "Oxford cloth button-down",
+      "how clothes affect how others judge you",
+      "effortless style and looking like you're not trying",
+      "pre-worn and distressed clothing",
+      "dressing as a character",
+      "Huckberry denim"
+    ],
+    "entity_ids": [
+      "iron-snail:e:ralph-lauren",
+      "iron-snail:e:ralph-lauren-iconic-flag-sweater",
+      "iron-snail:e:ralph-lauren-iconic-classic-fit-mesh-polo",
+      "iron-snail:e:ralph-lauren-iconic-oxford-shirt",
+      "iron-snail:e:ralph-lauren-leather-flight-jacket",
+      "iron-snail:e:ralph-lauren-heritage-straight-distressed-jean",
+      "iron-snail:e:lauren-by-ralph-lauren",
+      "iron-snail:e:schott-perfecto-jacket",
+      "iron-snail:e:brooks-brothers",
+      "iron-snail:e:lacoste",
+      "iron-snail:e:rene-lacoste",
+      "iron-snail:e:l-123-1015",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:barbour",
+      "iron-snail:e:huckberry",
+      "iron-snail:e:nick-kemp",
+      "iron-snail:e:huckberry-ultimate-off-duty-short",
+      "iron-snail:e:huckberry-stretch-selvedge-denim",
+      "iron-snail:e:huckberry-american-reserve-collection",
+      "iron-snail:e:huckberry-japanese-reserve-collection",
+      "iron-snail:e:cone-mills",
+      "iron-snail:e:cone-mills-1968-selvedge-denim",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:high-twist-cotton-mesh",
+      "iron-snail:e:button-down-collar",
+      "iron-snail:e:thrifted-wool-tie",
+      "iron-snail:e:sport-coat",
+      "iron-snail:e:charlie-rose",
+      "iron-snail:e:cary-grant",
+      "iron-snail:e:audrey-hepburn",
+      "iron-snail:e:lauren-bush-lauren",
+      "iron-snail:e:martha-stewart",
+      "iron-snail:e:paul-newman",
+      "iron-snail:e:james-dean",
+      "iron-snail:e:steve-mcqueen",
+      "iron-snail:e:marlon-brando",
+      "iron-snail:e:ryan-gosling",
+      "iron-snail:e:taylor",
+      "iron-snail:e:great-garrison-flag",
+      "iron-snail:e:the-end-of-history",
+      "iron-snail:e:savers"
+    ],
+    "categories": [
+      "knitwear",
+      "shirts",
+      "jackets",
+      "denim",
+      "accessories"
+    ],
+    "answers_questions": [
+      "Who is Ralph Lauren really and what's his background?",
+      "Why did Ralph Lauren pick polo for his logo if he didn't play polo?",
+      "Who actually invented the polo shirt, Lacoste or Ralph Lauren?",
+      "Why is a button-down collar shirt technically the original polo shirt?",
+      "What's the story behind the Ralph Lauren Iconic Flag Sweater?",
+      "Is Ralph Lauren good quality?",
+      "Why does Ralph Lauren sell pre-worn and distressed stuff like leather flight jackets?",
+      "How do I stop feeling like I'm wearing a costume in an Oxford shirt or sport coat?",
+      "What's the Cary Grant quote Ralph Lauren talks about in the Charlie Rose interview?",
+      "How do fashion influencers make outfits look effortless?",
+      "What's Huckberry's denim lineup and the Cone Mills deadstock jeans?",
+      "What happened at the dry cleaner when Michael wore an OCBD?"
+    ],
+    "uses": [
+      "background_history",
+      "style",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:0QXZKkaMdwQ:s0002",
+        "note": "Reveals that the Ralph Lauren biography in segment 1 (born in France, Colorado ranch, Wall Street banker, etc.) was made up. He was actually born Ralph Lifshitz in the Bronx and worked at Brooks Brothers."
+      },
+      {
+        "segment_id": "iron-snail:0QXZKkaMdwQ:s0003",
+        "note": "Clarifies which earlier claims are true: the $600 million car collection, the Presidential Medal of Freedom, and his son marrying Lauren Bush."
+      },
+      {
+        "segment_id": "iron-snail:0QXZKkaMdwQ:s0011",
+        "note": "After calling Ralph Lauren's and Lacoste's knit shirts polo shirts, says neither is technically the polo shirt. The original is Brooks Brothers' button-down collar shirt, based on polo players' collars."
+      },
+      {
+        "segment_id": "iron-snail:0QXZKkaMdwQ:s0039",
+        "note": "Revises his earlier framing that Ralph Lauren is pretending or wearing a costume. Following Taylor, clothing is just your vibe for the day, and he admits he was boxing things in like the dry cleaner."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:ralph-lauren",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Ralph Lauren",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lauren",
+        "Mr. R. Lauren"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Ralph Lauren",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lauren",
+        "Mr. R. Lauren",
+        "Ralph",
+        "Ralph Lifshitz"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren-iconic-flag-sweater",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ralph Lauren Iconic Flag Sweater",
+      "brand": "Ralph Lauren",
+      "model": null,
+      "category": "knitwear",
+      "aliases": [
+        "Ralph Lauren iconic flag sweater",
+        "iconic flag sweater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren-iconic-classic-fit-mesh-polo",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ralph Lauren Iconic Classic Fit Mesh Polo",
+      "brand": "Ralph Lauren",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "Polo shirt",
+        "polo shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren-iconic-oxford-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ralph Lauren Iconic Oxford Shirt",
+      "brand": "Ralph Lauren",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "Oxford cloth button-down"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren-leather-flight-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ralph Lauren Leather Flight Jacket",
+      "brand": "Ralph Lauren",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "cool leather jacket that you saw in a picture of a World War II fighter pilot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren-heritage-straight-distressed-jean",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ralph Lauren Heritage Straight Distressed Jean",
+      "brand": "Ralph Lauren",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "our jeans are worn in"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lauren-by-ralph-lauren",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Lauren by Ralph Lauren",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:schott-perfecto-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Schott Perfecto jacket",
+      "brand": "Schott",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:brooks-brothers",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Brooks Brothers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lacoste",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Lacoste",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rene-lacoste",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "René Lacoste",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rene Lacoste"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-123-1015",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L 123 1015",
+      "brand": "Lacoste",
+      "model": null,
+      "category": "shirts",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L Bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Barbour",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Barbara",
+        "Barber",
+        "Barbera",
+        "barber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Huckberry",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Huck Berry",
+        "hockberry",
+        "huckberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nick-kemp",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Nick Kemp",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Nick"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry-ultimate-off-duty-short",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Huckberry Ultimate Off-Duty Short",
+      "brand": "Huckberry",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ultimate off-duty short"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry-stretch-selvedge-denim",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Huckberry stretch selvedge denim",
+      "brand": "Huckberry",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "stretch selvage denim offering"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry-american-reserve-collection",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Huckberry American Reserve Collection",
+      "brand": "Huckberry",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "American Reserve Collection"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry-japanese-reserve-collection",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Huckberry Japanese Reserve Collection",
+      "brand": "Huckberry",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Japanese Reserve Collection"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cone-mills",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Cone Mills",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "cone Mills",
+        "cone mills"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cone-mills-1968-selvedge-denim",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Cone Mills 1968 selvedge denim",
+      "brand": "Cone Mills",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Cone Mills 1968 salvage denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "Selvage",
+        "non Sal",
+        "salvage",
+        "salvage line",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:high-twist-cotton-mesh",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "high twist cotton mesh",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "high twist cotton",
+        "high twist cotton mesh knit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren-iconic-classic-fit-mesh-polo",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ralph Lauren Iconic Classic Fit Mesh Polo",
+      "brand": "Ralph Lauren",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "Polo shirt",
+        "polo shirt",
+        "tennis shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:button-down-collar",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "button-down collar",
+      "brand": null,
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "added buttons to their collars"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph-lauren-iconic-oxford-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ralph Lauren Iconic Oxford Shirt",
+      "brand": "Ralph Lauren",
+      "model": null,
+      "category": "shirts",
+      "aliases": [
+        "Oxford cloth button-down",
+        "Oxford cloth button-downs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:thrifted-wool-tie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "thrifted wool tie",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "this tie that I thrifted in college at Savers",
+        "wool tie"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sport-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "sport coat",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:charlie-rose",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Charlie Rose",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cary-grant",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Cary Grant",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Archibald Alec Leach"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:audrey-hepburn",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Audrey Hepburn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lauren-bush-lauren",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Lauren Bush Lauren",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lauren Bush"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:martha-stewart",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Martha Stewart",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paul-newman",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Paul Newman",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:james-dean",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "James Dean",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:steve-mcqueen",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Steve McQueen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:marlon-brando",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Marlon Brando",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ryan-gosling",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ryan Gosling",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:great-garrison-flag",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Great Garrison Flag",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Star-Spangled Banner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-end-of-history",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "The End of History",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:savers",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Savers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "savers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "5167ea7e2786a7e2"
+}

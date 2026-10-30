@@ -231,7 +231,7 @@
     the four should be addressed or said to be missing.
 
 - id: q22
-  question: "Would you recommend this or the flint and tinder for someone who would use it like a rain jacket but also a windbreaker and a spring light jacket?"
+  question: "Would you recommend this [Barbour Bedale] or the flint and tinder for someone who would use it like a rain jacket but also a windbreaker and a spring light jacket?"
   source: https://www.youtube.com/watch?v=0ZLO5gHDneY
   type: comparison
   expected:

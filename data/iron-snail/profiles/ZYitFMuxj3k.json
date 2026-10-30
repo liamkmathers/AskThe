@@ -1,0 +1,1090 @@
+{
+  "platform_id": "ZYitFMuxj3k",
+  "profile": {
+    "video_id": "iron-snail:ZYitFMuxj3k",
+    "purpose": "Explain what Ventile cotton fabric is, where it came from, how it actually works, and how it compares with Gore-Tex. Along the way, test whether ordinary cotton can copy its water beading with a wash-in DWR treatment.",
+    "video_type": "explainer",
+    "thesis": "Ventile is a real piece of engineering and an ancestor of Gore-Tex as a waterproof-breathable fabric, but much of its reputation is myth. Its water beading comes from a DWR finish rather than the weave alone, it is far less water resistant than Gore-Tex by hydrostatic head, and almost nothing about historic Ventile, including whether it was ever untreated, can be reliably verified.",
+    "key_takeaways": [
+      "Ventile was developed by the Shirley Institute (British Cotton Industry Research Association) for pilot immersion suits after Churchill's catapult-launched fighter scheme left pilots ditching in the North Atlantic; the Mark 7 suit arrived in 1951.",
+      "Ventile is a very dense weave of long-staple, low-twist cotton (an Oxford weave). Dry gaps are about 10 microns and shrink to 2–3 microns as the cotton swells when wet.",
+      "It belongs to a family of dense cotton outerwear fabrics such as Burberry gabardine and Grenfell cloth, which relied on water-repellent finishes for their beading.",
+      "Hydrostatic head figures cited put Ventile around 500 mm at worst, with Gore-Tex at about 20,000 mm or more, roughly 22–40 times more effective.",
+      "A Canadian research paper reports single-layer Ventile immersion suits leaked badly; double-layer suits worked when well made.",
+      "Ventile's main advantage was breathability. Gore-Tex works in a similar way, with a membrane behind a DWR-coated outer layer.",
+      "A 1951 T.R. Harding paper leads Michael to propose that commercial Ventile has always been treated with a water repellent. The 'untreated vintage' flight suit he tested beaded, and turned out to be twill, likely gabardine, not Ventile's Oxford weave.",
+      "Nikwax wash-in DWR made L.L.Bean jorts, a t-shirt and a Carhartt jacket bead water right after treatment, though likely less durably than Ventile.",
+      "Reasons people like Ventile today: natural fibre, quiet, doesn't melt near embers, ages well, comfortable and breathable."
+    ],
+    "outline": [
+      {
+        "title": "Churchill, catapult fighters and the birth of Ventile",
+        "summary": "Covers the WWII problem of catapult-launched Hurricane pilots ditching in freezing water, and the Shirley Institute's development of Ventile for immersion suits. Introduces the myths around Ventile and the Well Dressed Dad blog posts.",
+        "first_segment": 0,
+        "last_segment": 5
+      },
+      {
+        "title": "Experiment setup",
+        "summary": "Michael plans to see whether cut-off L.L.Bean jeans, a t-shirt and a Carhartt jacket can be made as water resistant as Ventile, hinting at a 'secret ingredient'.",
+        "first_segment": 6,
+        "last_segment": 6
+      },
+      {
+        "title": "SeaVees sponsor read",
+        "summary": "Covers the history of SeaVees and B.F. Goodrich and the Founders Edition yacht shoe.",
+        "first_segment": 6,
+        "last_segment": 9
+      },
+      {
+        "title": "A history of waterproofing and how Ventile works",
+        "summary": "Traces waterproofing from waxed and oiled fabrics to Macintosh's rubber sandwich and bonded rubber. Explains how Ventile's dense weave swells shut when wet.",
+        "first_segment": 9,
+        "last_segment": 12
+      },
+      {
+        "title": "Dense cottons and the secret ingredient: DWR",
+        "summary": "Places Ventile among dense cotton fabrics like Burberry gabardine and Grenfell cloth. Shows that their beading comes from water-repellent finishes, which modern Ventile also has.",
+        "first_segment": 13,
+        "last_segment": 16
+      },
+      {
+        "title": "Hunting for untreated vintage Ventile and baseline tests",
+        "summary": "Michael struggles to find verifiable vintage Ventile and recounts a phone call with Ventile. He introduces Nikwax wash-in cotton waterproofer and tests the baseline water resistance of the test garments.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "Ventile vs Gore-Tex by the numbers",
+        "summary": "Explains Gore-Tex membrane pore size and hydrostatic head testing. Compares reported Ventile ratings with Gore-Tex across rain, sitting and kneeling pressures.",
+        "first_segment": 20,
+        "last_segment": 22
+      },
+      {
+        "title": "Did Ventile immersion suits actually work?",
+        "summary": "Uses a Canadian research paper to show single-layer suits leaked while double-layer suits worked. Covers Gore-Tex's counterpoint on low water-column fabrics, and argues breathability made Ventile Gore-Tex's 'dad'.",
+        "first_segment": 22,
+        "last_segment": 29
+      },
+      {
+        "title": "The beading flight suit and the 1951 Harding paper",
+        "summary": "A supposedly untreated 1950s flight suit beads water. A 1951 T.R. Harding paper suggests commercial Ventile was always treated, and the suit's twill weave suggests it was gabardine, not Ventile.",
+        "first_segment": 29,
+        "last_segment": 34
+      },
+      {
+        "title": "DWR test results and why people like Ventile",
+        "summary": "The treated Carhartt jacket, Front General Store t-shirt and jorts all bead water after the Nikwax treatment. Michael lists the reasons people still value Ventile.",
+        "first_segment": 35,
+        "last_segment": 37
+      },
+      {
+        "title": "Closing: 'a venting textile'",
+        "summary": "Michael quotes Harding's explanation of the name Ventile. He notes the military may have used a different name, complicating historical research.",
+        "first_segment": 38,
+        "last_segment": 38
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "This jacket uses the coolest World",
+        "last_segment": 0,
+        "ends_with": "looking at it to replace Gore-Tex. Holy smokes.",
+        "note": "Cold-open hook introducing Ventile and its Gore-Tex comparison"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "Okay, these are they were actually",
+        "last_segment": 6,
+        "ends_with": "my summer shorts that I wear almost never.",
+        "note": "Personal aside about Taylor cutting ill-fitting L.L.Bean jeans into shorts"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 6,
+        "starts_with": "Founders Edition. Oh boy. Fun fact,",
+        "last_segment": 9,
+        "ends_with": "More information in the description.",
+        "note": "Sponsor read for SeaVees, featuring the SeaVees x B.F. Goodrich Founders Edition yacht shoe"
+      },
+      {
+        "role": "aside",
+        "first_segment": 18,
+        "starts_with": "And this is Taylor's mushrooms.",
+        "last_segment": 19,
+        "ends_with": "Shiitake. Shiitake?",
+        "note": "Brief joke about Taylor's shiitake mushrooms"
+      },
+      {
+        "role": "outro",
+        "first_segment": 38,
+        "starts_with": "So, to quote the man that",
+        "last_segment": 38,
+        "ends_with": "look by date to find those records.",
+        "note": "Closing quote from T.R. Harding's 1951 paper on the meaning of the name Ventile"
+      }
+    ],
+    "topics": [
+      "Ventile history",
+      "Shirley Institute",
+      "WWII CAM ship pilots and immersion suits",
+      "how dense cotton weaves resist water",
+      "history of waterproof fabrics",
+      "waxed and oiled cotton",
+      "Macintosh raincoat and rubberized fabric",
+      "Burberry gabardine",
+      "Grenfell cloth",
+      "DWR finishes",
+      "hydrostatic head ratings",
+      "Ventile vs Gore-Tex",
+      "waterproof breathable fabrics",
+      "vintage military flight suits",
+      "DIY waterproofing cotton with Nikwax",
+      "fabric myths and verification"
+    ],
+    "entity_ids": [
+      "iron-snail:e:ventile",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:nylon",
+      "iron-snail:e:winston-churchill",
+      "iron-snail:e:hawker-hurricane",
+      "iron-snail:e:shirley-institute",
+      "iron-snail:e:mark-7-ventile-immersion-suit",
+      "iron-snail:e:raf-immersion-suit",
+      "iron-snail:e:well-dressed-dad",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:l-l-bean-jeans-cut-into-shorts",
+      "iron-snail:e:carhartt",
+      "iron-snail:e:carhartt-jacket",
+      "iron-snail:e:front-general-store",
+      "iron-snail:e:front-general-store-t-shirt",
+      "iron-snail:e:seavees",
+      "iron-snail:e:seavees-x-b-f-goodrich-founders-edition-yacht-shoe",
+      "iron-snail:e:seavees-hawthorne",
+      "iron-snail:e:seavees-tiburon-trekker",
+      "iron-snail:e:b-f-goodrich",
+      "iron-snail:e:uniroyal",
+      "iron-snail:e:siped-outsole",
+      "iron-snail:e:barbour",
+      "iron-snail:e:barbour-vintage-ventile-endurance-jacket",
+      "iron-snail:e:barbour-x-ben-fogle-collaboration-piece",
+      "iron-snail:e:private-white-vc",
+      "iron-snail:e:private-white-vc-ventile-harrington",
+      "iron-snail:e:frahm-ventile-thermal-field-jacket",
+      "iron-snail:e:grenfell",
+      "iron-snail:e:grenfell-cloth",
+      "iron-snail:e:grenfell-tanker-jacket",
+      "iron-snail:e:1940s-wwii-u-s-n-foul-weather-smock",
+      "iron-snail:e:gruden-s-rubberized-quarter-zip",
+      "iron-snail:e:charles-macintosh",
+      "iron-snail:e:macintosh-raincoat",
+      "iron-snail:e:burberry",
+      "iron-snail:e:gabardine",
+      "iron-snail:e:eddie-bauer",
+      "iron-snail:e:dwr-durable-water-repellent-finish",
+      "iron-snail:e:cravanette",
+      "iron-snail:e:hydrostatic-head",
+      "iron-snail:e:beadon-flight-suit",
+      "iron-snail:e:blacks-of-greenock",
+      "iron-snail:e:nikwax",
+      "iron-snail:e:nikwax-wash-in-cotton-waterproofer",
+      "iron-snail:e:t-r-harding",
+      "iron-snail:e:velon",
+      "iron-snail:e:zylon",
+      "iron-snail:e:swiss-federal-laboratories-for-materials-science-and-technology",
+      "iron-snail:e:oxford-weave",
+      "iron-snail:e:twill-weave",
+      "iron-snail:e:long-staple-cotton",
+      "iron-snail:e:waxed-and-oiled-cotton",
+      "iron-snail:e:michael-kristy",
+      "iron-snail:e:taylor"
+    ],
+    "categories": [
+      "jackets",
+      "coats",
+      "shoes",
+      "t-shirts",
+      "denim"
+    ],
+    "answers_questions": [
+      "What actually is Ventile fabric and how does it work?",
+      "Who invented Ventile and why was it made?",
+      "Is Ventile as waterproof as Gore-Tex?",
+      "What hydrostatic head rating does Ventile have compared to Gore-Tex?",
+      "Did the old Ventile immersion suits actually keep pilots alive?",
+      "Is vintage Ventile untreated, or does it have a DWR coating?",
+      "Why does water bead up on Ventile and Burberry jackets?",
+      "What's the difference between Ventile and Burberry gabardine or Grenfell cloth?",
+      "Can I make my cotton jeans or t-shirt water resistant with Nikwax?",
+      "Why do people still buy Ventile jackets if Gore-Tex is more waterproof?",
+      "How were fabrics waterproofed before Gore-Tex?",
+      "Is Ventile breathable, and why does that matter?",
+      "What is the SeaVees Founders Edition yacht shoe?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0004",
+        "note": "Corrects the age of the Well Dressed Dad blog posts from 10 years ago to 13 years ago."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0004",
+        "note": "Notes the Mark 7 Ventile immersion suit was introduced in 1951, six years after WWII ended, despite the wartime framing of the story."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0010",
+        "note": "Corrects his earlier, often repeated claim that sailors treating sails with linseed were the first to waterproof fabric. Indigenous Mesoamerican and North American peoples and people in China did so thousands of years earlier."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0013",
+        "note": "Clarifies that the earlier footage of water beading beautifully was not Ventile; the water wasn't touching Ventile at all."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0016",
+        "note": "Clarifies that the packages shown are not vintage Ventile but are for a different video."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0027",
+        "note": "Specifies that his 1950s garment is a single-layer tropical-weight flight suit, not an immersion suit."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0030",
+        "note": "The supposedly untreated 1950s flight suit beads water, contradicting the claim in segment 16 that vintage Ventile was untreated."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0033",
+        "note": "The flight suit described in segment 25 as made from Ventile is a twill weave, not Ventile's signature Oxford weave. He concludes it is probably gabardine, though it was sold as Ventile."
+      },
+      {
+        "segment_id": "iron-snail:ZYitFMuxj3k:s0037",
+        "note": "The DWR treatment worked on ordinary cotton better than he had been told it would."
+      }
+    ],
+    "related_videos": [
+      "Earlier videos where Michael discusses waxed/oiled cotton and sailors treating sails with linseed oil"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:ventile",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Ventile",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gorex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:winston-churchill",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Winston Churchill",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Churchill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hawker-hurricane",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Hawker Hurricane",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shirley-institute",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Shirley Institute",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "British Cotton Industry Research Association"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mark-7-ventile-immersion-suit",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mark 7 Ventile immersion suit",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mark 7 immersion flight suit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raf-immersion-suit",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "RAF immersion suit",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:well-dressed-dad",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Well Dressed Dad",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Nick"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L Bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-jeans-cut-into-shorts",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean jeans (cut into shorts)",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "L.L.Bean jeans",
+        "L.L.Bean shorts",
+        "jorts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Carhartt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "car heart",
+        "carart",
+        "carhart",
+        "carhartt",
+        "carheart"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Carhartt jacket",
+      "brand": "Carhartt",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Carhartt"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:front-general-store",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Front General Store",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:front-general-store-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Front General Store t-shirt",
+      "brand": "Front General Store",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Front General Store",
+        "front General Store",
+        "t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seavees",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "SeaVees",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "SeaVee"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seavees-x-b-f-goodrich-founders-edition-yacht-shoe",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "SeaVees x B.F. Goodrich Founders Edition yacht shoe",
+      "brand": "SeaVees",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Founders Edition",
+        "SeaVee x B.F. Goodrich Founders Edition yacht shoe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seavees-hawthorne",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "SeaVees Hawthorne",
+      "brand": "SeaVees",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Hawthorne"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seavees-tiburon-trekker",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "SeaVees Tiburon Trekker",
+      "brand": "SeaVees",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Tiburon trekkers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:b-f-goodrich",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "B.F. Goodrich",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniroyal",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniroyal",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "United States Rubber Company"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:siped-outsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "siped outsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fully siped outsole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Barbour",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Barbara",
+        "Barber",
+        "Barbera",
+        "barber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-vintage-ventile-endurance-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Vintage Ventile Endurance Jacket",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-x-ben-fogle-collaboration-piece",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour x Ben Fogle collaboration piece",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:private-white-vc",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Private White VC",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:private-white-vc-ventile-harrington",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Private White VC Ventile Harrington",
+      "brand": "Private White VC",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:frahm-ventile-thermal-field-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Frahm Ventile Thermal Field Jacket",
+      "brand": "Frahm",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:grenfell",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Grenfell",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:grenfell-cloth",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Grenfell cloth",
+      "brand": "Grenfell",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:grenfell-tanker-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Grenfell Tanker Jacket",
+      "brand": "Grenfell",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:1940s-wwii-u-s-n-foul-weather-smock",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "1940s WWII U.S.N. Foul Weather Smock",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gruden-s-rubberized-quarter-zip",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Gruden's Rubberized Quarter Zip",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:charles-macintosh",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Charles Macintosh",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:macintosh-raincoat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Macintosh raincoat",
+      "brand": null,
+      "model": null,
+      "category": "coats",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:burberry",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Burberry",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr. Burberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gabardine",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "gabardine",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Eddie Bauer",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bower",
+        "Eddie B",
+        "Eddie Boward",
+        "Eddie Bower",
+        "Eddie Bowers",
+        "Eddie bow",
+        "Edward Bower",
+        "Mr Bower",
+        "bow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dwr-durable-water-repellent-finish",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "DWR (durable water-repellent finish)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "DWR",
+        "durable water-repellent finish",
+        "water-repellent finish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cravanette",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Cravanette",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hydrostatic-head",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "hydrostatic head",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hydrostatic head pressure",
+        "water column"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:beadon-flight-suit",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Beadon flight suit",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Beaten flight suit",
+        "RAF Beadon flight suit"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blacks-of-greenock",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Blacks of Greenock",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nikwax",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Nikwax",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nikwax-wash-in-cotton-waterproofer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Nikwax wash-in cotton waterproofer",
+      "brand": "Nikwax",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:t-r-harding",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "T.R. Harding",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:velon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Velon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Zylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:swiss-federal-laboratories-for-materials-science-and-technology",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Swiss Federal Laboratories for Materials Science and Technology",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Swiss Federal Laboratories for Material Science and Technology"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oxford-weave",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Oxford weave",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Oxford"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:twill-weave",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "twill weave",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tightly woven twill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:long-staple-cotton",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "long staple cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "long-staple cotton",
+        "longer stable",
+        "longer staple",
+        "longest and finest cotton fibers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-and-oiled-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed and oiled cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wax or oil cotton fabrics"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:michael-kristy",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Michael Kristy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael",
+        "Michael Christie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "38906ebf472a42b4"
+}
