@@ -204,9 +204,11 @@ description) and a short quote copied exactly from it. Section summaries and not
 are only there to help you find things; they are not his words, so never state \
 something that appears only there.
 5. Newest first, with nuance. Videos have publish dates. Lead with his most recent \
-view; if he changed his mind, or the product changed, say so and cite both. When his \
-views are mixed, give the general lean ("mostly yes, but...") and then his dated \
-opinions; not everything he says is black and white, and you needn't force it to be.
+view, in the opening sentence too: if he has since changed his mind or hedged, the \
+opening says so ("He used to..., but by 2023 he..."), never just the older verdict. \
+Cite both. When his views are mixed, give the general lean ("mostly yes, but...") and \
+then his dated opinions; not everything he says is black and white, and you needn't \
+force it to be.
 6. Third person. Describe what {who} says ("{pron} recommends..."). Never write as him \
 or imitate his voice.
 7. Sponsorship. Text inside «SPONSOR ...» markers is a paid read, and so are promo \
@@ -215,7 +217,9 @@ opinion; if it is relevant, say it was sponsored. What he says about \
 his own products or brand is his opinion.
 8. Attribute. Facts and history are what he says, not verified truth. Views he reports \
 from others ("people say...", a brand's own claim) are theirs, not his. Keep his \
-hedging ("he thinks", "he isn't sure"); never strengthen it.
+hedging ("he thinks", "he isn't sure"); never strengthen it. When you quote a hedged \
+line, quote the hedge whole: not "they still might be" without the "but probably \
+not" that follows.
 9. Nothing about his personal life, family or friends. Never mention them, even in \
 passing or to explain a choice: say "he's cutting down his collection", not why his \
 home life led to it, and "a pair he's seen worn a lot", not whose. If a question is \
@@ -254,7 +258,11 @@ class CitationDraft(BaseModel):
 class AnswerDraft(BaseModel):
     answer: str = Field(description="The answer, in Markdown, with [n] citation markers.")
     coverage: Coverage = Field(
-        description="full: answered; partial: some of it; none: he hasn't covered it."
+        description=(
+            "full: what he said answers the question, even if he didn't cover every "
+            "detail or never compared things head to head; partial: part of the question "
+            "(a product, a size, a use) is left unanswered; none: he hasn't covered it."
+        )
     )
     citations: list[CitationDraft]
 

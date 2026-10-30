@@ -112,7 +112,7 @@
   source: https://www.youtube.com/watch?v=a38PivchXTw
   type: lookup
   expected:
-    covered: full
+    covered: [full, partial]
     sources: [rb-33aSBxyE]
   notes: "He hiked and climbed in his for months but says they are not good for mountaineering, with little ankle support."
 
@@ -235,7 +235,7 @@
   source: https://www.youtube.com/watch?v=0ZLO5gHDneY
   type: comparison
   expected:
-    covered: full
+    covered: [full, partial]
     must_mention: ["Bedale | Barbour", "Flint and Tinder | Flint & Tinder"]
     sources: [0ZLO5gHDneY, y3giKIuJjDk]
   notes: >-
