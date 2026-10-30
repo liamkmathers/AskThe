@@ -249,11 +249,15 @@
   source: https://www.youtube.com/watch?v=ixCSNbzQNcI
   type: lookup
   expected:
-    covered: [none, partial]
+    covered: [partial, none]
+    must_mention: ["Prologue"]
+    sources: [c6blgVapNWY]
   notes: >-
-    His own product (D14: his opinion, not sponsorship). In the 35 fetched videos he
-    only says (2022) the Prologue jackets were delayed to mid-February; nothing on a
-    V3. Re-check once his own-product videos (Mammoth, Prologue) are fetched.
+    His own product (D14: his opinion, not sponsorship). The denim jacket is the
+    Prologue: delayed to mid-February (Nov 2022), and "coming back soon" (Mar 2025).
+    Nothing on a V3 of it. The Mammoth V3 (Aug 2025) is his wool jacket, not denim:
+    fine to mention as such, wrong to present as the denim jacket. Tests matching a
+    generic name ("Iron Snail denim jacket") to his product name.
 
 - id: q24
   question: "Great video. But just curious, how can you say it's a con that the Huckberry jacket is unlined when they sell two different versions of lined waxed truckers: wool, and flannel?"

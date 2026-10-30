@@ -41,6 +41,13 @@ starter_questions:
   - "What's the best budget t-shirt?"
   - "Should I treat my boots out of the box?"
 glossary:
+  # His own products (D14: his opinion, not sponsorship). Fans name them generically.
+  - name: Prologue Denim Jacket
+    type: product
+    heard_as: [prologue jacket, prologue, Iron Snail denim jacket]
+  - name: Mammoth Jacket
+    type: product
+    heard_as: [Mammoth, Mammoth V3, Iron Snail wool jacket]
   - name: Vibram
     type: brand
   - name: Vibram Carrarmato

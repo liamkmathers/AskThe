@@ -52,17 +52,24 @@ def plan_prompt(question: str) -> str:
 
 
 def name_variants(names: Sequence[str], creator: Creator, entities: Sequence[Entity]) -> list[str]:
-    """Each name plus the aliases and caption misspellings known for it."""
-    known: dict[str, list[str]] = {}
-    for g in creator.glossary:
-        known[normalise(g.name)] = [g.name, *g.heard_as]
-    for e in entities:
-        known.setdefault(normalise(e.canonical_name), []).extend([e.canonical_name, *e.aliases])
+    """Each name plus the aliases and caption misspellings known for it.
+
+    A name matches an entry by its canonical name or any of its aliases ("Iron Snail
+    denim jacket" finds the entry whose alias it is). Aliases shorter than four
+    characters only match exactly: profiles hold fragments like "B".
+    """
+    entries = [(g.name, [g.name, *g.heard_as]) for g in creator.glossary]
+    entries += [(e.canonical_name, [e.canonical_name, *e.aliases]) for e in entities]
     out: list[str] = []
     for name in names:
         key = normalise(name)
-        matches = [v for k, vs in known.items() if key and (key in k or k in key) for v in vs]
-        out += [name, *matches]
+        out.append(name)
+        if not key:
+            continue
+        for canonical, variants in entries:
+            keys = {normalise(canonical)} | {normalise(v) for v in variants}
+            if any(k and (k == key or (len(k) >= 4 and (key in k or k in key))) for k in keys):
+                out += variants
     return list(dict.fromkeys(n for n in out if n.strip()))
 
 

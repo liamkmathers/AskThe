@@ -35,6 +35,21 @@ def test_name_variants_include_glossary_misspellings():
     assert name_variants(["Bronson"], c, []) == ["Bronson"]
 
 
+def test_name_variants_match_aliases_but_not_short_fragments():
+    c = f.creator(
+        glossary=[
+            GlossaryEntry(
+                name="Prologue Denim Jacket", type="product", heard_as=["Iron Snail denim jacket"]
+            )
+        ]
+    )
+    found = name_variants(["Iron Snail denim jackets"], c, [])
+    assert "Prologue Denim Jacket" in found
+    msb = f.entity("Merz b. Schwanen", aliases=["B", "MSB"])
+    assert name_variants(["Bronson"], c, [msb]) == ["Bronson"]  # "b" is too short to match
+    assert "Merz b. Schwanen" in name_variants(["MSB"], c, [msb])  # exact matches still do
+
+
 def profile(video_id, outline):
     return VideoProfile(
         video_id=video_id,

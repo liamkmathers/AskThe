@@ -1,0 +1,728 @@
+{
+  "label": "glossary-own-products",
+  "created_at": "2026-10-30T11:31:52+00:00",
+  "creator": "iron-snail",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-sonnet-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 4,
+      "passed_checks": 3,
+      "coverage_right": 4,
+      "coverage_exact": 4,
+      "citations_hold": 4,
+      "personal_life": 0,
+      "cost_usd": 0.1636,
+      "mean_context_words": 3768,
+      "expected_sources_read": 0.75,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "q06",
+      "question": "How do you feel bout blunnies as of Late 2023?",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "As of his latest video (September 2023), he's still a fan of Blundstones, but he's retiring his own 585s to cut down his boot collection, not because he's gone off them.\n\n**Late 2023 (Sept)**\n- He says the Blundstones are \"just incredible\" and that he's \"a big fan\" who has \"always loved them\" [1].\n- His worn-in 585s, the subject of his first video, \"held up through it all\" and stayed \"probably my most water resistant boots\" [2]. He's retiring them anyway [3].\n- He's also letting go of his heavy-duty Blundstone Extreme work boots. He had thought they were waterproof, but they're only very water resistant nubuck [4].\n- He talks about boots he can \"flop on really quick\" for errands or rain, groups Blundstones in with them, and says he's keeping them but \"could easily put them on the sell list\" [5].\n\n**Earlier views**\n- **2022:** He wrote that he loves Blundstones and that they're \"still some of my favorites\". He added that they're not as repairable as good year welted boots like Red Wings or Wolverines [6].\n- **2020 (one-year review):** He called them decent for work but \"not anything incredible\", and a good fit for casual wear [7]. He said he'd pick a smoother leather over the distressed nubuck if buying again [8].\n- **2019:** He recommended them \"100%\" if you'll keep them treated [9].\n\nHis opinion has been steady and positive over the years, with caveats about work use, repairability and the nubuck.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "bluntstones are just incredible I'm a big fan of them I've always loved them"
+            },
+            {
+              "n": 2,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "they've held up through it all they've remained probably my most water resistant boots through it all"
+            },
+            {
+              "n": 3,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "I think it's time to retire those bunnies"
+            },
+            {
+              "n": 4,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0002"
+              ],
+              "quote": "I thought they were wonderproof they are just a very very water resistant nubuck"
+            },
+            {
+              "n": 5,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0008"
+              ],
+              "quote": "I'm keeping these but I could easily put them on the sell list"
+            },
+            {
+              "n": 6,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [],
+              "quote": "All in all I love Blundstones! Not as repairable as good year welted boots like Red Wings, or Wolverines but still some of my favorites."
+            },
+            {
+              "n": 7,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0007"
+              ],
+              "quote": "so it's decent for work boots but not anything incredible"
+            },
+            {
+              "n": 8,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0004"
+              ],
+              "quote": "i would have gotten a smoother leather"
+            },
+            {
+              "n": 9,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0010"
+              ],
+              "quote": "do I recommend these boots yes 100% if you're going to treat them"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "a38PivchXTw",
+            "rb-33aSBxyE",
+            "4cRAkEHfXKo",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:a38PivchXTw:s0001",
+            "iron-snail:a38PivchXTw:s0002",
+            "iron-snail:a38PivchXTw:s0007",
+            "iron-snail:a38PivchXTw:s0008",
+            "iron-snail:a38PivchXTw:s0009",
+            "iron-snail:a38PivchXTw:s0010",
+            "iron-snail:a38PivchXTw:s0011",
+            "iron-snail:rb-33aSBxyE:s0000",
+            "iron-snail:rb-33aSBxyE:s0001",
+            "iron-snail:rb-33aSBxyE:s0002",
+            "iron-snail:rb-33aSBxyE:s0004",
+            "iron-snail:rb-33aSBxyE:s0005",
+            "iron-snail:rb-33aSBxyE:s0006",
+            "iron-snail:rb-33aSBxyE:s0007",
+            "iron-snail:rb-33aSBxyE:s0008",
+            "iron-snail:rb-33aSBxyE:s0009",
+            "iron-snail:rb-33aSBxyE:s0010",
+            "iron-snail:rb-33aSBxyE:s0011",
+            "iron-snail:4cRAkEHfXKo:s0000",
+            "iron-snail:4cRAkEHfXKo:s0001",
+            "iron-snail:mS6Jqq_GWlo:s0000",
+            "iron-snail:mS6Jqq_GWlo:s0001",
+            "iron-snail:mS6Jqq_GWlo:s0002",
+            "iron-snail:mS6Jqq_GWlo:s0003",
+            "iron-snail:mS6Jqq_GWlo:s0004",
+            "iron-snail:mS6Jqq_GWlo:s0005",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007",
+            "iron-snail:mS6Jqq_GWlo:s0008",
+            "iron-snail:mS6Jqq_GWlo:s0011",
+            "iron-snail:mS6Jqq_GWlo:s0012"
+          ],
+          "context_words": 6111,
+          "queries": [
+            "How do you feel bout blunnies as of Late 2023?",
+            "blunies opinion late 2023",
+            "blunnies review",
+            "blunnies thoughts",
+            "bluey blunnies 2023 opinion",
+            "blunnies wear and comfort",
+            "Iron Snail blunnies"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23464,
+              "output": 754,
+              "cache_read": 525,
+              "cache_write": 1192
+            },
+            "claude-sonnet-5-5": {
+              "input": 17498,
+              "output": 1911,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.057384450000000004,
+          "seconds": 22.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Blundstone | blunnies": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "mS6Jqq_GWlo"
+            ],
+            "sources_cited": [
+              "mS6Jqq_GWlo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q08",
+      "question": "How does the made in England boot stack up to Solovairs? [Dr. Martens]",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "He thinks Solovair is the better buy. In his 2022 Dr. Martens video he calls Solovair cheaper and better built than Made in England Docs. His 2023 follow-up doesn't mention Solovair, but it repeats that the England boots are mainly for big Dr. Martens fans.\n\n**Where Solovair wins (2022)**\n- **Price:** Solovair boots are cheaper than the Made in England Docs. [1]\n- **Comfort:** Solovairs have a shank, so he says they're more comfortable over long periods. Standard Dr. Martens have none. [2]\n- **Resoling:** They're Goodyear welted in a more regularly accepted way, so they're easier to resole. [2]\n- **Overall:** For the equivalent eight-eyed derby boot, he sums it up as \"cheaper better quality better features.\" He also notes Solovair is one of the original makers of the original Docs. [2][3]\n\n**Where they're about even**\nHe says the Made in England leather will age fine and is probably on par with Solovair. The better midsoles are probably on par too. [4]\n\n**When he'd still pick the England Docs**\n- If the yellow stitching matters to you, he says you have to get the Made in England Docs. Solovair doesn't do it. [5]\n- In 2023 he says that on pure value the extra $90 over the Thailand pair is \"probably not\" worth it. [6]\n- He adds that the England boots are for mega fans who want something close to how old Docs were made. [7]\n\n**Caveat on Solovair**\nHis own Solovair pair had problems after eight wears: a back tab ripped off and a lace snapped. He assumed it was a manufacturing defect and had contacted them. [8]",
+          "sources": [
+            {
+              "n": 1,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "silver boots are actually cheaper than doc martin made in england"
+            },
+            {
+              "n": 2,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0014"
+              ],
+              "quote": "they're a bit more comfortable over long periods of time"
+            },
+            {
+              "n": 3,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "they're one of the original makers of the original doc martens"
+            },
+            {
+              "n": 4,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "that's probably also on par with solaveir"
+            },
+            {
+              "n": 5,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0014"
+              ],
+              "quote": "the only thing that they don't do is the yellow stitching"
+            },
+            {
+              "n": 6,
+              "video": "1N1uYKnCxq0",
+              "title": "The Most Expensive Dr. Martens vs. The Cheapest.",
+              "published": "2023-05-02",
+              "segments": [
+                "iron-snail:1N1uYKnCxq0:s0011"
+              ],
+              "quote": "are they worth the extra 90 dollars I'd say probably not"
+            },
+            {
+              "n": 7,
+              "video": "1N1uYKnCxq0",
+              "title": "The Most Expensive Dr. Martens vs. The Cheapest.",
+              "published": "2023-05-02",
+              "segments": [
+                "iron-snail:1N1uYKnCxq0:s0012"
+              ],
+              "quote": "right now you have to be a mega fan to get them"
+            },
+            {
+              "n": 8,
+              "video": "5P_FYJ9rIbU",
+              "title": "Why Doc Martens Are So Popular.",
+              "published": "2022-04-26",
+              "segments": [
+                "iron-snail:5P_FYJ9rIbU:s0013"
+              ],
+              "quote": "a tab on the back is ripped off on the right boot and my boot lace snapped"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "5P_FYJ9rIbU",
+            "1N1uYKnCxq0"
+          ],
+          "segments_read": [
+            "iron-snail:5P_FYJ9rIbU:s0001",
+            "iron-snail:5P_FYJ9rIbU:s0002",
+            "iron-snail:5P_FYJ9rIbU:s0003",
+            "iron-snail:5P_FYJ9rIbU:s0004",
+            "iron-snail:5P_FYJ9rIbU:s0005",
+            "iron-snail:5P_FYJ9rIbU:s0006",
+            "iron-snail:5P_FYJ9rIbU:s0009",
+            "iron-snail:5P_FYJ9rIbU:s0010",
+            "iron-snail:5P_FYJ9rIbU:s0011",
+            "iron-snail:5P_FYJ9rIbU:s0012",
+            "iron-snail:5P_FYJ9rIbU:s0013",
+            "iron-snail:5P_FYJ9rIbU:s0014",
+            "iron-snail:1N1uYKnCxq0:s0000",
+            "iron-snail:1N1uYKnCxq0:s0001",
+            "iron-snail:1N1uYKnCxq0:s0002",
+            "iron-snail:1N1uYKnCxq0:s0003",
+            "iron-snail:1N1uYKnCxq0:s0004",
+            "iron-snail:1N1uYKnCxq0:s0005",
+            "iron-snail:1N1uYKnCxq0:s0006",
+            "iron-snail:1N1uYKnCxq0:s0007",
+            "iron-snail:1N1uYKnCxq0:s0008",
+            "iron-snail:1N1uYKnCxq0:s0009",
+            "iron-snail:1N1uYKnCxq0:s0010",
+            "iron-snail:1N1uYKnCxq0:s0011",
+            "iron-snail:1N1uYKnCxq0:s0012"
+          ],
+          "context_words": 4964,
+          "queries": [
+            "How does the made in England boot stack up to Solovairs? [Dr. Martens]",
+            "made in England boots review",
+            "Solovair boots comparison",
+            "Dr. Martens made in England Solovair",
+            "Solovair NPS sole leather boot durability",
+            "English boots vs Dr. Martens quality",
+            "Grenson Solovair shell cordovan leather boots",
+            "Solovair",
+            "silver boots",
+            "solar bears",
+            "solaveir",
+            "solo air",
+            "solo there",
+            "soloveir",
+            "sullivan",
+            "Solovair 8-eye derby boot",
+            "derby eight-eyed boot",
+            "Solovair Monkey Boots",
+            "solo air monkey boots",
+            "solo there monkey boots",
+            "Dr. Martens",
+            "Doc Martens",
+            "Doc Martin",
+            "doc marten",
+            "doc martens",
+            "doc martin",
+            "dog martens",
+            "Dr. Martens 1460",
+            "1460",
+            "1460s",
+            "Doc Martin 1460s",
+            "Dr. Martens 1460 Made in England",
+            "Doc Martens made in England",
+            "made in England Doc Martin Boots",
+            "Dr. Martens 1460 Made in Thailand",
+            "Doc Martens made in Thailand",
+            "made and Thailand",
+            "Dr. Martens 1461 Vegan",
+            "1461's",
+            "1461s",
+            "Dr. Martens Made in England",
+            "made in england",
+            "maiden england"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23490,
+              "output": 785,
+              "cache_read": 1717,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 11340,
+              "output": 1840,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.04423947,
+          "seconds": 19.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Solovair": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "5P_FYJ9rIbU"
+            ],
+            "sources_cited": [
+              "5P_FYJ9rIbU"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q20",
+      "question": "1907 vs the 875's? What's the difference?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "He prefers the 1907 if you're choosing between the two Red Wing moc toes. The 875 is a Goodyear-welted boot, while the 1907 adds a storm welt, a removable leather footbed and leather laces for about $10 more. In a later video (2022) he says his favorite Red Wings are actually the 3335s, over both of these.\n\n**His verdict (2021)**\n- He calls the 1907 \"red wings best heritage boots by far\" and says you should get it if you're looking at a moc toe Red Wing [1].\n\n**Construction**\n- The 875 is Goodyear welted. He calls Goodyear welts \"really durable\" and \"pretty water resistant\" [2]. The welt leaves room for cork that molds to your foot, and he says that's what Red Wing's cork insoles are [2].\n- The 1907 has the storm welt. He says the popular view (from Reddit) is that Red Wing just stitches another strip of leather onto the welt. He adds that he's not quite sure [3]. He still calls the storm welt \"invaluable\" [4].\n\n**Price and extras**\n- The 1907 costs about $10 more than the 875, but he argues it isn't really more expensive [5].\n- You get the removable leather footbed, which he says typically costs $40 separately, plus leather laces [4]. The footbed can also be pulled out so the boots dry faster [4].\n\n**Soles**\n- Both use crepe soles. He says he doesn't really like them [6]. In 2022 he says they break down faster than the 3335's Vibram mini lug sole [7].\n\n**Waterproofing**\n- He only tested the 1907, not the 875. One boot leaked almost immediately through the stitching. He still has \"no doubt\" they'd hold up in rain, grass or mud [8].\n\n**Later view (2022)**\n- He calls both the 1907 and 875 \"more beefily constructed\" than the 3335, so they suit you better if you need a tough boot [9].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0000"
+              ],
+              "quote": "the 1907's in my opinion are red wings best heritage boots by far"
+            },
+            {
+              "n": 2,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0008"
+              ],
+              "quote": "goodyear welts are incredible they are really durable they are pretty water resistant"
+            },
+            {
+              "n": 3,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0009"
+              ],
+              "quote": "i'm not quite sure but the popular thing that i've seen is that it's just another piece of leather"
+            },
+            {
+              "n": 4,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0012"
+              ],
+              "quote": "you get the storm welt which you know to me is invaluable and you also get a pair of leather laces thrown in for free"
+            },
+            {
+              "n": 5,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0011"
+              ],
+              "quote": "so the 1907s are ten dollars more expensive than the 875s theoretically not"
+            },
+            {
+              "n": 6,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0000"
+              ],
+              "quote": "also crepe souls i don't really like those"
+            },
+            {
+              "n": 7,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0006"
+              ],
+              "quote": "like the crepe soles on the 875s and 1907s"
+            },
+            {
+              "n": 8,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0014"
+              ],
+              "quote": "i have no doubt if it's raining or if you're just walking through grass or mud or anything like that these boots would hold up fine"
+            },
+            {
+              "n": 9,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0011"
+              ],
+              "quote": "1907s and 875s are definitely more beefily constructed, so if you need a tough boot, these are probably not the ones to go for"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "UTArIR26tMw",
+            "cyAzm8O3RwY"
+          ],
+          "segments_read": [
+            "iron-snail:UTArIR26tMw:s0000",
+            "iron-snail:UTArIR26tMw:s0001",
+            "iron-snail:UTArIR26tMw:s0006",
+            "iron-snail:UTArIR26tMw:s0007",
+            "iron-snail:UTArIR26tMw:s0008",
+            "iron-snail:UTArIR26tMw:s0009",
+            "iron-snail:UTArIR26tMw:s0010",
+            "iron-snail:UTArIR26tMw:s0011",
+            "iron-snail:UTArIR26tMw:s0012",
+            "iron-snail:UTArIR26tMw:s0013",
+            "iron-snail:UTArIR26tMw:s0014",
+            "iron-snail:cyAzm8O3RwY:s0005",
+            "iron-snail:cyAzm8O3RwY:s0006",
+            "iron-snail:cyAzm8O3RwY:s0007",
+            "iron-snail:cyAzm8O3RwY:s0008",
+            "iron-snail:cyAzm8O3RwY:s0009",
+            "iron-snail:cyAzm8O3RwY:s0011",
+            "iron-snail:cyAzm8O3RwY:s0012"
+          ],
+          "context_words": 3070,
+          "queries": [
+            "1907 vs the 875's? What's the difference?",
+            "1907 vs 875 difference",
+            "Red Wing 1907 versus 875 boots",
+            "1907 boots compared to 875",
+            "875 boots review",
+            "1907 boots review comparison",
+            "Red Wing 875 and 1907 differences",
+            "1907",
+            "Red Wing 1907",
+            "1907's",
+            "1907s",
+            "redwing 1907's",
+            "875",
+            "Red Wing 875",
+            "875s"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22662,
+              "output": 766,
+              "cache_read": 1717,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 8920,
+              "output": 2033,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.041237170000000004,
+          "seconds": 18.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "875": true,
+              "1907": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "UTArIR26tMw"
+            ],
+            "sources_cited": [
+              "UTArIR26tMw"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q23",
+      "question": "October is almost over, any updates on the V3 versions of the Iron Snail denim jackets?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "The Iron Snail hasn't covered a V3 version of the Iron Snail denim jackets in the videos available here, so there's no update to report.\n\nThe closest thing is the Mammoth V3. In his August 2025 studio tour he said it was \"coming out later this year in black, in blue, and buffalo plaid\" [1]. He added that the sample on camera wasn't final: \"That is not the final mammoth. We changed a lot of stuff about it.\" He said the sampling fabrics weren't the real fabric and the finished jacket looks \"very, very different\" [2]. He doesn't call the Mammoth a denim jacket, and nothing here says whether it has been released.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "3bWvGl_wS2I",
+              "title": "35 Things I Can't Live Without.*",
+              "published": "2025-08-24",
+              "segments": [
+                "iron-snail:3bWvGl_wS2I:s0007"
+              ],
+              "quote": "This is the Mammoth V3 that is coming out later this year in black, in blue, and buffalo plaid"
+            },
+            {
+              "n": 2,
+              "video": "3bWvGl_wS2I",
+              "title": "35 Things I Can't Live Without.*",
+              "published": "2025-08-24",
+              "segments": [
+                "iron-snail:3bWvGl_wS2I:s0008"
+              ],
+              "quote": "That is not the final mammoth. We changed a lot of stuff about it."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "3bWvGl_wS2I"
+          ],
+          "segments_read": [
+            "iron-snail:3bWvGl_wS2I:s0006",
+            "iron-snail:3bWvGl_wS2I:s0007",
+            "iron-snail:3bWvGl_wS2I:s0008",
+            "iron-snail:3bWvGl_wS2I:s0009",
+            "iron-snail:3bWvGl_wS2I:s0027",
+            "iron-snail:3bWvGl_wS2I:s0028",
+            "iron-snail:3bWvGl_wS2I:s0029"
+          ],
+          "context_words": 926,
+          "queries": [
+            "October is almost over, any updates on the V3 versions of the Iron Snail denim jackets?",
+            "Mammoth V3 release date",
+            "Mammoth Jacket V3 update",
+            "Prologue Denim Jacket new version",
+            "Iron Snail denim jacket V3 update",
+            "Mammoth V3 wool jacket new version coming",
+            "Mammoth Jacket",
+            "Mammoth",
+            "Mammoth V3",
+            "Iron Snail wool jacket",
+            "mammoth jacket",
+            "mammoths",
+            "The Iron Snail Mammoth",
+            "mammoth",
+            "The Iron Snail Mammoth Jacket",
+            "mmth",
+            "Prologue Denim Jacket",
+            "prologue jacket",
+            "prologue",
+            "Iron Snail denim jacket",
+            "The Iron Snail Prologue"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23367,
+              "output": 785,
+              "cache_read": 1717,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 4109,
+              "output": 939,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.02075517,
+          "seconds": 12.4,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Prologue": false
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": false
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}
