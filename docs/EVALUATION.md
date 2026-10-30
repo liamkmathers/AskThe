@@ -53,7 +53,7 @@ Stored as `eval/questions/<creator>.yaml`:
 
 ### Runs
 
-`askthe eval <creator> --label <name>` runs the set in hybrid then full mode (`--mode` to choose, `--only q01` for one question, `--questions` for another set) and saves `eval/runs/<date>-<label>.json`. Each answer carries:
+`askthe eval <creator> --label <name>` runs the set in hybrid mode, the mode fans use (`--mode full` adds the read-everything reference; `--mode` to choose, `--only q01` for one question, `--questions` for another set) and saves `eval/runs/<date>-<label>.json`. Each answer carries:
 
 - its text, coverage, sources with the cited segments, and the videos and segments it read;
 - token usage per model and the cost in dollars (prices are in `askthe.toml`);
@@ -64,7 +64,7 @@ Stored as `eval/questions/<creator>.yaml`:
 
 When more than one coverage level is fair (a brand mentioned only in passing), `covered` can be a list, e.g. `[none, partial]`.
 
-The summary per mode counts the checks passed, total cost, mean words read and mean recall of full. Runs are compared side by side, so a prompt change that fixes one question and breaks two is visible. A run of 20 questions in both modes costs about $3; full mode runs all its questions back to back so its shared context stays cached.
+The summary per mode counts the checks passed, total cost, mean words read, and the share of expected source videos that were read: the retrieval check, from each question's `sources` (D21). With full mode in the run, it also reports the share of full mode's cited passages that hybrid read. Runs are compared side by side, so a prompt change that fixes one question and breaks two is visible. A run of 20 questions in both modes costs about $3; full mode runs all its questions back to back so its shared context stays cached.
 
 ## 2. Profile and retrieval checks
 

@@ -164,6 +164,7 @@ def test_run_scores_both_modes_and_hybrid_recall_of_full():
     assert hybrid["correct"] is None and hybrid["cost_usd"] == 0.0
     assert run["summary"]["hybrid"]["passed_checks"] == 1
     assert run["summary"]["hybrid"]["mean_recall_of_full"] == 1.0
+    assert run["summary"]["hybrid"]["expected_sources_read"] == 1.0
     assert [c[0] for c in llm.calls] == [
         LLMTask.PLAN,
         LLMTask.RERANK,

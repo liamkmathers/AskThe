@@ -73,7 +73,7 @@ Set by `[retrieval] mode` in `askthe.toml`.
 
 If vector search fails, retrieval continues on keywords alone and the answer carries a warning.
 
-**`full`**: whole transcripts, every video if the catalogue fits `full_budget_words`, otherwise the best-matching videos. The reference hybrid is measured against.
+**`full`**: whole transcripts, every video if the catalogue fits `full_budget_words`, otherwise the best-matching videos. Kept as an option and an occasional sanity check; evals measure hybrid against the test set instead (D21).
 
 **Answer, verify, log (both modes).** Each video is shown with its description (his words, links collapsed) and its transcript. The model answers this question from what it was given, following the product rules and D19, and cites every statement with a video, a segment (or the description) and an exact quote. Code checks every quote appears in the segment it cites; one retry is allowed, and anything still failing is removed and reported. The question, answer, coverage, cited segments and retrieval mode are logged.
 

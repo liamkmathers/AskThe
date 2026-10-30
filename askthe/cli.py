@@ -373,7 +373,9 @@ def eval_command(
     mode: Annotated[
         list[str] | None,
         typer.Option(
-            "--mode", "-m", help="Retrieval modes to run, in order. Default: hybrid, full."
+            "--mode",
+            "-m",
+            help="Retrieval modes to run, in order. Default: hybrid. Add full as a reference.",
         ),
     ] = None,
     label: Annotated[str, typer.Option(help="Names the saved run.")] = "run",
@@ -402,7 +404,7 @@ def eval_command(
         raise typer.Exit(1) from None
     if only:
         test_set = [q for q in test_set if q.id in only]
-    modes = list(mode) if mode else ["hybrid", "full"]
+    modes = list(mode) if mode else ["hybrid"]
 
     if rescore_run:
         run = rescore(json.loads(rescore_run.read_text()), test_set, c.pronoun)
@@ -449,6 +451,11 @@ def _print_summary(run: dict) -> None:
             f"coverage right {s['coverage_right']}, citations hold {s['citations_hold']}, "
             f"personal life {s.get('personal_life', 0)}, "
             f"mean {s['mean_context_words']:,} words, "
+            + (
+                f"expected videos read {s['expected_sources_read']:.0%}, "
+                if s.get("expected_sources_read") is not None
+                else ""
+            )
             + (f"${s['cost_usd']:.2f}" if s["cost_usd"] is not None else "cost unknown")
             + (
                 f", recall of full {s['mean_recall_of_full']:.0%}"

@@ -163,6 +163,10 @@ def rescore(
     }
 
 
+def _share(part: int, whole: int) -> float | None:
+    return round(part / whole, 3) if whole else None
+
+
 def summarise(
     results: dict[str, dict[str, dict[str, Any]]], modes: Sequence[str], reference_mode: str
 ) -> dict[str, Any]:
@@ -184,6 +188,12 @@ def summarise(
             "personal_life": sum(bool(r["checks"].get("personal_life_found")) for r in rows),
             "cost_usd": round(sum(costs), 4) if None not in costs else None,
             "mean_context_words": round(sum(r["context_words"] for r in rows) / max(len(rows), 1)),
+            # Retrieval against the test set: of the videos expected to hold the answer,
+            # how many were read. Needs no reference mode.
+            "expected_sources_read": _share(
+                sum(len(r["checks"]["sources_read"]) for r in rows),
+                sum(r["checks"].get("sources_expected", 0) for r in rows),
+            ),
             f"mean_recall_of_{reference_mode}": (
                 round(sum(recalls) / len(recalls), 3) if recalls else None
             ),

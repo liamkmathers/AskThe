@@ -143,3 +143,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Chose:** Claude Sonnet 5.5 (effort `high`) for answering, set in `askthe.toml`. Profiles stay on Opus 5.5; planning and reranking stay on Haiku 5.5. Supersedes D13 for answering.
 **Why:** compared on the 23-question set in hybrid mode (answering model only): Opus high $0.093 a question, Opus medium $0.072, Sonnet $0.041, Haiku $0.007. All passed the automated checks, and reading the answers showed no quality worth Opus's price. Haiku was accurate but thin; Sonnet keeps structure and depth at under half Opus's cost, and is the fastest (about 14 s). With the D19 rules and the personal-life rule, Sonnet's run passed every check with no personal-life slips, for $0.92 for all 23.
 **Watch:** Sonnet dropped part of a hedge once (q05: "still might be", without "but probably not") and labels many complete answers "partial". Both are prompt fixes, checked with `askthe eval`.
+
+### D21. Evals run hybrid only; the test set is the retrieval reference
+*2026-10-30*
+
+**Chose:** `askthe eval` runs hybrid mode, the one fans use, by default. Retrieval is checked against each question's expected source videos (`sources`), reported as the share of them read. Full mode stays in the code as an option (`--mode full`), not part of every run.
+**Why:** full mode was only ever a reference for hybrid, and its first question costs about $1.15 to load the catalogue. The test set already names the videos that hold each answer, which checks retrieval directly and stays meaningful as the catalogue outgrows full mode. Supersedes the measurement note in D16.
+**Trade-off:** expected sources count videos, not passages, so the expectations must name every video an answer should draw on (q05 now includes the 2021 1907 review).

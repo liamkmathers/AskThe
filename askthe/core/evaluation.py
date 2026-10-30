@@ -119,6 +119,7 @@ def score(
         "must_mention": mentioned,
         "must_not_claim_found": flagged,
         "personal_life_found": personal,
+        "sources_expected": len(set(q.expected.sources)),
         "sources_read": sorted(set(q.expected.sources) & read),
         "sources_cited": sorted(set(q.expected.sources) & cited),
         "passed": (
