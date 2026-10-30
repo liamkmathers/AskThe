@@ -1,0 +1,429 @@
+{
+  "platform_id": "mi0ki1l84wU",
+  "profile": {
+    "video_id": "iron-snail:mi0ki1l84wU",
+    "purpose": "A step-by-step tutorial on re-waxing a Barbour waxed cotton jacket so it looks factory-fresh rather than sticky or shiny, demonstrated on a friend's worn jacket.",
+    "video_type": "how_to",
+    "thesis": "Re-waxing a Barbour is easier and looks better if you work somewhere hot, blow-dry the wax in while blotting the excess with paper towels, and spread the wax with a paper towel instead of a sponge.",
+    "key_takeaways": [
+      "You need Barbour Thornproof Dressing, a way to heat water, a hair dryer and plenty of paper towels; a sponge is optional and he recommends against it.",
+      "Melt the tin of wax in hot water, but watch out: the tin can tip over and spill.",
+      "Work in as hot a room as possible, because the wax dries almost immediately in a cool room.",
+      "Never machine-wash a waxed jacket. The factory wax is pressed into the fabric before stitching, so re-waxing only adds a second layer on top.",
+      "Blow-drying melts the wax into the fibres. Blotting with a paper towel while blow-drying removes excess wax for a matte, non-greasy finish.",
+      "Spills and over-waxing can be fixed by melting the wax with the hair dryer and blotting it up with paper towel.",
+      "A paper towel spreads the wax faster and more easily than a sponge, which soaks the wax back up."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to jacket",
+        "summary": "Michael introduces the tutorial on waxing a Barbour jacket so it looks new rather than re-waxed, and previews fixing spills and the trick that made the job easier.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Jacket inspection",
+        "summary": "A look at Christian Cerrone's roughly three-year-old Barbour, with patches where the wax has worn off and nicely aged buttons.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Materials and setup",
+        "summary": "The supplies needed: sponge, a way to heat water, the tin of Thornproof Dressing (which tips over and spills), a hair dryer and paper towels.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Waxing process",
+        "summary": "The basic steps: lay the jacket flat on a protected surface, melt the wax tin in hot water, and rub the wax on, working somewhere as hot as possible because it dries fast.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Heating and finishing",
+        "summary": "Why you can't machine-wash a waxed jacket or match the factory wax, and how to blow-dry the wax in while blotting with paper towel for a dry, matte finish that puts looks ahead of water resistance.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Fixing mistakes and results",
+        "summary": "After spilling about a third of the tin on the jacket, he melted and blotted the excess with paper towel until it blended in, showing that over-waxing can be fixed.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "An anecdote and tips",
+        "summary": "Don't use a sponge, which soaks the wax back up. A wax-clogged paper towel acts like a squeegee and halves the application time; he wonders whether an actual squeegee would work.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Conclusion and next steps",
+        "summary": "He wraps up, apologises for short videos, and previews upcoming B-3 and B-6 bomber jacket videos.",
+        "first_segment": 9,
+        "last_segment": 9
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hello everyone happy tuesday it's michael",
+        "last_segment": 0,
+        "ends_with": "i just can't frankly wait to get into it",
+        "note": "Greeting and topic introduction"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "by the way welcome to my new apartment",
+        "last_segment": 0,
+        "ends_with": "my birthday was great thanks for asking",
+        "note": "New apartment, late upload and his 26th birthday"
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "also i think i'm getting sick which is great",
+        "last_segment": 1,
+        "ends_with": "also a pretty bad thing going around",
+        "note": "Mentions he's getting sick"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "so we're still in my apartment what actually happened",
+        "last_segment": 3,
+        "ends_with": "for a little barber break",
+        "note": "Forgot the camera, new couch, green tea and a teaser for the couch story"
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "also i feel very cocky sitting like this",
+        "last_segment": 5,
+        "ends_with": "so it should boost your mood",
+        "note": "Mid-century modern couch and green tea for the microbiome"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "so i was getting this couch and",
+        "last_segment": 7,
+        "ends_with": "the seats were not leather",
+        "note": "Couch delivery guy in a leather jacket"
+      },
+      {
+        "role": "outro",
+        "first_segment": 9,
+        "starts_with": "so anyways though that's about it",
+        "last_segment": 9,
+        "ends_with": "that i'll wear for winter",
+        "note": "Wrap-up, apology for short videos, preview of bomber jacket videos"
+      }
+    ],
+    "topics": [
+      "re-waxing a Barbour jacket",
+      "waxed cotton care",
+      "Barbour Thornproof Dressing",
+      "blow-drying wax into fabric",
+      "avoiding a sticky or shiny over-waxed finish",
+      "fixing wax spills",
+      "sponge vs paper towel for applying wax",
+      "why waxed jackets shouldn't be machine washed",
+      "how Barbour factory-waxes fabric"
+    ],
+    "entity_ids": [
+      "iron-snail:e:barbour",
+      "iron-snail:e:barbour-bedale",
+      "iron-snail:e:barbour-ashby",
+      "iron-snail:e:barbour-beaufort",
+      "iron-snail:e:barbour-thornproof-dressing",
+      "iron-snail:e:waxed-cotton",
+      "iron-snail:e:hair-dryer",
+      "iron-snail:e:sponge",
+      "iron-snail:e:paper-towel",
+      "iron-snail:e:squeegee",
+      "iron-snail:e:christian-cerrone",
+      "iron-snail:e:theo-and-harris",
+      "iron-snail:e:perfecto-motorcycle-jacket",
+      "iron-snail:e:b-3-bomber-jacket",
+      "iron-snail:e:b-6-bomber-jacket"
+    ],
+    "categories": [
+      "jackets",
+      "accessories"
+    ],
+    "answers_questions": [
+      "How do I re-wax my Barbour jacket?",
+      "What do I need to rewax a waxed cotton jacket?",
+      "How do I stop my rewaxed Barbour from looking shiny or sticky?",
+      "Should I use a hair dryer when waxing a Barbour?",
+      "What do I do if I spill too much wax on my jacket?",
+      "Is a sponge or a paper towel better for applying Barbour Thornproof Dressing?",
+      "Can I put my Barbour in the washing machine?",
+      "Why does the wax dry so fast when I rewax my jacket?",
+      "How do I melt the Barbour wax tin without it tipping over?",
+      "Can rewaxing make a Barbour look like new again?",
+      "Does this rewaxing method work on the Bedale, Ashby and Beaufort?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:mi0ki1l84wU:s0005",
+        "note": "Right after jokingly saying to throw the jacket in an industrial washing machine with heavy detergent, he says that was a joke and is the one thing you must not do."
+      },
+      {
+        "segment_id": "iron-snail:mi0ki1l84wU:s0008",
+        "note": "He earlier listed a sponge as a very important supply; here he advises against using one and recommends a paper towel, since the sponge soaks up the wax."
+      }
+    ],
+    "related_videos": [
+      "Barbour's official re-waxing video (a guy walking through a field)",
+      "Upcoming B-3 bomber jacket video",
+      "Upcoming B-6 bomber jacket video"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:barbour",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Barbour",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Barbara",
+        "Barber",
+        "Barbera",
+        "barbara",
+        "barber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-bedale",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Bedale",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bedale",
+        "bedale"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-ashby",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Ashby",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Ashby",
+        "ashb"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-beaufort",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Beaufort",
+      "brand": "Barbour",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:barbour-thornproof-dressing",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Barbour Thornproof Dressing",
+      "brand": "Barbour",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "the little can from hell",
+        "the wax",
+        "this hell in a can"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed cotton",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wax",
+        "wax cotton",
+        "wax jackets",
+        "waxed",
+        "waxed jackets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hair-dryer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "hair dryer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "blow dry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sponge",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "sponge",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paper-towel",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "paper towel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "paper towels"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:squeegee",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "squeegee",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:christian-cerrone",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Christian Cerrone",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "christian",
+        "christian cerrone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:theo-and-harris",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Theo and Harris",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "theo and harris"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:perfecto-motorcycle-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "perfecto motorcycle jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "leather jacket",
+        "motorcycle jacket",
+        "perfecto"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:b-3-bomber-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "B-3 bomber jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "b3 bomber jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:b-6-bomber-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "B-6 bomber jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "b6 bomber jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "eede9eab11fed1bc"
+}

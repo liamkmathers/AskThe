@@ -1,0 +1,609 @@
+{
+  "platform_id": "1xUHAaYb1lo",
+  "profile": {
+    "video_id": "iron-snail:1xUHAaYb1lo",
+    "purpose": "Compare Filson and WeatherWool wool jackets on materials, weave, construction, sizing, price and the fabric-weight claims each brand makes, and discuss whether each is worth the money.",
+    "video_type": "comparison",
+    "thesis": "Both brands use virgin wool but differ in sheep breed, fiber thickness, weave and value. WeatherWool uses fine, strength-tested Rambouillet wool woven on a Jacquard loom, while Filson uses coarser, tougher Suffolk wool in a twill. Ounce-weight claims are misleading without a per-area unit. The creator presents them as appealing in different ways rather than as better or worse.",
+    "key_takeaways": [
+      "Both Filson and WeatherWool use virgin wool, meaning wool that has never been used before, as opposed to recycled wool.",
+      "WeatherWool uses Rambouillet wool, a Merino descendant, averaging about 21 microns. It tests its fibers for strength so fine fibers can compete with thicker wools on durability.",
+      "Filson's wool comes from Suffolk sheep and is about 25 to 33 microns. Suffolk is a down-type wool; wool around 30 microns starts to feel scratchy.",
+      "Filson weaves a twill, while WeatherWool uses a Jacquard loom. All WeatherWool pieces use the lynx pattern.",
+      "Sizing is similar between the brands. The creator wears extra small in both and suggests most people size down, but larger people should go true to size.",
+      "Short product rundowns cover the Filson Work Jacket, the WeatherWool Anorak and the Filson Packer Coat.",
+      "Filson's 26 oz versus WeatherWool's 19 oz per square yard: weights quoted without a unit area aren't comparable, and the WeatherWool fabric feels heavier.",
+      "Discussion of whether Filson's roughly $450 price is a gouge, and the value offered by WeatherWool."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to wool jackets",
+        "summary": "The creator films on Cape Cod and sets up the Filson vs. WeatherWool comparison, promising a point about Filson that few people know.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Virgin wool and sizing",
+        "summary": "Explains what virgin wool is versus recycled wool, previews the fiber-thickness difference, discloses working with Ralph of WeatherWool, and gives sizing advice for both brands.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Sponsor message",
+        "summary": "Sponsor read for Carrot, a shopping-collection service, highlighting its product search function.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "The science of WeatherWool",
+        "summary": "The history of Merino and Rambouillet sheep from Spain and France, WeatherWool's 20-parameter wool testing with emphasis on strength, and micron counts compared with Filson.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "Filson wool history",
+        "summary": "Filson's wool comes from Suffolk sheep, described as a hardy down-type wool with a shorter staple, medium diameter and spiral crimp.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Weaving and manufacturing",
+        "summary": "Contrasts Filson's twill with WeatherWool's Jacquard-loom weave and the lynx pattern, with a theory on why the irregular weave resists wind and water. Includes a mobility note on the anorak.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Product showcase",
+        "summary": "Feature rundowns of the Filson Work Jacket (pockets, warmth), the WeatherWool Anorak (webbing, stealth pockets, melamine buttons) and the Filson Packer Coat (sheepskin collar, cape, map pocket).",
+        "first_segment": 10,
+        "last_segment": 12
+      },
+      {
+        "title": "Value and pricing",
+        "summary": "Discusses whether the jackets are worth their price, covering criticism that Filson is overpriced and the costs of making wool garments in the US.",
+        "first_segment": 12,
+        "last_segment": 14
+      },
+      {
+        "title": "The weight scandal and conclusion",
+        "summary": "Explains why Filson's 26 oz and WeatherWool's 19 oz per square yard claims aren't comparable, then sums up the different appeal of each brand.",
+        "first_segment": 14,
+        "last_segment": 16
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "is this what you want you",
+        "last_segment": 1,
+        "ends_with": "flying to California to see my sister",
+        "note": "Opening on Cape Cod train tracks; sets up the Filson vs. WeatherWool video."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "the reason I'm able to review",
+        "last_segment": 4,
+        "ends_with": "sponsoring videos thanks Karen",
+        "note": "Sponsor read for Carrot, a shopping-collection and product search service."
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "I just saw someone I'm in my hometown",
+        "last_segment": 10,
+        "ends_with": "for my entire life which is very weird",
+        "note": "Personal story about seeing someone from high school in his hometown."
+      },
+      {
+        "role": "outro",
+        "first_segment": 16,
+        "starts_with": "anyways that's about it I'm hoping",
+        "last_segment": 16,
+        "ends_with": "so anyways that's about it",
+        "note": "Holiday wishes, apology for slower uploads, and sign-off."
+      }
+    ],
+    "topics": [
+      "virgin wool vs recycled wool",
+      "wool fiber microns and scratchiness",
+      "Rambouillet and Merino sheep history",
+      "Suffolk sheep wool",
+      "wool strength testing",
+      "twill vs Jacquard weave",
+      "WeatherWool lynx pattern",
+      "wool jacket sizing",
+      "fabric weight in ounces per square yard",
+      "Filson pricing and value",
+      "made in USA wool garments"
+    ],
+    "entity_ids": [
+      "iron-snail:e:filson",
+      "iron-snail:e:weatherwool",
+      "iron-snail:e:ralph",
+      "iron-snail:e:filson-mackinaw-wool-work-jacket",
+      "iron-snail:e:filson-lined-mackinaw-wool-packer-coat",
+      "iron-snail:e:weatherwool-anorak",
+      "iron-snail:e:weatherwool-all-around-jacket",
+      "iron-snail:e:champion-hoodie",
+      "iron-snail:e:carrot",
+      "iron-snail:e:virgin-wool",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:rambouillet-wool",
+      "iron-snail:e:suffolk-sheep-wool",
+      "iron-snail:e:down-type-wool",
+      "iron-snail:e:micron",
+      "iron-snail:e:twill",
+      "iron-snail:e:plain-weave",
+      "iron-snail:e:jacquard-loom",
+      "iron-snail:e:lynx-pattern",
+      "iron-snail:e:melamine-slot-buttons",
+      "iron-snail:e:sheepskin-collar",
+      "iron-snail:e:fabric-weight-ounces-per-square-yard",
+      "iron-snail:e:pendleton",
+      "iron-snail:e:king-louis",
+      "iron-snail:e:mr-maul",
+      "iron-snail:e:debbie",
+      "iron-snail:e:christian-cerrone"
+    ],
+    "categories": [
+      "jackets",
+      "coats"
+    ],
+    "answers_questions": [
+      "What's the difference between Filson and WeatherWool wool?",
+      "Is Filson wool scratchy compared to WeatherWool?",
+      "What does virgin wool actually mean?",
+      "How should I size Filson and WeatherWool jackets?",
+      "Why is WeatherWool's lynx pattern woven on a Jacquard loom?",
+      "Is Filson overpriced for a wool jacket?",
+      "Why does Filson say 26 oz wool and WeatherWool says 19 oz?",
+      "What sheep does WeatherWool's wool come from?",
+      "What features does the WeatherWool anorak have?",
+      "How warm is the Filson Mackinaw work jacket?",
+      "What's special about the Filson Packer coat?",
+      "Is the WeatherWool anorak hard to put on if I'm not very flexible?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:1xUHAaYb1lo:s0008",
+        "note": "He starts to say WeatherWool uses a plain weave, then corrects himself: they use a Jacquard loom."
+      },
+      {
+        "segment_id": "iron-snail:1xUHAaYb1lo:s0011",
+        "note": "He first says the Filson Work Jacket has four pockets, then corrects it to six by counting the small pocket and the internal pocket."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weatherwool",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "WeatherWool",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "weather Wolf's",
+        "weather will",
+        "weather wool",
+        "weatherwolves",
+        "weatherwool",
+        "whether we'll"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ralph",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ralph",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rob's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-mackinaw-wool-work-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Mackinaw Wool Work Jacket",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Filson work jacket",
+        "work jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-lined-mackinaw-wool-packer-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Lined Mackinaw Wool Packer Coat",
+      "brand": "Filson",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "Packer",
+        "Packer coat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weatherwool-anorak",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "WeatherWool Anorak",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "anorak",
+        "interact"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weatherwool-all-around-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "WeatherWool All-Around Jacket",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "all-around jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:champion-hoodie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Champion hoodie",
+      "brand": "Champion",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "champion hoodie"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carrot",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Carrot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Karen",
+        "carrot",
+        "carrots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:virgin-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "virgin wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Mourinho",
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rambouillet-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Rambouillet wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rambulay"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:suffolk-sheep-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Suffolk sheep wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Suffolk sheep"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-type-wool",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down-type wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "down type",
+        "downtime wolves"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:micron",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "micron",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "microns"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:twill",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "twill",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:plain-weave",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "plain weave",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jacquard-loom",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Jacquard loom",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Jacquard Loom"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lynx-pattern",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "lynx pattern",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:melamine-slot-buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "melamine slot buttons",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sheepskin-collar",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "sheepskin collar",
+      "brand": "Filson",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fabric-weight-ounces-per-square-yard",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "fabric weight (ounces per square yard)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "19 ounces per square yard",
+        "26 ounce wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pendleton",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Pendleton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Pendleton Blankets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:king-louis",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "King Louis",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mr-maul",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Mr Maul",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:debbie",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Debbie",
+      "brand": "WeatherWool",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:christian-cerrone",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Christian Cerrone",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Christian's Town",
+        "Christians are on from Deo and Harris",
+        "christian",
+        "christian cerrone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "ea436f40ba23a9dd"
+}
