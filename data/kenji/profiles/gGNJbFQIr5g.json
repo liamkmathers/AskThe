@@ -1,0 +1,407 @@
+{
+  "platform_id": "gGNJbFQIr5g",
+  "profile": {
+    "video_id": "kenji:gGNJbFQIr5g",
+    "purpose": "Review and rank about a dozen outdoor standalone pizza ovens after two months of near-daily testing, giving picks for budget, high-volume, wood-fired and overall best.",
+    "video_type": "ranking",
+    "thesis": "Outdoor ovens can reach the 900°F needed for Neapolitan-style pizza that home ovens can't. The video counts down four picks, from the budget Pizzeria Pronto to the top choice, the Roccbox.",
+    "key_takeaways": [
+      "The Pizzeria Pronto (about $200) is the budget pick. It is propane-fired with a double pizza stone, reaches roughly 600–700°F air and 550°F floor, and bakes crispy pizzas in about 5 minutes, but it won't give Neapolitan leopard spotting.",
+      "The Blackstone (about $285) has a rotating stone and passes 900°F, cooking pizzas in 70–90 seconds. Build quality was poor: the motor failed, the stone cracked and the paint flaked, though fixes like a standard rotisserie motor and a thrust bearing are discussed.",
+      "The Uuni 3 ($300) burns wood pellets and reaches 900°F+ dome and about 750°F floor. It has a learning curve with fire management, but it is the most portable at about 25 lb, and a gas conversion kit was rumored.",
+      "The Roccbox (about $600 shipped) is the top pick. It is solidly built, runs on wood/charcoal or a swappable gas burner, cooks Neapolitan pizza in 75–90 seconds, stays cool to the touch, and comes with a perforated aluminum peel. Its downsides are a 12-inch mouth limiting pizzas to about 11 inches, and the price."
+    ],
+    "outline": [
+      {
+        "title": "Introduction",
+        "summary": "Explains that great pizza needs a roughly 900°F oven that home ovens can't reach, and describes testing about a dozen outdoor ovens over two months.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Number 4 (budget pick): Pizzeria Pronto",
+        "summary": "Covers the propane-fired Pizzeria Pronto: its ring burner and double stone design, temperatures, roughly 5-minute bake times, and suitability for extra-crispy rather than Neapolitan or New York pizza.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Number 3 (high-volume): The Blackstone",
+        "summary": "Covers the Blackstone's rotating stone and powerful burner, 70–90 second bakes, and its looks and build-quality problems with suggested fixes.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Number 2 (wood-fired): Uuni 3",
+        "summary": "Covers the pellet-fed Uuni 3: how it works, temperatures and bake times, its fire-management learning curve, portability, price, and a rumored gas conversion kit.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Number 1 (top choice): Roccbox",
+        "summary": "Covers the Roccbox's build, wood/charcoal and gas fuel options, ease of use, non-pizza cooking, included aluminum peel, insulation, and its downsides of mouth size and price.",
+        "first_segment": 5,
+        "last_segment": 7
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "making really great pizza requires a really",
+        "last_segment": 0,
+        "ends_with": "the very best outdoor Pizza",
+        "note": "Intro on why pizza needs a very hot oven and how the testing was done"
+      }
+    ],
+    "topics": [
+      "outdoor pizza ovens",
+      "Neapolitan pizza at home",
+      "oven temperature and bake time",
+      "propane vs wood-fired ovens",
+      "wood pellet fuel",
+      "build quality and modifications",
+      "pizza peels",
+      "portable ovens"
+    ],
+    "entity_ids": [
+      "kenji:e:pizzeria-pronto",
+      "kenji:e:blackstone-pizza-oven",
+      "kenji:e:uuni-3",
+      "kenji:e:roccbox",
+      "kenji:e:uuni-gas-conversion-kit",
+      "kenji:e:presto",
+      "kenji:e:roccbox-aluminum-pizza-peel",
+      "kenji:e:pizza-stone",
+      "kenji:e:rotisserie-motor",
+      "kenji:e:thrust-bearing",
+      "kenji:e:rocket-stove-burner-box",
+      "kenji:e:propane",
+      "kenji:e:wood-pellets",
+      "kenji:e:charcoal-briquettes",
+      "kenji:e:vintage-wagner-cast-iron-pan",
+      "kenji:e:home-depot",
+      "kenji:e:neapolitan-pizza",
+      "kenji:e:new-york-style-pizza",
+      "kenji:e:leopard-spotting"
+    ],
+    "categories": [
+      "appliances",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "What's the best outdoor pizza oven Kenji recommends?",
+      "Is the Roccbox worth $600?",
+      "How hot does the Uuni 3 get and how long does a pizza take?",
+      "What problems did Kenji have with the Blackstone pizza oven and how do you fix them?",
+      "What's a good budget outdoor pizza oven?",
+      "Can the Pizzeria Pronto make Neapolitan pizza?",
+      "Which portable pizza oven is best for camping or the beach?",
+      "Can you use gas instead of wood in the Roccbox?",
+      "How big a pizza can you make in the Roccbox?",
+      "Is the Uuni hard to use with wood pellets?",
+      "Can you cook steak or other food in these pizza ovens?",
+      "What's the best pizza peel?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:pizzeria-pronto",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Pizzeria Pronto",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "pizzeria paronto",
+        "pizzeria pronto"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:blackstone-pizza-oven",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Blackstone pizza oven",
+      "brand": "Blackstone",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Blackstone",
+        "black stone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:uuni-3",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Uuni 3",
+      "brand": "Uuni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Lee Clooney Sooni",
+        "Moonies",
+        "Uni",
+        "only three"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roccbox",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Roccbox",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Rock box"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:uuni-gas-conversion-kit",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Uuni gas conversion kit",
+      "brand": "Uuni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "gas conversion kit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:presto",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Presto",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roccbox-aluminum-pizza-peel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Roccbox aluminum pizza peel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "aluminum pizza field"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pizza-stone",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "pizza stone",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "pizza stones",
+        "stone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rotisserie-motor",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "rotisserie motor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "3 inch rotisserie motor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thrust-bearing",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "thrust bearing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "metal thrust bearing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rocket-stove-burner-box",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "rocket stove burner box",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rocket stove",
+        "rocket stove style combustion chamber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:propane",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "propane",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wood-pellets",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "wood pellets",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pellets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:charcoal-briquettes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "charcoal briquettes",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "charcoal"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-wagner-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vintage Wagner cast iron pan",
+      "brand": "Wagner",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron pan",
+        "cast-iron pan",
+        "vintage Wagner pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:home-depot",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Home Depot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:neapolitan-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Neapolitan pizza",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Neapolitan",
+        "in the apology style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:new-york-style-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "New York-style pizza",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New York",
+        "new york-style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:leopard-spotting",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "leopard spotting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "leopard spotted"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "ad6fc212f184f534"
+}

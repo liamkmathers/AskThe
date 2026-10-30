@@ -1,0 +1,542 @@
+{
+  "platform_id": "DtCqblM6Syg",
+  "profile": {
+    "video_id": "kenji:DtCqblM6Syg",
+    "purpose": "Show how to cook pan-seared, butter-basted tenderloin steaks with a mushroom pan sauce. It also compares, side by side, a steak salted and left uncovered in the fridge overnight with one salted just before cooking.",
+    "video_type": "how_to",
+    "thesis": "Salting a steak well ahead of time and resting it uncovered in the fridge overnight gives a drier surface for a better sear and a juicier, more tender interior. A side-by-side cook of two tenderloin steaks demonstrates this.",
+    "key_takeaways": [
+      "Two tenderloin steaks cut from the same tenderloin are cooked identically. The only difference is that one was salted and rested uncovered overnight and the other was salted just before cooking.",
+      "The video explains why surface moisture slows browning: the latent heat of vaporization and the Maillard reaction.",
+      "Tenderloin is basted with butter, shallots and thyme, and pulled before its target temperature to allow for carryover cooking.",
+      "A mushroom pan sauce is built with stock, soy sauce, mustard and butter, then finished with acid.",
+      "The steaks are cut and tasted to compare crust, juice retention and texture, with a mention of a steak salted for 4 days."
+    ],
+    "outline": [
+      {
+        "title": "Tenderloin prep and science",
+        "summary": "Introduces the two tenderloin steaks, one salted and rested uncovered overnight and one unsalted. Explains what salting ahead and leaving the steak uncovered do, and seasons with pepper ground in a mortar and pestle.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Searing the steaks",
+        "summary": "Both steaks go into a hot pan with olive oil, and the difference in sizzle is used to explain evaporation energy, latent heat and the Maillard reaction. Compares the crusts after flipping, using chef's presses, and covers preferred doneness for lean versus fatty cuts.",
+        "first_segment": 4,
+        "last_segment": 11
+      },
+      {
+        "title": "Basting and cooking",
+        "summary": "Adds shallots, thyme and butter and bastes the steaks, with tips for basting on induction versus gas. Checks temperatures, explains carryover cooking, sears the edges, and rests the steaks under the basting fat.",
+        "first_segment": 11,
+        "last_segment": 14
+      },
+      {
+        "title": "Making the mushroom sauce",
+        "summary": "Browns mixed mushrooms with butter, oil, salt, MSG and pepper, then softens shallots with thyme. Adds soy sauce, whole grain mustard, chicken stock and butter and reduces the sauce to an emulsified, creamy texture.",
+        "first_segment": 14,
+        "last_segment": 17
+      },
+      {
+        "title": "Results and taste test",
+        "summary": "Slices the salted and unsalted steaks to compare crust and juice retention, and mentions a steak salted for 4 days that turned ham-like. Finishes the sauce with yuzu juice, plates both steaks, and tastes them.",
+        "first_segment": 17,
+        "last_segment": 24
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Here it's Kenji and I'm going",
+        "last_segment": 0,
+        "ends_with": "We're going to make a mushroom sauce.",
+        "note": "Opening greeting and what will be cooked"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "No, no, kitty.",
+        "last_segment": 2,
+        "ends_with": "No, no, kitty.",
+        "note": "Brief interruption talking to his cat"
+      },
+      {
+        "role": "outro",
+        "first_segment": 24,
+        "starts_with": "That is how you cook a",
+        "last_segment": 24,
+        "ends_with": "pals I'll see you next time.",
+        "note": "Closing sign-off"
+      }
+    ],
+    "topics": [
+      "dry brining steak",
+      "salting steak in advance",
+      "leaving meat uncovered in the fridge",
+      "surface moisture and searing",
+      "latent heat of vaporization",
+      "Maillard reaction",
+      "tenderloin steak cooking",
+      "doneness for lean vs fatty steaks",
+      "butter basting",
+      "carryover cooking",
+      "mushroom pan sauce",
+      "emulsifying butter into sauce",
+      "finishing sauces with acid",
+      "when to add pepper to steak"
+    ],
+    "entity_ids": [
+      "kenji:e:beef-tenderloin-steak",
+      "kenji:e:ribeye",
+      "kenji:e:new-york-strip",
+      "kenji:e:dry-brining-salting-in-advance",
+      "kenji:e:pellicle",
+      "kenji:e:maillard-reaction",
+      "kenji:e:latent-heat-of-vaporization",
+      "kenji:e:carryover-cooking",
+      "kenji:e:butter-basting",
+      "kenji:e:black-pepper",
+      "kenji:e:mortar-and-pestle",
+      "kenji:e:chef-s-press",
+      "kenji:e:induction-cooktop",
+      "kenji:e:olive-oil",
+      "kenji:e:butter",
+      "kenji:e:shallots",
+      "kenji:e:thyme",
+      "kenji:e:mixed-mushrooms",
+      "kenji:e:chicken-stock",
+      "kenji:e:better-than-bouillon",
+      "kenji:e:msg",
+      "kenji:e:soy-sauce",
+      "kenji:e:whole-grain-mustard",
+      "kenji:e:yuzu-juice",
+      "kenji:e:lime-juice",
+      "kenji:e:parsley",
+      "kenji:e:crunchy-sea-salt",
+      "kenji:e:mushroom-pan-sauce"
+    ],
+    "categories": [
+      "meat",
+      "techniques",
+      "sauces",
+      "ingredients"
+    ],
+    "answers_questions": [
+      "When should I salt my steak, right before cooking or the night before?",
+      "Why should I leave a salted steak uncovered in the fridge?",
+      "Does salting a steak overnight actually make it juicier?",
+      "Why does a dry steak get a better crust?",
+      "What is the Maillard reaction and why does surface moisture slow it down?",
+      "Should I put pepper on my steak before or after searing?",
+      "What temperature should I cook a tenderloin steak to?",
+      "Why do you cook tenderloin rarer than ribeye?",
+      "How do you baste a steak with butter on an induction burner?",
+      "How do I make a quick mushroom pan sauce for steak?",
+      "What happens if you salt a steak for 4 days before cooking?",
+      "Is tenderloin really a boring cut of steak?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Clip of a tenderloin steak salted in the fridge for 4 days that turned ham-like (shown within this video)",
+      "Earlier videos where Kenji explains the energy needed to evaporate surface moisture"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:beef-tenderloin-steak",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "beef tenderloin steak",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "tenderloin",
+        "tenderloin steaks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ribeye",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ribeye",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:new-york-strip",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "New York strip",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dry-brining-salting-in-advance",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "dry brining (salting in advance)",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "salted and rested"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pellicle",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pellicle",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:maillard-reaction",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Maillard reaction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:latent-heat-of-vaporization",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "latent heat of vaporization",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carryover-cooking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "carryover cooking",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter-basting",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "butter basting",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "baste",
+        "basting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-pepper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "black pepper",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "pepper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mortar-and-pestle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "mortar and pestle",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chef-s-press",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chef's press",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "chef's press"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:induction-cooktop",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "induction cooktop",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "induction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:olive-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "butter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shallots",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "shallots",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "shallot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thyme",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "thyme",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "thyme sprigs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mixed-mushrooms",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "mixed mushrooms",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "mushrooms"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chicken-stock",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chicken stock",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:better-than-bouillon",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Better Than Bouillon",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:whole-grain-mustard",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "whole grain mustard",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yuzu-juice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "yuzu juice",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lime-juice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "lime juice",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:parsley",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "parsley",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:crunchy-sea-salt",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "crunchy sea salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mushroom-pan-sauce",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mushroom pan sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "mushroom sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "969ddfe8778832f3"
+}

@@ -43,16 +43,26 @@ categories:
 # channel list (data/kenji/channel.tsv) for verdicts: gear, comparisons, tests.
 video_selection: kenji.videos.txt
 
-# Starter questions come from real fan comments once they're fetched
-# (`askthe comments kenji`, then `askthe questions kenji`), as for The Iron Snail.
-starter_questions: []
+# Shown on the ask page. Fans' questions read out in his "Ask Kenji Anything"
+# episodes, lightly shortened; refresh from his comments once they're fetched.
+starter_questions:
+  - "Do I need a gas burner to stir-fry?"
+  - "How often should I oil my wooden cutting board?"
+  - "Would you recommend using a cleaver?"
 
 # Known names and how auto-captions mangle them. Grows as videos are processed.
 glossary:
-  # His own books (D14: his opinion, not sponsorship).
+  # His own books and the products he co-designed (D14: his opinion, not
+  # sponsorship; he says on camera when he made something).
   - name: The Food Lab
     type: product
     heard_as: [Food Lab, the food lab book]
   - name: The Wok
     type: product
     heard_as: [my wok book, the wok book]
+  - name: Our Place Titanium Pro
+    type: product
+    heard_as: [Titanium Pro, Our Place pan, titanium pan]
+  - name: KAN x Kenji Shitoku
+    type: product
+    heard_as: [Shitoku, shitoku knife, KAN knife, Kenji knife]

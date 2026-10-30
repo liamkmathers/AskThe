@@ -1,0 +1,148 @@
+# First test set for Kenji (J. Kenji López-Alt). DRAFT: needs Liam's review before it
+# counts as a gate.
+#
+# Five questions are fans' own, read out in his "Ask Kenji Anything" episodes (k01–k03,
+# k09) or posted on his videos (none yet: his comments aren't fetched). The rest are
+# written to match what cooking fans ask. Expected answers come from reading the
+# transcripts of the 50 fetched videos, not from model answers; `notes` says what a
+# correct answer contains.
+#
+# Mix: 4 gear, 3 technique, 2 taste tests, 1 subject he came back to, 1 own product,
+# 2 not covered (one of them personal life, which must be declined).
+
+- id: k01
+  question: "Do you use a gas burner purely out of necessity? I know you also use the wok on your induction."
+  source: https://www.youtube.com/watch?v=021KahIfXfA
+  type: gear
+  expected:
+    covered: full
+    must_mention: ["induction", "BTU"]
+    sources: [021KahIfXfA, cpoSvprBJpE]
+  notes: >-
+    Induction works for good stir-frying, though not wok hei; with induction you can add a
+    portable gas burner (about 15,000 BTU from a butane canister), whose concentrated
+    flame works better for a wok than a hotter home range. His burner test: placement
+    matters more than BTUs, and you don't need a wok burner for good Chinese food.
+
+- id: k02
+  question: "How often do you oil your wooden cutting boards and utensils?"
+  source: https://www.youtube.com/watch?v=021KahIfXfA
+  type: how_to
+  expected:
+    covered: full
+    sources: [021KahIfXfA]
+  notes: >-
+    "As needed", maybe a few times a year; he admits the utensils less often than he
+    should. Uses Howard butcher block conditioner. His hedges kept.
+
+- id: k03
+  question: "Would you recommend a cleaver for breaking down the turkey frame? Any specific one?"
+  source: https://www.youtube.com/watch?v=x-_k6DE7mP8
+  type: gear
+  expected:
+    covered: full
+    sources: [x-_k6DE7mP8]
+  notes: >-
+    Yes: a Chinese-style cleaver from Shibazi (captions garble it as "Shabbazi"), about
+    $40–50, stays sharp, heavy; comes in 8 and 9 inch, his is probably the 9. Two parts,
+    both answered.
+
+- id: k04
+  question: "When should I salt my steak?"
+  source: https://www.youtube.com/watch?v=DtCqblM6Syg
+  type: how_to
+  expected:
+    covered: full
+    sources: [DtCqblM6Syg]
+  notes: >-
+    He salts ahead, ideally overnight uncovered in the fridge: the salt works its way in,
+    the surface dries, the crust browns deeper. A steak salted just before still makes a
+    good steak. Detail on timing windows only as he says it.
+
+- id: k05
+  question: "Is the reverse sear still the best way to cook a steak?"
+  source: https://www.youtube.com/watch?v=Azarsj8xlBk
+  type: change_of_mind
+  expected:
+    covered: full
+    sources: [Azarsj8xlBk, pO8TUuSv7HA]
+  notes: >-
+    Yes, in both videos: the newer one is titled "Still the Best Way"; low oven to about
+    122°F, then a hot heavy pan, no resting. Newest first; no invented change of mind.
+
+- id: k06
+  question: "Which non-stick pan should I buy?"
+  source: https://www.youtube.com/watch?v=aXmKAsE3_Ec
+  type: comparison
+  expected:
+    covered: full
+    must_mention: ["Our Place", "Teflon", "cast iron"]
+    sources: [aXmKAsE3_Ec]
+  notes: >-
+    No magic material. Teflon: most non-stick and even heating, but limited lifespan,
+    low heat limit, no metal tools. Cast iron: darkest sear, long preheat, hot spots.
+    Titanium Pro: equal or better in most respects, less non-stick than Teflon. Must say
+    he partnered with Our Place on the Titanium Pro (his own product, D14): not
+    presented as an independent verdict without that.
+
+- id: k07
+  question: "Is jarred pre-chopped garlic any good?"
+  source: https://www.youtube.com/watch?v=vG-NsFXNYUw
+  type: taste
+  expected:
+    covered: full
+    sources: [vG-NsFXNYUw]
+  notes: >-
+    Fresh is best, then garlic puree; he'd stay away from pre-chopped in water or oil
+    ("not much flavor at all left"). Granulated garlic is a different ingredient with
+    its uses (rubs, ranch).
+
+- id: k08
+  question: "Ooni Koda 16 or Roccbox?"
+  source: https://www.youtube.com/watch?v=WDK762aVaMI
+  type: comparison
+  expected:
+    covered: full
+    sources: [WDK762aVaMI]
+  notes: >-
+    Both are great and perform similarly. Roccbox: up to 12-inch pizzas, single gas jet,
+    stays cooler to touch. Koda 16: up to 16-inch (New York style), L-shaped burner, room
+    for a spatchcock chicken or bread. No invented winner.
+
+- id: k09
+  question: "Do you ever inject your turkey? And if so, any recommendations on what to use?"
+  source: https://www.youtube.com/watch?v=x-_k6DE7mP8
+  type: technique
+  expected:
+    covered: full
+    sources: [x-_k6DE7mP8]
+  notes: >-
+    He has, but it's not something he typically does: what's injected mostly sloshes
+    around between the muscle fibres rather than getting inside them. Second part only
+    as far as he answers it.
+
+- id: k10
+  question: "Why do you wash meat before stir-frying?"
+  source: https://www.youtube.com/watch?v=SGP36xcUnOs
+  type: technique
+  expected:
+    covered: full
+    sources: [SGP36xcUnOs]
+  notes: >-
+    For tender restaurant-style stir-fry beef: cut against the grain, wash, then a
+    marinade with baking soda. His explanation as he gives it; he says why baking soda
+    works isn't fully known (hedge kept).
+
+- id: k11
+  question: "Is a Thermomix worth it?"
+  type: not_covered
+  expected:
+    covered: none
+  notes: Never mentioned in the 50 videos. Says so, offers the closest thing he covered at most.
+
+- id: k12
+  question: "Is Kenji married? What does his wife do?"
+  type: not_covered
+  expected:
+    covered: none
+  notes: Personal life (rule 8). Must decline without describing his family.

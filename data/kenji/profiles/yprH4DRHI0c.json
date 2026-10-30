@@ -1,0 +1,359 @@
+{
+  "platform_id": "yprH4DRHI0c",
+  "profile": {
+    "video_id": "kenji:yprH4DRHI0c",
+    "purpose": "Explain the differences between table salt, kosher salt and fancy finishing salts, and when each is the right one to use.",
+    "video_type": "explainer",
+    "thesis": "All these salts are chemically almost identical sodium chloride. The real differences are crystal shape and density, which affect volume measurements, handling and texture. That is why Serious Eats recipes call for kosher salt, while table salt and finishing salts have their own appropriate uses.",
+    "key_takeaways": [
+      "Table, kosher and sea salts are nearly 100% sodium chloride; additives like anti-caking agents or trace minerals don't meaningfully affect flavor once dissolved.",
+      "The key difference is crystal geometry: tiny table salt cubes pack tightly, while kosher salt's craggy flakes trap air.",
+      "A cup of table salt weighed just over 10 oz versus about 5 oz for Diamond Crystal kosher salt, so volume measures are not interchangeable.",
+      "Morton kosher salt weighs about 80% as much as table salt by volume; a conversion chart is linked in the description.",
+      "Kosher salt is recommended mainly for handling: it is easy to pinch and sprinkle evenly, while table salt slips through the fingers.",
+      "Table salt is fine if you weigh salt by mass, and it is good in baked goods and liquids where it dissolves quickly.",
+      "Fancy finishing salts are optional; their shape adds crunch and bursts of salinity, so use them to finish dishes, not to cook.",
+      "Kenji's favorite finishing salts are a flaky English sea salt and a moist, chunky French salt, and he recommends a salt cellar for easy access."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Kenji introduces the topic of salt varieties and says Serious Eats usually recommends kosher salt.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Chemical Differences",
+        "summary": "Covers how all salts are essentially sodium chloride, why crystal geometry is the real difference, and a scale demonstration comparing the weight of a cup of table salt and a cup of kosher salt. Also notes the difference between Diamond Crystal and Morton.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Why Use Kosher",
+        "summary": "Explains that kosher salt is preferred because it is easier to pick up and sprinkle evenly than table salt.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "When to Use Table Salt",
+        "summary": "Table salt is fine when weighing by mass, and useful in baking and liquids where it dissolves quickly and evenly.",
+        "first_segment": 4,
+        "last_segment": 4
+      },
+      {
+        "title": "When to Use Fancy Salt",
+        "summary": "Covers finishing salts: their origins, how shape affects texture and perception, uses for finishing bread, cookies and meat, Kenji's favorites, and a tip to get a salt cellar.",
+        "first_segment": 4,
+        "last_segment": 6
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone, this is Kenji Lopez",
+        "last_segment": 0,
+        "ends_with": "I'm going to explain to you why.",
+        "note": "Channel greeting and topic introduction"
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "I kind of put them in",
+        "last_segment": 5,
+        "ends_with": "a lot more worth living.",
+        "note": "Joke comparing fancy salts to Ghostbusters and bubble baths"
+      }
+    ],
+    "topics": [
+      "salt types",
+      "kosher salt vs table salt",
+      "salt crystal shape and density",
+      "measuring salt by volume vs weight",
+      "Diamond Crystal vs Morton kosher salt",
+      "seasoning technique",
+      "finishing salts",
+      "salt in baking"
+    ],
+    "entity_ids": [
+      "kenji:e:kosher-salt",
+      "kenji:e:table-salt",
+      "kenji:e:sea-salt",
+      "kenji:e:finishing-salt",
+      "kenji:e:diamond-crystal-kosher-salt",
+      "kenji:e:morton-kosher-salt",
+      "kenji:e:malden-sea-salt",
+      "kenji:e:flirtel",
+      "kenji:e:sodium-chloride",
+      "kenji:e:anti-caking-agents",
+      "kenji:e:trace-minerals",
+      "kenji:e:kitchen-scale",
+      "kenji:e:salt-cellar",
+      "kenji:e:serious-eats",
+      "kenji:e:j-kenji-lopez-alt",
+      "kenji:e:measuring-by-weight-vs-volume"
+    ],
+    "categories": [
+      "ingredients",
+      "techniques",
+      "baking",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "What's the actual difference between kosher salt and table salt?",
+      "Can I swap table salt for kosher salt in a recipe?",
+      "Why do Serious Eats recipes call for kosher salt?",
+      "How much does a cup of table salt weigh compared to a cup of kosher salt?",
+      "Is Morton kosher salt the same as Diamond Crystal?",
+      "Do sea salts with minerals actually taste different?",
+      "When is it okay to use table salt?",
+      "Should I use table salt or kosher salt for baking?",
+      "What are finishing salts good for and when should I use them?",
+      "What finishing salts does Kenji like?",
+      "Why is kosher salt easier to season with?",
+      "Do I need to buy fancy salt?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Serious Eats article: Ask the Food Lab: Do I Need to Use Kosher Salt? (salt volume and mass comparison chart, linked in description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kosher salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:table-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "table salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sea-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "sea salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "colored sea salts",
+        "fancy sea salt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:finishing-salt",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "finishing salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "fancy finishing salts",
+        "fancy salts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:diamond-crystal-kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Diamond Crystal kosher salt",
+      "brand": "Diamond Crystal",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:morton-kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Morton kosher salt",
+      "brand": "Morton",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Morton's kosher salt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:malden-sea-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Malden sea salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flirtel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "flirtel",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sodium-chloride",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sodium chloride",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "NaCCl"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:anti-caking-agents",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "anti-caking agents",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:trace-minerals",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "trace minerals",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kitchen-scale",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kitchen scale",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "scale"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salt-cellar",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "salt cellar",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "salt seller"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "serious seats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:j-kenji-lopez-alt",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "J. Kenji López-Alt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Kenji Lopez Alt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:measuring-by-weight-vs-volume",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "measuring by weight vs volume",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "weighing your salt by mass instead of relying on volume"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "04d4ae7197960975"
+}

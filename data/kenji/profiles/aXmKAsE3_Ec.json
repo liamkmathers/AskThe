@@ -1,0 +1,848 @@
+{
+  "platform_id": "aXmKAsE3_Ec",
+  "profile": {
+    "video_id": "kenji:aXmKAsE3_Ec",
+    "purpose": "A side-by-side test of three kinds of non-stick pan: a Teflon-style coated aluminum pan, a vintage well-seasoned Wagner cast iron pan, and the Our Place Titanium Pro, which Kenji co-developed. The tests are heating evenness, steak searing, cleanup, salmon skin searing, fried eggs and omelettes, so viewers can see where each pan does well and pick one for how they cook.",
+    "video_type": "comparison",
+    "thesis": "No pan material is magic and each involves trade-offs. Kenji runs the same tests on all three pans so viewers can judge each one. He openly says the Titanium Pro is his own collaboration product.",
+    "key_takeaways": [
+      "Heating evenness is tested with tortillas and cheese over a ring burner. The pure aluminum Teflon pan heats most evenly, cast iron shows clear hot spots, and the clad Titanium Pro comes out close to aluminum.",
+      "Teflon breaks down at roughly 450–475°F and can give off harmful fumes, so it is not used for high-heat searing.",
+      "Cast iron needs a long preheat of about 10 minutes to sear evenly. When preheated properly it gives the darkest crust.",
+      "Cleanup covers soap on seasoned cast iron, drying and re-oiling cast iron, soaking, air drying and dishwasher use. The Titanium Pro's surface gradually darkens or seasons with use, and this is normal.",
+      "Because cast iron stores more heat, the same heat setting and timing gives different results than in other pans, so cooking times have to be adjusted for each pan.",
+      "The fried egg slide test and the omelette test compare how well each surface releases food. The omelette uses a water-evaporation method to bring the pan to about 230°F before the butter goes in.",
+      "Metal utensils are tested on each surface: Teflon needs non-metal tools, while cast iron and the Titanium Pro are used with a metal fish spatula and fork.",
+      "An older Teflon pan with scratches illustrates that coatings wear out over a few years even with careful use."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to pans",
+        "summary": "Kenji introduces the three pans: a Teflon-style coated pan, a vintage seasoned Wagner cast iron pan, and the Our Place Titanium Pro. He discloses that he partnered with Our Place on the Titanium Pro and explains the side-by-side testing approach.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Even heating test",
+        "summary": "Tortillas topped with cheese are heated on a ring-flame burner to map each pan's heat distribution. He explains how aluminum, steel/iron and clad construction conduct heat.",
+        "first_segment": 2,
+        "last_segment": 8
+      },
+      {
+        "title": "Searing steak test",
+        "summary": "Unseasoned steaks are seared for 60 seconds per side in each pan. Teflon's temperature limits and fumes are discussed, and the cast iron is retested after a proper preheat.",
+        "first_segment": 9,
+        "last_segment": 16
+      },
+      {
+        "title": "Cleanup comparison",
+        "summary": "Kenji washes each pan and covers soap on seasoned cast iron, drying and re-seasoning cast iron, soaking, air drying, dishwasher safety, and the Titanium Pro's surface gradually seasoning.",
+        "first_segment": 17,
+        "last_segment": 23
+      },
+      {
+        "title": "Searing salmon test",
+        "summary": "Skin-on salmon is seared at medium heat under a chef's press to compare crispness, evenness and release. The cast iron needs a shorter time because it stores more heat, and he contrasts silicone spatulas with metal fish spatulas.",
+        "first_segment": 23,
+        "last_segment": 30
+      },
+      {
+        "title": "Fried egg test",
+        "summary": "Eggs are fried with a one-second spray of cooking spray, and each pan gets a slide test to judge how slick it is. This includes a joking 'slickness scale' of TV and film characters.",
+        "first_segment": 31,
+        "last_segment": 35
+      },
+      {
+        "title": "Omelet test",
+        "summary": "Omelettes are made with the water-evaporation method to set the pan temperature, then compared for sticking, shape and texture. Pan shape and weight are also discussed.",
+        "first_segment": 35,
+        "last_segment": 43
+      },
+      {
+        "title": "Utensils, Teflon wear and conclusion",
+        "summary": "Kenji compares how each surface tolerates metal utensils and shows a scratched, retired five-year-old Teflon pan. He then sums up the trade-offs of the three pans and why he partnered with Our Place.",
+        "first_segment": 43,
+        "last_segment": 46
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone, it's Kenji. Uh, and",
+        "last_segment": 2,
+        "ends_with": "Um so let's get into the testing.",
+        "note": "Introduces the three pans and discloses Kenji's partnership with Our Place on the Titanium Pro"
+      },
+      {
+        "role": "aside",
+        "first_segment": 34,
+        "starts_with": "What's uh what are some points",
+        "last_segment": 35,
+        "ends_with": "wearing socks. Yeah. Rock. Yeah.",
+        "note": "Joking 'slickness scale' with the crew using TV and film characters (the Fonz, A.C. Slater, Tom Cruise in Cocktail), mixed in with the fried egg slide-test result"
+      },
+      {
+        "role": "outro",
+        "first_segment": 46,
+        "starts_with": "I'll leave a link to where",
+        "last_segment": 46,
+        "ends_with": "non-binary pals. See you later.",
+        "note": "Link to buy his own Titanium Pro pans and sign-off"
+      }
+    ],
+    "topics": [
+      "non-stick pan comparison",
+      "Teflon vs cast iron vs titanium",
+      "heat distribution and conductivity",
+      "searing steak",
+      "searing salmon skin",
+      "fried egg slide test",
+      "omelette technique",
+      "pan cleanup and care",
+      "seasoning cast iron",
+      "Teflon safety and temperature limits",
+      "metal utensils on non-stick",
+      "clad pan construction",
+      "heat capacity / thermal mass"
+    ],
+    "entity_ids": [
+      "kenji:e:titanium-pro",
+      "kenji:e:our-place",
+      "kenji:e:teflon-coated-non-stick-pan",
+      "kenji:e:vintage-wagner-cast-iron-pan",
+      "kenji:e:wagner",
+      "kenji:e:cast-iron",
+      "kenji:e:carbon-steel-pan",
+      "kenji:e:aluminum",
+      "kenji:e:steel",
+      "kenji:e:titanium",
+      "kenji:e:noco-non-stick-technology",
+      "kenji:e:clad-pan-construction",
+      "kenji:e:seasoning-polymerized-oil",
+      "kenji:e:thermal-mass-heat-capacity",
+      "kenji:e:heat-conductivity-and-distribution",
+      "kenji:e:teflon-breakdown-fumes",
+      "kenji:e:water-evaporation-omelette-method",
+      "kenji:e:steak-skirt-or-flank",
+      "kenji:e:skin-on-salmon",
+      "kenji:e:fried-egg",
+      "kenji:e:omelette",
+      "kenji:e:tortilla",
+      "kenji:e:quesadilla",
+      "kenji:e:non-stick-cooking-spray",
+      "kenji:e:butter",
+      "kenji:e:chef-s-press",
+      "kenji:e:silicone-spatula",
+      "kenji:e:metal-fish-spatula",
+      "kenji:e:nylon-fork",
+      "kenji:e:ring-flame-burner",
+      "kenji:e:dishwasher",
+      "kenji:e:induction-compatibility",
+      "kenji:e:wok",
+      "kenji:e:lena-davidson",
+      "kenji:e:t-1000",
+      "kenji:e:the-fonz",
+      "kenji:e:mario-lopez",
+      "kenji:e:a-c-slater",
+      "kenji:e:john-travolta",
+      "kenji:e:tom-cruise",
+      "kenji:e:zack-morris"
+    ],
+    "categories": [
+      "pans",
+      "techniques",
+      "eggs",
+      "meat",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "Is the Our Place Titanium Pro as non-stick as a Teflon pan?",
+      "Which heats more evenly: Teflon, cast iron, or the Titanium Pro?",
+      "Can I sear a steak in a Teflon non-stick pan?",
+      "At what temperature does Teflon start to break down?",
+      "Why does my cast iron pan sear unevenly, and how long should I preheat it?",
+      "Can you use soap on a cast iron pan?",
+      "Is the Titanium Pro dishwasher safe and can I leave it soaking?",
+      "Why is my Titanium Pro pan getting dark spots or discoloration?",
+      "Can I use metal utensils on the Titanium Pro?",
+      "What's the best pan for making an omelette?",
+      "How do you know when the pan is the right temperature for an omelette?",
+      "How does salmon skin searing compare in cast iron vs non-stick?",
+      "How long does a Teflon pan last before you should replace it?",
+      "Is Kenji's Titanium Pro pan worth buying over cast iron?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:aXmKAsE3_Ec:s0014",
+        "note": "The first steak sear favoured the Titanium Pro over cast iron. Kenji says cast iron users would object that the pan wasn't preheated evenly, so he repeated the test with a longer preheat, and cast iron then gave the darkest sear."
+      },
+      {
+        "segment_id": "kenji:aXmKAsE3_Ec:s0025",
+        "note": "The first salmon in cast iron, cooked the same 3 minutes as in Teflon, came out much darker. He cooked a second piece in the cast iron and flipped it at about 2.5 minutes."
+      },
+      {
+        "segment_id": "kenji:aXmKAsE3_Ec:s0010",
+        "note": "The steak is called skirt steak in segment 9 but flank steak in segment 10. The video does not resolve which it is."
+      }
+    ],
+    "related_videos": [
+      "Kenji's earlier content about developing the Titanium Pro pan with Our Place (referenced in the description)",
+      "Patreon write-up on how the NoCo non-stick technology works (linked in the description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:titanium-pro",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Titanium Pro",
+      "brand": "Our Place",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "titanium pro",
+        "titanium propan",
+        "titanium propane"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:our-place",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Our Place",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "our place"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:teflon-coated-non-stick-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Teflon-coated non-stick pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Teflon",
+        "non-stick pan",
+        "teflon coated pan",
+        "teflon style pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-wagner-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vintage Wagner cast iron pan",
+      "brand": "Wagner",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron pan",
+        "vintage Wagner pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wagner",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Wagner",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:teflon-coated-non-stick-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Teflon-coated non-stick pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Teflon",
+        "non-stick pan",
+        "teflon",
+        "teflon coated pan",
+        "teflon style pan",
+        "tough one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Cast iron",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Carbon steel pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "carbon steel pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aluminum",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Aluminum",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "aluminum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Steel",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:titanium",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Titanium",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "titanium"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:noco-non-stick-technology",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "NoCo non-stick technology",
+      "brand": "Our Place",
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:clad-pan-construction",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Clad pan construction",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "clad pan",
+        "claded with steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:seasoning-polymerized-oil",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Seasoning (polymerized oil)",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "polymerized oil",
+        "reseason",
+        "seasoning"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thermal-mass-heat-capacity",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Thermal mass / heat capacity",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "heat capacity",
+        "thermal battery"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:heat-conductivity-and-distribution",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Heat conductivity and distribution",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "conductor of heat",
+        "heat distribution"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:teflon-breakdown-fumes",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Teflon breakdown fumes",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "harmful fumes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:water-evaporation-omelette-method",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Water-evaporation omelette method",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "my standard method"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:steak-skirt-or-flank",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Steak (skirt or flank)",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "flank steak",
+        "skirt steak"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:skin-on-salmon",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Skin-on salmon",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "salmon",
+        "skin on salmon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fried-egg",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Fried egg",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "fried egg"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:omelette",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Omelette",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "omelet",
+        "omelette"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tortilla",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Tortilla",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "tortilla"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:quesadilla",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Quesadilla",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "quesadillas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:non-stick-cooking-spray",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Non-stick cooking spray",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "non-stick cooking spray"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "butter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chef-s-press",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chef's press",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "chef's press"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:silicone-spatula",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Silicone spatula",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "silicon spatula",
+        "silicone coated spatula"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:metal-fish-spatula",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Metal fish spatula",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "metal fish spatula"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nylon-fork",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Nylon fork",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "nylon fork"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ring-flame-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Ring-flame burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "burner here that has a ring of flame"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dishwasher",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Dishwasher",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "dishwasher"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:induction-compatibility",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Induction compatibility",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "induction friendly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:t-1000",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "T-1000",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "T1000"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-fonz",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "The Fonz",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "the FS"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mario-lopez",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Mario Lopez",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:a-c-slater",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "A.C. Slater",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "AC Slater"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:john-travolta",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "John Travolta",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "John Travolta from Greece"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tom-cruise",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Tom Cruise",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Tom Cruz"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:zack-morris",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Zack Morris",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Zach Morris"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "832e9cbfea9df287"
+}

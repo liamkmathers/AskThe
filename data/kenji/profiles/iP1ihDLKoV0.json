@@ -1,0 +1,412 @@
+{
+  "platform_id": "iP1ihDLKoV0",
+  "profile": {
+    "video_id": "kenji:iP1ihDLKoV0",
+    "purpose": "Shows how to freeze food flat in zipper-lock freezer bags and defrost it quickly on an aluminum baking sheet, so frozen food keeps its quality.",
+    "video_type": "how_to",
+    "thesis": "Air and time are the enemies of frozen food. Freezing food flat in an air-free freezer bag and defrosting it on an aluminum sheet make it freeze and thaw faster with less damage.",
+    "key_takeaways": [
+      "Slow freezing and defrosting form large jagged ice crystals that cause cell damage, making vegetables mushy and meat wet.",
+      "Exposure to air causes sublimation (ice turning straight to vapor), which causes freezer burn.",
+      "Water frozen flat in a bag melted about twice as fast as the same amount frozen in a cylindrical deli container (over two cups versus less than one cup after 45 minutes).",
+      "Use freezer bags rather than regular zipper-lock bags, because regular bags let air through.",
+      "Fold the bag's lip over so it stands up, fill it, partly seal it, push the air out from the corner, then seal it fully and spread the food into an even layer.",
+      "Liquids like soup are bagged the same way, sealing just as the last air is pushed out.",
+      "Flat bags stack for easy organization and visual access in the freezer.",
+      "Defrosting in the fridge works but is slow. Cold running water wastes water.",
+      "An aluminum baking sheet defrosts food up to about twice as fast as the counter or a cutting board. This works for flat packs and for steaks, chops, chicken and shrimp."
+    ],
+    "outline": [
+      {
+        "title": "Why air and time ruin frozen food",
+        "summary": "Explains how slow freezing creates ice crystals that cause cell damage, and how air exposure causes sublimation and freezer burn. The fix is to freeze fast and flat with little air.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Flat vs. cylinder melting test",
+        "summary": "Compares a quart of water frozen flat in a bag with one frozen in a deli container. The flat one melts about twice as fast at room temperature.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Freezing solids and semi-solids",
+        "summary": "Step-by-step method for bagging ground beef, chili or stew in a freezer bag. Covers folding the lip, pushing out air, sealing, spreading flat and labeling.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Freezing liquids",
+        "summary": "The same bagging method applied to soup, sealing as the last air is pushed out. Also notes that flat bags stack for easy freezer organization.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Defrosting on an aluminum baking sheet",
+        "summary": "Compares fridge thawing and cold water with an aluminum sheet, which conducts heat well and defrosts food up to twice as fast. Works for flat packs and for steaks, chops, chicken and shrimp.",
+        "first_segment": 3,
+        "last_segment": 3
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone Kenji Lopez Al from",
+        "last_segment": 0,
+        "ends_with": "today we're talking about freezers",
+        "note": "Greeting and topic introduction"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "where's that soup again o",
+        "last_segment": 3,
+        "ends_with": "o that was easy",
+        "note": "Brief joke about finding the soup in the freezer"
+      },
+      {
+        "role": "outro",
+        "first_segment": 3,
+        "starts_with": "now with all these tips you're",
+        "last_segment": 3,
+        "ends_with": "everything out and start most graduate",
+        "note": "Closing joke about organizing the freezer"
+      }
+    ],
+    "topics": [
+      "freezing food",
+      "defrosting food",
+      "freezer burn",
+      "ice crystals and cell damage",
+      "sublimation",
+      "surface area to volume ratio",
+      "freezer bag technique",
+      "freezer organization",
+      "heat conduction of aluminum",
+      "food safety when thawing"
+    ],
+    "entity_ids": [
+      "kenji:e:serious-eats",
+      "kenji:e:zipper-lock-freezer-bag",
+      "kenji:e:deli-container",
+      "kenji:e:aluminum-baking-sheet",
+      "kenji:e:aluminum",
+      "kenji:e:freezer",
+      "kenji:e:refrigerator",
+      "kenji:e:freezer-burn",
+      "kenji:e:sublimation",
+      "kenji:e:ice-crystal-cell-damage",
+      "kenji:e:surface-area-to-volume-ratio",
+      "kenji:e:ground-beef",
+      "kenji:e:chili",
+      "kenji:e:soup",
+      "kenji:e:steaks",
+      "kenji:e:chops",
+      "kenji:e:frozen-chicken",
+      "kenji:e:frozen-shrimp",
+      "kenji:e:cutting-board"
+    ],
+    "categories": [
+      "techniques",
+      "kitchen tools",
+      "meat",
+      "appliances"
+    ],
+    "answers_questions": [
+      "What's the best way to freeze ground beef or chili?",
+      "Why does frozen meat come out wet and veggies mushy?",
+      "What causes freezer burn and how do I prevent it?",
+      "Why should I freeze food flat instead of in containers?",
+      "Do I really need freezer bags or are regular zipper bags fine?",
+      "How do I get all the air out of a ziplock bag before freezing?",
+      "How do I freeze soup in a bag without spilling it?",
+      "What's the fastest way to defrost meat without running water?",
+      "Does thawing food on an aluminum pan actually work?",
+      "How much faster does flat-frozen food thaw?",
+      "Can I defrost steaks or shrimp on a baking sheet?",
+      "How should I organize my freezer?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "serious seats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:zipper-lock-freezer-bag",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "zipper-lock freezer bag",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "freezer bag",
+        "zipper lock bag",
+        "zipper lock freezer bag"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:deli-container",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "deli container",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "cylindrical Deli container"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aluminum-baking-sheet",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "aluminum baking sheet",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "aluminum tray"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aluminum",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Aluminum",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "aluminum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:freezer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "freezer",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "freezers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:refrigerator",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "refrigerator",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:freezer-burn",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "freezer burn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sublimation",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sublimation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ice-crystal-cell-damage",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "ice crystal cell damage",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cell damage",
+        "ice crystals"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:surface-area-to-volume-ratio",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "surface area to volume ratio",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ground-beef",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ground beef",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chili",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chili",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soup",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "soup",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:steaks",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "steaks",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Steaks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chops",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chops",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Chops"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:frozen-chicken",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "frozen chicken",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:frozen-shrimp",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "frozen shrimp",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cutting-board",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cutting board",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "The Cutting Board"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "8b70b21e6a507daf"
+}
