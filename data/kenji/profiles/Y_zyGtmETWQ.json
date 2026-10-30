@@ -1,0 +1,650 @@
+{
+  "platform_id": "Y_zyGtmETWQ",
+  "profile": {
+    "video_id": "kenji:Y_zyGtmETWQ",
+    "purpose": "Make French toast while testing whether stale, oven-dried or fresh Japanese milk bread (shokupan) makes the best French toast, explaining the science of staling versus drying along the way.",
+    "video_type": "comparison",
+    "thesis": "Staling (starch retrogradation) and drying are different things. With a soft but well-structured bread like shokupan, fresh bread can work for French toast. Which bread to use, and how to prepare it, depends on the type of loaf.",
+    "key_takeaways": [
+      "Staling is starch retrogradation (recrystallization); drying removes moisture without retrograding the starch, so dried bread stays tender like a cracker.",
+      "Three slices of shokupan were tested: left out uncovered overnight (stale), dried in a 225°F oven for about 20 minutes, and fresh.",
+      "The custard is a hybrid of Yvonne Ruperti's and Daniel Gritzer's recipes: a cup of buttermilk, three eggs, brown sugar, vanilla, poudre douce spice and melted butter.",
+      "White sugar is sprinkled on the top before flipping, which forms a caramelized crème brûlée-like crust (a Daniel Gritzer technique).",
+      "He doesn't clarify the butter for French toast because it isn't cooked very hot and some brown butter flavor is welcome.",
+      "American supermarket sandwich bread must be staled or dried, or it turns soupy. Shokupan can be used fresh. Hearty sourdough should stay fairly fresh because dry loaves absorb custard poorly and stay tough.",
+      "In the tasting, the stale and dried slices were very similar. The fresh shokupan was the most custardy, and he preferred it.",
+      "For a crowd, use a flat-top griddle or hold batches on a rack in a low oven. Lan Lam's sheet-tray oven method is another option."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to toast",
+        "summary": "A cold-open joke about pain perdu, then Kenji starts butter in the pan and explains why he doesn't clarify butter for French toast.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "The science of stale bread",
+        "summary": "He introduces the stale, oven-dried and fresh shokupan slices and explains how staling (starch retrogradation) differs from drying. He also credits the friends whose recipes his is based on.",
+        "first_segment": 1,
+        "last_segment": 4
+      },
+      {
+        "title": "Making the custard batter",
+        "summary": "He builds the custard and compares milk options. He then covers the sugar, spices and eggs, and notes what French toast is called in different countries.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Cooking the french toast",
+        "summary": "The slices are soaked and fried, sugar is sprinkled on top before flipping, and he gives tips for cooking for a crowd and holding batches in a low oven.",
+        "first_segment": 7,
+        "last_segment": 10
+      },
+      {
+        "title": "Cooking techniques and history",
+        "summary": "Covers the caramelized sugar crust, the origin of the name pain perdu, how much butter actually ends up in the food, and the vintage cast iron pan. It ends with Lan Lam's sheet-tray oven method for a crowd.",
+        "first_segment": 10,
+        "last_segment": 15
+      },
+      {
+        "title": "Bread type comparisons",
+        "summary": "Drawing on Serious Eats testing, he explains how supermarket sandwich bread, shokupan and sourdough each behave and whether each should be fresh, stale or dried.",
+        "first_segment": 15,
+        "last_segment": 17
+      },
+      {
+        "title": "Taste testing results",
+        "summary": "He cuts and tastes the three slices. Stale and dried are comparable, and fresh is the most custardy. He finishes by tasting all three stacked with maple syrup.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "Conclusion and serving",
+        "summary": "He recaps the experiment and his preference for fresh shokupan, points to the written recipe and his friends' recipes, feeds the dog and signs off.",
+        "first_segment": 19,
+        "last_segment": 20
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "in France by the way no",
+        "last_segment": 0,
+        "ends_with": "I'm going to make some french toast",
+        "note": "Cold-open pain perdu joke and greeting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "I don't know probably probably some place",
+        "last_segment": 12,
+        "ends_with": "I don't know what's going on today",
+        "note": "Joke about the antique shop where he bought the cast iron pan"
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "is that is that are those comments",
+        "last_segment": 13,
+        "ends_with": "going to get me demonetized",
+        "note": "Quip about demonetization"
+      },
+      {
+        "role": "aside",
+        "first_segment": 18,
+        "starts_with": "their powers combined does Captain Planet",
+        "last_segment": 18,
+        "ends_with": "Michael is uh Michael's breaking down here",
+        "note": "Captain Planet jokes while stacking the slices"
+      },
+      {
+        "role": "aside",
+        "first_segment": 20,
+        "starts_with": "oh wait Chen you want some",
+        "last_segment": 20,
+        "ends_with": "need lunch today but all right buddy",
+        "note": "Feeding French toast to his dog"
+      },
+      {
+        "role": "outro",
+        "first_segment": 20,
+        "starts_with": "all right so guys gals non-binary",
+        "last_segment": 20,
+        "ends_with": "we will see you next time byebye for",
+        "note": "Sign-off"
+      }
+    ],
+    "topics": [
+      "French toast",
+      "stale vs dried bread",
+      "starch retrogradation",
+      "custard batter",
+      "shokupan",
+      "caramelized sugar crust",
+      "cooking for a crowd",
+      "bread choice for French toast",
+      "pain perdu",
+      "clarified butter"
+    ],
+    "entity_ids": [
+      "kenji:e:shokupan",
+      "kenji:e:wajima",
+      "kenji:e:yvonne-ruperti",
+      "kenji:e:daniel-gritzer",
+      "kenji:e:lan-lam",
+      "kenji:e:serious-eats",
+      "kenji:e:cook-s-illustrated",
+      "kenji:e:culinary-institute-of-america",
+      "kenji:e:world-spice",
+      "kenji:e:poudre-douce",
+      "kenji:e:buttermilk",
+      "kenji:e:brown-sugar",
+      "kenji:e:vanilla-extract",
+      "kenji:e:maple-syrup",
+      "kenji:e:clarified-butter",
+      "kenji:e:vintage-cast-iron-pan-wagner-or-griswold",
+      "kenji:e:baking-steel-griddle",
+      "kenji:e:starch-retrogradation",
+      "kenji:e:staling-vs-drying",
+      "kenji:e:pain-perdu",
+      "kenji:e:eggy-bread",
+      "kenji:e:sheet-tray-oven-french-toast",
+      "kenji:e:wonder-bread",
+      "kenji:e:arnold",
+      "kenji:e:oroweat",
+      "kenji:e:sourdough",
+      "kenji:e:michael-weiner",
+      "kenji:e:gerard-depardieu",
+      "kenji:e:captain-planet"
+    ],
+    "categories": [
+      "techniques",
+      "eggs",
+      "ingredients",
+      "pans"
+    ],
+    "answers_questions": [
+      "Should I use stale bread or fresh bread for French toast?",
+      "What's the difference between stale bread and dried bread?",
+      "Can I make French toast with fresh shokupan or milk bread?",
+      "What custard ratio does Kenji use for French toast?",
+      "Can I use buttermilk or heavy cream instead of milk in French toast?",
+      "How do you get a caramelized crust on French toast?",
+      "How do I make French toast for a crowd?",
+      "Do I need clarified butter to fry French toast?",
+      "Why does my French toast made with sandwich bread turn soggy?",
+      "Should I dry out sourdough before making French toast?",
+      "What does pain perdu mean?",
+      "What spices go in Kenji's French toast?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:Y_zyGtmETWQ:s0007",
+        "note": "He first said the dried slice was in the toaster at about 225 degrees. He clarifies it was in a 225°F oven for about 20 minutes."
+      },
+      {
+        "segment_id": "kenji:Y_zyGtmETWQ:s0009",
+        "note": "He says the holding oven is 225 degrees, then corrects himself: it is 180 degrees."
+      },
+      {
+        "segment_id": "kenji:Y_zyGtmETWQ:s0010",
+        "note": "After jokes that pain perdu is named after Gérard Depardieu or means 'forget about it', he gives the real meaning: forgotten bread, i.e. made from stale bread."
+      },
+      {
+        "segment_id": "kenji:Y_zyGtmETWQ:s0017",
+        "note": "He mislabels the cut slices ('that's a dry'), then corrects the order to stale, dry and fresh."
+      }
+    ],
+    "related_videos": [
+      "A recent Kenji video where he learned it's better to crack eggs on the edge of a bowl"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:shokupan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "shokupan",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Japanese milk bread"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wajima",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "wajima",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yvonne-ruperti",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Yvonne Ruperti",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "yavon ruperti",
+        "yvon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:daniel-gritzer",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Daniel Gritzer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Daniel",
+        "Daniel Gritz art",
+        "Daniel griter",
+        "Daniel gritzer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lan-lam",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lan Lam",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Sirius Eats",
+        "printed recipe",
+        "serial seats",
+        "series Heats",
+        "series SE",
+        "serious eats",
+        "serious seats",
+        "serus eats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cook-s-illustrated",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cook's Illustrated",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cooks Illustrated",
+        "cooks illustrated",
+        "cooksillustrated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:culinary-institute-of-america",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Culinary Institute of America",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:world-spice",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "World Spice",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "World spice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:poudre-douce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Poudre Douce",
+      "brand": "World Spice",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Deuce powder",
+        "pukla deu",
+        "sweet powder"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:buttermilk",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "buttermilk",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Buttermilk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brown-sugar",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "brown sugar",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vanilla-extract",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "vanilla extract",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "pure vanilla extract"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:maple-syrup",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "maple syrup",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Maple"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:clarified-butter",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "clarified butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-cast-iron-pan-wagner-or-griswold",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "vintage cast iron pan (Wagner or Griswold)",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Griswald",
+        "Wagner"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:baking-steel-griddle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Baking Steel griddle",
+      "brand": "Baking Steel",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "baking steel griddle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:starch-retrogradation",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "starch retrogradation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "retrogradation",
+        "retrograde"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:staling-vs-drying",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "staling vs drying",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "drying",
+        "staling"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pain-perdu",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pain perdu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "panu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eggy-bread",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "eggy bread",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sheet-tray-oven-french-toast",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sheet-tray oven French toast",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "French to in the oven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wonder-bread",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Wonder Bread",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Wonderbread"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:arnold",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Arnold",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oroweat",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Oroweat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Oro wheat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sourdough",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "sourdough",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:michael-weiner",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Michael Weiner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gerard-depardieu",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Gérard Depardieu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gerard deu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:captain-planet",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Captain Planet",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "c3d54220f16d6d84"
+}

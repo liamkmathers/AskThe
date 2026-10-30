@@ -1,0 +1,959 @@
+{
+  "platform_id": "U5vJ3hlopUk",
+  "profile": {
+    "video_id": "kenji:U5vJ3hlopUk",
+    "purpose": "Shows how to make Kenji's extra-crusty burger: hand-chopping a blend of beef cuts, handling and salting the meat to keep it loose, then cooking single patties in a small hot pan. It includes a side-by-side test of salting before versus after forming patties.",
+    "video_type": "how_to",
+    "thesis": "Grind whole cuts of beef yourself just before cooking, handle the meat as little as possible, and salt only the outside right before it hits the pan. This gives a loose, craggly patty with maximum crust and juiciness.",
+    "key_takeaways": [
+      "Different beef cuts have different flavors; chuck alone is balanced, and this burger uses about 75% chuck and 25% short rib.",
+      "Meat can be ground in a grinder, pulsed in a food processor after partially freezing it, or chopped by hand with a heavy cleaver.",
+      "Keep meat cold while grinding or chopping. If the fat starts to smear, chill the meat on a sheet tray in the freezer for a few minutes.",
+      "Salting and kneading meat before forming the patty cross-links the proteins and makes a tight, rubbery, sausage-like burger. Salt only the exterior just before cooking.",
+      "Form patties loosely with ragged edges to maximise surface area and crust.",
+      "Cook in a very hot carbon steel, cast iron or stainless pan, not nonstick. Use a pan just big enough for the patties so the burger fries in its own rendered fat.",
+      "Top with thinly sliced onions and American cheese. Serve on a soft, cheap white bun with a sauce of mayo, ketchup (about 3:1), relish and a pinch of sugar."
+    ],
+    "outline": [
+      {
+        "title": "The science of burger meat",
+        "summary": "Introduces the old-fashioned burger recipe and explains how different beef cuts contribute different flavors, like notes in a chord. Chuck is the best single cut.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Hand-grinding the beef",
+        "summary": "Trims chuck and short rib and covers grinder and food processor options. Then hand-chops with a cleaver, chilling the meat whenever the fat starts to smear.",
+        "first_segment": 3,
+        "last_segment": 13
+      },
+      {
+        "title": "Forming the burger patties",
+        "summary": "Forms a patty by barely touching the meat with a bench scraper. Compares meat to bread dough, which tightens the more it is worked.",
+        "first_segment": 13,
+        "last_segment": 14
+      },
+      {
+        "title": "The impact of salting timing",
+        "summary": "Makes a second patty salted and kneaded before forming. Explains how salt dissolves proteins and creates a bouncy, sausage-like texture.",
+        "first_segment": 15,
+        "last_segment": 16
+      },
+      {
+        "title": "Cooking and testing patties",
+        "summary": "Sears the pre-salted and loosely formed patties side by side in a carbon steel pan and warns against nonstick at high heat. Compares the crust and then throws both patties to show their texture.",
+        "first_segment": 17,
+        "last_segment": 22
+      },
+      {
+        "title": "Cooking the perfect burger",
+        "summary": "Salts and peppers only the exterior of a loose patty and cooks it alone in a small, lightly oiled pan so it fries in its own fat.",
+        "first_segment": 23,
+        "last_segment": 25
+      },
+      {
+        "title": "Sauce and assembly",
+        "summary": "Mixes a special sauce and gives tips on managing smoke. Flips the burger, tops it with onions and American cheese, and assembles it on a soft white bun.",
+        "first_segment": 25,
+        "last_segment": 29
+      },
+      {
+        "title": "Tasting and conclusion",
+        "summary": "Tastes the burger, points out the loose texture with pockets of fat and crisp bits, and recaps the key rules.",
+        "first_segment": 29,
+        "last_segment": 32
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "I swear despite the fact that",
+        "last_segment": 0,
+        "ends_with": "I'm going to make some burgers today.",
+        "note": "Cold open joke about throwing chuck at Lena, then greeting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "The way that they would have like",
+        "last_segment": 5,
+        "ends_with": "sink and and uh chopping the meat.",
+        "note": "Joke about French brigade kitchen roles"
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "At some point in uh this was",
+        "last_segment": 12,
+        "ends_with": "the tougher your burger becomes.",
+        "note": "Story about planning a grind-to-order burger joint with Brian Roof"
+      },
+      {
+        "role": "aside",
+        "first_segment": 21,
+        "starts_with": "Um, what I'm going to do is",
+        "last_segment": 22,
+        "ends_with": "clean these up and get back inside.",
+        "note": "Skit throwing the two cooked patties at Lena outdoors to show texture"
+      },
+      {
+        "role": "aside",
+        "first_segment": 25,
+        "starts_with": "I swear, despite the fact that I",
+        "last_segment": 25,
+        "ends_with": "she and I have no beef.",
+        "note": "Pun about chucking chuck at Lena"
+      },
+      {
+        "role": "aside",
+        "first_segment": 29,
+        "starts_with": "What am I supposed to do?",
+        "last_segment": 30,
+        "ends_with": "It feels like I stubbed my toe.",
+        "note": "Joke with crew about the tasting face"
+      },
+      {
+        "role": "outro",
+        "first_segment": 32,
+        "starts_with": "All right, guys, gals, nonbinary pals.",
+        "last_segment": 32,
+        "ends_with": "in the description below. Thanks.",
+        "note": "Sign-off and plugs for Patreon, channels, Instagram and books"
+      }
+    ],
+    "topics": [
+      "extra-crusty burgers",
+      "beef cut flavor profiles",
+      "grinding meat at home",
+      "hand-chopping meat with a cleaver",
+      "keeping meat cold to prevent fat smearing",
+      "salting timing for burgers",
+      "protein cross-linking and rubbery texture",
+      "patty forming technique",
+      "pan choice for searing",
+      "nonstick safety at high heat",
+      "burger special sauce",
+      "burger buns and toppings",
+      "managing smoke when searing"
+    ],
+    "entity_ids": [
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:cook-s-illustrated",
+      "kenji:e:cook-s-country",
+      "kenji:e:serious-eats",
+      "kenji:e:brian-roof",
+      "kenji:e:on-the-road-with-brian",
+      "kenji:e:lena-davidson",
+      "kenji:e:dave-arnold",
+      "kenji:e:chuck",
+      "kenji:e:short-rib",
+      "kenji:e:brisket",
+      "kenji:e:steak-skirt-or-flank",
+      "kenji:e:sirloin",
+      "kenji:e:flat-meat",
+      "kenji:e:intramuscular-fat-marbling",
+      "kenji:e:meat-grinder",
+      "kenji:e:stand-mixer-grinder-attachment",
+      "kenji:e:food-processor",
+      "kenji:e:chinese-cleaver",
+      "kenji:e:bench-scraper",
+      "kenji:e:sheet-tray",
+      "kenji:e:carbon-steel-pan",
+      "kenji:e:stainless-steel-pan",
+      "kenji:e:vintage-wagner-cast-iron-pan",
+      "kenji:e:nonstick-pan",
+      "kenji:e:olive-oil",
+      "kenji:e:rendered-beef-fat",
+      "kenji:e:qi-mayo",
+      "kenji:e:ketchup",
+      "kenji:e:relish",
+      "kenji:e:special-sauce",
+      "kenji:e:american-cheese",
+      "kenji:e:onion",
+      "kenji:e:wonder-bread",
+      "kenji:e:france",
+      "kenji:e:bio",
+      "kenji:e:burger-varietal-taste-tests",
+      "kenji:e:fat-smearing",
+      "kenji:e:salting-before-forming-protein-cross-linking",
+      "kenji:e:burger-edge-as-fractal",
+      "kenji:e:extra-crusty-burger",
+      "kenji:e:smoke-detector-shower-cap-trick",
+      "kenji:e:patreon",
+      "kenji:e:book-larder",
+      "kenji:e:kenji-lopez-main"
+    ],
+    "categories": [
+      "meat",
+      "techniques",
+      "knives",
+      "pans",
+      "kitchen tools",
+      "appliances",
+      "sauces"
+    ],
+    "answers_questions": [
+      "Why do my homemade burgers come out rubbery or bouncy?",
+      "Should I salt ground beef before forming patties or just before cooking?",
+      "What cuts of beef should I grind for burgers?",
+      "Can I grind burger meat without a meat grinder?",
+      "How do I chop beef by hand for burgers?",
+      "Why does fat smear when grinding meat, and how do I stop it?",
+      "What pan should I use to sear burgers, and is nonstick okay?",
+      "Why cook a single burger in a small pan?",
+      "How do I get a really crusty, craggly burger?",
+      "What's in Kenji's burger special sauce?",
+      "What kind of bun is best for a classic smash-style burger?",
+      "How do I keep smoke detectors from going off when searing burgers?"
+    ],
+    "uses": [
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:U5vJ3hlopUk:s0006",
+        "note": "In segment 3 he says he will add a little brisket to the chuck. He actually uses short rib at about 75% chuck to 25% short rib, as confirmed in segment 31."
+      },
+      {
+        "segment_id": "kenji:U5vJ3hlopUk:s0002",
+        "note": "Self-correction while describing meat: 'burger meat... steak meat, sorry, cow meat, steer meat, beef', settling on the word beef."
+      }
+    ],
+    "related_videos": [
+      "Serious Eats article on chopping meat by hand versus using a food processor",
+      "Serious Eats 'best burger for a single person' recipe",
+      "Full extra-crusty burger article and recipe on Kenji's Patreon",
+      "Bryan Roof's YouTube show On the Road with Brian",
+      "Kenji's smash burger and Oklahoma onion burger recipes (mentioned in description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cook-s-illustrated",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cook's Illustrated",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cooks Illustrated",
+        "cooks illustrated",
+        "cooksillustrated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cook-s-country",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cook's Country",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cooks Country Magazine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Sirius Eats",
+        "printed recipe",
+        "serial seats",
+        "series Heats",
+        "series SE",
+        "serious eats",
+        "serious seats",
+        "serus eats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brian-roof",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Brian Roof",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:on-the-road-with-brian",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "On the Road with Brian",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dave-arnold",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Dave Arnold",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chuck",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Chuck",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "chuck steak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:short-rib",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Short rib",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "short rib",
+        "short ribs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brisket",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Brisket",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "brisket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:steak-skirt-or-flank",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Steak (skirt or flank)",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "flank steak",
+        "skirt steak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sirloin",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Sirloin",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "sirloin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flat-meat",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "flat meat",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:intramuscular-fat-marbling",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Intramuscular fat (marbling)",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "intramuscular fat",
+        "marbling"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:meat-grinder",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Meat grinder",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "meat grinder"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stand-mixer-grinder-attachment",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "Stand mixer grinder attachment",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "an attachment for one of your, you know, for your your stand mixer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:food-processor",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "food processor",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chinese-cleaver",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chinese cleaver",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "cleaver"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bench-scraper",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Bench scraper",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "bench scraper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sheet-tray",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Sheet tray",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "parchment lined baking sheet",
+        "sheet tray"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Carbon steel pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "carbon steel",
+        "carbon steel pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stainless-steel-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "stainless steel pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "pan",
+        "plant pan",
+        "stainless steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-wagner-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vintage Wagner cast iron pan",
+      "brand": "Wagner",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron",
+        "cast iron pan",
+        "cast iron pans",
+        "cast-iron pan",
+        "cast-iron pans",
+        "skillet",
+        "vintage Wagner pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nonstick-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Nonstick pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "non-stick"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:olive-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "everyday olive oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rendered-beef-fat",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Rendered beef fat",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "rendered beef fat",
+        "trimmings"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:qi-mayo",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Qi mayo",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ketchup",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "ketchup",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:relish",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Relish",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "relish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:special-sauce",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Special sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "special sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:american-cheese",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "American cheese",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:onion",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "onions",
+        "thinly sliced onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wonder-bread",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Wonder Bread",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "Wonderbread"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:france",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "France",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bio",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bio",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:burger-varietal-taste-tests",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Burger varietal taste tests",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "burger varietal uh taste tests"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fat-smearing",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Fat smearing",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "smearing",
+        "smeary"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salting-before-forming-protein-cross-linking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Salting before forming (protein cross-linking)",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "cross-link",
+        "salt it before I start mixing it"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:burger-edge-as-fractal",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Burger edge as fractal",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "coastline",
+        "fractal"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:extra-crusty-burger",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Extra-crusty burger",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "super super crusty burgers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:smoke-detector-shower-cap-trick",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Smoke detector shower cap trick",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "shower cap"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:book-larder",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Book Larder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bookarter",
+        "book Larder",
+        "book Larter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-lopez-main",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Kenji Lopez Main",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "b53072042535c06b"
+}

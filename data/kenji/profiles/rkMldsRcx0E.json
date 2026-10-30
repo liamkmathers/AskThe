@@ -1,0 +1,465 @@
+{
+  "platform_id": "rkMldsRcx0E",
+  "profile": {
+    "video_id": "kenji:rkMldsRcx0E",
+    "purpose": "A knife-skills tutorial on onions: how cutting direction affects pungency, how to slice them, and the dicing method a mathematician friend's computer model found to give the most even pieces in the fewest strokes. It ends with restaurant-style fine dice and tips for cutting without tears.",
+    "video_type": "how_to",
+    "thesis": "Onion cells are elongated and the onion is radially rather than orthogonally symmetrical, so the direction and angle of your cuts change both pungency and evenness. Slicing pole to pole gives milder onions, and aiming vertical cuts at a point somewhat below the cutting board gives the most even dice.",
+    "key_takeaways": [
+      "Trim the stem end, halve the onion, and peel off the papery skin plus the first tough layer.",
+      "Onion cells are longer pole to pole. Pole-to-pole cuts rupture fewer cells and give milder, sweeter onions; orbital cuts, like onion rings, give more pungent ones.",
+      "Use a claw grip with the thumb tucked behind. How fast the fingers move back sets slice thickness. When the remaining piece gets unstable, lay it flat.",
+      "Batch repetitive prep tasks the way a factory line would.",
+      "The traditional grid dice and radial cuts both give uneven pieces. Aiming cuts at a point roughly 0.6 of the onion's height below the board was modelled as the most efficient dice.",
+      "Restaurant-style ultra-even dice: separate and stack the layers, then cut them both ways. This is mostly for looks.",
+      "Sealing pole-to-pole and orbital slices in separate containers for about 15 minutes demonstrates the difference in smell.",
+      "Only a physical barrier fully stops tears (contact lenses, swim goggles). Ski goggles let the gases through, and candles or cold onions help only minimally. A sharp knife helps by slicing cells rather than crushing them."
+    ],
+    "outline": [
+      {
+        "title": "Introduction and preparation",
+        "summary": "Introduces onion geometry: root and stem ends as poles, orbital versus pole-to-pole cuts. Shows trimming, halving and peeling off the skin plus the first layer, with an anecdote about why.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Understanding onion pungency",
+        "summary": "Explains how elongated onion cells and their sulfur-compound precursors mean cut direction changes how many cells rupture, using a visual aid. Pole-to-pole cuts give milder onions, orbital cuts more pungent ones.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "How to slice an onion",
+        "summary": "Demonstrates slicing pole to pole with a claw grip, controlling thickness, and flattening the last unstable piece. Ends with a start-to-finish run on one half.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "How to dice an onion",
+        "summary": "Covers batching prep tasks, then compares three dicing methods: the traditional grid, radial cuts, and the mathematically modelled method of aiming below the cutting board. Includes optional horizontal cuts and how to handle the final nub.",
+        "first_segment": 5,
+        "last_segment": 11
+      },
+      {
+        "title": "Fine dicing for salads",
+        "summary": "Shows a restaurant technique for very even raw onion dice: separating and stacking the layers, then cutting them both ways.",
+        "first_segment": 11,
+        "last_segment": 12
+      },
+      {
+        "title": "Smell test and tips for cutting without tears",
+        "summary": "Describes a sealed-container test comparing the smell of pole-to-pole and orbital slices. Then reviews anti-tear methods: contact lenses, swim goggles versus ski goggles, candles, cold onions and sharp knives.",
+        "first_segment": 12,
+        "last_segment": 13
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's Kenji how's it going",
+        "last_segment": 0,
+        "ends_with": "videos we're talking about onions",
+        "note": "Greeting and introduction to the onion knife-skills video."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "until one day you know I was",
+        "last_segment": 1,
+        "ends_with": "trying it side by side turns out he's right obviously",
+        "note": "Anecdote about his idol Jack Pan advising him in a restaurant kitchen to peel off the first onion layer."
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "I was yeah I was trying to",
+        "last_segment": 6,
+        "ends_with": "the wheel of an onion Factory",
+        "note": "Joke about being a cog in an onion factory."
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "to be honest I've never met anyone",
+        "last_segment": 11,
+        "ends_with": "sure resourceful um that's a good word",
+        "note": "Banter about wasting onion nubs and searching for the word 'resourceful'."
+      },
+      {
+        "role": "outro",
+        "first_segment": 13,
+        "starts_with": "so that's it onions uh I hope",
+        "last_segment": 13,
+        "ends_with": "non binary Pals see you next time for",
+        "note": "Sign-off."
+      }
+    ],
+    "topics": [
+      "onion knife skills",
+      "pole-to-pole vs orbital cuts",
+      "onion pungency and cell structure",
+      "slicing onions",
+      "dicing onions",
+      "radial cuts",
+      "mathematically optimal onion dice",
+      "claw grip",
+      "batching prep tasks",
+      "restaurant-style fine dice",
+      "preventing tears when cutting onions"
+    ],
+    "entity_ids": [
+      "kenji:e:onion",
+      "kenji:e:white-onion",
+      "kenji:e:yellow-onion",
+      "kenji:e:red-onion",
+      "kenji:e:sweet-onion",
+      "kenji:e:jack-pan",
+      "kenji:e:pole-to-pole-cut",
+      "kenji:e:orbital-cut",
+      "kenji:e:radial-cut",
+      "kenji:e:claw-grip",
+      "kenji:e:lachrymators",
+      "kenji:e:onion-cells-sulfur-compound-precursors",
+      "kenji:e:mathematician-friend-s-computer-model-of-an-onion",
+      "kenji:e:contact-lenses",
+      "kenji:e:swim-goggles",
+      "kenji:e:ski-goggles",
+      "kenji:e:kan-10-chef-s-knife",
+      "kenji:e:chef-s-knife",
+      "kenji:e:poke",
+      "kenji:e:onion-rings"
+    ],
+    "categories": [
+      "techniques",
+      "vegetables",
+      "knives"
+    ],
+    "answers_questions": [
+      "Why do some sliced onions taste stronger than others?",
+      "Should I cut onions pole to pole or into rings?",
+      "What's the most efficient way to dice an onion evenly?",
+      "Is it better to make radial cuts or straight cuts when dicing an onion?",
+      "Do I need the horizontal cut when dicing an onion?",
+      "Should I peel off the first layer of an onion as well as the skin?",
+      "How do restaurants get perfectly even tiny onion dice?",
+      "How do I stop crying when cutting onions?",
+      "Do ski goggles or a lit candle help with onion tears?",
+      "Does a sharp knife make onions less tear-inducing?",
+      "How should I hold my hand when slicing an onion?",
+      "What do I do with the last wobbly piece of onion?",
+      "Do white, yellow and red onions get cut differently?",
+      "How can I prep a lot of onions faster?"
+    ],
+    "uses": [
+      "understanding",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:rkMldsRcx0E:s0002",
+        "note": "He first says onion cells contain an enzyme, then corrects himself: they contain precursor chemicals that combine into the pungent sulfur compounds once the cells are cut."
+      }
+    ],
+    "related_videos": [
+      "Other knife skills videos in the same series",
+      "Earlier videos showing the sealed-container smell test of pole-to-pole vs orbitally cut onions",
+      "Patreon post: Mathematically best way to cut an onion"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:onion",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:white-onion",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "white onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yellow-onion",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "yellow onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "yellow onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:red-onion",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "red onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "red onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sweet-onion",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "sweet onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:jack-pan",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Jack Pan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pole-to-pole-cut",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pole-to-pole cut",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "pole to pole",
+        "pull to pole",
+        "pull to pull",
+        "pull to- pull cuts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:orbital-cut",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "orbital cut",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "orbital cuts",
+        "orbitally"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:radial-cut",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "radial cut",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "aim uh radially",
+        "lazy r cut"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:claw-grip",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "claw grip",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "claw",
+        "claw hand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lachrymators",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "lachrymators",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lacr maters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:onion-cells-sulfur-compound-precursors",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "onion cells / sulfur compound precursors",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "precursor chemicals",
+        "sulfurous compounds"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mathematician-friend-s-computer-model-of-an-onion",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mathematician friend's computer model of an onion",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "computer model uh of an onion"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:contact-lenses",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "contact lenses",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:swim-goggles",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "swim goggles",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ski-goggles",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ski goggles",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-10-chef-s-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Kan 10\" Chef's Knife",
+      "brand": "Kan",
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chef-s-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chef's knife",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "knife",
+        "sharp knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:poke",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "poke",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:onion-rings",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "onion rings",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "261234bbe4dcda0a"
+}

@@ -1,0 +1,433 @@
+{
+  "platform_id": "D1fYPnk4VvQ",
+  "profile": {
+    "video_id": "kenji:D1fYPnk4VvQ",
+    "purpose": "A walk through the soy sauce aisle at an Asian grocery in Seattle, explaining the main soy sauce varieties and related products and what each is used for.",
+    "video_type": "explainer",
+    "thesis": "Soy sauces differ a lot by country and style. Japanese, Chinese and Southeast Asian sauces each have dark, light, sweet or special versions with different uses. Knowing the terms, such as light meaning color versus low sodium, helps you pick the right bottle.",
+    "key_takeaways": [
+      "Japanese koikuchi (dark) soy sauce is the everyday shoyu. Usukuchi (light) is lighter in color but saltier, is made with more wheat, and is used more in Kansai cuisine.",
+      "Amakuchi is a sweetened usukuchi. White soy sauce uses even more wheat, has a shorter fermentation and a more delicate flavor.",
+      "Liquid aminos are not soy sauce and are not really interchangeable with it.",
+      "In recipes, 'light soy sauce' may mean low sodium soy sauce rather than usukuchi; the two should not be confused.",
+      "Tamari is made mostly or entirely from soybeans and can replace koikuchi for gluten-intolerant cooks, but check the label for gluten-free because some tamari contains wheat.",
+      "Chinese dark soy sauce is thick, sweet and used mainly for color. Chinese light soy sauce is the main seasoning soy sauce, and stir fries often combine the two.",
+      "Japanese koikuchi sits between Chinese light and dark soy sauce, so it is the one bottle to keep if you only keep one.",
+      "Filipino soy sauce is sweeter, darker and saltier. Indonesian sweet soy sauce is a thick syrup used for dishes like Indonesian fried rice."
+    ],
+    "outline": [
+      {
+        "title": "Japanese soy sauce types",
+        "summary": "Introduces Japanese shoyu: koikuchi (dark, everyday), usukuchi (light in color, saltier, more wheat, Kansai), and amakuchi (sweetened usukuchi), with suggested uses.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Premium and special sauces",
+        "summary": "Covers higher-end traditionally fermented soy sauces, white soy sauce, and flavored soy sauces such as cherry blossom, smoked and mushroom.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Liquid aminos and low sodium",
+        "summary": "Explains that liquid aminos are hydrolyzed vegetable protein products, not true soy sauce. Also explains that recipes calling for 'light' soy sauce may mean low sodium rather than usukuchi.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Tamari and gluten-free",
+        "summary": "Describes tamari as a high-soybean soy sauce that can stand in for koikuchi for gluten-intolerant cooks, with a caution to check for a gluten-free label.",
+        "first_segment": 4,
+        "last_segment": 4
+      },
+      {
+        "title": "Chinese soy sauces",
+        "summary": "Contrasts Chinese dark soy sauce (colored, thick, sweet, used for color) with light soy sauce (main seasoning). Explains that Japanese koikuchi falls between the two and is the best single bottle to keep.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Southeast Asian sauces",
+        "summary": "Covers a Filipino soy sauce brand and Indonesian sweet soy sauce, a thick syrup used for dishes like Indonesian fried rice.",
+        "first_segment": 6,
+        "last_segment": 7
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone, it's Kenji.",
+        "last_segment": 0,
+        "ends_with": "we're going to talk about soy sauce.",
+        "note": "Greeting and setting: at an Asian grocery in Seattle to talk about soy sauce."
+      },
+      {
+        "role": "outro",
+        "first_segment": 7,
+        "starts_with": "And I think that covers that",
+        "last_segment": 7,
+        "ends_with": "Um, yeah. I hope that was helpful.",
+        "note": "Wrap-up and sign-off."
+      }
+    ],
+    "topics": [
+      "soy sauce varieties",
+      "Japanese shoyu",
+      "koikuchi vs usukuchi",
+      "light vs low sodium soy sauce",
+      "tamari and gluten",
+      "Chinese light and dark soy sauce",
+      "liquid aminos",
+      "Indonesian sweet soy sauce",
+      "Filipino soy sauce",
+      "shopping at an Asian grocery"
+    ],
+    "entity_ids": [
+      "kenji:e:uajimaya",
+      "kenji:e:shoyu",
+      "kenji:e:koikuchi-soy-sauce",
+      "kenji:e:usukuchi-soy-sauce",
+      "kenji:e:amakuchi-soy-sauce",
+      "kenji:e:white-soy-sauce",
+      "kenji:e:flavored-soy-sauce",
+      "kenji:e:liquid-aminos",
+      "kenji:e:hydrolyzed-vegetable-protein",
+      "kenji:e:low-sodium-soy-sauce",
+      "kenji:e:tamari",
+      "kenji:e:chinese-dark-soy-sauce",
+      "kenji:e:chinese-light-soy-sauce",
+      "kenji:e:datup-puti",
+      "kenji:e:indonesian-sweet-soy-sauce",
+      "kenji:e:tamagoan-egg-rice",
+      "kenji:e:indonesian-fried-rice",
+      "kenji:e:kansai-cuisine",
+      "kenji:e:ramen-broth",
+      "kenji:e:gluten-free"
+    ],
+    "categories": [
+      "ingredients",
+      "sauces"
+    ],
+    "answers_questions": [
+      "What's the difference between Japanese dark and light soy sauce?",
+      "Does light soy sauce mean low sodium?",
+      "What is usukuchi soy sauce used for?",
+      "Can I use tamari instead of soy sauce if I'm gluten-free?",
+      "Are liquid aminos the same as soy sauce?",
+      "What's the difference between Chinese light and dark soy sauce?",
+      "If I can only buy one soy sauce, which should it be?",
+      "Can I use Japanese soy sauce in Chinese stir fries?",
+      "What is white soy sauce?",
+      "What soy sauce should I use for Indonesian fried rice?",
+      "How is Filipino soy sauce different from other soy sauces?",
+      "Are fancy premium soy sauces worth it?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:D1fYPnk4VvQ:s0004",
+        "note": "He first says tamari has a much higher proportion of wheat, then corrects himself: it has a much higher proportion of soybeans, often 100% soybeans."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:uajimaya",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Uajimaya",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shoyu",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "shoyu",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "showyu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:koikuchi-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "koikuchi soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "koi cuchi",
+        "koi kuchi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:usukuchi-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "usukuchi soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "usuki",
+        "usukuchi",
+        "uzukuchi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:amakuchi-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "amakuchi soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "amakuchi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:white-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "white soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flavored-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "flavored soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "cherry blossom",
+        "flavored soy sauces",
+        "mushroom soy sauces",
+        "smoked soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:liquid-aminos",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "liquid aminos",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hydrolyzed-vegetable-protein",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "hydrolyzed vegetable protein",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hydrayzeed vegetable protein"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:low-sodium-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "low sodium soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tamari",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tamari",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chinese-dark-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chinese dark soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "dark soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chinese-light-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chinese light soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "light soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:datup-puti",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Datup puti",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:indonesian-sweet-soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Indonesian sweet soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Indonesian soy sauce",
+        "sweet soy sauce",
+        "sweet soy sauce like an indonesian style soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tamagoan-egg-rice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "tamagoan egg rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:indonesian-fried-rice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Indonesian fried rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kansai-cuisine",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Kansai cuisine",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "kansai cuisine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ramen-broth",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "ramen broth",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gluten-free",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "gluten-free",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wheat-ree"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "7c60725a50fc787a"
+}

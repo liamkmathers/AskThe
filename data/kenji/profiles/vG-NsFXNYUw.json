@@ -1,0 +1,691 @@
+{
+  "platform_id": "vG-NsFXNYUw",
+  "profile": {
+    "video_id": "kenji:vG-NsFXNYUw",
+    "purpose": "Shows how to break, peel, slice and mince fresh garlic, explains why cut garlic changes flavor, and runs a blind taste test of store-bought prepared garlic products against fresh garlic.",
+    "video_type": "comparison",
+    "thesis": "Garlic's flavor changes once its cells are ruptured, so fresh garlic that you peel and cut yourself is the benchmark against which supermarket garlic forms (pre-peeled, puree, chopped in water or oil, granulated) are judged in a blind taste test.",
+    "key_takeaways": [
+      "Rub off the papery skin, then press the head with your palm to separate the cloves.",
+      "Shaking cloves between two bowls can peel them, but it depends on the age of the garlic.",
+      "For a quick knife peel, cut the root end and pull to half-peel the clove; a light tap loosens the peel further if you will mince or smash it.",
+      "The green germ can taste slightly bitter and is worth removing for raw uses like aioli or toum, less so when cooking.",
+      "Garlic can be minced with a heavy Chinese cleaver (smash then chop), with a mortar and pestle, or pureed using coarse kosher salt as an abrasive.",
+      "The more garlic cells are ruptured, and the longer the garlic sits after cutting, the stronger its pungency.",
+      "Pre-peeled garlic is blanched to loosen the skins, so it can taste slightly cooked.",
+      "In the blind test, several jarred products tasted strongly of citric acid, which is used as a preservative and texture control.",
+      "Granulated garlic is treated as a different ingredient from fresh garlic, useful in rubs and ranch dressing; The Wok's gochujang ranch uses both."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Cold-open clip followed by Kenji introducing the topic of cutting garlic.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "How to Break & Peel Garlic",
+        "summary": "Rubbing off the papery skin over a compost container and pressing the head to separate cloves.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Bowl-Shaking Garlic Trick",
+        "summary": "Shaking cloves between two bowls to peel them, noting it works only depending on the garlic's age.",
+        "first_segment": 1,
+        "last_segment": 1
+      },
+      {
+        "title": "Fast Knife Peeling Method",
+        "summary": "Cutting and pulling the root end to half-peel cloves, tapping to loosen peels, slicing pole to pole with a claw grip, and when to remove the green germ.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Mincing Methods (Knife, Mortar, Salt)",
+        "summary": "Mincing with a heavy Chinese cleaver, pounding in a mortar and pestle, how rupturing cells affects pungency, removing the germ with a paring knife, and pureeing with kosher salt.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "Why Fresh Garlic Matters",
+        "summary": "Explains that once garlic is cut its flavor starts to change irreversibly, so pre-cut forms taste different from fresh.",
+        "first_segment": 9,
+        "last_segment": 9
+      },
+      {
+        "title": "Taste Test Setup",
+        "summary": "Introduces Lena and the lineup: fresh-chopped garlic, garlic puree, chopped garlic in water, chopped garlic in olive oil, and pre-peeled cloves, with why blanching affects pre-peeled garlic.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Blind Garlic Taste Test",
+        "summary": "Kenji sniffs and tastes six unlabeled garlic samples and describes each one's pungency, acidity, salt and texture.",
+        "first_segment": 11,
+        "last_segment": 14
+      },
+      {
+        "title": "Ranking & Recap",
+        "summary": "Groups the samples by sharpness and citric acid flavor, explains citric acid as a preservative, and discusses how cooking evens out differences.",
+        "first_segment": 14,
+        "last_segment": 16
+      },
+      {
+        "title": "What Garlic to Use When",
+        "summary": "Recommends an order of preference among the forms and explains granulated garlic as a distinct ingredient, citing the gochujang ranch recipe in The Wok.",
+        "first_segment": 16,
+        "last_segment": 18
+      },
+      {
+        "title": "Final Thoughts",
+        "summary": "Brief recap of the garlic knife skills and the taste test conclusions.",
+        "first_segment": 18,
+        "last_segment": 19
+      },
+      {
+        "title": "Where to Find More Content",
+        "summary": "Plugs for Patreon, the YouTube channels, Instagram and signed books.",
+        "first_segment": 19,
+        "last_segment": 19
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Wow, there were six of them,",
+        "last_segment": 0,
+        "ends_with": "we are going to be cutting some garlic.",
+        "note": "Cold-open clip from the taste test, then greeting and topic introduction."
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "This is Lena, by the way,",
+        "last_segment": 10,
+        "ends_with": "I think you got a mic. Hi. I got Hi.",
+        "note": "Introducing production manager Lena on camera."
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "Wow. I think I'm hitting my",
+        "last_segment": 12,
+        "ends_with": "You're going to love this one.",
+        "note": "Joking banter with Lena about reaching his garlic limit."
+      },
+      {
+        "role": "outro",
+        "first_segment": 19,
+        "starts_with": "All right, guys, gals, non-binary pals.",
+        "last_segment": 19,
+        "ends_with": "in the description below. Thanks.",
+        "note": "Sign-off, staff lunch, and plugs for Patreon, channels, Instagram and books."
+      }
+    ],
+    "topics": [
+      "peeling garlic",
+      "bowl-shaking garlic peeling trick",
+      "knife peeling garlic",
+      "slicing garlic",
+      "claw grip",
+      "garlic germ removal",
+      "mincing garlic with a cleaver",
+      "mortar and pestle garlic",
+      "garlic puree with salt",
+      "allium flavor chemistry",
+      "pre-peeled garlic",
+      "jarred minced garlic",
+      "garlic paste",
+      "citric acid preservative",
+      "granulated garlic",
+      "blind taste test"
+    ],
+    "entity_ids": [
+      "kenji:e:garlic",
+      "kenji:e:garlic-germ",
+      "kenji:e:chinese-cleaver",
+      "kenji:e:kan-paring-knife",
+      "kenji:e:mortar-and-pestle",
+      "kenji:e:compost-bin",
+      "kenji:e:kosher-salt",
+      "kenji:e:bowl-shaking-garlic-peeling-trick",
+      "kenji:e:claw-grip",
+      "kenji:e:salt-method-for-garlic-puree",
+      "kenji:e:alliums",
+      "kenji:e:pre-peeled-garlic",
+      "kenji:e:garlic-puree",
+      "kenji:e:chopped-garlic-in-water",
+      "kenji:e:chopped-garlic-in-olive-oil",
+      "kenji:e:granulated-garlic",
+      "kenji:e:citric-acid",
+      "kenji:e:aioli",
+      "kenji:e:toum",
+      "kenji:e:mayonnaise",
+      "kenji:e:gochujang-ranch-dressing",
+      "kenji:e:paprika",
+      "kenji:e:bell-pepper",
+      "kenji:e:the-wok",
+      "kenji:e:the-food-lab",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:lena-davidson",
+      "kenji:e:michael-weiner",
+      "kenji:e:patreon",
+      "kenji:e:book-larder",
+      "kenji:e:kenji-lopez-main"
+    ],
+    "categories": [
+      "ingredients",
+      "techniques",
+      "knives",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "What's the fastest way to peel a lot of garlic?",
+      "Does the shaking garlic between two bowls trick actually work?",
+      "Should I remove the green sprout in the middle of a garlic clove?",
+      "Is jarred minced garlic as good as fresh?",
+      "Why does pre-peeled garlic taste different?",
+      "Why does some store-bought minced garlic taste sour or acidic?",
+      "Does how you cut garlic change how strong it tastes?",
+      "How do you make garlic paste with salt and a knife?",
+      "Is garlic puree in a tube an acceptable substitute for fresh?",
+      "When should I use granulated garlic instead of fresh?",
+      "Can I use pre-chopped garlic if I'm cooking it?",
+      "What's a good way for kids to help mince garlic?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:vG-NsFXNYUw:s0014",
+        "note": "When naming the sharpest samples he first says 'the first one, the last one and the sixth', then corrects himself to the first, the fifth and the sixth."
+      }
+    ],
+    "related_videos": [
+      "Kenji's knife skills series (\"more knife skills next time\")",
+      "Patreon article on store-bought prepared garlic",
+      "Kenji's alternate channel for dining content"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:garlic",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "garlic",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "garlic cloves"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:garlic-germ",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "garlic germ",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "germ",
+        "green germ"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chinese-cleaver",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chinese cleaver",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "cleaver",
+        "heavy cleaver",
+        "nice heavy Chinese cleaver"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-paring-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN paring knife",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "pairing knife",
+        "paring knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mortar-and-pestle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "mortar and pestle",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "modern pestle",
+        "mortars and pestles"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:compost-bin",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "compost bin",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "compost container"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kosher salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "coarse kosher salt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bowl-shaking-garlic-peeling-trick",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "bowl-shaking garlic peeling trick",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "set of bowls",
+        "shake the crap out of it"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:claw-grip",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "claw grip",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "claw",
+        "claw hand",
+        "claw position",
+        "mini claw"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salt-method-for-garlic-puree",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "salt method for garlic puree",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "the salt method"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:alliums",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "alliums",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "aliums"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pre-peeled-garlic",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pre-peeled garlic",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "garlic cloves that have come pre-peled",
+        "pre- peeled garlic",
+        "pre-peled garlic"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:garlic-puree",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "garlic puree",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "garlic paste"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chopped-garlic-in-water",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chopped garlic in water",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chopped-garlic-in-olive-oil",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chopped garlic in olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:granulated-garlic",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "granulated garlic",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:citric-acid",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "citric acid",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aioli",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "aioli",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "ioli"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:toum",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "toum",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "tomb"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mayonnaise",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mayonnaise",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gochujang-ranch-dressing",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "gochujang ranch dressing",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "go jang ranch dressing",
+        "ranch dressing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:paprika",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "paprika",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "ground paprika"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bell-pepper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "bell pepper",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "fresh bell pepper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:michael-weiner",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Michael Weiner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:book-larder",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Book Larder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bookarter",
+        "book Larder",
+        "book Larter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-lopez-main",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Kenji Lopez Main",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "06de5ea59adef6d6"
+}

@@ -1,0 +1,753 @@
+{
+  "platform_id": "2Sz40WqBg8E",
+  "profile": {
+    "video_id": "kenji:2Sz40WqBg8E",
+    "purpose": "Recipe demonstration for a spatchcocked roast chicken coated in herb mayonnaise, cooked to temperature with a predictive thermometer and served with a quick jus.",
+    "video_type": "how_to",
+    "thesis": "Slathering a spatchcocked chicken in herb mayo keeps the herbs on the bird and improves browning, and spatchcocking lets breast and legs finish at the same time.",
+    "key_takeaways": [
+      "Spatchcocking makes the breast the thickest part, so legs and breast finish together, and it cooks in about 70% of the usual time.",
+      "Mayo stays on the meat better than herb butter, holds the herbs in place, browns well because of its egg proteins, and protects sugary marinades from burning.",
+      "Scallions in an herb butter or herb mayo intensify the allium flavor, a technique credited to Charles Kelsey at Cook's Illustrated.",
+      "The chicken is roasted at 425°F and pulled when the breast reaches 145°F. Carryover takes it to about 150–155°F, which is pasteurized when held long enough.",
+      "With an accurate predictive thermometer, dry brining is unnecessary.",
+      "The quick jus is made from the backbone, vegetables, herbs and stock, then finished with lemon, a touch of soy sauce and butter."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to roast chicken",
+        "summary": "Cold open, then the plan to roast a mayo-slathered chicken. Kenji tells the story of Kevin Bacon praising his mayo turkey recipe on Jimmy Fallon's show.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Preparing the chicken",
+        "summary": "Introduces the Combustion Inc. predictive thermometer as a stand-in for brining. Kenji spatchcocks the chicken with poultry shears and explains why spatchcocking evens out the cooking of breast and legs.",
+        "first_segment": 1,
+        "last_segment": 5
+      },
+      {
+        "title": "Making the herb mayo",
+        "summary": "Herb mayo is blended from parsley, sage, rosemary, thyme, garlic, MSG, salt, pepper, lemon zest and scallions. Kenji explains why mayo beats herb butter and how it prevents marinades from burning, with a Microplane tip and a hand blender accident story along the way.",
+        "first_segment": 5,
+        "last_segment": 12
+      },
+      {
+        "title": "Applying marinade and roasting",
+        "summary": "The chicken is coated in the mayo and the probe inserted. It roasts at 425°F with the alarm set for 145°F, followed by an explanation of time-and-temperature pasteurization.",
+        "first_segment": 13,
+        "last_segment": 16
+      },
+      {
+        "title": "Making a quick pan sauce",
+        "summary": "A light jus is started from the chopped backbone, onion, celery and carrot, lightly browned and then simmered with herbs and store-bought chicken stock.",
+        "first_segment": 16,
+        "last_segment": 19
+      },
+      {
+        "title": "Resting and finishing sauce",
+        "summary": "The chicken comes out at 145°F in the breast, with the thigh at 182°F, and rests. The jus is strained and finished with lemon, soy sauce and butter.",
+        "first_segment": 20,
+        "last_segment": 22
+      },
+      {
+        "title": "Carving and tasting",
+        "summary": "Carving the legs and breast. Notes on thickening options (roux, Wondra, cornstarch), on breast versus thigh, and a tasting that shows how little of the herb mixture dripped off.",
+        "first_segment": 23,
+        "last_segment": 28
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Look at how nice and brown",
+        "last_segment": 1,
+        "ends_with": "makes me zero degrees from Kevin Bacon.",
+        "note": "Cold open teaser, greeting, and the Kevin Bacon / Jimmy Fallon mayo turkey anecdote"
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "Also a misnomer because I I've",
+        "last_segment": 10,
+        "ends_with": "my hand and it was not pretty.",
+        "note": "Joke about the name 'hand blender' and story of his worst kitchen accident with an industrial blender"
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "Sunscreen on a Canadian.",
+        "last_segment": 14,
+        "ends_with": "that's what this is like.",
+        "note": "Producer Lena's joke about slathering"
+      },
+      {
+        "role": "aside",
+        "first_segment": 23,
+        "starts_with": "Maybe maybe it won't be juicy",
+        "last_segment": 23,
+        "ends_with": "Gobi Desert is moist like a chicken.",
+        "note": "Gobi Desert joke"
+      },
+      {
+        "role": "outro",
+        "first_segment": 28,
+        "starts_with": "All right, guys, gals, non-binary pals.",
+        "last_segment": 29,
+        "ends_with": "in the description below. Thanks.",
+        "note": "Sign-off with plugs for Patreon, the alternate channel, Instagram and signed books"
+      }
+    ],
+    "topics": [
+      "spatchcocking chicken",
+      "mayonnaise as a marinade",
+      "herb mayo",
+      "roast chicken",
+      "predictive thermometer",
+      "chicken pasteurization temperatures",
+      "pan jus",
+      "carving a chicken",
+      "brining vs thermometer"
+    ],
+    "entity_ids": [
+      "kenji:e:combustion-inc-predictive-thermometer",
+      "kenji:e:chris-young",
+      "kenji:e:kevin-bacon",
+      "kenji:e:jimmy-fallon",
+      "kenji:e:charles-kelsey",
+      "kenji:e:cook-s-illustrated",
+      "kenji:e:the-new-york-times",
+      "kenji:e:calvin-and-hobbes",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:book-larder",
+      "kenji:e:patreon",
+      "kenji:e:kenji-lopez-main",
+      "kenji:e:spatchcocking",
+      "kenji:e:poultry-shears",
+      "kenji:e:hand-blender",
+      "kenji:e:microplane",
+      "kenji:e:mayonnaise",
+      "kenji:e:herb-mayo",
+      "kenji:e:herb-butter",
+      "kenji:e:scarborough-fair-herb-mix-parsley-sage-rosemary-thyme",
+      "kenji:e:scallions",
+      "kenji:e:msg",
+      "kenji:e:lemon-zest",
+      "kenji:e:teriyaki-sauce",
+      "kenji:e:soy-sauce",
+      "kenji:e:chicken-stock",
+      "kenji:e:olive-oil",
+      "kenji:e:jus",
+      "kenji:e:roux",
+      "kenji:e:wondra-flour",
+      "kenji:e:cornstarch-slurry",
+      "kenji:e:dry-brining",
+      "kenji:e:pasteurization",
+      "kenji:e:keel-bone",
+      "kenji:e:lobster-bisque"
+    ],
+    "categories": [
+      "meat",
+      "techniques",
+      "sauces",
+      "kitchen tools",
+      "ingredients"
+    ],
+    "answers_questions": [
+      "Why does Kenji put mayo on chicken before roasting it?",
+      "Is mayo better than herb butter for roast chicken?",
+      "How do you spatchcock a chicken and why bother?",
+      "What temperature should I pull roast chicken out of the oven?",
+      "Is 155°F chicken safe to eat?",
+      "What oven temperature does Kenji use for spatchcocked chicken?",
+      "What herbs does Kenji put in his herb mayo?",
+      "Why add scallions to herb butter or herb mayo?",
+      "Does Kenji brine his chicken if he's using a thermometer?",
+      "How does Kenji make a quick jus for roast chicken?",
+      "Why does Kenji put soy sauce in gravy?",
+      "Does mayo stop marinades with sugar from burning?",
+      "How does Kenji carve a spatchcocked chicken?",
+      "What thermometer does Kenji use for roast chicken?",
+      "How do you thicken a chicken jus into gravy?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:2Sz40WqBg8E:s0011",
+        "note": "After saying the herb mayo was done, Kenji adds that he forgot a key ingredient: scallions."
+      },
+      {
+        "segment_id": "kenji:2Sz40WqBg8E:s0017",
+        "note": "He corrects 'light olive oil' to mean ordinary everyday cooking olive oil, not the 'light' product."
+      },
+      {
+        "segment_id": "kenji:2Sz40WqBg8E:s0016",
+        "note": "He said he'd be back when the chicken was done, then admits he 'lied' and returns earlier to report the 45-minute predicted cook time and make the sauce."
+      }
+    ],
+    "related_videos": [
+      "Jimmy Fallon's show episode where Kevin Bacon talked about Kenji's mayo-slathered roast turkey recipe"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:combustion-inc-predictive-thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Combustion Inc. Predictive Thermometer",
+      "brand": "Combustion Inc.",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Combustion Inc. predictive thermometer",
+        "combustion ink predictive thermometer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chris-young",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Chris Young",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kevin-bacon",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Kevin Bacon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:jimmy-fallon",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Jimmy Fallon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:charles-kelsey",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Charles Kelsey",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cook-s-illustrated",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cook's Illustrated",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cooks Illustrated",
+        "cooks illustrated",
+        "cooksillustrated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-new-york-times",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "The New York Times",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New York Times",
+        "the New York Times"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:calvin-and-hobbes",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Calvin and Hobbes",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Calvin and Hobs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:book-larder",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Book Larder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bookarter",
+        "book Larder",
+        "book Larter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-lopez-main",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Kenji Lopez Main",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spatchcocking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "spatchcocking",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "butterfied",
+        "spashcocking",
+        "spashing",
+        "spatch cocking"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:poultry-shears",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "poultry shears",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "heavy duty poultry shears"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hand-blender",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "hand blender",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:microplane",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Microplane",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "microplane"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mayonnaise",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mayonnaise",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "mayo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:herb-mayo",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "herb mayo",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "herby mayo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:herb-butter",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "herb butter",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scarborough-fair-herb-mix-parsley-sage-rosemary-thyme",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Scarborough Fair herb mix (parsley, sage, rosemary, thyme)",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "scarbor fair mix"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scallions",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "scallions",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Scallions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lemon-zest",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "lemon zest",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:teriyaki-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "teriyaki sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "teriyak marinade"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chicken-stock",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chicken stock",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "storebought chicken stock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:olive-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "everyday cooking olive oil",
+        "everyday olive oil",
+        "light olive oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:jus",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "jus",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "chicken zu",
+        "loose juice",
+        "zoo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roux",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "roux",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "r"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wondra-flour",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Wondra flour",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cornstarch-slurry",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "cornstarch slurry",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dry-brining",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "dry brining",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "dry brine",
+        "rest overnight in the fridge on a rack uncovered",
+        "salted it yesterday"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pasteurization",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pasteurization",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "pasteurize",
+        "seven log reduction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:keel-bone",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "keel bone",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "heelbone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lobster-bisque",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "lobster bisque",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "9c7569dec859e186"
+}

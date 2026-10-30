@@ -1,0 +1,413 @@
+{
+  "platform_id": "bN_QNjRprbU",
+  "profile": {
+    "video_id": "kenji:bN_QNjRprbU",
+    "purpose": "Demonstrates cooking eggs in a cup with an espresso machine's steam wand, a technique Kenji saw at a cafe in Salamina, Colombia, then tries variations with sausage and a chawanmushi-style version with mushrooms and dashi.",
+    "video_type": "how_to",
+    "thesis": "An espresso machine's steam wand cooks eggs quickly into a uniquely light, custardy, fully set texture you can't get from a pan, and it's safe and easy to clean.",
+    "key_takeaways": [
+      "Put a couple of eggs, butter and a pinch of salt in a cup, insert the preheated steam wand and agitate until the eggs set at about 160 to 170°F.",
+      "The steam adds moisture and air, giving eggs that are fully set yet custardy and creamy.",
+      "Cleaning the wand is no harder than cleaning milk proteins off it, and outward steam pressure keeps egg from going up inside the wand; purging is optional.",
+      "Add-ins like Japanese arabiki sausage work well, as at the Colombian cafe where customers can request mix-ins.",
+      "The result differs from chawanmushi, which has roughly a 5:1 dashi-to-egg ratio and is steamed in a steamer, but a chawanmushi-style version with sautéed beech mushrooms, dashi and chives works well.",
+      "Dashi can be made with hot water straight from the espresso machine's water wand.",
+      "The whole process takes well under a minute with virtually no cleanup."
+    ],
+    "outline": [
+      {
+        "title": "The espresso machine eggs",
+        "summary": "Kenji explains where he learned the technique (a cafe in Salamina, Colombia) and steams eggs with butter and salt in a cup, describing the custardy texture.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Machine safety and cleaning",
+        "summary": "Addresses concerns that steaming eggs harms an espresso machine, explaining cleaning and why egg won't travel up the wand.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Experimenting with additions",
+        "summary": "Makes a version with Japanese arabiki sausage without pre-mixing the eggs, and talks about the cafe and visiting Colombia.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Chawanmushi style eggs",
+        "summary": "Compares the eggs to Japanese chawanmushi, then makes a chawanmushi-style version with sautéed beech mushrooms, homemade dashi and chives.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Final verdict and summary",
+        "summary": "Recommends the method as fast and easy for anyone already making espresso in the morning.",
+        "first_segment": 7,
+        "last_segment": 7
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "wow oh look at that hey",
+        "last_segment": 0,
+        "ends_with": "cooking eggs with my espresso machine",
+        "note": "Greeting and introduction of the topic"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "maybe at most you might void the warranty",
+        "last_segment": 3,
+        "ends_with": "then you complain that you broke it",
+        "note": "Joke about voiding the espresso machine warranty"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "if you go to this if you go to",
+        "last_segment": 4,
+        "ends_with": "been making it for years and years",
+        "note": "Travel talk about visiting Colombia and the older man who makes the eggs at the cafe"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "other than other than breaking my",
+        "last_segment": 6,
+        "ends_with": "it's okay I got another one",
+        "note": "Breaking his Colombian salt cellar"
+      },
+      {
+        "role": "outro",
+        "first_segment": 7,
+        "starts_with": "all right guys gals non-binary Pals",
+        "last_segment": 7,
+        "ends_with": "non-binary Pals espresso machine eggs",
+        "note": "Sign-off"
+      }
+    ],
+    "topics": [
+      "steam wand eggs",
+      "espresso machine cooking hack",
+      "steamed eggs",
+      "Colombian huevos al vapor",
+      "espresso machine cleaning",
+      "chawanmushi",
+      "dashi",
+      "egg texture"
+    ],
+    "entity_ids": [
+      "kenji:e:espresso-machine",
+      "kenji:e:lelit-espresso-machine",
+      "kenji:e:steam-wand",
+      "kenji:e:huevos-al-vapor",
+      "kenji:e:cafe-al-polo",
+      "kenji:e:salamina-caldas-colombia",
+      "kenji:e:bouvette",
+      "kenji:e:arabiki-sausage",
+      "kenji:e:salt-cellar",
+      "kenji:e:chawanmushi",
+      "kenji:e:dashi",
+      "kenji:e:bonito-flakes",
+      "kenji:e:kombu",
+      "kenji:e:beech-mushrooms-shimeji",
+      "kenji:e:butter",
+      "kenji:e:chives",
+      "kenji:e:bamboo-steamer"
+    ],
+    "categories": [
+      "eggs",
+      "appliances",
+      "techniques"
+    ],
+    "answers_questions": [
+      "How do you cook eggs with an espresso machine steam wand?",
+      "Will steaming eggs damage or clog my espresso machine wand?",
+      "How do you clean the steam wand after making eggs?",
+      "What texture do steam wand eggs have compared to pan scrambled eggs?",
+      "Where did Kenji learn the espresso machine egg technique?",
+      "At what temperature do the eggs set when steaming them?",
+      "Can you add sausage or other mix-ins to espresso machine eggs?",
+      "Are espresso machine eggs the same as chawanmushi?",
+      "How do you make a chawanmushi-style version with the steam wand?",
+      "Can you make dashi with the hot water from an espresso machine?",
+      "How long does it take to cook eggs with a steam wand?",
+      "Do you need to mix the eggs before steaming them?"
+    ],
+    "uses": [
+      "understanding",
+      "care_maintenance",
+      "background_history"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Short video of Kenji steaming eggs with an espresso machine posted on Instagram"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:espresso-machine",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "espresso machine",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "espressor machine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lelit-espresso-machine",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Lelit Espresso Machine",
+      "brand": "Lelit",
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:steam-wand",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "steam wand",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "espresso wand",
+        "hot water wand",
+        "wand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:huevos-al-vapor",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "huevos al vapor",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "weo salvor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cafe-al-polo",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cafe Al Polo",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cafe AP poo",
+        "Cafe Al poo",
+        "Cafe o poo"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salamina-caldas-colombia",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Salamina, Caldas, Colombia",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "kalus region of Colombia",
+        "salamina",
+        "salamine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bouvette",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Bouvette",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bouvette"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:arabiki-sausage",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "arabiki sausage",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Japanese arabiki sausage"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salt-cellar",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "salt cellar",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "salt Sal cell",
+        "salt seller"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chawanmushi",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "chawanmushi",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "Shan musi",
+        "ch mushy",
+        "chaan Mushi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dashi",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "dashi",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Dashi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bonito-flakes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "bonito flakes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Bonito flakes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kombu",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "kombu",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "kbo seaweed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beech-mushrooms-shimeji",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "beech mushrooms (shimeji)",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "beach mushrooms",
+        "shimi mushrooms"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "butter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chives",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chives",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bamboo-steamer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bamboo steamer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "32122138e793e411"
+}

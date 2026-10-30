@@ -1,0 +1,894 @@
+{
+  "platform_id": "52Gf_0odraY",
+  "profile": {
+    "video_id": "kenji:52Gf_0odraY",
+    "purpose": "A recipe video showing how to make a homemade version of the McDonald's Big Mac from supermarket ingredients. It covers the onions, the sauce, the bun, the lettuce and smash-style beef patties.",
+    "video_type": "how_to",
+    "thesis": "You can recreate a Big Mac at home from supermarket ingredients. The key elements are partially dehydrated onions, a mayo-and-mustard sauce (not ketchup), a middle bun cut from a second bottom bun, and beef patties cooked smash-burger style for extra browning.",
+    "key_takeaways": [
+      "Big Mac onions are dehydrated then rehydrated; at home, finely minced yellow onion microwaved on the lowest power for about 10 minutes approximates them.",
+      "Big Mac sauce is mayo and mustard based with pickle relish, not a ketchup-and-mayo Thousand Island style sauce.",
+      "The sauce uses mayo, sweet pickle relish, mustard, Marmite for umami, turmeric, sugar, salt and MSG; McDonald's colours theirs with paprika extract.",
+      "The middle bun is made by slicing a thin layer off a second bottom bun from cheap, soft supermarket hamburger buns.",
+      "Sesame seeds are stuck on with egg white applied by finger, then briefly toasted; a real Big Mac bun has around 600 seeds.",
+      "Finely shredded iceberg lettuce soaks up the beef juices.",
+      "Patties are just under 2 oz of supermarket 80/20 ground chuck seasoned with salt, pepper and MSG.",
+      "The patties are smashed on thick stainless steel (not nonstick or cast iron), cooked about 90% on the first side, then just kissed on the second.",
+      "Buns are dry-toasted, and a Big Mac is a 'double single': two patties and one slice of cheese."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Kenji introduces the Big Mac and its components, and says he will recreate it by hand from supermarket ingredients without really changing it.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Making the Sauce",
+        "summary": "He starts the onions dehydrating in the microwave, then explains that Big Mac sauce is mayo and mustard based and mixes his version with relish, Dijon, Marmite, turmeric, sugar, salt and MSG.",
+        "first_segment": 1,
+        "last_segment": 5
+      },
+      {
+        "title": "Making the Bun",
+        "summary": "He explains the triple-decker sesame bun, cuts a middle bun from a second bottom bun and applies egg white and sesame seeds before toasting. He also shreds iceberg lettuce.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "Cooking the Beef",
+        "summary": "He shows the finished microwaved onions, then seasons supermarket ground chuck patties of just under 2 oz and compares them to McDonald's patty sizes and his old Serious Eats recipe.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Smash Burger",
+        "summary": "He smashes the patties on the sponsor's Teppanyaki griddle and explains why thick stainless steel gives a better sear. He then dry-toasts the buns and assembles the Big Mac in layers.",
+        "first_segment": 11,
+        "last_segment": 14
+      },
+      {
+        "title": "Tasting and Recap",
+        "summary": "Kenji tastes the burger, shares memories of living above a McDonald's in Harlem, and recaps the key steps of the homemade Big Mac.",
+        "first_segment": 15,
+        "last_segment": 17
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "What would a name for a",
+        "last_segment": 0,
+        "ends_with": "going to the actual uh drive-thru.",
+        "note": "Cold-open joke and introduction to the homemade Big Mac."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "I'm going to I'm going to gray poop",
+        "last_segment": 3,
+        "ends_with": "on this on this here sauce.",
+        "note": "Grey Poupon pun about adding Dijon."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "This is actually um uh the",
+        "last_segment": 8,
+        "ends_with": "Ninja Turtles nemesis's first job.",
+        "note": "Shredder joke while shredding lettuce."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "So, I says to Mabel,",
+        "last_segment": 9,
+        "ends_with": "I says, \"Oh, all right. Onions are done.\"",
+        "note": "Comedic line while waiting for the onions."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 11,
+        "starts_with": "Um, so I've got my uh Balmuda Tanyaki here.",
+        "last_segment": 11,
+        "ends_with": "the sponsors of this recipe by the way.",
+        "note": "Brief sponsor mention for the BALMUDA Teppanyaki griddle."
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "What would What would a name",
+        "last_segment": 16,
+        "ends_with": "fond memories of that, but this is better.",
+        "note": "Fake Big Mac name joke and memories of living above a McDonald's in Harlem."
+      },
+      {
+        "role": "outro",
+        "first_segment": 17,
+        "starts_with": "All right, guys, gals, non-binary pals.",
+        "last_segment": 17,
+        "ends_with": "in the description below. Thanks.",
+        "note": "Sign-off with plugs for Patreon, the alternate channel, Instagram and signed books."
+      }
+    ],
+    "topics": [
+      "Big Mac copycat recipe",
+      "Big Mac sauce ingredients",
+      "dehydrated onions in the microwave",
+      "triple-decker bun",
+      "sesame seed bun",
+      "shredded iceberg lettuce",
+      "smash burger technique",
+      "griddle surface choice",
+      "burger assembly",
+      "MSG seasoning"
+    ],
+    "entity_ids": [
+      "kenji:e:big-mac",
+      "kenji:e:mcdonald-s",
+      "kenji:e:mcdonald-s-canada",
+      "kenji:e:big-mac-sauce",
+      "kenji:e:balmuda-the-teppanyaki",
+      "kenji:e:balmuda",
+      "kenji:e:marmite",
+      "kenji:e:dijon-mustard",
+      "kenji:e:grey-poupon",
+      "kenji:e:yellow-mustard",
+      "kenji:e:mayonnaise",
+      "kenji:e:sweet-pickle-relish",
+      "kenji:e:turmeric",
+      "kenji:e:paprika-extract",
+      "kenji:e:msg",
+      "kenji:e:yellow-onion",
+      "kenji:e:dehydrated-onions",
+      "kenji:e:iceberg-lettuce",
+      "kenji:e:sesame-seeds",
+      "kenji:e:hamburger-bun",
+      "kenji:e:egg-white-wash",
+      "kenji:e:ground-chuck-80-20",
+      "kenji:e:short-rib",
+      "kenji:e:pickle-chips",
+      "kenji:e:parchment-paper",
+      "kenji:e:razor-scraper",
+      "kenji:e:tel",
+      "kenji:e:toaster",
+      "kenji:e:microwave",
+      "kenji:e:smash-burger",
+      "kenji:e:stainless-steel",
+      "kenji:e:cast-iron",
+      "kenji:e:nonstick",
+      "kenji:e:in-n-out",
+      "kenji:e:double-single",
+      "kenji:e:hi-c",
+      "kenji:e:serious-eats",
+      "kenji:e:patreon",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:booklarder",
+      "kenji:e:kenji-lopez-main",
+      "kenji:e:michael-weiner",
+      "kenji:e:alex-oh",
+      "kenji:e:lena-davidson"
+    ],
+    "categories": [
+      "meat",
+      "sauces",
+      "techniques",
+      "appliances",
+      "ingredients",
+      "vegetables"
+    ],
+    "answers_questions": [
+      "What's actually in Big Mac sauce? Is it just ketchup and mayo?",
+      "How do I make copycat Big Mac sauce at home?",
+      "How do I get the McDonald's onion taste with regular onions?",
+      "Why does Kenji put Marmite in his Big Mac sauce?",
+      "How do you make the middle bun for a homemade Big Mac?",
+      "How do I get sesame seeds to stick to a store-bought bun?",
+      "How many sesame seeds are on a Big Mac bun?",
+      "How big should the patties be for a homemade Big Mac?",
+      "Why smash burgers on stainless steel instead of nonstick or cast iron?",
+      "How long do you cook a smash burger on each side?",
+      "Do I need to grind my own meat for a Big Mac copycat?",
+      "What order do you stack a Big Mac in?",
+      "Why use shredded iceberg on burgers?"
+    ],
+    "uses": [
+      "understanding",
+      "style"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "McDonald's Canada campaign videos on YouTube showing how Big Mac sauce is made in their factories",
+      "Kenji's original Big Mac recipe on Serious Eats (article)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:big-mac",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Big Mac",
+      "brand": "McDonald's",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mcdonald-s",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "McDonald's",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mcdonald-s-canada",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "McDonald's Canada",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:big-mac-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Big Mac sauce",
+      "brand": "McDonald's",
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "McDonald's sauce",
+        "special sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:balmuda-the-teppanyaki",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "BALMUDA The Teppanyaki",
+      "brand": "BALMUDA",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Balmuda Tanyaki",
+        "tetanyaki grill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:balmuda",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "BALMUDA",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Balmuda"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:marmite",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Marmite",
+      "brand": "Marmite",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dijon-mustard",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Dijon mustard",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Dijon",
+        "dijon mustard"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:grey-poupon",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Grey Poupon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "gray poop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yellow-mustard",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "yellow mustard",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mayonnaise",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mayonnaise",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "mayo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sweet-pickle-relish",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sweet pickle relish",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "relish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:turmeric",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "turmeric",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:paprika-extract",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "paprika extract",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yellow-onion",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "yellow onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "onions",
+        "yellow onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dehydrated-onions",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "dehydrated onions",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "dehydrated rehydrated onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:iceberg-lettuce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "iceberg lettuce",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "iceberg",
+        "shredd",
+        "shredded iceberg",
+        "shredders"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sesame-seeds",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sesame seeds",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hamburger-bun",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "hamburger bun",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "middle stacker bun",
+        "sesame seed bun"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:egg-white-wash",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "egg white wash",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "egg wash",
+        "egg white"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ground-chuck-80-20",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "ground chuck (80/20)",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "ground chuck 8020"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:short-rib",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Short rib",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "short rib",
+        "short ribs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pickle-chips",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "pickle chips",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "pickles chips"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:parchment-paper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "parchment paper",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:razor-scraper",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "razor scraper",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:toaster",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "toaster",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "toasters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:microwave",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "microwave",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "microwaves"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:smash-burger",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "smash burger",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "smashburger"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stainless-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "stainless steel",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Cast iron",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nonstick",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "nonstick",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "non-stick"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:in-n-out",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "In-N-Out",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:double-single",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "double single",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hi-c",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Hi-C",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "high sea"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Sirius Eats",
+        "printed recipe",
+        "serial seats",
+        "series Heats",
+        "series SE",
+        "serious eats",
+        "serious seats",
+        "serus eats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:booklarder",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Booklarder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bookarter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-lopez-main",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Kenji Lopez Main",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:michael-weiner",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Michael Weiner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:alex-oh",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Alex Oh",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "7c542d0a89fc4102"
+}

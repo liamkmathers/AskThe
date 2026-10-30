@@ -1,0 +1,813 @@
+{
+  "platform_id": "Azarsj8xlBk",
+  "profile": {
+    "video_id": "kenji:Azarsj8xlBk",
+    "purpose": "Demonstrate how to cook a thick bone-in ribeye for two using the reverse sear, explaining the science behind each step and the history of the technique.",
+    "video_type": "how_to",
+    "thesis": "For a big, thick steak, the reverse sear (low oven first, hard sear last) gives the most even edge-to-center doneness and is still Kenji's preferred method.",
+    "key_takeaways": [
+      "One thick steak for two gives a better contrast between crust and medium-rare interior than two thin steaks.",
+      "A ribeye is made of the loin muscle and the spinalis (cap); chuck-end ribeyes have more spinalis.",
+      "Season with kosher salt, black pepper and optionally MSG (about 5:1 salt to MSG); rest at least 45 minutes or overnight uncovered in the fridge so the salt is reabsorbed.",
+      "Surface moisture steals energy from the pan, so dry the steak before searing.",
+      "Cook in a low oven (about 200-275°F) to an internal temperature around 120-125°F, then sear in a smoking-hot heavy pan with oil, butter and optional aromatics.",
+      "Kenji developed the reverse sear at Cook's Illustrated as a home alternative to sous vide; others like Alton Brown had similar roast recipes earlier.",
+      "The steak can sit at room temperature up to about 45 minutes between oven and sear.",
+      "A reverse-seared steak needs no resting because its temperature is already even; finish with flaky sea salt since the interior is unseasoned."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Ribeye",
+        "summary": "Kenji explains why one thick steak for two beats two thin ones and describes the grass-fed bone-in ribeye, its loin and spinalis muscles, and why he prefers chuck-end cuts.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Seasoning and dry brining",
+        "summary": "Seasoning heavily with kosher salt, black pepper and MSG, then explaining how salt draws out and reabsorbs moisture, why surface moisture hurts searing, and resting 45 minutes or overnight.",
+        "first_segment": 1,
+        "last_segment": 5
+      },
+      {
+        "title": "The reverse sear method",
+        "summary": "Inserting a Combustion thermometer, cooking in a low oven to about 125°F, target temperatures for different doneness, and the story of developing the reverse sear at Cook's Illustrated as an alternative to sous vide.",
+        "first_segment": 6,
+        "last_segment": 11
+      },
+      {
+        "title": "Searing the steak",
+        "summary": "Drying the steak and searing it in a heavy cast iron braiser with oil, butter, garlic, shallots and thyme, basting, searing the edges, and noting the steak can wait up to 45 minutes before searing.",
+        "first_segment": 11,
+        "last_segment": 14
+      },
+      {
+        "title": "Resting and slicing",
+        "summary": "Why reverse-seared steak needs no rest, slicing to show even edge-to-edge doneness, finishing with sea salt, and a recap of the method.",
+        "first_segment": 14,
+        "last_segment": 17
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "chenin P steak in this",
+        "last_segment": 0,
+        "ends_with": "cook a real big steak for two",
+        "note": "Cold open with Kenji's kid and greeting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "this pan by the way it's",
+        "last_segment": 14,
+        "ends_with": "and I'm not just saying that I really do",
+        "note": "Mentions the pan is a collaboration with Deb Perelman, his podcast co-host"
+      },
+      {
+        "role": "aside",
+        "first_segment": 17,
+        "starts_with": "two oh wait Chen do you",
+        "last_segment": 17,
+        "ends_with": "Chen here a little for me all for you",
+        "note": "Sharing steak with his kid"
+      },
+      {
+        "role": "outro",
+        "first_segment": 17,
+        "starts_with": "hey everyone I hope you enjoyed the video",
+        "last_segment": 18,
+        "ends_with": "in the description below thanks",
+        "note": "Patreon, channels, Instagram and signed books plug"
+      }
+    ],
+    "topics": [
+      "reverse sear",
+      "ribeye steak",
+      "dry brining",
+      "steak doneness temperatures",
+      "searing technique",
+      "sous vide comparison",
+      "resting meat",
+      "history of the reverse sear"
+    ],
+    "entity_ids": [
+      "kenji:e:ribeye",
+      "kenji:e:spinalis",
+      "kenji:e:new-york-strip",
+      "kenji:e:beef-tenderloin-steak",
+      "kenji:e:grass-fed-beef",
+      "kenji:e:kevin-smith",
+      "kenji:e:beast-and-cleaver",
+      "kenji:e:kosher-salt",
+      "kenji:e:black-pepper",
+      "kenji:e:msg",
+      "kenji:e:sea-salt",
+      "kenji:e:butter",
+      "kenji:e:thyme",
+      "kenji:e:garlic",
+      "kenji:e:shallots",
+      "kenji:e:reverse-sear",
+      "kenji:e:dry-brining",
+      "kenji:e:sous-vide",
+      "kenji:e:butter-basting",
+      "kenji:e:resting-meat",
+      "kenji:e:osmosis",
+      "kenji:e:pellicle",
+      "kenji:e:umami",
+      "kenji:e:cook-s-illustrated",
+      "kenji:e:combustion-predictive-thermometer",
+      "kenji:e:chris-young",
+      "kenji:e:alton-brown",
+      "kenji:e:hon-blumenthal",
+      "kenji:e:amazingribs-com",
+      "kenji:e:mead-goldwin",
+      "kenji:e:cast-iron-braiser",
+      "kenji:e:stab",
+      "kenji:e:dutch-oven",
+      "kenji:e:saute-pan",
+      "kenji:e:deb-perelman",
+      "kenji:e:smitten-kitchen",
+      "kenji:e:the-recipe-with-kenji-and-deb",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:patreon",
+      "kenji:e:book-larder"
+    ],
+    "categories": [
+      "meat",
+      "techniques",
+      "pans",
+      "kitchen tools",
+      "ingredients"
+    ],
+    "answers_questions": [
+      "What is the reverse sear and why is it better for thick steaks?",
+      "What oven temperature should I use for reverse searing a steak?",
+      "What internal temperature should I pull a ribeye at for medium rare?",
+      "How long should I dry brine a steak before cooking?",
+      "Why should I put MSG on my steak and how much?",
+      "Does a reverse-seared steak need to rest before cutting?",
+      "Who invented the reverse sear?",
+      "What pan should I use to sear a steak without splatter everywhere?",
+      "Should I add pepper before or after searing?",
+      "Can I leave the steak out between the oven and the sear?",
+      "What part of the ribeye is the best and which end should I buy?",
+      "Why does a wet steak not sear well?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:Azarsj8xlBk:s0007",
+        "note": "Kenji first says 120°F will be pretty rare and '120 will be' medium rare, then corrects himself: 125°F is medium rare, 130°F closer to medium."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:ribeye",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ribeye",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "ribey"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spinalis",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "spinalis",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "decal",
+        "spinalas",
+        "steckle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:new-york-strip",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "New York strip",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "new York strip"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beef-tenderloin-steak",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "beef tenderloin steak",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "filt",
+        "tenderloin",
+        "tenderloin steaks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:grass-fed-beef",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "grass-fed beef",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "grass-fed grass finished"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kevin-smith",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Kevin Smith",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beast-and-cleaver",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Beast and Cleaver",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "beast and Cleaver"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kosher salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-pepper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "black pepper",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "fresh ground pepper",
+        "pepper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sea-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "sea salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "colored sea salts",
+        "fancy sea salt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "butter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thyme",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "thyme",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Thyme",
+        "thy",
+        "thyme sprigs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:garlic",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "garlic",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "garlic cloves"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shallots",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "shallots",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "shallot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:reverse-sear",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "reverse sear",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "reverse ear",
+        "reverse here",
+        "reverse seer",
+        "reverse tier"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dry-brining",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "dry brining",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "rest overnight in the fridge on a rack uncovered",
+        "salted it yesterday"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sous-vide",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sous vide",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "sous-vide",
+        "suid",
+        "suit",
+        "suv"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter-basting",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "butter basting",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "base",
+        "basing",
+        "baste",
+        "basting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:resting-meat",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "resting meat",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "rest"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:osmosis",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "osmosis",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pellicle",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pellicle",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:umami",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "umami",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Umami"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cook-s-illustrated",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cook's Illustrated",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cooks Illustrated",
+        "cooks illustrated",
+        "cooksillustrated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:combustion-predictive-thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Combustion Predictive Thermometer",
+      "brand": "Combustion",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "combustion"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chris-young",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Chris Young",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:alton-brown",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Alton Brown",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hon-blumenthal",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "hon Blumenthal",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:amazingribs-com",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "AmazingRibs.com",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "amazing ribs.com",
+        "amazingribs.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mead-goldwin",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Mead Goldwin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron-braiser",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cast iron braiser",
+      "brand": "stab",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "brazer",
+        "stab uh cast iron uh brazer"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stab",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "stab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "stabb"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dutch-oven",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Dutch oven",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "dutch oven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:saute-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "sauté pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:deb-perelman",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Deb Perelman",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Deb Pearlman"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:smitten-kitchen",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Smitten Kitchen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "smitten and kitchen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-recipe-with-kenji-and-deb",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "The Recipe with Kenji and Deb",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:book-larder",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Book Larder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "book Larder",
+        "book Larter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "3224487b21f13295"
+}
