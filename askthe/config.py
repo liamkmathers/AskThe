@@ -11,7 +11,7 @@ import yaml
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
 from askthe.core.evaluation import Price, TestQuestion
-from askthe.core.models import Creator
+from askthe.core.models import ChannelInfo, Creator
 
 DEFAULT_CONFIG_PATH = Path("askthe.toml")
 
@@ -119,6 +119,12 @@ def load_creator(config: AppConfig, slug: str) -> Creator:
         raise ConfigError(f"{path}: {e}") from None
     if creator.slug != slug:
         raise ConfigError(f"{path}: slug {creator.slug!r} does not match file name {slug!r}")
+    channel = config.data_dir / slug / "raw" / "channel.json"
+    if channel.exists() and creator.channel is None:
+        try:
+            creator.channel = ChannelInfo.model_validate_json(channel.read_text())
+        except ValidationError as e:
+            raise ConfigError(f"{channel}: {e}") from None
     return creator
 
 

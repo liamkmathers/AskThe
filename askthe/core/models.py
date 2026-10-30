@@ -159,6 +159,19 @@ class GlossaryEntry(Model):
     heard_as: list[str] = Field(default_factory=list)
 
 
+class ChannelInfo(Model):
+    """The creator's channel as the platform describes it, fetched by `askthe channel`.
+    Raw data: saved once to data/<slug>/raw/channel.json, refreshed by fetching again."""
+
+    title: str = ""
+    description: str = ""
+    avatar_url: str | None = None
+    banner_url: str | None = None
+    subscribers: int | None = None
+    video_count: int | None = None
+    fetched_at: datetime | None = None
+
+
 class Creator(Model):
     """A creator instance ("Ask The <creator>"), loaded from creators/<slug>.yaml."""
 
@@ -174,6 +187,12 @@ class Creator(Model):
     video_selection: str | None = None
     glossary: list[GlossaryEntry] = Field(default_factory=list)
     starter_questions: list[str] = Field(default_factory=list)  # shown on the ask page
+    # Shown on the creator's page and catalog card. `about` and `tagline` are written
+    # in the creator config; the channel fields come from `askthe channel` (raw
+    # data/<slug>/raw/channel.json) and are filled in when the creator is loaded.
+    tagline: str | None = None  # one line for the catalog card
+    about: str | None = None  # a short paragraph about the channel, never personal life
+    channel: ChannelInfo | None = None
 
     @property
     def id(self) -> str:
