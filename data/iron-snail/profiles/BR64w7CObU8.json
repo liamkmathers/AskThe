@@ -1,0 +1,469 @@
+{
+  "platform_id": "BR64w7CObU8",
+  "profile": {
+    "video_id": "iron-snail:BR64w7CObU8",
+    "purpose": "Review of the Filson Double Mackinaw Cruiser wool jacket before the creator sells it: water resistance, warmth, fit, pockets and details, wind resistance, the lack of a lining, and whether Filson's reputation holds up, with tips on buying one used.",
+    "video_type": "review",
+    "thesis": "The Filson Double Mackinaw Cruiser is a legendary, very warm, water-resistant wool jacket, best bought used. Its main drawback is that it is unlined. It was treated unfairly in a YouTube comparison against a pricier Weather Wool jacket.",
+    "key_takeaways": [
+      "The jacket is 26 oz Mackinaw wool, with a double layer (cape) over the chest and shoulders and double-layer sleeves on the Double Mackinaw.",
+      "A shower test shows the boiled Mackinaw wool sheds water and the inside stays dry, and wool keeps insulating when wet, unlike down.",
+      "The creator paid $230 used for a near-new jacket that normally costs around $500, and recommends buying used.",
+      "To judge wear on used wool outerwear, look at the sleeves: fuzzing that hides the weave or stitching shows heavy use.",
+      "The older Alaskan cut is bulky with wide arms made for layering. Filson reportedly now uses a generally slimmer fit that still allows layering. The creator is 5'9\", 152 lb and wears a size 38.",
+      "Pockets: chest pockets, stitched-down tube pockets, low hand pockets the creator dislikes, and a rear game pouch that adds an extra wool layer across the back.",
+      "No wool is fully windproof, and some people layer a windproof shirt underneath.",
+      "The jacket is unlined, which makes the rough wool uncomfortable over a t-shirt. A cotton liner, as on Woolrich's version, adds comfort and wind resistance, so the single-layer lined Woolrich feels about as warm.",
+      "The creator's ideal is a single, slim, lined cruiser, which Filson offers only in its women's line.",
+      "The creator does not think Filson's quality has declined."
+    ],
+    "outline": [
+      {
+        "title": "Intro and shower water-resistance test",
+        "summary": "The creator explains why he is reviewing the jacket before selling it, then wears it in the shower to show the inside stays dry.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "The Filson Mackinaw Cruiser and the Weather Wool comparison",
+        "summary": "Covers the cruiser's military heritage, its 26 oz double-layer wool and warmth, and a response to a YouTube video comparing it unfavourably with a more expensive Weather Wool jacket. Also covers buying used for about $230.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Condition of the wool and Filson's history",
+        "summary": "How to spot heavy wear on used wool outerwear by examining the sleeves, and how Filson moved from workwear pricing to a pricier fashion market after being bought out.",
+        "first_segment": 3,
+        "last_segment": 3
+      },
+      {
+        "title": "Fit and sizing: Alaskan vs Seattle cut",
+        "summary": "The bulky Alaskan cut in size 38 with wide arms for layering, a note that Filson's current fit is slimmer, and how warm the jacket feels outdoors at 20 degrees.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Wool texture and detail shot",
+        "summary": "The rough outer wool, the button front and collar button, and the creator's complaint about collar height. Walks through the chest pockets, tube pockets and low hand pockets, and explains what makes a good hand-warmer pocket.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Game pouch",
+        "summary": "The rear game pouch, what it is for, and how its extra layer of wool adds warmth and wind protection across the back.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Wind resistance, boiled wool and wet insulation",
+        "summary": "Explains that wool is not windproof, how Filson's proprietary boiled Mackinaw wool is made tighter and thicker, and why wool insulates when wet while down does not.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Comfort: unlined vs lined",
+        "summary": "The jacket is unlined and scratchy over short sleeves. Covers the trade-offs of a cotton liner, the Filson Wool Cape Coat with its Sherpa and Thinsulate lining, a comparison with Woolrich's lined Mackinaw cruiser, and Filson only offering a lined single cruiser for women.",
+        "first_segment": 10,
+        "last_segment": 12
+      },
+      {
+        "title": "Filson quality and verdict",
+        "summary": "Pushes back on claims that Filson quality has declined, revisits the Weather Wool comparison, and recommends buying a Filson used.",
+        "first_segment": 12,
+        "last_segment": 13
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "okay so I'm sick and tired",
+        "last_segment": 0,
+        "ends_with": "review for you so I hope you're happy",
+        "note": "Opening: the creator explains why he is reviewing the jacket before selling it, with jokes."
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "right now it's 20 degrees",
+        "last_segment": 5,
+        "ends_with": "but I'm just gonna be cold",
+        "note": "Filming outside in the cold, having forgotten a warm jacket."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "also real quick if you don't subscribe",
+        "last_segment": 8,
+        "ends_with": "if you don't subscribe I swear to God",
+        "note": "Joking subscribe plug."
+      }
+    ],
+    "topics": [
+      "wool jacket review",
+      "Mackinaw wool",
+      "boiled wool",
+      "water resistance",
+      "wool vs down when wet",
+      "wind resistance of wool",
+      "buying used outerwear",
+      "checking wear on used wool",
+      "Alaskan vs Seattle cut",
+      "jacket fit and layering",
+      "pocket design",
+      "game pouch",
+      "lined vs unlined jackets",
+      "Filson quality",
+      "Filson vs Weather Wool"
+    ],
+    "entity_ids": [
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-double-mackinaw-cruiser",
+      "iron-snail:e:mackinaw-wool",
+      "iron-snail:e:boiled-wool",
+      "iron-snail:e:weather-wool",
+      "iron-snail:e:woolrich",
+      "iron-snail:e:woolrich-mackinaw-cruiser-style-jacket",
+      "iron-snail:e:filson-wool-cape-coat",
+      "iron-snail:e:filson-women-s-lined-single-mackinaw-cruiser",
+      "iron-snail:e:thinsulate",
+      "iron-snail:e:sherpa",
+      "iron-snail:e:game-pouch",
+      "iron-snail:e:cape-double-wool-layer",
+      "iron-snail:e:alaskan-cut",
+      "iron-snail:e:seattle-cut",
+      "iron-snail:e:world-war-ii-pea-coat",
+      "iron-snail:e:bridge-coat",
+      "iron-snail:e:down-jacket",
+      "iron-snail:e:cotton-liner"
+    ],
+    "categories": [
+      "jackets",
+      "coats"
+    ],
+    "answers_questions": [
+      "Is the Filson Mackinaw Cruiser water resistant?",
+      "How warm is the Filson Double Mackinaw Cruiser?",
+      "Should I buy a Filson Mackinaw Cruiser new or used, and how much should I pay?",
+      "How can I tell if a used wool jacket has been worn a lot?",
+      "How does the Filson cruiser fit, and what size should I get?",
+      "What's the difference between Filson's Alaskan and Seattle cuts?",
+      "Is the Filson Mackinaw Cruiser windproof?",
+      "Does wool still keep you warm when it gets wet?",
+      "Is the Filson cruiser itchy or comfortable over a t-shirt?",
+      "Is Filson's quality worse than it used to be?",
+      "Is Filson worth it compared to Weather Wool?",
+      "What is the game pouch on the back of a cruiser for?",
+      "How does the Filson cruiser compare to Woolrich's Mackinaw jacket?",
+      "Does Filson make a lined Mackinaw cruiser?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "A YouTube video by another creator comparing a Weather Wool jacket with a Filson jacket"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-double-mackinaw-cruiser",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Double Mackinaw Cruiser",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Filson double Mack cruiser",
+        "Mackinac Cruiser",
+        "Mackinaw cruiser",
+        "Pilsen Mackinaw Cruiser",
+        "double Mac"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mackinaw-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Mackinaw wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mackinac wool",
+        "Mackinaw boiled wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:boiled-wool",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "boiled wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weather-wool",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Weather Wool",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "weather will",
+        "weather wool",
+        "whether wool",
+        "wonderful"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woolrich",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Woolrich",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wool Rich's",
+        "wool rich"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woolrich-mackinaw-cruiser-style-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Woolrich Mackinaw cruiser-style jacket",
+      "brand": "Woolrich",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wool Rich's version of the Mac cruiser"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-wool-cape-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Wool Cape Coat",
+      "brand": "Filson",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "wool Cape coat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-women-s-lined-single-mackinaw-cruiser",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson women's lined single Mackinaw cruiser",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "their womens jacket"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:thinsulate",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Thinsulate",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sherpa",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Sherpa",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sherpa polyester",
+        "polyester Sherpa"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:game-pouch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "game pouch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cape-double-wool-layer",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "cape (double wool layer)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cape of wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alaskan-cut",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Alaskan cut",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Alaskan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seattle-cut",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Seattle cut",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Seattle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:world-war-ii-pea-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "World War II pea coat",
+      "brand": null,
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "pea coat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bridge-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "bridge coat",
+      "brand": null,
+      "model": null,
+      "category": "coats",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "down jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "down jackets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton-liner",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "cotton liner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "c2aa67bd96721cd4"
+}
