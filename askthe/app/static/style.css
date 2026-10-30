@@ -146,7 +146,36 @@ body[data-view="catalog"] .page { max-width: 960px; }
 
 .tagline { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; line-height: 1.4; }
 
-.summary { margin: 16px 0 0; }
+/* Three views of one creator: Ask, About, Your questions */
+
+.tabs {
+  display: flex;
+  gap: 22px;
+  margin: 20px 0 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.tabs a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 550;
+  padding: 8px 0 10px;
+  margin-bottom: -1px;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs a:hover { color: var(--ink); }
+
+.tabs a.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+.panel > .label:first-child, .panel > div:first-child > .label { margin-top: 4px; }
+
+.about-note { font-size: 0.85rem; margin: 24px 0 0; }
+
+.history .empty { padding: 12px 0; }
+
+.summary { margin: 0; }
 
 .timeline, .ventures { list-style: none; margin: 0; padding: 0; font-size: 0.93rem; line-height: 1.5; }
 
@@ -235,7 +264,7 @@ button, .primary { font: inherit; cursor: pointer; }
 
 .wide { display: block; width: 100%; margin-top: 16px; }
 
-.starters ul, .history ul, .reading { list-style: none; margin: 0; padding: 0; }
+.starters ul, .history, .reading { list-style: none; margin: 0; padding: 0; }
 
 .starters li button {
   display: block;

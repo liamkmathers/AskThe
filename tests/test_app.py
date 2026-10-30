@@ -246,6 +246,14 @@ def test_creator_page_has_bio_links_and_cited_quotes(tmp_path):
     assert info["links"] == [{"label": "Channel", "url": "https://example.com/@test"}]
 
 
+def test_each_creator_view_has_its_own_address(tmp_path):
+    app, _ = client(tmp_path)
+    for path in ("/test-creator", "/test-creator/about", "/test-creator/questions"):
+        assert app.get(path).status_code == 200
+    for path in ("/nobody/about", "/test-creator/journey", "/test-creator/about/more"):
+        assert app.get(path).status_code == 404
+
+
 def test_creator_slugs_cannot_take_the_page_routes(tmp_path):
     with pytest.raises(ValueError, match="api"):
         client(tmp_path, creators=[f.creator(slug="api")])

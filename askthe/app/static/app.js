@@ -523,22 +523,20 @@ function bioItems(kind, items) {
 }
 
 function showCreatorHeader() {
+  // Who this is, in one line: the same on every tab.
   const c = creator;
   $("avatar").outerHTML = avatar(c, "large", "avatar");
   $("title").textContent = c.name;
   $("tagline").hidden = !c.tagline;
   $("tagline").textContent = c.tagline || "";
-  $("summary").hidden = !c.summary;
-  $("summary").textContent = c.summary || "";
-  // Journey and ventures sit below the ask box, so the ask box stays near the top.
-  for (const kind of ["journey", "ventures"]) {
-    const items = c[kind] || [];
-    $(kind).innerHTML = bioItems(kind, items);
-    $(`${kind}-block`).hidden = items.length === 0;
+  for (const tab of ["ask", "about", "questions"]) {
+    $(`tab-${tab}`).href = tab === "ask" ? `/${c.slug}` : `/${c.slug}/${tab}`;
   }
-  $("links").innerHTML = c.links
-    .map((l) => `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`)
-    .join("");
+  $("tab-questions").hidden = loadHistory(c.slug).length === 0;
+}
+
+function showAskPanel() {
+  const c = creator;
   const n = c.videos;
   $("scope").textContent =
     `Answered only from ${possessive().toLowerCase()} ${n} video${n === 1 ? "" : "s"}, quoted and dated.`;
@@ -551,23 +549,41 @@ function showCreatorHeader() {
   $("starters").querySelectorAll("button").forEach((b) => (b.onclick = () => startAsk(b.textContent)));
 }
 
-async function showHome(slug) {
-  const found = await getCreator(slug);
-  if (!found) return showMissing();
-  creator = found;
-  showView("home");
-  document.title = creator.name;
-  showCreatorHeader();
-  const items = loadHistory(slug).sort((a, b) => (b.saved - a.saved) || b.askedAt.localeCompare(a.askedAt));
-  $("history").hidden = items.length === 0;
-  const list = $("history").querySelector("ul");
-  list.innerHTML = items
-    .map(
-      (i) =>
-        `<li><a href="/a/${i.id}">${i.saved ? "★ " : ""}${escapeHtml(i.question)}` +
-        `<span class="meta" data-id="${i.id}">${formatDate(i.askedAt.slice(0, 10))}</span></a></li>`,
-    )
+function showAboutPanel() {
+  // Who he is beyond one video, every line backed by his own words.
+  const c = creator;
+  $("summary").hidden = !c.summary;
+  $("summary").textContent = c.summary || "";
+  $("links").innerHTML = c.links
+    .map((l) => `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`)
     .join("");
+  let cited = false;
+  for (const kind of ["journey", "ventures"]) {
+    const items = c[kind] || [];
+    $(kind).innerHTML = bioItems(kind, items);
+    $(`${kind}-block`).hidden = items.length === 0;
+    cited = cited || items.length > 0;
+  }
+  $("about-note").hidden = !cited;
+  $("about-note").textContent =
+    `Everything here is from ${possessive().toLowerCase()} own videos: tap a number to see the quote.`;
+  $("about-ask").href = `/${c.slug}`;
+  $("about-ask").textContent = c.name;
+}
+
+async function showQuestionsPanel() {
+  const slug = creator.slug;
+  const items = loadHistory(slug).sort((a, b) => (b.saved - a.saved) || b.askedAt.localeCompare(a.askedAt));
+  const list = $("history");
+  list.innerHTML = items.length
+    ? items
+        .map(
+          (i) =>
+            `<li><a href="/a/${i.id}">${i.saved ? "★ " : ""}${escapeHtml(i.question)}` +
+            `<span class="meta" data-id="${i.id}">${formatDate(i.askedAt.slice(0, 10))}</span></a></li>`,
+        )
+        .join("")
+    : `<li class="empty muted">Questions you ask ${escapeHtml(creator.name.replace(/^Ask /, ""))} appear here.</li>`;
   if (!items.length) return;
   try {
     const updates = await fetchUpdates(items.map((i) => i.id));
@@ -579,6 +595,25 @@ async function showHome(slug) {
   } catch {
     // The list still works without the update badges.
   }
+}
+
+async function showHome(slug, tab = "ask") {
+  const found = await getCreator(slug);
+  if (!found) return showMissing();
+  creator = found;
+  showView("home");
+  showCreatorHeader();
+  for (const name of ["ask", "about", "questions"]) {
+    $(`panel-${name}`).hidden = name !== tab;
+    $(`tab-${name}`).classList.toggle("active", name === tab);
+    if (name === tab) $(`tab-${name}`).setAttribute("aria-current", "page");
+    else $(`tab-${name}`).removeAttribute("aria-current");
+  }
+  const titles = { ask: creator.name, about: `About · ${creator.name}`, questions: `Your questions · ${creator.name}` };
+  document.title = titles[tab];
+  if (tab === "about") showAboutPanel();
+  else if (tab === "questions") await showQuestionsPanel();
+  else showAskPanel();
 }
 
 function showMissing() {
@@ -612,9 +647,9 @@ function showView(name) {
 function route() {
   const path = location.pathname.replace(/\/+$/, "");
   const answer = path.match(/^\/a\/([\w-]+)$/);
-  const slug = path.match(/^\/([a-z0-9]+(?:-[a-z0-9]+)*)$/);
+  const slug = path.match(/^\/([a-z0-9]+(?:-[a-z0-9]+)*)(?:\/(about|questions))?$/);
   if (answer) showStoredAnswer(answer[1]);
-  else if (slug) showHome(slug[1]);
+  else if (slug) showHome(slug[1], slug[2] || "ask");
   else if (!path) showCatalog();
   else showMissing();
 }

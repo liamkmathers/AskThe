@@ -232,4 +232,8 @@ def create_app(
     def creator_page(slug: str) -> FileResponse:
         return page(200 if slug in creators else 404)
 
+    @app.get("/{slug}/{tab}", include_in_schema=False)
+    def creator_tab(slug: str, tab: str) -> FileResponse:
+        return page(200 if slug in creators and tab in ("about", "questions") else 404)
+
     return app

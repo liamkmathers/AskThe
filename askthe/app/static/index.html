@@ -17,7 +17,8 @@
       <ul id="creators" class="cards"></ul>
     </section>
 
-    <!-- Creator: who this is, then the ask box, starter questions, your questions -->
+    <!-- Creator: who this is (one line), then one of three views, each with its own
+         address: Ask (the reason fans come), About (who he is), Your questions. -->
     <section id="home" hidden>
       <nav class="bar">
         <a href="/" class="crumb">Ask</a>
@@ -30,31 +31,43 @@
             <p id="tagline" class="tagline" hidden></p>
           </div>
         </div>
+      </header>
+      <nav class="tabs" aria-label="Sections">
+        <a id="tab-ask" data-tab="ask">Ask</a>
+        <a id="tab-about" data-tab="about">About</a>
+        <a id="tab-questions" data-tab="questions" hidden>Your questions</a>
+      </nav>
+
+      <div id="panel-ask" class="panel">
+        <form id="ask-form" class="ask" autocomplete="off">
+          <textarea id="question" rows="2" maxlength="500" required
+                    aria-label="Your question"></textarea>
+          <button type="submit" class="primary">Ask</button>
+        </form>
+        <p id="scope" class="scope muted"></p>
+        <div id="starters" class="starters" hidden>
+          <p class="label">Try</p>
+          <ul></ul>
+        </div>
+      </div>
+
+      <div id="panel-about" class="panel" hidden>
         <p id="summary" class="summary" hidden></p>
         <p id="links" class="links"></p>
-      </header>
-      <form id="ask-form" class="ask" autocomplete="off">
-        <textarea id="question" rows="2" maxlength="500" required
-                  aria-label="Your question"></textarea>
-        <button type="submit" class="primary">Ask</button>
-      </form>
-      <p id="scope" class="scope muted"></p>
-      <div id="starters" class="starters" hidden>
-        <p class="label">Try</p>
-        <ul></ul>
+        <div id="journey-block" hidden>
+          <p class="label">Journey</p>
+          <ol id="journey" class="timeline"></ol>
+        </div>
+        <div id="ventures-block" hidden>
+          <p class="label">Ventures</p>
+          <ul id="ventures" class="ventures"></ul>
+        </div>
+        <p id="about-note" class="about-note muted"></p>
+        <a id="about-ask" class="primary wide"></a>
       </div>
-      <div id="history" class="history" hidden>
-        <p class="label">Your questions</p>
-        <ul></ul>
-      </div>
-      <!-- Who the creator is beyond one video: below the ask box, so it never pushes it down -->
-      <div id="journey-block" hidden>
-        <p class="label">Journey</p>
-        <ol id="journey" class="timeline"></ol>
-      </div>
-      <div id="ventures-block" hidden>
-        <p class="label">Ventures</p>
-        <ul id="ventures" class="ventures"></ul>
+
+      <div id="panel-questions" class="panel" hidden>
+        <ul id="history" class="history"></ul>
       </div>
     </section>
 
