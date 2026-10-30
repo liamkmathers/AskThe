@@ -13,6 +13,7 @@ import yaml
 from askthe.config import (
     DEFAULT_CONFIG_PATH,
     ConfigError,
+    bio_path,
     channel_path,
     list_creator_slugs,
     load_app_config,
@@ -254,6 +255,27 @@ def channel(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH
     subs = f"{info.subscribers:,} subscribers" if info.subscribers else "subscribers unknown"
     typer.echo(f"{info.title}: {subs}, avatar {'found' if info.avatar_url else 'missing'}")
     typer.echo(f"saved {path}")
+
+
+@app.command()
+def bio(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
+    """Write the creator's bio (journey, ventures) from their own words, with verified
+    quotes. Calls the LLM once; saves data/<creator>/bio.json (commit it)."""
+    from askthe.pipeline.bio import make_bio
+
+    services, c = _setup(config_path, creator)
+    report = make_bio(c, services.store, services.search, services.llm)
+    path = bio_path(services.config, c.slug)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(report.bio.model_dump_json(indent=2) + "\n")
+    typer.echo(
+        f"bio: {len(report.bio.journey)} milestones, {len(report.bio.ventures)} ventures; "
+        f"saved {path}"
+    )
+    for note in report.dropped:
+        typer.secho(f"dropped {note}", fg=typer.colors.YELLOW)
+    if report.usage:
+        typer.echo("tokens: " + ", ".join(f"{k} {n:,}" for k, n in report.usage.items()))
 
 
 @app.command()

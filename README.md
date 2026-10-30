@@ -63,6 +63,8 @@ API keys can go in a `.env` file in the project folder (`ASKTHE_ANTHROPIC_API_KE
 
 To show his channel avatar and description on the page, run `uv run askthe channel iron-snail` where YouTube is reachable (like `fetch`) and commit `data/iron-snail/channel.json`.
 
+To write his bio for the creator page (his journey and ventures, quoted from his videos; one model call, about $0.35): `uv run askthe bio iron-snail`, then commit `data/iron-snail/bio.json`.
+
 To try the ask page locally (answers call the LLM): with the API keys set, build the database once (`uv run askthe segment iron-snail`, which restores the saved profiles, then `uv run askthe index iron-snail`), then run `uv run askthe serve iron-snail` and open http://127.0.0.1:8000. `serve` warns if the database is empty or a key is missing.
 
 To build and run the test set (see [EVALUATION](docs/EVALUATION.md)): `askthe comments iron-snail` (needs YouTube, like `fetch`), then `askthe questions iron-snail` to list candidate fan questions, and `askthe eval iron-snail --label <name>` to score hybrid against full mode.

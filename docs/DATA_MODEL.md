@@ -32,6 +32,8 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | `glossary` | Known names and their common caption errors, from the creator config (see below) |
 | `starter_questions` | Example questions shown on the ask page |
 | `tagline`, `about` | One line and a short paragraph for the creator's page, written in the config (never personal life) |
+| `links` | Where the creator is (channel, store, socials), platform-neutral, from the config |
+| `bio` | Who they are as a whole: a summary, a dated journey and their ventures (own brands, products, collaborations), each item citing quotes verified against the cited video. Made by `askthe bio` into `data/<creator>/bio.json` (committed). Professional life only |
 | `channel` | Name, description, avatar, banner and subscriber count as the platform shows them, fetched by `askthe channel` into `data/<creator>/channel.json` (committed, refreshed by running it again) |
 
 ### Video

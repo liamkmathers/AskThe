@@ -244,6 +244,7 @@ class LLMTask(StrEnum):
     PLAN = "plan"  # turn a question into search queries
     RERANK = "rerank"  # score retrieved passages for relevance
     ANSWER = "answer"
+    BIO = "bio"  # write a creator's bio from their own words
 
 
 class EmbeddingError(Exception):

@@ -156,3 +156,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 
 **Chose:** with `[retrieval] require_profiles = true` (the default in `askthe.toml`), answers read only videos that have a profile. A newly fetched video is used once `askthe understand` has profiled it; `serve` warns how many are waiting, and the page's video count and "new video since you asked" count only usable videos.
 **Why:** without a profile, sponsor reads and asides aren't marked, so a paid read could be presented as his opinion (rule 6) and personal remarks aren't flagged (rule 8). Transcripts arrive in batches ahead of profiling, and a missing profile shouldn't quietly weaken answers.
+
+### D23. The creator page is about the creator, from their own words
+*2026-10-30*
+
+**Chose:** the creator page leads with a bio of who they are as a whole, not a copy of a platform's "About": a summary, a dated journey and their ventures (own brands, products, collaborations). `askthe bio` writes it once per creator with one model call over a catalogue of their profiled videos and the passages where they talk about their own work; every item must cite quotes, which code verifies against the cited video, and items touching personal life are dropped (rule 8). Links are platform-neutral (YouTube, store, later Instagram or Substack). The YouTube channel info supplies the avatar.
+**Why:** fans come for the person and their judgement, across everything they make; content from other platforms may follow. Grounding the bio in quotes keeps it as trustworthy as the answers.
+**Watch:** the catalogue is only the ingested videos, so the bio avoids "first" and "started with" claims unless the creator says so; the first draft got the brand's order wrong (it named the Mammoth as first, though the Prologue came a year earlier) until the passages for each product were searched first.
