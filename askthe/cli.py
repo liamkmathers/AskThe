@@ -466,6 +466,24 @@ def _print_summary(run: dict) -> None:
 
 
 @app.command()
+def serve(
+    creator: CreatorArg,
+    host: Annotated[str, typer.Option(help="Address to listen on.")] = "127.0.0.1",
+    port: Annotated[int, typer.Option(help="Port to listen on.")] = 8000,
+    config_path: ConfigOption = DEFAULT_CONFIG_PATH,
+) -> None:
+    """Run the ask page (docs/UI_PLAN.md) for one creator. Answers call the LLM."""
+    import uvicorn
+
+    from askthe.app.server import create_app
+
+    services, c = _setup(config_path, creator)
+    settings = RetrievalSettings.from_config(services.config.retrieval)
+    typer.echo(f"{c.instance_name}: http://{host}:{port}")
+    uvicorn.run(create_app(services, c, settings), host=host, port=port, log_level="warning")
+
+
+@app.command()
 def status(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
     """Show what has been fetched and built for a creator."""
     services, c = _setup(config_path, creator)

@@ -1,0 +1,799 @@
+{
+  "label": "changed-mind",
+  "created_at": "2026-10-30T10:16:43+00:00",
+  "creator": "iron-snail",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-sonnet-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 4,
+      "passed_checks": 4,
+      "coverage_right": 4,
+      "coverage_exact": 3,
+      "citations_hold": 4,
+      "personal_life": 0,
+      "cost_usd": 0.1778,
+      "mean_context_words": 4543,
+      "expected_sources_read": 0.875,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "q05",
+      "question": "So do you prefer [the Red Wing 3335s] over the 1907s?",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": true,
+          "answer": "He did prefer the 3335s over the 1907s in 2022, but by September 2023 he hedged: he says the 3335s \"still might be\" his favourite Red Wings, \"but they probably not\" [1], and he was selling them anyway.\n\n**Latest view (Sept 2023):** He says he is on record calling the 3335s his favourite Red Wings of all time. He now hedges that. The 875s, 1907s and Iron Rangers each have characteristics he really likes [1]. He still likes the 3335s for their stitch-down construction, lighter weight and nimbler feel, and says they are a little easier to go walking or take on a light hike in. Even so, \"they're going\" [1].\n\n**Earlier view (Oct 2022):** He called the 3335s his favourite boots he has ever had and said they beat his Blundstones, the 1907s and the 875s [2]. His reasoning was that heritage work boots are made for work, and he is hiking and walking in the woods instead. He called the 3335s a dramatically better all-around boot [2]. He added that the 1907s and 875s are more beefily built, so someone who needs a tough boot probably shouldn't pick the 3335s [2].\n\nHe also said he doesn't think stitch-down gives the 3335s much of an edge over Goodyear-welted boots like the 1907 [3].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "they still might be but they probably not the 875s the 1907s the iron Rangers all have their own characteristics that I really really like"
+            },
+            {
+              "n": 2,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0011"
+              ],
+              "quote": "They beat my Blundstones, they beat the 1907s, they beat the 875s."
+            },
+            {
+              "n": 3,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0012"
+              ],
+              "quote": "I don't really think they have that much of an edge on them."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "cyAzm8O3RwY",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:cyAzm8O3RwY:s0011",
+            "iron-snail:cyAzm8O3RwY:s0012",
+            "iron-snail:cyAzm8O3RwY:s0013",
+            "iron-snail:cyAzm8O3RwY:s0014",
+            "iron-snail:cyAzm8O3RwY:s0015",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007"
+          ],
+          "context_words": 1061,
+          "queries": [
+            "So do you prefer [the Red Wing 3335s] over the 1907s?",
+            "Red Wing 3335 vs 1907 comparison",
+            "Red Wing 3335 review",
+            "Red Wing 1907 review",
+            "Red Wing 3335 versus 1907 which do you prefer",
+            "Red Wing boots 3335 1907 fit and comfort",
+            "Red Wing 3335",
+            "Red Wing",
+            "Red Wings",
+            "red rings",
+            "red wing",
+            "red wings",
+            "redwing",
+            "wedwing",
+            "333 fives",
+            "3335",
+            "3335s",
+            "Red Wing 3335s",
+            "Red Wing 1907",
+            "1907",
+            "1907's",
+            "1907s",
+            "redwing 1907's"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22871,
+              "output": 792,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 5911,
+              "output": 658,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.02150216,
+          "seconds": 11.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "3335": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 3,
+            "sources_read": [
+              "cyAzm8O3RwY",
+              "mS6Jqq_GWlo"
+            ],
+            "sources_cited": [
+              "cyAzm8O3RwY",
+              "mS6Jqq_GWlo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q06",
+      "question": "How do you feel bout blunnies as of Late 2023?",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "As of September 2023, the most recent video available, he is still a big fan of Blundstones, but he is retiring his own 585s to make room for other boots, not because they let him down.\n\n**Latest view (Sept 2023):**\n- He calls the 585s the boots from his first ever video, says he has worn them constantly, and says they have held up and stayed his most water-resistant boots. [1]\n- He says \"bluntstones are just incredible,\" that he's a big fan and has always loved them, though he notes some people really don't like them. [1]\n- Even so, he decides it's \"time to retire\" them as part of cutting down his boot collection. [1]\n- He also treats slip-ons like Blundstones as ones he can flop on quickly for errands or rain. He's keeping a slip-on pair for now but says it could easily go on the sell list. [2]\n- He is letting go of his heavy-duty Blundstone work boots, which he found to be only very water-resistant nubuck, not waterproof as he had assumed. [3]\n\n**How his view developed:**\n- In 2019 he called them his favourite boots of the three or four he had. He recommended them if you keep them treated, and his main gripe was that the cemented soles can't technically be replaced. [4][5]\n- In 2020, after a year untreated, he said they still looked great and were still great boots. He added that he would have picked a smoother leather over the rustic nubuck, and that they are decent but not exceptional as work boots. [6][7][8]\n\n**Overall:** his lean is very positive, and the retirement is a collection cull, not a verdict against the boots.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "they've held up through it all they've remained probably my most water resistant boots through it all bluntstones are just incredible I'm a big fan of them I've always loved them"
+            },
+            {
+              "n": 2,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0008"
+              ],
+              "quote": "I'm keeping these but I could easily put them on the sell list"
+            },
+            {
+              "n": 3,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0002"
+              ],
+              "quote": "they are just a very very water resistant nubuck"
+            },
+            {
+              "n": 4,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0011"
+              ],
+              "quote": "these are by far my favorites"
+            },
+            {
+              "n": 5,
+              "video": "a38PivchXTw",
+              "title": "Are Blundstone Boots Worth the Hype? Review + Waterproof Test",
+              "published": "2019-05-10",
+              "segments": [
+                "iron-snail:a38PivchXTw:s0004"
+              ],
+              "quote": "that's my biggest gripe about blood stones"
+            },
+            {
+              "n": 6,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0011"
+              ],
+              "quote": "year in these are still great boots"
+            },
+            {
+              "n": 7,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0004"
+              ],
+              "quote": "i would have gotten a smoother leather"
+            },
+            {
+              "n": 8,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0007"
+              ],
+              "quote": "so it's decent for work boots but not anything incredible"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "a38PivchXTw",
+            "rb-33aSBxyE",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:a38PivchXTw:s0001",
+            "iron-snail:a38PivchXTw:s0002",
+            "iron-snail:a38PivchXTw:s0003",
+            "iron-snail:a38PivchXTw:s0004",
+            "iron-snail:a38PivchXTw:s0005",
+            "iron-snail:a38PivchXTw:s0007",
+            "iron-snail:a38PivchXTw:s0008",
+            "iron-snail:a38PivchXTw:s0009",
+            "iron-snail:a38PivchXTw:s0010",
+            "iron-snail:a38PivchXTw:s0011",
+            "iron-snail:rb-33aSBxyE:s0000",
+            "iron-snail:rb-33aSBxyE:s0001",
+            "iron-snail:rb-33aSBxyE:s0002",
+            "iron-snail:rb-33aSBxyE:s0003",
+            "iron-snail:rb-33aSBxyE:s0004",
+            "iron-snail:rb-33aSBxyE:s0005",
+            "iron-snail:rb-33aSBxyE:s0006",
+            "iron-snail:rb-33aSBxyE:s0007",
+            "iron-snail:rb-33aSBxyE:s0008",
+            "iron-snail:rb-33aSBxyE:s0009",
+            "iron-snail:rb-33aSBxyE:s0010",
+            "iron-snail:rb-33aSBxyE:s0011",
+            "iron-snail:mS6Jqq_GWlo:s0001",
+            "iron-snail:mS6Jqq_GWlo:s0002",
+            "iron-snail:mS6Jqq_GWlo:s0003",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007",
+            "iron-snail:mS6Jqq_GWlo:s0008"
+          ],
+          "context_words": 5511,
+          "queries": [
+            "How do you feel bout blunnies as of Late 2023?",
+            "bunny hoppers opinion 2023",
+            "blunnies",
+            "Blunnies review",
+            "bunny slippers fell apart",
+            "bunny slippers thoughts",
+            "fuzzy bunny shoes review",
+            "Blunnies"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23751,
+              "output": 757,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 14367,
+              "output": 966,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.04156466,
+          "seconds": 11.5,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Blundstone | blunnies": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "mS6Jqq_GWlo"
+            ],
+            "sources_cited": [
+              "mS6Jqq_GWlo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q07",
+      "question": "I'm wondering if you still have these boots and how are they holding up??? [Blundstones]",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "changed_mind": false,
+          "answer": "**Short answer:** As of his September 2023 boot-collection video, he was retiring his Blundstone 585s, the pair from his first video. He didn't say anything newer here about whether he still has them. He still thinks they held up very well.\n\n**Latest (2023):** He says \"it's time to retire those bunnies\" [1]. He still praises them: he has worn them constantly, the leather is beat up and shiny with old wax, but \"they've held up through it all\" [2]. He calls them \"probably my most water resistant boots through it all\" [3].\n\n**Earlier check-ins:**\n- **2022 (about two years in):** He restored the pair with Otterwax, using conditioner and oil on the cracked, dry leather and then a wax layer [4].\n- **2020 (one year in):** He said they look great and perform as he'd hoped for the price [5]. He noted more scuffs than he expected and lining wearing away at the big toe [6]. He also said he would pick a smoother leather over the rustic nubuck if he did it again [7].\n\nThe videos available here don't say whether he has since sold or donated the 585s, or how they have fared since 2023.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "I think it's time to retire those bunnies"
+            },
+            {
+              "n": 2,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "they've held up through it all"
+            },
+            {
+              "n": 3,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "probably my most water resistant boots through it all"
+            },
+            {
+              "n": 4,
+              "video": "4cRAkEHfXKo",
+              "title": "Are Blundstones Still Worth It? (Restoration & Waterproofing!)",
+              "published": "2022-06-06",
+              "segments": [],
+              "quote": "to restore the cracked dry leather"
+            },
+            {
+              "n": 5,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0002"
+              ],
+              "quote": "they're kind of performing exactly how i'd hope and kind of expect for the price point they're at"
+            },
+            {
+              "n": 6,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0003"
+              ],
+              "quote": "the upper part of the fabric is wearing away where my"
+            },
+            {
+              "n": 7,
+              "video": "rb-33aSBxyE",
+              "title": "How Do Blundstone Boots Hold Up After 1 Year? Review + Waterproof Test",
+              "published": "2020-08-21",
+              "segments": [
+                "iron-snail:rb-33aSBxyE:s0004"
+              ],
+              "quote": "i would have gotten a smoother leather"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "a38PivchXTw",
+            "H6lDr__B3GM",
+            "rb-33aSBxyE",
+            "4cRAkEHfXKo",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:a38PivchXTw:s0000",
+            "iron-snail:a38PivchXTw:s0001",
+            "iron-snail:a38PivchXTw:s0002",
+            "iron-snail:a38PivchXTw:s0004",
+            "iron-snail:a38PivchXTw:s0005",
+            "iron-snail:a38PivchXTw:s0006",
+            "iron-snail:a38PivchXTw:s0007",
+            "iron-snail:a38PivchXTw:s0008",
+            "iron-snail:a38PivchXTw:s0009",
+            "iron-snail:a38PivchXTw:s0010",
+            "iron-snail:a38PivchXTw:s0011",
+            "iron-snail:H6lDr__B3GM:s0000",
+            "iron-snail:H6lDr__B3GM:s0001",
+            "iron-snail:H6lDr__B3GM:s0002",
+            "iron-snail:H6lDr__B3GM:s0004",
+            "iron-snail:H6lDr__B3GM:s0005",
+            "iron-snail:H6lDr__B3GM:s0006",
+            "iron-snail:H6lDr__B3GM:s0007",
+            "iron-snail:H6lDr__B3GM:s0008",
+            "iron-snail:rb-33aSBxyE:s0000",
+            "iron-snail:rb-33aSBxyE:s0001",
+            "iron-snail:rb-33aSBxyE:s0002",
+            "iron-snail:rb-33aSBxyE:s0003",
+            "iron-snail:rb-33aSBxyE:s0004",
+            "iron-snail:rb-33aSBxyE:s0005",
+            "iron-snail:rb-33aSBxyE:s0006",
+            "iron-snail:rb-33aSBxyE:s0007",
+            "iron-snail:rb-33aSBxyE:s0008",
+            "iron-snail:rb-33aSBxyE:s0009",
+            "iron-snail:rb-33aSBxyE:s0010",
+            "iron-snail:rb-33aSBxyE:s0011",
+            "iron-snail:4cRAkEHfXKo:s0000",
+            "iron-snail:4cRAkEHfXKo:s0001",
+            "iron-snail:4cRAkEHfXKo:s0002",
+            "iron-snail:4cRAkEHfXKo:s0003",
+            "iron-snail:4cRAkEHfXKo:s0004",
+            "iron-snail:4cRAkEHfXKo:s0007",
+            "iron-snail:4cRAkEHfXKo:s0008",
+            "iron-snail:4cRAkEHfXKo:s0009",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007"
+          ],
+          "context_words": 8122,
+          "queries": [
+            "I'm wondering if you still have these boots and how are they holding up??? [Blundstones]",
+            "Blundstone boots review",
+            "Blundstone durability wear after months",
+            "Blundstone boots update long term wear",
+            "Blundstone leather scuffs holding up",
+            "Blundstone boots sole wear and comfort",
+            "Blundstone",
+            "Bloodstones",
+            "blend stone",
+            "blonde so",
+            "blonde stones",
+            "blood stones",
+            "bloodstone",
+            "blown stones",
+            "blunt stone",
+            "blunt stones",
+            "blunts on boots",
+            "Blundstone 500",
+            "500s",
+            "Blundstone 550",
+            "blunt stones 550's",
+            "Blundstone 550 Rustic Brown (Style 585)",
+            "Blundstone 585",
+            "585s",
+            "blundstones",
+            "Blundstone 585 Rustic Brown",
+            "rustic",
+            "Blundstone 989 Extreme",
+            "Bloodstone super heavy duty work boots",
+            "Blundstone dress boot",
+            "dress version of these boots",
+            "Blundstone Waxy Oil Conditioner",
+            "blunt stone waxy oil conditioner",
+            "box toe dress Chelsea boot (girlfriend's slimmer Blundstone)",
+            "slimmer version of the boot with a box toe"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 23697,
+              "output": 761,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 21647,
+              "output": 1429,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.06075126,
+          "seconds": 16.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": false,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 3,
+            "sources_read": [
+              "4cRAkEHfXKo",
+              "mS6Jqq_GWlo",
+              "rb-33aSBxyE"
+            ],
+            "sources_cited": [
+              "4cRAkEHfXKo",
+              "mS6Jqq_GWlo",
+              "rb-33aSBxyE"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "q20",
+      "question": "1907 vs the 875's? What's the difference?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "He thinks the 1907 is the better buy of the two, but the 875 is still a boot he likes. In 2021 he called the 1907 Red Wing's best moc toe and said to get it over the 875 [1][2]. His most recent mention (2023) only says the 875s, 1907s and Iron Rangers each have characteristics he really likes [3].\n\n**Construction (the main difference)**\n- The 875 is Goodyear welted. He calls Goodyear welts durable and pretty water resistant, and says the welt leaves room for cork that molds to your foot [4][5].\n- The 1907 adds a storm (Norwegian-style) welt, which he values highly [6]. He relays the popular view from Reddit that Red Wing's version is just another strip of leather stitched onto the welt. He says he isn't quite sure about that [7].\n\n**Price and extras**\n- The 1907 costs about $10 more than the 875, but he argues that's not really true once you count the extras [8].\n- It comes with a removable leather footbed, which he says is typically about $40 separately. The footbed can come out to help the boots dry [9].\n- It also comes with leather laces, typically about $15 [10].\n\n**What they share**\n- In 2022 he groups them together with crepe soles, which he thinks will break down faster than the Vibram sole on the 3335 [11]. In the 2021 video he also says he doesn't really like the crepe soles [12].\n- Both are more beefily constructed than the 3335, so he says to look at them if you need a tough boot [13]. His 2022 favorite was the 3335, over both the 1907 and the 875 [13].\n\n**Waterproofing**\n- In his standing-in-water test, one 1907 leaked almost immediately through the stitching and the other stayed dry. He blamed one bigger stitch hole or imperfect waxing. He had no doubt the boots would hold up fine in rain, grass or mud [14][15].\n- He didn't test the 875 in that video, so he gives no side-by-side water result.\n\nHe hasn't covered other differences between the two, such as leather or fit, in the videos available here.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0000"
+              ],
+              "quote": "the 1907's in my opinion are red wings best heritage boots by far"
+            },
+            {
+              "n": 2,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0000"
+              ],
+              "quote": "i think you should get the 1907's if you're looking at a mocto red wing"
+            },
+            {
+              "n": 3,
+              "video": "mS6Jqq_GWlo",
+              "title": "Why I’m Selling 80% Of My Boot Collection. (Hoka, Blundstone, Doc Marten, etc!)",
+              "published": "2023-09-07",
+              "segments": [
+                "iron-snail:mS6Jqq_GWlo:s0007"
+              ],
+              "quote": "the 875s the 1907s the iron Rangers all have their own characteristics that I really really like"
+            },
+            {
+              "n": 4,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0008"
+              ],
+              "quote": "red wing 875s those are goodyear welted and goodyear welts are incredible they are really durable they are pretty water resistant"
+            },
+            {
+              "n": 5,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0008"
+              ],
+              "quote": "you have a little bit of space where you can put cork that will mold to your foot over time"
+            },
+            {
+              "n": 6,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0012"
+              ],
+              "quote": "you get the storm welt which you know to me is invaluable"
+            },
+            {
+              "n": 7,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0009"
+              ],
+              "quote": "the stormwilt for red wings on these 1907s isn't that complex and it's basically red wing stitching another strip of leather onto the welt itself"
+            },
+            {
+              "n": 8,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0011"
+              ],
+              "quote": "so the 1907s are ten dollars more expensive than the 875s theoretically not"
+            },
+            {
+              "n": 9,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0012"
+              ],
+              "quote": "the 1907's come with red wings inner leather footbed which typically you can get separately for 40"
+            },
+            {
+              "n": 10,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0012"
+              ],
+              "quote": "you also get a pair of leather laces thrown in for free with these boots that are typically 15"
+            },
+            {
+              "n": 11,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0006"
+              ],
+              "quote": "like the crepe soles on the 875s and 1907s"
+            },
+            {
+              "n": 12,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0000"
+              ],
+              "quote": "also crepe souls i don't really like those"
+            },
+            {
+              "n": 13,
+              "video": "cyAzm8O3RwY",
+              "title": "Why the Red Wing 3335s Are Better Than the 875s.",
+              "published": "2022-10-29",
+              "segments": [
+                "iron-snail:cyAzm8O3RwY:s0011"
+              ],
+              "quote": "1907s and 875s are definitely more beefily constructed"
+            },
+            {
+              "n": 14,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0014"
+              ],
+              "quote": "these boots leaked almost immediately which was a little bit of a letdown but only one boot leaked almost immediately"
+            },
+            {
+              "n": 15,
+              "video": "UTArIR26tMw",
+              "title": "Why The Red Wing 1907's Are The Best Moc Toe Boot. (vs. 875) + Waterproof test",
+              "published": "2021-09-18",
+              "segments": [
+                "iron-snail:UTArIR26tMw:s0014"
+              ],
+              "quote": "i have no doubt if it's raining or if you're just walking through grass or mud or anything like that these boots would hold up fine"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "UTArIR26tMw",
+            "cyAzm8O3RwY",
+            "mS6Jqq_GWlo"
+          ],
+          "segments_read": [
+            "iron-snail:UTArIR26tMw:s0000",
+            "iron-snail:UTArIR26tMw:s0001",
+            "iron-snail:UTArIR26tMw:s0006",
+            "iron-snail:UTArIR26tMw:s0007",
+            "iron-snail:UTArIR26tMw:s0008",
+            "iron-snail:UTArIR26tMw:s0009",
+            "iron-snail:UTArIR26tMw:s0010",
+            "iron-snail:UTArIR26tMw:s0011",
+            "iron-snail:UTArIR26tMw:s0012",
+            "iron-snail:UTArIR26tMw:s0013",
+            "iron-snail:UTArIR26tMw:s0014",
+            "iron-snail:cyAzm8O3RwY:s0005",
+            "iron-snail:cyAzm8O3RwY:s0006",
+            "iron-snail:cyAzm8O3RwY:s0011",
+            "iron-snail:cyAzm8O3RwY:s0012",
+            "iron-snail:cyAzm8O3RwY:s0013",
+            "iron-snail:cyAzm8O3RwY:s0014",
+            "iron-snail:cyAzm8O3RwY:s0015",
+            "iron-snail:mS6Jqq_GWlo:s0006",
+            "iron-snail:mS6Jqq_GWlo:s0007"
+          ],
+          "context_words": 3477,
+          "queries": [
+            "1907 vs the 875's? What's the difference?",
+            "1907 vs 875 difference",
+            "Red Wing 1907 versus 875 boots",
+            "1907 boot comparison review",
+            "875 boot comparison review",
+            "Red Wing 875 vs 1907 fit and leather",
+            "1907",
+            "Red Wing 1907",
+            "1907's",
+            "1907s",
+            "redwing 1907's",
+            "875",
+            "Red Wing 875",
+            "875s"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22822,
+              "output": 762,
+              "cache_read": 1626,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 11887,
+              "output": 2713,
+              "cache_read": 2004,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.053984260000000006,
+          "seconds": 21.3,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "875": true,
+              "1907": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "UTArIR26tMw"
+            ],
+            "sources_cited": [
+              "UTArIR26tMw"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}

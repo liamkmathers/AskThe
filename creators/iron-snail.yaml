@@ -35,6 +35,11 @@ video_selection: iron-snail.videos.txt
 # Known names and how auto-captions mangle them. Grows as videos are processed:
 # entity resolution proposes entries, a person approves them.
 # Seeded from the three transcripts tested while designing the data model.
+# Shown on the ask page; from real fan comments, lightly shortened.
+starter_questions:
+  - "1907 vs the 875s? What's the difference?"
+  - "What's the best budget t-shirt?"
+  - "Should I treat my boots out of the box?"
 glossary:
   - name: Vibram
     type: brand

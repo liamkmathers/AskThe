@@ -68,6 +68,7 @@ def run_eval(
             read = [platform_ids[v] for v in r.videos_read]
             result = {
                 "coverage": a.coverage.value,
+                "changed_mind": a.changed_mind,
                 "answer": a.text,
                 "sources": [
                     {

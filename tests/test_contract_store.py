@@ -123,3 +123,7 @@ def test_answer_log(store):
     store.log_answer(log)
     assert store.list_answers(f.CREATOR) == [log]
     assert store.list_answers("someone-else") == []
+    assert store.get_answer("1") == log and store.get_answer("missing") is None
+    flagged = log.model_copy(update={"flagged": ["wrong date"]})
+    store.log_answer(flagged)  # saving again replaces
+    assert store.list_answers(f.CREATOR) == [flagged]

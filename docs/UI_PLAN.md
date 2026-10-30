@@ -1,6 +1,6 @@
-# UI plan (M6), proposal
+# UI plan (M6)
 
-*2026-10-29, decisions added 2026-10-30. A plan, not built yet. Researched from existing products (sources at the end), and from the real answers in `eval/runs/`.*
+*2026-10-29, decisions added 2026-10-30. **v1 built** (`askthe serve <creator>`, code in `askthe/app/`). Researched from existing products (sources at the end), and from the real answers in `eval/runs/`.*
 
 ## Direction
 

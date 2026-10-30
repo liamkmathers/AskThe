@@ -6,7 +6,7 @@ APIs; adapters translate to and from them at the boundary.
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 from enum import StrEnum
 from typing import Any
 
@@ -173,6 +173,7 @@ class Creator(Model):
     categories: list[str]
     video_selection: str | None = None
     glossary: list[GlossaryEntry] = Field(default_factory=list)
+    starter_questions: list[str] = Field(default_factory=list)  # shown on the ask page
 
     @property
     def id(self) -> str:
@@ -431,13 +432,34 @@ class Claim(Model):
         return self.held_by.kind is HeldByKind.CREATOR
 
 
+class AnswerSource(Model):
+    """One verified citation in an answer: the quote and where it came from."""
+
+    n: int  # the [n] marker in the answer text
+    video_id: str
+    title: str
+    published: date
+    url: str
+    segment_ids: list[str] = Field(default_factory=list)  # empty for a description quote
+    quote: str
+    in_description: bool = False  # quoted from the video's description
+    sponsored: bool = False  # inside a sponsor read, as marked in code (rule 6)
+
+
 class AnswerLog(Model):
+    """A question and the answer given: a snapshot fans can come back to (UI_PLAN)."""
+
     id: str
     creator_id: str
     asked_at: datetime
     question: str
     answer: str
     covered: Coverage
+    changed_mind: bool = False
+    sources: list[AnswerSource] = Field(default_factory=list)
+    videos_read: list[str] = Field(default_factory=list)  # video IDs the answer was based on
+    parent_id: str | None = None  # the answer this follows up, for a later chat thread
+    flagged: list[str] = Field(default_factory=list)  # "something wrong?" notes from fans
     cited_claim_ids: list[str] = Field(default_factory=list)
     cited_segment_ids: list[str] = Field(default_factory=list)
     pipeline_versions: dict[str, str] = Field(default_factory=dict)

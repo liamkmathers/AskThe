@@ -20,7 +20,16 @@ from pydantic import BaseModel, Field
 
 from askthe.core import ids
 from askthe.core.interfaces import SearchHit
-from askthe.core.models import Coverage, Creator, Passage, Segment, Video, VideoProfile
+from askthe.core.models import (
+    AnswerSource,
+    Coverage,
+    Creator,
+    Passage,
+    PassageRole,
+    Segment,
+    Video,
+    VideoProfile,
+)
 from askthe.core.profiling import normalise
 
 WATCH_URLS = {"youtube": "https://www.youtube.com/watch?v={}"}
@@ -256,6 +265,7 @@ class CitationDraft(BaseModel):
 
 
 class AnswerDraft(BaseModel):
+    # Field order matters: the answer streams first, so it can be shown as it's written.
     answer: str = Field(description="The answer, in Markdown, with [n] citation markers.")
     coverage: Coverage = Field(
         description=(
@@ -264,19 +274,15 @@ class AnswerDraft(BaseModel):
             "(a product, a size, a use) is left unanswered; none: he hasn't covered it."
         )
     )
+    changed_mind: bool = Field(
+        default=False,
+        description="True if he changed his mind or hedged an earlier verdict over time, "
+        "as this answer reports.",
+    )
     citations: list[CitationDraft]
 
 
-@dataclass(frozen=True)
-class Source:
-    n: int
-    video_id: str
-    title: str
-    published: date
-    url: str
-    segment_ids: list[str]
-    quote: str
-    in_description: bool = False  # quoted from the video's description, not the video
+Source = AnswerSource  # a verified citation
 
 
 @dataclass
@@ -285,6 +291,7 @@ class CheckedAnswer:
     coverage: Coverage
     sources: list[Source] = field(default_factory=list)
     problems: list[str] = field(default_factory=list)
+    changed_mind: bool = False
 
 
 def quote_location(quote: str, segment_index: int, segments: Sequence[Segment]) -> list[int]:
@@ -303,14 +310,41 @@ def quote_location(quote: str, segment_index: int, segments: Sequence[Segment]) 
     return []
 
 
+def sponsor_read_texts(segments: Sequence[Segment], passages: Sequence[Passage]) -> list[str]:
+    """The exact text of each sponsor read that can be located in the transcript.
+    Reads whose bounds can't be found are left out rather than guessed at (D15)."""
+    texts = {s.index: s.text for s in segments}
+    found = []
+    for p in passages:
+        if p.role is not PassageRole.SPONSOR:
+            continue
+        start_pat, end_pat = _words_pattern(p.starts_with), _words_pattern(p.ends_with)
+        span = " ".join(texts[i] for i in range(p.first_segment, p.last_segment + 1) if i in texts)
+        start = start_pat.search(span) if start_pat else None
+        end = None
+        if start and end_pat:
+            end = next((m for m in end_pat.finditer(span, start.start())), None)
+        if start and end:
+            found.append(span[start.start() : end.end()])
+    return found
+
+
 def check_answer(
     draft: AnswerDraft,
     videos: Mapping[str, tuple[Video, Sequence[Segment]]],
     platform: str,
+    sponsor_reads: Mapping[str, Sequence[str]] | None = None,
 ) -> CheckedAnswer:
     """Verify every citation against the transcripts. Failed citations are reported
-    and their markers removed from the text; nothing is repaired or guessed."""
-    checked = CheckedAnswer(text=draft.answer, coverage=draft.coverage)
+    and their markers removed from the text; nothing is repaired or guessed.
+
+    `sponsor_reads` maps a video's platform ID to the text of its sponsor reads; a
+    quote found inside one is marked sponsored here, in code, not by the model.
+    """
+    checked = CheckedAnswer(
+        text=draft.answer, coverage=draft.coverage, changed_mind=draft.changed_mind
+    )
+    reads = sponsor_reads or {}
     for c in draft.citations:
         found = videos.get(c.video)
         if found and c.segment == DESCRIPTION:
@@ -335,8 +369,45 @@ def check_answer(
                 segment_ids=[ids.segment_id(video.id, i) for i in located if i != DESCRIPTION],
                 quote=c.quote,
                 in_description=located == [DESCRIPTION],
+                sponsored=any(
+                    normalise(c.quote) in normalise(read) for read in reads.get(c.video, ())
+                ),
             )
         )
     if checked.coverage is not Coverage.NONE and not checked.sources:
         checked.problems.append("answer claims coverage but has no verified citations")
     return checked
+
+
+def partial_answer(raw: str) -> str:
+    """The answer text so far, from the start of a structured answer still being
+    generated (`{"answer": "...`), for showing it as it's written. Escapes are decoded;
+    an escape cut off mid-way is held back until the rest arrives."""
+    start = re.search(r'"answer"\s*:\s*"', raw)
+    if not start:
+        return ""
+    out: list[str] = []
+    i = start.end()
+    while i < len(raw):
+        ch = raw[i]
+        if ch == '"':
+            break
+        if ch != "\\":
+            out.append(ch)
+            i += 1
+            continue
+        if i + 1 >= len(raw):
+            break
+        code = raw[i + 1]
+        if code == "u":
+            if i + 6 > len(raw):
+                break
+            try:
+                out.append(chr(int(raw[i + 2 : i + 6], 16)))
+            except ValueError:
+                pass
+            i += 6
+            continue
+        out.append({"n": "\n", "t": "\t", "r": "", "b": "", "f": ""}.get(code, code))
+        i += 2
+    return "".join(out)

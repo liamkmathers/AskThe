@@ -81,6 +81,10 @@ If vector search fails, retrieval continues on keywords alone and the answer car
 
 **With vector search** (same 22 videos, 3 profiled): embedding all 421 chunks took 90k tokens, about $0.002. On the same three questions vector search changed about a third of the candidates but no conclusion: keyword search alone already found every passage full mode cited, near the top. Hybrid cost $0.01 to $0.08 per question against $0.03 to $0.62 for full mode, and read 0 to 2,745 words against 63,000. Whether vectors help with questions that don't name the product is for the M4 test set to show.
 
+### The web page
+
+`askthe serve <creator>` runs the ask page (`askthe/app/`, FastAPI and one plain HTML/JS page; see [UI_PLAN](UI_PLAN.md)). A question is answered in a worker thread and streamed to the page as newline-delimited JSON: searching, the videos being read, the answer text as it's written, then the verified answer. Citations stay grey until code has verified them; failed ones are removed. Every answer is saved as a snapshot with its own link. A fan's list of questions lives in their browser; "new video since you asked" is a keyword search over videos published after the answer, with no model call.
+
 ## Swappable components
 
 Each of these is an interface in the engine core, with implementations as adapters. The config file picks which adapter is used.

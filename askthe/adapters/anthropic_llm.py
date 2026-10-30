@@ -12,6 +12,7 @@ ANTHROPIC_API_KEY for Claude Code itself.
 from __future__ import annotations
 
 import os
+from collections.abc import Callable
 from typing import Any
 
 import anthropic
@@ -66,6 +67,7 @@ class AnthropicLLMClient:
         prompt: str,
         output_type: type[T],
         context: str | None = None,
+        on_text: Callable[[str], None] | None = None,
     ) -> Generated[T]:
         content: list[dict[str, Any]] = []
         if context:
@@ -81,15 +83,22 @@ class AnthropicLLMClient:
             # On a policy refusal, the API re-runs the request on a fallback model.
             params["betas"] = [FALLBACK_BETA]
             params["fallbacks"] = "default"
+        request = dict(
+            model=self.model_for(task),
+            max_tokens=self._max_tokens,
+            system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+            messages=[{"role": "user", "content": content}],
+            output_format=output_type,
+            **params,
+        )
         try:
-            response = self.client.beta.messages.parse(
-                model=self.model_for(task),
-                max_tokens=self._max_tokens,
-                system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
-                messages=[{"role": "user", "content": content}],
-                output_format=output_type,
-                **params,
-            )
+            if on_text:
+                with self.client.beta.messages.stream(**request) as stream:
+                    for text in stream.text_stream:
+                        on_text(text)
+                    response = stream.get_final_message()
+            else:
+                response = self.client.beta.messages.parse(**request)
         except (anthropic.BadRequestError, anthropic.NotFoundError) as e:
             raise LLMError(f"request rejected: {e.message}") from e
         except anthropic.AuthenticationError as e:

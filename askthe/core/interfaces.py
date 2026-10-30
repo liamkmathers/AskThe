@@ -6,7 +6,7 @@ askthe/wiring.py constructs them. See docs/ARCHITECTURE.md#swappable-components.
 
 from __future__ import annotations
 
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass, field
 from enum import StrEnum
 from typing import Protocol, TypeVar, runtime_checkable
@@ -134,7 +134,11 @@ class KnowledgeStore(Protocol):
 
     def get_claims_for_entity(self, entity_id: str) -> list[Claim]: ...
 
-    def log_answer(self, log: AnswerLog) -> None: ...
+    def log_answer(self, log: AnswerLog) -> None:
+        """Save an answer, replacing any saved before with the same ID."""
+        ...
+
+    def get_answer(self, answer_id: str) -> AnswerLog | None: ...
 
     def list_answers(self, creator_id: str) -> list[AnswerLog]: ...
 
@@ -258,6 +262,10 @@ class LLMClient(Protocol):
 
     `context` is a large input shared by several calls (such as a whole transcript);
     adapters may cache it. It comes before `prompt`, which varies per call.
+
+    With `on_text`, the response is streamed: `on_text` receives each piece of the raw
+    structured (JSON) output as it's generated, for showing progress. The returned
+    value is the same either way.
     """
 
     def generate_structured(
@@ -267,6 +275,7 @@ class LLMClient(Protocol):
         prompt: str,
         output_type: type[T],
         context: str | None = None,
+        on_text: Callable[[str], None] | None = None,
     ) -> Generated[T]: ...
 
     def model_for(self, task: LLMTask) -> str: ...

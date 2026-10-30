@@ -30,6 +30,7 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | `display_name`, `instance_name` | "The Iron Snail", "Ask The Iron Snail" |
 | `channel_url`, `niche`, `categories` | From the creator config |
 | `glossary` | Known names and their common caption errors, from the creator config (see below) |
+| `starter_questions` | Example questions shown on the ask page |
 
 ### Video
 
@@ -162,13 +163,22 @@ The list is a starting point. New kinds and new standard attributes are added wh
 
 ### Answer log
 
+A snapshot of each answer given, so the web page can show it again by its link (`/a/<id>`).
+
 | Field | Notes |
 | --- | --- |
 | `id`, `creator_id`, `asked_at` | |
-| `question`, `answer` | |
+| `question`, `answer` | The answer text after verification (failed citations removed) |
 | `covered` | `full`, `partial`, `none` |
+| `changed_mind` | The answer reports that he changed his mind or hedged over time |
+| `sources` | Verified citations: `n`, video, title, published date, URL, quote, segment IDs, `in_description`, and `sponsored` (the quote is inside a located sponsor read, set in code) |
+| `videos_read` | Videos the answer was based on |
+| `parent_id` | The answer this follows up; unused until the page has a chat thread |
+| `flagged` | "Something wrong?" notes from fans |
 | `cited_claim_ids`, `cited_segment_ids` | |
-| `pipeline_versions` | Extractor, prompt and model used |
+| `pipeline_versions` | Profiler version, model and retrieval mode used |
+
+Answers live in the database, which is rebuildable from raw data; snapshots are lost if the database is deleted.
 
 ## His taste comes first
 

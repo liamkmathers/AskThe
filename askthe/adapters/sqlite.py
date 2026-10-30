@@ -37,7 +37,8 @@ from askthe.core.models import (
 def connect(path: Path | str) -> sqlite3.Connection:
     if str(path) != ":memory:":
         Path(path).parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(path)
+    # Shared across the web app's worker threads; this SQLite is built serialized.
+    conn = sqlite3.connect(path, check_same_thread=False)
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
     return conn
@@ -191,9 +192,14 @@ class SqliteKnowledgeStore:
     def log_answer(self, log: AnswerLog) -> None:
         with self._db:
             self._db.execute(
-                "INSERT INTO answers VALUES (?, ?, ?, ?)",
+                "INSERT OR REPLACE INTO answers VALUES (?, ?, ?, ?)",
                 (log.id, log.creator_id, log.asked_at.isoformat(), log.model_dump_json()),
             )
+
+    def get_answer(self, answer_id: str) -> AnswerLog | None:
+        rows = self._db.execute("SELECT json FROM answers WHERE id = ?", (answer_id,))
+        found = _load(AnswerLog, rows)
+        return found[0] if found else None
 
     def list_answers(self, creator_id: str) -> list[AnswerLog]:
         rows = self._db.execute(

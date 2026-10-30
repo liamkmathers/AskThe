@@ -15,6 +15,7 @@ to fix it; whatever still fails is removed and reported, never repaired.
 from __future__ import annotations
 
 import uuid
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from datetime import UTC, date, datetime
 from typing import Any
@@ -25,10 +26,12 @@ from askthe.core.answering import (
     answer_prompt,
     answer_system_prompt,
     check_answer,
+    partial_answer,
     render_corpus,
     render_video,
     score_videos,
     select_videos,
+    sponsor_read_texts,
 )
 from askthe.core.chunking import chunk_header
 from askthe.core.interfaces import (
@@ -83,6 +86,13 @@ class AskResult:
     usage_by_model: dict[str, dict[str, int]] = field(default_factory=dict)  # for costing
     segments_read: list[str] = field(default_factory=list)  # IDs of every segment shown
     trace: dict[str, Any] = field(default_factory=dict)  # how the context was chosen
+    answer_id: str | None = None  # set when the answer was saved
+
+
+# Progress for a live page: ("searching", {}), ("reading", {"videos": [...]}),
+# ("writing", {"text": answer so far}), ("retrying", {}) when citations failed and the
+# answer is being written again.
+OnEvent = Callable[[str, dict[str, Any]], None]
 
 
 def ask(
@@ -96,8 +106,14 @@ def ask(
     settings: RetrievalSettings | None = None,
     today: date | None = None,
     log: bool = True,
+    on_event: OnEvent | None = None,
+    parent_id: str | None = None,
 ) -> AskResult:
+    """Answer one question. `on_event` reports progress and streams the answer text;
+    `parent_id` records the answer this one follows up (for a later chat thread)."""
     settings = settings or RetrievalSettings()
+    emit = on_event or (lambda kind, data: None)
+    emit("searching", {})
     videos = {v.id: v for v in store.list_videos(creator.slug)}
     segments = {vid: store.get_segments(vid) for vid in videos}
     profiles = {vid: store.get_profile(vid) for vid in videos}
@@ -144,7 +160,21 @@ def ask(
         for s in segments[v]
         if shown[v] is None or s.index in shown[v]
     )
+    emit(
+        "reading",
+        {
+            "videos": [
+                {"title": videos[v].title, "published": videos[v].published_at.date().isoformat()}
+                for v in chosen
+            ]
+        },
+    )
     by_platform = {videos[v].platform_id: (videos[v], segments[v]) for v in chosen}
+    sponsor_reads = {
+        videos[v].platform_id: sponsor_read_texts(segments[v], profiles[v].passages)
+        for v in chosen
+        if profiles[v]
+    }
     system = answer_system_prompt(creator)
     prompt = answer_prompt(question, today or datetime.now(UTC).date())
 
@@ -154,36 +184,55 @@ def ask(
     shared = settings.mode == "full"
 
     def generate(p: str) -> tuple[AnswerDraft, str]:
+        raw: list[str] = []
+        shown_text = ""
+
+        def on_text(piece: str) -> None:
+            nonlocal shown_text
+            raw.append(piece)
+            text = partial_answer("".join(raw))
+            if text != shown_text:
+                shown_text = text
+                emit("writing", {"text": text})
+
         result = llm.generate_structured(
             LLMTask.ANSWER,
             system,
             p if shared else f"{corpus}\n\n{p}",
             AnswerDraft,
             context=corpus if shared else None,
+            on_text=on_text if on_event else None,
         )
         add_usage(result.usage, result.model)
         return result.value, result.model
 
     draft, model = generate(prompt)
-    checked = check_answer(draft, by_platform, creator.platform)
+    checked = check_answer(draft, by_platform, creator.platform, sponsor_reads)
     if checked.problems:
+        emit("retrying", {})
         retry = (
             f"{prompt}\n\nYour previous answer had citations that could not be verified:\n"
             + "\n".join(f"- {p}" for p in checked.problems)
             + "\nAnswer again. Copy every quote exactly from the segment you cite."
         )
         draft, model = generate(retry)
-        checked = check_answer(draft, by_platform, creator.platform)
+        checked = check_answer(draft, by_platform, creator.platform, sponsor_reads)
 
+    answer_id = None
     if log:
+        answer_id = uuid.uuid4().hex
         store.log_answer(
             AnswerLog(
-                id=uuid.uuid4().hex,
+                id=answer_id,
                 creator_id=creator.slug,
                 asked_at=datetime.now(UTC),
                 question=question,
                 answer=checked.text,
                 covered=checked.coverage,
+                changed_mind=checked.changed_mind,
+                sources=checked.sources,
+                videos_read=chosen,
+                parent_id=parent_id,
                 cited_segment_ids=[i for s in checked.sources for i in s.segment_ids],
                 pipeline_versions={
                     "profiler": PROFILER_VERSION,
@@ -202,7 +251,21 @@ def ask(
             s.id for v in chosen for s in segments[v] if shown[v] is None or s.index in shown[v]
         ],
         trace=trace,
+        answer_id=answer_id,
     )
+
+
+def newer_videos(
+    creator: Creator, log: AnswerLog, store: KnowledgeStore, search: SearchIndex
+) -> list[Video]:
+    """Videos published after an answer was given that match its question: the
+    "new video since you asked" signal. Keyword search only; no model call."""
+    later = {v.id: v for v in store.list_videos(creator.slug) if v.published_at > log.asked_at}
+    if not later:
+        return []
+    hits = search.search(SearchQuery(text=log.question, creator_id=creator.slug, limit=100))
+    matched = dict.fromkeys(h.video_id for h in hits if h.video_id in later)
+    return sorted((later[v] for v in matched), key=lambda v: v.published_at, reverse=True)
 
 
 def _full_context(

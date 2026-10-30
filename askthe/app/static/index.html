@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ask</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main id="app" class="page">
+    <!-- Home: ask box, starter questions, your questions -->
+    <section id="home" hidden>
+      <header class="intro">
+        <h1 id="title"></h1>
+        <p id="subtitle" class="muted"></p>
+      </header>
+      <form id="ask-form" class="ask" autocomplete="off">
+        <textarea id="question" rows="2" maxlength="500" required
+                  aria-label="Your question"></textarea>
+        <button type="submit" class="primary">Ask</button>
+      </form>
+      <div id="starters" class="starters" hidden>
+        <p class="label">Try</p>
+        <ul></ul>
+      </div>
+      <div id="history" class="history" hidden>
+        <p class="label">Your questions</p>
+        <ul></ul>
+      </div>
+    </section>
+
+    <!-- Answer: one question, its answer, its sources -->
+    <section id="answer" hidden>
+      <nav class="bar">
+        <a href="/" class="back" aria-label="Back to questions">‹</a>
+        <span class="spacer"></span>
+        <button id="save" class="icon" aria-label="Save" aria-pressed="false">☆</button>
+        <button id="share" class="icon" aria-label="Share">⤴</button>
+      </nav>
+      <h2 id="asked" class="asked"></h2>
+      <p id="progress" class="progress muted" hidden></p>
+      <ul id="reading" class="reading" hidden></ul>
+      <article id="verdict" class="verdict" hidden>
+        <span id="chip" class="chip" hidden></span>
+        <div id="lead"></div>
+      </article>
+      <div id="body" class="body"></div>
+      <div id="newer" class="newer" hidden></div>
+      <section id="sources" class="sources" hidden>
+        <p class="label" id="sources-label"></p>
+        <div id="source-list"></div>
+      </section>
+      <footer id="answer-foot" class="foot" hidden>
+        <button id="flag" class="link">Something wrong?</button>
+        <a href="/" class="link">Ask something else</a>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Source sheet: the quote, the video, and the way to it -->
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-backdrop" data-close></div>
+    <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="sheet-quote">
+      <div class="handle" data-close></div>
+      <p id="sheet-kind" class="label"></p>
+      <blockquote id="sheet-quote"></blockquote>
+      <p id="sheet-tags"></p>
+      <p id="sheet-video" class="video"></p>
+      <a id="sheet-watch" class="primary wide" target="_blank" rel="noopener">▶ Watch on YouTube</a>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

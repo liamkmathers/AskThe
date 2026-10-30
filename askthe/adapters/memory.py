@@ -223,7 +223,11 @@ class MemoryKnowledgeStore:
         ]
 
     def log_answer(self, log: AnswerLog) -> None:
-        self._answers.append(log)
+        self._answers = [a for a in self._answers if a.id != log.id] + [log.model_copy(deep=True)]
+
+    def get_answer(self, answer_id: str) -> AnswerLog | None:
+        found = next((a for a in self._answers if a.id == answer_id), None)
+        return found.model_copy(deep=True) if found else None
 
     def list_answers(self, creator_id: str) -> list[AnswerLog]:
         return [a for a in self._answers if a.creator_id == creator_id]
@@ -356,6 +360,7 @@ class MemoryLLMClient:
         prompt: str,
         output_type: type[T],
         context: str | None = None,
+        on_text: Callable[[str], None] | None = None,
     ) -> Generated[T]:
         self.calls.append((task, system, prompt, context))
         if not self._queues[task]:
@@ -367,4 +372,8 @@ class MemoryLLMClient:
                 f"scripted {task} response is {type(result).__name__}, "
                 f"expected {output_type.__name__}"
             )
+        if on_text:  # stream the JSON in a few pieces, like a real model would
+            raw = result.model_dump_json()
+            for start in range(0, len(raw), 16):
+                on_text(raw[start : start + 16])
         return Generated(value=result, model=self.model_for(task))
