@@ -465,6 +465,29 @@ def _print_summary(run: dict) -> None:
         )
 
 
+def _serve_problems(services: Services, c: Creator) -> list[str]:
+    """What would stop the page answering: an empty database, or missing API keys."""
+    import os
+
+    problems = []
+    videos = services.store.list_videos(c.slug)
+    if not videos:
+        problems.append(
+            f"no videos in the database: run `askthe segment {c.slug}` then `askthe index {c.slug}`"
+        )
+    elif not any(services.store.get_profile(v.id) for v in videos):
+        problems.append(f"no profiles loaded: run `askthe segment {c.slug}` (restores saved ones)")
+    adapters = services.config.adapters
+    keys = {
+        "llm": ("anthropic", ("ASKTHE_ANTHROPIC_API_KEY", "ANTHROPIC_API_KEY")),
+        "embedder": ("openai", ("ASKTHE_OPENAI_API_KEY", "OPENAI_API_KEY")),
+    }
+    for port, (adapter, names) in keys.items():
+        if adapters[port].use == adapter and not any(os.environ.get(n) for n in names):
+            problems.append(f"no API key for {port}: set {' or '.join(names)}")
+    return problems
+
+
 @app.command()
 def serve(
     creator: CreatorArg,
@@ -479,6 +502,8 @@ def serve(
 
     services, c = _setup(config_path, creator)
     settings = RetrievalSettings.from_config(services.config.retrieval)
+    for problem in _serve_problems(services, c):
+        typer.secho(f"warning: {problem}", fg=typer.colors.YELLOW)
     typer.echo(f"{c.instance_name}: http://{host}:{port}")
     uvicorn.run(create_app(services, c, settings), host=host, port=port, log_level="warning")
 

@@ -171,3 +171,35 @@ def test_index_builds_keyword_search_even_when_embeddings_fail():
     report = index_videos(creator, store, search, MemoryVectorIndex(), Down())
     assert report.embedded == 0 and "not embedded" in report.warnings[0]
     assert search.search(SearchQuery(text="warm boots", creator_id=f.CREATOR))
+
+
+def test_serve_warns_about_an_empty_database_and_missing_keys(tmp_path, monkeypatch):
+    from askthe.cli import _serve_problems
+    from askthe.config import load_app_config
+    from askthe.wiring import build_services
+
+    (tmp_path / "askthe.toml").write_text(
+        'data_dir = "data"\ncreators_dir = "creators"\n'
+        + "".join(
+            f'[adapters.{port}]\nuse = "{use}"\n'
+            for port, use in {
+                "catalog": "memory",
+                "transcripts": "memory",
+                "comments": "memory",
+                "raw_archive": "memory",
+                "profiles": "memory",
+                "store": "memory",
+                "search": "memory",
+                "embedder": "openai",
+                "vectors": "memory",
+                "llm": "memory",
+            }.items()
+        )
+    )
+    for name in ("ASKTHE_OPENAI_API_KEY", "OPENAI_API_KEY"):
+        monkeypatch.delenv(name, raising=False)
+    services = build_services(load_app_config(tmp_path / "askthe.toml"))
+    problems = _serve_problems(services, f.creator())
+    assert any("no videos in the database" in p for p in problems)
+    assert any("no API key for embedder" in p for p in problems)
+    assert not any("llm" in p for p in problems)  # the memory LLM needs no key
