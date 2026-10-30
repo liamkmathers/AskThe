@@ -28,6 +28,7 @@ from askthe.core.interfaces import (
 )
 from askthe.core.models import (
     AnswerLog,
+    ChannelInfo,
     Claim,
     Comment,
     Creator,
@@ -48,6 +49,13 @@ from askthe.core.models import (
 class MemoryCatalogSource:
     def __init__(self) -> None:
         self._videos: dict[str, dict[str, VideoMeta]] = defaultdict(dict)
+        self.channels: dict[str, ChannelInfo] = {}  # by creator slug, set by tests
+
+    def get_channel(self, creator: Creator) -> ChannelInfo:
+        try:
+            return self.channels[creator.slug].model_copy()
+        except KeyError:
+            raise LookupError(f"no channel info for {creator.slug!r}") from None
 
     def add(self, creator_slug: str, meta: VideoMeta) -> None:
         self._videos[creator_slug][meta.platform_id] = meta

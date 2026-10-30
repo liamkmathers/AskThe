@@ -203,3 +203,56 @@ def test_serve_warns_about_an_empty_database_and_missing_keys(tmp_path, monkeypa
     assert any("no videos in the database" in p for p in problems)
     assert any("no API key for embedder" in p for p in problems)
     assert not any("llm" in p for p in problems)  # the memory LLM needs no key
+
+
+def test_channel_info_maps_yt_dlp_fields_and_prefers_uncropped_images():
+    from askthe.adapters.youtube import channel_from_info
+
+    info = channel_from_info(
+        {
+            "channel": "The Test Channel",
+            "description": "Reviews of things.",
+            "channel_follower_count": 1234,
+            "playlist_count": 50,
+            "thumbnails": [
+                {"id": "avatar", "url": "https://img/avatar-small", "width": 88},
+                {"id": "avatar_uncropped", "url": "https://img/avatar-big", "width": 900},
+                {"id": "banner_uncropped", "url": "https://img/banner"},
+                {"id": "7", "url": "https://img/other"},
+            ],
+        }
+    )
+    assert info.title == "The Test Channel" and info.subscribers == 1234
+    assert info.avatar_url == "https://img/avatar-big" and info.banner_url == "https://img/banner"
+    assert channel_from_info({}).avatar_url is None
+
+
+def test_channel_command_saves_info_that_the_creator_then_carries(tmp_path, monkeypatch):
+    from askthe.adapters.memory import MemoryCatalogSource
+    from askthe.config import load_app_config, load_creator
+    from askthe.core.models import ChannelInfo
+
+    (tmp_path / "creators").mkdir()
+    (tmp_path / "creators" / f"{f.CREATOR}.yaml").write_text(f.creator().model_dump_json())
+    (tmp_path / "askthe.toml").write_text(
+        'data_dir = "data"\ncreators_dir = "creators"\n'
+        + "".join(
+            f'[adapters.{port}]\nuse = "memory"\n'
+            for port in (
+                "catalog transcripts comments raw_archive profiles store search embedder "
+                "vectors llm"
+            ).split()
+        )
+    )
+    monkeypatch.setattr(
+        MemoryCatalogSource,
+        "get_channel",
+        lambda self, creator: ChannelInfo(title="Test", avatar_url="https://img/a"),
+    )
+    result = CliRunner().invoke(
+        app, ["channel", f.CREATOR, "--config", str(tmp_path / "askthe.toml")]
+    )
+    assert result.exit_code == 0, result.output
+    assert (tmp_path / "data" / f.CREATOR / "channel.json").exists()
+    creator = load_creator(load_app_config(tmp_path / "askthe.toml"), f.CREATOR)
+    assert creator.channel.avatar_url == "https://img/a"

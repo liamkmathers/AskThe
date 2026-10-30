@@ -13,6 +13,7 @@ import yaml
 from askthe.config import (
     DEFAULT_CONFIG_PATH,
     ConfigError,
+    channel_path,
     list_creator_slugs,
     load_app_config,
     load_creator,
@@ -239,6 +240,20 @@ def questions(
     )
     requests = sum(q.kind == "request" for q in kept)
     typer.echo(f"wrote {len(kept)} candidates ({requests} requests for videos) to {path}")
+
+
+@app.command()
+def channel(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFIG_PATH) -> None:
+    """Fetch the channel's name, description, avatar and banner for the creator page.
+    Needs YouTube, like fetch; saves data/<creator>/channel.json (commit it)."""
+    services, c = _setup(config_path, creator)
+    info = services.catalog.get_channel(c)
+    path = channel_path(services.config, c.slug)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(info.model_dump_json(indent=2) + "\n")
+    subs = f"{info.subscribers:,} subscribers" if info.subscribers else "subscribers unknown"
+    typer.echo(f"{info.title}: {subs}, avatar {'found' if info.avatar_url else 'missing'}")
+    typer.echo(f"saved {path}")
 
 
 @app.command()

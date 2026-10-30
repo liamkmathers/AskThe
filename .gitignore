@@ -7,6 +7,7 @@ data/*/*
 !data/*/raw/
 !data/*/profiles/
 !data/*/channel.tsv
+!data/*/channel.json
 .env
 __pycache__/
 *.pyc

@@ -105,6 +105,11 @@ def creator_path(config: AppConfig, slug: str) -> Path:
     return config.creators_dir / f"{slug}.yaml"
 
 
+def channel_path(config: AppConfig, slug: str) -> Path:
+    """Where `askthe channel` keeps the creator's channel info (refreshed, committed)."""
+    return config.data_dir / slug / "channel.json"
+
+
 def load_creator(config: AppConfig, slug: str) -> Creator:
     path = creator_path(config, slug)
     try:
@@ -119,7 +124,7 @@ def load_creator(config: AppConfig, slug: str) -> Creator:
         raise ConfigError(f"{path}: {e}") from None
     if creator.slug != slug:
         raise ConfigError(f"{path}: slug {creator.slug!r} does not match file name {slug!r}")
-    channel = config.data_dir / slug / "raw" / "channel.json"
+    channel = channel_path(config, slug)
     if channel.exists() and creator.channel is None:
         try:
             creator.channel = ChannelInfo.model_validate_json(channel.read_text())

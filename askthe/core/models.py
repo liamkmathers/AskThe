@@ -160,8 +160,8 @@ class GlossaryEntry(Model):
 
 
 class ChannelInfo(Model):
-    """The creator's channel as the platform describes it, fetched by `askthe channel`.
-    Raw data: saved once to data/<slug>/raw/channel.json, refreshed by fetching again."""
+    """The creator's channel as the platform describes it, fetched by `askthe channel`
+    into data/<slug>/channel.json. Refreshed by fetching again, so not raw data."""
 
     title: str = ""
     description: str = ""
@@ -188,8 +188,8 @@ class Creator(Model):
     glossary: list[GlossaryEntry] = Field(default_factory=list)
     starter_questions: list[str] = Field(default_factory=list)  # shown on the ask page
     # Shown on the creator's page and catalog card. `about` and `tagline` are written
-    # in the creator config; the channel fields come from `askthe channel` (raw
-    # data/<slug>/raw/channel.json) and are filled in when the creator is loaded.
+    # in the creator config; the channel fields come from `askthe channel`
+    # (data/<slug>/channel.json) and are filled in when the creator is loaded.
     tagline: str | None = None  # one line for the catalog card
     about: str | None = None  # a short paragraph about the channel, never personal life
     channel: ChannelInfo | None = None

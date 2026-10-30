@@ -15,6 +15,7 @@ from pydantic import BaseModel, Field
 
 from askthe.core.models import (
     AnswerLog,
+    ChannelInfo,
     Claim,
     Comment,
     Creator,
@@ -44,6 +45,10 @@ class CatalogSource(Protocol):
     def list_videos(self, creator: Creator) -> list[VideoListing]: ...
 
     def get_video(self, creator: Creator, platform_id: str) -> VideoMeta: ...
+
+    def get_channel(self, creator: Creator) -> ChannelInfo:
+        """The channel as the platform describes it: name, description, avatar."""
+        ...
 
 
 @runtime_checkable

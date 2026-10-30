@@ -13,6 +13,7 @@ from datetime import UTC, datetime
 from typing import Any
 
 from askthe.core.models import (
+    ChannelInfo,
     Comment,
     Creator,
     Transcript,
@@ -47,6 +48,11 @@ class YtDlpCatalogSource:
 
     def get_video(self, creator: Creator, platform_id: str) -> VideoMeta:
         return meta_from_info(self._extract(WATCH_URL.format(platform_id)))
+
+    def get_channel(self, creator: Creator) -> ChannelInfo:
+        # One page of the channel is enough: the channel's own fields come with it.
+        url = creator.channel_url.rstrip("/") + "/videos"
+        return channel_from_info(self._extract(url, extract_flat="in_playlist", playlistend=1))
 
     def _extract(self, url: str, **options: Any) -> dict[str, Any]:
         return _extract(self._yt_dlp, url, **options)
@@ -107,6 +113,26 @@ class _QuietLogger:
     def warning(self, msg: str) -> None: ...
 
     def error(self, msg: str) -> None: ...
+
+
+def channel_from_info(info: dict[str, Any]) -> ChannelInfo:
+    """Map a yt-dlp channel info dict to ChannelInfo."""
+
+    def image(kind: str) -> str | None:
+        # yt-dlp lists channel images with ids like "avatar_uncropped", "banner_uncropped".
+        found = [t for t in info.get("thumbnails") or [] if kind in str(t.get("id", ""))]
+        found.sort(key=lambda t: ("uncropped" not in str(t.get("id")), -(t.get("width") or 0)))
+        return found[0].get("url") if found else None
+
+    return ChannelInfo(
+        title=info.get("channel") or info.get("uploader") or info.get("title") or "",
+        description=info.get("description") or "",
+        avatar_url=image("avatar"),
+        banner_url=image("banner"),
+        subscribers=info.get("channel_follower_count"),
+        video_count=info.get("playlist_count"),
+        fetched_at=datetime.now(UTC),
+    )
 
 
 def meta_from_info(info: dict[str, Any]) -> VideoMeta:

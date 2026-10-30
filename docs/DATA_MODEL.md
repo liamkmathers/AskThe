@@ -31,6 +31,8 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | `channel_url`, `niche`, `categories` | From the creator config |
 | `glossary` | Known names and their common caption errors, from the creator config (see below) |
 | `starter_questions` | Example questions shown on the ask page |
+| `tagline`, `about` | One line and a short paragraph for the creator's page, written in the config (never personal life) |
+| `channel` | Name, description, avatar, banner and subscriber count as the platform shows them, fetched by `askthe channel` into `data/<creator>/channel.json` (committed, refreshed by running it again) |
 
 ### Video
 
