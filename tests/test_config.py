@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import pytest
@@ -77,3 +78,25 @@ def test_video_selection_ignores_comments_blanks_and_duplicates(tmp_path):
     )
     creator = load_creator(config, "iron-snail")
     assert load_video_selection(config, creator) == ["abc", "def"]
+
+
+def test_env_file_beside_the_config_is_loaded_without_overriding_the_shell(tmp_path, monkeypatch):
+    from askthe.config import load_env_file
+
+    for name in ("ASKTHE_TEST_A", "ASKTHE_TEST_B", "ASKTHE_TEST_C", "ASKTHE_TEST_D"):
+        monkeypatch.delenv(name, raising=False)
+    monkeypatch.setenv("ASKTHE_TEST_C", "from the shell")
+    (tmp_path / ".env").write_text(
+        "# keys\n"
+        "ASKTHE_TEST_A=plain\n"
+        'export ASKTHE_TEST_B="quoted # not a comment"\n'
+        "ASKTHE_TEST_C=from the file\n"
+        "ASKTHE_TEST_D=value # a comment\n"
+        "not a variable\n"
+    )
+    assert load_env_file(tmp_path / ".env") == ["ASKTHE_TEST_A", "ASKTHE_TEST_B", "ASKTHE_TEST_D"]
+    assert os.environ["ASKTHE_TEST_A"] == "plain"
+    assert os.environ["ASKTHE_TEST_B"] == "quoted # not a comment"
+    assert os.environ["ASKTHE_TEST_C"] == "from the shell"
+    assert os.environ["ASKTHE_TEST_D"] == "value"
+    assert load_env_file(tmp_path / "missing.env") == []

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import tomllib
 from pathlib import Path
 from typing import Any
@@ -51,9 +52,43 @@ class AppConfig(BaseModel):
         return self
 
 
+def load_env_file(path: Path) -> list[str]:
+    """Set environment variables from a `.env` file: `NAME=value` lines, with
+    optional `export ` and quotes; blank lines and `#` comments are skipped.
+
+    Variables already set in the environment win, so a key exported in the shell
+    overrides the file. Returns the names it set. `.env` is git-ignored: secrets
+    never go in the repository.
+    """
+    try:
+        lines = path.read_text().splitlines()
+    except (FileNotFoundError, IsADirectoryError):
+        return []
+    loaded = []
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        name, _, value = line.removeprefix("export ").partition("=")
+        name, value = name.strip(), value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        elif " #" in value:
+            value = value.split(" #", 1)[0].rstrip()  # trailing comment
+        if name and name not in os.environ:
+            os.environ[name] = value
+            loaded.append(name)
+    return loaded
+
+
 def load_app_config(path: Path = DEFAULT_CONFIG_PATH) -> AppConfig:
-    """Load askthe.toml. Relative paths inside it resolve against its own folder."""
+    """Load askthe.toml. Relative paths inside it resolve against its own folder.
+
+    A `.env` file beside it, if there is one, is loaded into the environment first
+    (see load_env_file), so API keys can live there instead of in the shell.
+    """
     path = Path(path)
+    load_env_file(path.resolve().parent / ".env")
     try:
         raw = tomllib.loads(path.read_text())
     except FileNotFoundError:
