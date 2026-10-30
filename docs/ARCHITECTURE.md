@@ -60,6 +60,8 @@ Every transcript segment becomes a **contextual chunk**: the segment text plus a
 
 If embeddings are unavailable, keyword search is still built and the run warns.
 
+**Tried and dropped: overlapping chunks.** Most transcripts are auto captions without punctuation, so 59% of segment boundaries fall mid-sentence. Giving each search chunk 15 or 40 words from its neighbours made no difference: with the same saved queries, 89% of the passages full mode cited were in the top 60 candidates either way, and slightly fewer reached the top 20 (102 and 97 against 106). Section headers already carry the context a cut loses, and kept passages expand to their section. Where hybrid loses material, it's at the rerank step.
+
 ### 5. Answer
 
 Set by `[retrieval] mode` in `askthe.toml`.
