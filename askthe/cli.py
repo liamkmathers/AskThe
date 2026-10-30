@@ -534,22 +534,49 @@ def _serve_problems(services: Services, c: Creator) -> list[str]:
 
 @app.command()
 def serve(
-    creator: CreatorArg,
+    creator: Annotated[
+        str | None,
+        typer.Argument(help="Creator slug to serve alone; omit to serve every creator."),
+    ] = None,
     host: Annotated[str, typer.Option(help="Address to listen on.")] = "127.0.0.1",
     port: Annotated[int, typer.Option(help="Port to listen on.")] = 8000,
     config_path: ConfigOption = DEFAULT_CONFIG_PATH,
 ) -> None:
-    """Run the ask page (docs/UI_PLAN.md) for one creator. Answers call the LLM."""
+    """Run the ask pages (docs/UI_PLAN.md): a catalog of creators at /, and each
+    creator's ask page at /<slug>. Answers call the LLM."""
     import uvicorn
 
-    from askthe.app.server import create_app
+    from askthe.app.server import RESERVED, create_app
 
-    services, c = _setup(config_path, creator)
+    if creator is not None:
+        services, c = _setup(config_path, creator)
+        creators = {c.slug: c}
+    else:
+        try:
+            config = load_app_config(config_path)
+            services = build_services(config)
+        except ConfigError as e:
+            typer.secho(f"config error: {e}", fg=typer.colors.RED, err=True)
+            raise typer.Exit(1) from None
+        creators = {}
+        for slug in list_creator_slugs(config):
+            try:
+                creators[slug] = load_creator(config, slug)
+            except ConfigError as e:
+                typer.secho(f"skipping {slug}: {e}", fg=typer.colors.YELLOW, err=True)
+    for slug in RESERVED & set(creators):
+        typer.secho(f"skipping {slug}: the name is a page route", fg=typer.colors.YELLOW)
+        del creators[slug]
+    if not creators:
+        typer.secho("no creators to serve", fg=typer.colors.RED, err=True)
+        raise typer.Exit(1)
     settings = RetrievalSettings.from_config(services.config.retrieval)
-    for problem in _serve_problems(services, c):
-        typer.secho(f"warning: {problem}", fg=typer.colors.YELLOW)
-    typer.echo(f"{c.instance_name}: http://{host}:{port}")
-    uvicorn.run(create_app(services, c, settings), host=host, port=port, log_level="warning")
+    for c in creators.values():
+        for problem in _serve_problems(services, c):
+            typer.secho(f"warning: {c.slug}: {problem}", fg=typer.colors.YELLOW)
+        typer.echo(f"{c.instance_name}: http://{host}:{port}/{c.slug}")
+    typer.echo(f"catalog: http://{host}:{port}/")
+    uvicorn.run(create_app(services, creators, settings), host=host, port=port, log_level="warning")
 
 
 @app.command()

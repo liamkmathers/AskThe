@@ -4,6 +4,7 @@ snapshots, sponsored quotes marked in code, and "new video since you asked"."""
 import json
 from datetime import UTC, datetime, timedelta
 
+import pytest
 from fastapi.testclient import TestClient
 
 from askthe.adapters.memory import (
@@ -22,7 +23,16 @@ from askthe.core.answering import (
     sponsor_read_texts,
 )
 from askthe.core.interfaces import LLMTask
-from askthe.core.models import Coverage, Passage, PassageRole
+from askthe.core.models import (
+    BioCitation,
+    BioItem,
+    ChannelInfo,
+    Coverage,
+    CreatorBio,
+    CreatorLink,
+    Passage,
+    PassageRole,
+)
 from askthe.core.retrieval import PassageScore, QueryPlan, RerankDraft
 from askthe.pipeline.ask import RetrievalSettings, ask, newer_videos
 from askthe.wiring import Services
@@ -119,7 +129,7 @@ def test_newer_videos_are_the_matching_ones_published_after_the_answer():
     assert newer_videos(f.creator(), later, store, search) == []
 
 
-def client(tmp_path, llm_draft=None):
+def client(tmp_path, llm_draft=None, creators=None):
     store, search, llm, vectors, embedder = build()
     script(llm, llm_draft)
     services = Services(
@@ -135,8 +145,10 @@ def client(tmp_path, llm_draft=None):
         vectors=vectors,
         llm=llm,
     )
-    creator = f.creator(starter_questions=["Best boots for snow?"])
-    return TestClient(create_app(services, creator, RetrievalSettings())), store
+    if creators is None:
+        creators = [f.creator(starter_questions=["Best boots for snow?"])]
+    app = create_app(services, {c.slug: c for c in creators}, RetrievalSettings())
+    return TestClient(app), store
 
 
 def stream(response):
@@ -145,35 +157,108 @@ def stream(response):
 
 def test_app_asks_streams_and_serves_the_saved_answer(tmp_path):
     app, store = client(tmp_path)
-    info = app.get("/api/creator").json()
+    info = app.get("/api/creators/test-creator").json()
     assert info["name"] == "Ask Test Creator" and info["starters"] == ["Best boots for snow?"]
-    assert app.get("/").status_code == 200 and "<main" in app.get("/").text
-    assert "app.js" in app.get("/a/anything").text  # answer pages are the same page
+    assert info["videos"] == 2
+    for path in ["/", "/test-creator", "/a/anything"]:  # every page is the same page
+        assert app.get(path).status_code == 200 and "app.js" in app.get(path).text
 
-    events = stream(app.post("/api/ask", json={"question": QUESTION}))
+    events = stream(app.post("/api/creators/test-creator/ask", json={"question": QUESTION}))
     types = [e["type"] for e in events]
     assert types[0] == "searching" and types[-1] == "done" and "writing" in types
     done = events[-1]["answer"]
+    assert done["creator"] == "test-creator"
     assert done["coverage"] == "full" and done["sources"][0]["sponsored"] is False
     assert done["sources"][0]["url"] == "https://www.youtube.com/watch?v=boots"
 
     fetched = app.get(f"/api/answers/{done['id']}").json()
     assert fetched["answer"] == done["answer"] and fetched["newer_videos"] == []
+    assert fetched["creator"] == "test-creator"
     assert app.post("/api/answers/updates", json={"ids": [done["id"], "nope"]}).json() == {
-        done["id"]: 0
+        done["id"]: {"creator": "test-creator", "new": 0}
     }
     assert app.post(f"/api/answers/{done['id']}/flag", json={"note": "wrong year"}).json()
     assert store.get_answer(done["id"]).flagged[0].endswith("wrong year")
     assert app.get("/api/answers/nope").status_code == 404
 
 
+def test_catalog_lists_every_creator_and_unknown_ones_are_not_found(tmp_path):
+    other = f.creator(
+        slug="other-one",
+        display_name="Other One",
+        instance_name="Ask Other One",
+        tagline="Other things",
+        channel=ChannelInfo(avatar_url="https://example.com/a.jpg"),
+    )
+    app, _ = client(tmp_path, creators=[f.creator(), other])
+    cards = app.get("/api/creators").json()
+    assert [c["slug"] for c in cards] == ["test-creator", "other-one"]
+    assert cards[0]["videos"] == 2 and cards[1]["videos"] == 0  # the test videos are not its
+    assert cards[1] == {
+        "slug": "other-one",
+        "name": "Ask Other One",
+        "display_name": "Other One",
+        "tagline": "Other things",
+        "avatar": "https://example.com/a.jpg",
+        "videos": 0,
+    }
+    assert app.get("/nobody").status_code == 404 and "app.js" in app.get("/nobody").text
+    assert app.get("/api/creators/nobody").status_code == 404
+    assert app.post("/api/creators/nobody/ask", json={"question": QUESTION}).status_code == 404
+
+
+def test_answers_are_served_only_for_their_own_creator(tmp_path):
+    app, store = client(tmp_path)
+    done = stream(app.post("/api/creators/test-creator/ask", json={"question": QUESTION}))[-1]
+    other = f.creator(slug="other-one", instance_name="Ask Other One")
+    elsewhere, other_store = client(tmp_path, creators=[other])
+    other_store.log_answer(store.get_answer(done["answer"]["id"]))
+    assert elsewhere.get(f"/api/answers/{done['answer']['id']}").status_code == 404
+    assert elsewhere.post("/api/answers/updates", json={"ids": [done["answer"]["id"]]}).json() == {}
+
+
+def test_creator_page_has_bio_links_and_cited_quotes(tmp_path):
+    bio = CreatorBio(
+        summary="Started reviewing boots, then made his own.",
+        journey=[
+            BioItem(
+                title="First review",
+                text="A boot review.",
+                when="2019",
+                citations=[BioCitation(video_id="boots", quote="kept my feet warm")],
+            )
+        ],
+        ventures=[BioItem(title="A jacket", text="His own jacket.")],
+    )
+    links = [CreatorLink(label="Store", url="https://example.com/store")]
+    app, _ = client(tmp_path, creators=[f.creator(about="About.", bio=bio, links=links)])
+    info = app.get("/api/creators/test-creator").json()
+    assert info["summary"] == "Started reviewing boots, then made his own."
+    assert info["links"] == [{"label": "Store", "url": "https://example.com/store"}]
+    cite = info["journey"][0]["citations"][0]
+    assert cite["url"] == "https://www.youtube.com/watch?v=boots"
+    assert cite["title"] == "All about boots" and cite["quote"] == "kept my feet warm"
+    assert info["ventures"][0]["citations"] == []
+
+    plain, _ = client(tmp_path, creators=[f.creator(about="About.")])
+    info = plain.get("/api/creators/test-creator").json()
+    assert info["summary"] == "About." and info["journey"] == [] and info["ventures"] == []
+    assert info["links"] == [{"label": "Channel", "url": "https://example.com/@test"}]
+
+
+def test_creator_slugs_cannot_take_the_page_routes(tmp_path):
+    with pytest.raises(ValueError, match="api"):
+        client(tmp_path, creators=[f.creator(slug="api")])
+
+
 def test_app_rejects_empty_questions_and_reports_model_failures(tmp_path):
     app, _ = client(tmp_path)
-    assert app.post("/api/ask", json={"question": "a"}).status_code == 422
+    assert app.post("/api/creators/test-creator/ask", json={"question": "a"}).status_code == 422
 
     broken, _ = client(tmp_path)
-    broken.post("/api/ask", json={"question": QUESTION})  # uses up the scripted answer
-    events = stream(broken.post("/api/ask", json={"question": QUESTION}))
+    ask_url = "/api/creators/test-creator/ask"
+    broken.post(ask_url, json={"question": QUESTION})  # uses up the scripted answer
+    events = stream(broken.post(ask_url, json={"question": QUESTION}))
     assert events[-1]["type"] == "error" and events[-1]["message"]
 
 

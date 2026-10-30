@@ -8,17 +8,37 @@
 </head>
 <body>
   <main id="app" class="page">
-    <!-- Home: ask box, starter questions, your questions -->
+    <!-- Catalog: every creator this site answers for -->
+    <section id="catalog" hidden>
+      <header class="brand">
+        <h1 class="wordmark">Ask</h1>
+        <p class="muted">Questions answered from a creator's own videos, quoted and linked to the source.</p>
+      </header>
+      <ul id="creators" class="cards"></ul>
+    </section>
+
+    <!-- Creator: who this is, then the ask box, starter questions, your questions -->
     <section id="home" hidden>
-      <header class="intro">
-        <h1 id="title"></h1>
-        <p id="subtitle" class="muted"></p>
+      <nav class="bar">
+        <a href="/" class="crumb">Ask</a>
+      </nav>
+      <header class="creator">
+        <div class="creator-head">
+          <span id="avatar" class="avatar large" aria-hidden="true"></span>
+          <div>
+            <h1 id="title"></h1>
+            <p id="tagline" class="tagline" hidden></p>
+          </div>
+        </div>
+        <p id="summary" class="summary" hidden></p>
+        <p id="links" class="links"></p>
       </header>
       <form id="ask-form" class="ask" autocomplete="off">
         <textarea id="question" rows="2" maxlength="500" required
                   aria-label="Your question"></textarea>
         <button type="submit" class="primary">Ask</button>
       </form>
+      <p id="scope" class="scope muted"></p>
       <div id="starters" class="starters" hidden>
         <p class="label">Try</p>
         <ul></ul>
@@ -27,12 +47,27 @@
         <p class="label">Your questions</p>
         <ul></ul>
       </div>
+      <!-- Who the creator is beyond one video: below the ask box, so it never pushes it down -->
+      <div id="journey-block" hidden>
+        <p class="label">Journey</p>
+        <ol id="journey" class="timeline"></ol>
+      </div>
+      <div id="ventures-block" hidden>
+        <p class="label">Ventures</p>
+        <ul id="ventures" class="ventures"></ul>
+      </div>
+    </section>
+
+    <!-- Not found: an unknown creator -->
+    <section id="missing" hidden>
+      <h1>Nothing here</h1>
+      <p class="muted">There's no page at this address. <a href="/">See everyone you can ask</a>.</p>
     </section>
 
     <!-- Answer: one question, its answer, its sources -->
     <section id="answer" hidden>
       <nav class="bar">
-        <a href="/" class="back" aria-label="Back to questions">‹</a>
+        <a href="/" id="back" class="back" aria-label="Back to questions">‹</a>
         <span class="spacer"></span>
         <button id="save" class="icon" aria-label="Save" aria-pressed="false">☆</button>
         <button id="share" class="icon" aria-label="Share">⤴</button>
@@ -52,7 +87,7 @@
       </section>
       <footer id="answer-foot" class="foot" hidden>
         <button id="flag" class="link">Something wrong?</button>
-        <a href="/" class="link">Ask something else</a>
+        <a href="/" id="ask-else" class="link">Ask something else</a>
       </footer>
     </section>
   </main>
