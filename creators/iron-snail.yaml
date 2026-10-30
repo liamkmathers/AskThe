@@ -10,6 +10,11 @@ platform: youtube
 channel_url: https://www.youtube.com/@TheIronSnail
 niche: men's clothing and gear
 tagline: Heritage clothing and gear, tested for years
+links:
+  - label: YouTube
+    url: https://www.youtube.com/@TheIronSnail
+  - label: The Iron Snail store
+    url: https://theironsnail.us
 about: >-
   Long-form reviews of boots, denim, waxed jackets, knitwear and t-shirts: how
   they're made, how they wear in, and which are worth the money. Many products

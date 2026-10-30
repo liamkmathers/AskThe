@@ -172,6 +172,39 @@ class ChannelInfo(Model):
     fetched_at: datetime | None = None
 
 
+class CreatorLink(Model):
+    """Where the creator is: a channel, a store, a newsletter. Platform-neutral."""
+
+    label: str  # "YouTube", "Store", "Instagram"
+    url: str
+
+
+class BioCitation(Model):
+    video_id: str  # platform ID of the video it's quoted from
+    quote: str  # verified in code against the transcript or description
+
+
+class BioItem(Model):
+    """One milestone in the creator's journey, or one venture (brand, product, collab)."""
+
+    title: str
+    text: str
+    when: str | None = None  # "2019", "Nov 2022": as precise as he said it
+    citations: list[BioCitation] = Field(default_factory=list)
+
+
+class CreatorBio(Model):
+    """Who the creator is as a whole, from their own words across their content.
+    Made by `askthe bio`, saved to data/<slug>/bio.json. Professional life only:
+    nothing about family, friends or private life (rule 8)."""
+
+    summary: str
+    journey: list[BioItem] = Field(default_factory=list)  # oldest first
+    ventures: list[BioItem] = Field(default_factory=list)  # their own brands and products
+    model: str = ""
+    generated_at: datetime | None = None
+
+
 class Creator(Model):
     """A creator instance ("Ask The <creator>"), loaded from creators/<slug>.yaml."""
 
@@ -191,8 +224,10 @@ class Creator(Model):
     # in the creator config; the channel fields come from `askthe channel`
     # (data/<slug>/channel.json) and are filled in when the creator is loaded.
     tagline: str | None = None  # one line for the catalog card
-    about: str | None = None  # a short paragraph about the channel, never personal life
-    channel: ChannelInfo | None = None
+    about: str | None = None  # a short paragraph, used until a bio exists
+    links: list[CreatorLink] = Field(default_factory=list)  # channel, store, socials
+    channel: ChannelInfo | None = None  # from `askthe channel`: the avatar, mainly
+    bio: CreatorBio | None = None  # from `askthe bio`: data/<slug>/bio.json
 
     @property
     def id(self) -> str:

@@ -11,7 +11,7 @@ import yaml
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
 from askthe.core.evaluation import Price, TestQuestion
-from askthe.core.models import ChannelInfo, Creator
+from askthe.core.models import ChannelInfo, Creator, CreatorBio
 
 DEFAULT_CONFIG_PATH = Path("askthe.toml")
 
@@ -110,6 +110,11 @@ def channel_path(config: AppConfig, slug: str) -> Path:
     return config.data_dir / slug / "channel.json"
 
 
+def bio_path(config: AppConfig, slug: str) -> Path:
+    """Where `askthe bio` keeps the creator's bio (derived, costs a model call, committed)."""
+    return config.data_dir / slug / "bio.json"
+
+
 def load_creator(config: AppConfig, slug: str) -> Creator:
     path = creator_path(config, slug)
     try:
@@ -124,12 +129,15 @@ def load_creator(config: AppConfig, slug: str) -> Creator:
         raise ConfigError(f"{path}: {e}") from None
     if creator.slug != slug:
         raise ConfigError(f"{path}: slug {creator.slug!r} does not match file name {slug!r}")
-    channel = channel_path(config, slug)
-    if channel.exists() and creator.channel is None:
-        try:
-            creator.channel = ChannelInfo.model_validate_json(channel.read_text())
-        except ValidationError as e:
-            raise ConfigError(f"{channel}: {e}") from None
+    for path, field, model in (
+        (channel_path(config, slug), "channel", ChannelInfo),
+        (bio_path(config, slug), "bio", CreatorBio),
+    ):
+        if path.exists() and getattr(creator, field) is None:
+            try:
+                setattr(creator, field, model.model_validate_json(path.read_text()))
+            except ValidationError as e:
+                raise ConfigError(f"{path}: {e}") from None
     return creator
 
 
