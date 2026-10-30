@@ -1,0 +1,350 @@
+{
+  "platform_id": "SZ6L1PVRjIk",
+  "profile": {
+    "video_id": "kenji:SZ6L1PVRjIk",
+    "purpose": "Run a side-by-side experiment showing what happens when scrambled eggs are salted 15 minutes before cooking versus during cooking. It is based on Kenji's Ask Kenji column in the New York Times.",
+    "video_type": "how_to",
+    "thesis": "Salting eggs about 15 minutes before scrambling loosens their proteins so the curds hold their moisture. Salting at the end lets liquid weep out onto the surface. Kenji salts in advance but says either is fine depending on the texture you want.",
+    "key_takeaways": [
+      "Salted raw eggs turn a deeper orange and become more translucent as the salt partly dissolves the proteins.",
+      "The test is controlled: 200 g of eggs per batch, 1/4 tsp kosher salt, 1/2 tsp vegetable oil, a non-stick pan held at 300° on a Control Freak, and 28 seconds of cooking.",
+      "The eggs salted at the last minute released noticeably more liquid when drained for 1 minute than the pre-salted eggs.",
+      "Pre-salted eggs did not turn watery or gray, and the curds kept their moisture inside.",
+      "Salting up to about 15 minutes ahead is enough; beyond that the returns diminish.",
+      "Kenji's routine is to crack and salt the eggs first thing, then make coffee and toast, then cook the eggs.",
+      "Kenji encourages viewers to repeat the experiment at home and share their results."
+    ],
+    "outline": [
+      {
+        "title": "Introduction",
+        "summary": "Kenji explains the video is based on his NYT Ask Kenji column about when to salt scrambled eggs. He notes the article's science explanation is more up to date than the video's.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "When should I salt my eggs",
+        "summary": "Kenji frames the common claim that salting early makes eggs watery, runny or gray, mentions his testing in The Food Lab, and sets up the experiment.",
+        "first_segment": 1,
+        "last_segment": 1
+      },
+      {
+        "title": "Salting eggs",
+        "summary": "Two identical 200 g batches of beaten eggs: one is salted and rested 15 minutes in clear glasses. He explains why the salted eggs turn deeper orange and more translucent as the proteins loosen.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Cooking eggs",
+        "summary": "Both batches are cooked at a controlled 300° for 28 seconds in vegetable oil, the second salted in the pan, then drained for a minute. He compares the liquid released and explains it with a sponge analogy for protein coagulation.",
+        "first_segment": 3,
+        "last_segment": 8
+      },
+      {
+        "title": "Results and recommendation",
+        "summary": "Kenji compares texture and taste, says neither approach is wrong, and recommends salting up to about 15 minutes ahead. He describes his morning routine and invites viewers to test it themselves.",
+        "first_segment": 8,
+        "last_segment": 10
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's Kenji um the",
+        "last_segment": 1,
+        "ends_with": "the other side here we go",
+        "note": "Pre-roll intro explaining the video is based on his NYT column, with a note that the article's science is more current."
+      },
+      {
+        "role": "outro",
+        "first_segment": 9,
+        "starts_with": "all right that uh is my little experiment",
+        "last_segment": 10,
+        "ends_with": "you do you all right see you later",
+        "note": "Wrap-up inviting viewers to replicate the experiment and share results, then sign-off."
+      }
+    ],
+    "topics": [
+      "when to salt scrambled eggs",
+      "pre-salting eggs",
+      "egg protein structure",
+      "protein coagulation",
+      "weeping in scrambled eggs",
+      "controlled kitchen experiment",
+      "scrambled egg texture"
+    ],
+    "entity_ids": [
+      "kenji:e:the-food-lab",
+      "kenji:e:control-freak",
+      "kenji:e:teflon-coated-non-stick-pan",
+      "kenji:e:fine-mesh-strainer",
+      "kenji:e:kosher-salt",
+      "kenji:e:vegetable-oil",
+      "kenji:e:butter",
+      "kenji:e:eggs",
+      "kenji:e:scrambled-eggs",
+      "kenji:e:protein-coagulation",
+      "kenji:e:pre-salting",
+      "kenji:e:the-new-york-times",
+      "kenji:e:ask-kenji",
+      "kenji:e:coffee-machine"
+    ],
+    "categories": [
+      "eggs",
+      "techniques",
+      "ingredients"
+    ],
+    "answers_questions": [
+      "Should I salt my eggs before or after scrambling them?",
+      "Does salting eggs early make them watery or gray?",
+      "How long before cooking should I salt scrambled eggs?",
+      "Why do salted raw eggs turn darker orange?",
+      "Why do my scrambled eggs weep liquid on the plate?",
+      "What does salt actually do to egg proteins?",
+      "Is there any benefit to salting eggs more than 15 minutes ahead?",
+      "How does Kenji make his scrambled eggs in the morning?",
+      "Why did Kenji use oil instead of butter for his egg test?",
+      "How can I test egg salting timing at home myself?"
+    ],
+    "uses": [
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:SZ6L1PVRjIk:s0000",
+        "note": "Kenji warns that the video was recorded before the NYT article's research was finished. The article's explanation of the science is more up to date, though the practical advice in the video is accurate."
+      },
+      {
+        "segment_id": "kenji:SZ6L1PVRjIk:s0003",
+        "note": "After saying the salted eggs' translucency will make a 'big difference' in cooking, he corrects himself: not a big difference, but it does make a difference."
+      },
+      {
+        "segment_id": "kenji:SZ6L1PVRjIk:s0005",
+        "note": "He first says he'll salt the second batch just before it goes into the pan, then changes the plan to salting it while it cooks in the pan."
+      }
+    ],
+    "related_videos": [
+      "Kenji's Ask Kenji column in the New York Times on the best way to salt scrambled eggs (article, not a video)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:control-freak",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Control Freak",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "the control freak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:teflon-coated-non-stick-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Teflon-coated non-stick pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Teflon",
+        "non-stick pan",
+        "teflon",
+        "teflon coated pan",
+        "teflon style pan",
+        "tough one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fine-mesh-strainer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "fine mesh strainer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kosher salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vegetable-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "vegetable oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "butter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eggs",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "EG",
+        "three eggs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scrambled-eggs",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "scrambled eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "eggs",
+        "scramble our eggs",
+        "scrambling"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:protein-coagulation",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "protein coagulation",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "coagulate",
+        "proteins are Binding Together"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pre-salting",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pre-salting",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "pre-s salted",
+        "salting in advance"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-new-york-times",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "The New York Times",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New York Times"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ask-kenji",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Ask Kenji",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ask Kenji column"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:coffee-machine",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "coffee machine",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "e7edc063f53a704f"
+}

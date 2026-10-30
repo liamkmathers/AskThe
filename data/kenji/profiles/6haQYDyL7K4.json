@@ -1,0 +1,312 @@
+{
+  "platform_id": "6haQYDyL7K4",
+  "profile": {
+    "video_id": "kenji:6haQYDyL7K4",
+    "purpose": "Shows how Kenji cleans stainless steel pans with Bar Keepers Friend, demonstrating it on a neglected pan and explaining how its main ingredient works.",
+    "video_type": "how_to",
+    "thesis": "Bar Keepers Friend powder is the best cleaner for stainless steel pans because its oxalic acid and abrasives remove residue that soap and scrubbing cannot.",
+    "key_takeaways": [
+      "Leftover oil heated in a pan forms a sticky film that regular soap and a scouring pad struggle to remove; hard water marks and rust are similarly stubborn.",
+      "Kenji uses Bar Keepers Friend on his stainless steel pans almost daily, which is how he keeps pans that are twenty-plus years old shiny.",
+      "He prefers the powder form over the liquid form.",
+      "He warns against using it on marble, silver or pewter.",
+      "Wear gloves for large dish loads because it can irritate skin; he skips gloves for three or four pans a day.",
+      "The main ingredient is oxalic acid, also found in Soft Scrub; he finds Bar Keepers Friend works better because the dry powder is more concentrated and contains abrasives.",
+      "Oxalic acid makes rust and residue water-soluble and leaves a thin protective coating that helps stop stainless steel rusting again.",
+      "He states the video is not sponsored."
+    ],
+    "outline": [
+      {
+        "title": "Intro and the dirty pan",
+        "summary": "Kenji explains he is sorting his 70-plus pans and shows a stainless pan put away dirty, with a sticky polymerized oil film, hard water marks and rust that soap and scrubbing won't remove.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Cleaning with Bar Keepers Friend",
+        "summary": "He demonstrates the powder on the pan, covers what surfaces to avoid, powder versus liquid, the not-an-ad disclaimer, and advice on wearing gloves for big loads.",
+        "first_segment": 1,
+        "last_segment": 1
+      },
+      {
+        "title": "Oxalic acid and how it works",
+        "summary": "He explains that oxalic acid is the active ingredient, compares it with Soft Scrub, and describes how it dissolves rust and residue and leaves a protective coating on stainless steel.",
+        "first_segment": 2,
+        "last_segment": 2
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone this is Kenji",
+        "last_segment": 0,
+        "ends_with": "twenty-something years old and it's still shiny",
+        "note": "Greeting and set-up: sorting through his pans, people ask how he keeps pans clean."
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "so I am I'm going through",
+        "last_segment": 0,
+        "ends_with": "because I'm doing a major purchase soon",
+        "note": "Personal aside about sorting his 70-something pans before a major purchase."
+      },
+      {
+        "role": "outro",
+        "first_segment": 2,
+        "starts_with": "anyhow not an ad just a",
+        "last_segment": 2,
+        "ends_with": "like new alright see you later",
+        "note": "Wrap-up showing the shiny pan and sign-off."
+      }
+    ],
+    "topics": [
+      "cleaning stainless steel pans",
+      "removing polymerized oil film",
+      "removing rust from pans",
+      "hard water marks",
+      "oxalic acid",
+      "Bar Keepers Friend vs Soft Scrub",
+      "pan care and maintenance"
+    ],
+    "entity_ids": [
+      "kenji:e:bar-keepers-friend",
+      "kenji:e:soft-scrub",
+      "kenji:e:oxalic-acid",
+      "kenji:e:stainless-steel",
+      "kenji:e:marble",
+      "kenji:e:silver",
+      "kenji:e:pewter",
+      "kenji:e:scouring-pad",
+      "kenji:e:gloves",
+      "kenji:e:sticky-oil-film",
+      "kenji:e:rust",
+      "kenji:e:hard-water-marks",
+      "kenji:e:protective-coating-on-stainless-steel",
+      "kenji:e:stainless-steel-pan"
+    ],
+    "categories": [
+      "pans",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "How does Kenji keep his stainless steel pans so shiny?",
+      "What's the best way to get sticky oil residue off a stainless pan?",
+      "How do I remove rust spots from a stainless steel pan?",
+      "Should I buy Bar Keepers Friend powder or liquid?",
+      "Is Bar Keepers Friend safe to use on marble or silver?",
+      "Do I need gloves when using Bar Keepers Friend?",
+      "What's the difference between Bar Keepers Friend and Soft Scrub?",
+      "How does oxalic acid clean pans?",
+      "Is Kenji sponsored by Bar Keepers Friend?",
+      "How do I get hard water marks off my pans?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:bar-keepers-friend",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Bar Keepers Friend",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Barkeeper's Friend",
+        "bar keeper's friend",
+        "barkeeper's friend"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soft-scrub",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Soft Scrub",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "soft scrub"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oxalic-acid",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "oxalic acid",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stainless-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "stainless steel",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:marble",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "marble",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:silver",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "silver",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pewter",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "pewter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scouring-pad",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "scouring pad",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gloves",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "gloves",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sticky-oil-film",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sticky oil film",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sticky film"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rust",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "rust",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hard-water-marks",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "hard water marks",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:protective-coating-on-stainless-steel",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "protective coating on stainless steel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "thin thin thin microscopic coating"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stainless-steel-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "stainless steel pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "pan",
+        "plant pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "18ea495ceea0d4c4"
+}

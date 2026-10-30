@@ -1,0 +1,569 @@
+{
+  "platform_id": "7KjWFcIi4_8",
+  "profile": {
+    "video_id": "kenji:7KjWFcIi4_8",
+    "purpose": "Show how to make a simple traditional guacamole by pounding aromatics in a molcajete, and explain the science behind pounding, choosing and ripening avocados, and keeping guacamole from browning.",
+    "video_type": "how_to",
+    "thesis": "Guacamole made by pounding the aromatics in a molcajete tastes much better than chopped or food-processed versions, because pounding ruptures far more cells and releases more flavor.",
+    "key_takeaways": [
+      "The name guacamole comes from aguacate (avocado) and mole (pounded), so it is traditionally a pounded preparation.",
+      "His base aromatics are onion, serrano chili and cilantro with a big pinch of salt; garlic and tomato are optional.",
+      "Pounding crushes cells (the 'Godzilla on a shipyard' metaphor), while chopping or a food processor leaves most cells intact.",
+      "Without a molcajete, freeze the aromatics for 10 to 15 minutes before processing to rupture cells; this also works for pesto and Thai curry paste.",
+      "Ripe avocados give slightly when squeezed but aren't mushy or loose-skinned; avocados lower in a pile ripen faster because of trapped ethylene gas.",
+      "Avocados ripen faster when piled together or enclosed and at room temperature; the fridge extends their life.",
+      "Putting the pit in guacamole does not stop browning, and acid slightly speeds it up; cold temperatures and plastic wrap pressed onto the surface slow it."
+    ],
+    "outline": [
+      {
+        "title": "Traditional vs modern method",
+        "summary": "Kenji contrasts the chopped-and-mashed guacamole he made as a kid with real guacamole, and explains the etymology from aguacate and mole (pounded).",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Preparing aromatic ingredients",
+        "summary": "Introduces the molcajete and the base aromatics (onion, serrano chili, cilantro and salt), with optional garlic, tomato and citrus.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "The science of pounding",
+        "summary": "Explains with a shipping-container metaphor why pounding releases more aromatic compounds than chopping or a food processor, and lists his other uses for a mortar and pestle, including crushing spices.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Tips for better guacamole",
+        "summary": "The freezer trick for when you don't have a molcajete: freezing aromatics ruptures cells for better flavor release, also useful for pesto and curry paste.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Selecting and ripening avocados",
+        "summary": "How to choose ripe avocados, why ones lower in the pile ripen faster (ethylene gas), and how to speed up or slow down ripening.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Mixing and customization",
+        "summary": "Adds citrus, notes that variations such as Rick Bayless's fruit guacamoles are fine, and mashes the avocado in.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Preventing oxidation",
+        "summary": "Debunks the avocado-pit myth, explains that acid slightly increases browning, and recommends chilling and pressing plastic wrap onto the surface; finishes with queso fresco on top.",
+        "first_segment": 8,
+        "last_segment": 9
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji uh",
+        "last_segment": 0,
+        "ends_with": "ready guacamole yes guacamole",
+        "note": "Greeting and announcing he's making guacamole."
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "sit chubby sit good girl",
+        "last_segment": 10,
+        "ends_with": "i give my dog kisses anyway",
+        "note": "Feeding his dog, mentioning the dog's broken leg, and responding to comments about touching its mouth."
+      },
+      {
+        "role": "outro",
+        "first_segment": 10,
+        "starts_with": "get some good chips",
+        "last_segment": 10,
+        "ends_with": "all right i will see you later",
+        "note": "Going to share the guacamole with his daughter during quarantine, and signing off."
+      }
+    ],
+    "topics": [
+      "guacamole",
+      "molcajete",
+      "mortar and pestle",
+      "pounding vs chopping aromatics",
+      "freezing aromatics to rupture cells",
+      "selecting avocados",
+      "ripening avocados with ethylene",
+      "preventing guacamole browning",
+      "avocado pit myth",
+      "crushing spices"
+    ],
+    "entity_ids": [
+      "kenji:e:molcajete",
+      "kenji:e:mortar-and-pestle",
+      "kenji:e:food-processor",
+      "kenji:e:electric-spice-grinder",
+      "kenji:e:guacamole",
+      "kenji:e:avocado",
+      "kenji:e:onion",
+      "kenji:e:serrano-chili",
+      "kenji:e:cilantro",
+      "kenji:e:lime-juice",
+      "kenji:e:lemon-juice",
+      "kenji:e:garlic",
+      "kenji:e:tomato",
+      "kenji:e:queso-fresco",
+      "kenji:e:plastic-wrap",
+      "kenji:e:ethylene-gas",
+      "kenji:e:oxidation-browning",
+      "kenji:e:avocado-pit-myth",
+      "kenji:e:freezing-aromatics-to-rupture-cells",
+      "kenji:e:mole-sauce",
+      "kenji:e:carne-molida",
+      "kenji:e:pesto",
+      "kenji:e:thai-curry-paste",
+      "kenji:e:rick-bayless",
+      "kenji:e:rick-bayless-s-guacamole-book",
+      "kenji:e:jamon",
+      "kenji:e:finding-dory"
+    ],
+    "categories": [
+      "kitchen tools",
+      "ingredients",
+      "techniques",
+      "sauces",
+      "vegetables"
+    ],
+    "answers_questions": [
+      "Do I really need a molcajete to make good guacamole?",
+      "Why does pounding aromatics taste better than chopping them or using a food processor?",
+      "What does Kenji put in his basic guacamole?",
+      "What can I do if I don't have a mortar and pestle for guacamole or pesto?",
+      "How do I pick a ripe avocado at the store?",
+      "Why are the avocados at the bottom of the pile riper?",
+      "How can I make avocados ripen faster, or keep them from over-ripening?",
+      "Does leaving the pit in guacamole keep it from turning brown?",
+      "Does lime juice stop guacamole from browning?",
+      "How should I store leftover guacamole so it stays green?",
+      "Where does the word guacamole come from?",
+      "Is a mortar and pestle better than an electric spice grinder for spices?"
+    ],
+    "uses": [
+      "understanding",
+      "care_maintenance",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:7KjWFcIi4_8:s0002",
+        "note": "Says he sometimes adds lemon juice, then corrects himself: usually he adds lime juice."
+      },
+      {
+        "segment_id": "kenji:7KjWFcIi4_8:s0004",
+        "note": "Says you can grind spices 'as fine or smooth' as you like, then corrects it to 'as coarse or as fine' as you like."
+      },
+      {
+        "segment_id": "kenji:7KjWFcIi4_8:s0009",
+        "note": "Starts to say 'store your avocado', then corrects it to storing guacamole you don't finish in one go."
+      }
+    ],
+    "related_videos": [
+      "The Food Lab: The Best Guacamole (Serious Eats article on avocado science, browning and ripening, linked in the description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:molcajete",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "molcajete",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "mocha",
+        "mulch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mortar-and-pestle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "mortar and pestle",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "modern pestle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:food-processor",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "food processor",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:electric-spice-grinder",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "electric spice grinder",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "spice grinder"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:guacamole",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "guacamole",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:avocado",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "avocado",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "aguacate",
+        "avocados"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:onion",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serrano-chili",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "serrano chili",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cilantro",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cilantro",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lime-juice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "lime juice",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "limes",
+        "line"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lemon-juice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "lemon juice",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:garlic",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "garlic",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tomato",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "tomato",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "tomatoes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:queso-fresco",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "queso fresco",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "queso frisco"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:plastic-wrap",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "plastic wrap",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ethylene-gas",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "ethylene gas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oxidation-browning",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "oxidation (browning)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "browning",
+        "oxidation"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:avocado-pit-myth",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "avocado pit myth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "putting the seed in there"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:freezing-aromatics-to-rupture-cells",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "freezing aromatics to rupture cells",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "throwing them in the freezer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mole-sauce",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mole sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "mole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carne-molida",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "carne molida",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "carne molita"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pesto",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pesto",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thai-curry-paste",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Thai curry paste",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "thai curry paste",
+        "thai curry pastes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rick-bayless",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Rick Bayless",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rick bayless"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rick-bayless-s-guacamole-book",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Rick Bayless's guacamole book",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "a book on that's just about guacamole and cocktails"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:jamon",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "jamon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "homeowner"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:finding-dory",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Finding Dory",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "finding dory"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "0b6124ad56e51449"
+}

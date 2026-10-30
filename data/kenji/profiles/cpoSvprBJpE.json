@@ -1,0 +1,359 @@
+{
+  "platform_id": "cpoSvprBJpE",
+  "profile": {
+    "video_id": "kenji:cpoSvprBJpE",
+    "purpose": "Test and recommend high-powered outdoor wok burners for restaurant-style stir-frying at home, and explain why burner design matters more than BTU rating.",
+    "video_type": "comparison",
+    "thesis": "For wok cooking, a burner's design and flame placement matter more than its total BTU output. A concentrated central burner with a heat guard, built-in pilot and wok-side gas valve outperforms more powerful wide-ring burners.",
+    "key_takeaways": [
+      "Outdoor burners help with restaurant-style stir-fries by frying instead of steaming food and by producing wok hei, though good Chinese food can be cooked on a home burner.",
+      "Five models were tested, including a water-boiling test in the wok.",
+      "A 200,000 BTU wide-ring brewing burner took about a minute to heat the water, while the 160,000 BTU Powerflamer took about 45 seconds because its centralized burner wastes less heat out the sides.",
+      "Only about 4% of the big burner's energy reaches the wok, against roughly 9–10% for the Powerflamer.",
+      "Wide-ring burners heat the whole wok evenly, which gives less control and pushes flame out toward the cook's hands.",
+      "The top pick is the Powerflamer 160EI from Outdoorstirfry.com (about $180 plus shipping). It has a heat guard, a built-in pilot and a gas valve at the wok.",
+      "The budget pick is the Eastman Outdoors Portable Kahuna (about $130). It produces 65,000 BTU with concentrated flames and is portable with telescoping legs, but it sits a bit low.",
+      "65,000 BTU is plenty unless you cook for more than about six to eight people."
+    ],
+    "outline": [
+      {
+        "title": "Why use an outdoor burner",
+        "summary": "Explains why Chinese restaurants use very powerful burners: frying rather than steaming, and creating wok hei. Notes that home burners can still make good Chinese food.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Testing different burner types",
+        "summary": "Compares wide-ring and centralized burners using a water-boiling test, energy-efficiency figures and infrared observations. Covers the heat-control and hand-burning problems with the Gas One brewing burner.",
+        "first_segment": 1,
+        "last_segment": 4
+      },
+      {
+        "title": "Top recommendation",
+        "summary": "Presents the Powerflamer 160EI as the top pick. Covers its heat guard, built-in pilot, wok-side gas valve, rust warning and price.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Budget portable option",
+        "summary": "Recommends the cheaper Eastman Outdoors Portable Kahuna. Covers its concentrated 65,000 BTU flame, build, portability, and its low height with ways to mount it higher.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Final conclusions",
+        "summary": "Recaps the two picks and mentions the infrared and cooking footage included in the video.",
+        "first_segment": 7,
+        "last_segment": 7
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji and i'm",
+        "last_segment": 0,
+        "ends_with": "i've been testing these outdoor wok burners",
+        "note": "Greeting and introduction to the outdoor wok burner testing"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "you don't want to leave it",
+        "last_segment": 4,
+        "ends_with": "have to get rid of that somehow",
+        "note": "Personal note about leaving his burner out in the rain and it rusting"
+      },
+      {
+        "role": "outro",
+        "first_segment": 7,
+        "starts_with": "alright see you later guys gals",
+        "last_segment": 7,
+        "ends_with": "guys gals non-binary pals you",
+        "note": "Sign-off"
+      }
+    ],
+    "topics": [
+      "outdoor wok burners",
+      "BTU vs burner design",
+      "wok hei",
+      "burner efficiency testing",
+      "heat control in stir-frying",
+      "restaurant-style stir-fry at home"
+    ],
+    "entity_ids": [
+      "kenji:e:powerflamer-160ei",
+      "kenji:e:outdoorstirfry-com",
+      "kenji:e:eastman-outdoors-portable-kahuna",
+      "kenji:e:gas-one-200-000-btu-burner",
+      "kenji:e:wok-hei",
+      "kenji:e:wok",
+      "kenji:e:btu",
+      "kenji:e:stir-frying",
+      "kenji:e:built-in-pilot",
+      "kenji:e:heat-guard",
+      "kenji:e:gas-control-valve",
+      "kenji:e:burner-ring",
+      "kenji:e:welding-gloves",
+      "kenji:e:serious-eats"
+    ],
+    "categories": [
+      "woks",
+      "appliances",
+      "techniques"
+    ],
+    "answers_questions": [
+      "Do I need an outdoor wok burner to make good Chinese food?",
+      "Are more BTUs better for a wok burner?",
+      "What's the best outdoor wok burner Kenji recommends?",
+      "Is the Powerflamer 160 worth it?",
+      "What's a cheaper alternative outdoor wok burner?",
+      "Why aren't beer brewing burners good for wok cooking?",
+      "How do you get wok hei at home?",
+      "How efficient are wok burners at getting heat into the wok?",
+      "Why does a built-in pilot and wok-side valve matter for stir-frying?",
+      "Is 65,000 BTU enough for stir-frying?",
+      "How do I keep from burning my hands on an outdoor wok burner?",
+      "How much does the Eastman Kahuna burner cost and what are its downsides?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:cpoSvprBJpE:s0001",
+        "note": "He says the brewing burner is 20,000 BTU, then immediately corrects it to 200,000 BTU."
+      }
+    ],
+    "related_videos": [
+      "Recent videos of Kenji cooking on these outdoor wok burners over the past few weeks",
+      "Serious Eats outdoor wok burner review (2020) by Kenji"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:powerflamer-160ei",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Powerflamer 160EI",
+      "brand": "Outdoorstirfry.com",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "power flamer",
+        "power flamer 160e i",
+        "this guy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:outdoorstirfry-com",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Outdoorstirfry.com",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "outdoor stirfry.com",
+        "outdoorstirfry.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eastman-outdoors-portable-kahuna",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Eastman Outdoors Portable Kahuna",
+      "brand": "Eastman Outdoors",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "eastman outdoor kahuna burner",
+        "kahuna eastman kahuna burner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gas-one-200-000-btu-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Gas One 200,000 BTU burner",
+      "brand": "Gas One",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "the gas one"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-hei",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "wok hei",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "high okay flavor",
+        "okay smokiness",
+        "wakay",
+        "wake",
+        "wake flavor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "walk",
+        "wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:btu",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "BTU",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "btu",
+        "btus"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stir-frying",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "stir-frying",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "stir fry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:built-in-pilot",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "built-in pilot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pilot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:heat-guard",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "heat guard",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "built-in heat guard"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gas-control-valve",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "gas control valve",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:burner-ring",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "burner ring",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "centralized walk ring",
+        "wide ring"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:welding-gloves",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "welding gloves",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "serious eats",
+        "serious seats",
+        "unser your seats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "aa7ff500eb1f3e22"
+}

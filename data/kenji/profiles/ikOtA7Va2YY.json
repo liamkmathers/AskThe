@@ -1,0 +1,250 @@
+{
+  "platform_id": "ikOtA7Va2YY",
+  "profile": {
+    "video_id": "kenji:ikOtA7Va2YY",
+    "purpose": "Introduces the wooden wok spatula Kenji co-designed with Earlywood for flat-bottom woks, explaining why he made it and showing how its shape works.",
+    "video_type": "review",
+    "thesis": "No existing spatulas suited a 14-inch flat-bottom wok, so Kenji worked with Earlywood through many iterations to design one whose flat edge and gentle curve match that wok's shape.",
+    "key_takeaways": [
+      "In The Wok, Kenji recommends a 14-inch carbon steel flat-bottom wok for Western stovetops and a round-bottom wok for people with a wok range.",
+      "He found no spatulas designed specifically for flat-bottom woks, so he co-designed one with Earlywood, a Montana company that makes many of his tools.",
+      "The design went through dozens of iterations sent back and forth before the final version.",
+      "The spatula has a flat area for the wok's flat base and a gentle curve that follows the side, giving contact along the whole edge for stir-frying, flipping, tossing and scraping.",
+      "It is handed: there are right-handed and left-handed models, a trade-off for the ergonomic shape.",
+      "Kenji says he makes no money from the spatula, but Earlywood also sells signed copies of his books, which do support him."
+    ],
+    "outline": [
+      {
+        "title": "Why a flat-bottom wok spatula",
+        "summary": "Kenji recalls recommending a 14-inch carbon steel flat-bottom wok in The Wok, noticing that no spatulas were designed for that shape, and working through dozens of prototypes with Earlywood.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Demonstration and design features",
+        "summary": "Using lentils in the wok, he shows how the spatula's flat area and curved edge match the wok, lists what it is good for, and explains the right- and left-handed versions.",
+        "first_segment": 1,
+        "last_segment": 1
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's Kenji I wanted",
+        "last_segment": 0,
+        "ends_with": "real quick about Wok spatulas",
+        "note": "Greeting and topic introduction"
+      },
+      {
+        "role": "outro",
+        "first_segment": 1,
+        "starts_with": "by the way I don't make",
+        "last_segment": 1,
+        "ends_with": "non-binary Pals thank you bye-bye",
+        "note": "Says he makes no money from the spatula, mentions signed books sold by Earlywood, and signs off"
+      }
+    ],
+    "topics": [
+      "wok spatula design",
+      "flat-bottom vs round-bottom woks",
+      "wok tool ergonomics",
+      "stir-frying tools",
+      "Earlywood wooden utensils"
+    ],
+    "entity_ids": [
+      "kenji:e:earlywood",
+      "kenji:e:earlywood-wok-spatula",
+      "kenji:e:the-wok",
+      "kenji:e:14-inch-carbon-steel-flat-bottom-wok",
+      "kenji:e:round-bottom-wok",
+      "kenji:e:wok-range",
+      "kenji:e:carbon-steel",
+      "kenji:e:wood-fuel",
+      "kenji:e:left-handed-and-right-handed-spatula-models",
+      "kenji:e:lentils"
+    ],
+    "categories": [
+      "woks",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "What spatula does Kenji use for his wok?",
+      "Who makes Kenji's wok spatula?",
+      "Does Kenji make money from the Earlywood spatula?",
+      "Why does a flat-bottom wok need a special spatula?",
+      "Is there a left-handed version of Kenji's wok spatula?",
+      "What size wok does Kenji recommend in The Wok?",
+      "Should I get a flat-bottom or round-bottom wok?",
+      "Where can I get a signed copy of Kenji's wok book?",
+      "Is a wooden spatula good for stir-frying in a carbon steel wok?",
+      "How was the Earlywood wok spatula designed?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:earlywood",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Earlywood",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "earlywood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:earlywood-wok-spatula",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Earlywood wok spatula",
+      "brand": "Earlywood",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Wok spatulas",
+        "walk especially",
+        "walk spatula"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:14-inch-carbon-steel-flat-bottom-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "14-inch carbon steel flat-bottom wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "14 inch carbon steel flat bottom walk",
+        "14 inch walk flat bottom walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:round-bottom-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "round-bottom wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "14 inch round bottom walk",
+        "round bottom bottom block"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-range",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "wok range",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "walk range"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "carbon steel",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wood-fuel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "wood fuel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "burn wood",
+        "wood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:left-handed-and-right-handed-spatula-models",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "left-handed and right-handed spatula models",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "handed",
+        "left-handed model",
+        "right-handed model"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lentils",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "lentils",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "467a44b933da5d3d"
+}

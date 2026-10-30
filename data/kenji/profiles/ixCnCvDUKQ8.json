@@ -1,0 +1,439 @@
+{
+  "platform_id": "ixCnCvDUKQ8",
+  "profile": {
+    "video_id": "kenji:ixCnCvDUKQ8",
+    "purpose": "Shows how to sharpen a hard-steel Japanese-style knife on water stones, with knife maker Barney, and covers related knife care.",
+    "video_type": "how_to",
+    "thesis": "Whetstones are presented as the best way to sharpen a knife because they give control over how much metal is removed, and the video walks through the setup, angle, stroke technique, grit progression, stropping and care for hard-steel knives.",
+    "key_takeaways": [
+      "Contrasts manual and electric sharpeners with water stones, which give more control and remove less metal.",
+      "Explains the differences between softer Western steel and harder Japanese or high-carbon steel in edge retention and ease of sharpening.",
+      "Water stones are soaked before use, kept lubricated, set in a tray on a towel, and flattened with a stone fixer that also raises a sharpening slurry.",
+      "Gives a trigonometry shortcut for setting the angle: lift the spine by a quarter of the blade width for about 15 degrees, or a third for about 20 degrees.",
+      "Stroke method: heel at the top of the stone, use the full stone and blade length, lighter pressure pushing and more pulling, then 16-20 strokes per side followed by fewer and fewer alternating strokes.",
+      "Covers grit numbers (300, 800, 1200, 2000, 6000 and up) and which ones most people need, and recommends single-grit King stones.",
+      "Advises against honing rods on hard steel knives and suggests a leather strop with compound, pulling strokes only.",
+      "Includes a tomato slicing test, plus tips on how often to sharpen and how to store knives."
+    ],
+    "outline": [
+      {
+        "title": "Intro and why use whetstones",
+        "summary": "Kenji introduces Barney of Kan knives and explains why he prefers whetstones over manual or electric sharpeners.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Hard vs soft steel",
+        "summary": "Barney and Kenji compare softer Western European steel with harder Japanese and high-carbon steel, covering edge retention, care and how hard each is to sharpen.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Water stones, grits and setup",
+        "summary": "Explains soaking water stones, grit numbers, the tray-and-towel setup, and flattening the stone with a stone fixer, which also creates the sharpening slurry.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Bevels and setting the angle",
+        "summary": "Covers single and double bevel knives, typical 15 and 20 degree angles, and a trigonometry trick for estimating the angle by eye.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Sharpening stroke technique",
+        "summary": "Shows starting with the heel at the top of the stone, hand placement and pressure, keeping the stone wet, and the decreasing stroke-count pattern for an even edge.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "How often to sharpen and avoiding damage",
+        "summary": "Kenji explains rotating through his knives and sharpening a few times a year, and lists ways to protect an edge: cutting boards only, no bones, frozen food or glass.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Grit progression and stone recommendations",
+        "summary": "Discusses which grits to progress through, when very fine grits are worth it, and why single-grit King stones beat small cheap double-sided ones.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Honing rods vs strops",
+        "summary": "Explains why honing rods can chip hard steel knives and demonstrates a leather strop with green compound, using pulling strokes only.",
+        "first_segment": 11,
+        "last_segment": 13
+      },
+      {
+        "title": "Sharpness test and storage",
+        "summary": "Covers why a sharp knife is safer, a tomato slicing test with the resharpened knife and a new Kan knife, and advice on storing knives in a block or edge guard.",
+        "first_segment": 13,
+        "last_segment": 15
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji uh",
+        "last_segment": 0,
+        "ends_with": "how to sharpen a hard knife today",
+        "note": "Kenji introduces himself, the backyard setting and Barney of Kan knives."
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "i'm gonna my sis my daughter",
+        "last_segment": 15,
+        "ends_with": "look at some tomato cells this evening",
+        "note": "Mentions his daughter's new microscope."
+      },
+      {
+        "role": "outro",
+        "first_segment": 15,
+        "starts_with": "all right so that is how you",
+        "last_segment": 15,
+        "ends_with": "i will see you next time you",
+        "note": "Thanks Barney and signs off."
+      }
+    ],
+    "topics": [
+      "whetstone sharpening",
+      "water stones",
+      "sharpening angle",
+      "knife steel hardness",
+      "double bevel vs single bevel",
+      "grit progression",
+      "stone flattening",
+      "honing rod",
+      "stropping",
+      "knife storage",
+      "knife safety"
+    ],
+    "entity_ids": [
+      "kenji:e:barney-lund",
+      "kenji:e:kan-kitchen",
+      "kenji:e:king",
+      "kenji:e:water-stone",
+      "kenji:e:stone-fixer",
+      "kenji:e:honing-rod",
+      "kenji:e:leather-strop",
+      "kenji:e:stropping-compound",
+      "kenji:e:manual-and-electric-sharpeners",
+      "kenji:e:high-carbon-steel",
+      "kenji:e:yanagi-sashimi-knife",
+      "kenji:e:double-bevel",
+      "kenji:e:single-bevel",
+      "kenji:e:grit",
+      "kenji:e:burr",
+      "kenji:e:knife-block",
+      "kenji:e:edge-guard",
+      "kenji:e:protestants"
+    ],
+    "categories": [
+      "knives",
+      "kitchen tools",
+      "techniques"
+    ],
+    "answers_questions": [
+      "How do I sharpen a knife on a whetstone?",
+      "Are electric knife sharpeners bad for good knives?",
+      "What angle should I sharpen my Japanese knife at, and how do I find it without a guide?",
+      "What grit whetstones do I actually need?",
+      "Do I need to soak water stones before using them?",
+      "How do I flatten my sharpening stone?",
+      "Should I use a honing rod on a hard steel Japanese knife?",
+      "How do you use a leather strop on a knife?",
+      "How often does Kenji sharpen his knives?",
+      "What whetstone brand does Kenji use?",
+      "What's the difference between a single bevel and a double bevel knife?",
+      "How should I store my knives so they stay sharp?",
+      "Are double-sided whetstones worth buying?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:ixCnCvDUKQ8:s0005",
+        "note": "Kenji first says he uses one hand on the blade to apply pressure, then corrects it: the hand on the handle applies pressure and the other hand on the blade keeps it even."
+      },
+      {
+        "segment_id": "kenji:ixCnCvDUKQ8:s0009",
+        "note": "After listing 800, 1200, 2000 and 6000, he revises it: he would probably just go from 800 to 2000 and might finish there."
+      }
+    ],
+    "related_videos": [
+      "Earlier videos showing Kenji's knife drawer"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:barney-lund",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Barney Lund",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "barney",
+        "barney lund"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-kitchen",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Kan Kitchen",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "con knives"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:king",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "King",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "king"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:water-stone",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "water stone",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "water stones",
+        "wet stone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stone-fixer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "stone fixer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:honing-rod",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "honing rod",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:leather-strop",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "leather strop",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "strap",
+        "strop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stropping-compound",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "stropping compound",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "green putty"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:manual-and-electric-sharpeners",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "manual and electric sharpeners",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "electric sharpeners",
+        "manual sharpeners"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:high-carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "high carbon steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "hard steel",
+        "high carbon steels"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yanagi-sashimi-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "yanagi (sashimi knife)",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "sashimi knife",
+        "yanagi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:double-bevel",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "double bevel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "double level"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:single-bevel",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "single bevel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:grit",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "grit",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:burr",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "burr",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:knife-block",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "knife block",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:edge-guard",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "edge guard",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:protestants",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "protestants",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "d5e22686ad027e81"
+}

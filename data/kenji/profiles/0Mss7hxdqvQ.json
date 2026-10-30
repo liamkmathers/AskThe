@@ -1,0 +1,681 @@
+{
+  "platform_id": "0Mss7hxdqvQ",
+  "profile": {
+    "video_id": "kenji:0Mss7hxdqvQ",
+    "purpose": "Show step by step how to roast a whole chicken so the breast stays juicy while the legs cook through, using a stovetop sear before oven roasting, then how to carve it.",
+    "video_type": "how_to",
+    "thesis": "Searing the back and thighs of a dry-brined, trussed whole chicken in a hot skillet gives the legs a head start, so the legs and breast reach their target temperatures at the same time in a hot oven.",
+    "key_takeaways": [
+      "Breast meat is best around 150–155°F, while leg meat needs at least 165–180°F, so a whole bird needs uneven heat.",
+      "Salt the chicken and rest it uncovered on a rack in the fridge overnight, but no more than about two nights, so the skin dries slightly and crisps rather than turning leathery.",
+      "Poke the fat deposits all over with a skewer and cut small slits near the backbone so rendered fat can escape and the skin crisps.",
+      "Kenji argues trussing actually slows leg cooking and is mainly for looks, but searing the legs cancels that effect.",
+      "Sear the back and then each thigh side in a smoking-hot cast iron pan for about 5 minutes, until pale golden, then brush with rendered fat and roast at 425°F convection (or 450°F without convection).",
+      "Pull the chicken at 150°F in the breast, check that the legs are 165°F or more, and rest it before carving.",
+      "Basting during roasting is unnecessary; if you do baste, use pure fat rather than butter.",
+      "Carve the legs off first, getting the oyster, then take the breasts off the bone; removing the wishbone before roasting makes carving easier."
+    ],
+    "outline": [
+      {
+        "title": "Introduction and preparation",
+        "summary": "Kenji explains why breast and legs need different temperatures and introduces a hybrid method based on his Cook's Illustrated technique and Daniel Gritzer's Serious Eats recipe. He then shows the pre-salted chicken and pokes its fat deposits and cuts slits so fat can render out.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Trussing and seasoning",
+        "summary": "A simple trussing method using twine around the breast and legs, with the wing tips tucked, followed by stuffing the cavity with sage, rosemary and thyme.",
+        "first_segment": 2,
+        "last_segment": 5
+      },
+      {
+        "title": "Searing the chicken",
+        "summary": "The chicken is seared back-side down and then on each thigh in a hot cast iron skillet to give the legs a head start. Kenji discusses why trussing affects leg cooking speed and why presentation matters for flavor perception.",
+        "first_segment": 5,
+        "last_segment": 10
+      },
+      {
+        "title": "Roasting in the oven",
+        "summary": "An inserted note explains overnight uncovered dry-brining on a rack. Kenji then inserts a multi-probe thermometer, brushes the bird with rendered fat, explains why not to baste, and roasts at 425°F convection in a toaster oven.",
+        "first_segment": 10,
+        "last_segment": 13
+      },
+      {
+        "title": "Resting and checking temp",
+        "summary": "Kenji parboils Yukon Gold potatoes to roast in the chicken fat, pulls the chicken at 150°F, watches carryover cooking, and checks leg and breast temperatures before resting.",
+        "first_segment": 13,
+        "last_segment": 15
+      },
+      {
+        "title": "Carving the chicken",
+        "summary": "After resting to about 145°F, Kenji removes the twine, takes off the legs with the oysters, splits drumsticks and thighs, and removes the breasts from the bone, with tips on wishbone removal and crispy skin.",
+        "first_segment": 16,
+        "last_segment": 20
+      },
+      {
+        "title": "Summary and conclusions",
+        "summary": "A recap of the key steps and times, followed by a plug for his books and Book Larder.",
+        "first_segment": 20,
+        "last_segment": 23
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's Kenji H and",
+        "last_segment": 0,
+        "ends_with": "I'm going to roast this chicken",
+        "note": "Opening greeting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "cooking this chicken real early anyway because",
+        "last_segment": 14,
+        "ends_with": "I go pick up my daughter from school",
+        "note": "Personal note about cooking early to pick up his daughter"
+      },
+      {
+        "role": "outro",
+        "first_segment": 22,
+        "starts_with": "um I am not going to feed",
+        "last_segment": 23,
+        "ends_with": "I will see you next time bye-bye",
+        "note": "Sign-off with a plug for his own books and Book Larder"
+      }
+    ],
+    "topics": [
+      "whole roast chicken",
+      "dry brining",
+      "crispy chicken skin",
+      "rendering fat",
+      "trussing",
+      "searing before roasting",
+      "oven temperature and convection",
+      "doneness temperatures for poultry",
+      "carryover cooking",
+      "resting meat",
+      "basting",
+      "carving a chicken",
+      "spatchcocking"
+    ],
+    "entity_ids": [
+      "kenji:e:roast-chicken",
+      "kenji:e:spatchcocking",
+      "kenji:e:trussing",
+      "kenji:e:dry-brining",
+      "kenji:e:butter-basting",
+      "kenji:e:carryover-cooking",
+      "kenji:e:cook-s-illustrated",
+      "kenji:e:daniel-gritzer",
+      "kenji:e:serious-eats",
+      "kenji:e:vintage-wagner-cast-iron-pan",
+      "kenji:e:pizza-stone",
+      "kenji:e:skewer",
+      "kenji:e:kitchen-twine",
+      "kenji:e:fish-spatula",
+      "kenji:e:combustion-ink-thermometer",
+      "kenji:e:toaster-oven",
+      "kenji:e:kosher-salt",
+      "kenji:e:black-pepper",
+      "kenji:e:baking-powder",
+      "kenji:e:sage",
+      "kenji:e:rosemary",
+      "kenji:e:thyme",
+      "kenji:e:chicken-fat",
+      "kenji:e:yukon-gold-potatoes",
+      "kenji:e:oyster",
+      "kenji:e:wishbone",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:book-larder",
+      "kenji:e:james-beard-award",
+      "kenji:e:patreon"
+    ],
+    "categories": [
+      "meat",
+      "techniques",
+      "pans",
+      "kitchen tools",
+      "appliances",
+      "ingredients"
+    ],
+    "answers_questions": [
+      "How do I roast a whole chicken without drying out the breast?",
+      "What temperature should I pull a roast chicken at?",
+      "Why sear a whole chicken in a skillet before roasting it?",
+      "Does trussing a chicken make it cook more evenly?",
+      "How long should I dry brine a chicken, and can I leave it too long?",
+      "Why poke holes in chicken skin before roasting?",
+      "Should I baste my roast chicken?",
+      "What oven temperature should I use for a roast chicken with or without convection?",
+      "What temperature should the legs and thighs reach?",
+      "How long should I rest a roast chicken before carving?",
+      "How do I carve a roast chicken and get the oyster?",
+      "What's an easy way to truss a chicken?",
+      "Should I take the wishbone out before roasting?"
+    ],
+    "uses": [
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:0Mss7hxdqvQ:s0004",
+        "note": "He says he has parsley, then corrects himself: the herbs are sage, rosemary and thyme."
+      },
+      {
+        "segment_id": "kenji:0Mss7hxdqvQ:s0010",
+        "note": "A 'future me' insert adds a forgotten step: after salting, rest the chicken uncovered on a rack in the fridge overnight, no more than about two nights."
+      },
+      {
+        "segment_id": "kenji:0Mss7hxdqvQ:s0022",
+        "note": "He estimated about 40 minutes of roasting; the chicken actually took 50 minutes."
+      }
+    ],
+    "related_videos": [
+      "Daniel Gritzer's perfect roast chicken article and recipe on Serious Eats",
+      "Kenji's Cook's Illustrated method for super crispy chicken skin",
+      "Kenji's butterflied (spatchcocked) roasted chicken with quick jus recipe on Serious Eats"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:roast-chicken",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "roast chicken",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spatchcocking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "spatchcocking",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "spatch cocking"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:trussing",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "trussing",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "trust",
+        "trusting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dry-brining",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "dry brining",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "rest overnight in the fridge on a rack uncovered",
+        "salted it yesterday"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter-basting",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "butter basting",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "base",
+        "basing",
+        "baste",
+        "basting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carryover-cooking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "carryover cooking",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "still continuing to rise in temperature"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cook-s-illustrated",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cook's Illustrated",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cooks Illustrated",
+        "cooks illustrated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:daniel-gritzer",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Daniel Gritzer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Daniel",
+        "Daniel Gritz art"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Sirius Eats",
+        "printed recipe",
+        "series SE",
+        "serious eats",
+        "serious seats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-wagner-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vintage Wagner cast iron pan",
+      "brand": "Wagner",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron",
+        "cast iron pan",
+        "cast iron pans",
+        "cast-iron pan",
+        "cast-iron pans",
+        "skillet",
+        "vintage Wagner pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pizza-stone",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "pizza stone",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "pizza stones",
+        "stone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:skewer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "skewer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kitchen-twine",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kitchen twine",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "string",
+        "twine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fish-spatula",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "fish spatula",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:combustion-ink-thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "combustion ink thermometer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "combustion ink"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:toaster-oven",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "toaster oven",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kosher salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-pepper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "black pepper",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "fresh ground pepper",
+        "pepper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:baking-powder",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "baking powder",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sage",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sage",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Sage"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rosemary",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "rosemary",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Rosemary"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thyme",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "thyme",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Thyme",
+        "thyme sprigs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chicken-fat",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chicken fat",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "rendered fat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yukon-gold-potatoes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Yukon Gold potatoes",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Yukon Golds"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oyster",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "oyster",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wishbone",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "wishbone",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Wishbone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:book-larder",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Book Larder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "book Larder"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:james-beard-award",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "James Beard Award",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "James Beard award",
+        "james beard award"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "6fc2e1e9aee05539"
+}

@@ -1,0 +1,432 @@
+{
+  "platform_id": "WDK762aVaMI",
+  "profile": {
+    "video_id": "kenji:WDK762aVaMI",
+    "purpose": "Side-by-side comparison of two backyard pizza ovens, the Roccbox and the Ooni Koda 16, baking the same Neapolitan pizza in each and covering their design differences.",
+    "video_type": "comparison",
+    "thesis": "The Roccbox and the Ooni Koda 16 perform comparably. Which to choose comes down to details: the Koda 16 fits a larger pizza and has a wraparound burner, while the Roccbox stays cooler outside and can also burn wood.",
+    "key_takeaways": [
+      "The same same-day Neapolitan dough is baked in both ovens on gas, each in about 90 seconds to two minutes.",
+      "The Ooni Koda 16 has an L-shaped fire bar that runs across the back and down one side, which helps with larger pizzas and more even cooking.",
+      "The Roccbox has a single gas jet at the back, and its gas burner can be swapped for wood, which is more useful for roasting meats and vegetables than for pizza.",
+      "The Roccbox takes up to a 12-inch pizza; the Koda 16 takes up to a 16-inch, New York-size pizza.",
+      "The Roccbox exterior stays cooler to the touch than the Ooni's.",
+      "Both cost roughly $300 to $400 and are aimed at pizza enthusiasts.",
+      "Both heat up in about 45 minutes, and both can also roast vegetables, small birds and steaks. The Koda 16 can fit a spatchcocked chicken or a loaf of bread.",
+      "Forming the pizza on a wooden board and moving it to a metal peel knocks excess flour off the bottom."
+    ],
+    "outline": [
+      {
+        "title": "Comparing pizza ovens",
+        "summary": "Introduces the Roccbox, his earlier favorite, and the newer Ooni Koda 16, and sets up an identical bake in both.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Baking in the Roccbox",
+        "summary": "Bakes a same-day Neapolitan pizza in the Roccbox in real time and shows the browning and underbelly. Also discusses putting basil on before or after baking.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Baking in the Ooni Koda",
+        "summary": "Bakes the second pizza in the Koda 16. Covers its wraparound fire bar, the Roccbox's wood fuel option, and why to transfer from a wooden board to a metal peel. The pizza slightly burns at the back.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Oven performance comparison",
+        "summary": "Compares the two pizzas and their underbellies, then covers price, how hot the exteriors get, the Ooni models he has owned, and how easy modern outdoor ovens are to use.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Design differences",
+        "summary": "Covers maximum pizza size (12-inch vs 16-inch), the single gas jet vs the L-shaped burner, and what else each oven can cook.",
+        "first_segment": 5,
+        "last_segment": 6
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey so today I'm going to",
+        "last_segment": 0,
+        "ends_with": "exact same pizza in both of them",
+        "note": "Intro introducing the two ovens and the side-by-side bake"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "I don't actually don't mind that",
+        "last_segment": 3,
+        "ends_with": "all right let's shut this off",
+        "note": "Joke about keeping the burnt pizza for himself"
+      },
+      {
+        "role": "outro",
+        "first_segment": 5,
+        "starts_with": "all right guys I am gonna",
+        "last_segment": 5,
+        "ends_with": "and I'll see you later",
+        "note": "Sign-off before he adds details he forgot to mention"
+      }
+    ],
+    "topics": [
+      "pizza oven comparison",
+      "backyard pizza ovens",
+      "Neapolitan pizza",
+      "gas vs wood fuel",
+      "pizza size capacity",
+      "burner design",
+      "oven exterior heat",
+      "cooking other foods in pizza ovens"
+    ],
+    "entity_ids": [
+      "kenji:e:roccbox",
+      "kenji:e:ooni-koda-16",
+      "kenji:e:ooni",
+      "kenji:e:ooni-3",
+      "kenji:e:ooni-pro",
+      "kenji:e:ooni-1",
+      "kenji:e:ooni-2",
+      "kenji:e:fire-bar-l-shaped-burner",
+      "kenji:e:gas-jet",
+      "kenji:e:wooden-board",
+      "kenji:e:metal-peel",
+      "kenji:e:neapolitan-pizza",
+      "kenji:e:same-day-dough",
+      "kenji:e:new-york-style-pizza",
+      "kenji:e:basil",
+      "kenji:e:wood-fuel",
+      "kenji:e:spatchcock-chicken",
+      "kenji:e:cornish-hens"
+    ],
+    "categories": [
+      "appliances",
+      "baking"
+    ],
+    "answers_questions": [
+      "Which is better, the Roccbox or the Ooni Koda 16?",
+      "How big a pizza can I make in the Roccbox vs the Ooni Koda 16?",
+      "Can the Roccbox burn wood, and does wood add flavor to pizza?",
+      "How long does a Neapolitan pizza take in these ovens?",
+      "Does the outside of the Roccbox or the Ooni get hot?",
+      "How much do these backyard pizza ovens cost?",
+      "How long do the Ooni and Roccbox take to preheat?",
+      "Can I cook chicken, bread or vegetables in a pizza oven?",
+      "Should basil go on before or after baking a Neapolitan pizza?",
+      "Why form the pizza on a wooden board and then move it to a metal peel?",
+      "What is the difference between the burners in the Ooni Koda 16 and the Roccbox?",
+      "Which Ooni ovens has Kenji owned?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:WDK762aVaMI:s0004",
+        "note": "He first says he had the Ooni 3 and Ooni Pro, then corrects himself: he had the Ooni 1, Ooni 2, Ooni 3 and Ooni Pro, and now has two Koda ovens."
+      },
+      {
+        "segment_id": "kenji:WDK762aVaMI:s0003",
+        "note": "After estimating about a two-minute bake, he says the Ooni pizza should have come out at 1:45. Leaving it to two minutes burned the back."
+      }
+    ],
+    "related_videos": [
+      "Kenji's earlier video reviewing the Roccbox as his favorite pizza oven",
+      "Serious Eats article: best backyard pizza ovens review (2017)",
+      "Serious Eats guide: food safety and the coronavirus"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:roccbox",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Roccbox",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "ROC box",
+        "Rock box",
+        "The Rock box",
+        "rock box"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ooni-koda-16",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Ooni Koda 16",
+      "brand": "Ooni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Kota",
+        "Nakota",
+        "coda",
+        "unicode",
+        "unique Oda"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ooni",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Ooni",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "UNA",
+        "Uni",
+        "Unni",
+        "boonie",
+        "new knee",
+        "only",
+        "uni",
+        "unni"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ooni-3",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Ooni 3",
+      "brand": "Ooni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "93",
+        "only three"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ooni-pro",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Ooni Pro",
+      "brand": "Ooni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Junipero",
+        "new knee Pro"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ooni-1",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Ooni 1",
+      "brand": "Ooni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "only one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ooni-2",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Ooni 2",
+      "brand": "Ooni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "only two"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fire-bar-l-shaped-burner",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "fire bar (L-shaped burner)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bar",
+        "duel this fire bar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gas-jet",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "gas jet",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "single gas jet"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wooden-board",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "wooden board",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:metal-peel",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "metal peel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "metal one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:neapolitan-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Neapolitan pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "Neapolitan",
+        "Neapolitan style pizza",
+        "Neapolitan style pizza dough",
+        "in the apology style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:same-day-dough",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "same-day dough",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:new-york-style-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "New York-style pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "New York",
+        "New York style pizza",
+        "new york-style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:basil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "basil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wood-fuel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "wood fuel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "burn wood",
+        "wood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spatchcock-chicken",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "spatchcock chicken",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cornish-hens",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Cornish hens",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "a1f0fb799f11ab94"
+}

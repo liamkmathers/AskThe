@@ -1,0 +1,458 @@
+{
+  "platform_id": "QRHBnO7z3OU",
+  "profile": {
+    "video_id": "kenji:QRHBnO7z3OU",
+    "purpose": "Show how Kenji reheats a bagel by dipping it whole in water and toasting it whole before slicing, and explain why this beats split-and-toast.",
+    "video_type": "how_to",
+    "thesis": "Toasting a bagel whole after a quick dip in water, and only then slicing it, brings back most of the fresh-baked contrast between a thin crisp shell and a chewy interior. Splitting and toasting makes every bagel taste much the same.",
+    "key_takeaways": [
+      "A fresh bagel, under about two hours out of the oven, has an eggshell-thin crisp shell and a chewy, moist interior; that contrast fades quickly.",
+      "Splitting and toasting acts as a 'bagel equalizer' that makes great and mediocre bagels taste similar.",
+      "Dipping the whole bagel in water and toasting it whole for about six minutes re-crisps the outside and re-tenderizes the inside, getting about 90% of the way to fresh.",
+      "The water keeps the crust from getting thick and hard before the middle heats through; Kenji learned the trick from Dan Pashman.",
+      "Tiny micro-blisters on the crust add surface area and crunch and are a sign of a great bagel.",
+      "Bagel shops will toast a bagel whole before slicing if you ask.",
+      "Mix fresh scallions into cream cheese rather than buying it pre-mixed; it can be made a day or two ahead."
+    ],
+    "outline": [
+      {
+        "title": "The secret to a great bagel",
+        "summary": "Kenji dips a whole H&H bagel in water and puts it in to toast whole. He describes his New York bagel upbringing and what makes a freshly baked bagel special.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Toasting techniques",
+        "summary": "Why splitting and toasting became common, and why Kenji calls it the 'bagel equalizer' that erases the difference between great and mediocre bagels.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "The water dipping trick",
+        "summary": "How toasting whole re-crisps the outside and re-tenderizes the inside, and why the water dip prevents a thick, hard crust. Includes a tip on mixing fresh scallion cream cheese.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Toasting and micro-blisters",
+        "summary": "A time lapse of the toasting, a story about a Serious Eats bagel taste test, and a look at the micro-blisters on the finished crust.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Slicing and serving",
+        "summary": "Kenji slices the bagel only after toasting and explains how to ask a bagel shop to toast it whole. He shares his go-to order and his wife's.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Final tasting",
+        "summary": "Kenji tastes the toasted everything bagel with freshly mixed scallion cream cheese and describes its crisp, not crunchy, shell.",
+        "first_segment": 6,
+        "last_segment": 6
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji and",
+        "last_segment": 0,
+        "ends_with": "i have strong feelings on bagels",
+        "note": "Opening: friend sent bagels from New York"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "and and growing up in new york",
+        "last_segment": 1,
+        "ends_with": "plenty of fresh bagel shops in new york",
+        "note": "Memories of Columbia Bagels growing up in New York"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "this this by the way this technique",
+        "last_segment": 5,
+        "ends_with": "the heisenbagel uncertainty principle",
+        "note": "Story about a Serious Eats New York bagel taste test"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "my wife does a raisin bagel",
+        "last_segment": 6,
+        "ends_with": "sweet and sweet and savory thing",
+        "note": "His wife's bagel order"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "hey you guys want a teeny",
+        "last_segment": 6,
+        "ends_with": "here you go sit good girl",
+        "note": "Feeding a bit of bagel to the dog"
+      },
+      {
+        "role": "outro",
+        "first_segment": 6,
+        "starts_with": "all right guys gals non-binary pals",
+        "last_segment": 6,
+        "ends_with": "happy breakfast bye",
+        "note": "Sign-off"
+      }
+    ],
+    "topics": [
+      "reheating bagels",
+      "toasting a bagel whole",
+      "water dipping trick",
+      "bagel crust texture",
+      "stale bagels",
+      "micro-blisters",
+      "scallion cream cheese",
+      "New York bagels",
+      "ordering at a bagel shop"
+    ],
+    "entity_ids": [
+      "kenji:e:bagel",
+      "kenji:e:h-h-bagels",
+      "kenji:e:columbia-bagels",
+      "kenji:e:dan-pashman",
+      "kenji:e:the-sporkful",
+      "kenji:e:serious-eats",
+      "kenji:e:dan-aaron-zimmer",
+      "kenji:e:goldbelly",
+      "kenji:e:scallion-cream-cheese",
+      "kenji:e:scallions",
+      "kenji:e:chives",
+      "kenji:e:everything-bagel",
+      "kenji:e:raisin-bagel",
+      "kenji:e:montreal-bagels",
+      "kenji:e:water-dipping-trick",
+      "kenji:e:bagel-equalizer",
+      "kenji:e:micro-blisters",
+      "kenji:e:heisenbagel-uncertainty-principle",
+      "kenji:e:toaster",
+      "kenji:e:oven"
+    ],
+    "categories": [
+      "baking",
+      "techniques",
+      "ingredients",
+      "appliances"
+    ],
+    "answers_questions": [
+      "What's the best way to toast a bagel?",
+      "Should I slice my bagel before toasting it?",
+      "Why does Kenji dip his bagel in water before toasting?",
+      "How long should I toast a whole bagel?",
+      "How do I bring a stale bagel back to life?",
+      "Why does a toasted split bagel taste worse than a fresh one?",
+      "What makes a fresh bagel's crust so good?",
+      "Can I ask a bagel shop to toast my bagel whole?",
+      "Should I buy scallion cream cheese or make my own?",
+      "What's Kenji's go-to bagel order?",
+      "Who taught Kenji the water dipping trick for bagels?",
+      "What are the little blisters on a bagel crust?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding",
+      "style"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:bagel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bagel",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "bagels"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:h-h-bagels",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "H&H Bagels",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "h bagel",
+        "h h"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:columbia-bagels",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Columbia Bagels",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "colombia bagels"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dan-pashman",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Dan Pashman",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dan paschman"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-sporkful",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "The Sporkful",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "the sportful"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "serious eats",
+        "serious seats",
+        "unser your seats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dan-aaron-zimmer",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "dan aaron zimmer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:goldbelly",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Goldbelly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "gold belly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scallion-cream-cheese",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "scallion cream cheese",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scallions",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "scallions",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chives",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chives",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:everything-bagel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "everything bagel",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:raisin-bagel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "raisin bagel",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:montreal-bagels",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Montreal bagels",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "montreal"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:water-dipping-trick",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "water dipping trick",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "dipped it in water",
+        "dipping in a water thing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bagel-equalizer",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "bagel equalizer",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:micro-blisters",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "micro-blisters",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "micro blisters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:heisenbagel-uncertainty-principle",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "heisenbagel uncertainty principle",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:toaster",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "toaster",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "toasters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oven",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "oven",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "172cb82e72395dae"
+}

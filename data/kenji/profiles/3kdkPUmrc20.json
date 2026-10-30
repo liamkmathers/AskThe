@@ -1,0 +1,483 @@
+{
+  "platform_id": "3kdkPUmrc20",
+  "profile": {
+    "video_id": "kenji:3kdkPUmrc20",
+    "purpose": "Demonstrates how to clean and season a brand-new carbon steel wok so that it cooks an egg without sticking on its first use, and explains why wok seasoning differs from seasoning a Western skillet.",
+    "video_type": "how_to",
+    "thesis": "Wok seasoning relies mainly on forming black oxide and on proper preheating at each use, rather than on building thick polymer layers, so a new wok can be non-stick right away.",
+    "key_takeaways": [
+      "New carbon steel woks ship with machine oil to prevent rust; scrub it off with soap and a sponge on every surface until nothing feels greasy.",
+      "Seasoning has two parts: heating the metal to form black oxide, and building polymerized oil layers.",
+      "Western skillets heat evenly, so polymer layers build up; woks heat unevenly (hot bottom, cooler sides), and the uneven expansion makes polymers hard to keep.",
+      "Deglazing with soy sauce, rice wine and other acidic ingredients also breaks down polymer layers in a wok, so wok seasoning works more on a per-use basis.",
+      "On a gas burner, tilt and lift the wok to heat every surface until it turns from bluish to dull silver to black, about 10 minutes.",
+      "On electric or induction stoves, use a portable butane burner (up to around 15,000 BTU/hr) or a torch head to bring the flame to the wok.",
+      "After heating, turn off the heat, rub oil over every exposed metal surface, then wipe it out with a clean paper towel to leave the thinnest layer.",
+      "Stir-fries and deep frying are good first uses; with proper preheating, even eggs slide around in a freshly seasoned wok."
+    ],
+    "outline": [
+      {
+        "title": "Cleaning a new wok",
+        "summary": "Introduces the brand-new 14-inch flat-bottom carbon steel wok and shows how to scrub off the protective machine oil with soap and a sponge.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Understanding wok seasoning",
+        "summary": "Explains seasoning as black oxide formation plus polymer build-up, and why uneven heating and acidic deglazing mean woks don't hold thick polymer layers the way Western skillets do.",
+        "first_segment": 1,
+        "last_segment": 4
+      },
+      {
+        "title": "Heating techniques for woks",
+        "summary": "Shows tilting the wok over a gas flame to heat every surface, and offers alternatives for electric or induction cooks: a portable butane burner, an outdoor burner, or a torch head.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Applying the first layer",
+        "summary": "Continues heating the wok dry until every surface changes color and forms black oxide, which takes about 10 minutes.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Finalizing the seasoning",
+        "summary": "With the heat off, rubs oil over every exposed metal surface, then wipes it out with a clean paper towel to leave a very thin layer.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Testing the wok with eggs",
+        "summary": "Suggests stir-fries or deep frying as first uses, then preheats the wok and scrambles eggs, which slide around without sticking.",
+        "first_segment": 7,
+        "last_segment": 7
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "and our goal today is going",
+        "last_segment": 0,
+        "ends_with": "going to show you how to season a new",
+        "note": "Opening hook and greeting: season a brand-new wok and cook an egg without sticking."
+      },
+      {
+        "role": "outro",
+        "first_segment": 7,
+        "starts_with": "all right guys gals down binary pals",
+        "last_segment": 7,
+        "ends_with": "i will see you next time you",
+        "note": "Sign-off."
+      }
+    ],
+    "topics": [
+      "wok seasoning",
+      "carbon steel wok",
+      "black oxide",
+      "oil polymerization",
+      "removing factory machine oil",
+      "wok vs cast iron seasoning",
+      "uneven heating and thermal expansion",
+      "seasoning on electric or induction stoves",
+      "portable butane burner",
+      "torch head",
+      "preheating a wok",
+      "non-stick eggs in a wok"
+    ],
+    "entity_ids": [
+      "kenji:e:carbon-steel-wok",
+      "kenji:e:cast-iron-skillet",
+      "kenji:e:carbon-steel-skillet",
+      "kenji:e:black-oxide",
+      "kenji:e:seasoning-polymers",
+      "kenji:e:machine-oil",
+      "kenji:e:carbon-steel",
+      "kenji:e:portable-butane-burner",
+      "kenji:e:outdoor-burner",
+      "kenji:e:torch-head",
+      "kenji:e:amazon",
+      "kenji:e:thermal-camera",
+      "kenji:e:mop-rag-sponge-pasta-pairing-rule",
+      "kenji:e:paper-towel",
+      "kenji:e:soy-sauce",
+      "kenji:e:rice-wine",
+      "kenji:e:scrambled-eggs",
+      "kenji:e:preheating-a-wok",
+      "kenji:e:our-place",
+      "kenji:e:our-place-carbon-steel-wok",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:no-kid-hungry"
+    ],
+    "categories": [
+      "woks",
+      "techniques",
+      "eggs",
+      "kitchen tools",
+      "appliances"
+    ],
+    "answers_questions": [
+      "How do I season a brand new carbon steel wok?",
+      "Do I need to wash off the oil a new wok comes with?",
+      "Why is seasoning a wok different from seasoning a cast iron skillet?",
+      "What is black oxide and why does my wok turn black when I heat it?",
+      "Why doesn't a wok build up thick seasoning layers like cast iron?",
+      "How can I season a wok if I have an electric or induction stove?",
+      "Is a portable butane burner or a blowtorch good for seasoning a wok?",
+      "How long should I heat the wok when seasoning it?",
+      "How much oil should I leave in the wok after seasoning?",
+      "Can I cook eggs in a new wok without them sticking?",
+      "What should I cook first in a newly seasoned wok?",
+      "Do soy sauce and acidic ingredients ruin wok seasoning?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "carbon steel wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "walk",
+        "wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron-skillet",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cast iron skillet",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "western style cast iron skillet"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel-skillet",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "carbon steel skillet",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "carbon steel western style skillets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-oxide",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "black oxide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:seasoning-polymers",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "seasoning polymers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "layers of polymers",
+        "polymers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:machine-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "machine oil",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "carbon steel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:portable-butane-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "portable butane burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "portable butane butane fuel burner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:outdoor-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "outdoor burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:torch-head",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "torch head",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "little torch head"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:amazon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Amazon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "amazon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thermal-camera",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "thermal camera",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mop-rag-sponge-pasta-pairing-rule",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mop, rag, sponge pasta pairing rule",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "mop",
+        "rag",
+        "scrubby side of a sponge",
+        "sponge"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:paper-towel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "paper towel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "clean paper towel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rice-wine",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "rice wine",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scrambled-eggs",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "scrambled eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "eggs",
+        "scramble our eggs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:preheating-a-wok",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "preheating a wok",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "pre-heat your wok",
+        "properly preheated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:our-place",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Our Place",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "our place"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:our-place-carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Our Place carbon steel wok",
+      "brand": "Our Place",
+      "model": null,
+      "category": "woks",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "my book"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:no-kid-hungry",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "No Kid Hungry",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "no kid hungry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "7e36ca308bcea21a"
+}

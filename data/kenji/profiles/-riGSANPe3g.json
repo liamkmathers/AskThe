@@ -1,0 +1,466 @@
+{
+  "platform_id": "-riGSANPe3g",
+  "profile": {
+    "video_id": "kenji:-riGSANPe3g",
+    "purpose": "Shows how to make a five-ingredient Colombian-style chicken, potato and tomato stew in a pressure cooker with no added liquid, and explains why pressure cooking speeds things up.",
+    "video_type": "how_to",
+    "thesis": "A pressure cooker turns raw bone-in chicken, potatoes, tomato, onion and bay leaves into a concentrated, brothy stew in about 25 minutes, because higher pressure raises water's boiling point and speeds cooking.",
+    "key_takeaways": [
+      "Ingredients are bone-in, skin-on chicken pieces, Yukon Gold potatoes, tomato, onion wedges and bay leaves, all added raw and seasoned with salt and pepper.",
+      "No liquid is added; the water released by the chicken and vegetables builds the steam and pressure.",
+      "Cooked at high pressure (12 psi on the Breville) for 15 minutes after reaching pressure; Kenji says the written recipe's 25 minutes is overkill.",
+      "He used a quick release; stovetop cookers can be cooled under cold water in the sink.",
+      "Pressure raises the boiling point to roughly 240-250°F, which he says makes 15 minutes equal to about an hour of normal braising.",
+      "Browning the chicken first drives off moisture, so a cup or two of chicken broth would be needed to build pressure.",
+      "The broth can be reduced to thicken it, but Kenji likes it brothy.",
+      "Kenji learned the dish from his Colombian wife, whose family lives in high-altitude Bogotá, where pressure cookers are common."
+    ],
+    "outline": [
+      {
+        "title": "Recipe introduction",
+        "summary": "Kenji introduces the stew, explains he learned it from his Colombian wife, and explains why pressure cookers are essential at Bogotá's high elevation.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Cooking the stew",
+        "summary": "Raw chicken, potatoes, onion wedges, tomato and bay leaves go into the pot with salt and pepper and no added liquid. It is then cooked at high pressure for 15 minutes, with notes for both electric and stovetop pressure cookers and on quick release.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Science of pressure cooking",
+        "summary": "Explains how pressure raises the boiling point to about 240-250°F and how the rule that reaction rates double every 10°C makes 15 minutes roughly equal to an hour of braising.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Serving and tasting",
+        "summary": "Kenji serves the stew and covers reducing the broth, braised versus browned chicken skin, and why browning first requires adding broth. He then tastes it and notes its Colombian ingredients.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Final thoughts and charity",
+        "summary": "Kenji wraps up the recipe, signs off and appeals for donations to No Kid Hungry.",
+        "first_segment": 7,
+        "last_segment": 8
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji and today",
+        "last_segment": 0,
+        "ends_with": "stew um very few ingredients",
+        "note": "Opening greeting and introduction of the dish"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "um i learned this one actually",
+        "last_segment": 0,
+        "ends_with": "feet higher higher than denver",
+        "note": "Personal note about his Colombian wife and her family in Bogotá"
+      },
+      {
+        "role": "outro",
+        "first_segment": 7,
+        "starts_with": "anyhow easy pressure cooker four or",
+        "last_segment": 8,
+        "ends_with": "see you next time bye-bye",
+        "note": "Recap and sign-off"
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "hey everyone it's kenji there are",
+        "last_segment": 8,
+        "ends_with": "thank you very much and stay safe",
+        "note": "Charity appeal for No Kid Hungry donations"
+      }
+    ],
+    "topics": [
+      "pressure cooking",
+      "Colombian chicken stew",
+      "no-liquid pressure cooking",
+      "boiling point and altitude",
+      "reaction rate and temperature",
+      "quick release",
+      "braised chicken skin",
+      "browning before pressure cooking",
+      "one-pot meals"
+    ],
+    "entity_ids": [
+      "kenji:e:instant-pot",
+      "kenji:e:breville-pressure-cooker",
+      "kenji:e:breville",
+      "kenji:e:electric-pressure-cooker",
+      "kenji:e:colombian-chicken-stew-with-potatoes-tomato-and-onion",
+      "kenji:e:chicken-legs",
+      "kenji:e:yukon-gold-potato",
+      "kenji:e:beefsteak-tomato",
+      "kenji:e:roma-tomato",
+      "kenji:e:cherry-tomatoes",
+      "kenji:e:onion",
+      "kenji:e:bay-leaves",
+      "kenji:e:chicken-broth",
+      "kenji:e:boiling-point-and-altitude",
+      "kenji:e:reaction-rate-doubling-per-10c",
+      "kenji:e:quick-release",
+      "kenji:e:oxidation-browning",
+      "kenji:e:no-kid-hungry",
+      "kenji:e:serious-eats",
+      "kenji:e:kenji-s-wife"
+    ],
+    "categories": [
+      "appliances",
+      "meat",
+      "vegetables",
+      "techniques"
+    ],
+    "answers_questions": [
+      "Do I need to add water or liquid to a pressure cooker chicken stew?",
+      "How long should I pressure cook bone-in chicken pieces?",
+      "What's Kenji's easy Instant Pot chicken and potato stew recipe?",
+      "Why do pressure cookers cook food faster?",
+      "Why are pressure cookers so popular in Bogotá or at high altitude?",
+      "Can I brown the chicken before pressure cooking it?",
+      "Which cut of chicken works best for a pressure cooker stew?",
+      "Should I use quick release or natural release for this chicken stew?",
+      "How do I thicken the broth after pressure cooking?",
+      "What kind of tomato and potato should I use in the Colombian chicken stew?",
+      "How much faster is 15 minutes in a pressure cooker compared to braising?",
+      "What temperature does water boil at inside a pressure cooker at 12 psi?"
+    ],
+    "uses": [
+      "understanding",
+      "care_maintenance"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:-riGSANPe3g:s0002",
+        "note": "Kenji says the written recipe calls for 25 minutes at pressure, but 15 minutes is plenty."
+      },
+      {
+        "segment_id": "kenji:-riGSANPe3g:s0004",
+        "note": "After stating that reaction rates double for every 10 degrees, he clarifies that this means 10 degrees Celsius, not Fahrenheit."
+      },
+      {
+        "segment_id": "kenji:-riGSANPe3g:s0005",
+        "note": "He first equates a 40°F rise with about 10°C, then restates it as 20°C and four times as fast. The 40°F rise is what he uses to say 15 minutes at pressure equals about an hour of braising."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:instant-pot",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Instant Pot",
+      "brand": "Instant Pot",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "instant pot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:breville-pressure-cooker",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Breville pressure cooker",
+      "brand": "Breville",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "this one from breville"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:breville",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Breville",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "breville"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:electric-pressure-cooker",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "electric pressure cooker",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "pressure cooker",
+        "stovetop pressure cooker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:colombian-chicken-stew-with-potatoes-tomato-and-onion",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Colombian chicken stew with potatoes, tomato and onion",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "chicken and potato and tomato stew",
+        "chicken potato and tomato stew"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chicken-legs",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chicken legs",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "chicken breasts",
+        "drumsticks",
+        "thighs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yukon-gold-potato",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Yukon Gold potato",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "yukon gold potato"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beefsteak-tomato",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "beefsteak tomato",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "beef steak tomato"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roma-tomato",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Roma tomato",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "roma"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cherry-tomatoes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cherry tomatoes",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:onion",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bay-leaves",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "bay leaves",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chicken-broth",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chicken broth",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:boiling-point-and-altitude",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "boiling point and altitude",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "the higher you go the lower the boiling temperature of water"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:reaction-rate-doubling-per-10c",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "reaction rate doubling per 10°C",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "for every 10 degrees you go up it doubles the rate"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:quick-release",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "quick release",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oxidation-browning",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "oxidation (browning)",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "brown it",
+        "brown your chicken first",
+        "browning",
+        "oxidation"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:no-kid-hungry",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "No Kid Hungry",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "no kid hungry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "printed recipe",
+        "serious eats",
+        "serious seats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-s-wife",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Kenji's wife",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "my wife"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "e11dd011e465e964"
+}

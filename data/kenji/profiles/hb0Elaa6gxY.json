@@ -1,0 +1,496 @@
+{
+  "platform_id": "hb0Elaa6gxY",
+  "profile": {
+    "video_id": "kenji:hb0Elaa6gxY",
+    "purpose": "Demonstrates Kenji's preferred method for boiling eggs so they peel easily (steaming fridge-cold eggs in an inch of already-boiling water, covered), with cook times for different doneness levels, and explains the Serious Eats and New York Times peeling tests behind it.",
+    "video_type": "how_to",
+    "thesis": "No method is foolproof, but starting eggs in already-boiling water, rather than bringing them up from cold, makes by far the biggest difference to how easily they peel. Egg age barely matters for boiled eggs.",
+    "key_takeaways": [
+      "Use an inch or so of already-boiling water in a lidded saucepan or wok. The eggs needn't be covered and can go in straight from the fridge.",
+      "Timing: about 3-4 minutes for soft, about 6 for medium/fudgy, 9 for hard with a golden yolk, 11-12 for a paler, chalkier yolk.",
+      "Starting in hot water lets the whites set before they fuse to the shell membrane. Starting cold makes them stick.",
+      "Blind tests with over 100 volunteers gave roughly an 80% clean-peel rate for the hot-start method, versus about 50-60% for other methods.",
+      "Egg age makes little difference to peeling, but fresher eggs help for fried and poached eggs.",
+      "Pricking the fat end with a thumbtack relieves air-space pressure in thin-shelled eggs and reduces the dent at that end.",
+      "Letting eggs cool naturally works slightly better than an ice bath; an ice bath is fine if you need them cold fast.",
+      "Baking eggs in a muffin tin makes them hard to peel and gives an odd baked flavor.",
+      "Peeling technique: crack both ends, then roll gently."
+    ],
+    "outline": [
+      {
+        "title": "Intro: no foolproof method",
+        "summary": "Kenji says no egg-boiling method is foolproof but claims his has the best results, backed by data.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Setup: steaming eggs in a little boiling water",
+        "summary": "Water in a saucepan (or ideally a wok, so eggs can roll down the side), already boiling, fridge-cold eggs lowered in a single layer, then covered.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Cook times for each doneness",
+        "summary": "Sets a 9-minute timer and gives times for hard, medium/fudgy and soft-boiled eggs.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Origin story and Serious Eats tests",
+        "summary": "Recalls peeling 3-minute eggs as a restaurant line cook, then testing vinegar, salt, and cold versus hot starts with a staff panel at Serious Eats. The hot start was what mattered.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "New York Times blind peeling study",
+        "summary": "Describes repeating the tests with over 100 public volunteers peeling eggs blind. He measured subjective ease, flaws and peeling time, and reached the same conclusion with about 80% versus 50-60% success.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "Thin shells, cracking and the air space",
+        "summary": "Notes some brands have thicker shells, and explains pricking the fat end with a thumbtack to relieve air-space pressure and avoid cracks and dents.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Egg age myth",
+        "summary": "A test of 60-day-old versus same-day eggs from a neighbor's hens showed no peeling difference. Age matters for fried and poached eggs because the membranes loosen.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Cooling, heat level and the oven method",
+        "summary": "Prefers natural cooling over an ice bath, says to keep a heavy simmer or light boil without letting the water evaporate, and dismisses muffin-tin baked eggs.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Peeling demo and cut egg",
+        "summary": "Peels an egg by cracking both ends and rolling, then halves it to show a 9-minute yolk.",
+        "first_segment": 12,
+        "last_segment": 13
+      },
+      {
+        "title": "Outro",
+        "summary": "Plans egg salad sandwiches for lunch and signs off.",
+        "first_segment": 13,
+        "last_segment": 13
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's Kenji and uh",
+        "last_segment": 0,
+        "ends_with": "then I'll explain how I got this result",
+        "note": "Opening and disclaimer that no egg-boiling method is foolproof."
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "uh Hey Siri set a timer",
+        "last_segment": 2,
+        "ends_with": "9 minutes starting now",
+        "note": "Asks Siri to set the timer."
+      },
+      {
+        "role": "outro",
+        "first_segment": 13,
+        "starts_with": "and the rest of this I'm",
+        "last_segment": 13,
+        "ends_with": "I will see you next time bye-bye",
+        "note": "Mentions egg salad sandwiches for lunch, calls for Shabu, signs off."
+      }
+    ],
+    "topics": [
+      "boiling eggs",
+      "easy-peel hard-boiled eggs",
+      "steaming eggs",
+      "egg cook times",
+      "hot start vs cold start",
+      "egg age and peeling",
+      "egg air space",
+      "preventing cracked shells",
+      "ice bath vs natural cooling",
+      "oven-baked eggs",
+      "peeling technique",
+      "deviled eggs"
+    ],
+    "entity_ids": [
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:wok",
+      "kenji:e:saucepan",
+      "kenji:e:serious-eats",
+      "kenji:e:the-new-york-times",
+      "kenji:e:happy-egg",
+      "kenji:e:safeway",
+      "kenji:e:worst-hall",
+      "kenji:e:siri",
+      "kenji:e:no-kid-hungry",
+      "kenji:e:thumbtack",
+      "kenji:e:muffin-tin",
+      "kenji:e:boiled-eggs",
+      "kenji:e:deviled-eggs",
+      "kenji:e:egg-air-space",
+      "kenji:e:shell-membrane",
+      "kenji:e:ice-bath",
+      "kenji:e:hot-start-vs-cold-start",
+      "kenji:e:egg-salad",
+      "kenji:e:shabu"
+    ],
+    "categories": [
+      "eggs",
+      "techniques",
+      "woks"
+    ],
+    "answers_questions": [
+      "How do I boil eggs so they're easy to peel?",
+      "How long should I boil an egg for soft, medium or hard?",
+      "Do I need to cover the eggs with water when boiling them?",
+      "Should I start eggs in cold water or boiling water?",
+      "Does the age of the egg affect how easily it peels?",
+      "Should I use an ice bath after boiling eggs?",
+      "How do I stop eggshells cracking while they boil?",
+      "Why is there a dent at the fat end of my boiled egg?",
+      "Can I boil eggs straight from the fridge?",
+      "Is baking eggs in a muffin tin a good idea?",
+      "What's the best way to peel a boiled egg?",
+      "Can I boil eggs in a wok?",
+      "How did Kenji test egg peeling methods?",
+      "Do fresh eggs matter for fried or poached eggs?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:hb0Elaa6gxY:s0011",
+        "note": "Misspeaks 'you don't want the eggs to' and corrects himself: it's the water you don't want to completely evaporate during cooking."
+      },
+      {
+        "segment_id": "kenji:hb0Elaa6gxY:s0004",
+        "note": "Says the age of the egg doesn't matter much for peeling, contradicting what he may have written in the past."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "walk",
+        "wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:saucepan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "saucepan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "printed recipe",
+        "series SE",
+        "serious eats",
+        "serious seats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-new-york-times",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "The New York Times",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New York Times"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:happy-egg",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Happy Egg",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "happy egg"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:safeway",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Safeway",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:worst-hall",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "worst Hall",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "worst Hall in Sano"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:siri",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Siri",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:no-kid-hungry",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "No Kid Hungry",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "no kid hungry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thumbtack",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "thumbtack",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:muffin-tin",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "muffin tin",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:boiled-eggs",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "boiled eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "hard-boiled egg",
+        "soft boiled egg"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:deviled-eggs",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "deviled eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "double dagg"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:egg-air-space",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "egg air space",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "air space",
+        "airspace"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shell-membrane",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "shell membrane",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "membrane"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ice-bath",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "ice bath",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hot-start-vs-cold-start",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "hot start vs cold start",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "already boiling water",
+        "bring them up from cold"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:egg-salad",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "egg salad",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shabu",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Shabu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "shabo"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "40ec2c38aeab9476"
+}

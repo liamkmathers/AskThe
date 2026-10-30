@@ -1,0 +1,328 @@
+{
+  "platform_id": "0tbqDOKkTCw",
+  "profile": {
+    "video_id": "kenji:0tbqDOKkTCw",
+    "purpose": "A livestream demonstration of the onion-cutting method from Kenji's New York Times 'Ask Kenji' column. It compares the traditional and radial methods with an optimal method found using a mathematical model, judged on evenness of piece size and efficiency.",
+    "video_type": "how_to",
+    "thesis": "Kenji argues that aiming vertical cuts at a point about 0.6 onion radii below the cutting board (1.6 radii below the top of the onion) gives more even, efficient dice than the traditional or radial methods, with no horizontal cut needed.",
+    "key_takeaways": [
+      "'Best' is defined as the smallest standard deviation in piece size plus the most pieces for the fewest knife strokes.",
+      "The traditional method uses perpendicular vertical cuts plus a horizontal slice. The horizontal slice measurably evens out pieces at the edges.",
+      "Radial slicing aimed at the onion's center makes edge pieces big and center pieces tiny slivers, so it is less even than the traditional method.",
+      "A mathematical model treated the onion's cut face as concentric circles crossed by knife lines and measured the resulting piece areas.",
+      "Approximate standard deviations: traditional about 48%, radial about 58%, optimal method about 35%.",
+      "Optimal method: aim cuts at an imaginary point about 0.6 radius below the cutting board. The center cut is vertical, and outer cuts lean between vertical and radial. Then cross-slice with no horizontal cut.",
+      "Kenji removes the first white layer of the onion as well as the papery skin, a tip he credits to 'jeck pan'."
+    ],
+    "outline": [
+      {
+        "title": "Introduction and goals",
+        "summary": "Kenji introduces his NYT Ask Kenji column question about the best way to cut an onion. He defines 'best' as the most consistent piece size and the most pieces per knife stroke.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "The traditional method",
+        "summary": "He trims, halves and peels the onion, explains its concentric-layer geometry, and shows vertical cuts plus a horizontal slice. He explains why the horizontal slice evens out the edge pieces.",
+        "first_segment": 1,
+        "last_segment": 4
+      },
+      {
+        "title": "Radial slicing method",
+        "summary": "He demonstrates radial cuts aimed at the onion's center. He shows that center pieces become thin slivers while edge pieces stay large, making it less even than the traditional method.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Mathematical modeling",
+        "summary": "He describes building computer models with a college friend: concentric circles intersected by knife lines, measuring piece counts and the standard deviation of piece size. He compares the methods' results.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "The optimal cutting technique",
+        "summary": "He demonstrates aiming cuts at an imaginary point about 0.6 radius below the cutting board, then cross-slicing without a horizontal cut. This gives roughly a 35% standard deviation.",
+        "first_segment": 8,
+        "last_segment": 10
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "just about ready to start all",
+        "last_segment": 0,
+        "ends_with": "what the actual optimal one was",
+        "note": "Livestream welcome and introduction of the NYT column question and goals."
+      }
+    ],
+    "topics": [
+      "how to dice an onion",
+      "traditional onion dicing with horizontal cut",
+      "radial onion slicing",
+      "mathematical model of onion cutting",
+      "standard deviation of piece size",
+      "cutting efficiency",
+      "onion geometry and concentric layers",
+      "peeling an onion",
+      "knife skills"
+    ],
+    "entity_ids": [
+      "kenji:e:onion",
+      "kenji:e:the-new-york-times",
+      "kenji:e:ask-kenji-nyt-column",
+      "kenji:e:jeck-pan",
+      "kenji:e:traditional-classic-onion-dicing-method",
+      "kenji:e:horizontal-slice",
+      "kenji:e:radial-slicing",
+      "kenji:e:optimal-onion-cut-aim-0-6-radius-below-the-cutting-board",
+      "kenji:e:standard-deviation",
+      "kenji:e:polar-coordinates",
+      "kenji:e:geogebra",
+      "kenji:e:kenji-s-mathematician-friend-from-college",
+      "kenji:e:cutting-board",
+      "kenji:e:knife"
+    ],
+    "categories": [
+      "techniques",
+      "vegetables",
+      "knives"
+    ],
+    "answers_questions": [
+      "What's the best way to dice an onion so the pieces are even?",
+      "Do I really need to make that horizontal cut when dicing an onion?",
+      "Is radial slicing better than the classic way of cutting an onion?",
+      "What's the 1.6 or 0.6 radius trick for cutting onions?",
+      "How did Kenji use math to figure out the best onion cut?",
+      "How uneven are onion pieces with the traditional method versus radial cuts?",
+      "Why should I peel off the first white layer of an onion?",
+      "Where should I aim my knife when making vertical cuts in an onion?",
+      "What did Kenji's NYT column say about cutting onions?"
+    ],
+    "uses": [
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:0tbqDOKkTCw:s0001",
+        "note": "Says to chop off the bottom of the onion, then corrects that it is technically the top."
+      },
+      {
+        "segment_id": "kenji:0tbqDOKkTCw:s0008",
+        "note": "Gives the radial method's standard deviation as 'closer to 50 something', then corrects it to about 58%."
+      },
+      {
+        "segment_id": "kenji:0tbqDOKkTCw:s0010",
+        "note": "Says to aim 1.6 below the surface of the onion, then 1.6 below the cutting board, then corrects to 0.6 radii below the cutting board. This is consistent with the earlier 'another .6' below the board (1.6 radii from the top of the onion)."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:onion",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-new-york-times",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "The New York Times",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New York Times"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ask-kenji-nyt-column",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Ask Kenji (NYT column)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ask Kenji"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:jeck-pan",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "jeck pan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:traditional-classic-onion-dicing-method",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "traditional (classic) onion dicing method",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "classic method",
+        "traditional method"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:horizontal-slice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "horizontal slice",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "horizont slice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:radial-slicing",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "radial slicing",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "radially"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:optimal-onion-cut-aim-0-6-radius-below-the-cutting-board",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "optimal onion cut (aim 0.6 radius below the cutting board)",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "1.6",
+        "6 radiuses below the surface of the cutting board"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:standard-deviation",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "standard deviation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:polar-coordinates",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "polar coordinates",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:geogebra",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "GeoGebra",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-s-mathematician-friend-from-college",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Kenji's mathematician friend from college",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "friend of mine from college who was a uh mathematician"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cutting-board",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cutting board",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "The Cutting Board"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "knife",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "a60548604c817700"
+}

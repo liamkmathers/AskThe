@@ -1,0 +1,656 @@
+{
+  "platform_id": "u2MJzEuI0vI",
+  "profile": {
+    "video_id": "kenji:u2MJzEuI0vI",
+    "purpose": "Shows how to make the same five-ingredient egg fried rice on three setups: a high-powered outdoor wok burner, an indoor gas range with a wok, and a non-stick skillet on an induction or electric cooktop.",
+    "video_type": "how_to",
+    "thesis": "Good egg fried rice can be made on any equipment by adapting heat management and pan choice, but only high wok heat gives full wok hei smokiness.",
+    "key_takeaways": [
+      "All three versions use the same five ingredients: dry cooked rice, three beaten eggs, three scallions, oil and light soy sauce.",
+      "Rice must be dry: use day-old rice chilled uncovered, or spread fresh rice on a sheet tray to steam dry.",
+      "Outdoor burner: preheat a round-bottom wok until smoking, cut the heat while cooking the eggs, then bring it back to high for the rice.",
+      "Indoor gas: use a flat-bottom carbon steel wok and keep the heat on high the whole time. A butane torch can add some smokiness.",
+      "Electric or induction: use a flat-bottomed non-stick, cast iron or carbon steel pan, preheat the oil to 375–400°F, and expect little or no wok hei.",
+      "Cook the eggs first, set them on top of the rice and break them in. Add soy sauce around the hot edge of the pan so it sizzles.",
+      "He recommends carbon steel woks about 1.5–2 mm thick and does not rinse his rice. He cooks sushi rice at about 1.1 parts water to 1 part rice."
+    ],
+    "outline": [
+      {
+        "title": "Introduction and ingredients",
+        "summary": "Kenji outlines the three methods and the five shared ingredients, and explains how to get the rice dry enough.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Outdoor wok burner method",
+        "summary": "Fried rice in a 14-inch round-bottom wok on a high-output outdoor burner: smoking preheat, heat cut for the eggs, then high heat for the rice. Soy sauce goes around the edge for wok hei.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Indoor gas burner method",
+        "summary": "Uses a 14-inch flat-bottom carbon steel wok on a home gas range, with advice on choosing a wok. The heat stays on high throughout, and a butane torch can add some smokiness.",
+        "first_segment": 3,
+        "last_segment": 8
+      },
+      {
+        "title": "Non-stick skillet method",
+        "summary": "Cooks the dish in a non-stick skillet on an induction burner, with notes on oil temperature and utensils. Also covers rice choice, water ratios, not rinsing, and alternative seasonings.",
+        "first_segment": 8,
+        "last_segment": 13
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji i'm here",
+        "last_segment": 0,
+        "ends_with": "portable gas stove something like that",
+        "note": "Kenji introduces the three ways to make egg fried rice."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "i'm doing a big test on",
+        "last_segment": 1,
+        "ends_with": "all these guys out over here",
+        "note": "Mentions he is currently testing outdoor wok burners."
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "oops elisa can you give me",
+        "last_segment": 9,
+        "ends_with": "a couple more minutes thanks",
+        "note": "Brief interruption speaking to Elisa."
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "oops and so is that spoon",
+        "last_segment": 12,
+        "ends_with": "dogs shouldn't eat scallions",
+        "note": "Joke about dropped food and the dog eating scallions."
+      },
+      {
+        "role": "outro",
+        "first_segment": 13,
+        "starts_with": "all right guys gals non-binary pals",
+        "last_segment": 13,
+        "ends_with": "wash your hands stay safe you",
+        "note": "Sign-off."
+      }
+    ],
+    "topics": [
+      "egg fried rice",
+      "wok hei",
+      "outdoor wok burners",
+      "cooking with a wok on a home gas range",
+      "fried rice without a wok",
+      "induction and electric cooktops",
+      "carbon steel wok selection",
+      "preparing dry rice for fried rice",
+      "rice-to-water ratios",
+      "fried rice seasoning variations",
+      "blowtorch for wok smokiness"
+    ],
+    "entity_ids": [
+      "kenji:e:egg-fried-rice",
+      "kenji:e:wok-hei",
+      "kenji:e:outdoor-wok-burner",
+      "kenji:e:carbon-steel-wok",
+      "kenji:e:round-bottom-wok",
+      "kenji:e:flat-bottom-wok",
+      "kenji:e:helen-chen-pro-wok",
+      "kenji:e:helen-chen",
+      "kenji:e:carbon-steel",
+      "kenji:e:cast-iron",
+      "kenji:e:aluminum",
+      "kenji:e:non-stick-skillet",
+      "kenji:e:induction-burner",
+      "kenji:e:butane-torch",
+      "kenji:e:iwatani",
+      "kenji:e:target",
+      "kenji:e:amazon",
+      "kenji:e:restaurant-supply-store",
+      "kenji:e:electric-pressure-cooker",
+      "kenji:e:rice-cooker",
+      "kenji:e:sushi-rice",
+      "kenji:e:jasmine-rice",
+      "kenji:e:medium-grain-rice",
+      "kenji:e:light-soy-sauce",
+      "kenji:e:scallions",
+      "kenji:e:eggs",
+      "kenji:e:sesame-oil",
+      "kenji:e:oyster-sauce",
+      "kenji:e:indonesian-sweet-soy-sauce",
+      "kenji:e:fish-sauce",
+      "kenji:e:ketchup",
+      "kenji:e:elisa",
+      "kenji:e:serious-eats"
+    ],
+    "categories": [
+      "woks",
+      "pans",
+      "appliances",
+      "kitchen tools",
+      "rice",
+      "eggs",
+      "techniques",
+      "sauces"
+    ],
+    "answers_questions": [
+      "How do I make egg fried rice without a wok?",
+      "Can I make fried rice on an electric or induction stove?",
+      "Do I need day-old rice for fried rice, or can I use fresh rice?",
+      "What kind of wok does Kenji recommend buying?",
+      "Should I use a round-bottom or flat-bottom wok on a home stove?",
+      "How do I get wok hei smokiness at home?",
+      "Should I turn the heat off when cooking eggs for fried rice in a wok?",
+      "Why add soy sauce around the edge of the wok instead of on the rice?",
+      "Does Kenji rinse his rice?",
+      "What water-to-rice ratio does Kenji use for sushi rice?",
+      "What else can I season fried rice with besides soy sauce?",
+      "How hot should a non-stick pan get for fried rice?",
+      "How much difference does an outdoor wok burner make for fried rice?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Earlier video showing how to use a blowtorch to add wok hei smokiness when stir-frying indoors",
+      "Upcoming outdoor wok burner testing/review"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:egg-fried-rice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "egg fried rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "fried rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-hei",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "wok hei",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "high okay flavor",
+        "okay smokiness",
+        "wakay",
+        "wake flavor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:outdoor-wok-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "outdoor wok burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "outdoor box set up",
+        "walk burners"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "carbon steel wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:round-bottom-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "round-bottom wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "14 inch round bottom walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flat-bottom-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "flat-bottom wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "14 inch flat bottom walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:helen-chen-pro-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Helen Chen Pro wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "helen chen pro"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:helen-chen",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Helen Chen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "helen chen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "carbon steel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Cast iron",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aluminum",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Aluminum",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "aluminum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:non-stick-skillet",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "non-stick skillet",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "flat bottom pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:induction-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "induction burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butane-torch",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "butane torch",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "disposable butane canister with a torch head",
+        "torch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:iwatani",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Iwatani",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "iwatani"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:target",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Target",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "target"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:amazon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Amazon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "amazon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:restaurant-supply-store",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "restaurant supply store",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:electric-pressure-cooker",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "electric pressure cooker",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "pressure cooker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rice-cooker",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "rice cooker",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sushi-rice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sushi rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "short grain sushi rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:jasmine-rice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "jasmine rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:medium-grain-rice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "medium grain rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "medium grain chinese style rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:light-soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "light soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scallions",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "scallions",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eggs",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "three eggs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sesame-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sesame oil",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oyster-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "oyster sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:indonesian-sweet-soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Indonesian sweet soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "sweet soy sauce like an indonesian style soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fish-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "fish sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ketchup",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "ketchup",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:elisa",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Elisa",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "elisa"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "serious eats",
+        "serious seats",
+        "unser your seats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "57ae8a11e062c9dd"
+}

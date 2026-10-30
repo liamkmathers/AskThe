@@ -1,0 +1,586 @@
+{
+  "platform_id": "pO8TUuSv7HA",
+  "profile": {
+    "video_id": "kenji:pO8TUuSv7HA",
+    "purpose": "Demonstrates how to reverse sear a thick tomahawk rib steak, explains the science behind the method, and recounts the technique's origin at Cook's Illustrated.",
+    "video_type": "how_to",
+    "thesis": "Cooking a thick steak gently in a low oven to its target temperature, then searing it as fast as possible over very high heat, gives edge-to-edge even doneness, a better crust and a wider margin for error than traditional sear-then-oven methods.",
+    "key_takeaways": [
+      "Kenji developed the reverse sear at Cook's Illustrated around 2006, published in 2007. He acknowledges earlier independent examples, such as Chris Finney posting on barbecue forums.",
+      "The traditional restaurant method (sear, then finish in the oven) creates a bullseye temperature gradient. The reverse sear flips the order to avoid it.",
+      "The method suits steaks at least about 1.5 inches thick. A 2.25 to 2.5 inch tomahawk takes about 1 hour 45 minutes to 2 hours in a 250°F oven.",
+      "He pulls the steak at about 120–125°F for medium rare, going slightly higher for fatty cuts like ribeye so the fat renders.",
+      "He checks a leave-in probe's reading with a handheld thermometer, because the probe can conduct heat and read falsely high.",
+      "The searing surface should be preheated until smoking hot so the sear is as brief as possible.",
+      "The low oven dries the surface, and since evaporating water takes about five times more energy than heating it from 0 to 100°C, the dry steak sears faster and better.",
+      "The reverse sear gives a doneness window of 10 to 20 minutes rather than a couple of minutes.",
+      "Kenji prefers the reverse sear to sous vide because of the drier surface and better fat rendering."
+    ],
+    "outline": [
+      {
+        "title": "History of the reverse sear",
+        "summary": "Kenji explains that he developed the reverse sear at Cook's Illustrated, modeled on sous vide, and credits earlier independent examples documented by Meathead at AmazingRibs.com.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "What the reverse sear does",
+        "summary": "He contrasts the traditional sear-then-oven method and its bullseye gradient with the reverse sear: a low oven first, then a sear at the end for even doneness. He notes it works best on thick steaks.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Rib steak into the oven",
+        "summary": "He seasons a thick tomahawk rib steak with salt and pepper, sets it on a rack over a sheet tray, inserts a probe with a 125°F alarm and cooks it in a 250°F oven.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "Preparing to sear",
+        "summary": "Kenji preheats a Baking Steel griddle until smoking hot and explains why the sear should be fast. He double-checks the temperature with a handheld thermometer and discusses his target doneness for fatty cuts.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Searing",
+        "summary": "He explains how drying the surface in the oven helps searing, then sears with rice bran oil under Chef's Presses. Along the way he compares the method with restaurant sous vide and covers the wider doneness window and why he prefers the reverse sear.",
+        "first_segment": 6,
+        "last_segment": 10
+      },
+      {
+        "title": "Slicing and serving",
+        "summary": "He cuts into the steak to show the lack of a temperature gradient and serves it.",
+        "first_segment": 10,
+        "last_segment": 10
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji uh",
+        "last_segment": 0,
+        "ends_with": "to reverse sear a big steak",
+        "note": "Greeting and statement of what the video will show."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "in fact you could also add",
+        "last_segment": 3,
+        "ends_with": "if you have too much time on your hands",
+        "note": "Joke about having time on your hands."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "oh by the way bruce hill",
+        "last_segment": 7,
+        "ends_with": "no money ever exchanged for recommendations",
+        "note": "Update on the Chef's Press charity sale and its Black Lives Matter donation, plus a note that he takes no sponsorship money."
+      },
+      {
+        "role": "outro",
+        "first_segment": 10,
+        "starts_with": "all right everyone that is the reverse sear",
+        "last_segment": 10,
+        "ends_with": "i will see you next time bye you",
+        "note": "Thanks and sign-off."
+      }
+    ],
+    "topics": [
+      "reverse sear",
+      "steak cooking",
+      "temperature gradient",
+      "sous vide comparison",
+      "searing science",
+      "surface moisture evaporation",
+      "thermometer accuracy",
+      "doneness temperatures",
+      "history of the reverse sear",
+      "fat rendering"
+    ],
+    "entity_ids": [
+      "kenji:e:reverse-sear",
+      "kenji:e:cook-s-illustrated",
+      "kenji:e:meathead",
+      "kenji:e:amazingribs-com",
+      "kenji:e:chris-finney",
+      "kenji:e:iron-pig-barbecue",
+      "kenji:e:sous-vide",
+      "kenji:e:pan-seared-steak-traditional-sear-then-oven-method",
+      "kenji:e:tomahawk-steak",
+      "kenji:e:rib-steak",
+      "kenji:e:ribeye",
+      "kenji:e:spinalis",
+      "kenji:e:baking-steel-griddle",
+      "kenji:e:vintage-wagner-cast-iron-pan",
+      "kenji:e:leave-in-temperature-probe",
+      "kenji:e:handheld-thermometer",
+      "kenji:e:rack-and-sheet-tray",
+      "kenji:e:chef-s-press",
+      "kenji:e:bruce-hill",
+      "kenji:e:black-lives-matter",
+      "kenji:e:rice-bran-oil",
+      "kenji:e:canola-oil",
+      "kenji:e:grapeseed-oil",
+      "kenji:e:salt-and-pepper",
+      "kenji:e:temperature-gradient-bullseye",
+      "kenji:e:surface-moisture-evaporation",
+      "kenji:e:serious-eats"
+    ],
+    "categories": [
+      "meat",
+      "techniques",
+      "kitchen tools",
+      "pans"
+    ],
+    "answers_questions": [
+      "How do you reverse sear a steak?",
+      "What oven temperature should I use for a reverse sear, and how long does it take?",
+      "Who invented the reverse sear?",
+      "Why is the reverse sear better than searing first and then finishing in the oven?",
+      "How thick does a steak need to be for the reverse sear to be worth it?",
+      "What internal temperature should I pull a ribeye at for medium rare?",
+      "Why should I double-check a leave-in probe with a handheld thermometer?",
+      "Is the reverse sear better than sous vide?",
+      "How hot should the pan be for the final sear, and why sear fast?",
+      "How do I sear a tomahawk steak that won't fit in a pan?",
+      "What oil does Kenji use to sear steak?",
+      "Why does a dry steak surface sear better?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:pO8TUuSv7HA:s0004",
+        "note": "Corrects the earlier estimate of about two hours in the oven: the steak was nearly done in about 1 hour 45 minutes."
+      },
+      {
+        "segment_id": "kenji:pO8TUuSv7HA:s0006",
+        "note": "Corrects a misstatement of '50 times' to say that evaporating water takes about five times more energy than heating it from 0 to 100°C."
+      }
+    ],
+    "related_videos": [
+      "Kenji's video on reverse-searing prime rib (linked in description)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:reverse-sear",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "reverse sear",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "reverse here",
+        "reverse seer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cook-s-illustrated",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Cook's Illustrated",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cooks illustrated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:meathead",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Meathead",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "meathead"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:amazingribs-com",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "AmazingRibs.com",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "amazingribs.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chris-finney",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Chris Finney",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chris finney"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:iron-pig-barbecue",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Iron Pig Barbecue",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "iron pig barbecue"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sous-vide",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sous vide",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "sous-vide",
+        "suv"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pan-seared-steak-traditional-sear-then-oven-method",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pan-seared steak (traditional sear-then-oven method)",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "pins depends here stakes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tomahawk-steak",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tomahawk steak",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "tomahawk",
+        "tomato steak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rib-steak",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "rib steak",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ribeye",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ribeye",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spinalis",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "spinalis",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "spinalas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:baking-steel-griddle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Baking Steel griddle",
+      "brand": "Baking Steel",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "baking steel griddle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-wagner-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vintage Wagner cast iron pan",
+      "brand": "Wagner",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron",
+        "cast iron pan",
+        "cast iron pans",
+        "cast-iron pan",
+        "cast-iron pans",
+        "vintage Wagner pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:leave-in-temperature-probe",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "leave-in temperature probe",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "leave-in probe",
+        "leaving probe",
+        "temperature probe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:handheld-thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "handheld thermometer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rack-and-sheet-tray",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "rack and sheet tray",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "rack on a sheet tray"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chef-s-press",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chef's press",
+      "brand": "Chef's Press",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "chef's press",
+        "chef's presses",
+        "chefspress.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bruce-hill",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Bruce Hill",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bruce hill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-lives-matter",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Black Lives Matter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "black lives matter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rice-bran-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "rice bran oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:canola-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "canola oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "canola"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:grapeseed-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "grapeseed oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "grape seed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salt-and-pepper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "salt and pepper",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:temperature-gradient-bullseye",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "temperature gradient (bullseye)",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "bullseye pattern",
+        "temperature gradient"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:surface-moisture-evaporation",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "surface moisture evaporation",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "surface moisture"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "serious eats",
+        "serious seats",
+        "unser your seats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "4fc43e058a44bcd1"
+}

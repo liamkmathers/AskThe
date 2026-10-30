@@ -1,0 +1,462 @@
+{
+  "platform_id": "SGP36xcUnOs",
+  "profile": {
+    "video_id": "kenji:SGP36xcUnOs",
+    "purpose": "Demonstrates how Kenji slices, washes and marinates beef for stir-fries, and explains why each step improves texture and flavour.",
+    "video_type": "how_to",
+    "thesis": "Washing sliced meat in cold water before marinating, then marinating it with salt, an alkaline ingredient, cornstarch and oil, gives noticeably more tender, juicier stir-fry meat.",
+    "key_takeaways": [
+      "Use cuts like flank, flatiron or skirt steak and slice against the grain, at a slight angle, for tenderness. Sichuan dry-fried beef is an exception where slicing with the grain gives desired chew.",
+      "Washing and roughly massaging the sliced meat in cold water squeezes out excess juices so marinade penetrates better, and loosens the muscle texture. Drain and squeeze it in a fine mesh strainer afterwards.",
+      "Basic marinade per pound: about 1 tsp light soy sauce, about 1/2 tsp salt, about 1 tsp Shaoxing wine or dry sherry, about 1/4 tsp baking soda (or an egg white), cornstarch, then oil added at the end.",
+      "Salt dissolves some muscle protein to help retain moisture. Alkaline ingredients like baking soda or egg white tenderise. Cornstarch holds in juices. Oil keeps strips from sticking in the wok.",
+      "The marinade works for beef, chicken and pork. Meat can marinate from a couple of hours up to a day, getting more tender with time.",
+      "Why alkalinity tenderises meat is not fully known. One theory is that it keeps muscle proteins from bonding tightly and squeezing out juices."
+    ],
+    "outline": [
+      {
+        "title": "Preparing the beef",
+        "summary": "Choosing cuts (flank, flatiron, skirt) and slicing against the grain at an angle, with the exception of Sichuan dry-fried beef, which is cut with the grain.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Washing the meat",
+        "summary": "Why and how to wash sliced beef in cold water, inspired by Wang Gang and tested for Kenji's book, plus a note on hard water and alkalinity. Then draining and squeezing the meat in a strainer.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Marinade ingredients",
+        "summary": "Building a basic stir-fry marinade of soy sauce, salt, Shaoxing wine, an alkaline element (egg white in place of baking soda), cornstarch and oil, with the role of each.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Final notes",
+        "summary": "The marinade suits beef, chicken and pork. Covers marinating time, up to a day ahead, and theories about why baking soda tenderises meat.",
+        "first_segment": 6,
+        "last_segment": 7
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji and i'm",
+        "last_segment": 0,
+        "ends_with": "a separate video which i'll link to",
+        "note": "Intro explaining the video was prompted by an Instagram post about washing meat"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "but yesterday my daughter and i",
+        "last_segment": 4,
+        "ends_with": "all of our baking soda doing that",
+        "note": "Story about making a 'puking pumpkin' with his daughter that used up the baking soda"
+      },
+      {
+        "role": "outro",
+        "first_segment": 7,
+        "starts_with": "all right so i will link",
+        "last_segment": 7,
+        "ends_with": "i'll see you next time bye do you",
+        "note": "Sign-off with a promise to link the follow-up cooking video"
+      }
+    ],
+    "topics": [
+      "washing meat before marinating",
+      "stir-fry marinade",
+      "slicing against the grain",
+      "beef cuts for stir-fry",
+      "alkaline tenderising",
+      "baking soda in marinades",
+      "egg white in marinades",
+      "cornstarch coating",
+      "Chinese restaurant tender beef",
+      "beef and broccoli prep"
+    ],
+    "entity_ids": [
+      "kenji:e:steak-skirt-or-flank",
+      "kenji:e:flatiron-steak",
+      "kenji:e:cutting-against-the-grain",
+      "kenji:e:sichuan-dry-fried-beef",
+      "kenji:e:washing-meat",
+      "kenji:e:wang-gang",
+      "kenji:e:adam-lio",
+      "kenji:e:the-wok",
+      "kenji:e:hard-water",
+      "kenji:e:fine-mesh-strainer",
+      "kenji:e:light-soy-sauce",
+      "kenji:e:salt",
+      "kenji:e:shaoxing-wine",
+      "kenji:e:dry-sherry",
+      "kenji:e:baking-soda",
+      "kenji:e:egg-white",
+      "kenji:e:cornstarch",
+      "kenji:e:oil",
+      "kenji:e:alkalinity-and-meat-texture",
+      "kenji:e:beef-and-broccoli",
+      "kenji:e:instagram"
+    ],
+    "categories": [
+      "meat",
+      "techniques",
+      "ingredients",
+      "eggs"
+    ],
+    "answers_questions": [
+      "Why does Kenji wash his beef before stir-frying?",
+      "How do you wash meat for a stir-fry marinade?",
+      "How do Chinese restaurants get their beef so tender?",
+      "What cut of beef is best for stir-fry?",
+      "Should I slice beef with or against the grain for stir-fry?",
+      "How much baking soda should I use per pound of meat?",
+      "Can I use egg white instead of baking soda to tenderize meat?",
+      "What does cornstarch do in a stir-fry marinade?",
+      "Why add oil to a marinade at the end?",
+      "How long can I marinate beef for stir-fry?",
+      "Why does baking soda make meat tender?",
+      "Does this marinade work for chicken and pork too?",
+      "Can I use dry sherry instead of Shaoxing wine?"
+    ],
+    "uses": [
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Kenji's older beef and broccoli video (without the washing step)",
+      "Follow-up video cooking beef with broccoli using this marinated beef",
+      "Wang Gang's YouTube channel (Sichuan chef)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:steak-skirt-or-flank",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Steak (skirt or flank)",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "flank steak",
+        "skirt steak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flatiron-steak",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "flatiron steak",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "flatiron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:steak-skirt-or-flank",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Steak (skirt or flank)",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "flank steak",
+        "skirt steak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cutting-against-the-grain",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "cutting against the grain",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "cut it against the grain",
+        "slice against the grain"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sichuan-dry-fried-beef",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Sichuan dry-fried beef",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "sichuan style dry fried beef"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:washing-meat",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "washing meat",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "wash meat",
+        "washing the meat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wang-gang",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Wang Gang",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wang gang"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:adam-lio",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Adam Lio",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "adam lio"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "my book"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hard-water",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "hard water",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fine-mesh-strainer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "fine mesh strainer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:light-soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "light soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salt",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shaoxing-wine",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Shaoxing wine",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "shaoxing wine",
+        "yaoju rice wine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dry-sherry",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "dry sherry",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:baking-soda",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "baking soda",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:egg-white",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "egg white",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "egg whites"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cornstarch",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cornstarch",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:alkalinity-and-meat-texture",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "alkalinity and meat texture",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "alkali",
+        "alkaline",
+        "the ph"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beef-and-broccoli",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "beef and broccoli",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "beef with broccoli"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:instagram",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Instagram",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "instagram"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "f3ea48f61d5bc622"
+}

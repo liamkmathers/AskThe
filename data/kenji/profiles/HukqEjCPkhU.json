@@ -1,0 +1,835 @@
+{
+  "platform_id": "HukqEjCPkhU",
+  "profile": {
+    "video_id": "kenji:HukqEjCPkhU",
+    "purpose": "A point-of-view, real-time walkthrough of Kenji's no-knead, no-stretch cast-iron pan pizza, made at home without a scale. It runs from mixing the dough the night before through sauce, topping, baking and tasting, with science explanations along the way.",
+    "video_type": "how_to",
+    "thesis": "No-knead pan pizza is very forgiving: a rough flour-water-salt-yeast ratio, an overnight rest and a well-oiled cast-iron pan give a crisp, fried-bottom, focaccia-like pizza with a crispy cheese crust, even when measurements are eyeballed.",
+    "key_takeaways": [
+      "The dough runs at about 60-65% hydration, 2.5-3% salt and about 0.5% instant yeast by flour weight, all eyeballed here.",
+      "In no-knead dough, enzymes in the flour break down proteins overnight so gluten forms without kneading; the yeast's bubbling does the rest.",
+      "A couple of stretch-and-fold turns redistribute the yeast to new food.",
+      "The dough balls rest in generously oiled cast-iron pans until they relax and spread almost on their own.",
+      "Pop surface bubbles and lift the dough so no air is trapped underneath, so the bottom can crisp and fry.",
+      "Bake at 550°F on the lowest rack for about 10-12 minutes; if the bottom isn't crisp, finish the pan on the stovetop.",
+      "Run sauce and cheese to the edges for a Detroit-style crispy cheese crust that looks black but doesn't taste burnt.",
+      "Use aged, full-fat, low-moisture mozzarella rather than fresh. Pre-shredded cheese is lower in fat and contains cellulose that affects melting; string cheese worked as a substitute.",
+      "Hardy herbs such as oregano, thyme and marjoram work well dried; delicate ones like basil, parsley and chives don't.",
+      "The Serious Eats version of the recipe uses about 68% hydration and less olive oil than the version made here."
+    ],
+    "outline": [
+      {
+        "title": "Mixing the dough",
+        "summary": "Kenji eyeballs flour, water, salt, instant yeast and olive oil, explains hydration ratios and how enzymes make kneading unnecessary, then covers the dough to rise overnight.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Preparing sauce and pans",
+        "summary": "The next day he explains the stretch-and-fold turns, divides and balls the dough, and places the balls in olive-oiled cast-iron pans. He also starts heating oil for the sauce.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Making the sauce",
+        "summary": "After an aside about a Japanese candy kit, he prepares basil, garlic, chili flakes and oregano, explains why hardy herbs dry well, and crushes canned tomatoes with a pastry cutter.",
+        "first_segment": 6,
+        "last_segment": 9
+      },
+      {
+        "title": "Sauce finishing",
+        "summary": "He adds the basil stems and seasons the simmering sauce, discussing restaurant-level salting, while the dough relaxes for a couple of hours.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Topping the pizzas",
+        "summary": "He compares this version to the Serious Eats recipe and stretches the dough to the pan edges, removing trapped air. He then sauces the pizzas to the edges and discusses which cheese to use.",
+        "first_segment": 12,
+        "last_segment": 16
+      },
+      {
+        "title": "Final prep and baking",
+        "summary": "He tops one pizza with string cheese and the other with pre-shredded mozzarella, adding Parmesan, basil, chorizo and salt, then bakes both at 550°F.",
+        "first_segment": 16,
+        "last_segment": 18
+      },
+      {
+        "title": "Baking and tasting",
+        "summary": "He checks the bottoms and finishes the pans on the stovetop, then adds fresh basil and Parmesan. Finally he slices and examines the crumb and crispy cheese edges, drizzles hot honey and tastes.",
+        "first_segment": 18,
+        "last_segment": 21
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "everyone that's Kenji Lopez alt again",
+        "last_segment": 0,
+        "ends_with": "so I'm gonna kind of eyeball all this",
+        "note": "Late-night intro at home; no scale, so everything is eyeballed."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "you'll notice I did not change",
+        "last_segment": 3,
+        "ends_with": "because it's kind of gross huh",
+        "note": "Joke about not changing his shirt overnight."
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "that little thing here",
+        "last_segment": 6,
+        "ends_with": "that really cool actually works",
+        "note": "Aside about a Japanese DIY candy kit for kids that uses spherification."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "ooh sorry I had to cut",
+        "last_segment": 7,
+        "ends_with": "because my daughter talked there",
+        "note": "Cut away because his daughter needed him."
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "asking what are all these onions",
+        "last_segment": 10,
+        "ends_with": "but not the tartness",
+        "note": "Why there are so many onions; homegrown lemon verbena, his daughter's tea, and Colombian herbal teas."
+      },
+      {
+        "role": "aside",
+        "first_segment": 16,
+        "starts_with": "I've been on this kind of cheese",
+        "last_segment": 17,
+        "ends_with": "you mind all this cheese and carbs",
+        "note": "Joke about the cheese-and-carb streak in his recent videos."
+      },
+      {
+        "role": "aside",
+        "first_segment": 19,
+        "starts_with": "people were asking me about my setup",
+        "last_segment": 20,
+        "ends_with": "right direction",
+        "note": "Filming setup: a GoPro and the GoPro app."
+      },
+      {
+        "role": "outro",
+        "first_segment": 21,
+        "starts_with": "I know what the dog is",
+        "last_segment": 21,
+        "ends_with": "and now it's dinner time",
+        "note": "Gives the dog a piece and signs off for dinner."
+      }
+    ],
+    "topics": [
+      "no-knead pizza dough",
+      "pan pizza",
+      "dough hydration",
+      "gluten development and enzymes",
+      "stretch and fold",
+      "balling dough",
+      "cast iron pan pizza",
+      "pizza sauce",
+      "dried vs fresh herbs",
+      "canned tomatoes",
+      "cheese selection for pizza",
+      "crispy cheese crust",
+      "Detroit-style pizza",
+      "oven placement and temperature",
+      "stovetop finishing",
+      "seasoning with salt"
+    ],
+    "entity_ids": [
+      "kenji:e:the-food-lab",
+      "kenji:e:serious-eats",
+      "kenji:e:foolproof-no-knead-pan-pizza",
+      "kenji:e:vintage-wagner-cast-iron-pan",
+      "kenji:e:no-knead-dough",
+      "kenji:e:hydration",
+      "kenji:e:gluten",
+      "kenji:e:instant-yeast",
+      "kenji:e:olive-oil",
+      "kenji:e:stretch-and-fold",
+      "kenji:e:stella",
+      "kenji:e:pop-and-cook",
+      "kenji:e:sodium-alginate",
+      "kenji:e:spherification",
+      "kenji:e:basil",
+      "kenji:e:garlic",
+      "kenji:e:oregano",
+      "kenji:e:red-pepper-flakes",
+      "kenji:e:dried-vs-fresh-herbs",
+      "kenji:e:san-marzano-tomatoes",
+      "kenji:e:gento",
+      "kenji:e:muir-glen",
+      "kenji:e:pastry-cutter",
+      "kenji:e:hand-blender",
+      "kenji:e:potato-masher",
+      "kenji:e:lemon-verbena",
+      "kenji:e:low-moisture-mozzarella",
+      "kenji:e:pre-shredded-cheese",
+      "kenji:e:cellulose",
+      "kenji:e:string-cheese",
+      "kenji:e:parmesan",
+      "kenji:e:chorizo",
+      "kenji:e:mike-s-hot-honey",
+      "kenji:e:detroit-style-pizza",
+      "kenji:e:neapolitan-pizza",
+      "kenji:e:new-york-style-pizza",
+      "kenji:e:focaccia",
+      "kenji:e:pizza-hut",
+      "kenji:e:gopro",
+      "kenji:e:pizza-cutter"
+    ],
+    "categories": [
+      "baking",
+      "techniques",
+      "pans",
+      "ingredients",
+      "sauces",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "How do you make Kenji's no-knead pan pizza?",
+      "What hydration, salt and yeast ratios does Kenji use for no-knead pizza dough?",
+      "Why doesn't no-knead dough need kneading?",
+      "Can I make the pan pizza dough without a kitchen scale?",
+      "How do I get a crispy fried bottom on pan pizza in cast iron?",
+      "What do I do if the top of the pizza is done but the bottom isn't crisp?",
+      "What cheese should I use for pan pizza, and is pre-shredded mozzarella okay?",
+      "Can I use string cheese on pizza?",
+      "How do you get the crispy cheese crust like Detroit-style pizza?",
+      "What oven temperature and rack position does Kenji use for pan pizza?",
+      "Which herbs are fine to use dried and which aren't?",
+      "What canned tomatoes does Kenji buy for pizza sauce?",
+      "How do you ball pizza dough?",
+      "Why does Kenji put some basil on before baking and some after?"
+    ],
+    "uses": [
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:HukqEjCPkhU:s0001",
+        "note": "Having said the water was about 170 ml, he realises it was about 190 ml and holds some back."
+      },
+      {
+        "segment_id": "kenji:HukqEjCPkhU:s0007",
+        "note": "He added garlic to oil that was too hot and says not to do that, since it's a good way to ruin your pan. He restarts the oil and garlic."
+      },
+      {
+        "segment_id": "kenji:HukqEjCPkhU:s0012",
+        "note": "After checking online, he notes that the Serious Eats recipe uses about 68% hydration, versus the 60-65% he used in this video."
+      },
+      {
+        "segment_id": "kenji:HukqEjCPkhU:s0013",
+        "note": "He notes that the Serious Eats recipe also uses less olive oil than he uses here."
+      }
+    ],
+    "related_videos": [
+      "The Pizza Lab: World's Easiest No-Knead, No-Stretch Pan Pizza (Serious Eats recipe linked in description)",
+      "Kenji's Detroit-style pizza recipe on Serious Eats",
+      "Kenji's focaccia recipe"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sirius Eats",
+        "serious eats",
+        "serious seats",
+        "unser your seats"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:foolproof-no-knead-pan-pizza",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Foolproof No-Knead Pan Pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "foolproof no need pan pizza"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-wagner-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vintage Wagner cast iron pan",
+      "brand": "Wagner",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron pan",
+        "cast iron pans",
+        "cast-iron pan",
+        "cast-iron pans",
+        "vintage Wagner pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:no-knead-dough",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "no-knead dough",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "no need dough",
+        "no need recipes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hydration",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "hydration",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gluten",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "gluten",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:instant-yeast",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "instant yeast",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "incident yeast"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:olive-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stretch-and-fold",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "stretch and fold",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "give it a couple of turns"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stella",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Stella",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "brave Turton"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pop-and-cook",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pop and cook",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "pop it in cooking"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sodium-alginate",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sodium alginate",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spherification",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "spherification",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "spera fication",
+        "verification"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:basil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "basil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:garlic",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "garlic",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oregano",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "oregano",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Oregon oh",
+        "oriented",
+        "word gone oh"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:red-pepper-flakes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "red pepper flakes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "hot pepper flakes",
+        "pepper flakes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dried-vs-fresh-herbs",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "dried vs fresh herbs",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "delicate herbs",
+        "hearty herbs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:san-marzano-tomatoes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "San Marzano tomatoes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "San marzanos"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gento",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Gento",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Gento DOP"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:muir-glen",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Muir Glen",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pastry-cutter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pastry cutter",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hand-blender",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "hand blender",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:potato-masher",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "potato masher",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lemon-verbena",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "lemon verbena",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "sea their own"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:low-moisture-mozzarella",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "low-moisture mozzarella",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "full fat aged mozzarella",
+        "low-moisture part-skim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pre-shredded-cheese",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "pre-shredded cheese",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "pre shredded stuff",
+        "pre sure to stuff",
+        "pre-shredded stuff"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cellulose",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cellulose",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:string-cheese",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "string cheese",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:parmesan",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Parmesan",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "parmesan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chorizo",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chorizo",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "serese no"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mike-s-hot-honey",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Mike's Hot Honey",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Mike's hot honey"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:detroit-style-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Detroit-style pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "Detroit style pizza",
+        "Detroit's out Pete"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:neapolitan-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Neapolitan pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "Neapolitan",
+        "Neapolitan style pizza",
+        "in the apology style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:new-york-style-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "New York-style pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "New York",
+        "New York style pizza",
+        "new york-style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:focaccia",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "focaccia",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pizza-hut",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Pizza Hut",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gopro",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "GoPro",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pizza-cutter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pizza cutter",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "1057b1b4cad67a66"
+}

@@ -1,0 +1,562 @@
+{
+  "platform_id": "-DXUueG_Dtc",
+  "profile": {
+    "video_id": "kenji:-DXUueG_Dtc",
+    "purpose": "Announce the pre-order launch of KAN's full knife line directly to Kenji's viewers, with the cut that would have gone to Kickstarter donated to Feeding America and signed copies of Kenji's books bundled with knife sets.",
+    "video_type": "other",
+    "thesis": "Kenji and KAN founder Barney Lund present the new KAN knife lineup, including an upgraded chef's knife, as an unpaid fundraiser for Feeding America that also offers signed copies of Kenji's books.",
+    "key_takeaways": [
+      "The video is explicitly not a paid sponsorship; instead of Kickstarter's cut, 5% goes to Feeding America.",
+      "The upgraded 8-inch Concourse chef knife switches its core steel from AUS10 to VG10, rounds the spine, stays balanced at the bolster and shows more visible Damascus layering.",
+      "The new lineup includes a 6-inch santoku, slicer, bread knife, steak knife set of four, utility knife, paring knife and an upcoming boning knife, with G10 or ebony handles and hammered or non-hammered options.",
+      "Knife bundles include a signed copy of The Food Lab or Every Night Is Pizza Night; signed books are only available with bundles.",
+      "The knives are hand-wash only, even with G10 handles, and pre-orders are targeted to ship before Christmas.",
+      "Order at kankitchen.com with promo code 'kenji' for an extra discount; a separate knife sharpening video is promised."
+    ],
+    "outline": [
+      {
+        "title": "Intro and the Feeding America fundraiser",
+        "summary": "Kenji introduces Barney Lund of KAN, says the video is not sponsored, and explains that the money normally taken by Kickstarter will go to Feeding America. Barney explains how pre-ordering works.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Concourse chef knife upgrades",
+        "summary": "Barney describes the upgraded 8-inch chef knife: a VG10 core instead of AUS10, a rounded spine, balance at the bolster, and lessons learned from the first Kickstarter.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Damascus pattern and six-inch santoku",
+        "summary": "They cover the more visible Damascus layering applied across the line, show the slicer, bread knife and six-inch santoku prototypes, and go through the handle and finish options.",
+        "first_segment": 3,
+        "last_segment": 3
+      },
+      {
+        "title": "Signed copies of Kenji's books",
+        "summary": "Signed copies of The Food Lab or Every Night Is Pizza Night will ship with knife bundles. Kenji describes the children's book's message about family, multiculturalism and expanding your palate.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Rest of the lineup, care and ordering",
+        "summary": "Barney runs through the steak knife set, utility knife, paring knife and upcoming boning knife. He stresses hand washing, gives the pre-order timing and box options, and points viewers to kankitchen.com and the promo code.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Wrap-up and knife sharpening",
+        "summary": "Kenji repeats that this is not paid, promises a separate video on sharpening knives, and signs off.",
+        "first_segment": 7,
+        "last_segment": 7
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "red lights on yep yes all right",
+        "last_segment": 1,
+        "ends_with": "while also raising money for a good cause",
+        "note": "Kenji introduces Barney and explains the unpaid fundraiser setup."
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "i've",
+        "last_segment": 5,
+        "ends_with": "thai curry indian curry so",
+        "note": "Barney talks about his six kids and his toddler who loves curry."
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "but this actually just feels like an",
+        "last_segment": 5,
+        "ends_with": "no no i oh this is not paint",
+        "note": "Joke comparing the video to an old Ginsu knife commercial."
+      },
+      {
+        "role": "outro",
+        "first_segment": 7,
+        "starts_with": "all right so again um con knives",
+        "last_segment": 7,
+        "ends_with": "guys gals non-binary powells see ya",
+        "note": "Repeats that it is not sponsored, teases a sharpening video, and signs off."
+      }
+    ],
+    "topics": [
+      "KAN knife lineup launch",
+      "charity fundraiser for Feeding America",
+      "VG10 vs AUS10 steel",
+      "Damascus layering",
+      "knife handle materials",
+      "hand washing knives",
+      "signed cookbooks",
+      "Every Night Is Pizza Night",
+      "knife sharpening"
+    ],
+    "entity_ids": [
+      "kenji:e:kan",
+      "kenji:e:barney-lund",
+      "kenji:e:kan-concourse-chef-knife",
+      "kenji:e:kan-six-inch-santoku",
+      "kenji:e:kan-slicer",
+      "kenji:e:kan-bread-knife",
+      "kenji:e:kan-steak-knife-set",
+      "kenji:e:kan-utility-knife",
+      "kenji:e:kan-paring-knife",
+      "kenji:e:kan-boning-knife",
+      "kenji:e:vg10",
+      "kenji:e:aus10",
+      "kenji:e:damascus-steel",
+      "kenji:e:g10",
+      "kenji:e:ebony-wood",
+      "kenji:e:bolster",
+      "kenji:e:spine",
+      "kenji:e:hammered-finish",
+      "kenji:e:feeding-america",
+      "kenji:e:kickstarter",
+      "kenji:e:the-food-lab",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:ginsu",
+      "kenji:e:kankitchen-com",
+      "kenji:e:hand-washing-knives",
+      "kenji:e:knife-sharpening"
+    ],
+    "categories": [
+      "knives"
+    ],
+    "answers_questions": [
+      "Is Kenji paid or sponsored by KAN knives?",
+      "What changed between the original KAN chef knife and the new one?",
+      "What steel does the new KAN chef knife use, VG10 or AUS10?",
+      "What knives are in the full KAN knife set?",
+      "Can I put KAN knives in the dishwasher?",
+      "How can I get a signed copy of The Food Lab?",
+      "Where does the money from the KAN knife sale go?",
+      "What promo code did Kenji give for KAN knives?",
+      "When will the KAN knife pre-orders ship?",
+      "What handle options do KAN knives come with?",
+      "What is Kenji's kids book Every Night Is Pizza Night about?",
+      "Who makes the knife Kenji uses in his videos?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Kenji's upcoming video on how to sharpen knives",
+      "The earlier fundraiser equipment sale for Feeding America"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:kan",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "KAN",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "con",
+        "connives",
+        "kan",
+        "khan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:barney-lund",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Barney Lund",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "barney",
+        "barney lund"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-concourse-chef-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN Concourse Chef Knife",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "chef knife",
+        "concord chef knife",
+        "concourse chef knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-six-inch-santoku",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN Six Inch Santoku",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "six inch santoku"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-slicer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN slicer",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "slicer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-bread-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN bread knife",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "bread knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-steak-knife-set",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN steak knife set",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "steak knife set of four"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-utility-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN utility knife",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "utility knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-paring-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN paring knife",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "paring knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan-boning-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN boning knife",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "bony knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vg10",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "VG10",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "bg",
+        "vg10"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aus10",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "AUS10",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "aust10",
+        "austin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:damascus-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Damascus steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "damascus"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:g10",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "G10",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "g10",
+        "g10 composite handle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ebony-wood",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Ebony wood",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "ebony",
+        "ebony wood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bolster",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "Bolster",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "bolster"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spine",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "Spine",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "spine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hammered-finish",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Hammered finish",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "hammered"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:feeding-america",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Feeding America",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "feeding america"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kickstarter",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Kickstarter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "kickstarter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ginsu",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Ginsu",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "ginsu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kankitchen-com",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "kankitchen.com",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "kan kitchen.com",
+        "khankitchen.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hand-washing-knives",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Hand washing knives",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "hand wash"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:knife-sharpening",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Knife sharpening",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "sharpen knives",
+        "sharpen your own"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "6e717ca8e3506ef8"
+}

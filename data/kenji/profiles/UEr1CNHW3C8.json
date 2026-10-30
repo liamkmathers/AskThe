@@ -1,0 +1,504 @@
+{
+  "platform_id": "UEr1CNHW3C8",
+  "profile": {
+    "video_id": "kenji:UEr1CNHW3C8",
+    "purpose": "A quick review of cascatelli, a new dried pasta shape developed by Kenji's friend Dan Pashman of The Sporkful. It covers the shape's design, how it cooks and eats, the story of its development, and Kenji's general rule of thumb for pairing pasta shapes with sauces.",
+    "video_type": "review",
+    "thesis": "Cascatelli is a genuinely original new pasta shape. Its sauce trough and ruffles hold sauce and give varied texture, it suits hearty, chunky sauces, and it is worth seeking out despite being sold out.",
+    "key_takeaways": [
+      "Cascatelli ('little waterfalls') was developed over three years by Dan Pashman, host of The Sporkful podcast.",
+      "It is an extruded dry pasta pushed through bronze dies and made by the American artisan company Sfoglini.",
+      "Kenji describes it as a cross between radiatori and creste di gallo; Dan calls it a half bucatini with some mafalde.",
+      "Its sauce trough holds sauce so well that it eats almost like a self-stuffing pasta, and its thick and thin parts give it textural contrast.",
+      "Kenji suggests hearty sauces such as marinara, bolognese or pesto.",
+      "Big pasta makers wouldn't risk an unknown shape and small makers couldn't produce enough, until Sfoglini agreed to make it.",
+      "Kenji's pairing rule: a sauce you'd mop up suits spaghetti or bucatini, one you'd wipe with a rag suits wide ribbons like pappardelle or tagliatelle, and one you'd sponge up suits chunky shapes like cascatelli."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to cascatelli",
+        "summary": "Kenji introduces cascatelli as a brand-new pasta shape created by his friend Dan Pashman of The Sporkful. He discloses the friendship and explains how he tried a near-final version months earlier.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Design and structure",
+        "summary": "Kenji explains the name, that it is an extruded bronze-die dry pasta made by Sfoglini, and how it compares to radiatori, creste di gallo, bucatini and mafalde.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Cooking and texture",
+        "summary": "Kenji shows cooked cascatelli and explains its sauceability, textural contrast and ease of picking up. He suggests hearty sauces and likens it to a self-stuffing ravioli.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Development story",
+        "summary": "Kenji praises Dan for creating something original. He mentions the media coverage and the Sporkful mini-series, and explains why finding a manufacturer was hard until Sfoglini agreed.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Pairing and conclusion",
+        "summary": "Kenji gives his mop, rag or sponge rule of thumb for matching pasta shapes to sauces. He then wraps up with where to order cascatelli and a plug for The Sporkful.",
+        "first_segment": 5,
+        "last_segment": 6
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "hey everyone it's kenji um",
+        "last_segment": 0,
+        "ends_with": "this stuff which is called cascatelli",
+        "note": "Kenji's greeting and introduction of the video's topic."
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "my my daughter wanted to call them",
+        "last_segment": 1,
+        "ends_with": "they kind of look like brontosaurus next",
+        "note": "Personal anecdote: his daughter wanted to call them brontosaurus necks."
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "so this is what it looks",
+        "last_segment": 2,
+        "ends_with": "and reheated two hours later",
+        "note": "Personal note that the pasta shown sat around while he put his daughter to bed."
+      },
+      {
+        "role": "outro",
+        "first_segment": 6,
+        "starts_with": "but anyhow there we go cascatelli",
+        "last_segment": 6,
+        "ends_with": "thank you for joining me bye-bye",
+        "note": "Wrap-up: where to order cascatelli, a plug for The Sporkful podcast, and sign-off."
+      }
+    ],
+    "topics": [
+      "new pasta shape",
+      "cascatelli",
+      "pasta design",
+      "sauce retention",
+      "pasta texture",
+      "extruded dry pasta",
+      "bronze-die pasta",
+      "pairing pasta shapes with sauces",
+      "pasta manufacturing",
+      "Dan Pashman and The Sporkful"
+    ],
+    "entity_ids": [
+      "kenji:e:cascatelli",
+      "kenji:e:dan-pashman",
+      "kenji:e:the-sporkful",
+      "kenji:e:sfoglini",
+      "kenji:e:mission-impastable",
+      "kenji:e:planet-money",
+      "kenji:e:james-beard-award",
+      "kenji:e:radiatori",
+      "kenji:e:creste-di-gallo",
+      "kenji:e:bucatini",
+      "kenji:e:mafalde",
+      "kenji:e:spaghetti",
+      "kenji:e:pappardelle",
+      "kenji:e:tagliatelle",
+      "kenji:e:ravioli",
+      "kenji:e:elbow-macaroni",
+      "kenji:e:marinara",
+      "kenji:e:bolognese",
+      "kenji:e:pesto",
+      "kenji:e:bronze-dies",
+      "kenji:e:extruded-dry-pasta",
+      "kenji:e:sauceability",
+      "kenji:e:textural-contrast",
+      "kenji:e:mop-rag-sponge-pasta-pairing-rule"
+    ],
+    "categories": [
+      "noodles",
+      "sauces"
+    ],
+    "answers_questions": [
+      "What is cascatelli pasta?",
+      "Is cascatelli worth buying?",
+      "Who invented cascatelli and why?",
+      "Who makes cascatelli?",
+      "What does the name cascatelli mean?",
+      "What sauce should I serve with cascatelli?",
+      "Why does cascatelli hold sauce so well?",
+      "What other pasta shapes is cascatelli similar to?",
+      "How do you match pasta shapes with sauces?",
+      "When should I use spaghetti versus pappardelle versus a chunky shape?",
+      "Why is it so hard to create and produce a new pasta shape?",
+      "Where can I order cascatelli and what box sizes does it come in?",
+      "Is cascatelli fresh or dried pasta?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history",
+      "style"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:cascatelli",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cascatelli",
+      "brand": "Sfoglini",
+      "model": null,
+      "category": "noodles",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dan-pashman",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Dan Pashman",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dan",
+        "dan paschman"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-sporkful",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "The Sporkful",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "the spork full",
+        "the sportful"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sfoglini",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Sfoglini",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "felini",
+        "fellini"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mission-impastable",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Mission ImPASTAble",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "mission impossible"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:planet-money",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Planet Money",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "planet money"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:james-beard-award",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "James Beard Award",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "james beard award"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:radiatori",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "radiatori",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "radiator",
+        "radiatory"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:creste-di-gallo",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "creste di gallo",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "cresto de gajo",
+        "cresto de gallo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bucatini",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bucatini",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mafalde",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "mafalde",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "miffalde"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spaghetti",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "spaghetti",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pappardelle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pappardelle",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "pepper deli"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tagliatelle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tagliatelle",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ravioli",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ravioli",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:elbow-macaroni",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "elbow macaroni",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "macaroni elbow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:marinara",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "marinara",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bolognese",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bolognese",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pesto",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pesto",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bronze-dies",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "bronze dies",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bronze dyes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:extruded-dry-pasta",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "extruded dry pasta",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "dry pasta",
+        "extruded pasta"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sauceability",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sauceability",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sausability"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:textural-contrast",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "textural contrast",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mop-rag-sponge-pasta-pairing-rule",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mop, rag, sponge pasta pairing rule",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "mop",
+        "rag",
+        "sponge"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "02446e3b0d8e8608"
+}
