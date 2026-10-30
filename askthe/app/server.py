@@ -87,7 +87,10 @@ def create_app(
 
     @app.get("/api/creators")
     def catalog() -> list[dict[str, Any]]:
-        return [creator_card(c, video_count(c)) for c in creators.values()]
+        # A creator joins the catalog once there's something to answer from; until
+        # then their page is reachable only by its address.
+        cards = [creator_card(c, video_count(c)) for c in creators.values()]
+        return [card for card in cards if card["videos"]]
 
     @app.get("/api/creators/{slug}")
     def creator_info(slug: str) -> dict[str, Any]:

@@ -182,7 +182,7 @@ def test_app_asks_streams_and_serves_the_saved_answer(tmp_path):
     assert app.get("/api/answers/nope").status_code == 404
 
 
-def test_catalog_lists_every_creator_and_unknown_ones_are_not_found(tmp_path):
+def test_catalog_lists_creators_with_videos_and_unknown_ones_are_not_found(tmp_path):
     other = f.creator(
         slug="other-one",
         display_name="Other One",
@@ -192,16 +192,10 @@ def test_catalog_lists_every_creator_and_unknown_ones_are_not_found(tmp_path):
     )
     app, _ = client(tmp_path, creators=[f.creator(), other])
     cards = app.get("/api/creators").json()
-    assert [c["slug"] for c in cards] == ["test-creator", "other-one"]
-    assert cards[0]["videos"] == 2 and cards[1]["videos"] == 0  # the test videos are not its
-    assert cards[1] == {
-        "slug": "other-one",
-        "name": "Ask Other One",
-        "display_name": "Other One",
-        "tagline": "Other things",
-        "avatar": "https://example.com/a.jpg",
-        "videos": 0,
-    }
+    assert [c["slug"] for c in cards] == ["test-creator"]  # other-one has no videos yet
+    assert cards[0]["videos"] == 2 and cards[0]["name"] == f.creator().instance_name
+    assert app.get("/other-one").status_code == 200  # still reachable by its address
+    assert app.get("/api/creators/other-one").json()["avatar"] == "https://example.com/a.jpg"
     assert app.get("/nobody").status_code == 404 and "app.js" in app.get("/nobody").text
     assert app.get("/api/creators/nobody").status_code == 404
     assert app.post("/api/creators/nobody/ask", json={"question": QUESTION}).status_code == 404

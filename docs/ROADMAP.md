@@ -9,7 +9,7 @@ Targets are proposed starting points. We'll adjust them once real numbers come i
 | 1. Private prototype | Can it answer fan questions accurately from transcripts? | 20 real fan questions, at least 18 correct, every answer quoting and linking its source videos, uncovered questions recognised as such | **Current** |
 | 2. Creator pitch | Does a creator want it? | Iron Snail (or another gear creator) agrees to a pilot | Not started |
 | 3. Public pilot | Do fans use it and does it make money? | Fans return to ask more; affiliate clicks and clicks back to videos are measurable | Not started |
-| 4. Second creator | Is the pipeline repeatable? | A new creator onboarded in days, not weeks | Not started |
+| 4. Second creator | Is the pipeline repeatable? | A new creator onboarded in days, not weeks | Started: J. Kenji López-Alt (cooking), config in `creators/kenji.yaml`; videos not yet fetched |
 | 5. Vertical | Is there a bigger product across creators? | Several creators in one niche live and opted in | Not started |
 
 ## Phase 1 milestones

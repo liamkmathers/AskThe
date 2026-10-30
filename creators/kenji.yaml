@@ -1,0 +1,58 @@
+# Ask Kenji
+#
+# Everything creator-specific lives here. The engine in askthe/ never assumes a
+# creator, niche or platform. See docs/ARCHITECTURE.md#creator-config.
+
+slug: kenji
+display_name: J. Kenji López-Alt
+instance_name: Ask Kenji
+platform: youtube
+channel_url: https://www.youtube.com/@JKenjiLopezAlt
+niche: home cooking and food science
+tagline: Home cooking, tested and explained
+links:
+  - label: YouTube
+    url: https://www.youtube.com/@JKenjiLopezAlt
+about: >-
+  Unscripted, real-time cooking: techniques tested against each other, the
+  science behind why they work, and the knives, pans and woks he actually uses.
+  He revisits methods over the years, so his views change, and every answer
+  here says when.
+
+# How answers name the creator. Answers are always third person.
+refer_to_creator_as: Kenji
+pronoun: he
+
+categories:
+  - knives
+  - pans
+  - woks
+  - kitchen tools
+  - appliances
+  - ingredients
+  - techniques
+  - meat
+  - eggs
+  - noodles
+  - rice
+  - vegetables
+  - sauces
+  - baking
+
+# About 50 videos for the first build, one YouTube ID per line. Chosen from the
+# channel list (data/kenji/channel.tsv) for verdicts: gear, comparisons, tests.
+video_selection: kenji.videos.txt
+
+# Starter questions come from real fan comments once they're fetched
+# (`askthe comments kenji`, then `askthe questions kenji`), as for The Iron Snail.
+starter_questions: []
+
+# Known names and how auto-captions mangle them. Grows as videos are processed.
+glossary:
+  # His own books (D14: his opinion, not sponsorship).
+  - name: The Food Lab
+    type: product
+    heard_as: [Food Lab, the food lab book]
+  - name: The Wok
+    type: product
+    heard_as: [my wok book, the wok book]
