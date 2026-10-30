@@ -1,0 +1,570 @@
+{
+  "platform_id": "GfJoeykjzqk",
+  "profile": {
+    "video_id": "kenji:GfJoeykjzqk",
+    "purpose": "Demonstrate how Kenji hones and sharpens dull kitchen knives at home, from a honing steel through a progression of whetstones, and survey other sharpening tools.",
+    "video_type": "how_to",
+    "thesis": "Kenji shows that a dull knife can first be honed with a steel. When honing isn't enough, it can be sharpened on progressively finer whetstones while holding a steady angle and feeling for the burr. Sending knives to a professional is also a fine option.",
+    "key_takeaways": [
+      "Dullness starts with the edge deforming. A honing steel realigns it using full-length strokes in decreasing sets (8, 4, 2, then singles). The video says honing removes no metal, which the description later corrects.",
+      "When honing isn't enough, move to whetstones: a coarse stone (about 400–800 grit) for removing material, then finer stones (1,000, 6,000 or higher).",
+      "Hold a consistent angle: about 15° for most Japanese knives and about 20° for some Western knives. Use a tense, locked grip and move the arm, not the wrist.",
+      "Use light pressure, mostly on the stroke where the edge trails, so the blade can't cut into the stone. Work section by section.",
+      "A burr forms on the side opposite the one being sharpened. Feeling for it tells you when to move to the next section, and you knock it off with lighter alternating strokes.",
+      "Soak stones until the bubbles stop, flatten them with a stone fixer, and rinse off built-up slurry when the knife starts slipping.",
+      "Single-bevel Japanese knives are harder to sharpen than double-bevel Western knives. Curved blades need the hand lifted toward the tip, while squarer knives like a santoku are easier.",
+      "Kenji dislikes electric grinders and pull-through sharpeners and likes fixed-angle tools, such as magnetic roller sharpeners."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to sharpening",
+        "summary": "Kenji tests two moderately dull knives on an onion and explains that the first thing that happens to an edge with use is that it deforms.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Using a honing steel",
+        "summary": "He explains how kinks in the edge cause dullness and demonstrates honing with full-length strokes in decreasing sets, then retests on an onion.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Starting with whetstones",
+        "summary": "He covers the choice between a professional sharpener and DIY, stone grits, sharpening angles, grip, stone setup, pressure direction, feeling for the burr, and adjusting toward the tip of a curved blade.",
+        "first_segment": 3,
+        "last_segment": 11
+      },
+      {
+        "title": "Refining the edge",
+        "summary": "Kenji flattens stones with a stone fixer, explains soaking, and sharpens the second side with a different grip. He also talks about sharpening many knives at once, then removes the burr and progresses through the 800 and 6,000 grit stones.",
+        "first_segment": 12,
+        "last_segment": 18
+      },
+      {
+        "title": "Advanced sharpening tips",
+        "summary": "He covers how the burr shrinks at finer grits, double-bevel versus single-bevel knives and why single-bevel knives are harder to sharpen, and rinsing slurry off the stone.",
+        "first_segment": 19,
+        "last_segment": 21
+      },
+      {
+        "title": "Sharpening tools overview",
+        "summary": "He explains why you'd use a whetstone, suggests professional sharpening as the easy route, and reviews electric, magnetic roller, clamp-style and pull-through sharpeners, plus his mom's old sharpener.",
+        "first_segment": 22,
+        "last_segment": 27
+      },
+      {
+        "title": "Testing and outro",
+        "summary": "Kenji tests the newly sharpened knives with thin onion slices, then promotes his website, Patreon, shop and live events.",
+        "first_segment": 27,
+        "last_segment": 28
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey, what's Kenji. Uh, we're",
+        "last_segment": 0,
+        "ends_with": "we're going to be sharpening knives now.",
+        "note": "Brief greeting and statement of the topic."
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "So you know, most people probably",
+        "last_segment": 15,
+        "ends_with": "sharpen some knives. It's pretty good.",
+        "note": "Kenji on owning many knives and finding batch sharpening relaxing."
+      },
+      {
+        "role": "aside",
+        "first_segment": 26,
+        "starts_with": "The worst knife sharpener I've ever",
+        "last_segment": 27,
+        "ends_with": "would be cool to own one actually.",
+        "note": "Anecdote about his mom's useless rattling knife sharpener."
+      },
+      {
+        "role": "aside",
+        "first_segment": 27,
+        "starts_with": "Wow. I cleaved I cleaved the",
+        "last_segment": 27,
+        "ends_with": "You almost split an atom, Jesus.",
+        "note": "Joke about the sharpness during the onion test."
+      },
+      {
+        "role": "outro",
+        "first_segment": 27,
+        "starts_with": "Uh oh, okay. Guys, gals, non-binary",
+        "last_segment": 28,
+        "ends_with": "All right, see you later.",
+        "note": "Sign-off promoting his website, Patreon, shop, books and live events."
+      }
+    ],
+    "topics": [
+      "knife sharpening",
+      "honing steel",
+      "whetstone grits",
+      "sharpening angle",
+      "burr",
+      "flattening whetstones",
+      "single-bevel vs double-bevel knives",
+      "knife sharpening tools",
+      "professional knife sharpening"
+    ],
+    "entity_ids": [
+      "kenji:e:honing-steel",
+      "kenji:e:whetstone",
+      "kenji:e:stone-fixer",
+      "kenji:e:grit",
+      "kenji:e:burr",
+      "kenji:e:sharpening-angle",
+      "kenji:e:double-bevel",
+      "kenji:e:single-bevel",
+      "kenji:e:santoku",
+      "kenji:e:yanagi-sashimi-knife",
+      "kenji:e:stainless-steel",
+      "kenji:e:japanese-knives",
+      "kenji:e:western-knives",
+      "kenji:e:electric-knife-sharpener",
+      "kenji:e:magnetic-roller-knife-sharpener",
+      "kenji:e:clamp-style-knife-sharpener",
+      "kenji:e:pull-through-knife-sharpener",
+      "kenji:e:professional-knife-sharpening",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:patreon",
+      "kenji:e:tsubame-sanjo",
+      "kenji:e:kenji-eats-japan"
+    ],
+    "categories": [
+      "knives",
+      "kitchen tools",
+      "techniques"
+    ],
+    "answers_questions": [
+      "How do I use a honing steel properly?",
+      "What's the difference between honing and sharpening a knife?",
+      "What grit whetstones should I buy to sharpen my knives?",
+      "What angle should I sharpen a Japanese knife versus a Western knife?",
+      "How do I hold the knife steady on a whetstone?",
+      "What is a burr and how do I know when to move on?",
+      "Do I need to soak my whetstones, and for how long?",
+      "How do I flatten a whetstone?",
+      "Are single-bevel Japanese knives harder to sharpen than double-bevel knives?",
+      "Are electric or pull-through knife sharpeners bad for my knives?",
+      "Which knife sharpening gadgets does Kenji think actually work?",
+      "Should I just send my knives out to be sharpened professionally?",
+      "How much pressure should I use when sharpening on a stone?"
+    ],
+    "uses": [
+      "care_maintenance",
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:GfJoeykjzqk:s0001",
+        "note": "Kenji says a honing steel doesn't remove any material from the blade. The video description's update says commenters pointed to research showing honing does remove metal, and that he issued a written correction on his Patreon."
+      }
+    ],
+    "related_videos": [
+      "Kenji Eats Japan series playlist"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:honing-steel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "honing steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "honing rod",
+        "rod",
+        "steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:whetstone",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "whetstone",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "stone",
+        "wet stone",
+        "wet stones",
+        "whetstones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stone-fixer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "stone fixer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:grit",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "grit",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "1,000",
+        "400 to 800",
+        "6,000",
+        "800",
+        "grits"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:burr",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "burr",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sharpening-angle",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sharpening angle",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "15°",
+        "20°",
+        "angle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:double-bevel",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "double bevel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "double level",
+        "double-bevel",
+        "dual-bevel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:single-bevel",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "single bevel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "single-bevel",
+        "single-beveled"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:santoku",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "santoku",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "santok",
+        "santoko",
+        "sanu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yanagi-sashimi-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "yanagi (sashimi knife)",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "sashimi knife",
+        "yanagi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stainless-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "stainless steel",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:japanese-knives",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Japanese knives",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Japanese-style knives"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:western-knives",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Western knives",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Western-style knives"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:electric-knife-sharpener",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "electric knife sharpener",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "buzzy electric ones"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:magnetic-roller-knife-sharpener",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "magnetic roller knife sharpener",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "a block a magnet that you stick your knife to",
+        "roller"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:clamp-style-knife-sharpener",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "clamp-style knife sharpener",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "attaches your knife to like a clamp"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pull-through-knife-sharpener",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pull-through knife sharpener",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "pull through ones"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:professional-knife-sharpening",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "professional knife sharpening",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "professional sharpener",
+        "send their knives out"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab",
+        "the food labs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "my book The Walk",
+        "my book The Wok",
+        "my walk book",
+        "my walkbook",
+        "the book The Walk",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cookbook club",
+        "frengees",
+        "patreon",
+        "super friendies",
+        "super fringy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tsubame-sanjo",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Tsubame-Sanjō",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sanjo",
+        "Sanjo City",
+        "Tsubame",
+        "Tsubame-Sanjo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-eats-japan",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Kenji Eats Japan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "d977c2b1a9bc61f6"
+}

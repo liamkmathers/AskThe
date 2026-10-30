@@ -80,6 +80,9 @@ class RetrievalSettings:
     # Answer only from profiled videos: without a profile, sponsor reads and asides
     # aren't marked (rules 6 and 8), so an unprofiled video waits for `understand`.
     require_profiles: bool = False
+    # Off only to measure what profiles add (`askthe eval --no-profiles`): answers then
+    # see no sections, profile documents, extracted entities or sponsor markings.
+    use_profiles: bool = True
 
     @classmethod
     def from_config(cls, values: dict[str, Any]) -> RetrievalSettings:
@@ -129,10 +132,16 @@ def ask(
         for v in store.list_videos(creator.slug)
         if profiles[v.id] or not settings.require_profiles
     }
+    if not settings.use_profiles:
+        profiles = dict.fromkeys(profiles)
     segments = {vid: store.get_segments(vid) for vid in videos}
     usage: dict[str, int] = {}
     usage_by_model: dict[str, dict[str, int]] = {}
-    trace: dict[str, Any] = {"mode": settings.mode, "warnings": []}
+    trace: dict[str, Any] = {
+        "mode": settings.mode,
+        "profiles": settings.use_profiles,
+        "warnings": [],
+    }
 
     def add_usage(u: dict[str, int], model: str) -> None:
         per_model = usage_by_model.setdefault(model, {})
@@ -332,7 +341,8 @@ def _hybrid_context(
     )
     add_usage(planned.usage, planned.model)
     plan = planned.value
-    names = name_variants(plan.names, creator, store.list_entities(creator.slug))
+    entities = store.list_entities(creator.slug) if settings.use_profiles else []
+    names = name_variants(plan.names, creator, entities)
     queries = list(dict.fromkeys([question, *plan.queries, *names]))
     trace.update(queries=queries, broad=plan.broad)
 
@@ -355,14 +365,15 @@ def _hybrid_context(
                 )
             ]
         )
-        video_rankings.append(
-            [
-                h.video_id
-                for h in search.search(
-                    SearchQuery(text=q, creator_id=creator.slug, kinds=video_kinds, limit=20)
-                )
-            ]
-        )
+        if settings.use_profiles:
+            video_rankings.append(
+                [
+                    h.video_id
+                    for h in search.search(
+                        SearchQuery(text=q, creator_id=creator.slug, kinds=video_kinds, limit=20)
+                    )
+                ]
+            )
     try:
         query_vectors = embedder.embed(queries)
     except EmbeddingError as e:
@@ -372,9 +383,10 @@ def _hybrid_context(
         rankings.append(
             [h.doc_id for h in vectors.search(v, creator.slug, segment_kinds, settings.per_query)]
         )
-        video_rankings.append(
-            [h.video_id for h in vectors.search(v, creator.slug, video_kinds, 20)]
-        )
+        if settings.use_profiles:
+            video_rankings.append(
+                [h.video_id for h in vectors.search(v, creator.slug, video_kinds, 20)]
+            )
 
     fused = reciprocal_rank_fusion(rankings)
     # A video whose profile matches the question lends weight to its passages.

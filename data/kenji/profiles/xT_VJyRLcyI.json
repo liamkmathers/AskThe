@@ -1,0 +1,538 @@
+{
+  "platform_id": "xT_VJyRLcyI",
+  "profile": {
+    "video_id": "kenji:xT_VJyRLcyI",
+    "purpose": "Step-by-step demonstration of cooking arroz con pollo (chicken and rice) in a rice cooker, with side explanations on onion cutting, jarred olives, whole versus ground spices and saffron.",
+    "video_type": "how_to",
+    "thesis": "Arroz con pollo can be made almost hands-off in a rice cooker by sweating aromatics, coating the rice in oil and spices, adding broth at the right ratio, and cooking the vegetables and chicken on top.",
+    "key_takeaways": [
+      "Aromatics (onion, garlic) are sweated in olive oil on the rice cooker's quick cook setting. If your cooker won't heat with the lid open, do this step in a skillet.",
+      "Uses a cup of long-grain rice to about 1⅓ cups of chicken broth, with the rice coated in oil and spices before cooking.",
+      "Vegetables (carrots, green beans, peas) and boneless skinless chicken thighs sit on top of the rice. Frozen pre-cut vegetables work just as well.",
+      "Saffron, cumin and paprika season the dish. Saffron is optional.",
+      "Cooks about 35 minutes on white rice mode. The chicken is then shredded with two forks and folded back in with sliced olives and cilantro.",
+      "Asides explain why the horizontal onion cut makes more even pieces and that most pimientos in stuffed olives are gelled pepper juice.",
+      "Also explains why whole spices keep their aroma longer than pre-ground ones.",
+      "The dish is flexible: other vegetables, corn, capers or raisins can go in. What matters is the rice-to-liquid ratio and oiling the rice."
+    ],
+    "outline": [
+      {
+        "title": "Introduction and preparation",
+        "summary": "Introduces arroz con pollo and the rice cooker approach, starts olive oil heating, and dices onion (with a defense of the horizontal cut) and garlic.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Preparing vegetable ingredients",
+        "summary": "Prepares carrots, green beans, peas and pimiento-stuffed olives, noting frozen vegetables are fine and explaining jellied pimientos. Then measures cumin and paprika and mentions the Our Place rice cooker collaboration.",
+        "first_segment": 4,
+        "last_segment": 8
+      },
+      {
+        "title": "Combining ingredients",
+        "summary": "Seasons the sweated aromatics with salt, MSG and spices, discusses whole versus pre-ground spices, then adds long-grain rice, chicken broth, vegetables and chicken thighs.",
+        "first_segment": 9,
+        "last_segment": 12
+      },
+      {
+        "title": "Adding saffron and cooking",
+        "summary": "Realizes the saffron was forgotten, removes the chicken, adds crushed saffron while explaining its cost and role, then starts the white rice cycle.",
+        "first_segment": 13,
+        "last_segment": 14
+      },
+      {
+        "title": "Shredding and final assembly",
+        "summary": "After 35 minutes, shreds the chicken with two forks, removes the rice, and folds in olives and cilantro. Suggests variations, then adjusts seasoning with salt, MSG and olive oil.",
+        "first_segment": 15,
+        "last_segment": 18
+      },
+      {
+        "title": "Outro and resources",
+        "summary": "Sign-off, then a pitch for kenjilopezalt.com, Patreon, books, products and live events.",
+        "first_segment": 19,
+        "last_segment": 19
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Here with Kenji, I'm making arroz",
+        "last_segment": 0,
+        "ends_with": "stuff that goes into it all the time.",
+        "note": "Introduction to arroz con pollo and the rice cooker approach"
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "So, you know, like I had a mom,",
+        "last_segment": 10,
+        "ends_with": "cloves kind of tastes like dust now.",
+        "note": "Anecdote about his mom's decades-old jar of ground cloves"
+      },
+      {
+        "role": "aside",
+        "first_segment": 16,
+        "starts_with": "But, you know, if you don't",
+        "last_segment": 16,
+        "ends_with": "You can use the finger method.",
+        "note": "\"Fork around\" pun about shredding chicken"
+      },
+      {
+        "role": "outro",
+        "first_segment": 19,
+        "starts_with": "Guys, gals, non-binary pals, I'm going",
+        "last_segment": 19,
+        "ends_with": "All right, see you later.",
+        "note": "Sign-off and plug for website, Patreon, books, products and live events"
+      }
+    ],
+    "topics": [
+      "arroz con pollo",
+      "rice cooker cooking",
+      "chicken and rice",
+      "onion dicing horizontal cut",
+      "frozen vegetables",
+      "pimiento-stuffed olives",
+      "whole vs ground spices",
+      "saffron",
+      "rice to liquid ratio",
+      "shredding chicken",
+      "folding rice"
+    ],
+    "entity_ids": [
+      "kenji:e:our-place-rice-cooker-with-fuzzy-logic",
+      "kenji:e:our-place",
+      "kenji:e:arroz-con-pollo",
+      "kenji:e:bench-scraper",
+      "kenji:e:garlic-press",
+      "kenji:e:tongs",
+      "kenji:e:horizontal-cut-onion-dicing",
+      "kenji:e:pimiento-stuffed-olives",
+      "kenji:e:saffron",
+      "kenji:e:cumin",
+      "kenji:e:paprika",
+      "kenji:e:msg",
+      "kenji:e:kosher-salt",
+      "kenji:e:long-grain-rice",
+      "kenji:e:chicken-broth",
+      "kenji:e:boneless-skinless-chicken-thighs",
+      "kenji:e:frozen-peas",
+      "kenji:e:carrots",
+      "kenji:e:green-beans",
+      "kenji:e:cilantro",
+      "kenji:e:whole-vs-pre-ground-spices",
+      "kenji:e:mccormick",
+      "kenji:e:two-fork-shredding-method",
+      "kenji:e:instant-pot",
+      "kenji:e:patreon"
+    ],
+    "categories": [
+      "rice",
+      "appliances",
+      "techniques",
+      "meat",
+      "vegetables",
+      "ingredients"
+    ],
+    "answers_questions": [
+      "Can I make arroz con pollo in a rice cooker?",
+      "What if my rice cooker doesn't heat with the lid open?",
+      "What's the rice to broth ratio for arroz con pollo?",
+      "Can I use frozen carrots and green beans instead of fresh?",
+      "Is the horizontal cut when dicing an onion actually worth it?",
+      "Are the pimientos in stuffed olives real peppers?",
+      "Should I buy whole spices or pre-ground?",
+      "Do I need saffron for arroz con pollo, and why is it so expensive?",
+      "How long does arroz con pollo take in the rice cooker, and what setting do I use?",
+      "Why coat the rice in oil before cooking?",
+      "What other vegetables or add-ins can go in arroz con pollo?",
+      "How should I shred the chicken and mix it back in without making the rice mushy?",
+      "Can I make this on the stove or in an Instant Pot instead?"
+    ],
+    "uses": [
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:xT_VJyRLcyI:s0013",
+        "note": "After the chicken is already on top, he realizes he forgot the saffron, removes the chicken and adds it. He then corrects calling saffron 'the most important ingredient' to 'one important ingredient'."
+      },
+      {
+        "segment_id": "kenji:xT_VJyRLcyI:s0014",
+        "note": "Says saffron is 'one of the most expensive spices in the world', then revises to 'I think it's the most expensive spice in the world'."
+      }
+    ],
+    "related_videos": [
+      "Japanese potato salad video (mentioned as a separate upcoming video and recipe)",
+      "Earlier video where he explained that pimientos in stuffed olives are gelled pepper juice",
+      "Earlier videos where he talks about slicing onions"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:our-place-rice-cooker-with-fuzzy-logic",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Our Place Rice Cooker with Fuzzy Logic",
+      "brand": "Our Place",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "rice cooker",
+        "rice cooker from Our Place"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:our-place",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Our Place",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Art Place",
+        "our place"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:arroz-con-pollo",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "arroz con pollo",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bench-scraper",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Bench scraper",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "bench scraper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:garlic-press",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "garlic press",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tongs",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tongs",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:horizontal-cut-onion-dicing",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "horizontal cut (onion dicing)",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "horizontal cut"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pimiento-stuffed-olives",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "pimiento-stuffed olives",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "olives"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:saffron",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "saffron",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cumin",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cumin",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:paprika",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "paprika",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "ground paprika"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "salt and MSG blend"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kosher-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "kosher salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "coarse kosher salt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:long-grain-rice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "long-grain rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chicken-broth",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chicken broth",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:boneless-skinless-chicken-thighs",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "boneless skinless chicken thighs",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "boneless, skinless chicken thighs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:frozen-peas",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "frozen peas",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carrots",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "carrots",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "carrot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:green-beans",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "green beans",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cilantro",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cilantro",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:whole-vs-pre-ground-spices",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "whole vs pre-ground spices",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "pre-ground cumin",
+        "whole spices"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mccormick",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "McCormick",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:two-fork-shredding-method",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "two-fork shredding method",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "two-fork method"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:instant-pot",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Instant Pot",
+      "brand": "Instant Pot",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "instant pot",
+        "instant pot style thing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cookbook club",
+        "patreon",
+        "super friendies",
+        "super fringy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "3bbeee1854140743"
+}

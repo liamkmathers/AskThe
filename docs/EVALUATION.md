@@ -60,6 +60,8 @@ Stored as `eval/questions/<creator>.yaml`:
 - the automated checks: coverage right, cited, citations hold, `must_mention` found, `must_not_claim` not found, expected sources read and cited, and, for hybrid, the share of the segments full mode cited that it read (`recall_of_full`);
 - `correct: null`, for a person to set after reading the answer.
 
+`askthe eval <creator> --no-profiles --label no-profiles` answers without profiles (no sections, profile documents, extracted entities or sponsor markings) over the same profiled videos, to measure what profiling adds. Only for that comparison: sponsor reads go unmarked.
+
 `askthe eval <creator> --rescore eval/runs/<run>.json` re-checks a saved run against the current test set without calling the model, writing `<run>-rescored.json`: for fixing an expectation or a check. Questions whose wording changed are left out and need a new run.
 
 When more than one coverage level is fair (a brand mentioned only in passing), `covered` can be a list, e.g. `[none, partial]`.

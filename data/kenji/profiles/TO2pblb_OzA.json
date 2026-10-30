@@ -1,0 +1,632 @@
+{
+  "platform_id": "TO2pblb_OzA",
+  "profile": {
+    "video_id": "kenji:TO2pblb_OzA",
+    "purpose": "A side-by-side taste test of Japan's three biggest convenience store chains, 7-Eleven, FamilyMart and Lawson, filmed in Tokyo. Kenji compares the same items from each and ranks them category by category.",
+    "video_type": "comparison",
+    "thesis": "Japanese konbini food is far better than US convenience store fare, and each chain wins different categories.",
+    "key_takeaways": [
+      "Kenji buys matching items at Lawson, FamilyMart and 7-Eleven and ranks each category: egg salad sandwich, tuna mayo onigiri, soft-boiled egg, spicy fried chicken, socks, iced latte and a wild-card dessert.",
+      "The egg salad sandwiches all use shokupan (Japanese milk bread) and differ in egg flavor, mayo level and chunkiness.",
+      "The onigiri packaging keeps the nori separate from the rice so it stays crisp; rice quality and nori crispness decide the ranking.",
+      "FamilyMart's fried chicken lives up to its reputation; 7-Eleven's is called rubbery.",
+      "The iced lattes are brewed fresh by machines over a cup of ice; 7-Eleven's is judged clearly best.",
+      "The desserts are compared with bakery quality, with the 7-Eleven cheesecake the standout.",
+      "Overall verdict: all three chains are solid, and US 7-Elevens should take note."
+    ],
+    "outline": [
+      {
+        "title": "Convenience store intro and shopping",
+        "summary": "Kenji introduces konbini and the three chains near a Tokyo station. He then shops at Lawson, FamilyMart and 7-Eleven for matching items: sandwiches, onigiri, eggs, fried chicken, socks, lattes and desserts.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Egg salad sandwich test",
+        "summary": "He tastes egg salad sandwiches on shokupan from each chain, comparing egg flavor, mayo level and chunkiness. He names which suits which preference.",
+        "first_segment": 3,
+        "last_segment": 7
+      },
+      {
+        "title": "Onigiri taste test",
+        "summary": "He demonstrates the onigiri wrapper that keeps the nori crisp. He then compares the tuna mayo onigiri on rice texture, nori crispness and filling, and ranks them.",
+        "first_segment": 7,
+        "last_segment": 10
+      },
+      {
+        "title": "Soft-boiled egg test",
+        "summary": "He compares the seasoned soft-boiled eggs on peelability, seasoning and how jammy the yolks are, and ranks the three.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Fried chicken comparison",
+        "summary": "He compares spicy fried chicken thighs from each chain on coating, juiciness and spice, and confirms FamilyMart's reputation.",
+        "first_segment": 12,
+        "last_segment": 14
+      },
+      {
+        "title": "Sock quality test",
+        "summary": "A joke category: he tries on socks from each store and rates their comfort, fit and durability.",
+        "first_segment": 14,
+        "last_segment": 17
+      },
+      {
+        "title": "Iced latte comparison",
+        "summary": "He explains how konbini iced lattes are brewed fresh by machine and compares their flavor and creaminess.",
+        "first_segment": 17,
+        "last_segment": 18
+      },
+      {
+        "title": "Desserts and final verdict",
+        "summary": "He tastes a wild-card dessert from each chain: Lawson's roll cake, FamilyMart's cream puff and 7-Eleven's cheesecake, and ranks them. He closes with an overall verdict on Japanese konbini versus US convenience stores.",
+        "first_segment": 18,
+        "last_segment": 22
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone, it's Kenji. I am",
+        "last_segment": 0,
+        "ends_with": "Lawson, Family Mart, uh, and 7-Eleven.",
+        "note": "Intro in Tokyo explaining the konbini comparison"
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "If my mother saw me doing this,",
+        "last_segment": 15,
+        "ends_with": "lots of socks and I enjoy them.",
+        "note": "Jokes about his mother, Lena buying konbini socks daily, and getting socks as a dad"
+      },
+      {
+        "role": "aside",
+        "first_segment": 19,
+        "starts_with": "but you know, when we were little",
+        "last_segment": 19,
+        "ends_with": "we would always get um cream puffs.",
+        "note": "Childhood memory of buying cream puffs at a Japanese bakery"
+      },
+      {
+        "role": "outro",
+        "first_segment": 22,
+        "starts_with": "All right, guys and gals and nonbinary pals.",
+        "last_segment": 22,
+        "ends_with": "All right, see you later.",
+        "note": "Sign-off and plug for his Patreon, shop, books and live events"
+      }
+    ],
+    "topics": [
+      "Japanese convenience stores (konbini)",
+      "7-Eleven vs FamilyMart vs Lawson",
+      "egg salad sando",
+      "shokupan milk bread",
+      "onigiri packaging and nori crispness",
+      "seasoned soft-boiled eggs",
+      "Japanese convenience store fried chicken",
+      "konbini iced latte machines",
+      "konbini desserts",
+      "Kenji Eats Japan series",
+      "Japan food travel"
+    ],
+    "entity_ids": [
+      "kenji:e:7-eleven",
+      "kenji:e:familymart",
+      "kenji:e:lawson",
+      "kenji:e:konbini",
+      "kenji:e:egg-salad-sandwich",
+      "kenji:e:shokupan",
+      "kenji:e:kewpie-mayonnaise",
+      "kenji:e:onigiri",
+      "kenji:e:tuna-mayo-onigiri",
+      "kenji:e:nori",
+      "kenji:e:ketamago",
+      "kenji:e:boiled-eggs",
+      "kenji:e:famichiki",
+      "kenji:e:fried-chicken-thigh",
+      "kenji:e:muji",
+      "kenji:e:socks",
+      "kenji:e:iced-latte",
+      "kenji:e:lawson-roll-cake",
+      "kenji:e:double-cream-puff",
+      "kenji:e:choux-pastry",
+      "kenji:e:cheesecake",
+      "kenji:e:white-strawberries",
+      "kenji:e:hostess-cakes",
+      "kenji:e:lena-davidson",
+      "kenji:e:patreon",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night"
+    ],
+    "categories": [
+      "eggs",
+      "rice",
+      "meat",
+      "baking"
+    ],
+    "answers_questions": [
+      "Which Japanese convenience store is best: 7-Eleven, FamilyMart or Lawson?",
+      "Which konbini has the best egg salad sandwich?",
+      "What bread do Japanese convenience store sandwiches use?",
+      "Whose onigiri does Kenji rank highest?",
+      "How do you open an onigiri wrapper so the nori stays crispy?",
+      "Which convenience store has the best soft-boiled egg in Japan?",
+      "Is FamilyMart's fried chicken really the best?",
+      "How do the iced lattes work at Japanese convenience stores, and which is best?",
+      "Which konbini dessert impressed Kenji most?",
+      "Are Japanese convenience store socks any good?",
+      "How does Japanese convenience store food compare to US convenience stores?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:TO2pblb_OzA:s0012",
+        "note": "Kenji first calls the fried chicken 'patties', then corrects himself: it is a whole breaded and fried chicken thigh."
+      },
+      {
+        "segment_id": "kenji:TO2pblb_OzA:s0005",
+        "note": "He gives Lawson's egg salad sandwich a slight edge over FamilyMart's, then immediately takes it back ('No, maybe not though')."
+      }
+    ],
+    "related_videos": [
+      "Kenji Eats Japan series (full playlist)",
+      "Patreon article about konbini",
+      "Konbini-style egg salad sando recipe (Patreon)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:7-eleven",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "7-Eleven",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:familymart",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "FamilyMart",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Family Mark",
+        "Family Mart",
+        "Family Marts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lawson",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Lawson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Boston"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:konbini",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "konbini",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Kini"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:egg-salad-sandwich",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "egg salad sandwich",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "X sandwich"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shokupan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "shokupan",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Japanese milk bread",
+        "shokup"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kewpie-mayonnaise",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Kewpie mayonnaise",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "QP style mayo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:onigiri",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "onigiri",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "Oni",
+        "Onigi",
+        "on",
+        "oni",
+        "onigi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tuna-mayo-onigiri",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tuna mayo onigiri",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "Tuna Mayo Oni",
+        "tuna mayo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nori",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "nori",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "NY",
+        "naughty",
+        "ni"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ketamago",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ketamago",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:boiled-eggs",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "boiled eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "hard-boiled egg",
+        "soft boiled egg",
+        "soft egg",
+        "softbo-dile egg",
+        "softboiled eggs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:famichiki",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Famichiki",
+      "brand": "FamilyMart",
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Family Chick",
+        "family chicken",
+        "fee"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fried-chicken-thigh",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "fried chicken thigh",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "fried chicken",
+        "fried chicken patties"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:muji",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Muji",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:socks",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "socks",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sea otter sock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:iced-latte",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "iced latte",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ice latte",
+        "iced coffee",
+        "nonsweet latte"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lawson-roll-cake",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Lawson roll cake",
+      "brand": "Lawson",
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "egg roll cake"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:double-cream-puff",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "double cream puff",
+      "brand": "FamilyMart",
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "custard cream puff"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:choux-pastry",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "choux pastry",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "shoe pastry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cheesecake",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cheesecake",
+      "brand": "7-Eleven",
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "cheesecake biscuit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:white-strawberries",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "white strawberries",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hostess-cakes",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Hostess cakes",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cookbook club",
+        "patreon",
+        "super friendies",
+        "super fringy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab",
+        "the food labs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "my book The Walk",
+        "my book The Wok",
+        "my walk book",
+        "my walkbook",
+        "the book The Walk",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "4d7acfa2b660ce3c"
+}

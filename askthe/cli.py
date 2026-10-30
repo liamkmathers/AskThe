@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from dataclasses import replace
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Annotated
@@ -423,6 +424,14 @@ def eval_command(
     only: Annotated[
         list[str] | None, typer.Option("--only", help="Run only these question ids.")
     ] = None,
+    no_profiles: Annotated[
+        bool,
+        typer.Option(
+            "--no-profiles",
+            help="Answer without profiles, to measure what they add. Not for real answers: "
+            "sponsor reads go unmarked.",
+        ),
+    ] = False,
     rescore_run: Annotated[
         Path | None,
         typer.Option(
@@ -468,7 +477,10 @@ def eval_command(
         services.llm,
         services.vectors,
         services.embedder,
-        RetrievalSettings.from_config(services.config.retrieval),
+        replace(
+            RetrievalSettings.from_config(services.config.retrieval),
+            use_profiles=not no_profiles,
+        ),
         services.config.prices,
         label,
         on_progress=progress,

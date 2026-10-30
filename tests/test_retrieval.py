@@ -162,6 +162,42 @@ def test_hybrid_reads_only_the_relevant_sections():
     assert result.trace["kept"] == 1 and not result.trace["warnings"]
 
 
+def test_profiles_can_be_switched_off_to_measure_what_they_add():
+    store, search, llm, vectors, embedder = build()
+    store.save_profile(
+        profile(
+            "test-creator:boots",
+            [OutlineSection(title="Warm boots", summary="s", first_segment=0, last_segment=2)],
+        )
+    )
+    index_videos(f.creator(), store, search, vectors, embedder)
+
+    def run(use_profiles):
+        llm.script(LLMTask.PLAN, QueryPlan(queries=["warm boots"], names=[], broad=False))
+        llm.script(LLMTask.RERANK, lambda c, p: RerankDraft(scores=[PassageScore(n=0, score=3)]))
+        llm.script(LLMTask.ANSWER, answer("boots", 1, "kept my feet warm in the snow"))
+        settings = RetrievalSettings(require_profiles=True, use_profiles=use_profiles)
+        result = ask(
+            f.creator(),
+            "Warm boots?",
+            store,
+            search,
+            llm,
+            vectors=vectors,
+            embedder=embedder,
+            settings=settings,
+        )
+        _, _, prompt, _ = [c for c in llm.calls if c[0] is LLMTask.ANSWER][-1]
+        return result, prompt
+
+    with_profiles, prompt = run(True)
+    assert "Purpose: p" in prompt and with_profiles.trace["profiles"] is True
+    without, prompt = run(False)
+    assert "Purpose: p" not in prompt and without.trace["profiles"] is False
+    # The same videos are answerable either way, so the comparison is fair.
+    assert without.videos_read == with_profiles.videos_read == ["test-creator:boots"]
+
+
 def test_hybrid_falls_back_to_keywords_when_embeddings_fail():
     store, search, llm, vectors, _ = build()
 

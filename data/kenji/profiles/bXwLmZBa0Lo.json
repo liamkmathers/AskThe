@@ -1,0 +1,1394 @@
+{
+  "platform_id": "bXwLmZBa0Lo",
+  "profile": {
+    "video_id": "kenji:bXwLmZBa0Lo",
+    "purpose": "A live AMA where Kenji answers viewer questions about woks and wok cooking: materials, seasoning, maintenance, burners and induction, accessories, oils, technique and troubleshooting stir-fries.",
+    "video_type": "explainer",
+    "thesis": "A carbon steel wok, flat-bottomed for home burners, works best when its heat is concentrated at the bottom and it is cared for simply. Good stir-fries come from managing heat, moisture and batch size rather than from building heavy seasoning or browning.",
+    "key_takeaways": [
+      "Wok cooking wants concentrated bottom heat and uneven heat zones, unlike western clad pans such as the Titanium Pro, which use aluminum to spread heat evenly.",
+      "Kenji recommends carbon steel woks. The Our Place wok he designed is super nitrided for hardness, slickness and rust resistance, but a $40 to $60 raw carbon steel wok is fine for beginners.",
+      "Wok seasoning is mainly the initial conversion of raw carbon steel to black oxide, not building polymer layers like cast iron.",
+      "After cooking: rinse, dry the wok on the burner, then rub in a very thin film of oil. Small rust spots can simply be washed off.",
+      "Kenji preheats with a thin rubbed-in layer of oil as a smoke-point temperature gauge, then adds fresh cooking oil.",
+      "Induction handles most wok dishes if you toss less and use the spatula more. True wok hei needs a live flame, though a blowtorch can approximate it. Liquid smoke cannot imitate it.",
+      "On induction, the fast/medium/slow power settings are the analogue of gas heat levels, because heat flux matters more than set temperature.",
+      "For indoor burners use a flat-bottom wok without a wok ring. A portable butane burner of 12,500 BTU or more can outperform a standard western burner.",
+      "Cook in small batches of about half a pound, using the landing bowl method, to prevent steaming. A strainer, a slicker wok and a starch slurry to emulsify the sauce prevent oily stir-fries."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "Kenji opens the second live AMA, focused on woks, and mentions the wok he designed with Our Place.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Carbon steel vs. titanium",
+        "summary": "Explains how western burners and clad pans (All-Clad, Our Place Titanium Pro) spread heat evenly, while woks need concentrated bottom heat. Covers why carbon steel is the best wok material, what super nitriding is, and price options including a Yoshikawa raw carbon steel wok. Includes asides on diamond conduction and a copper pan.",
+        "first_segment": 0,
+        "last_segment": 13
+      },
+      {
+        "title": "Initial seasoning",
+        "summary": "Contrasts cast iron polymer seasoning with wok seasoning, which is converting raw carbon steel to black oxide. Covers how to do it on gas, in the oven, on induction or with a torch, and notes pre-seasoned woks.",
+        "first_segment": 13,
+        "last_segment": 20
+      },
+      {
+        "title": "Making it non-stick",
+        "summary": "Explains the restaurant two-oil method and Kenji's home version: a rubbed-in thin oil layer used as a smoke-point gauge, then fresh cooking oil. Also covers why not to use butter.",
+        "first_segment": 20,
+        "last_segment": 24
+      },
+      {
+        "title": "Reseasoning with oil",
+        "summary": "Post-cooking routine: rinse, dry on the burner, and wipe in a very thin coat of oil to prevent rust without leaving a gummy residue.",
+        "first_segment": 24,
+        "last_segment": 27
+      },
+      {
+        "title": "Rusty woks",
+        "summary": "How to handle rust spots, patina and rough buildup, when a wok is beyond saving, and using a bamboo wok brush.",
+        "first_segment": 28,
+        "last_segment": 31
+      },
+      {
+        "title": "Induction cooking",
+        "summary": "Covers the components of wok hei and why it is hard to get on induction. Advises tossing less and using the spatula more on induction, and using a blowtorch for smokiness.",
+        "first_segment": 31,
+        "last_segment": 36
+      },
+      {
+        "title": "Wok hei flavor",
+        "summary": "Why liquid smoke cannot imitate wok hei: liquid smoke is condensed smoldering wood smoke, while wok hei is combusted oil.",
+        "first_segment": 37,
+        "last_segment": 39
+      },
+      {
+        "title": "Sticky sides vs non-stick center",
+        "summary": "Western burners heat the sides of a wok, burning on sauce. Remedies include the WokMon, removing the burner diffuser, outdoor burners, or a 12,500+ BTU butane burner, plus ventilation advice.",
+        "first_segment": 39,
+        "last_segment": 43
+      },
+      {
+        "title": "Induction temperature",
+        "summary": "Explains temperature-controlled induction versus heat flux on gas. Recommends maximum or fast settings on burners like the Breville Control Freak.",
+        "first_segment": 44,
+        "last_segment": 47
+      },
+      {
+        "title": "Wok rings",
+        "summary": "What wok rings are for, why they reduce heat on home burners, and why Kenji recommends flat-bottom woks indoors and round-bottom woks only on outdoor burners.",
+        "first_segment": 47,
+        "last_segment": 50
+      },
+      {
+        "title": "Which oil for cooking",
+        "summary": "Coconut oil and the range of neutral high smoke point oils, plus specialty oils such as Sichuan roasted rapeseed oil (caiziyou) and roasted sesame oil.",
+        "first_segment": 50,
+        "last_segment": 52
+      },
+      {
+        "title": "Flat vs dome lids",
+        "summary": "Dome, wooden and fitted glass wok lids for steaming and smoking. Kenji says performance does not differ between the lid styles.",
+        "first_segment": 52,
+        "last_segment": 54
+      },
+      {
+        "title": "Building up carbon",
+        "summary": "Says you should not build up polymer or carbon layers, and advises against Bar Keepers Friend on woks.",
+        "first_segment": 55,
+        "last_segment": 57
+      },
+      {
+        "title": "Tossing food wok-through",
+        "summary": "Demonstrates the four-part wok toss with raw rice, which hand to use, spatula and ladle techniques, and two-handed tossing for heavy loads.",
+        "first_segment": 57,
+        "last_segment": 62
+      },
+      {
+        "title": "Order for adding food",
+        "summary": "The general stir-fry workflow: prepped bowls in order, a landing pad bowl, cooking in batches, why wok cooking avoids browning, adding sauce around the sides, and adjusting sauce consistency.",
+        "first_segment": 62,
+        "last_segment": 72
+      },
+      {
+        "title": "Steamed vs. fried",
+        "summary": "Food steams when the burner is too weak or diffuses heat badly. The fix is smaller batches and better tossing.",
+        "first_segment": 72,
+        "last_segment": 74
+      },
+      {
+        "title": "Oily stir-fries",
+        "summary": "Avoiding greasy stir-fries with a slick wok, a strainer in the landing pad and emulsifying the sauce with starch slurry. Mapo tofu is noted as an intentional exception.",
+        "first_segment": 74,
+        "last_segment": 76
+      },
+      {
+        "title": "Outro",
+        "summary": "Sign-off and plugs for Kenji's website, Patreon, shop, books and live events.",
+        "first_segment": 76,
+        "last_segment": 77
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hi everyone, welcome to our second",
+        "last_segment": 0,
+        "ends_with": "shall we dive in, Lena? Sure, sure should.",
+        "note": "Opening of the second live AMA, with a mention of Kenji's Our Place wok."
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "This is a a total aside.",
+        "last_segment": 5,
+        "ends_with": "server farms and satellites and things like that.",
+        "note": "Tangent about diamond as a heat conductor."
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "Oh, I didn't get to this.",
+        "last_segment": 13,
+        "ends_with": "I actually have a couple of articles about this.",
+        "note": "Shows his tin-lined copper pan."
+      },
+      {
+        "role": "aside",
+        "first_segment": 41,
+        "starts_with": "which they've had they've had fulfillment issues",
+        "last_segment": 41,
+        "ends_with": "the guy who invented it Glenn is a is a character.",
+        "note": "Brief remark about the WokMon inventor."
+      },
+      {
+        "role": "outro",
+        "first_segment": 76,
+        "starts_with": "Guys, gals, non-binary pals, see you later.",
+        "last_segment": 77,
+        "ends_with": "All right, see you later.",
+        "note": "Sign-off with plugs for his website, Patreon, shop, books and live events."
+      }
+    ],
+    "topics": [
+      "wok materials",
+      "carbon steel vs cast iron",
+      "super nitriding",
+      "clad pans and heat conduction",
+      "wok seasoning",
+      "wok maintenance and rust",
+      "induction wok cooking",
+      "wok hei",
+      "liquid smoke",
+      "butane burners and BTU",
+      "wok rings",
+      "flat vs round bottom woks",
+      "cooking oils for stir-frying",
+      "wok lids",
+      "wok tossing technique",
+      "stir-fry workflow and batching",
+      "preventing steaming",
+      "preventing greasy stir-fries"
+    ],
+    "entity_ids": [
+      "kenji:e:our-place-carbon-steel-wok",
+      "kenji:e:our-place-titanium-pro",
+      "kenji:e:our-place",
+      "kenji:e:all-clad",
+      "kenji:e:yoshikawa-wok",
+      "kenji:e:yosukata-wok",
+      "kenji:e:tin-lined-copper-pan",
+      "kenji:e:griswold-cast-iron-pan",
+      "kenji:e:teflon-coated-non-stick-pan",
+      "kenji:e:ceramic-nonstick-coating",
+      "kenji:e:carbon-steel",
+      "kenji:e:cast-iron",
+      "kenji:e:stainless-steel",
+      "kenji:e:aluminum",
+      "kenji:e:titanium",
+      "kenji:e:copper",
+      "kenji:e:diamond",
+      "kenji:e:super-nitriding",
+      "kenji:e:nitriding",
+      "kenji:e:wok-seasoning",
+      "kenji:e:black-oxide",
+      "kenji:e:wok-hei",
+      "kenji:e:heat-flux",
+      "kenji:e:specific-heat-capacity",
+      "kenji:e:inverse-square-law",
+      "kenji:e:maillard-reaction",
+      "kenji:e:landing-pad-method",
+      "kenji:e:wok-tossing",
+      "kenji:e:starch-slurry",
+      "kenji:e:bamboo-wok-brush",
+      "kenji:e:wok-shovel",
+      "kenji:e:ladle",
+      "kenji:e:wok-ring",
+      "kenji:e:round-bottom-wok",
+      "kenji:e:flat-bottom-wok",
+      "kenji:e:wooden-wok-lid",
+      "kenji:e:dome-wok-lid",
+      "kenji:e:wokmon",
+      "kenji:e:glenn",
+      "kenji:e:camp-chef",
+      "kenji:e:iwatani",
+      "kenji:e:balmuda-butane-burner",
+      "kenji:e:portable-butane-burner",
+      "kenji:e:outdoor-wok-burner",
+      "kenji:e:breville-control-freak",
+      "kenji:e:blowtorch",
+      "kenji:e:wright-s-liquid-smoke",
+      "kenji:e:liquid-smoke",
+      "kenji:e:bar-keepers-friend",
+      "kenji:e:oxalic-acid",
+      "kenji:e:caiziyou",
+      "kenji:e:roasted-sesame-oil",
+      "kenji:e:coconut-oil",
+      "kenji:e:canola-oil",
+      "kenji:e:grapeseed-oil",
+      "kenji:e:peanut-oil",
+      "kenji:e:avocado-oil",
+      "kenji:e:butter",
+      "kenji:e:the-wok",
+      "kenji:e:the-food-lab",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:serious-eats",
+      "kenji:e:patreon",
+      "kenji:e:lena-davidson",
+      "kenji:e:beef-chow-fun",
+      "kenji:e:egg-fried-rice",
+      "kenji:e:kung-pao-chicken",
+      "kenji:e:mapo-tofu",
+      "kenji:e:sichuan-peppercorns"
+    ],
+    "categories": [
+      "woks",
+      "pans",
+      "kitchen tools",
+      "appliances",
+      "techniques",
+      "ingredients",
+      "sauces"
+    ],
+    "answers_questions": [
+      "Is a titanium or clad pan better than a carbon steel wok?",
+      "Why is carbon steel better than cast iron for a wok?",
+      "What is super nitriding and is the Our Place wok worth the price?",
+      "How do I season a new raw carbon steel wok, especially on induction?",
+      "Can I use butter in my wok?",
+      "How should I clean and oil my wok after cooking?",
+      "My wok has rust spots, is it ruined?",
+      "Can I cook in a wok on an induction stove and still get wok hei?",
+      "Can liquid smoke give me wok hei flavor?",
+      "Why are the sides of my wok getting sticky on my gas stove?",
+      "What setting should I use on an induction burner for stir-frying?",
+      "Should I use a wok ring or a round-bottom wok at home?",
+      "What oil should I use for stir-frying, and is coconut oil okay?",
+      "Can I use Bar Keepers Friend on my wok?",
+      "How do I toss food in a wok?",
+      "What order should I add ingredients in a stir-fry?",
+      "Why do my stir-fries steam instead of fry, and why are they so oily?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:bXwLmZBa0Lo:s0061",
+        "note": "He said earlier (segment 59) that he tosses with his right hand. Here he corrects himself: he probably tosses with his left hand and keeps the tool in his right."
+      },
+      {
+        "segment_id": "kenji:bXwLmZBa0Lo:s0075",
+        "note": "He corrects 'most of that oil' to 'not most of it, but a lot of that oil' drains off through the strainer."
+      },
+      {
+        "segment_id": "kenji:bXwLmZBa0Lo:s0049",
+        "note": "He hedges his inverse square law claim (twice as far equals four times less heat), saying he may have misstated the math but that the heat loss is not linear."
+      }
+    ],
+    "related_videos": [
+      "Kenji's first live AMA",
+      "Kenji's older wok cooking videos showing his tossing technique"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:our-place-carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Our Place carbon steel wok",
+      "brand": "Our Place",
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "my new walk",
+        "new walk",
+        "super nonstick one",
+        "the our place wok",
+        "the wok from our place",
+        "the wok that I designed with Our Place",
+        "walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:our-place-titanium-pro",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Our Place Titanium Pro",
+      "brand": "Our Place",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "titanium pan",
+        "titanium pro pan",
+        "titanium propane"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:our-place",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Our Place",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Art Place",
+        "our place"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:all-clad",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "All-Clad",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yoshikawa-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Yoshikawa wok",
+      "brand": "Yoshikawa",
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "Yoshikawa"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yosukata-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Yosukata wok",
+      "brand": "Yosukata",
+      "model": null,
+      "category": "woks",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tin-lined-copper-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tin-lined copper pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "copper pan"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:griswold-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Griswold cast iron pan",
+      "brand": "Griswold",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "old Griswold",
+        "vintage Griswold pan"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:teflon-coated-non-stick-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Teflon-coated non-stick pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Teflon",
+        "non-stick pan",
+        "teflon",
+        "teflon coated pan",
+        "teflon style pan",
+        "tough one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ceramic-nonstick-coating",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "ceramic nonstick coating",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "modern ceramic"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "carbon steel",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "raw carbon steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Cast iron",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stainless-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "stainless steel",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aluminum",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Aluminum",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "aluminum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:titanium",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Titanium",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "titanium",
+        "titanium oxide"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:copper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "copper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:diamond",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "diamond",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "manufactured diamond"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:super-nitriding",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "super nitriding",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "super nitrided",
+        "supernitriding"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nitriding",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "nitriding",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "nitride treatment",
+        "nitrided carbon steel",
+        "regular nitriding treatment"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-seasoning",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "wok seasoning",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "initial seasoning",
+        "seasoning"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-oxide",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "black oxide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-hei",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "wok hei",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "high okay flavor",
+        "okay smokiness",
+        "wakay",
+        "wake",
+        "wake flavor",
+        "walk flavor",
+        "wok hay"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:heat-flux",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "heat flux",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:specific-heat-capacity",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "specific heat capacity",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:inverse-square-law",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "inverse square law",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:maillard-reaction",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Maillard reaction",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "Mayard reaction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:landing-pad-method",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "landing pad method",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "landing bowl method",
+        "landing pad"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-tossing",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "wok tossing",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "toss fries",
+        "wok flipping and tossing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:starch-slurry",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "starch slurry",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bamboo-wok-brush",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bamboo wok brush",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "bamboo brush"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-shovel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "wok shovel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "spatula"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ladle",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ladle",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-ring",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "wok ring",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:round-bottom-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "round-bottom wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "14 inch round bottom walk",
+        "round bottom bottom block",
+        "round bottom wok",
+        "traditional round bottom wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flat-bottom-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "flat-bottom wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "14 inch flat bottom walk",
+        "flat bottom wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wooden-wok-lid",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "wooden wok lid",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "traditional wooden wok lids"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dome-wok-lid",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "dome wok lid",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "dome-style wok lids"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wokmon",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "WokMon",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:glenn",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Glenn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:camp-chef",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Camp Chef",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:iwatani",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Iwatani",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "iwatani"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:balmuda-butane-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Balmuda butane burner",
+      "brand": "Balmuda",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Balmuda"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:portable-butane-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "portable butane burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "butane canister powered burner",
+        "camp stove",
+        "portable butane butane fuel burner",
+        "portable gas burner",
+        "portable walk burner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:outdoor-wok-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "outdoor wok burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "outdoor box set up",
+        "walk burners"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:breville-control-freak",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Breville Control Freak",
+      "brand": "Breville",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "the Breville, the Control Freak"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:blowtorch",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "blowtorch",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "kitchen torch",
+        "oxy-acetylene torch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wright-s-liquid-smoke",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Wright's liquid smoke",
+      "brand": "Wright's",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Wright's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:liquid-smoke",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "liquid smoke",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bar-keepers-friend",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Bar Keepers Friend",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Barkeeper's Friend",
+        "bar keeper's friend",
+        "barkeeper's friend",
+        "the old Bar Keeper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oxalic-acid",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "oxalic acid",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:caiziyou",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "caiziyou",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "roasted rapeseed oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roasted-sesame-oil",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "roasted sesame oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "sesame oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:coconut-oil",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "coconut oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "virgin coconut oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:canola-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "canola oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "canola"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:grapeseed-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "grapeseed oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "grape seed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:peanut-oil",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "peanut oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:avocado-oil",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "avocado oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Avocado oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "butter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "my book The Walk",
+        "my book The Wok",
+        "my walk book",
+        "my walkbook",
+        "the book The Walk",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab",
+        "the food labs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Serious Seeds",
+        "Sirius Eats",
+        "Sirius Seeds",
+        "Sirius heats",
+        "Sirius seats",
+        "printed recipe",
+        "serial seats",
+        "series Heats",
+        "series SE",
+        "series eats",
+        "series seats",
+        "serious eats",
+        "serious heats",
+        "serious seats",
+        "serus eats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cookbook club",
+        "patreon",
+        "super friendies",
+        "super fringy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beef-chow-fun",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "beef chow fun",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "dry fried beef chow fun"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:egg-fried-rice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "egg fried rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "fried rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kung-pao-chicken",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "kung pao chicken",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "gong bao chicken"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mapo-tofu",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mapo tofu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sichuan-peppercorns",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Sichuan peppercorns",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "e0b2069a22a8371a"
+}

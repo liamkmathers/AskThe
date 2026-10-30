@@ -1,0 +1,571 @@
+{
+  "platform_id": "a_KAzqQAtFw",
+  "profile": {
+    "video_id": "kenji:a_KAzqQAtFw",
+    "purpose": "A recipe demonstration of Cantonese-style steamed fish made with salmon fillets. It covers aromatics prep, pulling pin bones, steaming to a target core temperature with a predictive thermometer, a quick soy-based sauce, and a sizzling hot-oil finish.",
+    "video_type": "how_to",
+    "thesis": "Steaming fish Cantonese style, topped with cold-soaked aromatics and finished with smoking-hot oil, is one of the easiest and most delicious ways to cook fish. A predictive thermometer helps nail the doneness.",
+    "key_takeaways": [
+      "The dish is traditionally made with a whole fish such as flounder or branzino; here it uses center-cut king salmon fillets.",
+      "Ginger trimmings and scallion greens go under the fish on the plate to keep it elevated while it steams.",
+      "Garlic, julienned ginger, lengthwise-sliced scallions and cilantro are soaked in cold water in a salad spinner. This mellows the pungent aromatics and makes the herbs plump and curl into a crunchy salad.",
+      "Salmon pin bones are pulled before cooking: rub against the grain to pop them up, then pull in the direction they face with pliers or fish tweezers. Firmer fish like black cod or escolar can be deboned after cooking.",
+      "The salmon steams in a bamboo steamer over a wok until the core reaches about 105°, roughly 7 minutes, for a rare-to-medium-rare center.",
+      "The sauce is about a teaspoon of sugar, a couple of tablespoons of light soy sauce, a tablespoon of rice wine and a tablespoon of water. He uses sake; Shaoxing wine or dry sherry are the usual choices.",
+      "After steaming, the flesh is slid off the skin. It is plated with sauce, half the aromatic salad and sliced chili, then smoking-hot neutral oil is poured over, and the rest of the salad goes on top.",
+      "Aromatic oil from his cookbook club recipe can replace the neutral oil for more flavor."
+    ],
+    "outline": [
+      {
+        "title": "Intro and aromatics prep",
+        "summary": "Kenji introduces Cantonese-style steamed salmon. He slices garlic, trims ginger and scallions (trimmings go on the plate as a rack), cuts the scallions lengthwise, and soaks the aromatics in cold water.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Cilantro, ginger julienne and removing salmon pin bones",
+        "summary": "He adds cilantro and julienned ginger to the soak. He then shows how to find and pull pin bones from king salmon and explains why to do it before cooking for delicate fish but after cooking for fish like black cod.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Steaming with the thermometer and making the sauce",
+        "summary": "The skin-on salmon goes onto the aromatics with a predictive thermometer inserted and steams in a bamboo steamer over a wok to about 105°. Meanwhile he mixes a sugar, light soy, sake and water sauce and slices a Fresno chili.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Plating and the hot-oil finish",
+        "summary": "He drains and spins the aromatics and separates the salmon from its skin. He plates it with sauce, salad and chili, then pours smoking oil over it, explaining what the cold-water soak does.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Tasting and wrap-up",
+        "summary": "Kenji tastes the salmon and suggests using aromatic oil from his cookbook club. He promotes the thermometer and closes with a channel/Patreon outro.",
+        "first_segment": 11,
+        "last_segment": 12
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone, it's Kenji, and we",
+        "last_segment": 0,
+        "ends_with": "steam some salmon Cantonese style.",
+        "note": "Opening greeting introducing the dish"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 0,
+        "starts_with": "We're going to be doing this using",
+        "last_segment": 0,
+        "ends_with": "But we'll get to that in a second.",
+        "note": "Brief opening mention of the Combustion Inc. predictive thermometer"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 11,
+        "starts_with": "All right. Kenji style steamed fish",
+        "last_segment": 12,
+        "ends_with": "just look at the link in the description.",
+        "note": "Sponsor plug for the Combustion Inc. predictive thermometer"
+      },
+      {
+        "role": "outro",
+        "first_segment": 12,
+        "starts_with": "All right guys gals, I'm bound",
+        "last_segment": 12,
+        "ends_with": "All right, see you later.",
+        "note": "Sign-off and standard pitch for his website, Patreon, shop, books and live events"
+      }
+    ],
+    "topics": [
+      "Cantonese steamed fish",
+      "steaming salmon fillets",
+      "removing salmon pin bones",
+      "cold-water soaking aromatics",
+      "sizzling hot oil finish",
+      "predictive thermometer doneness",
+      "salmon target temperature",
+      "soy-based steaming sauce",
+      "wine substitutions for Shaoxing"
+    ],
+    "entity_ids": [
+      "kenji:e:combustion-inc-predictive-thermometer",
+      "kenji:e:combustion-inc-thermometer",
+      "kenji:e:king-salmon",
+      "kenji:e:flounder",
+      "kenji:e:branzino",
+      "kenji:e:black-cod",
+      "kenji:e:escolar",
+      "kenji:e:garlic",
+      "kenji:e:ginger",
+      "kenji:e:scallions",
+      "kenji:e:cilantro",
+      "kenji:e:chinese-light-soy-sauce",
+      "kenji:e:sake",
+      "kenji:e:shaoxing-wine",
+      "kenji:e:dry-sherry",
+      "kenji:e:fresno-chili",
+      "kenji:e:thai-bird-chili",
+      "kenji:e:neutral-oil",
+      "kenji:e:aromatic-oil",
+      "kenji:e:bamboo-steamer",
+      "kenji:e:carbon-steel-wok",
+      "kenji:e:salad-spinner",
+      "kenji:e:fish-tweezers",
+      "kenji:e:pin-bones",
+      "kenji:e:cantonese-steamed-fish",
+      "kenji:e:hot-oil-blooming-of-aromatics",
+      "kenji:e:cold-water-soaking-aromatics",
+      "kenji:e:patreon-cookbook-club"
+    ],
+    "categories": [
+      "techniques",
+      "ingredients",
+      "kitchen tools",
+      "woks",
+      "sauces"
+    ],
+    "answers_questions": [
+      "How do you make Cantonese-style steamed fish with salmon fillets?",
+      "What internal temperature should I steam salmon to?",
+      "How long does it take to steam a salmon fillet?",
+      "What's the easiest way to pull pin bones out of salmon?",
+      "Should I remove salmon pin bones before or after cooking?",
+      "Why do you soak the scallions, ginger and garlic in cold water for steamed fish?",
+      "What sauce goes on Cantonese steamed fish?",
+      "What can I use instead of Shaoxing wine in the steamed fish sauce?",
+      "How do I keep the fish from sitting on the plate while it steams?",
+      "Why pour hot oil over steamed fish?",
+      "How do you get long curly scallion strands for steamed fish?",
+      "What other fish can I use for Chinese steamed fish besides salmon?",
+      "How do you use the Combustion predictive thermometer for fish?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:combustion-inc-predictive-thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Combustion Inc. Predictive Thermometer",
+      "brand": "Combustion Inc.",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Ambush and Ink thermometer",
+        "Combustion Inc uh predictive thermometer",
+        "Combustion Inc. predictive thermometer",
+        "combustion ink predictive thermometer",
+        "predictive thermometer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:combustion-inc-thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Combustion Inc thermometer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Combustion Inc",
+        "combustion inc",
+        "combustion ink",
+        "combustioninc.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:king-salmon",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "king salmon",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "center-cut king salmon fillet",
+        "salmon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flounder",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "flounder",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:branzino",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "branzino",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-cod",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "black cod",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:escolar",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "escolar",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:garlic",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "garlic",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "garlic cloves"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ginger",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ginger",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "ginger root"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scallions",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "scallions",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Scallions",
+        "chopped scallions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cilantro",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cilantro",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chinese-light-soy-sauce",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chinese light soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "light soy sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sake",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sake",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shaoxing-wine",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Shaoxing wine",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Chinese rice wine",
+        "shaoxing wine",
+        "yaoju rice wine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dry-sherry",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "dry sherry",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fresno-chili",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Fresno chili",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thai-bird-chili",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Thai bird chili",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Thai bird"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:neutral-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "neutral oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aromatic-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "aromatic oil",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bamboo-steamer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bamboo steamer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "bamboo steamers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "carbon steel wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "carbon steel walk",
+        "walk",
+        "wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salad-spinner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "salad spinner",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fish-tweezers",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "fish tweezers",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "pliers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pin-bones",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pin bones",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cantonese-steamed-fish",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Cantonese steamed fish",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "Kenji style steamed fish",
+        "steam some salmon Cantonese style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hot-oil-blooming-of-aromatics",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "hot oil blooming of aromatics",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "bloom their flavor",
+        "pour that oil right over those aromatics"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cold-water-soaking-aromatics",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "cold-water soaking aromatics",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "soaking in the water"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon-cookbook-club",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon cookbook club",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Patreon",
+        "cookbook club"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "0e998384debf5b8f"
+}

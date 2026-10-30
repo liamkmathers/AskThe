@@ -1,0 +1,567 @@
+{
+  "platform_id": "oeRyNPVrgJA",
+  "profile": {
+    "video_id": "kenji:oeRyNPVrgJA",
+    "purpose": "A travel documentary episode of the Kenji Eats Japan series following Kenji's trip to Tsubame-Sanjō, Niigata, with his knife-making partners to visit Aiba Steel. It covers sourcing Japanese steel for his knife, how san mai steel works, the town's metalworking history and industry, and the local food and hospitality.",
+    "video_type": "other",
+    "thesis": "Seeing Sanjō's centuries-old, highly specialized metalworking industry first-hand, through the Aiba family's steel business, changes how Kenji thinks about where knives come from. A new Aiba steel may make its way into his knives.",
+    "key_takeaways": [
+      "Kenji and knife maker Gordon (Vonhelmick) were running low on high-quality Japanese steel for their handmade Shi-Toku knife, which led them to the Aiba family.",
+      "The Shi-Toku is a santoku with a curved tip that allows Western-style rock chopping.",
+      "Aiba has been in the metal business in Sanjō since 1861 and has a new steel coming that is the first approved for cutlery from the company in about three decades. Barbers already use it for scissors.",
+      "San mai (three-layer) steel puts a hard, high-carbon core between tougher outer layers to balance edge retention against brittleness. Kenji compares it to rebar in concrete.",
+      "Metalworking came to Tsubame-Sanjō about 400 years ago as a second industry to protect farmers from flood losses, rather than from out-of-work swordsmiths.",
+      "Sanjō factories and workers are highly specialized. Kenji contrasts the town's survival with Johnstown, Pennsylvania, and Bethlehem Steel, where his grandfather worked.",
+      "Less than 10% of Aiba's business is cutlery. Much of it is heavy machinery and specialty steel processing.",
+      "Niigata food highlights include multi-course onsen meals, aged snow beef, tempura fried tableside, and Sanjō's curry ramen."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to new steel",
+        "summary": "Cold open teasing a new cutlery steel. Kenji explains that chefs are nerdy about knife details and that there is no single best knife.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "The quest for quality metal",
+        "summary": "Why the team went to Tsubame-Sanjō with knife-making partner Gordon. The Shi-Toku knife's design is described, along with the shortage of high-quality Japanese steel.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Meeting the Aiba family",
+        "summary": "How a friend, Eugene, connected them with the Aiba family, steel merchants in Sanjō since 1861. The Aibas flew to Oregon and Seattle to meet in person.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Properties of specialty steel",
+        "summary": "The upcoming Aiba steel, already favored by barbers for scissors, is extremely sharp, hard and tough.",
+        "first_segment": 6,
+        "last_segment": 6
+      },
+      {
+        "title": "Understanding san mai steel",
+        "summary": "Explains three-layer san mai construction, the hardness versus brittleness tradeoff, the rebar analogy and tensile strength, and Kenji's 67-layer factory-made knife.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "The industrial history of Sanjō",
+        "summary": "Signs of metalworking around town, and the myth that knife makers descend from swordsmiths. Metalworking was introduced to Niigata's flood-prone farming region in the 17th century.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Specialization in manufacturing",
+        "summary": "Sanjō moved from nails and farm tools to scissors and grooming tools. Factories and workers are highly specialized, which Kenji links to the quality of Japanese cutlery. Includes a Patreon thank-you.",
+        "first_segment": 12,
+        "last_segment": 13
+      },
+      {
+        "title": "Global steel industry contrast",
+        "summary": "Kenji's grandfather worked at Bethlehem Steel in Johnstown, PA, an industry that didn't survive globalization. He contrasts this with Sanjō's niche specialty work.",
+        "first_segment": 14,
+        "last_segment": 16
+      },
+      {
+        "title": "Factory scale and production",
+        "summary": "A blacksmithing dojo and a daikon-cutting record holder, then the huge scale of the Aiba factory: giant anvils, cast iron pouring and knife hammering, plus the town's metal museums.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "Hospitality and local cuisine",
+        "summary": "Onsen stays and multi-course seasonal Niigata meals, including snow beef and tableside tempura. Sanjō's specialty curry ramen is compared with curry udon.",
+        "first_segment": 20,
+        "last_segment": 25
+      },
+      {
+        "title": "Innovation and conclusion",
+        "summary": "Kenji reflects on how seeing the process changed his view of knives. The Aibas keep innovating, and their steel may end up in his future knives.",
+        "first_segment": 26,
+        "last_segment": 28
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "There is a new steel coming",
+        "last_segment": 1,
+        "ends_with": "Let me explain how we got there.",
+        "note": "Cold open about the new steel and knife nerdiness, setting up the trip"
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "By the way, thank you so much",
+        "last_segment": 14,
+        "ends_with": "head over to Patreon and join there.",
+        "note": "Thanks to Patreon members and the cookbook club, with an invitation to join"
+      },
+      {
+        "role": "outro",
+        "first_segment": 28,
+        "starts_with": "Um uh guys, gals, non-binary pals,",
+        "last_segment": 28,
+        "ends_with": "see you next time. Mhm. Hey.",
+        "note": "Sign-off"
+      }
+    ],
+    "topics": [
+      "Japanese knife steel",
+      "san mai steel construction",
+      "Tsubame-Sanjō metalworking history",
+      "Aiba Steel",
+      "Shi-Toku knife design",
+      "specialization in Japanese manufacturing",
+      "Bethlehem Steel and Johnstown",
+      "Niigata cuisine",
+      "snow beef",
+      "tempura",
+      "curry ramen"
+    ],
+    "entity_ids": [
+      "kenji:e:aiba-steel",
+      "kenji:e:aiba-shoji-company-limited",
+      "kenji:e:doji-aiba",
+      "kenji:e:vonhelmick-knife-co",
+      "kenji:e:vonhelmick-x-kenji-shi-toku",
+      "kenji:e:gordon-hanson",
+      "kenji:e:the-hansens",
+      "kenji:e:eugene-sabourin",
+      "kenji:e:oedi",
+      "kenji:e:67-layer-factory-made-knife",
+      "kenji:e:new-aiba-cutlery-steel",
+      "kenji:e:san-mai-steel",
+      "kenji:e:high-carbon-steel",
+      "kenji:e:santoku",
+      "kenji:e:rock-chopping",
+      "kenji:e:tensile-strength",
+      "kenji:e:cast-iron",
+      "kenji:e:bethlehem-steel",
+      "kenji:e:tsubame-sanjo",
+      "kenji:e:snow-beef",
+      "kenji:e:tempura",
+      "kenji:e:curry-ramen",
+      "kenji:e:curry-udon",
+      "kenji:e:onsen",
+      "kenji:e:patreon"
+    ],
+    "categories": [
+      "knives",
+      "ingredients",
+      "noodles",
+      "meat"
+    ],
+    "answers_questions": [
+      "What is the Shi-Toku knife and how is it different from a santoku?",
+      "Where does the steel for Kenji's knives come from?",
+      "What is san mai steel and why do knives use layers?",
+      "Why are harder steels more brittle?",
+      "Who are the Aiba family and Aiba Steel?",
+      "Is Kenji coming out with a knife in a new steel?",
+      "Why is Tsubame-Sanjō famous for metalworking?",
+      "Did Japanese knife makers really come from samurai swordsmiths?",
+      "What's the connection between Kenji's family and Bethlehem Steel?",
+      "What is snow beef?",
+      "What is Sanjō curry ramen?",
+      "What's the best way to eat tempura in Japan?",
+      "What did Kenji eat in Niigata?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:oeRyNPVrgJA:s0008",
+        "note": "Kenji first calls what the outer layers and rebar add 'elastic strength', then corrects himself: the word is tensile strength."
+      }
+    ],
+    "related_videos": [
+      "Kenji Eats Japan series (playlist)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:aiba-steel",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Aiba Steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Aiba",
+        "Iba Steel Company",
+        "Iba Steel Factory",
+        "Iba factory",
+        "Ibas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aiba-shoji-company-limited",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Aiba Shoji Company Limited",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:doji-aiba",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Doji Aiba",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr. Iba"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vonhelmick-knife-co",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Vonhelmick Knife Co.",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vonhelmick-x-kenji-shi-toku",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vonhelmick x Kenji Shi-Toku",
+      "brand": "Vonhelmick Knife Co.",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "sheetoku knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gordon-hanson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Gordon Hanson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gordon",
+        "Gordon Hansen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-hansens",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "the Hansens",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eugene-sabourin",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Eugene Sabourin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Eugene"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oedi",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Oedi",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:67-layer-factory-made-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "67-layer factory-made knife",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "a knife that has 67 layers of steel"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:new-aiba-cutlery-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "new Aiba cutlery steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "a new steel coming out"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:san-mai-steel",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "san mai steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "three layer steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:high-carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "high carbon steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "hard steel",
+        "high carbon steels"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:santoku",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "santoku",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "santok",
+        "santoko",
+        "sanu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rock-chopping",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "rock chopping",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "western style rock chopping"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tensile-strength",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "tensile strength",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "elastic strength"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Cast iron",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron",
+        "molten cast iron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bethlehem-steel",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Bethlehem Steel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tsubame-sanjo",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Tsubame-Sanjō",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Sanjo",
+        "Sanjo City",
+        "Tsubame",
+        "Tsubame-Sanjo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:snow-beef",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "snow beef",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "aged snow beef"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tempura",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "tempura",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:curry-ramen",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "curry ramen",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "kare ramen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:curry-udon",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "curry udon",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:onsen",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "onsen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cookbook club",
+        "frengees",
+        "patreon",
+        "super friendies",
+        "super fringy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "7efeadb1480ccb11"
+}
