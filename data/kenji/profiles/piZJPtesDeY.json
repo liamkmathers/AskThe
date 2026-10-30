@@ -1,0 +1,636 @@
+{
+  "platform_id": "piZJPtesDeY",
+  "profile": {
+    "video_id": "kenji:piZJPtesDeY",
+    "purpose": "Test the Ooni Volt electric indoor pizza oven ahead of Kenji's live stage show, timing its preheat and baking a Neapolitan-style pizza from store-bought dough to see how it performs.",
+    "video_type": "review",
+    "thesis": "Kenji runs the Ooni Volt through a test bake, explaining what distinguishes plug-in pizza ovens limited to about 1,800 watts and showing the full process from preheat through stretching, topping, baking and tasting.",
+    "key_takeaways": [
+      "Plug-in home pizza ovens max out around 1,800 watts, so differences between them come down mostly to insulation and heating element arrangement.",
+      "The Ooni Volt is heavily insulated, preheats to 850°F, and lets you adjust top and bottom heat independently.",
+      "The first pizza in a batch is a 'learning pizza' for finding the oven's hot and cool spots.",
+      "Kenji demonstrates pushing out the rim, knuckling and a final stretch on the peel when shaping dough.",
+      "He puts basil on before baking, as in traditional Neapolitan pizza, so it perfumes the whole pie.",
+      "At 850°F a pizza takes about 90 seconds to 2 minutes; doming the pie boosts top browning.",
+      "High heat gives a thin crisp crust with a puffy interior; lower temperatures give a thicker, crisper New York-style crust.",
+      "Store-bought Whole Foods dough worked well in the oven."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Ooni Volt",
+        "summary": "Kenji explains why he is testing the Ooni Volt (for the Tasting Notes stage show with Lee Kindell), covers the 1,800-watt limit of plug-in ovens, insulation, and independent top/bottom heat control.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Preheating and dough prep",
+        "summary": "He describes the store-bought Whole Foods dough split into 300 g balls and times the preheat to 850°F, then turns the top heat all the way up.",
+        "first_segment": 4,
+        "last_segment": 4
+      },
+      {
+        "title": "Stretching and topping pizza",
+        "summary": "Shaping the dough with semolina, building the rim, knuckling, and a tangent on centripetal vs centrifugal force; then topping with crushed tomatoes, buffalo mozzarella, basil, soppressata, sea salt and olive oil, and a final stretch on the peel.",
+        "first_segment": 5,
+        "last_segment": 9
+      },
+      {
+        "title": "Cooking the pizza",
+        "summary": "Launching the 12-inch pizza, watching the dough puff, and doming it for extra top browning at 850°F.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Tasting and conclusion",
+        "summary": "Kenji examines the crumb and spotty bottom, tastes it, explains how heat affects crust texture (Neapolitan vs New York style), recalls his earlier home-oven hacks, and promotes his upcoming shows.",
+        "first_segment": 12,
+        "last_segment": 14
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey, it's Kenji. Uh I",
+        "last_segment": 0,
+        "ends_with": "which uh Ooni donated for the event.",
+        "note": "Intro explaining the Tasting Notes stage show with Lee Kindell and why he is testing the donated Ooni Volt."
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "Or you can let uh you know,",
+        "last_segment": 7,
+        "ends_with": "um you know the angular momentum.",
+        "note": "Tangent about centripetal vs centrifugal force while spinning dough."
+      },
+      {
+        "role": "aside",
+        "first_segment": 8,
+        "starts_with": "Um, I've been to the factory",
+        "last_segment": 8,
+        "ends_with": "they have a real tight operation,",
+        "note": "Personal note about visiting the mozzarella factory near Bogotá."
+      },
+      {
+        "role": "outro",
+        "first_segment": 14,
+        "starts_with": "All right. That's the Ooni Volt.",
+        "last_segment": 14,
+        "ends_with": "non-binary pals, see you later.",
+        "note": "Wrap-up noting Ooni sent the ovens, promotion of Seattle and La Jolla shows, sign-off."
+      }
+    ],
+    "topics": [
+      "Ooni Volt electric pizza oven test",
+      "preheat time to 850°F",
+      "1,800-watt limit on home plug-in appliances",
+      "oven insulation and heating elements",
+      "independent top and bottom heat control",
+      "store-bought pizza dough",
+      "stretching and knuckling pizza dough",
+      "Neapolitan pizza toppings",
+      "basil before or after baking",
+      "doming a pizza",
+      "crust texture vs oven temperature",
+      "Neapolitan vs New York style pizza",
+      "making Neapolitan pizza indoors"
+    ],
+    "entity_ids": [
+      "kenji:e:ooni-volt",
+      "kenji:e:ooni",
+      "kenji:e:lee-kindell",
+      "kenji:e:moto-pizza",
+      "kenji:e:tasting-notes",
+      "kenji:e:seattle-chamber-music-society",
+      "kenji:e:la-jolla-music-festival",
+      "kenji:e:whole-foods-store-bought-pizza-dough",
+      "kenji:e:semolina-flour",
+      "kenji:e:bianco-denopoly-crushed-tomatoes",
+      "kenji:e:bof-buffalo-mozzarella",
+      "kenji:e:buffalo-mozzarella",
+      "kenji:e:basil",
+      "kenji:e:soppressata",
+      "kenji:e:sea-salt",
+      "kenji:e:olive-oil",
+      "kenji:e:wooden-pizza-peel",
+      "kenji:e:bench-scraper",
+      "kenji:e:pizza-stone",
+      "kenji:e:knuckling",
+      "kenji:e:doming",
+      "kenji:e:cornicione",
+      "kenji:e:centripetal-and-centrifugal-force",
+      "kenji:e:neapolitan-pizza",
+      "kenji:e:new-york-style-pizza",
+      "kenji:e:oven-spring",
+      "kenji:e:1-800-watt-household-outlet-limit",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night"
+    ],
+    "categories": [
+      "appliances",
+      "baking",
+      "techniques",
+      "ingredients",
+      "kitchen tools"
+    ],
+    "answers_questions": [
+      "How long does the Ooni Volt take to heat up to 850°F?",
+      "Is the Ooni Volt good for Neapolitan pizza indoors?",
+      "Why do all plug-in electric pizza ovens have about the same power?",
+      "What makes one electric pizza oven better than another?",
+      "Can you adjust the top and bottom heat separately on the Ooni Volt?",
+      "Does store-bought pizza dough from Whole Foods work in a high-heat pizza oven?",
+      "How does Kenji stretch pizza dough?",
+      "Should basil go on before or after baking the pizza?",
+      "What crushed tomatoes and mozzarella does Kenji use for pizza?",
+      "What is doming a pizza and why do it?",
+      "How long should a pizza cook at 850°F?",
+      "How do I get a crispier New York-style crust instead of a floppy Neapolitan one?",
+      "How big a pizza fits in the Ooni Volt?",
+      "Will an indoor pizza oven set off my smoke alarm?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:piZJPtesDeY:s0007",
+        "note": "After mixing up 'centrial' (centripetal) and centrifugal force in segment 6, Kenji clarifies that centrifugal force is the artificial force felt in a rotating reference frame, while centripetal force is the actual force."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:ooni-volt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Ooni Volt",
+      "brand": "Ooni",
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Uni Volt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ooni",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Ooni",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Oonie",
+        "UNA",
+        "Uni",
+        "Unni",
+        "boonie",
+        "new knee",
+        "only",
+        "uni",
+        "unni"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lee-kindell",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lee Kindell",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lee Kandell"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:moto-pizza",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Moto Pizza",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tasting-notes",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Tasting Notes",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Tasting notes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:seattle-chamber-music-society",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Seattle Chamber Music Society",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:la-jolla-music-festival",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "La Jolla music festival",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "La Hoya"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:whole-foods-store-bought-pizza-dough",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Whole Foods store-bought pizza dough",
+      "brand": "Whole Foods",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "store-bought pizza dough",
+        "storebought dough"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:semolina-flour",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "semolina flour",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bianco-denopoly-crushed-tomatoes",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Bianco Denopoly crushed tomatoes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Bianco Denopoly"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bof-buffalo-mozzarella",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Bof buffalo mozzarella",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Bof"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:buffalo-mozzarella",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "buffalo mozzarella",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Buffalo mozzarella"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:basil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "basil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soppressata",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soppressata",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "supra sata"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sea-salt",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "sea salt",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "colored sea salts",
+        "fancy sea salt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:olive-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "everyday cooking olive oil",
+        "everyday olive oil",
+        "fancy olive oil",
+        "light olive oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wooden-pizza-peel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "wooden pizza peel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "wooden peel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bench-scraper",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Bench scraper",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "bench scraper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pizza-stone",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "pizza stone",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "pizza stones",
+        "stone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:knuckling",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "knuckling",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "knuckle"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:doming",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "doming",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cornicione",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "cornicione",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cornachon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:centripetal-and-centrifugal-force",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "centripetal and centrifugal force",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "centrial force",
+        "centrifugal force"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:neapolitan-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Neapolitan pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "Neapolitan",
+        "Neapolitan style pizza",
+        "Neapolitan style pizza dough",
+        "in the apology style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:new-york-style-pizza",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "New York-style pizza",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "New York",
+        "New York style",
+        "New York style pizza",
+        "new york-style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oven-spring",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "oven spring",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:1-800-watt-household-outlet-limit",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "1,800-watt household outlet limit",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "1,800 watts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "6679ea62cf8e5ea6"
+}

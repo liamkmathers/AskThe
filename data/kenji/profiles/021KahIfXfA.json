@@ -1,0 +1,1552 @@
+{
+  "platform_id": "021KahIfXfA",
+  "profile": {
+    "video_id": "kenji:021KahIfXfA",
+    "purpose": "A livestreamed Patreon Q&A in which Kenji, with producers Lena and Erin, answers community questions. Topics include cutting boards, cooktops, woks, stock, carryover cooking, stew texture, knife sharpening, his weekly cooking routine and kids, Seattle, gardening, restaurant high-heat cooking, kitchen smoke, and an upcoming halal cart chicken update.",
+    "video_type": "other",
+    "thesis": "A wide-ranging 'Ask Kenji Anything' session covering practical questions on kitchen tools, woks, cooking technique and home life. It is organised as a series of chat questions, each answered in turn.",
+    "key_takeaways": [
+      "Covers wooden cutting boards: why Kenji uses them, how to clean, oil and resurface them, and why to avoid metal, glass and titanium boards.",
+      "Compares induction and gas cooktops, including the limits of induction for wok cooking and using a portable butane burner as a workaround.",
+      "Explains how to clean a wok, and how wok seasoning differs from cast-iron seasoning.",
+      "Gives advice for beginners intimidated by wok cooking, including cheaper starter woks versus his new nitrided wok.",
+      "Discusses using pork trotters in stock: raw versus roasted bones, and getting the most gelatin out.",
+      "Explains the variables behind carryover cooking and practical ways to deal with them.",
+      "Describes the stages of meat breakdown in braises for diagnosing tough versus overcooked stew meat, plus umami substitutes for Marmite.",
+      "Covers knife sharpening options for regular people, and the difference between honing and sharpening.",
+      "Personal segments on his weekly cooking routine, picky kids, seafood, Seattle recommendations, pearl onions and gardening.",
+      "Discusses high-heat restaurant cooking, managing smoke in small kitchens, and an update on the halal cart chicken and rice recipe."
+    ],
+    "outline": [
+      {
+        "title": "Intro / Pantry Chaos",
+        "summary": "Going live amid a pantry reorganisation, with mic troubleshooting and the household introduced.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Wooden Cutting Boards: Why I Stick With Wood",
+        "summary": "Why Kenji uses Boos Block wooden boards: the restaurant health-department story, bacteria and microplastics compared with plastic, and his board setup.",
+        "first_segment": 2,
+        "last_segment": 5
+      },
+      {
+        "title": "Oiling, Sanding, and Maintaining Wooden Boards",
+        "summary": "Oiling as needed with butcher block conditioner, how to tell when a board needs it, and sanding or trimming to resurface boards.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Why You Should Avoid Metal, Glass, and Titanium Boards",
+        "summary": "Hard boards dull knives and give poor cuts; wood lets the blade sink in slightly and is self-healing.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Induction vs Gas: What Actually Matters",
+        "summary": "Even heat, responsiveness, health and environmental benefits of induction, scratching concerns, and pan compatibility.",
+        "first_segment": 10,
+        "last_segment": 17
+      },
+      {
+        "title": "Wok Cooking on Induction, Gas, and Electric Ranges",
+        "summary": "Using western skillets for wok recipes, how wok shape encourages tossing and evaporation, and what induction can and can't do.",
+        "first_segment": 17,
+        "last_segment": 20
+      },
+      {
+        "title": "Why Portable Gas Burners Are Great for Wok Cooking",
+        "summary": "Why roughly 15,000 BTU portable butane burners with concentrated flames beat home ranges for wok cooking, burner brands, and using them under a hood.",
+        "first_segment": 20,
+        "last_segment": 24
+      },
+      {
+        "title": "How to Clean a Wok (and What Seasoning Really Means)",
+        "summary": "Burning off food, then water and a bamboo brush; why woks don't build up polymer seasoning layers the way cast iron does.",
+        "first_segment": 24,
+        "last_segment": 30
+      },
+      {
+        "title": "Intimidated by Wok Cooking? Start Here",
+        "summary": "Many wok dishes are low-heat; the cost of his new wok versus a cheap carbon steel starter wok, and when to upgrade.",
+        "first_segment": 30,
+        "last_segment": 37
+      },
+      {
+        "title": "Pork Trotters, Bones, and Making Better Stock",
+        "summary": "Roasting other pork bones for flavour while adding trotters raw to maximise gelatin extraction.",
+        "first_segment": 38,
+        "last_segment": 41
+      },
+      {
+        "title": "Carryover Cooking: Why Steaks Overshoot",
+        "summary": "How mass, cooking temperature gradients and fat affect carryover; adjusting pull temperatures, using multi-sensor thermometers, and trusting taste.",
+        "first_segment": 41,
+        "last_segment": 50
+      },
+      {
+        "title": "Beef Stew Texture: Undercooked vs Overcooked Meat",
+        "summary": "Primary, secondary and tertiary stages of meat breakdown in braises, and how to tell tough meat from overcooked meat.",
+        "first_segment": 50,
+        "last_segment": 56
+      },
+      {
+        "title": "Marmite, Fish Sauce, and Umami in Stews",
+        "summary": "Substituting fish sauce, soy sauce or MSG for Marmite in the Food Lab beef stew, and combining umami sources.",
+        "first_segment": 56,
+        "last_segment": 58
+      },
+      {
+        "title": "Ingredients America Hasn't Embraced",
+        "summary": "A brief, non-committal answer about underrated international ingredients, and his mostly Asian and Mexican pantry staples.",
+        "first_segment": 59,
+        "last_segment": 61
+      },
+      {
+        "title": "Knife Sharpening for Regular People",
+        "summary": "Professional sharpening services versus whetstones, and stropping.",
+        "first_segment": 61,
+        "last_segment": 64
+      },
+      {
+        "title": "Honing vs Sharpening Explained",
+        "summary": "What honing does to the edge, when not to hone hard steel, sharpening systems that hold the angle, avoiding electric grinders, and the mug-bottom emergency fix.",
+        "first_segment": 64,
+        "last_segment": 70
+      },
+      {
+        "title": "How I Cook Week to Week (and Feed My Kids)",
+        "summary": "Shoot days, leftovers, shopping without meal plans, staples like tofu and eggs, tamago kake gohan, and cook-once-eat-all-week strategies.",
+        "first_segment": 70,
+        "last_segment": 76
+      },
+      {
+        "title": "Picky Kids and Expanding Food Horizons",
+        "summary": "Offering options without forcing, teaching kids 'I don't like it now', and leftover-meal-as-snack rules.",
+        "first_segment": 76,
+        "last_segment": 79
+      },
+      {
+        "title": "Why I Don't Feature Seafood More (Despite Living in Seattle)",
+        "summary": "He loves seafood but audience access limits it in videos; crabbing, fishing and albacore.",
+        "first_segment": 80,
+        "last_segment": 81
+      },
+      {
+        "title": "Where to Take Visitors to Fall in Love With Seattle",
+        "summary": "Seattle Riders bike food tour, the lakes and Puget Sound, and timing visits around the weather.",
+        "first_segment": 81,
+        "last_segment": 85
+      },
+      {
+        "title": "Pearl Onions: Fresh vs Frozen",
+        "summary": "Where he buys pearl onions and why frozen peeled ones work well in braises and stews.",
+        "first_segment": 85,
+        "last_segment": 87
+      },
+      {
+        "title": "What I'd Grow in a Garden (If I Had One)",
+        "summary": "Tomatoes, greens, snap peas and beans, and herbs as the most worthwhile crops to grow.",
+        "first_segment": 87,
+        "last_segment": 90
+      },
+      {
+        "title": "Cooking With High Heat in Restaurants",
+        "summary": "Heat and sweat on the line, and how high heat speeds reduction and emulsifies glazes, making restaurant vegetables better.",
+        "first_segment": 90,
+        "last_segment": 95
+      },
+      {
+        "title": "Smoke, Ventilation, and \"Cooking Detectors\"",
+        "summary": "Dave Arnold's 'cooking detectors' joke, venting in apartments, windows and fans, and the shower-cap trick (not advised).",
+        "first_segment": 95,
+        "last_segment": 98
+      },
+      {
+        "title": "Halal Cart Chicken & Rice Update",
+        "summary": "An updated halal cart chicken and rice recipe coming in about six weeks, with better rice and blueprint variations.",
+        "first_segment": 99,
+        "last_segment": 101
+      },
+      {
+        "title": "Wrap-Up & Farewell",
+        "summary": "Signing off, and noting the replay and written transcript.",
+        "first_segment": 101,
+        "last_segment": 102
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "You're live. All right. Okay.",
+        "last_segment": 2,
+        "ends_with": "the chat. Here we go. Kitchen tools.",
+        "note": "Going live amid pantry reorganisation chaos, household rundown and mic troubleshooting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "This one was a gift from my sister.",
+        "last_segment": 5,
+        "ends_with": "they are both made out of wood.",
+        "note": "Sister's cutting board and ukulele gifts"
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "Um there was a surge of knife emojis",
+        "last_segment": 10,
+        "ends_with": "So So yeah, it's happening.",
+        "note": "Chat knife emoji banter"
+      },
+      {
+        "role": "aside",
+        "first_segment": 41,
+        "starts_with": "This is just for me, but what",
+        "last_segment": 41,
+        "ends_with": "Uh, yeah, there they go.",
+        "note": "Pig emoji flood in chat"
+      },
+      {
+        "role": "aside",
+        "first_segment": 50,
+        "starts_with": "Uh, but because I know we have",
+        "last_segment": 50,
+        "ends_with": "where people are tuning in from.",
+        "note": "Asking viewers for their time zones"
+      },
+      {
+        "role": "aside",
+        "first_segment": 58,
+        "starts_with": "Nice. Uh, I want to acknowledge we",
+        "last_segment": 58,
+        "ends_with": "but I don't know if I want to know.",
+        "note": "Viewer shout-outs and Swedish Chef joke"
+      },
+      {
+        "role": "aside",
+        "first_segment": 101,
+        "starts_with": "We're trying to work on more uh,",
+        "last_segment": 101,
+        "ends_with": "a calmer calmer calmer workflow. Yeah.",
+        "note": "Team workflow and planning chat"
+      },
+      {
+        "role": "outro",
+        "first_segment": 101,
+        "starts_with": "Um guys, that's our time.",
+        "last_segment": 102,
+        "ends_with": "non-binary pals. See you later.",
+        "note": "Farewell, with notes on the replay and written transcript"
+      }
+    ],
+    "topics": [
+      "wooden cutting boards",
+      "cutting board maintenance",
+      "induction vs gas cooktops",
+      "wok cooking on induction",
+      "portable butane burners",
+      "cleaning a wok",
+      "wok seasoning",
+      "beginner wok advice",
+      "pork stock and gelatin",
+      "carryover cooking",
+      "braised meat texture",
+      "umami substitutions",
+      "knife sharpening",
+      "honing vs sharpening",
+      "weekly meal routine",
+      "picky eaters",
+      "Seattle recommendations",
+      "pearl onions",
+      "home gardening",
+      "restaurant high-heat cooking",
+      "kitchen smoke and ventilation",
+      "halal cart chicken and rice"
+    ],
+    "entity_ids": [
+      "kenji:e:boos-block",
+      "kenji:e:wooden-cutting-board",
+      "kenji:e:plastic-cutting-board",
+      "kenji:e:titanium-cutting-board",
+      "kenji:e:howard-butcher-block-conditioner",
+      "kenji:e:number-nine-park",
+      "kenji:e:namiko-chen",
+      "kenji:e:just-one-cookbook",
+      "kenji:e:induction-cooktop",
+      "kenji:e:gas-range",
+      "kenji:e:the-wok",
+      "kenji:e:the-food-lab",
+      "kenji:e:kenji-s-nitrided-carbon-steel-wok",
+      "kenji:e:carbon-steel-wok",
+      "kenji:e:wok-hei",
+      "kenji:e:portable-butane-burner",
+      "kenji:e:balmuda",
+      "kenji:e:zojirushi",
+      "kenji:e:iwatani",
+      "kenji:e:camp-chef",
+      "kenji:e:bamboo-wok-brush",
+      "kenji:e:nitrided-steel",
+      "kenji:e:carbon-steel",
+      "kenji:e:seasoning-polymerized-oil",
+      "kenji:e:mapo-tofu",
+      "kenji:e:pad-kra-pao",
+      "kenji:e:tiger-skin-chilies",
+      "kenji:e:pork-trotters",
+      "kenji:e:gelatin",
+      "kenji:e:mirepoix",
+      "kenji:e:carryover-cooking",
+      "kenji:e:sous-vide",
+      "kenji:e:cvap-oven",
+      "kenji:e:combustion-inc-thermometer",
+      "kenji:e:chris-young",
+      "kenji:e:beef-stew",
+      "kenji:e:carneal",
+      "kenji:e:ropea",
+      "kenji:e:marmite",
+      "kenji:e:fish-sauce",
+      "kenji:e:soy-sauce",
+      "kenji:e:msg",
+      "kenji:e:serious-eats",
+      "kenji:e:the-new-york-times",
+      "kenji:e:barney-lund",
+      "kenji:e:k-knives",
+      "kenji:e:von-helmick-custom-knife",
+      "kenji:e:whetstone",
+      "kenji:e:leather-strop",
+      "kenji:e:honing-steel",
+      "kenji:e:pull-through-sharpener",
+      "kenji:e:electric-grinder",
+      "kenji:e:tamago-kake-gohan",
+      "kenji:e:microwavable-single-serving-rice",
+      "kenji:e:tofu",
+      "kenji:e:braised-pork-shoulder",
+      "kenji:e:ethan-klavowski",
+      "kenji:e:wombat",
+      "kenji:e:lena-davidson",
+      "kenji:e:erin-kelly",
+      "kenji:e:seattle-riders-bike-tour",
+      "kenji:e:asian-family-mart",
+      "kenji:e:pearl-onions",
+      "kenji:e:boeuf-bourguignon",
+      "kenji:e:tomato",
+      "kenji:e:brassicas",
+      "kenji:e:snap-peas",
+      "kenji:e:french-top",
+      "kenji:e:dave-arnold",
+      "kenji:e:cooking-issues",
+      "kenji:e:wylie-dufresne",
+      "kenji:e:smoke-detector",
+      "kenji:e:halal-cart-chicken-and-rice",
+      "kenji:e:patreon"
+    ],
+    "categories": [
+      "kitchen tools",
+      "woks",
+      "appliances",
+      "knives",
+      "meat",
+      "techniques",
+      "ingredients",
+      "vegetables",
+      "rice",
+      "eggs",
+      "sauces"
+    ],
+    "answers_questions": [
+      "Why does Kenji prefer wooden cutting boards over plastic?",
+      "How often should I oil my wooden cutting board, and how do I know it needs it?",
+      "Are titanium or glass cutting boards bad for knives?",
+      "Should I get induction or gas, and can I cook with a wok on induction?",
+      "What portable burner should I use for wok cooking at home?",
+      "How do I clean burnt-on food from a carbon steel wok, and does seasoning come off?",
+      "I'm intimidated by wok cooking. Do I need an expensive wok to start?",
+      "Should I roast pork trotters before making stock?",
+      "Why do my steaks keep overshooting during resting, and how do I control carryover cooking?",
+      "How can I tell if my stew meat is undercooked or overcooked?",
+      "Can I substitute fish sauce for Marmite in the Food Lab beef stew?",
+      "What's the best way for a regular person to sharpen knives, and what does honing actually do?",
+      "How does Kenji plan meals and feed his kids during the week?",
+      "How do I get a picky kid to try new foods?",
+      "Are frozen pearl onions okay for stew?",
+      "How do I deal with smoke and smoke alarms when cooking in a small apartment?",
+      "When is the updated halal cart chicken and rice recipe coming out?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance",
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:021KahIfXfA:s0070",
+        "note": "Lena's analogy that 'sharpening is a haircut, honing's a trim' is refined by Kenji: honing is more like a good brush or comb-over, since it only realigns the edge rather than removing material."
+      }
+    ],
+    "related_videos": [
+      "Kenji's 'Chive' video about his early restaurant job at Number Nine Park in Boston",
+      "Kenji's videos on how to sharpen knives with whetstones",
+      "YouTube series: five days of recipes from one braised pork shoulder",
+      "Article on the stages of meat breakdown in braises (New York Times / Serious Eats / Patreon)",
+      "The Food Lab beef stew recipe",
+      "Upcoming updated halal cart chicken and rice video and variations",
+      "Proposed future wok-focused AMA livestream",
+      "Ethan Klavowski's cook-one-big-thing leftover recipe series"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:boos-block",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Boos Block",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Booze Block",
+        "Booze Blocks",
+        "booze block",
+        "booze blocks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wooden-cutting-board",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "wooden cutting board",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "wood cutting boards",
+        "wooden cutting boards"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:plastic-cutting-board",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "plastic cutting board",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "plastic cutting boards"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:titanium-cutting-board",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "titanium cutting board",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "titanium cutting boards"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:howard-butcher-block-conditioner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Howard Butcher Block Conditioner",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Howard Butcher block conditioner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:number-nine-park",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Number Nine Park",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:namiko-chen",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Namiko Chen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:just-one-cookbook",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Just One Cookbook",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:induction-cooktop",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "induction cooktop",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "induction",
+        "induction range"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gas-range",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "gas range",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "gas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "my book The Walk",
+        "my walk book",
+        "my walkbook",
+        "the book The Walk",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab",
+        "the food labs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-s-nitrided-carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Kenji's nitrided carbon steel wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "my new walk",
+        "this walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "carbon steel wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "carbon steel walk",
+        "walk",
+        "wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-hei",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "wok hei",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "high okay flavor",
+        "okay smokiness",
+        "wakay",
+        "wake",
+        "wake flavor",
+        "walk flavor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:portable-butane-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "portable butane burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "portable butane butane fuel burner",
+        "portable gas burner",
+        "portable walk burner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:balmuda",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "BALMUDA",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Balmuda"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:zojirushi",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Zojirushi",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "Zojushi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:iwatani",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Iwatani",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "iwatani"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:camp-chef",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Camp Chef",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bamboo-wok-brush",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bamboo wok brush",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "bamboo brush"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nitrided-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "nitrided steel",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "nitrited"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "carbon steel",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "raw carbon steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:seasoning-polymerized-oil",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Seasoning (polymerized oil)",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "polymerized oil",
+        "reseason",
+        "seasoning"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mapo-tofu",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mapo tofu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pad-kra-pao",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pad kra pao",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "grapo",
+        "patra"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tiger-skin-chilies",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "tiger skin chilies",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Tiger skins",
+        "tiger chilies"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pork-trotters",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pork trotters",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "pork feet",
+        "trotters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gelatin",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "gelatin",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "collagen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mirepoix",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Mirepoix",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "meawa vegetables",
+        "mepawa"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carryover-cooking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "carryover cooking",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "still continuing to rise in temperature"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sous-vide",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sous vide",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "sous-vide",
+        "suid",
+        "suit",
+        "suv",
+        "suvid"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cvap-oven",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "CVap oven",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "cvap style oven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:combustion-inc-thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Combustion Inc thermometer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "combustion inc",
+        "combustion ink"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chris-young",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Chris Young",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beef-stew",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "beef stew",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carneal",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "carneal",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ropea",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "ropea",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:marmite",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Marmite",
+      "brand": "Marmite",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fish-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "fish sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Chinese soy sauces",
+        "Indonesian soy sauces",
+        "Japanese soy sauces",
+        "Thai soy sauces",
+        "soy sauces"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "salt and MSG blend"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Serious Seeds",
+        "Sirius Eats",
+        "Sirius Seeds",
+        "Sirius heats",
+        "Sirius seats",
+        "printed recipe",
+        "serial seats",
+        "series Heats",
+        "series SE",
+        "series eats",
+        "series seats",
+        "serious eats",
+        "serious heats",
+        "serious seats",
+        "serus eats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-new-york-times",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "The New York Times",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New York Times",
+        "the New York Times"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:barney-lund",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Barney Lund",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bar-",
+        "Barney",
+        "barney",
+        "barney lund"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:k-knives",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "K Knives",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:von-helmick-custom-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Von Helmick custom knife",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Von Helmick"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:whetstone",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "whetstone",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "wet stone",
+        "wet stones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:leather-strop",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "leather strop",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "leather strap",
+        "strap",
+        "strop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:honing-steel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "honing steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "honing rod"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pull-through-sharpener",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pull-through sharpener",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "pullthrough things"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:electric-grinder",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "electric grinder",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "grinding wheel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tamago-kake-gohan",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Tamago kake gohan",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "tamago kake gohan tamagoan",
+        "tomago"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:microwavable-single-serving-rice",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "microwavable single-serving rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "single serving microwavable rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tofu",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tofu",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Tofu",
+        "tetra packs of tofu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:braised-pork-shoulder",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "braised pork shoulder",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "brazed pork shoulder"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ethan-klavowski",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Ethan Klavowski",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wombat",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Wombat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:erin-kelly",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Erin Kelly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Aaron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:seattle-riders-bike-tour",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Seattle Riders bike tour",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Seattle Rider Tour",
+        "Seattle Rider tours"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:asian-family-mart",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Asian Family Mart",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pearl-onions",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "pearl onions",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:boeuf-bourguignon",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "boeuf bourguignon",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "buff boreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tomato",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "tomato",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "tomatoes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brassicas",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Brassicas",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "brasacas",
+        "brassacas",
+        "brassasica"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:snap-peas",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "snap peas",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "snap pee"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:french-top",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "French top",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dave-arnold",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Dave Arnold",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cooking-issues",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Cooking Issues",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cook cooking issue",
+        "cooking issues"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wylie-dufresne",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Wylie Dufresne",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Wy Defra"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:smoke-detector",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "smoke detector",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cooking detectors",
+        "smoke alarm"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:halal-cart-chicken-and-rice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "halal cart chicken and rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "halal chicken recipe",
+        "halal clark chicken and rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cookbook club",
+        "patreon",
+        "super friendies",
+        "super fringy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "61a941303acd7fd0"
+}

@@ -1,0 +1,436 @@
+{
+  "platform_id": "RwNDUkt7cCM",
+  "profile": {
+    "video_id": "kenji:RwNDUkt7cCM",
+    "purpose": "Launch and introduce Kenji's collaboration knife with KAN, the Shitoku, by explaining its design and testing it while cooking a meal at a customer's home.",
+    "video_type": "other",
+    "thesis": "The KAN x Kenji Shitoku is a hybrid of a Japanese santoku and a western gyuto, designed through several prototypes as an affordable, precise, all-purpose knife for home cooks.",
+    "key_takeaways": [
+      "Kenji partnered with his friend Barney's company KAN, whose knives he bought for every cook at his restaurant about 8 years ago.",
+      "A santoku is said to have three qualities; the Shitoku ('four qualities') adds the curved, tapered tip of a gyuto (western chef's knife).",
+      "The final knife was rebalanced from the second-to-last prototype to balance at the bolster, and it was given more curve toward the tip.",
+      "It is designed for a pinch grip, and its curve and flat section support both rock chopping and Japanese-style push chopping.",
+      "Its sharpness and slight flexibility suit filleting, removing silver skin or fish skin, and thin slicing, shown on mango and tomato.",
+      "The knife has Kenji's guava pink and golden yolk banding, the KAN logo, and an egg yolk mark.",
+      "Kenji and Barney deliver one of the first finished knives to customers in Seattle and cook chanterelles, omelets and BLTs with them.",
+      "The knife is available for pre-order in limited quantities, and a portion of sales goes to charities fighting food insecurity."
+    ],
+    "outline": [
+      {
+        "title": "Introduction",
+        "summary": "Cold open of the knife delivery, then Kenji introduces himself at his home in Seattle.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "The KAN partnership and the Shitoku idea",
+        "summary": "Kenji explains his history with Barney's company KAN and its goal of affordable premium-feeling knives. He covers what a santoku is and how the Shitoku adds a gyuto-style tip.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Planning the delivery",
+        "summary": "Kenji and Barney decide to hand-deliver one of the first finished knives to a current customer in Seattle and cook with them as a field test.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Meeting the customers",
+        "summary": "They meet Sarah and Jordan, give them the knife, and look through their pantry and fridge for ingredients, including foraged chanterelles and a chili for mayo.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Knife design and features",
+        "summary": "Kenji explains the hybrid shape while cutting shallots and compares the final knife to the second-to-last prototype for balance and curve. He covers the pinch grip, comfort for different hand sizes, and rock chop versus push chop.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "Cooking and knife testing",
+        "summary": "They mince rosemary, beat eggs and plan BLTs. Kenji demonstrates the knife's flexibility and sharpness for filleting-style cuts on a mango and thin tomato slices, and discusses the design process and the knife's colors and markings.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Finishing the meal",
+        "summary": "They make omelets with sauce, assemble BLTs while discussing layering, and taste the lemony chanterelles.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Pre-order and charity details",
+        "summary": "Kenji announces the knife is available for pre-order in limited quantities for holiday delivery. Barney explains that a portion of each sale goes to food insecurity charities.",
+        "first_segment": 11,
+        "last_segment": 12
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "3 2 1 It'd be fun",
+        "last_segment": 0,
+        "ends_with": "here at my home in Seattle.",
+        "note": "Cold open of the knife delivery and Kenji's greeting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "Um which my nails are not",
+        "last_segment": 9,
+        "ends_with": "but they typically are.",
+        "note": "Joke about his nails not matching the knife's colors today"
+      },
+      {
+        "role": "outro",
+        "first_segment": 11,
+        "starts_with": "All right. So, that is the",
+        "last_segment": 12,
+        "ends_with": "sling it into the blade? 3 2 1",
+        "note": "Pre-order announcement, charity details and sign-off"
+      }
+    ],
+    "topics": [
+      "knife design",
+      "santoku vs gyuto",
+      "hybrid knife shapes",
+      "knife balance at the bolster",
+      "pinch grip",
+      "rock chop vs push chop",
+      "filleting and thin slicing",
+      "knife prototypes",
+      "BLT sandwich layering",
+      "omelets",
+      "chanterelles",
+      "product launch and pre-order",
+      "charity for food insecurity"
+    ],
+    "entity_ids": [
+      "kenji:e:kan-x-kenji-shitoku",
+      "kenji:e:kan",
+      "kenji:e:santoku",
+      "kenji:e:gyuto",
+      "kenji:e:bolster",
+      "kenji:e:pinch-grip",
+      "kenji:e:rock-chop",
+      "kenji:e:filleting",
+      "kenji:e:barney-lund",
+      "kenji:e:sarah",
+      "kenji:e:jordan",
+      "kenji:e:no-kid-hungry",
+      "kenji:e:patreon",
+      "kenji:e:blt",
+      "kenji:e:omelette",
+      "kenji:e:chanterelles",
+      "kenji:e:chili-mayo",
+      "kenji:e:serrated-knife"
+    ],
+    "categories": [
+      "knives",
+      "techniques",
+      "eggs"
+    ],
+    "answers_questions": [
+      "What is the Shitoku knife Kenji designed with KAN?",
+      "What's the difference between a santoku and the Shitoku?",
+      "What does 'shitoku' mean?",
+      "How did the knife change from the prototype to the final version?",
+      "Where should a chef's knife balance?",
+      "What grip is Kenji's KAN knife designed for?",
+      "Can you rock chop with a santoku-style knife?",
+      "Is the Shitoku good for filleting fish or removing silver skin?",
+      "What colors and markings are on Kenji's knife?",
+      "Why did Kenji choose KAN knives for his restaurant?",
+      "How do I pre-order the KAN x Kenji knife and when will it ship?",
+      "Does any of the money from Kenji's knife go to charity?",
+      "How does Kenji layer a BLT?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:RwNDUkt7cCM:s0011",
+        "note": "After telling the customers they have the very first knife, Kenji clarifies that they are the first other than himself."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:kan-x-kenji-shitoku",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "KAN x Kenji Shitoku",
+      "brand": "KAN",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Kaan Kenji Lopez Alt Shitoku knife",
+        "shitoku"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kan",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "KAN",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Kaan",
+        "con",
+        "connives",
+        "kan",
+        "khan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:santoku",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "santoku",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "santok",
+        "santoko",
+        "sanu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gyuto",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "gyuto",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "gto"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bolster",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "Bolster",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "bolster"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pinch-grip",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pinch grip",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rock-chop",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "rock chop",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:filleting",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "filleting",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:barney-lund",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Barney Lund",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bar-",
+        "Barney",
+        "barney",
+        "barney lund"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sarah",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Sarah",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:jordan",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Jordan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:no-kid-hungry",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "No Kid Hungry",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "no kid hungry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:blt",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "BLT",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "BLTs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:omelette",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Omelette",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "omelet",
+        "omelets",
+        "omelette"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chanterelles",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "chanterelles",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chili-mayo",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "chili mayo",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "chili in the mayo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serrated-knife",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "serrated knife",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "serrated"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "43f9732f65bcee68"
+}

@@ -1,0 +1,354 @@
+{
+  "platform_id": "JgtTzfmCUZM",
+  "profile": {
+    "video_id": "kenji:JgtTzfmCUZM",
+    "purpose": "Announces and presents a limited-run knife Kenji co-designed with bladesmith Gordon Hanson of Vonhelmick. He explains how the collaboration began, the blade design, the aesthetics, the materials and specifications, and how to buy one.",
+    "video_type": "other",
+    "thesis": "The Kenji x Vonhelmick knife is a hand-forged, santoku-based blade with a tapered gyuto-like tip and extra curve. It is meant to combine santoku chopping with western rocking cuts in one balanced, beautiful everyday knife.",
+    "key_takeaways": [
+      "The knife grew out of a knife Kenji forged with Gordon Hanson after staying at his property in Oregon.",
+      "The design starts from a Japanese santoku but tapers to a point like a western chef's knife or gyuto, with a steeper curve for rocking cuts.",
+      "The nashiji hammered finish helps food release from the blade as well as looking good.",
+      "The blade is 20-layer suminagashi steel with a Shiro2 high-carbon core, hardened to about 60-61 Rockwell.",
+      "Specs: 11.6 in overall length, a blade of about 6.5 in, 134 g.",
+      "The handle is 200-year-old black walnut from McMinnville, banded in Guava Pink and Golden Yolk.",
+      "Only 100 are made, by hand in Falls City, Oregon, each with a signed certificate of authenticity."
+    ],
+    "outline": [
+      {
+        "title": "The story behind the knife",
+        "summary": "Kenji introduces the first production prototype and explains his lifelong love of knives and his wish to design his own.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Meeting the bladesmith",
+        "summary": "How Kenji met Gordon Hanson while staying at his tiny home rental. He describes forging his first slim-tipped santoku-style knife with Gordon over two days.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Design and functionality",
+        "summary": "The production design is slimmer and lighter than Kenji's first knife. It is a santoku base with a tapered tip and steeper curve, so it can both chop and rock.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Aesthetic features",
+        "summary": "The nashiji hammered finish aids food release, and the knife is meant to be a pleasure to hold. The walnut handle carries banding in Kenji's signature colors.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Materials and specifications",
+        "summary": "Covers the 20-layer suminagashi steel (as opposed to Damascus), the acid etching, the Shiro2 core at 60-61 HRC, and the length and weight.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Production and availability",
+        "summary": "Gordon hand-makes a run of 100 in Falls City, Oregon. Each comes with a signed certificate of authenticity, and ordering links are provided.",
+        "first_segment": 8,
+        "last_segment": 9
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone, how's it going?",
+        "last_segment": 0,
+        "ends_with": "as it is to uh behold.",
+        "note": "Greeting and introduction of the prototype knife"
+      },
+      {
+        "role": "outro",
+        "first_segment": 9,
+        "starts_with": "And I will leave a link",
+        "last_segment": 9,
+        "ends_with": "my links from. See you later.",
+        "note": "Sign-off with ordering link"
+      }
+    ],
+    "topics": [
+      "knife design",
+      "santoku vs western chef's knife",
+      "hand-forged knives",
+      "suminagashi steel",
+      "nashiji finish",
+      "knife specifications",
+      "limited-edition collaboration"
+    ],
+    "entity_ids": [
+      "kenji:e:kenji-x-vonhelmick-knife",
+      "kenji:e:gordon-hanson",
+      "kenji:e:vonhelmick",
+      "kenji:e:suminagashi-steel",
+      "kenji:e:shiro2-shirogami-2-carbon-steel",
+      "kenji:e:nashiji-finish",
+      "kenji:e:santoku",
+      "kenji:e:gyuto",
+      "kenji:e:western-chef-s-knife",
+      "kenji:e:damascus-steel",
+      "kenji:e:black-walnut",
+      "kenji:e:rockwell-hardness",
+      "kenji:e:takefu-special-steels",
+      "kenji:e:patreon",
+      "kenji:e:three-pound-hammer"
+    ],
+    "categories": [
+      "knives"
+    ],
+    "answers_questions": [
+      "What knife did Kenji design with Gordon Hanson?",
+      "How did Kenji meet the bladesmith who made his knife?",
+      "How is Kenji's knife different from a normal santoku?",
+      "Can you rock-chop with the Kenji x Vonhelmick knife?",
+      "What steel is Kenji's signature knife made of?",
+      "How hard is the Kenji knife on the Rockwell scale?",
+      "How long and how heavy is Kenji's knife?",
+      "What is the handle of Kenji's knife made from?",
+      "Why does the knife have a hammered finish?",
+      "Is suminagashi the same as Damascus?",
+      "How many of Kenji's knives were made and where are they made?",
+      "What does santoku mean?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:kenji-x-vonhelmick-knife",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Kenji x Vonhelmick knife",
+      "brand": "Vonhelmick",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "the knife that I've been working on"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gordon-hanson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Gordon Hanson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gordon",
+        "Gordon Hansen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vonhelmick",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Vonhelmick",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:suminagashi-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "suminagashi steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "sum nagashi",
+        "sumagashi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shiro2-shirogami-2-carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Shiro2 (Shirogami #2) carbon steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Shidu",
+        "shidu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nashiji-finish",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "nashiji finish",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "aiji finish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:santoku",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "santoku",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "santok",
+        "santoko",
+        "sanu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gyuto",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "gyuto",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "gto"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:western-chef-s-knife",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "western chef's knife",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "western knife",
+        "western style chef's knife"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:damascus-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Damascus steel",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Damascus",
+        "damascus"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-walnut",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "black walnut",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "200-year-old uh black walnut"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rockwell-hardness",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Rockwell hardness",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:takefu-special-steels",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Takefu Special Steels",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:three-pound-hammer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "three-pound hammer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "three-PB hammer"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "b39ec8e0f8c9cdf2"
+}

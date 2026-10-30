@@ -1,0 +1,710 @@
+{
+  "platform_id": "AODAwMANijw",
+  "profile": {
+    "video_id": "kenji:AODAwMANijw",
+    "purpose": "A recipe demonstration of baked ziti from The Food Lab. It uses soaked rather than boiled pasta, a split red and pink sauce, and cubed mozzarella, with food-science explanations along the way.",
+    "video_type": "how_to",
+    "thesis": "Soaking dried pasta in warm salted water instead of boiling it, then letting it cook in the oven, avoids the double-cooked, overcooked pasta of conventional baked ziti. It is also easier and needs no extra pot.",
+    "key_takeaways": [
+      "Dried pasta cooking has two separable stages: absorbing water (starch swelling) and heating (protein coagulation). Soaking handles the first, so the oven handles the second.",
+      "Soak the pasta in warm salted water for about 20–30 minutes, stirring occasionally so higher-quality bronze-die pasta doesn't stick. It turns pale white when it has absorbed enough.",
+      "The marinara is loosely based on Marcella Hazan's tomato sauce, using butter and olive oil to round out the tomatoes' flavor.",
+      "Onions and garlic can be sweated together because the moisture from the onions protects the garlic from burning.",
+      "Use crushed or whole peeled tomatoes, not diced; diced tomatoes contain calcium chloride and won't break down.",
+      "Choose ricotta without stabilizers, and use cubed low-moisture full-fat mozzarella for gooey pockets.",
+      "Half the sauce becomes a pink sauce with ricotta, cream, Parmesan, eggs and herbs, mixed with the pasta. The other half of the red sauce goes on top.",
+      "Bake covered with foil at 400°F for 45 minutes, then uncovered about 15 minutes (optionally under the broiler). Finish with Parmesan, good olive oil and herbs, and ideally rest 10–15 minutes."
+    ],
+    "outline": [
+      {
+        "title": "The science of pasta",
+        "summary": "Introduces the Food Lab baked ziti and explains why boiled pasta overcooks in a casserole. Covers Ideas in Food's finding that hydration and cooking can be separated, and starts the pasta soaking.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Preparing the sauce",
+        "summary": "Sweats onion in butter and olive oil for a Marcella Hazan-inspired marinara and explains why onion and garlic can go in together. Adds chili flakes, oregano and basil stems, with tips on soaking pasta ahead and stirring it.",
+        "first_segment": 4,
+        "last_segment": 9
+      },
+      {
+        "title": "Sauce simmer and cheese prep",
+        "summary": "Cubes low-moisture mozzarella and adds crushed tomatoes, explaining why to avoid diced tomatoes. Explains why cubed cheese beats shredded, with a digression on Chicago calling baked ziti 'lasagna'.",
+        "first_segment": 10,
+        "last_segment": 14
+      },
+      {
+        "title": "Mixing the filling",
+        "summary": "Drains the soaked pasta and reserves half the red sauce. Turns the rest into a pink sauce with ricotta (avoiding stabilizers), Parmesan, eggs and herbs, then folds in the pasta and half the mozzarella.",
+        "first_segment": 15,
+        "last_segment": 21
+      },
+      {
+        "title": "Assembly and baking",
+        "summary": "Pours the mixture into a deep baking dish and tops it with the reserved red sauce and mozzarella. Bakes it covered with foil at 400°F for 45 minutes, then uncovers it to brown.",
+        "first_segment": 22,
+        "last_segment": 24
+      },
+      {
+        "title": "Finishing and tasting",
+        "summary": "Broils briefly, then finishes with Parmesan, olive oil and herbs, and notes the value of resting. Tastes it, tallies the dairy and recaps the technique.",
+        "first_segment": 25,
+        "last_segment": 29
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone, it's Kenji.",
+        "last_segment": 0,
+        "ends_with": "cookbook, The Food Lab, right here.",
+        "note": "Greeting and introduction of the Food Lab baked ziti recipe."
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "Oh, hi Chen.",
+        "last_segment": 6,
+        "ends_with": "Oh, hi Chen.",
+        "note": "Greets someone named Chen off camera."
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "The big ziti that I'm familiar",
+        "last_segment": 14,
+        "ends_with": "which is a little strange, I think.",
+        "note": "Digression on meat in baked ziti and a Chicago neighbor who called it lasagna."
+      },
+      {
+        "role": "aside",
+        "first_segment": 20,
+        "starts_with": "What does that mean? What does",
+        "last_segment": 21,
+        "ends_with": "I don't know how to be any clearer.",
+        "note": "Comedic bit acting out confusion over 'fold in the cheese'."
+      },
+      {
+        "role": "aside",
+        "first_segment": 22,
+        "starts_with": "I'll save the rest of this",
+        "last_segment": 22,
+        "ends_with": "Wombat to eat with his spaghetti.",
+        "note": "Saving leftover sauce for a family member."
+      },
+      {
+        "role": "aside",
+        "first_segment": 27,
+        "starts_with": "All right, I'm going to let",
+        "last_segment": 27,
+        "ends_with": "leftovers over the weekend.",
+        "note": "Plans for Lena and the kids to eat the casserole."
+      },
+      {
+        "role": "outro",
+        "first_segment": 29,
+        "starts_with": "All right, guys, gals, non-binary pals.",
+        "last_segment": 29,
+        "ends_with": "non-binary pals. See you later.",
+        "note": "Sign-off."
+      }
+    ],
+    "topics": [
+      "baked ziti",
+      "soaking pasta instead of boiling",
+      "pasta hydration vs cooking",
+      "marinara sauce with butter",
+      "sweating onions and garlic",
+      "canned tomato types",
+      "calcium chloride in diced tomatoes",
+      "ricotta quality and stabilizers",
+      "cubed vs shredded mozzarella",
+      "pink sauce",
+      "casserole baking with foil",
+      "Italian-American cooking"
+    ],
+    "entity_ids": [
+      "kenji:e:the-food-lab",
+      "kenji:e:ideas-in-food",
+      "kenji:e:alex-talbot",
+      "kenji:e:aki-kamozawa",
+      "kenji:e:marcella-hazan",
+      "kenji:e:bianca-dopoly",
+      "kenji:e:dan-pman",
+      "kenji:e:baked-ziti",
+      "kenji:e:soaking-pasta",
+      "kenji:e:bronze-die-extruded-pasta",
+      "kenji:e:ziti-lisci",
+      "kenji:e:penne-rigate",
+      "kenji:e:low-moisture-mozzarella",
+      "kenji:e:buffalo-mozzarella",
+      "kenji:e:fior-di-latte",
+      "kenji:e:ricotta",
+      "kenji:e:parmesan",
+      "kenji:e:heavy-cream",
+      "kenji:e:crushed-tomatoes",
+      "kenji:e:whole-peeled-tomatoes",
+      "kenji:e:diced-tomatoes",
+      "kenji:e:calcium-chloride",
+      "kenji:e:xanthan-gum",
+      "kenji:e:extra-virgin-olive-oil",
+      "kenji:e:butter",
+      "kenji:e:eggs",
+      "kenji:e:marinara-sauce",
+      "kenji:e:pink-sauce",
+      "kenji:e:sweating-aromatics",
+      "kenji:e:folding",
+      "kenji:e:baking-dish",
+      "kenji:e:lena-davidson",
+      "kenji:e:chen",
+      "kenji:e:wombat"
+    ],
+    "categories": [
+      "noodles",
+      "techniques",
+      "sauces",
+      "ingredients",
+      "baking"
+    ],
+    "answers_questions": [
+      "Can I soak pasta instead of boiling it for baked ziti?",
+      "Why does baked ziti pasta get mushy or overcooked?",
+      "How long should I soak ziti before baking?",
+      "Can I soak pasta the night before?",
+      "Is it okay to cook onions and garlic together without burning the garlic?",
+      "Why shouldn't I use diced tomatoes for tomato sauce?",
+      "What should I look for when buying ricotta?",
+      "Should I shred or cube mozzarella for baked ziti?",
+      "Why add butter to marinara sauce?",
+      "What oven temperature and time does Kenji use for baked ziti?",
+      "Does Kenji put meat in his baked ziti?",
+      "Why use eggs and cream in baked ziti?",
+      "How do I know when soaked pasta is ready?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:AODAwMANijw:s0009",
+        "note": "After calling pepper flakes and oregano the 'final ingredients' in segment 8, he corrects himself: they are just the next two ingredients, and basil stems follow."
+      },
+      {
+        "segment_id": "kenji:AODAwMANijw:s0016",
+        "note": "Starts to add 12 oz of ricotta, then corrects himself: first he removes the basil stems from the sauce."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ideas-in-food",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Ideas in Food",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:alex-talbot",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Alex Talbot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Alex Talbad"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aki-kamozawa",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Aki Kamozawa",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Aki Kamazawa"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:marcella-hazan",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Marcella Hazan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marchella Hzan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bianca-dopoly",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Bianca Dopoly",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dan-pman",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Dan Pman",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:baked-ziti",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "baked ziti",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "Big ziti",
+        "big ziti"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soaking-pasta",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "soaking pasta",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "soak it",
+        "soak pasta"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bronze-die-extruded-pasta",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "bronze die extruded pasta",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "bronze die extruded"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ziti-lisci",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "ziti lisci",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "ziti lie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:penne-rigate",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "penne rigate",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "pennate"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:low-moisture-mozzarella",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "low-moisture mozzarella",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "full fat aged mozzarella",
+        "low moisture mozzarella cheese",
+        "low-moisture part-skim",
+        "mozzarella"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:buffalo-mozzarella",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "buffalo mozzarella",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Buffalo mozzarella"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:fior-di-latte",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "fior di latte",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Foda latte"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ricotta",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "ricotta",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:parmesan",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Parmesan",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "parmesan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:heavy-cream",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "heavy cream",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "cream"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:crushed-tomatoes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "crushed tomatoes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:whole-peeled-tomatoes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "whole peeled tomatoes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "whole killed tomatoes",
+        "whole pee peeled tomatoes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:diced-tomatoes",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "diced tomatoes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:calcium-chloride",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "calcium chloride",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:xanthan-gum",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "xanthan gum",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "zanthan gum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:extra-virgin-olive-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "extra virgin olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "olive oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:butter",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Butter",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "butter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eggs",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "EG",
+        "egg",
+        "three eggs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:marinara-sauce",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "marinara sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "marinara",
+        "red sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pink-sauce",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "pink sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "pinkish sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sweating-aromatics",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sweating aromatics",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "sweat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:folding",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "folding",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "fold"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:baking-dish",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "baking dish",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "casserole dish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chen",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Chen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wombat",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Wombat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "f1b46e2120486103"
+}

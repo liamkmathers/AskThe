@@ -1,0 +1,599 @@
+{
+  "platform_id": "GDH6Xyzi_2Q",
+  "profile": {
+    "video_id": "kenji:GDH6Xyzi_2Q",
+    "purpose": "Shows how to make a simple Peruvian-style ceviche and explains how citrus acid 'cooks' raw fish, including how long to marinate it.",
+    "video_type": "how_to",
+    "thesis": "Acid denatures fish proteins much like heat does, without killing pathogens, so ceviche needs sushi-grade fish and has an ideal marination window. Under-marinated fish stays raw and slippery, and over-marinated fish turns dry, chalky and mushy.",
+    "key_takeaways": [
+      "Opens with a side-by-side comparison of fish marinated from about 2 minutes up to 2 hours.",
+      "Ceviche is Peruvian and usually made with raw fish; versions elsewhere in South America and Mexico may use cooked seafood or tomato, ketchup or mayo bases (salsa rosada in Colombia).",
+      "Use very fresh, firm, white-fleshed ocean fish of the kind you'd eat raw. Salmon also works. Trim connective tissue and pin bones.",
+      "Cut the fish into roughly quarter- to half-inch chunks. Slices also work.",
+      "This basic version is seasoned with red onion, serrano chili and cilantro, and ceviche is treated as a template for other flavours.",
+      "Acid denatures proteins the way heat does, so the fish firms up and turns opaque, but it does not kill bacteria.",
+      "Any citrus works: lime, lemon, sour orange, or a mix. The amount only needs to coat the fish (the recipe says about half a cup per pound).",
+      "For firm fish, marinate at least 5 minutes, ideally about 15, and no more than 30 to 45.",
+      "Served with boiled sweet potato, corn nuts in place of Peruvian fried corn, cilantro, olive oil and a habanero hot sauce.",
+      "Ceviche keeps 'cooking' at the table, so eat it promptly."
+    ],
+    "outline": [
+      {
+        "title": "Intro & Ceviche Texture Comparison",
+        "summary": "Shows six batches of fish marinated for different times, from about 2 minutes to 2 hours, to show how texture changes.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "What is Ceviche?",
+        "summary": "Explains ceviche's Peruvian origins and regional variations in Colombia and Mexico, including cooked seafood and tomato, ketchup or mayo bases.",
+        "first_segment": 1,
+        "last_segment": 1
+      },
+      {
+        "title": "Choosing & Prepping the Fish",
+        "summary": "Why sushi-quality firm white fish is needed, and trimming connective tissue and pin bones.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Cutting Fish into Chunks",
+        "summary": "Cutting the fish into bite-sized chunks; slices are also fine.",
+        "first_segment": 3,
+        "last_segment": 3
+      },
+      {
+        "title": "Prepping Red Onion, Chili, & Cilantro",
+        "summary": "Prepping the garnishes: red onion, serrano chili cut into fillets and brunoise to leave the seeds behind, and cilantro leaves with tender stems. Also covers ceviche as a flavour template.",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "How Acid \"Cooks\" Fish",
+        "summary": "Explains protein denaturation by acid versus heat, why the fish turns opaque, and why acid doesn't kill pathogens.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Choosing Your Citrus Mix",
+        "summary": "Options for citrus juice and why the exact quantity matters little as long as the fish is coated.",
+        "first_segment": 9,
+        "last_segment": 10
+      },
+      {
+        "title": "Mixing, Marinating & Cooking Time Tips",
+        "summary": "Tossing the fish with juice and salt, plus guidance on minimum, ideal and maximum marination times.",
+        "first_segment": 11,
+        "last_segment": 12
+      },
+      {
+        "title": "Prepping Sweet Potato",
+        "summary": "Slicing and boiling sweet potato as an accompaniment, then a repeat of the texture comparison.",
+        "first_segment": 12,
+        "last_segment": 13
+      },
+      {
+        "title": "Final Texture Check",
+        "summary": "Checks the ceviche at 15 to 20 minutes and finds it at the ideal texture.",
+        "first_segment": 14,
+        "last_segment": 14
+      },
+      {
+        "title": "Plating the Ceviche & Garnish",
+        "summary": "Plates with corn nuts in place of Peruvian fried corn, sweet potato, cilantro, olive oil and habanero hot sauce.",
+        "first_segment": 14,
+        "last_segment": 16
+      },
+      {
+        "title": "Taste Test & Final Thoughts",
+        "summary": "Tastes the ceviche, warns that it keeps cooking at the table, and calls it an ideal low-effort summer appetizer.",
+        "first_segment": 16,
+        "last_segment": 17
+      },
+      {
+        "title": "Where to Find More Content",
+        "summary": "Points to Patreon, the channel, Instagram and the books.",
+        "first_segment": 17,
+        "last_segment": 18
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Today we're going to make ceviche.",
+        "last_segment": 0,
+        "ends_with": "we are going to talk about it today.",
+        "note": "Cold-open texture comparison of fish marinated for different times"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "Brunois is um French for Bruno.",
+        "last_segment": 6,
+        "ends_with": "I don't know where I'm going with this.",
+        "note": "Joke about the origin of the word brunoise"
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "cameraman Michael uh says he loves",
+        "last_segment": 16,
+        "ends_with": "which comes from Bise.",
+        "note": "Adds hot sauce because cameraman Michael loves habanero sauce"
+      },
+      {
+        "role": "outro",
+        "first_segment": 17,
+        "starts_with": "Hey everyone, I hope you enjoyed the video.",
+        "last_segment": 18,
+        "ends_with": "in the description below. Thanks.",
+        "note": "Plugs for Patreon, the channel, Instagram and the books"
+      }
+    ],
+    "topics": [
+      "ceviche",
+      "marinating fish in citrus",
+      "protein denaturation by acid",
+      "food safety with raw fish",
+      "choosing fish for raw dishes",
+      "marination time",
+      "knife work for garnishes",
+      "regional ceviche variations",
+      "ceviche accompaniments"
+    ],
+    "entity_ids": [
+      "kenji:e:ceviche",
+      "kenji:e:salsa-rosada",
+      "kenji:e:protein-denaturation",
+      "kenji:e:brunoise",
+      "kenji:e:white-fleshed-ocean-fish",
+      "kenji:e:skin-on-salmon",
+      "kenji:e:red-onion",
+      "kenji:e:serrano-chili",
+      "kenji:e:cilantro",
+      "kenji:e:lime-juice",
+      "kenji:e:lemon-juice",
+      "kenji:e:sour-orange",
+      "kenji:e:tangerine",
+      "kenji:e:sweet-potato",
+      "kenji:e:corn-nuts",
+      "kenji:e:olive-oil",
+      "kenji:e:habanero-hot-sauce",
+      "kenji:e:mary-sharps",
+      "kenji:e:coconut-milk",
+      "kenji:e:michael-weiner",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:patreon",
+      "kenji:e:book-larder",
+      "kenji:e:kenji-lopez-main"
+    ],
+    "categories": [
+      "techniques",
+      "ingredients",
+      "vegetables"
+    ],
+    "answers_questions": [
+      "How long should I marinate fish for ceviche?",
+      "What happens if I leave ceviche in lime juice too long?",
+      "Does lime juice actually cook the fish or kill bacteria?",
+      "What kind of fish should I use for ceviche?",
+      "Can I make ceviche with salmon?",
+      "How much citrus juice do I need for ceviche?",
+      "Can I use lemon or other citrus instead of lime for ceviche?",
+      "Why does fish turn opaque and firm in acid?",
+      "What do you serve with ceviche?",
+      "What can I use instead of Peruvian fried corn (cancha)?",
+      "How do you cut a serrano chili to keep the seeds out?",
+      "How is Peruvian ceviche different from Colombian or Mexican ceviche?",
+      "Should I cut fish into chunks or slices for ceviche?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:ceviche",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "ceviche",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Ceviche"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:salsa-rosada",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "salsa rosada",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:protein-denaturation",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "protein denaturation",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "denaturization",
+        "dennaturation"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brunoise",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "brunoise",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "Brunois",
+        "bruno"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:white-fleshed-ocean-fish",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "white-fleshed ocean fish",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "firm uh fresh white fleshed ocean fish"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:skin-on-salmon",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Skin-on salmon",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "salmon",
+        "skin on salmon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:red-onion",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "red onion",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "red onions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serrano-chili",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "serrano chili",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Serrano chili",
+        "Serranos",
+        "srano chili"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cilantro",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "cilantro",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lime-juice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "lime juice",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "lime",
+        "limes",
+        "line"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lemon-juice",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "lemon juice",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "lemon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sour-orange",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sour orange",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "sour oranges"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tangerine",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "tangerine",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sweet-potato",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "sweet potato",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:corn-nuts",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "corn nuts",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:olive-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "olive oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "everyday cooking olive oil",
+        "everyday olive oil",
+        "fancy olive oil",
+        "light olive oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:habanero-hot-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "habanero hot sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Aanero hot sauces",
+        "Aano",
+        "abanero hot sauce"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mary-sharps",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Mary Sharps",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:coconut-milk",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "coconut milk",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:michael-weiner",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Michael Weiner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael",
+        "cameraman Michael"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:book-larder",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Book Larder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bookarter",
+        "book Larder",
+        "book Larter"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kenji-lopez-main",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Kenji Lopez Main",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "98790b758e6d3357"
+}

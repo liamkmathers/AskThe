@@ -1,0 +1,1870 @@
+{
+  "platform_id": "BZmQu1M4bhM",
+  "profile": {
+    "video_id": "kenji:BZmQu1M4bhM",
+    "purpose": "A walking tour of Asian Family Mart in North Seattle, Kenji's most-visited grocery store. He goes aisle by aisle, pointing out the produce, meats, seafood, pantry staples, frozen foods, drinks and kitchenware he buys there, with shopping tips along the way.",
+    "video_type": "other",
+    "thesis": "Asian Family Mart is Kenji's favourite place to shop. He shows what it stocks that Western supermarkets don't, how its prices compare, and how he picks specific items there.",
+    "key_takeaways": [
+      "Covers produce selection tips: wrinkly champagne mangoes, slightly giving mangosteens, and smooth-skinned ginger that doesn't need peeling.",
+      "Shows the store's range of mushrooms, eggplants, herbs, meats, offal, and live seafood such as Dungeness crab and spot prawns.",
+      "Explains the 'China Time-Honored Brand' label on traditional Chinese ingredients like doubanjiang and compares it to the French AOC and Italian DOP systems.",
+      "Introduces roasted rapeseed oil as the oil behind the signature flavour of much Sichuan cooking.",
+      "Names specific items he buys: Tamaki Gold rice, Arabiki sausages, the store's pork soup dumplings, pork steamed buns, Japanese curry blocks and Calpico.",
+      "Points to the store for cheap kitchenware: bowls, stacking stainless steel bowls, chopsticks, bamboo steamers, woks and papaya shredders."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Asian Mart",
+        "summary": "A cold-open teaser, then Kenji introduces Asian Family Mart in Seattle as his most-visited store for Asian ingredients and produce.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Produce and fresh mushrooms",
+        "summary": "Covers fruit (champagne mangoes, durian, longans, mangosteens, dragon fruit, stone fruit) with tips for judging ripeness, then the cultivated mushroom selection and nagaimo for okonomiyaki.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Greens, herbs, and roots",
+        "summary": "Greens and herbs such as Thai basil, mint, cilantro and dill, plus unusual fruits and a wide range of eggplant varieties. Also covers ginger selection, chilies, scallions, lemongrass and green papaya.",
+        "first_segment": 4,
+        "last_segment": 6
+      },
+      {
+        "title": "Meats, sausages, and tofu",
+        "summary": "Miso, Japanese Arabiki sausages, packaged whole duck, Chinese sausages, dried seafood, tofu, dumpling wrappers, and fresh noodles that arrive on Mondays.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Specialty butchery and offal",
+        "summary": "Shaved meats for hot pot and shabu shabu, pork parts, Snake River Farms and Mishima Reserve beef, short ribs for galbi, oxtail, and a large tripe and offal selection including beef aorta, tongue and pork jaw.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Live seafood and dumplings",
+        "summary": "The live seafood tanks his son calls 'the small aquarium': oysters, spot prawns, cheap live Dungeness crab, and handmade frozen dumplings.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Traditional pantry staples",
+        "summary": "Explains looking for the China Time-Honored Brand label on ingredients like doubanjiang, then tours the egg section (quail, duck, salted, tea, thousand-year), soy milk and Chinese cooking wines.",
+        "first_segment": 11,
+        "last_segment": 12
+      },
+      {
+        "title": "Oils, rice, and snacks",
+        "summary": "Roasted rapeseed oil for Sichuan cooking, the rice selection including Tamaki Gold, Turtle Chips and the wide chip selection.",
+        "first_segment": 13,
+        "last_segment": 15
+      },
+      {
+        "title": "Sauces, spices, and canned goods",
+        "summary": "Soy sauces from many countries, sugars, salt, MSG, dashi, chili crisp varieties, chili oils, curry pastes and blocks, fish pastes, and cheap spices like Sichuan pepper and chilies. Also covers a Sichuan YouTube chef's hot pot base, canned seafood and stinky tofu.",
+        "first_segment": 15,
+        "last_segment": 17
+      },
+      {
+        "title": "Frozen buns and confectionery",
+        "summary": "Pork steamed buns for breakfast, candies and snacks like Hello Panda, Pocky and prawn crackers, and the frozen section's soup dumplings, shumai, crystal shrimp dumplings and banana leaves.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "Drinks and specialty items",
+        "summary": "The Asian drinks section and the story of why Calpis is sold as Calpico in the US.",
+        "first_segment": 19,
+        "last_segment": 20
+      },
+      {
+        "title": "Noodles, tools, and wrap-up",
+        "summary": "The dry noodle aisle, then inexpensive bowls, bamboo steamers, woks, papaya shredders, chopsticks and stacking stainless steel bowls, before closing with the store's location.",
+        "first_segment": 20,
+        "last_segment": 22
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "And if you've ever been disappointed",
+        "last_segment": 0,
+        "ends_with": "some of my favorite things to get here.",
+        "note": "Cold-open teaser clips, then Kenji introduces Asian Family Mart and the tour."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "There's an Eddieard bit about like",
+        "last_segment": 3,
+        "ends_with": "doesn't have a frame of reference?",
+        "note": "Recalls a comedy bit about squeezing produce at the supermarket."
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "My son Wombat, he's really into",
+        "last_segment": 10,
+        "ends_with": "they've got all kinds of live fish.",
+        "note": "His son calls the live seafood section 'the small aquarium'."
+      },
+      {
+        "role": "aside",
+        "first_segment": 14,
+        "starts_with": "If you listen to my friends",
+        "last_segment": 14,
+        "ends_with": "on turtle chips and how they're made.",
+        "note": "Mentions friends' podcast Spilled Milk and its episode on Turtle Chips."
+      },
+      {
+        "role": "aside",
+        "first_segment": 18,
+        "starts_with": "The office I used to work",
+        "last_segment": 18,
+        "ends_with": "one of the finest restaurant names.",
+        "note": "Memory of the Serious Eats office next to a restaurant called Golden Steamer."
+      },
+      {
+        "role": "aside",
+        "first_segment": 20,
+        "starts_with": "Um, and my dad would call",
+        "last_segment": 20,
+        "ends_with": "because cowpiss sounds like cowpiss.",
+        "note": "Joke about his dad and why Calpis was renamed Calpico in the US."
+      },
+      {
+        "role": "outro",
+        "first_segment": 22,
+        "starts_with": "I think I think that's about",
+        "last_segment": 22,
+        "ends_with": "All right. See you later.",
+        "note": "Wrap-up giving the store's location on Aurora Ave in North Seattle and a sign-off."
+      }
+    ],
+    "topics": [
+      "Asian grocery store tour",
+      "Seattle grocery shopping",
+      "choosing ripe fruit",
+      "Asian produce varieties",
+      "mushroom varieties",
+      "eggplant varieties",
+      "offal and specialty cuts",
+      "live seafood",
+      "China Time-Honored Brand certification",
+      "Sichuan ingredients",
+      "roasted rapeseed oil",
+      "rice selection",
+      "soy sauce varieties",
+      "chili crisp",
+      "spices",
+      "frozen dumplings",
+      "Asian snacks and drinks",
+      "inexpensive kitchenware"
+    ],
+    "entity_ids": [
+      "kenji:e:asian-family-mart",
+      "kenji:e:whole-foods",
+      "kenji:e:champagne-mango",
+      "kenji:e:durian",
+      "kenji:e:longan",
+      "kenji:e:mangosteen",
+      "kenji:e:dragon-fruit",
+      "kenji:e:stone-fruit",
+      "kenji:e:eddieard",
+      "kenji:e:king-oyster-mushroom",
+      "kenji:e:shiitake",
+      "kenji:e:enoki",
+      "kenji:e:cauliflower-mushroom",
+      "kenji:e:shimeji",
+      "kenji:e:nagaimo",
+      "kenji:e:okonomiyaki",
+      "kenji:e:thai-basil",
+      "kenji:e:squash-flowers",
+      "kenji:e:yali-pear",
+      "kenji:e:ugli-fruit",
+      "kenji:e:eggplant-varieties",
+      "kenji:e:ginger",
+      "kenji:e:thai-chilies",
+      "kenji:e:lemongrass",
+      "kenji:e:green-papaya",
+      "kenji:e:som-tam",
+      "kenji:e:aka-miso",
+      "kenji:e:arabiki-sausages",
+      "kenji:e:chinese-sausages",
+      "kenji:e:dried-fish-and-shrimp",
+      "kenji:e:tofu",
+      "kenji:e:dumpling-wrappers",
+      "kenji:e:chaun-noodles",
+      "kenji:e:rose",
+      "kenji:e:shanghai-style-noodles",
+      "kenji:e:hot-pot",
+      "kenji:e:shabu-shabu",
+      "kenji:e:sukiyaki",
+      "kenji:e:pork-trotters",
+      "kenji:e:chicharron",
+      "kenji:e:snake-river-farms",
+      "kenji:e:mishima-reserve",
+      "kenji:e:zabuton",
+      "kenji:e:flanken-cut-short-ribs",
+      "kenji:e:galbi",
+      "kenji:e:oxtail",
+      "kenji:e:tripe",
+      "kenji:e:beef-aorta",
+      "kenji:e:tongue",
+      "kenji:e:pork-jaw",
+      "kenji:e:wombat",
+      "kenji:e:seattle-aquarium",
+      "kenji:e:oysters",
+      "kenji:e:spot-prawns",
+      "kenji:e:dungeness-crab",
+      "kenji:e:doubanjiang",
+      "kenji:e:mapo-tofu",
+      "kenji:e:china-time-honored-brand",
+      "kenji:e:aoc",
+      "kenji:e:dop",
+      "kenji:e:specialty-eggs",
+      "kenji:e:soy-milk",
+      "kenji:e:chinese-cooking-wine",
+      "kenji:e:roasted-rapeseed-oil",
+      "kenji:e:canola-oil",
+      "kenji:e:tamaki-gold",
+      "kenji:e:turtle-chips",
+      "kenji:e:spilled-milk",
+      "kenji:e:matthew-and-molly",
+      "kenji:e:korean-barbecue-style-potato-chips",
+      "kenji:e:soy-sauce",
+      "kenji:e:msg",
+      "kenji:e:dashi",
+      "kenji:e:lamata-chili-crisp",
+      "kenji:e:chili-crisp",
+      "kenji:e:thai-curry-paste",
+      "kenji:e:japanese-curry-blocks",
+      "kenji:e:shrimp-paste",
+      "kenji:e:sichuan-pepper",
+      "kenji:e:era-shia-chilies",
+      "kenji:e:black-cardamom",
+      "kenji:e:cassia",
+      "kenji:e:wang",
+      "kenji:e:stinky-tofu",
+      "kenji:e:pork-steamed-buns",
+      "kenji:e:serious-eats",
+      "kenji:e:golden-steamer",
+      "kenji:e:hello-panda",
+      "kenji:e:pocky",
+      "kenji:e:prawn-crackers",
+      "kenji:e:pork-soup-dumplings",
+      "kenji:e:shumai",
+      "kenji:e:crystal-shrimp-dumplings",
+      "kenji:e:banana-leaves",
+      "kenji:e:calpico",
+      "kenji:e:bamboo-steamer",
+      "kenji:e:wok",
+      "kenji:e:papaya-shredder",
+      "kenji:e:chopsticks",
+      "kenji:e:stacking-stainless-steel-bowls",
+      "kenji:e:home-depot",
+      "kenji:e:the-food-lab",
+      "kenji:e:the-wok",
+      "kenji:e:every-night-is-pizza-night",
+      "kenji:e:lena-davidson"
+    ],
+    "categories": [
+      "ingredients",
+      "vegetables",
+      "meat",
+      "eggs",
+      "noodles",
+      "rice",
+      "sauces",
+      "kitchen tools",
+      "woks"
+    ],
+    "answers_questions": [
+      "Where does Kenji buy his Asian groceries in Seattle?",
+      "How do you pick a ripe mangosteen or champagne mango?",
+      "What kind of ginger should I buy so I don't have to peel it?",
+      "What is the China Time-Honored Brand label and why look for it on doubanjiang?",
+      "What oil gives Sichuan food its signature flavor?",
+      "What brand of rice does Kenji buy?",
+      "Which frozen soup dumplings does Kenji buy?",
+      "Where does Kenji get his stainless steel bowls and chopsticks? Are they dog bowls?",
+      "What is nagaimo used for in okonomiyaki?",
+      "Why is Calpis called Calpico in the US?",
+      "Where can I find unusual cuts like zabuton, tripe or beef aorta?",
+      "What are the different kinds of eggplant and mushrooms you can find at an Asian market?",
+      "Who is the Sichuan chef YouTuber Kenji learns from?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:asian-family-mart",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Asian Family Mart",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:whole-foods",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Whole Foods",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:champagne-mango",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "champagne mango",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "champagne mangoes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:durian",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "durian",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:longan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "longan",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "longans"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mangosteen",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "mangosteen",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "mango steams",
+        "mango steeen",
+        "mangoeen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dragon-fruit",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "dragon fruit",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stone-fruit",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "stone fruit",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "apricots",
+        "golden plums",
+        "peaches",
+        "red plums",
+        "stone for"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eddieard",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Eddieard",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:king-oyster-mushroom",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "king oyster mushroom",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "king oysters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shiitake",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "shiitake",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "shiake"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:enoki",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "enoki",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "enoi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cauliflower-mushroom",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cauliflower mushroom",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "cauliflower"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shimeji",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "shimeji",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "honchimeis",
+        "shimeis",
+        "white shimeis"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nagaimo",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "nagaimo",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Nagimo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:okonomiyaki",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "okonomiyaki",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thai-basil",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Thai basil",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:squash-flowers",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "squash flowers",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:yali-pear",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Yali pear",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ugli-fruit",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ugli fruit",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "ugly fruit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:eggplant-varieties",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "eggplant varieties",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Chinese eggplants",
+        "Indian eggplants",
+        "Italian eggplants",
+        "Japanese eggplant",
+        "Thai eggplant",
+        "apple eggplants",
+        "green Filipino eggplants"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:ginger",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "ginger",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thai-chilies",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Thai chilies",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Thai chilis"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lemongrass",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "lemongrass",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Lemongrass"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:green-papaya",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "green papaya",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Green papayas",
+        "shredded green papaya"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:som-tam",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "som tam",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sam salad",
+        "som salad"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aka-miso",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "aka miso",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Aka miso",
+        "dark miso"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:arabiki-sausages",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Arabiki sausages",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chinese-sausages",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chinese sausages",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dried-fish-and-shrimp",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "dried fish and shrimp",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Dried fish and shrimp"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tofu",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tofu",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Tofu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dumpling-wrappers",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "dumpling wrappers",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chaun-noodles",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chaun noodles",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "Cha Fun"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:rose",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Rose",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shanghai-style-noodles",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Shanghai-style noodles",
+      "brand": null,
+      "model": null,
+      "category": "noodles",
+      "aliases": [
+        "Shanghai style"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hot-pot",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "hot pot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hot pots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shabu-shabu",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "shabu shabu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "shaboo shaboo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sukiyaki",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "sukiyaki",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pork-trotters",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pork trotters",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "pork feet",
+        "trotters"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chicharron",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "chicharrón",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chicharó"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:snake-river-farms",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Snake River Farms",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "snake river farms"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mishima-reserve",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Mishima Reserve",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Mishima reserve"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:zabuton",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "zabuton",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "zabaton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:flanken-cut-short-ribs",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "flanken-cut short ribs",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "flank and cut short ribs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:galbi",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "galbi",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "kaldi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oxtail",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "oxtail",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Oxtail"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tripe",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tripe",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "tripes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:beef-aorta",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "beef aorta",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "beef order"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tongue",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "tongue",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pork-jaw",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pork jaw",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "Grilled pork jaw"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wombat",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Wombat",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:seattle-aquarium",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Seattle Aquarium",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Seattle aquarium"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oysters",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "oysters",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spot-prawns",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "spot prawns",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dungeness-crab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Dungeness crab",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Dungeons Crab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:doubanjiang",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "doubanjiang",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Sichuan hot bean paste",
+        "bean paste",
+        "dolbanjang"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mapo-tofu",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "mapo tofu",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:china-time-honored-brand",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "China Time-Honored Brand",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "China timehonored brand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aoc",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "AOC",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "French AOC"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dop",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "DOP",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Italian DOP"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:specialty-eggs",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "specialty eggs",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "duck eggs",
+        "quail eggs",
+        "salted duck eggs",
+        "tea eggs",
+        "thousand-y year eggs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-milk",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "soy milk",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chinese-cooking-wine",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Chinese cooking wine",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Chinese cooking wines"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roasted-rapeseed-oil",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "roasted rapeseed oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "roasted rap seed oil",
+        "roasted virgin rape seed oil"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:canola-oil",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "canola oil",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "canola"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tamaki-gold",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Tamaki Gold",
+      "brand": "Tamaki",
+      "model": null,
+      "category": "rice",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:turtle-chips",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Turtle Chips",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Turtle chips"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spilled-milk",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Spilled Milk",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "spilled milk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:matthew-and-molly",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Matthew and Molly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Matthew Matthew and Molly"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:korean-barbecue-style-potato-chips",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Korean barbecue style potato chips",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "smoky and spicy Korean barbecue style potato chips"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Chinese soy sauces",
+        "Indonesian soy sauces",
+        "Japanese soy sauces",
+        "Thai soy sauces",
+        "soy sauces"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dashi",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "dashi",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Dashi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lamata-chili-crisp",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Lamata chili crisp",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chili-crisp",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chili crisp",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thai-curry-paste",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Thai curry paste",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "thai curry paste",
+        "thai curry pastes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:japanese-curry-blocks",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Japanese curry blocks",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shrimp-paste",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "shrimp paste",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Fish paste",
+        "crab paste"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sichuan-pepper",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Sichuan pepper",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "cichron pepper"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:era-shia-chilies",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "era, Shia chilies",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "Shia",
+        "era"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:black-cardamom",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "black cardamom",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cassia",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "cassia",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wang",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Wang",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stinky-tofu",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "stinky tofu",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pork-steamed-buns",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pork steamed buns",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ba",
+        "steamed buns"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Sirius Eats",
+        "printed recipe",
+        "serial seats",
+        "series Heats",
+        "series SE",
+        "serious eats",
+        "serious seats",
+        "serus eats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:golden-steamer",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Golden Steamer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:hello-panda",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Hello Panda",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pocky",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Pocky",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:prawn-crackers",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "prawn crackers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Prawn crackers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pork-soup-dumplings",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "pork soup dumplings",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "soup dumplings"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:shumai",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "shumai",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "schumai"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:crystal-shrimp-dumplings",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "crystal shrimp dumplings",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:banana-leaves",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "banana leaves",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:calpico",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Calpico",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "C A L P I S",
+        "Cowpikico",
+        "Kadupsuit",
+        "Kalpiss"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:bamboo-steamer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "bamboo steamer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "bamboo steamers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "walk",
+        "walks",
+        "wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:papaya-shredder",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "papaya shredder",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "something like that is a really nice tool"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chopsticks",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "chopsticks",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Chopsticks",
+        "cooking chopsticks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stacking-stainless-steel-bowls",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "stacking stainless steel bowls",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "dog bowls"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:home-depot",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Home Depot",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-food-lab",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Food Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Food Lab: Better Home Cooking Through Science",
+        "the Food Lab",
+        "the food lab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:every-night-is-pizza-night",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Every Night Is Pizza Night",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Every Night is Pizza Night",
+        "every night is pizza night"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "b2da2f15ce354263"
+}

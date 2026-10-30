@@ -1,0 +1,585 @@
+{
+  "platform_id": "JzccAFXcTqE",
+  "profile": {
+    "video_id": "kenji:JzccAFXcTqE",
+    "purpose": "Introduce Kenji's new super-nitrided carbon steel wok, designed with Our Place, and demonstrate it by cooking a simple Spam and egg fried rice, with discussion of wok materials, wok flavor and cleaning.",
+    "video_type": "how_to",
+    "thesis": "Kenji presents the carbon steel wok he spent a year developing with Our Place. Its super nitride treatment is meant to keep carbon steel's handling while reducing the usual care burden. A deliberately simple Spam and egg fried rice lets the wok's high-heat flavor be the main seasoning.",
+    "key_takeaways": [
+      "The new wok is carbon steel with a 'super nitride' treatment, described as about twice as thick as a normal nitride layer, giving a slick, scratch-resistant, non-toxic surface.",
+      "Kenji explains why he prefers carbon steel for woks: thin and responsive, heat stays concentrated at the bottom, lighter and faster to heat than cast iron.",
+      "The nitride treatment addresses carbon steel's main downside, its seasoning upkeep and rust risk.",
+      "Oil the wok first and use the smoke as the indicator that it's hot enough; ideally rub the oil in while the wok is cold.",
+      "Use day-old rice spread on a sheet tray and chilled overnight so it dries and breaks apart.",
+      "Render and crisp the diced Spam, then add scallions, rice and eggs.",
+      "Season with white pepper, a salt and MSG blend, and a little soy sauce drizzled around the hot sides so it scorches rather than soaks in.",
+      "Coated nonstick pans can't produce wok flavor, both because they don't get hot enough and because the food doesn't contact the metal.",
+      "Clean it like any carbon steel pan: rinse, wipe, and heat it dry on the burner."
+    ],
+    "outline": [
+      {
+        "title": "Introducing the new wok",
+        "summary": "Kenji introduces the carbon steel wok he developed over a year with Our Place and explains its super nitride treatment.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Preparing the spam",
+        "summary": "He dices Spam and talks about cooking on a river rafting trip, Spam's reputation and price. He explains he is keeping the ingredients simple so the wok flavor comes through.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Wok cooking advantages",
+        "summary": "Using a portable butane burner (induction also works), he explains why carbon steel beats aluminum, clad and cast iron for woks. He notes how the nitride treatment removes the usual seasoning and rust worries.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Cooking the fried rice",
+        "summary": "He heats oil until smoking, scrambles eggs, renders the Spam, and explains why day-old rice works best. He recounts his old Target wok, then adds scallions, rice and eggs and explains why nonstick can't give wok flavor.",
+        "first_segment": 5,
+        "last_segment": 9
+      },
+      {
+        "title": "Seasoning and tasting",
+        "summary": "He covers the high heat the wok can reach and seasons with white pepper, a salt and MSG blend, and soy sauce drizzled on the hot sides to scorch. Then he tastes and slides the rice out.",
+        "first_segment": 10,
+        "last_segment": 11
+      },
+      {
+        "title": "Cleaning and wrap-up",
+        "summary": "He shows cleaning: rinse, wipe and heat dry. He recaps the dish's ingredients and says how excited he is about the wok.",
+        "first_segment": 11,
+        "last_segment": 12
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "This is my new walk.",
+        "last_segment": 0,
+        "ends_with": "some uh spam and egg fried rice.",
+        "note": "Opening: shows the new wok and says what he'll cook."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "You know, this summer I was",
+        "last_segment": 2,
+        "ends_with": "My inbox is clogged with spam.",
+        "note": "Story about cooking on a Moab Music Festival rafting trip and his surplus case of Spam."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "If you've read my walk book",
+        "last_segment": 8,
+        "ends_with": "years, maybe give to my kids.",
+        "note": "Personal history of the Target carbon steel wok he used for 20 years until its handle failed."
+      },
+      {
+        "role": "outro",
+        "first_segment": 12,
+        "starts_with": "All right, I'm very excited about",
+        "last_segment": 12,
+        "ends_with": "gals now pals. See you later.",
+        "note": "Closing excitement about the wok and sign-off."
+      }
+    ],
+    "topics": [
+      "Our Place carbon steel wok",
+      "super nitride treatment",
+      "carbon steel vs cast iron vs aluminum woks",
+      "Spam and egg fried rice",
+      "day-old rice for fried rice",
+      "wok flavor",
+      "scorching soy sauce on wok sides",
+      "carbon steel wok cleaning",
+      "nonstick vs carbon steel",
+      "induction and butane burner wok cooking"
+    ],
+    "entity_ids": [
+      "kenji:e:our-place-carbon-steel-wok",
+      "kenji:e:our-place",
+      "kenji:e:super-nitride-treatment",
+      "kenji:e:nitriding",
+      "kenji:e:carbon-steel",
+      "kenji:e:cast-iron",
+      "kenji:e:aluminum",
+      "kenji:e:clad-pan-construction",
+      "kenji:e:coated-nonstick-pan",
+      "kenji:e:the-wok",
+      "kenji:e:spam",
+      "kenji:e:spam-and-egg-fried-rice",
+      "kenji:e:spam-musubi",
+      "kenji:e:stir-fried-teriyaki-spam-hash",
+      "kenji:e:moab-music-festival",
+      "kenji:e:portable-butane-burner",
+      "kenji:e:induction-cooktop",
+      "kenji:e:target",
+      "kenji:e:old-target-carbon-steel-wok",
+      "kenji:e:day-old-rice",
+      "kenji:e:scallions",
+      "kenji:e:white-pepper",
+      "kenji:e:msg",
+      "kenji:e:soy-sauce",
+      "kenji:e:wok-flavor",
+      "kenji:e:seasoning-carbon-steel"
+    ],
+    "categories": [
+      "woks",
+      "rice",
+      "techniques",
+      "ingredients",
+      "eggs"
+    ],
+    "answers_questions": [
+      "What's special about Kenji's new Our Place wok?",
+      "What is super nitride and how is it different from regular nitriding?",
+      "Is the Our Place wok carbon steel or nonstick?",
+      "Does Kenji's new wok work on induction?",
+      "Why does Kenji prefer carbon steel over cast iron or aluminum for a wok?",
+      "How does Kenji make Spam fried rice?",
+      "Do I need day-old rice for fried rice, and how should I prepare it?",
+      "Why does Kenji drizzle soy sauce around the sides of the wok?",
+      "Can you get wok flavor from a nonstick pan?",
+      "How do I clean and dry a nitrided carbon steel wok?",
+      "What happened to Kenji's old Target wok?",
+      "How hot can a carbon steel wok get?",
+      "What seasonings go in Kenji's Spam and egg fried rice?"
+    ],
+    "uses": [
+      "understanding",
+      "care_maintenance",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:JzccAFXcTqE:s0006",
+        "note": "After rubbing oil into the already-hot wok, Kenji says he talked too much and should have rubbed the oil in while the wok was cold."
+      },
+      {
+        "segment_id": "kenji:JzccAFXcTqE:s0006",
+        "note": "He says he added too much Spam and decides to use only half."
+      },
+      {
+        "segment_id": "kenji:JzccAFXcTqE:s0007",
+        "note": "After saying he'd take the eggs out, he decides to put the eggs straight in with the rice instead."
+      }
+    ],
+    "related_videos": [
+      "Earlier videos where the new wok appeared blurred out in the background",
+      "Other videos where Kenji talks about his old Target carbon steel wok"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:our-place-carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Our Place carbon steel wok",
+      "brand": "Our Place",
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "my new walk",
+        "new walk",
+        "walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:our-place",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Our Place",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "Art Place",
+        "our place"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:super-nitride-treatment",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "super nitride treatment",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "super nitride",
+        "super nitride coating"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:nitriding",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "nitriding",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "nitride treatment",
+        "regular nitriding treatment"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carbon-steel",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "carbon steel",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:cast-iron",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Cast iron",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:aluminum",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Aluminum",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "aluminum"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:clad-pan-construction",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Clad pan construction",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "clad pan",
+        "claded with steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:coated-nonstick-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "coated nonstick pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "coated non-stick pan",
+        "plastic layer of nonstick"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "The Wok",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "The Walk",
+        "my book",
+        "my walk book",
+        "my walkbook",
+        "the walk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spam",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Spam",
+      "brand": "Spam",
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "spam"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spam-and-egg-fried-rice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Spam and egg fried rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "spam and egg fried rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spam-musubi",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Spam musubi",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Spam mousub"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stir-fried-teriyaki-spam-hash",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "stir-fried teriyaki Spam hash",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "stir-fried teriyak spam hash"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:moab-music-festival",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Moab Music Festival",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:portable-butane-burner",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "portable butane burner",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "portable butane butane fuel burner",
+        "portable walk burner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:induction-cooktop",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "induction cooktop",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "induction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:target",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Target",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "target"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:old-target-carbon-steel-wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "old Target carbon steel wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "a walk that I picked up, I think, from a a Target"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:day-old-rice",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "day-old rice",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "day old rice"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:scallions",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "scallions",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "Scallions",
+        "chopped scallions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:white-pepper",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "white pepper",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:msg",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "MSG",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "salt and MSG blend"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Chinese soy sauces",
+        "Indonesian soy sauces",
+        "Japanese soy sauces",
+        "Thai soy sauces",
+        "soy sauces"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok-flavor",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "wok flavor",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "that walk",
+        "walk flavor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:seasoning-carbon-steel",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "seasoning (carbon steel)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "maintain that seasoning",
+        "season it"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "854d01c5116d3f62"
+}

@@ -1,0 +1,1351 @@
+{
+  "platform_id": "x-_k6DE7mP8",
+  "profile": {
+    "video_id": "kenji:x-_k6DE7mP8",
+    "purpose": "A recorded Patreon livestream (Kenji's first, an 'Ask Kenji Anything' session) in which he answers members' and chat viewers' Thanksgiving questions. Topics include make-ahead and travel-friendly dishes, turkey technique and equipment, gravy, sides, alternatives to turkey, substitutes and family traditions. Note that the chapter list in the description belongs to a different video about beef tenderloin and does not match this transcript.",
+    "video_type": "other",
+    "thesis": "A live Q&A covering practical Thanksgiving planning and cooking questions, from prep and equipment to turkey methods, sides and traditions, with many answers useful beyond the holiday.",
+    "key_takeaways": [
+      "Covers make-ahead and travel-friendly dishes, including how to reheat mashed potatoes and why they stiffen.",
+      "Gives a cheese board building approach: a variety of textures and milk types, plus sharp accompaniments.",
+      "Names specific tools for breaking down turkey (a Shibazi Chinese cleaver, OXO shears) and compares a baking steel with a pizza stone.",
+      "Covers spatchcocked turkey resting and re-crisping, stuffing inside the bird, injecting, and herb mayo versus yogurt.",
+      "Walks through his turkey gravy method, including a splash of soy sauce.",
+      "Discusses menu planning across different heat sources, scaling sides for small groups, and alternatives to turkey.",
+      "Includes personal stories about family Thanksgiving traditions."
+    ],
+    "outline": [
+      {
+        "title": "Livestream intro",
+        "summary": "Kenji welcomes viewers to the first Patreon livestream and introduces Lena and Erin, who relay questions and watch the chat.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Easy meals in the days before Thanksgiving",
+        "summary": "Suggestions for light, easy weeknight meals before the feast: squash dishes, a make-ahead squash and kale salad, squash pasta, casseroles and salads.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Dishes that travel or serve at room temperature",
+        "summary": "Make-ahead and portable ideas: stuffing knots made with pizza dough, reheating mashed potatoes in the microwave (and starch retrogradation), mashed sweet potatoes, and a pre-assembled fall salad with roasted apples.",
+        "first_segment": 3,
+        "last_segment": 10
+      },
+      {
+        "title": "Appetizers that can sit out: the cheese board",
+        "summary": "How to build a cheese or charcuterie board with varied textures and milk types, plus accompaniments such as jams, honey, crisp tart fruit, red onion jam and brandied prunes. Also why cheese should be served at room temperature.",
+        "first_segment": 10,
+        "last_segment": 16
+      },
+      {
+        "title": "Freezing stuffing",
+        "summary": "Whether his stuffing can be assembled, frozen and baked from frozen, with tips on lowering the oven temperature and shielding with foil.",
+        "first_segment": 16,
+        "last_segment": 19
+      },
+      {
+        "title": "Small Thanksgivings and menu planning",
+        "summary": "Scaling sides down, using small oven-safe cookware, and spreading dishes across heat sources. Also suggests a turkey breast or braised turkey legs instead of a whole bird, and mentions upcoming leftover-turkey recipes.",
+        "first_segment": 19,
+        "last_segment": 23
+      },
+      {
+        "title": "Cleaver recommendation",
+        "summary": "Recommends the Shibazi Chinese cleaver for breaking down a turkey frame.",
+        "first_segment": 23,
+        "last_segment": 25
+      },
+      {
+        "title": "Keeping the turkey wings",
+        "summary": "Why he roasts the wings on the bird and serves them whole rather than shredding them, plus a tangent on dipping sauces.",
+        "first_segment": 25,
+        "last_segment": 28
+      },
+      {
+        "title": "Baking steel with a roasting pan vs sheet tray",
+        "summary": "Explains the preheated steel method for cooking the turkey legs faster, and why a sheet tray works better than a roasting pan.",
+        "first_segment": 28,
+        "last_segment": 30
+      },
+      {
+        "title": "Kitchen shears for spatchcocking",
+        "summary": "Recommends OXO shears and finishing tough bones with a cleaver.",
+        "first_segment": 30,
+        "last_segment": 32
+      },
+      {
+        "title": "Resting a spatchcocked turkey",
+        "summary": "Roasting temperatures and times, carryover cooking, resting 15 minutes to hours, and re-crisping in a very hot oven before serving.",
+        "first_segment": 33,
+        "last_segment": 36
+      },
+      {
+        "title": "Stuffing inside the turkey",
+        "summary": "Food-safety temperatures and log reduction, and adapting the steel method with a lower oven temperature and a thermometer in the stuffing.",
+        "first_segment": 37,
+        "last_segment": 40
+      },
+      {
+        "title": "Best turkey dripping gravy",
+        "summary": "Reinforcing stock with browned turkey trimmings and mirepoix in a wok, making a roux, deglazing the pan drippings, and adding soy sauce for umami.",
+        "first_segment": 40,
+        "last_segment": 45
+      },
+      {
+        "title": "Alternatives to turkey and vegetarian mains",
+        "summary": "Ham, lamb, pork or prime rib as substitutes, plus vegetarian options such as squash lasagna, mac and cheese and a vegan Wellington.",
+        "first_segment": 45,
+        "last_segment": 49
+      },
+      {
+        "title": "Injecting turkey",
+        "summary": "Why he rarely injects, and suggested injection liquids: seasoned stock, brown butter, herb butter.",
+        "first_segment": 49,
+        "last_segment": 52
+      },
+      {
+        "title": "Herb mayo turkey and mayo vs yogurt",
+        "summary": "Re-crisping an herb mayo spatchcocked turkey while watching for burning, and why yogurt behaves differently from mayo as a coating.",
+        "first_segment": 52,
+        "last_segment": 58
+      },
+      {
+        "title": "Pizza oven sides",
+        "summary": "Using a pizza oven for brassicas such as broccoli, with gremolata-style breadcrumbs or anchovies.",
+        "first_segment": 58,
+        "last_segment": 61
+      },
+      {
+        "title": "Rolls, canned dough and shortcuts",
+        "summary": "Canned crescent rolls, Stella Parks' Parker House rolls and stuffing knots, and doctoring instant mashed potatoes, with a general case for outsourcing.",
+        "first_segment": 61,
+        "last_segment": 67
+      },
+      {
+        "title": "Cooking without alcohol",
+        "summary": "Substitutes for wine in recipes: dehydrated wine powder, vinegar or lemon juice, or tiny single-serve bottles.",
+        "first_segment": 67,
+        "last_segment": 70
+      },
+      {
+        "title": "One side to wow a crowd",
+        "summary": "His classic sage and sausage stuffing and a well-made fall salad.",
+        "first_segment": 70,
+        "last_segment": 74
+      },
+      {
+        "title": "Non-traditional riffs",
+        "summary": "Turkey porchetta, his sister's alternative stuffing, and pizza-flavored or White Castle stuffing.",
+        "first_segment": 74,
+        "last_segment": 79
+      },
+      {
+        "title": "Pizza stone vs baking steel",
+        "summary": "How stone and steel differ as thermal batteries (density, conductivity, durability), and his recommendation for turkey.",
+        "first_segment": 80,
+        "last_segment": 82
+      },
+      {
+        "title": "Thanksgiving traditions",
+        "summary": "Family memories: grandparents in the same building, cocktails, and his grandfather's after-dinner magic shows.",
+        "first_segment": 83,
+        "last_segment": 86
+      },
+      {
+        "title": "Worst Thanksgiving disaster",
+        "summary": "A failed college turducken and his view that Thanksgiving is about gathering.",
+        "first_segment": 86,
+        "last_segment": 88
+      },
+      {
+        "title": "Pies at high altitude",
+        "summary": "Why pecan pie filling bubbles over at altitude, and adjustments: a little more liquid, an extra yolk, a lower oven temperature.",
+        "first_segment": 89,
+        "last_segment": 93
+      },
+      {
+        "title": "Debates: potatoes vs rice, vegetables",
+        "summary": "Settles mashed potatoes over rice, and says non-potato vegetables such as Brussels sprouts belong on the table.",
+        "first_segment": 93,
+        "last_segment": 96
+      },
+      {
+        "title": "Outro",
+        "summary": "Points to the emailed Thanksgiving recipe collection and signs off.",
+        "first_segment": 96,
+        "last_segment": 97
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey everyone. Um, welcome. U, this",
+        "last_segment": 0,
+        "ends_with": "and Lena is asking the questions.",
+        "note": "Welcome to the first Patreon livestream and introduction of the helpers."
+      },
+      {
+        "role": "aside",
+        "first_segment": 22,
+        "starts_with": "um we've been going through a lot",
+        "last_segment": 23,
+        "ends_with": "there's sleepy children all week.",
+        "note": "Banter about fridges full of leftover turkey and kids tired of turkey."
+      },
+      {
+        "role": "aside",
+        "first_segment": 27,
+        "starts_with": "Uh, there's a wing place in Seattle",
+        "last_segment": 28,
+        "ends_with": "Okay, we just learned impass.",
+        "note": "Tangent on ranch versus blue cheese and dipping pizza in ranch."
+      },
+      {
+        "role": "aside",
+        "first_segment": 58,
+        "starts_with": "Um, folks in the chat, this is",
+        "last_segment": 58,
+        "ends_with": "There they go. Hi, everyone. Nice.",
+        "note": "Greeting the chat and emoji reactions."
+      },
+      {
+        "role": "aside",
+        "first_segment": 79,
+        "starts_with": "Here in Seattle, it'd be dick",
+        "last_segment": 79,
+        "ends_with": "started daydreaming there for a second.",
+        "note": "Joke about making stuffing from Dick's Drive-In burgers."
+      },
+      {
+        "role": "aside",
+        "first_segment": 83,
+        "starts_with": "these are these are Barney's uh knives.",
+        "last_segment": 83,
+        "ends_with": "if you want to pick one up for yourself.",
+        "note": "Mention of the knives Kenji collaborated on with Barney."
+      },
+      {
+        "role": "aside",
+        "first_segment": 83,
+        "starts_with": "Thanksgiving Day traditions. Uh no, I mean,",
+        "last_segment": 86,
+        "ends_with": "That sounds like a charmed Thanksgiving.",
+        "note": "Personal family memories, including his grandfather's magic shows."
+      },
+      {
+        "role": "aside",
+        "first_segment": 87,
+        "starts_with": "there was a year I made a turducken",
+        "last_segment": 88,
+        "ends_with": "afterwards uh together as a family.",
+        "note": "Story of a failed college turducken and reflections on family."
+      },
+      {
+        "role": "outro",
+        "first_segment": 96,
+        "starts_with": "Debates have been settled. It's 3:01.",
+        "last_segment": 97,
+        "ends_with": "We're still there. My phone's broken.",
+        "note": "Points to the emailed recipe collection, Happy Thanksgiving sign-off, and fumbling to end the stream."
+      }
+    ],
+    "topics": [
+      "Thanksgiving planning",
+      "make-ahead dishes",
+      "reheating mashed potatoes",
+      "cheese board",
+      "freezing stuffing",
+      "spatchcocked turkey",
+      "resting and re-crisping turkey",
+      "baking steel turkey method",
+      "stuffing food safety",
+      "turkey gravy",
+      "injecting turkey",
+      "herb mayo vs yogurt",
+      "pizza oven vegetables",
+      "canned rolls and shortcuts",
+      "wine substitutes",
+      "turkey porchetta",
+      "pizza stone vs steel",
+      "high-altitude baking",
+      "Thanksgiving traditions"
+    ],
+    "entity_ids": [
+      "kenji:e:shibazi-chinese-cleaver",
+      "kenji:e:oxo-kitchen-shears",
+      "kenji:e:baking-steel",
+      "kenji:e:pizza-stone",
+      "kenji:e:pizza-oven",
+      "kenji:e:wok",
+      "kenji:e:thermometer",
+      "kenji:e:stand-mixer",
+      "kenji:e:vintage-wagner-cast-iron-pan",
+      "kenji:e:sheet-tray",
+      "kenji:e:roasting-pan",
+      "kenji:e:serious-eats",
+      "kenji:e:patreon",
+      "kenji:e:the-new-york-times",
+      "kenji:e:daniel-gritzer",
+      "kenji:e:stella-parks",
+      "kenji:e:lena-davidson",
+      "kenji:e:erin",
+      "kenji:e:tessa",
+      "kenji:e:barney-lund",
+      "kenji:e:conitch",
+      "kenji:e:vindictive-wings",
+      "kenji:e:pillsbury-canned-crescent-rolls",
+      "kenji:e:white-castle",
+      "kenji:e:dick-s-drive-in",
+      "kenji:e:campbell-s",
+      "kenji:e:dehydrated-wine-powder",
+      "kenji:e:instant-mashed-potatoes",
+      "kenji:e:microwavable-rice-bowls",
+      "kenji:e:sage-and-sausage-stuffing",
+      "kenji:e:stuffing-knots",
+      "kenji:e:parker-house-rolls",
+      "kenji:e:turkey-porchetta",
+      "kenji:e:herb-mayo-spatchcock-turkey",
+      "kenji:e:spatchcocking",
+      "kenji:e:turducken",
+      "kenji:e:mirepoix",
+      "kenji:e:roux",
+      "kenji:e:gremolata",
+      "kenji:e:starch-retrogradation",
+      "kenji:e:carryover-cooking",
+      "kenji:e:log-reduction-of-bacteria",
+      "kenji:e:injecting-turkey",
+      "kenji:e:thermal-mass-heat-capacity",
+      "kenji:e:high-altitude-baking",
+      "kenji:e:charcuterie-board",
+      "kenji:e:brie",
+      "kenji:e:camembert",
+      "kenji:e:pecorino",
+      "kenji:e:tomme",
+      "kenji:e:chevre",
+      "kenji:e:quince",
+      "kenji:e:frisee",
+      "kenji:e:kiet",
+      "kenji:e:brassicas",
+      "kenji:e:brussels-sprouts",
+      "kenji:e:soy-sauce",
+      "kenji:e:tamago-kake-gohan",
+      "kenji:e:green-bean-casserole",
+      "kenji:e:american-gladiators"
+    ],
+    "categories": [
+      "knives",
+      "kitchen tools",
+      "appliances",
+      "techniques",
+      "meat",
+      "vegetables",
+      "sauces",
+      "baking",
+      "ingredients",
+      "pans",
+      "rice"
+    ],
+    "answers_questions": [
+      "Can I make mashed potatoes ahead and how do I reheat them?",
+      "How should I put together a good Thanksgiving cheese board?",
+      "Can Kenji's stuffing be frozen and baked from frozen?",
+      "What cleaver does Kenji recommend for breaking down a turkey?",
+      "What kitchen shears are good for spatchcocking a turkey?",
+      "How long should a spatchcocked turkey rest, and how do I get the skin crispy again?",
+      "Can I stuff a turkey using the baking steel roasting method?",
+      "What are Kenji's tips for the best turkey gravy?",
+      "Is it worth injecting a turkey, and with what?",
+      "Does yogurt work like mayo for coating a roast turkey?",
+      "What Thanksgiving dishes can I cook in a pizza oven?",
+      "How do I replace wine in recipes if I don't keep alcohol at home?",
+      "Is a pizza stone as good as a baking steel?",
+      "How do I keep pecan pie from bubbling over at high altitude?",
+      "What should I cook for a small Thanksgiving for three people?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "kenji:x-_k6DE7mP8:s0026",
+        "note": "He says the turkey wing drum is the size of a turkey drumstick, then corrects himself: it is the size of a chicken drumstick."
+      },
+      {
+        "segment_id": "kenji:x-_k6DE7mP8:s0030",
+        "note": "He says a roasting pan blocks heat, then corrects himself: it blocks convection from reaching the underside of the turkey."
+      },
+      {
+        "segment_id": "kenji:x-_k6DE7mP8:s0081",
+        "note": "He starts to say stone is more conductive, then corrects himself: steel is more conductive than stone. (He later misspeaks again, saying 'the stone both holds more energy', meaning steel.)"
+      }
+    ],
+    "related_videos": [
+      "Kenji's most recent turkey roasting method video using a preheated baking steel",
+      "Herb mayo spatchcock turkey recipe (New York Times)",
+      "Herb mayo rubbed chicken recipe (free on Patreon)",
+      "Kenji's whole turkey recipe from this year (rest and re-crisp technique)",
+      "Thanksgiving recipe collection emailed to Patreon members",
+      "Serious Eats sage and sausage stuffing recipe",
+      "Serious Eats turkey porchetta recipe",
+      "Daniel Gritzer's Serious Eats guide to making ahead and reheating mashed potatoes",
+      "Stella Parks' Parker House rolls recipe (Serious Eats)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "kenji:e:shibazi-chinese-cleaver",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Shibazi Chinese cleaver",
+      "brand": "Shibazi",
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Shabbazi",
+        "Shibazi"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:oxo-kitchen-shears",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "OXO kitchen shears",
+      "brand": "OXO",
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "Oxo oxo shears",
+        "oxo shears"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:baking-steel",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Baking steel",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "baking seal",
+        "pizza steel",
+        "steel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pizza-stone",
+      "creator_id": "kenji",
+      "type": "component",
+      "canonical_name": "pizza stone",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "pizza stones",
+        "stone"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pizza-oven",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Pizza oven",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "pizza oven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:wok",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Wok",
+      "brand": null,
+      "model": null,
+      "category": "woks",
+      "aliases": [
+        "walk",
+        "walks",
+        "wok"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thermometer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "thermometer",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stand-mixer",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Stand mixer",
+      "brand": null,
+      "model": null,
+      "category": "appliances",
+      "aliases": [
+        "stand mixer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vintage-wagner-cast-iron-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Vintage Wagner cast iron pan",
+      "brand": "Wagner",
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "cast iron",
+        "cast iron pan",
+        "cast iron pans",
+        "cast iron skillet",
+        "cast-iron pan",
+        "cast-iron pans",
+        "skillet",
+        "vintage Wagner pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sheet-tray",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Sheet tray",
+      "brand": null,
+      "model": null,
+      "category": "kitchen tools",
+      "aliases": [
+        "parchment lined baking sheet",
+        "sheet tray"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roasting-pan",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Roasting pan",
+      "brand": null,
+      "model": null,
+      "category": "pans",
+      "aliases": [
+        "roasting pan"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:serious-eats",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Serious Eats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Series E",
+        "Serious Seeds",
+        "Sirius Eats",
+        "Sirius Seeds",
+        "Sirius heats",
+        "Sirius seats",
+        "printed recipe",
+        "serial seats",
+        "series Heats",
+        "series SE",
+        "serious eats",
+        "serious heats",
+        "serious seats",
+        "serus eats",
+        "unser your seats",
+        "written recipe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:patreon",
+      "creator_id": "kenji",
+      "type": "service",
+      "canonical_name": "Patreon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patreon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:the-new-york-times",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "The New York Times",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "New York Times",
+        "the New York Times"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:daniel-gritzer",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Daniel Gritzer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Daniel",
+        "Daniel Gritz art",
+        "Daniel griter",
+        "Daniel gritzer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stella-parks",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Stella Parks",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:lena-davidson",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Lena Davidson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Lena"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:erin",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Erin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Aaron"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tessa",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Tessa",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:barney-lund",
+      "creator_id": "kenji",
+      "type": "person",
+      "canonical_name": "Barney Lund",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bar-",
+        "Barney",
+        "barney",
+        "barney lund"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:conitch",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Conitch",
+      "brand": null,
+      "model": null,
+      "category": "knives",
+      "aliases": [
+        "Con uh Conitch"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:vindictive-wings",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Vindictive Wings",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pillsbury-canned-crescent-rolls",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Pillsbury canned crescent rolls",
+      "brand": "Pillsbury",
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "Pillsbury Doughboy",
+        "Pop and Fresh",
+        "canned crescent rolls"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:white-castle",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "White Castle",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dick-s-drive-in",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Dick's Drive-In",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bag of dicks",
+        "dick stuffing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:campbell-s",
+      "creator_id": "kenji",
+      "type": "brand",
+      "canonical_name": "Campbell's",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Campbell"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:dehydrated-wine-powder",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Dehydrated wine powder",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "dehydrated red wine and white wine",
+        "dried wine product"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:instant-mashed-potatoes",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Instant mashed potatoes",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "instant mashed potatoes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:microwavable-rice-bowls",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "Microwavable rice bowls",
+      "brand": null,
+      "model": null,
+      "category": "rice",
+      "aliases": [
+        "microwavable rice bowls"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:sage-and-sausage-stuffing",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Sage and sausage stuffing",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "classic sage and sausage stuffing",
+        "sage sausage stuffing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:stuffing-knots",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Stuffing knots",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "pull- aart uh stuffing knots",
+        "stuffing not"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:parker-house-rolls",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Parker House rolls",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:turkey-porchetta",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Turkey porchetta",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "porquetta",
+        "turkey porquetta"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:herb-mayo-spatchcock-turkey",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Herb mayo spatchcock turkey",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "herb mayo spatchcock turkey"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:spatchcocking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "spatchcocking",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "butterfied",
+        "spash cocking",
+        "spashcocking",
+        "spashing",
+        "spatch",
+        "spatch cocking",
+        "spatchcock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:turducken",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Turducken",
+      "brand": null,
+      "model": null,
+      "category": "meat",
+      "aliases": [
+        "turbuckan",
+        "turbucken",
+        "turducken"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:mirepoix",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Mirepoix",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "meawa vegetables"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:roux",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "roux",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "r"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:gremolata",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Gremolata",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "grammalada"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:starch-retrogradation",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "starch retrogradation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "retrogradation",
+        "retrograde",
+        "retrogrades"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:carryover-cooking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "carryover cooking",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "still continuing to rise in temperature"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:log-reduction-of-bacteria",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Log reduction of bacteria",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "satin log reduction",
+        "seven log reduction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:injecting-turkey",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Injecting turkey",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "inject"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:thermal-mass-heat-capacity",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Thermal mass / heat capacity",
+      "brand": null,
+      "model": null,
+      "category": "techniques",
+      "aliases": [
+        "heat capacity",
+        "thermal battery"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:high-altitude-baking",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "High-altitude baking",
+      "brand": null,
+      "model": null,
+      "category": "baking",
+      "aliases": [
+        "baking at altitude"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:charcuterie-board",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Charcuterie board",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "shakureri board",
+        "shuderie board"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brie",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Brie",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "bree"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:camembert",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Camembert",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "cam bear"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:pecorino",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Pecorino",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "pecarino"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tomme",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Tomme",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "tome"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:chevre",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Chèvre",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "chev"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:quince",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Quince",
+      "brand": null,
+      "model": null,
+      "category": "ingredients",
+      "aliases": [
+        "quints"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:frisee",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Frisée",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "friez",
+        "fuse"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:kiet",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Kiet",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "kiet"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brassicas",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Brassicas",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "brassacas",
+        "brassasica"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:brussels-sprouts",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "Brussels sprouts",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:soy-sauce",
+      "creator_id": "kenji",
+      "type": "material",
+      "canonical_name": "soy sauce",
+      "brand": null,
+      "model": null,
+      "category": "sauces",
+      "aliases": [
+        "Chinese soy sauces",
+        "Indonesian soy sauces",
+        "Japanese soy sauces",
+        "Thai soy sauces",
+        "soy sauces"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:tamago-kake-gohan",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Tamago kake gohan",
+      "brand": null,
+      "model": null,
+      "category": "eggs",
+      "aliases": [
+        "tomago"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:green-bean-casserole",
+      "creator_id": "kenji",
+      "type": "concept",
+      "canonical_name": "Green bean casserole",
+      "brand": null,
+      "model": null,
+      "category": "vegetables",
+      "aliases": [
+        "green bean casserole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "kenji:e:american-gladiators",
+      "creator_id": "kenji",
+      "type": "product",
+      "canonical_name": "American Gladiators",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "faa1a95644d92376"
+}
