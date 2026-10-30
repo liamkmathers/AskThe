@@ -1,0 +1,588 @@
+{
+  "platform_id": "5fZ1KbN9O7s",
+  "profile": {
+    "video_id": "iron-snail:5fZ1KbN9O7s",
+    "purpose": "A history and feature breakdown of the US military M65 field jacket. It traces its development from the M41 through the M43 and M51, demonstrates its hidden details, and explains why it has a cult following and stays cheap.",
+    "video_type": "explainer",
+    "thesis": "The M65 is the end result of more than 25 years of US military field jacket iteration (M41, M43, M51). Its many purpose-built features, nylon-cotton fabric and cheap surplus availability made it one of the greatest and most widely loved field jackets.",
+    "key_takeaways": [
+      "Military clothing changed from bright, showy uniforms to camouflage as weapons became more accurate and produced less smoke, with World War I as a catalyst.",
+      "The M41 was a lightweight cotton jacket with a wool lining, but soldiers disliked its small slash pockets and its non-removable warm lining.",
+      "The M43 added big pockets, a separable liner and buttons for an optional hood and liner.",
+      "The M51, from the Korean War era, added a zipper with a glove pull, a snap storm flap and more buttons; the 'mystery' outer button is for attaching the hood.",
+      "The M65 was first made by Alpha Industries in 1965, and Alpha still makes a modern version that accepts the liner and hood.",
+      "M65 features covered: NyCo (nylon-cotton) sateen, Velcro, a stand collar with a hidden integrated hood, ripstop lining left unsewn at the hem for repairs, a water-repellent finish, a snap storm placket, a short zipper, hem and waist cinches, and sleeve gauntlet gussets.",
+      "The button-in M65 liner, also called the 'smoking jacket', is famous in its own right and cheap on eBay; earlier liners lack buttons to close it on its own.",
+      "Its cult following comes from its utilitarian design, comfortable NyCo fabric, an olive green that fades with age, and very low surplus prices.",
+      "The host's modern Alpha M65 fit best after sizing down from small to extra small."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to the M65",
+        "summary": "Teases the M65's buttons, gauntlet sleeves and features, notes that the host bought four of them, and lays out the video's three goals: history, hidden details and the cult following.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Evolution of war clothing",
+        "summary": "Explains how battlefield clothing moved from bright, visible uniforms to khaki and camouflage as warfare changed, with World War I as a turning point.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Early jacket prototypes",
+        "summary": "Introduces the M41, its cotton shell and wool lining, and why soldiers disliked it; also explains why uniform cotton takes wax and water-resistant treatments more easily.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Sponsored segment",
+        "summary": "Sponsor read for the Runna running coaching app, tied to the host's half marathon training.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "M43 to M51 development",
+        "summary": "Covers soldier feedback that led to the M43's big pockets and separable liner, then the Korean War-era M51 with its glove-pull zipper, storm flap and hood buttons. Includes a live demonstration of attaching the M51 hood.",
+        "first_segment": 9,
+        "last_segment": 14
+      },
+      {
+        "title": "Features of the M65",
+        "summary": "Walks through the Alpha Industries M65 and its fit: NyCo fabric, Velcro, the stand collar with integrated hood, ripstop lining, water-repellent finish, storm placket, short zipper and cinches. Also covers the M65 liner, or 'smoking jacket', and how it varies by era.",
+        "first_segment": 14,
+        "last_segment": 21
+      },
+      {
+        "title": "Legacy and popularity",
+        "summary": "Explains the M65's cult following: utilitarian design, a fan YouTuber, comfortable NyCo fabric, fading green colour, and its status as a cheap, high-quality surplus jacket before budget retailers existed.",
+        "first_segment": 21,
+        "last_segment": 23
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "You can literally do whatever you",
+        "last_segment": 3,
+        "ends_with": "today and only the M65. Why?",
+        "note": "Cold open teasing the M65's buttons and features, followed by the video's three goals."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 7,
+        "starts_with": "This video is sponsored by Running.",
+        "last_segment": 9,
+        "ends_with": "which was clever of them, I will admit.",
+        "note": "Sponsor read for the Runna running coaching app, including half marathon training footage."
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "I'm just standing here because I",
+        "last_segment": 14,
+        "ends_with": "then I have a freaking panic attack.",
+        "note": "Joke about not wanting to unbutton the hood and getting stuck in hoods."
+      },
+      {
+        "role": "outro",
+        "first_segment": 23,
+        "starts_with": "Dunk your hands in your pocket",
+        "last_segment": 23,
+        "ends_with": "hot chocolate in the pocket like this.",
+        "note": "Closing joke about wearing the M65 to a Christmas party with hot chocolate in the pocket."
+      }
+    ],
+    "topics": [
+      "M65 field jacket history",
+      "US military field jacket evolution",
+      "M41, M43 and M51 field jackets",
+      "field jacket hidden features",
+      "M65 liner (smoking jacket)",
+      "NyCo nylon-cotton fabric",
+      "Alpha Industries M65 fit and sizing",
+      "military surplus clothing",
+      "cult following of the M65"
+    ],
+    "entity_ids": [
+      "iron-snail:e:m65-field-jacket",
+      "iron-snail:e:m41-field-jacket",
+      "iron-snail:e:m43-field-jacket",
+      "iron-snail:e:m51-field-jacket",
+      "iron-snail:e:m65-liner",
+      "iron-snail:e:wool-pile-liner",
+      "iron-snail:e:alpha-industries",
+      "iron-snail:e:runna",
+      "iron-snail:e:nyco-nylon-cotton-blend",
+      "iron-snail:e:cotton",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:nylon",
+      "iron-snail:e:ripstop",
+      "iron-snail:e:velcro",
+      "iron-snail:e:quarple",
+      "iron-snail:e:otterwax-boot-wax",
+      "iron-snail:e:dwr",
+      "iron-snail:e:stand-collar-with-integrated-hood",
+      "iron-snail:e:sleeve-gauntlet-gusset",
+      "iron-snail:e:storm-flap",
+      "iron-snail:e:bellows-pockets",
+      "iron-snail:e:khaki",
+      "iron-snail:e:blackie-thomas",
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:ebay",
+      "iron-snail:e:military-surplus-store"
+    ],
+    "categories": [
+      "jackets"
+    ],
+    "answers_questions": [
+      "What does the mystery button on the outside of an M65 field jacket do?",
+      "How did the M65 evolve from the M41, M43 and M51?",
+      "What was wrong with the M41 field jacket?",
+      "What features does the M65 have that the M51 didn't?",
+      "How do you attach the hood to an M51 or M65?",
+      "What is the M65 liner and why is it called a smoking jacket?",
+      "What fabric is the M65 made from and why does it matter?",
+      "Does the Alpha Industries M65 run big, and should I size down?",
+      "Why do people love the M65 so much?",
+      "Is the M65 a good cheap winter jacket?",
+      "Was the M65 actually worn in the Vietnam War?",
+      "What are the sleeve gauntlets on the M65 for?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding",
+      "buying_decision",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:5fZ1KbN9O7s:s0014",
+        "note": "Said the M65 was first made by Alpha Industries 'in M65', then corrected it to 1965."
+      },
+      {
+        "segment_id": "iron-snail:5fZ1KbN9O7s:s0011",
+        "note": "Thought his M51 came with a wool pile liner, then said it didn't."
+      },
+      {
+        "segment_id": "iron-snail:5fZ1KbN9O7s:s0013",
+        "note": "While demonstrating the M51 hood attachment, corrected which button fastens where ('Oh, no. Sorry')."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:m65-field-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "M65 field jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "M-65",
+        "M65"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:m41-field-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "M41 field jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "M41"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:m43-field-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "M43 field jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "M43"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:m51-field-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "M51 field jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "M51"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:m65-liner",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "M65 liner",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "liner",
+        "smoking jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wool-pile-liner",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "wool pile liner",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "wool liner",
+        "wool pile liners"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alpha-industries",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Alpha Industries",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:runna",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Runna",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Runner",
+        "Running",
+        "run"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nyco-nylon-cotton-blend",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "NyCo (nylon-cotton blend)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Nico",
+        "Nikico"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "Woolen",
+        "merino",
+        "super fine merino",
+        "whe coat",
+        "wool",
+        "wool jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ripstop",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "ripstop",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rip stock",
+        "rip stop",
+        "riptop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:velcro",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "velcro",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Velcro"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:quarple",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "quarple",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Corporal",
+        "corpal"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax-boot-wax",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Otterwax boot wax",
+      "brand": "Otterwax",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "bars of wax",
+        "wax",
+        "wax bars"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dwr",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "DWR",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dwr"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stand-collar-with-integrated-hood",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "stand collar with integrated hood",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "integrated nylon hood",
+        "stand collar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sleeve-gauntlet-gusset",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "sleeve gauntlet gusset",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "arm gauntlets",
+        "triangle gusset gauntlet thing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:storm-flap",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "storm flap",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Storm flap",
+        "storm placket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bellows-pockets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "bellows pockets",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "giant bellowed pockets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:khaki",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "khaki",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:blackie-thomas",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Blackie Thomas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo",
+        "uniqlo's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:military-surplus-store",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "military surplus store",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "e3b5765cfa0a71c7"
+}

@@ -1,0 +1,937 @@
+{
+  "platform_id": "Th9rFZSbMHM",
+  "profile": {
+    "video_id": "iron-snail:Th9rFZSbMHM",
+    "purpose": "A brand deep dive into Crown Northampton, a small family-owned English sneaker maker. It is episode two of the creator's 'world's most fantastic' manufacturer series. Using the Harlestone as the main example and other models to illustrate the brand's pillars, it explains the materials, construction and heritage behind the sneakers.",
+    "video_type": "explainer",
+    "thesis": "Crown Northampton's sneakers are defined by fifth-generation shoemaker Chris Woodford's heritage and expertise. That shows in premium materials, comfort, whole cut construction and simplicity, and the Harlestone shows each of them.",
+    "key_takeaways": [
+      "The Harlestone came out of the Covid-19 pandemic: hand-sewn moccasin-style uppers let half the workforce stitch at home, which slowed production, so Chris chose not to cut costs on materials.",
+      "Crown Northampton is run by Chris Woodford of E. Woodford & Sons, a 116-year-old, fifth-generation shoemaking business in Northampton, England, historically one of the world's great shoemaking hubs.",
+      "The four pillars of the brand are premium materials, softness and comfort, whole cut construction, and simplicity.",
+      "The Jazz collection, including the Regent, was the brand's first design and is popular in Japan, where customers call the shoes 'marshmallows' for their softness.",
+      "The Harlestone uses Italian vegetable-tanned baby calf uppers and hand-poured natural latex soles from France with heritage protections. Its lining is oak bark tanned leather from the UK's last traditional oak bark tannery.",
+      "Shell cordovan is explained: two shells per horse, a tight grain that rolls rather than creases, rich patina, durability and easy upkeep.",
+      "The Abbey uses Dearborn leather that is semi-split, so a stiffener can be slipped inside and no lining is needed. The idea came from a leather-splitting demonstration Chris saw 25 years earlier.",
+      "Whole cut construction, one flawless piece of leather wrapped around the last with a single back seam, carries over from the E. Woodford & Sons bespoke division into boots like the Everdon Rambler."
+    ],
+    "outline": [
+      {
+        "title": "Covid-19 design solution",
+        "summary": "Cold open on how the pandemic led Chris Woodford to design the Harlestone around hand-sewn uppers that employees could stitch at home, and why that pushed materials upmarket. Covers Northampton's shoemaking history and the series intro.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Exploring the brand lineup",
+        "summary": "Introduces why the episode looks at several Crown Northampton models, with a no-sponsorship disclaimer and a Maine update, then starts with the Regent from the Jazz collection, nicknamed 'marshmallows' in Japan.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Brand pillars and features",
+        "summary": "Lays out the four things that define Crown Northampton: premium materials, softness and comfort, whole cut construction and simplicity. The Jazz collection is presented as the centre of the brand, with comfort as its highlight.",
+        "first_segment": 5,
+        "last_segment": 5
+      },
+      {
+        "title": "Sponsor spotlight: Asket",
+        "summary": "Sponsor segment on Asket's raw denim in regular and loose fits. Covers the brand's functional minimalism, its non-selvedge organic Japanese denim, bartacks instead of rivets, and Italian manufacturing.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Materials of the Harlston",
+        "summary": "Explains the roughly $800 Harlestone's Italian vegetable-tanned baby calf uppers and its hand-poured natural latex soles, made without machines and protected as French cultural heritage.",
+        "first_segment": 7,
+        "last_segment": 9
+      },
+      {
+        "title": "Historic tanning methods",
+        "summary": "Covers the lining leather from J & FJ Baker & Co., the UK's last traditional oak bark tannery, why Northampton's location made it a shoe capital, and Chris's reasons for using this leather.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "The magic of cordovan",
+        "summary": "Explains shell cordovan: where it comes from, its limited yield, its tight grain that rolls instead of creasing, patina, durability and easy maintenance, and why it has a cult following.",
+        "first_segment": 11,
+        "last_segment": 13
+      },
+      {
+        "title": "Innovation in leather",
+        "summary": "Looks at the Abbey's unlined Dearborn leather upper. A semi-split technique lets a stiffener sit inside the leather without a separate lining, an idea from a demonstration Chris saw 25 years earlier.",
+        "first_segment": 13,
+        "last_segment": 15
+      },
+      {
+        "title": "Heritage and craftsmanship",
+        "summary": "Explains whole cut construction using the E. Woodford & Sons bespoke division and the Everdon Rambler boot, and how the boot reflects Chris's own heritage rather than copying other bootmakers. Ends with closing thoughts.",
+        "first_segment": 15,
+        "last_segment": 17
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 3,
+        "starts_with": "what's up everybody it's Michael",
+        "last_segment": 3,
+        "ends_with": "and why they do it",
+        "note": "Channel greeting and introduction to episode two of the 'world's most fantastic' manufacturer series"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "also on the screen right now",
+        "last_segment": 4,
+        "ends_with": "if I say anything weird uh sorry",
+        "note": "No-sponsorship disclaimer about Crown Northampton, moving to Maine, showing off the Kelly coat, and being sick"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 5,
+        "starts_with": "this video is brought to you",
+        "last_segment": 7,
+        "ends_with": "favorite sweatshirts cuz it's quite good",
+        "note": "Sponsor read for Asket raw denim jeans and a sweatshirt"
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "by the way I just moved",
+        "last_segment": 9,
+        "ends_with": "I have had oats for breakfast",
+        "note": "Joke about feeling out of place on a popular Maine morning trail"
+      },
+      {
+        "role": "aside",
+        "first_segment": 16,
+        "starts_with": "I'm very sorry for the mess",
+        "last_segment": 16,
+        "ends_with": "and couldn't readjust everything",
+        "note": "Apology for the messy apartment after moving to Maine"
+      },
+      {
+        "role": "aside",
+        "first_segment": 17,
+        "starts_with": "oh but you know what I",
+        "last_segment": 17,
+        "ends_with": "a brand based in Sheffield England",
+        "note": "Teaser for Iron Snail boot and hiking sneaker collaborations"
+      },
+      {
+        "role": "outro",
+        "first_segment": 17,
+        "starts_with": "anyways that is about it thank",
+        "last_segment": 17,
+        "ends_with": "whatever you're doing on Thursday",
+        "note": "Sign-off and Thanksgiving wishes"
+      }
+    ],
+    "topics": [
+      "Crown Northampton brand history",
+      "Covid-19 and shoe manufacturing",
+      "hand-sewn uppers",
+      "Northampton shoemaking heritage",
+      "Harlestone sneaker materials",
+      "vegetable-tanned calf leather",
+      "natural latex soles",
+      "oak bark tanning",
+      "shell cordovan",
+      "Dearborn leather",
+      "semi-split leather construction",
+      "whole cut construction",
+      "luxury white sneakers",
+      "Asket raw denim"
+    ],
+    "entity_ids": [
+      "iron-snail:e:crown-northampton",
+      "iron-snail:e:e-woodford-sons",
+      "iron-snail:e:chris-woodford",
+      "iron-snail:e:ernest-woodford",
+      "iron-snail:e:harlestone",
+      "iron-snail:e:shell-cordovan-harlestone",
+      "iron-snail:e:regent",
+      "iron-snail:e:jazz-collection",
+      "iron-snail:e:abbey",
+      "iron-snail:e:everdon-rambler",
+      "iron-snail:e:everdon",
+      "iron-snail:e:vegetable-tanned-baby-calf-leather",
+      "iron-snail:e:natural-latex-hevea-milk",
+      "iron-snail:e:lati-heavier-soles",
+      "iron-snail:e:oak-bark-tanned-leather",
+      "iron-snail:e:j-fj-baker-co",
+      "iron-snail:e:shell-cordovan",
+      "iron-snail:e:horween",
+      "iron-snail:e:skip-horween",
+      "iron-snail:e:nick-stridewise",
+      "iron-snail:e:dearborn-leather",
+      "iron-snail:e:semi-split-leather",
+      "iron-snail:e:stiffener",
+      "iron-snail:e:whole-cut-construction",
+      "iron-snail:e:cork-footbed",
+      "iron-snail:e:hand-sewn-moccasin-uppers",
+      "iron-snail:e:german-army-trainer",
+      "iron-snail:e:vibram",
+      "iron-snail:e:vulcanized-sole",
+      "iron-snail:e:buffalo-leather",
+      "iron-snail:e:northampton",
+      "iron-snail:e:unesco-intangible-cultural-heritage",
+      "iron-snail:e:living-heritage-company-label",
+      "iron-snail:e:asket",
+      "iron-snail:e:august",
+      "iron-snail:e:asket-raw-denim-jeans",
+      "iron-snail:e:asket-sweatshirt",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:bartacks",
+      "iron-snail:e:rivets",
+      "iron-snail:e:seh-kelly-balmacaan-coat",
+      "iron-snail:e:danner",
+      "iron-snail:e:red-wing"
+    ],
+    "categories": [
+      "shoes",
+      "boots",
+      "denim",
+      "coats",
+      "sweatshirts"
+    ],
+    "answers_questions": [
+      "Why is the Crown Northampton Harlestone so expensive?",
+      "How did Covid lead to the Harlestone being designed?",
+      "Who is Chris Woodford and what's the history behind Crown Northampton?",
+      "Why do Japanese customers call Crown Northampton sneakers marshmallows?",
+      "What are the soles on the Harlestone made of?",
+      "What leather does Crown Northampton use for the uppers and the lining?",
+      "What is oak bark tanning and who still does it in the UK?",
+      "What makes shell cordovan so special, and why doesn't it crease?",
+      "How is the Abbey made without a lining?",
+      "What is whole cut construction and why is it hard to do?",
+      "Why did Northampton become the shoemaking capital of the world?",
+      "What are Crown Northampton's core design principles?",
+      "Why doesn't Asket use selvedge denim or rivets on their jeans?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:Th9rFZSbMHM:s0004",
+        "note": "After saying 'what's up Michael welcome back to Maine', he corrects himself: he meant to say 'everyone, my name is Michael'."
+      },
+      {
+        "segment_id": "iron-snail:Th9rFZSbMHM:s0013",
+        "note": "He says Dearborn leather is meant to be like deer leather but 'not as weak', then rephrases: weak isn't the right word, it is meant to be stronger and hold up to heavier use."
+      },
+      {
+        "segment_id": "iron-snail:Th9rFZSbMHM:s0001",
+        "note": "He jokes that Chris is not a savvy businessman but an artist, then retracts it with 'just kidding Chris'."
+      }
+    ],
+    "related_videos": [
+      "Episode one of 'the world's most fantastic' manufacturer series",
+      "Iron Snail t-shirts ranking video (Asket was the unofficial winner)",
+      "Upcoming Iron Snail 'internet's favorite sweatshirts' video",
+      "Stridewise (Nick) video on shell cordovan at Horween, interviewing Skip Horween",
+      "Next Iron Snail video on how Crown Northampton runs its business"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:crown-northampton",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Crown Northampton",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Crown North Anton",
+        "crown Northampton",
+        "crowned Northampton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:e-woodford-sons",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "E. Woodford & Sons",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "e Woodford and Suns"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chris-woodford",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Chris Woodford",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Chris"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ernest-woodford",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ernest Woodford",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:harlestone",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Harlestone",
+      "brand": "Crown Northampton",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "harlon",
+        "harlon's",
+        "harlson",
+        "harlston"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shell-cordovan-harlestone",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Shell Cordovan Harlestone",
+      "brand": "Crown Northampton",
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:regent",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Regent",
+      "brand": "Crown Northampton",
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jazz-collection",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Jazz collection",
+      "brand": "Crown Northampton",
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:abbey",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Abbey",
+      "brand": "Crown Northampton",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "ABY",
+        "Abby",
+        "ab"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:everdon-rambler",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Everdon Rambler",
+      "brand": "Crown Northampton",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Rambler boot",
+        "everan Rambler"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:everdon",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Everdon",
+      "brand": "Crown Northampton",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "everan sneaker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vegetable-tanned-baby-calf-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "vegetable-tanned baby calf leather",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "baby calf Italian vegetable tanned leather",
+        "vegetable tanned baby calf leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:natural-latex-hevea-milk",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "natural latex (hevea milk)",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "natural latex",
+        "pure virgin heav milk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lati-heavier-soles",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "Lati heavier soles",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Lati heavier souls",
+        "lacti heavy ass souls"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oak-bark-tanned-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "oak bark tanned leather",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "oak bark"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:j-fj-baker-co",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "J & FJ Baker & Co.",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "J and FJ Bakers and Company",
+        "J and FJ Bakers in company"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shell-cordovan",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "shell cordovan",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "C of in",
+        "Cavin",
+        "Shell Cent",
+        "Shell Cordovan",
+        "Shell civan",
+        "civin",
+        "cordovan",
+        "shell cin",
+        "shell civan",
+        "shell covin",
+        "shell quarin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:horween",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Horween",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Horn",
+        "horine",
+        "horween",
+        "horwin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:skip-horween",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Skip Horween",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "skip horine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nick-stridewise",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Nick (Stridewise)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Nick at stridewise",
+        "Nick from Stridewise",
+        "Stridewise",
+        "drivewise",
+        "nick",
+        "stride wise",
+        "stridewise"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dearborn-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Dearborn leather",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Deerborn leather",
+        "Deerborne leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:semi-split-leather",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "semi-split leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "semi- spit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stiffener",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "stiffener",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "stiffeners"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:whole-cut-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "whole cut construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "H cut",
+        "hulka construction",
+        "whole cut"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cork-footbed",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "cork footbed",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "cork on this footed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hand-sewn-moccasin-uppers",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "hand-sewn moccasin uppers",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hand seone",
+        "hand sewn mockasin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:german-army-trainer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "German Army Trainer",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "German Army trainer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "vibram",
+        "vibrant",
+        "vium"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vulcanized-sole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "vulcanized sole",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "vulcanized vium soul"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buffalo-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "buffalo leather",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "tan Buffalo leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:northampton",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Northampton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unesco-intangible-cultural-heritage",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "UNESCO intangible cultural heritage",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "UNESCO"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:living-heritage-company-label",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Living Heritage Company label",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "living Heritage company"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:asket",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Asket",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Ask",
+        "as Cat",
+        "aset",
+        "ask it",
+        "asket",
+        "askit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:august",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "August",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:asket-raw-denim-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Asket raw denim jeans",
+      "brand": "Asket",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "loose fit",
+        "regular fit",
+        "slim fit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:asket-sweatshirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Asket sweatshirt",
+      "brand": "Asket",
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "this sweatshirt"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "Selvage",
+        "non Sal",
+        "salvage",
+        "salvage line",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bartacks",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "bartacks",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "bxs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rivets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rivets",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seh-kelly-balmacaan-coat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "SEH Kelly Balmacaan coat",
+      "brand": "SEH Kelly",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "Kelly Co"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:danner",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Danner",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "dam",
+        "daners",
+        "dinner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:red-wing",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Red Wing",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Red Wings",
+        "red rings",
+        "red wing",
+        "red wings",
+        "redwing",
+        "wedwing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "42173f92e99f267a"
+}

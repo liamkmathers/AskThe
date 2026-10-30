@@ -1,0 +1,746 @@
+{
+  "platform_id": "0H3XfsdrXc0",
+  "profile": {
+    "video_id": "iron-snail:0H3XfsdrXc0",
+    "purpose": "A deep dive into the Feit Classic Low sneaker: its materials, tanning, horsehide leather, hand construction and price. It also explains why modern sneakers can't recreate the warmth of vintage ones. This is the first episode of the creator's 'World's Most Fantastic' series.",
+    "video_type": "explainer",
+    "thesis": "The Feit Classic Low is a hand-lasted, hand-sewn sneaker made from vegetable-tanned horsehide and cork. Its handmade process and high-quality materials give it the warmth of vintage sneakers, which machine-made modern shoes lose.",
+    "key_takeaways": [
+      "Feit Classic Lows are made mainly of cork and leather, plus a lot of glue, waxed cotton thread and Vibram pads.",
+      "The leather is vegetable tanned rather than chrome tanned, which affects breathability, water resistance, durability, creaking and patina.",
+      "The uppers are horsehide, which is denser than cowhide, so a thinner leather can break in quickly and still be strong.",
+      "The shoes are hand lasted and hand sewn to the insole's gemming, not Goodyear welted. A leather strip hides the construction, and glue is used heavily to keep the look minimal.",
+      "They retail at $850 and are made in a single factory in China. According to the founder, making the exact same shoe in Italy would cost about $2,500.",
+      "Vintage sneakers had high-quality materials and hands-on processes, such as hand lasting, which give a warmth that machine-made modern sneakers lose."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Feit",
+        "summary": "Unboxing details and a hook about the single factory that makes the shoes. Vintage-feeling sneakers are introduced, along with the episode's questions about price and construction and the launch of the 'World's Most Fantastic' series.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Quality and aging process",
+        "summary": "How the sneakers age over two months of wear, plus a disclaimer that he bought them himself and contacted the founder only to confirm facts.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Materials and tanning",
+        "summary": "Cork as the base material and the Italian tannery that supplies the leather. Covers vegetable versus chrome tanning and their pros and cons, plus the creaking and patina of vegetable-tanned leather.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Watch brand sponsorship",
+        "summary": "Sponsor segment listing six facts about the Vaer R1 Chronograph watch.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Horsehide leather benefits",
+        "summary": "Why horsehide is used: it is denser than cowhide, breaks in quickly while staying strong, and is metal-free tanned so it can be worn without socks.",
+        "first_segment": 6,
+        "last_segment": 7
+      },
+      {
+        "title": "Handmade construction",
+        "summary": "Explains lasting, hand versus machine lasting, and stitching to the insole gemming versus Goodyear welt construction. Covers the cork fill, the hiding leather strip, the leather outsole, the Vibram pads and the heavy use of glue.",
+        "first_segment": 7,
+        "last_segment": 10
+      },
+      {
+        "title": "Pricing and manufacturing",
+        "summary": "Why the shoes cost $850, the single factory in China, and the founder's claim that Italian production would cost $2,500. Includes his research comparing prices and US manufacturing.",
+        "first_segment": 10,
+        "last_segment": 12
+      },
+      {
+        "title": "Modern vs vintage shoes",
+        "summary": "Why vintage sneakers, cleats and running shoes look different from modern ones and can't be recreated: better early materials, hands-on processes such as hand lasting, and how big brands compensate for machine lasting.",
+        "first_segment": 12,
+        "last_segment": 15
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "14 certification of authenticity cork foot beds",
+        "last_segment": 2,
+        "ends_with": "so it's like a fish's life",
+        "note": "Unboxing hook, vintage sneaker comparison, series introduction, purchase disclaimer and greeting."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "you can do a whole video",
+        "last_segment": 3,
+        "ends_with": "not today so stay on topic",
+        "note": "Joke about cork insulating missiles and spaceships."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 5,
+        "starts_with": "we interrupt this program to bring you",
+        "last_segment": 6,
+        "ends_with": "description and I will TTY yl",
+        "note": "Sponsor read for the Vaer R1 Chronograph watch."
+      },
+      {
+        "role": "aside",
+        "first_segment": 9,
+        "starts_with": "every time I put them on",
+        "last_segment": 10,
+        "ends_with": "I love these shoes okay let's go",
+        "note": "Personal joke about telling Taylor he loves the shoes."
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "I make my clothing in America",
+        "last_segment": 12,
+        "ends_with": "their shoes in Chef hild England",
+        "note": "Mentions his own US-made clothing and an upcoming shoe collaboration."
+      },
+      {
+        "role": "outro",
+        "first_segment": 15,
+        "starts_with": "thank you very much for tuning in",
+        "last_segment": 15,
+        "ends_with": "I'm going to go shave my head now",
+        "note": "Thanks viewers and signs off the first World's Most Fantastic episode."
+      }
+    ],
+    "topics": [
+      "Feit Classic Low sneakers",
+      "vegetable tanning vs chrome tanning",
+      "horsehide vs cowhide leather",
+      "cork footbeds",
+      "hand lasting vs machine lasting",
+      "Goodyear welt vs stitching to insole gemming",
+      "glue in sneaker construction",
+      "sneaker pricing and manufacturing location",
+      "leather patina and aging",
+      "why vintage sneakers can't be recreated",
+      "Vaer R1 Chronograph sponsorship"
+    ],
+    "entity_ids": [
+      "iron-snail:e:feit-classic-low",
+      "iron-snail:e:feit",
+      "iron-snail:e:toll-price",
+      "iron-snail:e:mam-tannery",
+      "iron-snail:e:cork-filling",
+      "iron-snail:e:vegetable-tanned-leather",
+      "iron-snail:e:vegetable-tanning",
+      "iron-snail:e:chrome-tanning",
+      "iron-snail:e:horsehide",
+      "iron-snail:e:cowhide",
+      "iron-snail:e:civin-wood",
+      "iron-snail:e:patina",
+      "iron-snail:e:last",
+      "iron-snail:e:hand-lasting",
+      "iron-snail:e:machine-lasting",
+      "iron-snail:e:gemming",
+      "iron-snail:e:goodyear-welt-construction",
+      "iron-snail:e:welt",
+      "iron-snail:e:leather-strip",
+      "iron-snail:e:vegetable-tanned-leather-outsole",
+      "iron-snail:e:vibram",
+      "iron-snail:e:waxed-cotton-thread",
+      "iron-snail:e:glue",
+      "iron-snail:e:birkenstock",
+      "iron-snail:e:vaer",
+      "iron-snail:e:vaer-r1-chronograph",
+      "iron-snail:e:sapphire-crystal",
+      "iron-snail:e:mega-quartz-movement",
+      "iron-snail:e:nike",
+      "iron-snail:e:puma",
+      "iron-snail:e:adidas",
+      "iron-snail:e:fly-nit",
+      "iron-snail:e:on",
+      "iron-snail:e:gor",
+      "iron-snail:e:the-iron-snail",
+      "iron-snail:e:taylor"
+    ],
+    "categories": [
+      "shoes"
+    ],
+    "answers_questions": [
+      "Why are Feit sneakers so expensive?",
+      "Where are Feit Classic Lows made?",
+      "What's the difference between vegetable tanned and chrome tanned leather?",
+      "Why does Feit use horsehide instead of cowhide?",
+      "Are Feit sneakers Goodyear welted, and how are they constructed?",
+      "What does hand lasting mean and how is it different from machine lasting?",
+      "Do Feit sneakers creak, and how do they age or patina?",
+      "Can you wear Feit sneakers without socks?",
+      "What's the leather strip on Feit shoes for?",
+      "Why can't Nike or Adidas remake their vintage sneakers exactly?",
+      "What are Feit sneakers made of?",
+      "Would Feit shoes cost more if made in Italy?"
+    ],
+    "uses": [
+      "understanding",
+      "buying_decision",
+      "background_history"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:0H3XfsdrXc0:s0010",
+        "note": "He says the shoes 'technically should cost $2500 if made anywhere else besides... China', then stops ('pause wait a minute') to revisit the claim."
+      },
+      {
+        "segment_id": "iron-snail:0H3XfsdrXc0:s0012",
+        "note": "Clarifies that the $2,500 figure is the founder's estimate for mimicking the exact process in Italy. Something similar could be made in the US for roughly the current $850 retail, though without the exact nuances."
+      }
+    ],
+    "related_videos": [
+      "The previous video in which Michael wore the Feit sneakers",
+      "The World's Most Fantastic series (this is the first episode)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:feit-classic-low",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Feit Classic Low",
+      "brand": "Feit",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "fight classic Low's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:feit",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Feit",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Fight",
+        "Fights",
+        "fight"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:toll-price",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Toll Price",
+      "brand": "Feit",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tol",
+        "toll price"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mam-tannery",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "mam Tannery",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "marim"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cork-filling",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "cork filling",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cord",
+        "cork",
+        "cork insoles"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vegetable-tanned-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "vegetable-tanned leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "vegetable tan leather",
+        "vegetable tanned accents",
+        "vegetable tanned leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vegetable-tanning",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "vegetable tanning",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chrome-tanning",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "chrome tanning",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Chrome tan leather",
+        "Chrome tanning"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:horsehide",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "horsehide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hor hide",
+        "horse hiide",
+        "horse leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cowhide",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cowhide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cow hide"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:civin-wood",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "civin wood",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patina",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "patina",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "patinas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:last",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "last",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hand-lasting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "hand lasting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hand lasted",
+        "handl lasting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:machine-lasting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "machine lasting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gemming",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "gemming",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "geming"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goodyear-welt-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Goodyear welt construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Goodyear wel construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:welt",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-strip",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather strip",
+      "brand": "Feit",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vegetable-tanned-leather-outsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "vegetable-tanned leather outsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "vegetable tanned leather outsole"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "vibram",
+        "vibrant",
+        "vium"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxed-cotton-thread",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "waxed cotton thread",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wax cotton threads"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:glue",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "glue",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:birkenstock",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Birkenstock",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Birkenstocks",
+        "birkenstock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vaer",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Veyer",
+        "Veyor",
+        "be",
+        "ve",
+        "veyor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer-r1-chronograph",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vaer R1 Chronograph",
+      "brand": "Vaer",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "R1",
+        "R1 chronograph",
+        "chronograph R1"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sapphire-crystal",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "sapphire crystal",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sapphire crystals"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mega-quartz-movement",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "mega quartz movement",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nike",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Nike",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Nikey"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:puma",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Puma",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adidas",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Adidas",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fly-nit",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "fly nit",
+      "brand": "Nike",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:on",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "On",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "on"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gor",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "gor",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Iron Snail",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "I make my clothing in America",
+        "iron snail"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "33ac86d28363c624"
+}

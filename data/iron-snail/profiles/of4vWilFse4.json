@@ -1,0 +1,381 @@
+{
+  "platform_id": "of4vWilFse4",
+  "profile": {
+    "video_id": "iron-snail:of4vWilFse4",
+    "purpose": "Introduce the Samara, a collaboration sneaker between The Iron Snail and Goral Footwear, by walking through its materials, special-edition wool version and Vibram outsole, with a plug for the Mammoth jacket relaunch.",
+    "video_type": "other",
+    "thesis": "The Samara combines Goral's minimalist, town-wearable footwear with The Iron Snail's wish to be ready for rough terrain, using Charles F Stead waxy leather, American Woolen buffalo plaid and a Vibram Arctic Grip outsole.",
+    "key_takeaways": [
+      "The Samara is the first collaboration between The Iron Snail and Goral Footwear.",
+      "The upper uses Charles F Stead's Waxy Commander leather, a wax-stuffed, water-resistant leather; the side, back and top panels use its reverse side to hide scratches and resist abrasion.",
+      "A special edition uses 22 oz fine micron buffalo plaid from American Woolen in Connecticut, the same mill that weaves the Mammoth jacket fabric.",
+      "The outsole is Vibram with Arctic Grip for wet ice, plus a thermochromatic lug that turns blue below freezing.",
+      "Three stitches at the toe further secure the outsole.",
+      "The shoe is named after the samara, the winged seed of maple trees.",
+      "The Samaras release on December 26, 2024 via Goral's site; the Mammoth jacket, including a new lighter version, goes live December 27."
+    ],
+    "outline": [
+      {
+        "title": "Intro",
+        "summary": "An animated, report-style introduction of the Samara as the first Iron Snail x Goral collaboration and the ideas each brand brings to it.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Materials",
+        "summary": "Covers the Charles F Stead Waxy Commander leather, its water resistance and resistance to stretching, and the use of its reverse side on the side, back and top panels.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Special Edition",
+        "summary": "Describes the special edition made with 22 oz fine micron buffalo plaid from American Woolen, a tribute to New England.",
+        "first_segment": 1,
+        "last_segment": 1
+      },
+      {
+        "title": "Mammoth",
+        "summary": "A plug for the Mammoth wool jacket's V2 relaunch in new colours and wools, plus a new, lighter Mammoth line, with release and email list details.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Outsole",
+        "summary": "Explains the Vibram outsole with Arctic Grip, the thermochromatic freeze-warning lug and the toe stitching, then the origin of the name Samara and the release date.",
+        "first_segment": 2,
+        "last_segment": 2
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "the IR and snail collaborations and",
+        "last_segment": 0,
+        "ends_with": "goral and Suns episode one",
+        "note": "Animated report-style title introduction of the project."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "which by the way the mammoths",
+        "last_segment": 2,
+        "ends_with": "okie dokie thank you back to Samaras",
+        "note": "Digression promoting the creator's own Mammoth jacket relaunch and email list."
+      },
+      {
+        "role": "outro",
+        "first_segment": 2,
+        "starts_with": "our spinning jenny whirly bird is",
+        "last_segment": 2,
+        "ends_with": "is really the creative one",
+        "note": "Release date, sign-off, and thanks to animator Robin with a high school joke."
+      }
+    ],
+    "topics": [
+      "Iron Snail x Goral collaboration sneaker",
+      "waxed leather uppers",
+      "water resistance",
+      "wool special edition",
+      "Vibram Arctic Grip ice traction",
+      "thermochromatic lug",
+      "outsole stitching",
+      "Mammoth jacket relaunch",
+      "product release dates"
+    ],
+    "entity_ids": [
+      "iron-snail:e:samara",
+      "iron-snail:e:goral-footwear",
+      "iron-snail:e:dominic-goral",
+      "iron-snail:e:michael-kristy",
+      "iron-snail:e:charles-f-stead",
+      "iron-snail:e:waxy-commander",
+      "iron-snail:e:american-woolen",
+      "iron-snail:e:fine-micron-buffalo-plaid-wool",
+      "iron-snail:e:mammoth-jacket",
+      "iron-snail:e:leth-line-mammoth",
+      "iron-snail:e:vibram",
+      "iron-snail:e:vibram-arctic-grip",
+      "iron-snail:e:ice-tr",
+      "iron-snail:e:thermochromatic-lug",
+      "iron-snail:e:samara-seed",
+      "iron-snail:e:robin"
+    ],
+    "categories": [
+      "shoes",
+      "jackets"
+    ],
+    "answers_questions": [
+      "What is the Iron Snail x Goral sneaker called?",
+      "What leather are the Samaras made from?",
+      "Are the Samaras water resistant?",
+      "What sole do the Samaras use, and are they good on ice?",
+      "What does the blue lug on the Samara sole mean?",
+      "What is the special edition Samara made of?",
+      "Where does the wool on the special edition Samara come from?",
+      "Why is the shoe called the Samara?",
+      "When were the Samaras released and where can I buy them?",
+      "When is the Mammoth jacket restocking, and in what colours?",
+      "What is the difference between the original Mammoth and the new lighter Mammoth?",
+      "Is the Mammoth on sale now V2 or V3?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:samara",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Samara",
+      "brand": "Goral Footwear",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Samaras"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goral-footwear",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Goral Footwear",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "gor's",
+        "goral",
+        "goral Footwear",
+        "goral and Suns"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dominic-goral",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Dominic Goral",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Dominic goral"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:michael-kristy",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Michael Kristy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael",
+        "Michael Christie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:charles-f-stead",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Charles F Stead",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Charles fste",
+        "Dead's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:waxy-commander",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Waxy Commander",
+      "brand": "Charles F Stead",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "waxy Commander"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:american-woolen",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "American Woolen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fine-micron-buffalo-plaid-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "fine micron buffalo plaid wool",
+      "brand": "American Woolen",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "22 oz fine Micron Buffalo plaid"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mammoth-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mammoth Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mammoth",
+        "mammoth",
+        "mammoth V2",
+        "mammoths",
+        "primordial mammoth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leth-line-mammoth",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "leth line Mammoth",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "leafl Mammoth"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vibram",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "VI's",
+        "vibram",
+        "vibrant",
+        "vium"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vibram-arctic-grip",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Vibram Arctic Grip",
+      "brand": "Vibram",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Arctic grip",
+        "arctic grip"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ice-tr",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "ice TR",
+      "brand": "Vibram",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "IC track"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:thermochromatic-lug",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "thermochromatic lug",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:samara-seed",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "samara (seed)",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Samara"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:robin",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Robin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "0cec30579700a95f"
+}

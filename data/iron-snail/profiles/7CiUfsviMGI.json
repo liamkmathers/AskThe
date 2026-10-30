@@ -1,0 +1,784 @@
+{
+  "platform_id": "7CiUfsviMGI",
+  "profile": {
+    "video_id": "iron-snail:7CiUfsviMGI",
+    "purpose": "Explains the history of the New Balance 990 running sneaker, from its 1982 launch to the 990 V6, and why a shoe engineered for running became a lifestyle and 'dad' shoe. Michael tests the 990 V6 on a five-mile run and compares it with a modern Brooks running shoe.",
+    "video_type": "explainer",
+    "thesis": "New Balance's orthopedic roots, Boston customer base and stubborn refusal to drop its gray, leather, made-in-USA formula made the 990 V1 a groundbreaking running shoe. The same refusal let modern lightweight running shoes pass it by, so it became a stable, comfortable lifestyle shoe.",
+    "key_takeaways": [
+      "New Balance began as an orthopedic insole maker; founder William Riley drew on the three points of balance in a chicken's foot.",
+      "Being founded in Boston, with its medical, tech and university crowd, shaped a nerdy, wealthy, health-focused customer base.",
+      "The 1982 990 V1 cost $100, the most expensive running shoe of its time, and had a thermoplastic heel counter, endcap technology (EVA foam inside a polyurethane rim) and premium mesh and suede.",
+      "Gray became New Balance's signature as a deliberately unflashy, rebellious choice.",
+      "Competitors won youth culture through athlete endorsements, while New Balance marketed itself as 'endorsed by no one'.",
+      "Across six versions, the 990 kept its leather, weight and stiffness, so it faded from serious running.",
+      "The 990 V6 uses less leather, a cage structure, more mesh, a segmented outsole and updated foams, and is still made in Massachusetts.",
+      "In the run test the 990 V6 felt heavy, stiff and clunky next to a light, soft Brooks running shoe.",
+      "Verdict: recommended as a lifestyle or walking shoe, not as a modern running shoe."
+    ],
+    "outline": [
+      {
+        "title": "The legendary 1982 release",
+        "summary": "Cold open on the $100 990 V1 of 1982, its gray color, and the question of why nobody runs in it today. Michael sets out the agenda and plans a five-mile test run.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Origins and chicken feet",
+        "summary": "New Balance's roots in orthopedics and arch support, set alongside other foot-comfort pioneers. Covers William Riley's chicken-foot inspiration and how a Boston founding shaped its customers.",
+        "first_segment": 3,
+        "last_segment": 9
+      },
+      {
+        "title": "Sponsored segment",
+        "summary": "Caldera + Lab skincare sponsor read, followed by a run check-in at mile one and a half.",
+        "first_segment": 9,
+        "last_segment": 12
+      },
+      {
+        "title": "Technical innovations",
+        "summary": "The 1982 competition and what the 990 V1 brought, demonstrated on a 574: thermoplastic heel counter, endcap EVA/polyurethane midsole, uncompromising materials and the gray colorway.",
+        "first_segment": 12,
+        "last_segment": 16
+      },
+      {
+        "title": "Competition and decline",
+        "summary": "Nike and others won youth culture through athlete endorsements while New Balance went 'endorsed by no one'. The 990 V1 to V6 drifted out of the running world. Includes a run check-in at mile 3.3.",
+        "first_segment": 16,
+        "last_segment": 19
+      },
+      {
+        "title": "Evolution of the 990",
+        "summary": "What 43 years of updates changed in the 990 V6: less leather, a cage structure, more mesh, a segmented outsole and updated endcap foams, with US manufacturing and material quality kept.",
+        "first_segment": 20,
+        "last_segment": 22
+      },
+      {
+        "title": "From running to lifestyle",
+        "summary": "Why gray and stubbornness define the brand, with the Steve Jobs and Apple connection. A side-by-side with a light knit Brooks running shoe shows the 990's weight, and the shoe's adoption by dads is explained.",
+        "first_segment": 23,
+        "last_segment": 28
+      },
+      {
+        "title": "Final verdict on the 990",
+        "summary": "After the five-mile run, Michael decides the 990 V6 won't be his running shoe and recommends it for lifestyle and walking use instead.",
+        "first_segment": 28,
+        "last_segment": 29
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Picture this. It's the 1980s and",
+        "last_segment": 3,
+        "ends_with": "What happened along the way that stopped that?",
+        "note": "Cold open on the 1982 990 V1, greeting at George E. Martin Memorial Field, and the video's agenda."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "I'm also going to go for a five mile run",
+        "last_segment": 3,
+        "ends_with": "So, maybe this will help.",
+        "note": "Plans a five-mile run in the 990s and mentions his poor running form."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 9,
+        "starts_with": "Of course, I'm pretty terrified of aging",
+        "last_segment": 12,
+        "ends_with": "I do recommend them. Thanks again, Caldera.",
+        "note": "Sponsor read for Caldera + Lab men's skincare, led in by a childhood story about fearing aging."
+      },
+      {
+        "role": "aside",
+        "first_segment": 16,
+        "starts_with": "I guess kind of, you know, it's like Rob Stark",
+        "last_segment": 16,
+        "ends_with": "Rob Stark is dead. He's killed.",
+        "note": "Game of Thrones analogy and joke about watching the show for the first time."
+      }
+    ],
+    "topics": [
+      "New Balance 990 history",
+      "New Balance origins in orthopedics and insoles",
+      "why New Balance shoes are gray",
+      "990 V1 technology in 1982",
+      "endcap midsole technology",
+      "running shoes vs lifestyle sneakers",
+      "made in USA sneakers",
+      "dad shoe culture",
+      "990 V6 running test",
+      "sneaker marketing and athlete endorsements"
+    ],
+    "entity_ids": [
+      "iron-snail:e:new-balance",
+      "iron-snail:e:new-balance-990-v1",
+      "iron-snail:e:new-balance-990-v6",
+      "iron-snail:e:new-balance-990-series",
+      "iron-snail:e:new-balance-574",
+      "iron-snail:e:new-balance-993",
+      "iron-snail:e:new-balance-991v2",
+      "iron-snail:e:endcap-technology",
+      "iron-snail:e:heel-counter",
+      "iron-snail:e:eva-foam",
+      "iron-snail:e:polyurethane",
+      "iron-snail:e:mesh",
+      "iron-snail:e:suede",
+      "iron-snail:e:leather",
+      "iron-snail:e:segmented-rubber-outsole",
+      "iron-snail:e:nike",
+      "iron-snail:e:nike-pegasus",
+      "iron-snail:e:nike-terra-tc",
+      "iron-snail:e:brooks",
+      "iron-snail:e:brooks-chariot",
+      "iron-snail:e:sakin-jazz",
+      "iron-snail:e:sccy",
+      "iron-snail:e:as6",
+      "iron-snail:e:adidas",
+      "iron-snail:e:birkenstock",
+      "iron-snail:e:william-riley",
+      "iron-snail:e:dr-william-scho",
+      "iron-snail:e:dr-scholes",
+      "iron-snail:e:dr-edward-mson",
+      "iron-snail:e:mson-last",
+      "iron-snail:e:insole-support",
+      "iron-snail:e:steve-jobs",
+      "iron-snail:e:apple",
+      "iron-snail:e:michael-jordan",
+      "iron-snail:e:caldera-lab",
+      "iron-snail:e:the-clean-slate",
+      "iron-snail:e:the-good",
+      "iron-snail:e:the-base-layer",
+      "iron-snail:e:dad-shoe",
+      "iron-snail:e:made-in-usa"
+    ],
+    "categories": [
+      "shoes"
+    ],
+    "answers_questions": [
+      "Why are New Balance 990s gray?",
+      "Can you actually run in the New Balance 990 V6?",
+      "Why did the 990 stop being a serious running shoe?",
+      "How did New Balance start, and what's the chicken foot story?",
+      "What made the 990 V1 so special in 1982?",
+      "What is New Balance's endcap tech and what does it do?",
+      "How does the 990 V6 compare to a modern Brooks running shoe?",
+      "What changed between the 990 V1 and the 990 V6?",
+      "Why is New Balance considered the dad shoe?",
+      "Are New Balance 990s still made in the USA?",
+      "How is the 574 related to the original 990?",
+      "Why did Steve Jobs wear New Balance?",
+      "Is the 990 V6 worth buying as an everyday lifestyle sneaker?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "buying_decision",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:7CiUfsviMGI:s0013",
+        "note": "After calling the shoe on screen the 990 V1, he says it is actually a 574, used as a stand-in because it shares the V1's features."
+      },
+      {
+        "segment_id": "iron-snail:7CiUfsviMGI:s0028",
+        "note": "In segment 20 he said he would make the 990 V6 his running shoe forever. After the run he reverses this: he won't, and recommends it only as a lifestyle or walking shoe."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:new-balance",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "New Balance",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance-990-v1",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "New Balance 990 V1",
+      "brand": "New Balance",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "990 V1",
+        "990V"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance-990-v6",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "New Balance 990 V6",
+      "brand": "New Balance",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "990 V6",
+        "990v6"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance-990-series",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "New Balance 990 series",
+      "brand": "New Balance",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "990 series",
+        "V2",
+        "V3",
+        "V4",
+        "V5"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance-574",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "New Balance 574",
+      "brand": "New Balance",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "574"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance-993",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "New Balance 993",
+      "brand": "New Balance",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "993"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:new-balance-991v2",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "New Balance 991v2",
+      "brand": "New Balance",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "991v2"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:endcap-technology",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "endcap technology",
+      "brand": "New Balance",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "end cap",
+        "endcap"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:heel-counter",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "heel counter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "thermal plastic"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eva-foam",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "EVA foam",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "EVA"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyurethane",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyurethane",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mesh",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "mesh",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "meshes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:suede",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "suede",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "suedes"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "gray leather"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:segmented-rubber-outsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "segmented rubber outsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "segment the rubber"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nike",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Nike",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Nikey"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nike-pegasus",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Nike Pegasus",
+      "brand": "Nike",
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Pegasus"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nike-terra-tc",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Nike Terra TC",
+      "brand": "Nike",
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:brooks",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Brooks",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "brooks"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:brooks-chariot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Brooks Chariot",
+      "brand": "Brooks",
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sakin-jazz",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Sakin Jazz",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sccy",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sccy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:as6",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "AS6",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:adidas",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Adidas",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:birkenstock",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Birkenstock",
+      "brand": null,
+      "model": null,
+      "category": "shoes",
+      "aliases": [
+        "Birkenstocks",
+        "birkenstock"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:william-riley",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "William Riley",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dr-william-scho",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Dr. William Scho",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Dr. William Schaw"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dr-scholes",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dr. Scholes",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dr-edward-mson",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Dr. Edward Mson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mson-last",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Mson Last",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:insole-support",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "insole support",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Insole support",
+        "insoles"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:steve-jobs",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Steve Jobs",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:apple",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Apple",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:michael-jordan",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Michael Jordan",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:caldera-lab",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Caldera + Lab",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Caldera",
+        "Caldera Lab",
+        "Calera",
+        "Calera Lab",
+        "calderab.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-clean-slate",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Clean Slate",
+      "brand": "Caldera + Lab",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "clean slate",
+        "the clean slate"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-good",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Good",
+      "brand": "Caldera + Lab",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "the Good",
+        "the good"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-base-layer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Base Layer",
+      "brand": "Caldera + Lab",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "the base layer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dad-shoe",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "dad shoe",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dad sneaker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:made-in-usa",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Made in USA",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "made in USA",
+        "made in the USA"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "21b664dccf08e070"
+}

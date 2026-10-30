@@ -1,0 +1,570 @@
+{
+  "platform_id": "JzAgs47Idzw",
+  "profile": {
+    "video_id": "iron-snail:JzAgs47Idzw",
+    "purpose": "Explain the history and design of the Clarks Desert Boot, its origins in the African vellie and its Quaker roots, compare modern and vintage construction, and explain why the boot became a cultural icon in Jamaica through the rude boy movement.",
+    "video_type": "explainer",
+    "thesis": "The Clarks Desert Boot is a simplified version of the African vellie field boot, shaped by Quaker ideas of simplicity. Its striking look, toughness and comfort made it the footwear of Jamaica's post-independence rude boys, and police suspicion turned it into a symbol of rebellion, producing a relationship between a footwear brand and a country with no equal.",
+    "key_takeaways": [
+      "Clarks has an unusually deep relationship with Jamaica, including hundreds of songs about the boots (such as Vybz Kartel's \"Clarks\"), Jamaica-specific models, investment in the country and a book on the subject.",
+      "Nathan Clark based the Desert Boot on the vellie, a field boot British officers wore in hot climates such as Africa and Myanmar during WWII.",
+      "The video explains the boot's anatomy: rough-out suede, stitchdown construction, a crepe rubber outsole, a midsole and an insole, with notes on the strengths and drawbacks of crepe.",
+      "Clarks' Quaker roots are tied to the boot's simple design, illustrated by a detour through how Quaker Oats got its name.",
+      "A comparison with a 1980s Clarks Desert Boot measures leather thickness, crepe hardness, midsole and insole, and also compares the Astorflex chukka.",
+      "The rude boy culture that followed Jamaican independence in 1962 adopted Clarks, and police suspicion of well-dressed young men made the boots a symbol of rebellion."
+    ],
+    "outline": [
+      {
+        "title": "Cold open: Clarks, the vellie, Quakers and Jamaica",
+        "summary": "Introduces the Clarks Desert Boot as a copy of an African boot shaped by Quaker design ideas and hugely popular in Jamaica.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Clarks in Jamaica",
+        "summary": "Describes Vybz Kartel's song \"Clarks\", the hundreds of Jamaican songs about the brand, Clarks' investment and marketing in Jamaica, and the link to the rude boys.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "Origins: the vellie field boot",
+        "summary": "Explains the vellie, a field shoe that relieved British officers serving in hot climates, and how Nathan Clark took inspiration from it.",
+        "first_segment": 3,
+        "last_segment": 4
+      },
+      {
+        "title": "Anatomy of the boot",
+        "summary": "Walks through rough-out suede and the confusion around the word 'suede', stitchdown construction, how crepe rubber is made and its drawbacks, and introduces the midsole and insole controversy.",
+        "first_segment": 5,
+        "last_segment": 9
+      },
+      {
+        "title": "Sponsor break",
+        "summary": "A skit-style Huckberry sponsor read for the Proof 72-Hour Merino T-Shirt, filmed in New Hampshire.",
+        "first_segment": 10,
+        "last_segment": 12
+      },
+      {
+        "title": "Quaker influence and design",
+        "summary": "Uses the naming of Quaker Oats to explain Quaker values, links Clarks' Quaker roots to simplicity, and shows how the Desert Boot simplified the vellie.",
+        "first_segment": 12,
+        "last_segment": 14
+      },
+      {
+        "title": "Quality comparison",
+        "summary": "Compares a modern Clarks Desert Boot with a 1980s pair on leather thickness, crepe hardness measured with a durometer, midsole and insole, then compares the Astorflex chukka.",
+        "first_segment": 14,
+        "last_segment": 19
+      },
+      {
+        "title": "The rude boy icon",
+        "summary": "Traces the boot's success in the post-war US, then Jamaica's 1962 independence, the rise of the rude boys and their style, music and dances, and how police suspicion made Clarks a symbol of rebellion passed down through families.",
+        "first_segment": 19,
+        "last_segment": 25
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "These are Clark's desert boots.",
+        "last_segment": 3,
+        "ends_with": "from what I can tell there's nothing like this.",
+        "note": "Cold open introducing the boot's African origin, Quaker roots and its fame in Jamaica."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "Obviously, I couldn't afford the licensing fee.",
+        "last_segment": 1,
+        "ends_with": "Holly will use it at her will.",
+        "note": "Joke about song licensing and the editor Holly."
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "Wow. 36 Mafia is probably looking",
+        "last_segment": 2,
+        "ends_with": "probably looking to kill me.",
+        "note": "Joke after misattributing a song."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "People always say to me, \"Michael,",
+        "last_segment": 7,
+        "ends_with": "you're a very simple simple man.\"",
+        "note": "Self-deprecating joke about simplicity."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 10,
+        "starts_with": "What a beautiful day. Oh, are",
+        "last_segment": 12,
+        "ends_with": "One-stop men shop, Pedro Pascal.",
+        "note": "Huckberry sponsor read for the Proof 72-Hour Merino T-Shirt, performed as the character John Davis in New Hampshire."
+      }
+    ],
+    "topics": [
+      "Clarks Desert Boot history",
+      "Clarks and Jamaica",
+      "rude boy culture",
+      "vellie field boot",
+      "Quaker influence on Clarks",
+      "rough-out suede",
+      "stitchdown construction",
+      "crepe rubber soles",
+      "modern vs vintage Clarks quality",
+      "Astorflex vs Clarks",
+      "WWII footwear",
+      "Jamaican dancehall music"
+    ],
+    "entity_ids": [
+      "iron-snail:e:clarks",
+      "iron-snail:e:clarks-desert-boot",
+      "iron-snail:e:vellie",
+      "iron-snail:e:jim-green",
+      "iron-snail:e:jim-green-vellie",
+      "iron-snail:e:astorflex",
+      "iron-snail:e:astorflex-chukka",
+      "iron-snail:e:nathan-clark",
+      "iron-snail:e:vybz-kartel",
+      "iron-snail:e:quaker-religion",
+      "iron-snail:e:quaker-oats",
+      "iron-snail:e:henry-seymour",
+      "iron-snail:e:rude-boy",
+      "iron-snail:e:rough-out-suede",
+      "iron-snail:e:stitchdown-construction",
+      "iron-snail:e:crepe-rubber",
+      "iron-snail:e:goodyear-welt",
+      "iron-snail:e:fiberboard-midsole",
+      "iron-snail:e:shore-a-durometer-hardness",
+      "iron-snail:e:huckberry",
+      "iron-snail:e:proof-72-hour-merino-t-shirt",
+      "iron-snail:e:limmer-boots",
+      "iron-snail:e:holly",
+      "iron-snail:e:rihanna"
+    ],
+    "categories": [
+      "boots"
+    ],
+    "answers_questions": [
+      "Why are Clarks so popular in Jamaica?",
+      "Where did the Clarks Desert Boot design come from?",
+      "What's the difference between a vellie and a Clarks Desert Boot?",
+      "Are modern Clarks Desert Boots worse quality than the old ones?",
+      "Is Astorflex closer to the original Clarks than modern Clarks are?",
+      "Are crepe soles slippery, and how durable are they?",
+      "What is stitchdown construction and why is it good?",
+      "What is rough-out suede, and is it the same as regular suede?",
+      "What do the Quakers have to do with Clarks?",
+      "Who were the rude boys and why did they wear Clarks?",
+      "What's the Vybz Kartel song about Clarks?",
+      "Why do people say modern Clarks feel different?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding",
+      "buying_decision",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:JzAgs47Idzw:s0002",
+        "note": "He first attributes 'Boots with the Fur' to Three 6 Mafia, then corrects himself to Flo Rida."
+      },
+      {
+        "segment_id": "iron-snail:JzAgs47Idzw:s0012",
+        "note": "He corrects his assumption that Quaker Oats is a Quaker company: it is not, but it was named after the Quakers' good reputation."
+      }
+    ],
+    "related_videos": [
+      "Upcoming video about Limmer Boots, filmed in New Hampshire"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:clarks",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Clarks",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Clark's",
+        "Clark's boots"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:clarks-desert-boot",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Clarks Desert Boot",
+      "brand": "Clarks",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Clark desert boot",
+        "Clark's desert boot",
+        "Clark's desert boots",
+        "clark desert boots",
+        "desert boot"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vellie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vellie",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Felchkun",
+        "Felkun",
+        "Felly",
+        "felkun",
+        "fell",
+        "fellies",
+        "felly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jim-green",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Jim Green",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Jim green",
+        "gym green"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jim-green-vellie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Jim Green Vellie",
+      "brand": "Jim Green",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "gym green fellies"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:astorflex",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Astorflex",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Astrolex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:astorflex-chukka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Astorflex chukka",
+      "brand": "Astorflex",
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Astrolex Chuckas"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nathan-clark",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Nathan Clark",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vybz-kartel",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Vybz Kartel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Vibes Cartel"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:quaker-religion",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Quaker religion",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Quaker",
+        "Quakers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:quaker-oats",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Quaker Oats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:henry-seymour",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Henry Seymour",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rude-boy",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "rude boy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rude Boys"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rough-out-suede",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "rough-out suede",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "full grain suede",
+        "reverse leather",
+        "rough out",
+        "suede"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stitchdown-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "stitchdown construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Stitch down construction",
+        "resolvable Stitch down construction",
+        "stitch down construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crepe-rubber",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "crepe rubber",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "crepe"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goodyear-welt",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Goodyear welt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Goodyear welted",
+        "Goodyear welting",
+        "good year welted",
+        "good your welt",
+        "goodyear welt",
+        "goodyear welted",
+        "goodyear welton",
+        "goodyear will"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fiberboard-midsole",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "fiberboard midsole",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fiberboard"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shore-a-durometer-hardness",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Shore A durometer hardness",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Shore A",
+        "durometer",
+        "shore a"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:huckberry",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Huckberry",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Huck Berry",
+        "hockberry",
+        "huckberry"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:proof-72-hour-merino-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Proof 72-Hour Merino T-Shirt",
+      "brand": "Proof",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "proof 72-hour Marino t-shirt",
+        "proof 72-hour t-shirts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:limmer-boots",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Limmer Boots",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:holly",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Holly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "holly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rihanna",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Rihanna",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "a6e2b24e7a3c786c"
+}

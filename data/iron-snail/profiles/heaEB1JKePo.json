@@ -1,0 +1,782 @@
+{
+  "platform_id": "heaEB1JKePo",
+  "profile": {
+    "video_id": "iron-snail:heaEB1JKePo",
+    "purpose": "Explain why Rolex created the Explorer II for cave explorers and Arctic expeditions, using its history to show how Rolex built its market dominance through marketing and innovation.",
+    "video_type": "explainer",
+    "thesis": "Rolex dominates the watch market through relentless marketing tied to human achievement and through popularising (not always inventing) key innovations. The Explorer II, with its 24-hour hand and later polar dial, was made for the new generation of 1970s cavers who could not tell day from night.",
+    "key_takeaways": [
+      "Rolex's 2023 watch sales reportedly surpassed its top five competitors combined.",
+      "Rolex's early marketing pillars were chronometer certification (1910) and water resistance, the latter popularised by the Mercedes Vindication swim with a Rolex Oyster.",
+      "Rolex popularised the self-winding rotor movement (Oyster Perpetual) rather than inventing it; John Harwood invented the automatic movement, and Rolex got in trouble for implying otherwise.",
+      "Rolex introduced the first automatically changing date.",
+      "The Explorer II's red 24-hour hand and 24-hour bezel tell day from night in caves or polar regions; later movements made the 24-hour hand independently settable for a second time zone.",
+      "Changes from the original 1655 to later models: the big orange hand was dropped, the dial was lacquered, and a white polar dial was added for visibility.",
+      "The Explorer II arrived in 1971 alongside a boom in caving technology such as nylon ropes and Petzl's ascenders.",
+      "Michael accidentally burned his 16570 with a filming light."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to Explorer",
+        "summary": "Introduces the Rolex Explorer 16570 as a watch for spelunkers and Arctic explorers and sets up the question of Rolex's dominance. Michael explains his 12-year background in the watch world.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Chrono24 sponsorship",
+        "summary": "Sponsor read for Chrono24's certification program for avoiding fake watches, plus a note that Rocket Money also sponsors the video and mid-rolls were removed.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Rolex marketing machine",
+        "summary": "Covers Rolex as a marketing machine from the start: the WWI shift to wristwatches, chronometer certification in 1910, and the push for water resistance.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "The vindication swim",
+        "summary": "Tells the story of Mercedes, the English Channel swimmer whose feat was disputed, and how Hans Wilsdorf put a Rolex Oyster on her for the Vindication swim.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "Rocket Money sponsorship",
+        "summary": "A comedic sponsor read for Rocket Money where Michael keeps drifting off-script to talk about The Iron Snail.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "Innovating the oyster case",
+        "summary": "Explains how Rolex's achievement-driven marketing took hold, and how it popularised the self-winding rotor movement (Oyster Perpetual) invented by John Harwood. Also covers the first automatic date change.",
+        "first_segment": 7,
+        "last_segment": 10
+      },
+      {
+        "title": "Rolex's market dominance",
+        "summary": "Argues Rolex stays at the top by constant innovation and by putting its watches on the wrists of people achieving great feats, with Omega's moon landing as the exception.",
+        "first_segment": 10,
+        "last_segment": 10
+      },
+      {
+        "title": "Designing the explorer ii",
+        "summary": "Explains the problem of telling day from night in caves and the Arctic, and how the red 24-hour hand and bezel solve it. Covers the later independent hour hand for tracking two time zones.",
+        "first_segment": 11,
+        "last_segment": 12
+      },
+      {
+        "title": "Model evolution and mishaps",
+        "summary": "Covers changes from the original 1655: removal of the orange hand, the lacquered dial and the white polar dial. Includes Michael accidentally burning his watch with a filming light.",
+        "first_segment": 12,
+        "last_segment": 14
+      },
+      {
+        "title": "Spelunking and conclusion",
+        "summary": "Places the 1971 Explorer II in the context of the 1960s-70s caving boom (nylon, Petzl ascenders) and Rolex's strategy of a watch for every human achievement, then closes with a vlog channel plug.",
+        "first_segment": 14,
+        "last_segment": 16
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this is a Rolex Explorer 16570",
+        "last_segment": 0,
+        "ends_with": "Michael says that's crazy you guys must be so rich",
+        "note": "Hook introducing the Explorer 16570 and Rolex's dominance"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "also while shooting this video I burned",
+        "last_segment": 0,
+        "ends_with": "little red right there FML that sucked",
+        "note": "Michael shows where he burned the watch while filming"
+      },
+      {
+        "role": "aside",
+        "first_segment": 0,
+        "starts_with": "the founder of Rolex Hans wilsdorf said",
+        "last_segment": 0,
+        "ends_with": "how I came up with the name the iron snail",
+        "note": "Joke about the genie origin of the Rolex name"
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "also this video may seem totally out",
+        "last_segment": 1,
+        "ends_with": "I've been in the sticks for a while",
+        "note": "Michael's personal background working in the watch world"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 1,
+        "starts_with": "I did not buy this watch",
+        "last_segment": 2,
+        "ends_with": "but that should be it for this whole video",
+        "note": "Sponsor read for Chrono24's certification program, plus a note that Rocket Money also sponsors and mid-rolls were removed"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 5,
+        "starts_with": "all right Michael just say your name",
+        "last_segment": 7,
+        "ends_with": "unlock even more features with premium",
+        "note": "Comedic sponsor read for Rocket Money"
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "except the moon didn't get to the",
+        "last_segment": 10,
+        "ends_with": "guess Omega stock is going up",
+        "note": "Joke about Omega and the moon landing"
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "not the best holly for this example",
+        "last_segment": 11,
+        "ends_with": "Holly we're back initiate clock sequence",
+        "note": "Skit where Michael turns into a clock and talks with Holly"
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "although apparently no match for me when",
+        "last_segment": 14,
+        "ends_with": "I wouldn't even be showing it to right now",
+        "note": "Story of burning the watch with a filming light"
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "all of this is happening Omega is",
+        "last_segment": 15,
+        "ends_with": "standing on the moon like you guys thought it was caves",
+        "note": "Omega moon joke"
+      },
+      {
+        "role": "outro",
+        "first_segment": 16,
+        "starts_with": "okay thank you very much for watching",
+        "last_segment": 16,
+        "ends_with": "so hello Vlog but okay see you",
+        "note": "Thanks and plug for the vlog channel trips to New York and Scotland"
+      }
+    ],
+    "topics": [
+      "Rolex history",
+      "Rolex Explorer II design",
+      "Rolex marketing strategy",
+      "water resistance in watches",
+      "automatic self-winding movements",
+      "chronometer certification",
+      "24-hour GMT hand",
+      "polar dial",
+      "caving and spelunking history",
+      "Rolex vs Omega",
+      "buying certified watches"
+    ],
+    "entity_ids": [
+      "iron-snail:e:rolex-explorer-ii-16570",
+      "iron-snail:e:rolex-explorer-ii-1655",
+      "iron-snail:e:rolex-explorer-ii",
+      "iron-snail:e:rolex-explorer-i",
+      "iron-snail:e:rolex-sky-dweller",
+      "iron-snail:e:rolex-yacht-master-ii",
+      "iron-snail:e:rolex-oyster",
+      "iron-snail:e:rolex-oyster-perpetual",
+      "iron-snail:e:rolex",
+      "iron-snail:e:omega",
+      "iron-snail:e:hans-wilsdorf",
+      "iron-snail:e:mercedes-gla",
+      "iron-snail:e:mona-mclennen",
+      "iron-snail:e:john-harwood",
+      "iron-snail:e:morgan-stanley",
+      "iron-snail:e:chrono24",
+      "iron-snail:e:rocket-money",
+      "iron-snail:e:theo-and-harris",
+      "iron-snail:e:michael-kristy",
+      "iron-snail:e:holly",
+      "iron-snail:e:bruno-dressler",
+      "iron-snail:e:ferdinand-petzel",
+      "iron-snail:e:petzel",
+      "iron-snail:e:petzel-crow",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:nylon",
+      "iron-snail:e:chronometer-certification",
+      "iron-snail:e:bumper-movement",
+      "iron-snail:e:automatic-movement",
+      "iron-snail:e:24-hour-hand",
+      "iron-snail:e:polar-dial",
+      "iron-snail:e:lacquered-dial",
+      "iron-snail:e:lume",
+      "iron-snail:e:water-resistance",
+      "iron-snail:e:vindication-swim",
+      "iron-snail:e:the-iron-snail"
+    ],
+    "categories": [
+      "accessories"
+    ],
+    "answers_questions": [
+      "Why did Rolex make the Explorer II?",
+      "What is the 24-hour hand on the Explorer II for?",
+      "Why does Rolex dominate the watch market so much?",
+      "Did Rolex invent the automatic watch movement?",
+      "What was the Mercedes Vindication swim with the Rolex Oyster?",
+      "What's the difference between the Explorer II 1655 and the 16570?",
+      "Why is the polar dial Explorer II so popular?",
+      "What does chronometer certified mean?",
+      "How does Chrono24's certification program work for avoiding fake watches?",
+      "How did Michael burn his Rolex?",
+      "What was Michael's background in watches before The Iron Snail?",
+      "Why did caving gear take off in the 1970s?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:heaEB1JKePo:s0003",
+        "note": "After saying Rolex made watches waterproof, Michael clarifies that they called it waterproof at the time but it was really water resistant."
+      }
+    ],
+    "related_videos": [
+      "Michael's vlog channel videos about going to New York to make clothing and trips to Scotland"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:rolex-explorer-ii-16570",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Explorer II 16570",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Rolex Explorer 16570"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-explorer-ii-1655",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Explorer II 1655",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "original 1655"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-explorer-ii",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Explorer II",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Explorer 2",
+        "Rolex Explorer 2",
+        "relx Explorer 2"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-explorer-i",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Explorer I",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Explorer one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-sky-dweller",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Sky-Dweller",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "sky dweller"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-yacht-master-ii",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Yacht-Master II",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "yacht Master 2"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-oyster",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Oyster",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-oyster-perpetual",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Oyster Perpetual",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Rolex Oyster perpetuals"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rolex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Relic",
+        "Rox",
+        "relx"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:omega",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Omega",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hans-wilsdorf",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Hans Wilsdorf",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Hans wilsdorf",
+        "Hans wisdorf"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mercedes-gla",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Mercedes GLA",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mona-mclennen",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Mona mclennen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:john-harwood",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "John Harwood",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:morgan-stanley",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Morgan Stanley",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chrono24",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Chrono24",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Chrono 24",
+        "chrona 24",
+        "chrono24"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rocket-money",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Rocket Money",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rocket money"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:theo-and-harris",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Theo and Harris",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "theo and harris"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:michael-kristy",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Michael Kristy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Michael",
+        "Michael Christie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:holly",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Holly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "holly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bruno-dressler",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Bruno Dressler",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ferdinand-petzel",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ferdinand petzel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:petzel",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "petzel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:petzel-crow",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "petzel crow",
+      "brand": "petzel",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gorex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chronometer-certification",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "chronometer certification",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "chronometer certified",
+        "cost certified"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bumper-movement",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "bumper movement",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:automatic-movement",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "automatic movement",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:24-hour-hand",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "24-hour hand",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "red 24-hour hand"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polar-dial",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "polar dial",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lacquered-dial",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "lacquered dial",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lacquer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lume",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "lume",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "loom"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:water-resistance",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "water resistance",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "water resistant",
+        "waterproof"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vindication-swim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Vindication swim",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Iron Snail",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "I make my clothing in America",
+        "iron snail",
+        "the iron snail"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "4f84961be67e6bf6"
+}

@@ -1,0 +1,777 @@
+{
+  "platform_id": "PmbmS3KwSi8",
+  "profile": {
+    "video_id": "iron-snail:PmbmS3KwSi8",
+    "purpose": "Tests and compares merino wool, synthetic and cotton t-shirts on odor, drying speed and durability, and explains the fiber science, the superwash process and the environmental arguments behind the merino debate.",
+    "video_type": "comparison",
+    "thesis": "Merino t-shirts are measured against synthetic and cotton shirts through hands-on odor, drying and durability tests plus research. Each fiber's results are explained by its structure, the superwash controversy is examined, and the video ends with a recommendation that depends on how the wearer uses and washes their shirts.",
+    "key_takeaways": [
+      "Odor test: Patagonia Capilene Cool Daily (mint oil) and a Uniqlo synthetic shirt stank quickly, cotton came second and merino wool rated 10/10 for anti-stink.",
+      "Synthetics smell because they absorb little or no moisture and hold onto sweat proteins and fats, which lets bacteria thrive.",
+      "Wool's scaled, layered fiber repels liquid water on the surface while absorbing water vapor inside, which explains its odor resistance.",
+      "Drying: synthetics dried somewhat faster than wool but the gap was small, while cotton was still wet after more than 12 hours.",
+      "Durability: Woolmark data shows wool is stretchy and bendy but weaker than cotton or polyester, so 100% merino wears out faster. Nylon blends like Proof 72-Hour held up for years.",
+      "Gentle care (hand washing, drying flat) keeps merino looking new. This is shown with Taylor's Unbound Merino clothing.",
+      "Superwashing uses chlorine to burn off wool scales and fills them with Hercosett resin. Unbound Merino describes a closed-loop process for it, and alternatives such as plasma treatment exist.",
+      "Even superwashed or blended wool contains far less plastic than a 100% synthetic shirt. Washing frequency also affects a garment's environmental footprint.",
+      "Final recommendation: careful hand-washers get 100% merino, harder users get a blend, people who wash daily or go rucking get synthetic, and casual wearers get cotton."
+    ],
+    "outline": [
+      {
+        "title": "T-shirt comparison intro",
+        "summary": "Introduces the cotton, Patagonia synthetic, Uniqlo synthetic and merino contenders, plus the common complaints about merino. Sets out the tests: smell, strength and drying.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Sponsorship disclaimer",
+        "summary": "Discloses Unbound Merino sponsorship and states that the brand has no say in the content and that sources are listed in the description.",
+        "first_segment": 2,
+        "last_segment": 2
+      },
+      {
+        "title": "Synthetic odor test",
+        "summary": "Patagonia Capilene Cool Daily's mint-oil odor control fails on day one. A Uniqlo synthetic shirt, presumed to use silver, is added and smells even worse. The scoring graph is introduced.",
+        "first_segment": 2,
+        "last_segment": 5
+      },
+      {
+        "title": "Why synthetics stink",
+        "summary": "Explains that polyester and nylon absorb little moisture and retain sweat oils and proteins, creating a breeding ground for bacteria.",
+        "first_segment": 5,
+        "last_segment": 6
+      },
+      {
+        "title": "Cotton performance test",
+        "summary": "Describes cotton as a seed-protection fiber that absorbs water and releases odors as it dries. It takes second place in the smell test despite feeling oily, and the section compares the simple fiber structure of cellulose and synthetics.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "Merino wool superiority",
+        "summary": "A pine-cone demo explains wool scales, the hydrophobic F layer, lanolin and the cortex that absorbs vapor. It concludes that wool is the gold standard for anti-stink.",
+        "first_segment": 8,
+        "last_segment": 12
+      },
+      {
+        "title": "Traveling with wool",
+        "summary": "Sponsored segment packing light with Unbound Merino pants and a t-shirt. Includes travel and exercise uses for wool and a cameo from Taylor.",
+        "first_segment": 13,
+        "last_segment": 15
+      },
+      {
+        "title": "Drying speed testing",
+        "summary": "The drying test was run three times. Wool and synthetic dried similarly, while cotton was still wet after over 12 hours and was disqualified.",
+        "first_segment": 15,
+        "last_segment": 17
+      },
+      {
+        "title": "Drying data analysis",
+        "summary": "Reviews outside tests, including Backpacking Light: synthetics dry faster but lose water at a similar rate, because wool absorbs about 30% moisture as vapor.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "Durability and strength",
+        "summary": "Woolmark strength-versus-stretch data shows why merino wears out faster. Covers long-term experience with Proof 72-Hour blends, a Wool&Prince example and Taylor's careful hand-washing routine.",
+        "first_segment": 19,
+        "last_segment": 23
+      },
+      {
+        "title": "Superwashing process",
+        "summary": "Explains how chlorine treatment and Hercosett resin stop felting, the environmental and worker-safety concerns, and Hala's description of Unbound Merino's closed-loop process.",
+        "first_segment": 23,
+        "last_segment": 27
+      },
+      {
+        "title": "Environmental impact",
+        "summary": "Weighs wool's resource intensity and superwash concerns against its much lower plastic content and newer methods like plasma treatment. Covers Patagonia's silver-versus-mint choice and the energy cost of frequent washing.",
+        "first_segment": 27,
+        "last_segment": 30
+      },
+      {
+        "title": "Final recommendations",
+        "summary": "Recommends 100% merino, a blend, synthetic or cotton depending on care habits and activity.",
+        "first_segment": 30,
+        "last_segment": 31
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Uniqlo's synthetic t-shirt after 15 miles",
+        "last_segment": 2,
+        "ends_with": "the big controversial thing at the end.",
+        "note": "Cold open with a smell test, introduction of the contenders and the merino complaints."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 2,
+        "starts_with": "But before we get into any",
+        "last_segment": 2,
+        "ends_with": "sponsored portion, but that's it.",
+        "note": "Sponsorship disclosure for Unbound Merino with an editorial-independence disclaimer."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 13,
+        "starts_with": "YouTube, we're going on a trip",
+        "last_segment": 15,
+        "ends_with": "link is in the description.",
+        "note": "Sponsor read for Unbound Merino: packing light for travel, with a Taylor cameo."
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "But can't you see that though?",
+        "last_segment": 16,
+        "ends_with": "36 apples so far, three dozen.",
+        "note": "Aside about the apple tree, fall in Portland and apple picking."
+      },
+      {
+        "role": "aside",
+        "first_segment": 25,
+        "starts_with": "Future, the rapper, wrote a whole",
+        "last_segment": 26,
+        "ends_with": "bunch of Hercosett and had a great time.",
+        "note": "Joke about Future and the atom bomb during the superwash explanation."
+      }
+    ],
+    "topics": [
+      "merino wool vs synthetic vs cotton t-shirts",
+      "odor resistance of fabrics",
+      "why polyester smells",
+      "wool fiber structure",
+      "drying speed comparison",
+      "merino durability and holes",
+      "merino care and washing",
+      "superwash wool and Hercosett resin",
+      "environmental impact of wool vs synthetics",
+      "anti-odor treatments (mint oil, silver)",
+      "travel clothing",
+      "merino-nylon blends"
+    ],
+    "entity_ids": [
+      "iron-snail:e:patagonia-capilene-cool-daily-t-shirt",
+      "iron-snail:e:capilene",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:uniqlo-synthetic-t-shirt",
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:unbound-merino",
+      "iron-snail:e:unbound-merino-t-shirt",
+      "iron-snail:e:unbound-merino-pants",
+      "iron-snail:e:proof-72-hour-merino-t-shirt",
+      "iron-snail:e:proof",
+      "iron-snail:e:pompeii-cotton-t-shirt",
+      "iron-snail:e:wool-prince",
+      "iron-snail:e:lululemon",
+      "iron-snail:e:rei",
+      "iron-snail:e:outlier",
+      "iron-snail:e:woolmark",
+      "iron-snail:e:backpacking-light",
+      "iron-snail:e:tasker-denim",
+      "iron-snail:e:dave",
+      "iron-snail:e:taylor",
+      "iron-snail:e:hala",
+      "iron-snail:e:holly",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:polyester",
+      "iron-snail:e:nylon",
+      "iron-snail:e:cotton",
+      "iron-snail:e:mint-oil-odor-treatment",
+      "iron-snail:e:silver-odor-treatment",
+      "iron-snail:e:lanolin",
+      "iron-snail:e:hercosett",
+      "iron-snail:e:f-layer",
+      "iron-snail:e:orthocortex-and-paracortex",
+      "iron-snail:e:superwash",
+      "iron-snail:e:felting",
+      "iron-snail:e:plasma-treatment",
+      "iron-snail:e:crotch-gusset"
+    ],
+    "categories": [
+      "t-shirts"
+    ],
+    "answers_questions": [
+      "Does merino wool really not stink after multiple days of wear?",
+      "Why do polyester workout shirts smell so bad?",
+      "Is Patagonia Capilene Cool good at stopping odor?",
+      "Is cotton better than synthetic for smell?",
+      "Does merino dry as fast as synthetic shirts?",
+      "Why do merino t-shirts get holes so fast?",
+      "How should I wash merino shirts so they last?",
+      "How durable are Proof 72-Hour merino t-shirts?",
+      "What is superwash wool and is it just plastic coating?",
+      "Is merino wool worse for the environment than polyester?",
+      "Should I get 100% merino or a merino-nylon blend?",
+      "Is merino good for travel and packing light?",
+      "Which t-shirt fabric should I pick for running versus casual wear?"
+    ],
+    "uses": [
+      "buying_decision",
+      "care_maintenance",
+      "understanding"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:PmbmS3KwSi8:s0001",
+        "note": "Corrects the intro's claim that merino t-shirts have 'absolutely no drawbacks', admitting they do have drawbacks."
+      },
+      {
+        "segment_id": "iron-snail:PmbmS3KwSi8:s0024",
+        "note": "Amends the earlier point (segment 11) that lanolin makes wool hydrophobic. The lanolin coating is usually washed off wool whether or not it is superwashed."
+      },
+      {
+        "segment_id": "iron-snail:PmbmS3KwSi8:s0017",
+        "note": "Revises the expectation stated in segment 15 that synthetics would dominate drying. Wool and synthetic dried similarly, with synthetics only somewhat faster."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:patagonia-capilene-cool-daily-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia Capilene Cool Daily T-Shirt",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Capilene Cool Daily t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:capilene",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Capilene",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "underwear",
+      "aliases": [
+        "Kapalene"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-synthetic-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo synthetic t-shirt",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Uniqlo t-shirt",
+        "Uniqlo's synthetic t-shirt"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo",
+        "uniqlo's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Unbound Merino",
+      "brand": null,
+      "model": null,
+      "category": "underwear",
+      "aliases": [
+        "Unbound"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Unbound Merino t-shirt",
+      "brand": "Unbound Merino",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "100% merino wool t-shirt",
+        "A t-shirt from Unbound Merino"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:unbound-merino-pants",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Unbound Merino pants",
+      "brand": "Unbound Merino",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "A pair of pants from Unbound Merino"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:proof-72-hour-merino-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Proof 72-Hour Merino T-Shirt",
+      "brand": "Proof",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Proof 72 hour merino t-shirts",
+        "proof 72-hour Marino t-shirt",
+        "proof 72-hour t-shirts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:proof",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Proof",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pompeii-cotton-t-shirt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Pompeii cotton t-shirt",
+      "brand": "Pompeii",
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "cotton t-shirt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wool-prince",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wool&Prince",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lululemon",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Lululemon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rei",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "REI",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:outlier",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Outlier",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woolmark",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Woolmark",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "wool Mark"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:backpacking-light",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Backpacking Light",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "backpacking light"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tasker-denim",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Tasker Denim",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dave",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Dave",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hala",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Hala",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:holly",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Holly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "holly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "Woolen",
+        "merino",
+        "super fine merino",
+        "whe coat",
+        "wool",
+        "wool jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mint-oil-odor-treatment",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "mint oil odor treatment",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "mint oil",
+        "mint oils",
+        "mint technology"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:silver-odor-treatment",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "silver odor treatment",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "silver",
+        "silver salts"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lanolin",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "lanolin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hercosett",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Hercosett",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:f-layer",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "F layer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:orthocortex-and-paracortex",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "orthocortex and paracortex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ortho cortex",
+        "para cortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:superwash",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "superwash",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Super Washing",
+        "Superwash",
+        "superwashed",
+        "superwashing"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "felting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Felts",
+        "felt",
+        "felted"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:plasma-treatment",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "plasma treatment",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "plasm treat",
+        "plasma treat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crotch-gusset",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "crotch gusset",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "c842520f5542b873"
+}

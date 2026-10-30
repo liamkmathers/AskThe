@@ -1,0 +1,693 @@
+{
+  "platform_id": "eP9iXl6m5tM",
+  "profile": {
+    "video_id": "iron-snail:eP9iXl6m5tM",
+    "purpose": "Explains why Levi's Type III denim jackets have two vertical seams on the front and back, by tracing the history of Levi's jackets from the Type I through the Type III using vintage examples.",
+    "video_type": "explainer",
+    "thesis": "The two lines on the Levi's Type III are not functional workwear features. When Levi's pivoted from workwear to fashion, the front and back pleats of the earlier Type I and Type II jackets were turned into slimming, V-shaped seams that pay homage to them. The design was likely inspired by Lee's earlier 101-J.",
+    "key_takeaways": [
+      "The creator's first theories for the seams (ripstop barrier, extra protective layer, added heft for Sanforizing) turned out to be wrong.",
+      "Experts pointed to Lee's slimmer, athletic 101-J jacket, released about 14 years earlier, as the source of the Type III design.",
+      "The Type I (506XX, 1905) was a roomy workwear jacket. It had one chest pocket, a back cinch, rivets, dropped shoulders, and front and back pleats with box stitching that could be opened up.",
+      "The Type II (507XX, 1953–1962) added a second chest pocket, swapped the back cinch for waist adjusters and rivets for bar tacks, and slimmed the arms. It sat between workwear and fashion.",
+      "After Levi's rivet patent expired in 1890 and competitors like Carhartt appeared, Levi's leaned into fashion and denim's Western pop-culture appeal.",
+      "Jack Lucier's Type III (1962) moved the pocket up and replaced the pleats with V-shaped seams to slim the jacket. It also raised the shoulders and changed the collar.",
+      "The creator argues there was no Type IV because the culture moved away from Westerns (toward sci-fi such as Star Wars), so the Western designs were left as they were.",
+      "The video also presents the creator's own Prologue Denim Jacket V2 and Chapter 1 Jeans, including the lower-cost Leafline version."
+    ],
+    "outline": [
+      {
+        "title": "The mystery of the lines",
+        "summary": "Poses the question of the two front lines on Levi's jackets and lays out the creator's initial theories (ripstop, protection, Sanforizing heft). It reveals that Lee is the answer and thanks We Buy Old Jeans for lending the vintage jackets.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Iron Snail clothing brand",
+        "summary": "Channel intro, then a presentation of the Chapter 1 Jeans (Leafline and Japanese selvedge versions) and the Prologue Denim Jacket V2, with newsletter and giveaway info.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "History of Levi Strauss",
+        "summary": "Covers denim's origins in Nîmes and the age of indigo. Explains how Levi Strauss moved to California and backed Jacob Davis's riveted pants, giving birth to the blue jean.",
+        "first_segment": 5,
+        "last_segment": 7
+      },
+      {
+        "title": "The Type I jacket",
+        "summary": "Breaks down a 1947 Levi's 506XX as a 1940s workwear jacket: rivets, selvedge, the single pocket, back cinch, dropped shoulders, pleats with box stitching, and unsanforized denim.",
+        "first_segment": 7,
+        "last_segment": 10
+      },
+      {
+        "title": "The Type II jacket",
+        "summary": "Explains how the expired rivet patent and competitors like Carhartt pushed Levi's to release the 507XX. Covers its changes and its short run from 1953 to 1962, caught between workwear and fashion.",
+        "first_segment": 10,
+        "last_segment": 14
+      },
+      {
+        "title": "The Type III jacket",
+        "summary": "Walks through how designer Jack Lucier may have reworked the Type II into the fashion-focused Type III, turning the pleats into slimming V-shaped seams. Compares it with Lee's earlier 101-J.",
+        "first_segment": 14,
+        "last_segment": 16
+      },
+      {
+        "title": "Cultural shift in fashion",
+        "summary": "Argues there was never a Type IV because Star Wars ended Hollywood's Western era, so the Western-era designs stayed unchanged.",
+        "first_segment": 16,
+        "last_segment": 17
+      }
+    ],
+    "passages": [
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "also do you like this jacket",
+        "last_segment": 1,
+        "ends_with": "cool because it's prologue V2",
+        "note": "Quick plug for the Prologue V2 jacket the creator is wearing"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 3,
+        "starts_with": "there's a catch though and I have to say",
+        "last_segment": 3,
+        "ends_with": "check out webi jeans.com thanks Gio",
+        "note": "Promotion of We Buy Old Jeans (Gio), who lent the vintage jackets; urges viewers to sell old Levi's"
+      },
+      {
+        "role": "intro",
+        "first_segment": 3,
+        "starts_with": "look what I found my favorite animal",
+        "last_segment": 3,
+        "ends_with": "nerding out about fabrics and chilling",
+        "note": "Turtle joke and channel intro"
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "also I'm trying to create the greatest",
+        "last_segment": 5,
+        "ends_with": "thank you for listening to me ramble",
+        "note": "Creator's own brand: Chapter 1 Jeans, Leafline, Prologue V2, website relaunch, newsletter giveaway"
+      },
+      {
+        "role": "outro",
+        "first_segment": 17,
+        "starts_with": "that is about it I will see",
+        "last_segment": 17,
+        "ends_with": "oh I didn't even think about that",
+        "note": "Sign-off, plug for the Iron Snail products, and a Toy Story joke about the shift from Western to space culture"
+      }
+    ],
+    "topics": [
+      "Levi's Type III denim jacket seams",
+      "history of Levi Strauss & Co.",
+      "Levi's Type I, II and III jacket differences",
+      "workwear vs fashion in denim",
+      "Lee 101-J influence on Levi's",
+      "rivets and bar tacks",
+      "selvedge denim",
+      "Sanforization and shrinkage",
+      "denim jacket pleats",
+      "Western culture and denim popularity",
+      "vintage denim jackets"
+    ],
+    "entity_ids": [
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-strauss",
+      "iron-snail:e:jacob-davis",
+      "iron-snail:e:levi-s-type-i-jacket-506xx",
+      "iron-snail:e:levi-s-type-ii-jacket-507xx",
+      "iron-snail:e:levi-s-type-iii-jacket-557",
+      "iron-snail:e:lee",
+      "iron-snail:e:lee-101-j",
+      "iron-snail:e:wrangler",
+      "iron-snail:e:wrangler-111mj",
+      "iron-snail:e:carhartt",
+      "iron-snail:e:jack-lucier",
+      "iron-snail:e:chris-lucier",
+      "iron-snail:e:prologue-denim-jacket",
+      "iron-snail:e:chapter-1-jeans",
+      "iron-snail:e:leafline",
+      "iron-snail:e:we-buy-old-jeans",
+      "iron-snail:e:gio",
+      "iron-snail:e:taylor",
+      "iron-snail:e:rivet",
+      "iron-snail:e:bar-tack",
+      "iron-snail:e:selvedge",
+      "iron-snail:e:japanese-selvedge-denim",
+      "iron-snail:e:sanforization",
+      "iron-snail:e:ripstop",
+      "iron-snail:e:pleats",
+      "iron-snail:e:drop-shoulder",
+      "iron-snail:e:back-cinch",
+      "iron-snail:e:raw-denim",
+      "iron-snail:e:indigo",
+      "iron-snail:e:hemp-pocketing"
+    ],
+    "categories": [
+      "jackets",
+      "denim"
+    ],
+    "answers_questions": [
+      "Why do Levi's denim jackets have two lines on the front?",
+      "What's the difference between the Levi's Type I, Type II and Type III jackets?",
+      "Did Lee copy Levi's or did Levi's copy Lee with the trucker jacket?",
+      "Who designed the Levi's Type III jacket?",
+      "Why does the Levi's Type I jacket only have one chest pocket?",
+      "What were the pleats on old Levi's jackets for?",
+      "Why was the Levi's Type II only made for 9 years?",
+      "How did Levi's go from a workwear brand to a fashion brand?",
+      "Who invented the riveted blue jean?",
+      "Why is there no Levi's Type IV jacket?",
+      "What are the specs of the Iron Snail Prologue V2 and Chapter 1 Jeans?",
+      "Why did old denim jackets have such dropped shoulders and a boxy fit?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding",
+      "style"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:eP9iXl6m5tM:s0007",
+        "note": "After saying Levi's had no competitors in its Golden Era, he corrects this to 'until the 1890s', when competitors began to appear."
+      },
+      {
+        "segment_id": "iron-snail:eP9iXl6m5tM:s0012",
+        "note": "He narrows his claim that 'the world' was fascinated with Westerns to America at least."
+      },
+      {
+        "segment_id": "iron-snail:eP9iXl6m5tM:s0002",
+        "note": "He notes he was holding the wrong jacket while explaining."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-strauss",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Levi Strauss",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Levi St",
+        "Levi strauss's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jacob-davis",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Jacob Davis",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-type-i-jacket-506xx",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Type I Jacket (506XX)",
+      "brand": "Levi's",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "506 XX",
+        "type 1 jacket",
+        "type one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-type-ii-jacket-507xx",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Type II Jacket (507XX)",
+      "brand": "Levi's",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "507 XX",
+        "type 2",
+        "type two"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-type-iii-jacket-557",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's Type III Jacket (557)",
+      "brand": "Levi's",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "type 3",
+        "type 3es",
+        "type three"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lee",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Lee",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Lee denim",
+        "Lee genuine jeans"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lee-101-j",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Lee 101-J",
+      "brand": "Lee",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "101j"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wrangler",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Wrangler",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Wranglers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:wrangler-111mj",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Wrangler 111MJ",
+      "brand": "Wrangler",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carhartt",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Carhartt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "car heart",
+        "carart",
+        "carhart",
+        "carhartt"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jack-lucier",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Jack Lucier",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Jack luc8",
+        "Jack lucier"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chris-lucier",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Chris Lucier",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Chris Luc luier"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:prologue-denim-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Prologue Denim Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "prologue",
+        "prologue V2"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chapter-1-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Chapter 1 Jeans",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "chapter 1 jeans",
+        "chapter one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leafline",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Leafline",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "leafline"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:we-buy-old-jeans",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "We Buy Old Jeans",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "we buold jeans.com",
+        "we buy old jeans gmail.com",
+        "webi jeans.com"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gio",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Gio",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rivet",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "rivet",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rivets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bar-tack",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "bar tack",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "bar attack",
+        "bar taxs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:selvedge",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "selvedge",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Salvage",
+        "Selfge",
+        "Selvage",
+        "salvage",
+        "salvage line",
+        "salvaged",
+        "selvage",
+        "selvages"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:japanese-selvedge-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Japanese selvedge denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Japanese Salvage denim",
+        "Japanese salvaged denim",
+        "raw Japanese Salvage denim",
+        "raw Japanese salvage denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sanforization",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "sanforization",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "samuraized",
+        "sanerize",
+        "saniz",
+        "sariz",
+        "soriz",
+        "unsamprized"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ripstop",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "ripstop",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rip stock",
+        "rip stop"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pleats",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "pleats",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ple",
+        "pleat"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:drop-shoulder",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "drop shoulder",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dropped shoulders"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:back-cinch",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "back cinch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cinch",
+        "denim cinch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raw-denim",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "raw denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "broad denim",
+        "rod denim"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:indigo",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "indigo",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Indigo"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hemp-pocketing",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "hemp pocketing",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hemp Pockets",
+        "hemp pockets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "6fc7e34a6bb549c6"
+}

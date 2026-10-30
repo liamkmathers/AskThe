@@ -1,0 +1,879 @@
+{
+  "platform_id": "pPBCSjP8-qs",
+  "profile": {
+    "video_id": "iron-snail:pPBCSjP8-qs",
+    "purpose": "A tour of every watch in the creator's 13-piece collection, from cheap Casios to his dad's Rolex. He tells the personal story behind each one and explains why he has decided to sell the collection. Short sponsored segments for Vaer watches run between sections.",
+    "video_type": "other",
+    "thesis": "Looking back over the collection, the creator finds that his happiest watch memories come from simpler times and from gifts to others. Watches bought during his overwork years carry few good memories, so he plans to sell the collection and focus on his life.",
+    "key_takeaways": [
+      "The collection is shown roughly from cheapest to most expensive: Casio F-91W, CW&T Solid State Watch, Casio F108WHC-7B, G-Shock DW5600 and GWM5610, Hamilton Khaki Pilot Pioneer, vintage Omegas, vintage Tudor Big Rose, Rolex Explorer II, Zenith Chronomaster Revival Shadow, Rolex Explorer I and the Rolex Sea-Dweller bought for his dad.",
+      "Each watch is tied to a personal memory, such as college, friends, Taylor or his family.",
+      "The Hamilton Pilot Pioneer was lost during the move to Maine.",
+      "Explains Tudor's origin as Hans Wilsdorf's more affordable sister brand to Rolex, built with Rolex Oyster case parts.",
+      "The Vaer segments cover the solar C3 Korean field watch, a dive watch with a 150 m water resistance guarantee, the meca-quartz R1 Rally chronograph and the A12 Dirty Dozen field watch.",
+      "Two watches he gave away, a vintage Omega for his friend Ronnie's wedding and a Rolex Sea-Dweller for his dad, made him realise he should sell the rest.",
+      "He says he is selling the collection to step back from overwork and spend more time with Taylor."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to the collection",
+        "summary": "Compares the $16 Casio F-91W with a far pricier non-adjustable lookalike, previews the collection and sets up the premise that he is selling everything.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Getting ready and sponsorship",
+        "summary": "Introduces Vaer as the sponsor and explains that Vaer vignettes will appear between categories, then greets viewers.",
+        "first_segment": 2,
+        "last_segment": 3
+      },
+      {
+        "title": "Sentimental Casio watches",
+        "summary": "Covers the Casio F108WHC-7B gifted by his friend Danny and the G-Shock DW5600 he wore through college with the hour chime on.",
+        "first_segment": 3,
+        "last_segment": 5
+      },
+      {
+        "title": "Tough solar Casio and memories",
+        "summary": "Covers the G-Shock GWM5610 that Casio sent him, with Multiband 6 and Tough Solar, plus the solar Vaer C3 Korean field watch. Ends with a story about testing Casio water resistance on a kayaking trip with Taylor.",
+        "first_segment": 5,
+        "last_segment": 8
+      },
+      {
+        "title": "The missing Hamilton watch",
+        "summary": "Shows a Vaer dive watch with a 150 m water resistance guarantee, then holds a mock funeral for the Hamilton Pilot Pioneer lost in the move to Maine.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Vintage Omega watches",
+        "summary": "Covers a 1962 vintage Omega from his days selling vintage watches on Reddit and the vintage Omega he gave Ronnie for his wedding.",
+        "first_segment": 12,
+        "last_segment": 13
+      },
+      {
+        "title": "Tudor and Vaer vignettes",
+        "summary": "Covers the vintage Tudor Big Rose and Tudor's history as Hans Wilsdorf's more affordable brand built with Rolex Oyster case parts.",
+        "first_segment": 13,
+        "last_segment": 15
+      },
+      {
+        "title": "Racing chronographs",
+        "summary": "Vaer vignettes for the R1 Rally meca-quartz chronograph and the A12 Dirty Dozen field watch.",
+        "first_segment": 16,
+        "last_segment": 17
+      },
+      {
+        "title": "High-end watch spotlight",
+        "summary": "Briefly covers the Rolex Explorer II and its 24-hour, two-time-zone function, which he says is too new to hold many memories.",
+        "first_segment": 17,
+        "last_segment": 18
+      },
+      {
+        "title": "Zenith history and the Explorer",
+        "summary": "Covers the high-beat Zenith Chronomaster Revival Shadow and the burnout period in Brooklyn when he bought it. Then tells the story of the Rolex Explorer I passing back and forth between him and Ronnie.",
+        "first_segment": 18,
+        "last_segment": 22
+      },
+      {
+        "title": "Reevaluating the collection",
+        "summary": "Introduces the Rolex Sea-Dweller bought for his fisherman dad and reflects on overwork and the lack of happy memories tied to recent purchases. Announces he will sell the collection.",
+        "first_segment": 23,
+        "last_segment": 26
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hi there. This is a Casio",
+        "last_segment": 0,
+        "ends_with": "what we will be looking at today.",
+        "note": "Cold open comparing the Casio F-91W with a pricier non-adjustable lookalike, then welcome."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "I got to remember to zipper",
+        "last_segment": 1,
+        "ends_with": "in his eyes, right to the throat.",
+        "note": "Joke about being mugged in the woods by the 'Portland Maine bandit'."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 2,
+        "starts_with": "But Veyer reached out to me",
+        "last_segment": 3,
+        "ends_with": "I thought that was pretty cool.",
+        "note": "Sponsor intro for Vaer watches."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "Good morning, YouTube. How are you?",
+        "last_segment": 3,
+        "ends_with": "It is very great to see you today.",
+        "note": "Greeting and remark about uploading again within a month."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 6,
+        "starts_with": "And speaking of solar, this is",
+        "last_segment": 7,
+        "ends_with": "and having a snack. So that's Bayer 1.",
+        "note": "Sponsor vignette for the solar Vaer C3 Korean field watch."
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "The first ever like really serious",
+        "last_segment": 8,
+        "ends_with": "it's still working down here.\" Okay.",
+        "note": "Story about a kayaking trip with Taylor and testing Casio water resistance with a friend."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 9,
+        "starts_with": "This is the Veayer DS2 Meridian.",
+        "last_segment": 10,
+        "ends_with": "I have a small wrist. Okay.",
+        "note": "Sponsor vignette for a Vaer dive watch and its water resistance guarantee."
+      },
+      {
+        "role": "aside",
+        "first_segment": 10,
+        "starts_with": "Holly, can you add really sad",
+        "last_segment": 11,
+        "ends_with": "put terrible footage here.",
+        "note": "Joke to his editor Holly about adding sad funeral footage."
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "Oh, look at this. This is",
+        "last_segment": 15,
+        "ends_with": "next time. Sick log trick.",
+        "note": "Joke about sitting on logs in his videos."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 16,
+        "starts_with": "This is the Bayer R1 Rally",
+        "last_segment": 17,
+        "ends_with": "I wonder if he fought in World War.",
+        "note": "Sponsor vignettes for the Vaer R1 Rally chronograph and the A12 Dirty Dozen."
+      },
+      {
+        "role": "outro",
+        "first_segment": 26,
+        "starts_with": "Okay, that is about it.",
+        "last_segment": 26,
+        "ends_with": "internet's favorite wax jackets, rank.",
+        "note": "Thanks for watching and a teaser for next week's wax jacket ranking."
+      }
+    ],
+    "topics": [
+      "watch collection",
+      "Casio and G-Shock watches",
+      "solar-powered watches",
+      "water resistance ratings",
+      "vintage Omega",
+      "Tudor history and relationship to Rolex",
+      "chronographs and meca-quartz",
+      "Rolex Explorer",
+      "sentimental value of watches",
+      "overwork and burnout",
+      "selling a collection"
+    ],
+    "entity_ids": [
+      "iron-snail:e:casio-f-91w",
+      "iron-snail:e:cw-t-solid-state-watch",
+      "iron-snail:e:casio-f108whc-7b",
+      "iron-snail:e:casio-g-shock-dw5600e-1v",
+      "iron-snail:e:casio-g-shock-gwm5610-1",
+      "iron-snail:e:hamilton-khaki-pilot-pioneer",
+      "iron-snail:e:vintage-omega-seamaster",
+      "iron-snail:e:ronnie-s-vintage-omega-chronometer",
+      "iron-snail:e:vintage-tudor-big-rose",
+      "iron-snail:e:rolex-explorer-ii-16570",
+      "iron-snail:e:zenith-chronomaster-revival-shadow",
+      "iron-snail:e:rolex-explorer-i-14270",
+      "iron-snail:e:rolex-sea-dweller-16600",
+      "iron-snail:e:vaer",
+      "iron-snail:e:vaer-c3-korean-field-watch",
+      "iron-snail:e:vaer-ds2-meridian",
+      "iron-snail:e:vaer-r1-rally",
+      "iron-snail:e:vaer-a12-dirty-dozen",
+      "iron-snail:e:casio",
+      "iron-snail:e:g-shock",
+      "iron-snail:e:hamilton",
+      "iron-snail:e:omega",
+      "iron-snail:e:tudor",
+      "iron-snail:e:rolex",
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-bathroom-sack",
+      "iron-snail:e:buck-110-knife",
+      "iron-snail:e:chapter-1-jeans",
+      "iron-snail:e:hans-wilsdorf",
+      "iron-snail:e:taylor",
+      "iron-snail:e:ronnie",
+      "iron-snail:e:danny",
+      "iron-snail:e:drew",
+      "iron-snail:e:holly",
+      "iron-snail:e:tough-solar",
+      "iron-snail:e:multiband-6",
+      "iron-snail:e:meca-quartz",
+      "iron-snail:e:chronograph",
+      "iron-snail:e:dirty-dozen",
+      "iron-snail:e:water-resistance-rating"
+    ],
+    "categories": [
+      "accessories"
+    ],
+    "answers_questions": [
+      "What watches are in Michael's watch collection?",
+      "Why is The Iron Snail selling his whole watch collection?",
+      "What happened to his Hamilton Pilot Pioneer?",
+      "What's the story behind his Rolex Explorer I and Ronnie?",
+      "Which watch did he buy for his dad?",
+      "What's the difference between Tudor and Rolex?",
+      "Which Vaer watches does he recommend?",
+      "What is meca-quartz in the Vaer R1 Rally?",
+      "Why does he like solar-powered watches like the G-Shock GWM5610?",
+      "Is Vaer's water resistance rating real depth or just splash-proof?",
+      "What's the story behind his Zenith Chronomaster?",
+      "Which watches is he keeping?",
+      "What does a 36mm watch look like on a small wrist?"
+    ],
+    "uses": [
+      "background_history",
+      "buying_decision",
+      "understanding"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "The Iron Snail's earlier video on the Rolex Explorer II",
+      "Next week's video ranking the internet's favorite wax jackets"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:casio-f-91w",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Casio F-91W",
+      "brand": "Casio",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Casio F91W"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cw-t-solid-state-watch",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "CW&T Solid State Watch",
+      "brand": "CW&T",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:casio-f108whc-7b",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Casio F108WHC-7B",
+      "brand": "Casio",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Casio F108 WHC-7B"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:casio-g-shock-dw5600e-1v",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Casio G-Shock DW5600E-1V",
+      "brand": "Casio",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "D5600",
+        "DW5600",
+        "G-Shock Square"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:casio-g-shock-gwm5610-1",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Casio G-Shock GWM5610-1",
+      "brand": "Casio",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Casio GWM5610",
+        "JW5610"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hamilton-khaki-pilot-pioneer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Hamilton Khaki Pilot Pioneer",
+      "brand": "Hamilton",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Hamilton Pilot Pioneer",
+        "Pilot Pioneer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vintage-omega-seamaster",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vintage Omega Seamaster",
+      "brand": "Omega",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Omega47001 SC"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ronnie-s-vintage-omega-chronometer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Ronnie's Vintage Omega Chronometer",
+      "brand": "Omega",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vintage-tudor-big-rose",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vintage Tudor Big Rose",
+      "brand": "Tudor",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Tutor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-explorer-ii-16570",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Explorer II 16570",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Rolex Explorer 16570",
+        "Rolex Explorer 2"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zenith-chronomaster-revival-shadow",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Zenith Chronomaster Revival Shadow",
+      "brand": "Zenith",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Zenith",
+        "Zenith Revival Chronom Master Shadow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-explorer-i-14270",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Explorer I 14270",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Rolex Explorer 1"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex-sea-dweller-16600",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rolex Sea-Dweller 16600",
+      "brand": "Rolex",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Rolex Sea Dweller"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Vaer",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Bayer",
+        "Vayer",
+        "Veayer",
+        "Vey",
+        "Veyer",
+        "Veyor",
+        "Veyory",
+        "be",
+        "ve",
+        "veer",
+        "veyor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer-c3-korean-field-watch",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vaer C3 Korean field watch",
+      "brand": "Vaer",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Vey C3 Korean field watch"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer-ds2-meridian",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vaer DS2 Meridian",
+      "brand": "Vaer",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Veayer DS2 Meridian"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer-r1-rally",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vaer R1 Rally",
+      "brand": "Vaer",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Bayer R1 Rally"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:vaer-a12-dirty-dozen",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Vaer A12 Dirty Dozen",
+      "brand": "Vaer",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "A12 Dirty Dozen"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:casio",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Casio",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:g-shock",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "G-Shock",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hamilton",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Hamilton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:omega",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Omega",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tudor",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Tudor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Tutor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rolex",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rolex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Relic",
+        "Rox",
+        "relx"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:zenith-chronomaster-revival-shadow",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Zenith Chronomaster Revival Shadow",
+      "brand": "Zenith",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Zenith",
+        "Zenith Revival Chronom Master Shadow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phils",
+        "Pilson",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-bathroom-sack",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson bathroom sack",
+      "brand": "Filson",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buck-110-knife",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Buck 110 knife",
+      "brand": "Buck",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chapter-1-jeans",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Chapter 1 Jeans",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "chapter 1 jeans",
+        "chapter one"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hans-wilsdorf",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Hans Wilsdorf",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Hans Wildorf",
+        "Hans wilsdorf",
+        "Hans wisdorf"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ronnie",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ronnie",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "ronnie"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:danny",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Danny",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:drew",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Drew",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:holly",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Holly",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "holly"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tough-solar",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Tough Solar",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tough solar"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:multiband-6",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Multiband 6",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "multiband 6"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:meca-quartz",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "meca-quartz",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mecca Quartz"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chronograph",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "chronograph",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dirty-dozen",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Dirty Dozen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:water-resistance-rating",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "water resistance rating",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "water resistant to 150 m"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "a81a6f02ee68d9c1"
+}

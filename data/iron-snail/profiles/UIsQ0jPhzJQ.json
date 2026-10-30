@@ -1,0 +1,794 @@
+{
+  "platform_id": "UIsQ0jPhzJQ",
+  "profile": {
+    "video_id": "iron-snail:UIsQ0jPhzJQ",
+    "purpose": "Tells the story of Fjällräven's founder and explains how the brand's Expedition Down Parka and Polar Expedition Parka are built. It draws on the creator's calls with Fjällräven's global product director and events manager.",
+    "video_type": "explainer",
+    "thesis": "Fjällräven's warmest parkas come from a founder who built gear through experimentation and collaboration. That history explains its offset-baffle down construction, synthetic insulation at the shoulders, and continued use of waxed G-1000 rather than the most technical, thinnest materials.",
+    "key_takeaways": [
+      "Fjällräven's founder started selling backpacks at 14, later used aluminium frames, and built the first Expedition jacket as two down jackets sewn together.",
+      "The founder flew to the US to meet Eddie Bauer and learned how to sew a down jacket from George Lamb of Camp 7, at a time when outdoor gear makers shared knowledge openly.",
+      "Down jackets can be built three ways: sewn-through, box baffle, or offset (double-layer) baffle construction. Fjällräven uses the offset method to remove cold spots.",
+      "The Expedition Down Parka has synthetic insulation at the shoulders, placket and hood brim. Fjällräven says this is mainly to resist compression under backpack straps, with faster drying as a bonus.",
+      "The Polar Expedition Parka adds a snow skirt, an inner neck baffle, large pulls for gloved hands, big side-entry and dump pockets, a synthetic fur hood ruff and G-1000 fabric.",
+      "G-1000 began as a tent fabric that failed for being too heavy. Waxing it was inspired by skiers rubbing ski wax on their pants. Owners can wax it selectively, unlike an all-or-nothing Gore-Tex membrane.",
+      "Fjällräven explains avoiding ultra-light technical fabrics this way: thinner gear raises cost and upkeep and makes failure more likely, which drives people away from the outdoors."
+    ],
+    "outline": [
+      {
+        "title": "The mad genius of Fjällräven",
+        "summary": "Introduces the Fjällräven founder's backstory and the original Expedition jacket. Covers the hockey-lace cords and teases the synthetic shoulder padding.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Undercover with the big wigs",
+        "summary": "How the creator got the Expedition and Polar Expedition parkas and spoke with Fjällräven's global product director Donna and events manager Carl. Includes a no-payment disclaimer and a teaser of his question about why they still use wax.",
+        "first_segment": 1,
+        "last_segment": 4
+      },
+      {
+        "title": "HelloFresh sponsorship",
+        "summary": "Sponsor read for the HelloFresh meal kit.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "History of down jackets",
+        "summary": "Covers Eddie Bauer popularising down jackets after WWII and nylon becoming available to civilians. Also covers the founder's dual-layer tent and his trip to the US, where George Lamb of Camp 7 taught him to sew a down jacket, set against the collaborative early outdoor industry.",
+        "first_segment": 5,
+        "last_segment": 9
+      },
+      {
+        "title": "Jacket construction methods",
+        "summary": "Explains sewn-through, box baffle and offset-channel construction, using strawberries as a prop. Says why Fjällräven's offset build is so warm and why the parka is sized to go over everything at base camp.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Expedition parka features",
+        "summary": "Covers the synthetic insulation at the shoulders, placket and hood, and Fjällräven's reasoning about backpack strap compression. Includes Donna's answer on whether synthetic padding loses loft.",
+        "first_segment": 11,
+        "last_segment": 14
+      },
+      {
+        "title": "Polar Expedition Parka features",
+        "summary": "A numbered rundown of the Polar Expedition Parka's features: snow skirt, neck baffle, large pulls, side-entry and dump pockets, synthetic fur hood, and G-1000 fabric.",
+        "first_segment": 14,
+        "last_segment": 15
+      },
+      {
+        "title": "G-1000 and brand philosophy",
+        "summary": "The origin of G-1000 and its wax treatment, and sustainability concerns about chemicals in waterproof membranes and zippers. Compares selective waxing with Gore-Tex, and gives Carl's explanation of why Fjällräven doesn't chase ultra-light technical materials.",
+        "first_segment": 15,
+        "last_segment": 20
+      },
+      {
+        "title": "Push us, and a signed book",
+        "summary": "Donna repeatedly asks viewers to push Fjällräven with feedback. A book arrives in the mail signed by the CEO.",
+        "first_segment": 20,
+        "last_segment": 21
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this is what you get when",
+        "last_segment": 0,
+        "ends_with": "welcome back to the iron snail",
+        "note": "Cold open hook and greeting"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 4,
+        "starts_with": "zest your lemons and dice your cucumbers",
+        "last_segment": 5,
+        "ends_with": "the local discount will apply okay bye",
+        "note": "Sponsor read for HelloFresh meal kits"
+      },
+      {
+        "role": "aside",
+        "first_segment": 5,
+        "starts_with": "Su s aliens it's Michael Happy",
+        "last_segment": 5,
+        "ends_with": "nice to see you let's get started",
+        "note": "New Year greeting, resolution to post more, and introduction of new editor Holly"
+      },
+      {
+        "role": "outro",
+        "first_segment": 20,
+        "starts_with": "I'm going to go in the",
+        "last_segment": 21,
+        "ends_with": "the CEO of f Raven I was like I mean Raven",
+        "note": "From the car: Donna's repeated 'push us' request for viewer feedback, and the book signed by the Fjällräven CEO"
+      }
+    ],
+    "topics": [
+      "Fjällräven brand history",
+      "Fjällräven founder",
+      "down jacket history",
+      "Eddie Bauer",
+      "nylon after World War II",
+      "down jacket baffle construction",
+      "sewn-through vs box vs offset baffles",
+      "synthetic vs down insulation",
+      "synthetic insulation compression and loft",
+      "expedition parka features",
+      "G-1000 waxed fabric",
+      "waxing jackets for water resistance",
+      "Gore-Tex vs waxed canvas",
+      "PFAS and chemicals in waterproof membranes and zippers",
+      "outdoor brand philosophy and sustainability"
+    ],
+    "entity_ids": [
+      "iron-snail:e:fjallraven",
+      "iron-snail:e:fjallraven-expedition-down-parka",
+      "iron-snail:e:fjallraven-polar-expedition-parka",
+      "iron-snail:e:fjallraven-expedition-lite",
+      "iron-snail:e:g-1000",
+      "iron-snail:e:ok-nordon",
+      "iron-snail:e:donna-bruns",
+      "iron-snail:e:carl-limmer",
+      "iron-snail:e:martin",
+      "iron-snail:e:eddie-bauer",
+      "iron-snail:e:clinton-philson",
+      "iron-snail:e:charles-danner",
+      "iron-snail:e:leon-leonwood-bean",
+      "iron-snail:e:george-lamb",
+      "iron-snail:e:camp-7",
+      "iron-snail:e:the-north-face",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:arcx",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:hellofresh",
+      "iron-snail:e:future-proof",
+      "iron-snail:e:goose-down",
+      "iron-snail:e:synthetic-insulation",
+      "iron-snail:e:nylon",
+      "iron-snail:e:polyester",
+      "iron-snail:e:otterwax-boot-wax",
+      "iron-snail:e:synthetic-fur",
+      "iron-snail:e:sewn-through-construction",
+      "iron-snail:e:box-baffle-construction",
+      "iron-snail:e:offset-baffle-construction",
+      "iron-snail:e:snow-skirt",
+      "iron-snail:e:neck-baffle",
+      "iron-snail:e:hockey-lace-cords",
+      "iron-snail:e:dump-pockets",
+      "iron-snail:e:loft",
+      "iron-snail:e:dual-layer-tent"
+    ],
+    "categories": [
+      "jackets",
+      "coats"
+    ],
+    "answers_questions": [
+      "Who founded Fjällräven and how did the company start?",
+      "Why does the Fjällräven Expedition Down Parka have synthetic insulation in the shoulders?",
+      "Does the synthetic padding in Fjällräven parkas lose loft over time?",
+      "What's the difference between sewn-through, box baffle and offset baffle down jackets?",
+      "Why is the Fjällräven Expedition parka so warm and so big?",
+      "What features does the Polar Expedition Parka have that the Expedition Down Parka doesn't?",
+      "Why does Fjällräven still use waxed G-1000 instead of Gore-Tex?",
+      "Where did G-1000 fabric come from?",
+      "Is G-1000 better than Gore-Tex for breathability?",
+      "Why doesn't Fjällräven make ultra-light technical jackets like other outdoor brands?",
+      "How did Eddie Bauer influence down jackets?",
+      "Did Fjällräven pay The Iron Snail for this video?",
+      "Why are there hockey laces on the Fjällräven Expedition jacket?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:UIsQ0jPhzJQ:s0012",
+        "note": "Earlier (seg 1) he said he was suspicious of the backpack explanation for the synthetic shoulder padding. Here he says he now believes Fjällräven is right."
+      },
+      {
+        "segment_id": "iron-snail:UIsQ0jPhzJQ:s0018",
+        "note": "After calling Gore-Tex less breathable than selectively waxed G-1000, he clarifies in a self-dialogue that Gore-Tex is breathable when not wet. The point is the level of breathability."
+      },
+      {
+        "segment_id": "iron-snail:UIsQ0jPhzJQ:s0021",
+        "note": "He thought the signed book was from Donna or Carl, then realised it was signed by Martin, Fjällräven's CEO."
+      }
+    ],
+    "related_videos": [
+      "Next video in the greatest winter jackets series: Eddie Bauer, The North Face, Mountain Hardwear and others",
+      "How to pick the perfect winter jacket (including Gore-Tex vs non-Gore-Tex)",
+      "Future Proof video series about Fjällräven (another channel)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:fjallraven",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fjällräven",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "F Raven",
+        "F Rin",
+        "F Robin",
+        "F ran",
+        "FAL Raven",
+        "FI Raven",
+        "Fel Raven",
+        "Fial Raven",
+        "f Raven",
+        "f r",
+        "fi Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven-expedition-down-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Fjällräven Expedition Down Parka",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "Expedition Down parka",
+        "Expedition down jacket",
+        "down Expedition Parker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven-polar-expedition-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Fjällräven Polar Expedition Parka",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "polar Expedition Parker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven-expedition-lite",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Fjällräven Expedition Lite",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Expedition light"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:g-1000",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "G-1000",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "G1000",
+        "G1000 heavy duty"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ok-nordon",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ok Nordon",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr nordon",
+        "OK",
+        "Ok nordon",
+        "okabe",
+        "okay"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:donna-bruns",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Donna Bruns",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Don",
+        "Donna"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:carl-limmer",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Carl Limmer",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Carl",
+        "Carl Limer",
+        "Carl hord of seerad"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:martin",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Martin",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Martin ail",
+        "Martin aili"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Eddie Bauer",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bower",
+        "Eddie B",
+        "Eddie Bower",
+        "Eddie Bowers",
+        "Eddie bow",
+        "Edward Bower",
+        "bow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Eddie Bauer",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bower",
+        "Eddie B",
+        "Eddie Bower",
+        "Eddie Bowers",
+        "Eddie bow",
+        "Edward Bower",
+        "bow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:clinton-philson",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Clinton Philson",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Clinton philson"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:charles-danner",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Charles Danner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Charles dner"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leon-leonwood-bean",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Leon Leonwood Bean",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Leon Leon wood Bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:george-lamb",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "George Lamb",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "George lamb"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:camp-7",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Camp 7",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The North Face",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "North Face",
+        "Northface"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arcx",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "arcx",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hellofresh",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "HelloFresh",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "hellofresh",
+        "helloof fresh"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:future-proof",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Future Proof",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "future proof"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:goose-down",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "goose down",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "down"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:synthetic-insulation",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "synthetic insulation",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "synthetic padding"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:otterwax-boot-wax",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Otterwax boot wax",
+      "brand": "Otterwax",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "bars of wax",
+        "wax",
+        "wax bars"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:synthetic-fur",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "synthetic fur",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "fur hood"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sewn-through-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "sewn-through construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sewn through construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:box-baffle-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "box baffle construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "box construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:offset-baffle-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "offset baffle construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "offset Channel construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:snow-skirt",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "snow skirt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:neck-baffle",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "neck baffle",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hockey-lace-cords",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "hockey lace cords",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cords",
+        "hockey laces"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dump-pockets",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "dump pockets",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dump dump Pockets"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loft",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loft",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Loft"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dual-layer-tent",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "dual-layer tent",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "dual layered tent"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "23af6c4acbf52f88"
+}

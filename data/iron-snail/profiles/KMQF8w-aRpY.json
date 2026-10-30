@@ -1,0 +1,960 @@
+{
+  "platform_id": "KMQF8w-aRpY",
+  "profile": {
+    "video_id": "iron-snail:KMQF8w-aRpY",
+    "purpose": "Explains why the U.S. Navy replaced the peacoat with the N1 deck jacket during World War II, traces the design steps from earlier zip and hook deck jackets, explains the fabrics and alpaca pile lining, and runs a home-made warmth test on several modern N1 reproductions and other jackets.",
+    "video_type": "explainer",
+    "thesis": "The N1 deck jacket succeeded the peacoat because its design solved the practical problems sailors faced in freezing salt spray. The video's home-made thermal test suggests the overall jacket design matters as much as the insulating materials.",
+    "key_takeaways": [
+      "The peacoat was dropped because it was heavy, stiff, and hard to put on, take off and move in.",
+      "The earlier deck zip jacket was based on an Army winter jacket. Its brass zippers froze shut in salt spray and corroded.",
+      "The deck hook jacket used overlapping fabric and side hooks, which the creator says were borrowed from firefighters' coats. It still had exposed metal and storm cuffs that snagged.",
+      "The N1 combined a zipper with a button-secured placket, covered the knit storm cuffs, and used a tough ribbed fabric from the grosgrain family, such as jungle cloth or Bedford cord.",
+      "Period-accurate N1s use a sliver-knit pile of 50% alpaca and 50% wool. Alpaca insulates well because its fibre is fine and hollow.",
+      "Loft can come from brushed wovens, terry fleece, mouton or sliver-knit pile.",
+      "The test measures how much a jacket's outside surface warms over a heating pad; a smaller change means better insulation. Results: a Fjällräven jacket barely changed, Heat Straps 10°, Dehen 1920 11°, a '90s Levi's sherpa 13°, The Real McCoy's 15°. The creator stresses a large margin of error.",
+      "Iron Heart adds a tightly woven interliner against wind, the same idea used in the Iron Snail Mammoth Jacket.",
+      "The N1 was part of a full system with suspender trousers and loops on the jacket. Nylon later replaced it."
+    ],
+    "outline": [
+      {
+        "title": "The N1 deck jacket",
+        "summary": "Introduces the question of why the Navy swapped the peacoat for the N1 deck jacket and the jackets to be compared: The Real McCoy's, Dehen 1920 and Heat Straps.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Sponsor message",
+        "summary": "Skit-style sponsor read for the Reason Labs online security and identity theft protection browser extension.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Testing deck jackets",
+        "summary": "Introduces The Real McCoy's N1, on loan from Standard & Strange, and its alpaca/wool pile versus the Heat Straps mouton. Explains the heating-pad and infrared-thermometer test method and the Real McCoy's result of a 15° change.",
+        "first_segment": 2,
+        "last_segment": 4
+      },
+      {
+        "title": "History of navy gear",
+        "summary": "Explains why the peacoat was retired, and the problems with the deck zip jacket (frozen, corroded brass zippers) and the deck hook jacket (exposed metal, snagging storm cuffs).",
+        "first_segment": 4,
+        "last_segment": 7
+      },
+      {
+        "title": "Jacket design evolution",
+        "summary": "Covers the N1's grosgrain-family fabrics (Bedford cord, jungle cloth), the covered storm cuffs, and the zipper-plus-button-placket closure.",
+        "first_segment": 8,
+        "last_segment": 10
+      },
+      {
+        "title": "Alpaca and pile liners",
+        "summary": "Explains loft and the ways to create it (brushing, terry fleece, mouton, sliver knitting), and why alpaca's fine, hollow fibre insulates well.",
+        "first_segment": 10,
+        "last_segment": 12
+      },
+      {
+        "title": "Modern interpretations",
+        "summary": "Looks at the Heat Straps N1 (24 oz canvas, quilted wool batting, lined pockets). Rapid-fire facts cover Iron Heart's interliner, the Mammoth Jacket, the N1 suspender system, and the move to nylon.",
+        "first_segment": 12,
+        "last_segment": 14
+      },
+      {
+        "title": "Final test results",
+        "summary": "Ranks the jackets by warmth: Fjällräven, Heat Straps, Dehen 1920, a '90s Levi's sherpa, then The Real McCoy's. Notes that overall design matters, not just materials.",
+        "first_segment": 14,
+        "last_segment": 15
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "this lighting is 50% wool 50% alpaca",
+        "last_segment": 1,
+        "ends_with": "that big of a jacket how warm is it actually",
+        "note": "Cold open posing the peacoat vs N1 question and introducing the jackets and test"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 1,
+        "starts_with": "this video is sponsored by reason lab's",
+        "last_segment": 2,
+        "ends_with": "online security and Identity Theft Protection extension",
+        "note": "Skit sponsor read for the Reason Labs online security and identity theft protection extension"
+      },
+      {
+        "role": "intro",
+        "first_segment": 2,
+        "starts_with": "what's popet everybody it's young Mikey",
+        "last_segment": 2,
+        "ends_with": "today hope everybody's doing well",
+        "note": "Channel greeting from Maine on the Moose Trail"
+      },
+      {
+        "role": "aside",
+        "first_segment": 4,
+        "starts_with": "Taylor kept trying to steal it",
+        "last_segment": 4,
+        "ends_with": "put her feet on top of it",
+        "note": "Joke about Taylor using the reptile heating pad"
+      },
+      {
+        "role": "aside",
+        "first_segment": 6,
+        "starts_with": "accountants weirdly enough accountants in the 1940s",
+        "last_segment": 8,
+        "ends_with": "I called when my fire alarm went off",
+        "note": "Running joke saying accountants instead of firefighters about the hook closures"
+      },
+      {
+        "role": "aside",
+        "first_segment": 15,
+        "starts_with": "that I gave to Taylor when",
+        "last_segment": 15,
+        "ends_with": "she still has how cute is that",
+        "note": "Personal story about giving the Levi's sherpa jacket to Taylor in college"
+      },
+      {
+        "role": "outro",
+        "first_segment": 15,
+        "starts_with": "okie dokie that is just about my",
+        "last_segment": 15,
+        "ends_with": "very soon either way ta oops",
+        "note": "Sign-off, plans for more videos and upcoming watch content"
+      }
+    ],
+    "topics": [
+      "N1 deck jacket history",
+      "peacoat vs deck jacket",
+      "U.S. Navy WWII cold weather gear",
+      "deck zip jacket and deck hook jacket",
+      "jungle cloth and Bedford cord",
+      "grosgrain weave family",
+      "alpaca wool pile lining",
+      "sliver knitting",
+      "loft and insulation",
+      "mouton lining",
+      "storm cuffs",
+      "jacket warmth testing",
+      "N1 reproductions comparison"
+    ],
+    "entity_ids": [
+      "iron-snail:e:n1-deck-jacket",
+      "iron-snail:e:peacoat",
+      "iron-snail:e:the-real-mccoy-s-n1-deck-jacket",
+      "iron-snail:e:the-real-mccoy-s",
+      "iron-snail:e:dehen-1920-n-1-deck-jacket",
+      "iron-snail:e:dehen-1920",
+      "iron-snail:e:heat-straps-n1-deck-jacket",
+      "iron-snail:e:heat-straps",
+      "iron-snail:e:buzz-rickson-s",
+      "iron-snail:e:standard-strange",
+      "iron-snail:e:reason-labs-online-security-and-identity-theft-protection-extension",
+      "iron-snail:e:tim-des-saint",
+      "iron-snail:e:iron-heart",
+      "iron-snail:e:mammoth-jacket",
+      "iron-snail:e:fjallraven",
+      "iron-snail:e:fjallraven-jacket",
+      "iron-snail:e:levi-s",
+      "iron-snail:e:levi-s-denim-sherpa-jacket-90s",
+      "iron-snail:e:u-s-army-combat-winter-jacket",
+      "iron-snail:e:deck-zip-jacket",
+      "iron-snail:e:deck-hook-jacket",
+      "iron-snail:e:n1-deck-trousers-with-suspenders",
+      "iron-snail:e:alpaca",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:alpaca-wool-pile",
+      "iron-snail:e:mouton",
+      "iron-snail:e:jungle-cloth",
+      "iron-snail:e:bedford-cord",
+      "iron-snail:e:grosgrain",
+      "iron-snail:e:plain-weave",
+      "iron-snail:e:sliver-knitting",
+      "iron-snail:e:loft",
+      "iron-snail:e:terry-fleece",
+      "iron-snail:e:flannel",
+      "iron-snail:e:knit-storm-cuffs",
+      "iron-snail:e:placket",
+      "iron-snail:e:brass-zipper",
+      "iron-snail:e:interliner",
+      "iron-snail:e:quilted-wool-batting",
+      "iron-snail:e:24-oz-canvas",
+      "iron-snail:e:nylon",
+      "iron-snail:e:rudimentary-thermal-testing-system",
+      "iron-snail:e:u-s-navy",
+      "iron-snail:e:taylor",
+      "iron-snail:e:patrick"
+    ],
+    "categories": [
+      "jackets",
+      "coats"
+    ],
+    "answers_questions": [
+      "Why did the US Navy stop using the peacoat?",
+      "What's the history of the N1 deck jacket?",
+      "Why did the Navy's zip deck jacket fail at sea?",
+      "What's the deal with alpaca lining in N1 deck jackets?",
+      "What is jungle cloth vs Bedford cord?",
+      "What is sliver knitting and how is pile made?",
+      "Is the Heat Straps N1 warmer than the Dehen 1920 or Real McCoy's?",
+      "Which N1 deck jacket reproduction is the warmest?",
+      "Why is alpaca so warm?",
+      "Why does the N1 have a button placket over the zipper?",
+      "How did you test the warmth of the jackets?",
+      "Is a Levi's sherpa jacket warmer than an N1 deck jacket?",
+      "Which brands make period-accurate N1 deck jackets?",
+      "What happened to the N1 deck jacket after WWII?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:KMQF8w-aRpY:s0001",
+        "note": "Corrects the Dehen 1920 jacket's price from $1,500 to about $1,300."
+      },
+      {
+        "segment_id": "iron-snail:KMQF8w-aRpY:s0008",
+        "note": "Says he meant firefighters, not accountants: the hook closures on the deck hook jacket were borrowed from firefighters' coats."
+      },
+      {
+        "segment_id": "iron-snail:KMQF8w-aRpY:s0010",
+        "note": "Corrects 'the zip jacket and the deck jacket' to 'the zip jacket and the hook jacket'. Also corrects 'peacoat fabric' inside them: it was not peacoat fabric but heavily brushed fabric."
+      },
+      {
+        "segment_id": "iron-snail:KMQF8w-aRpY:s0014",
+        "note": "Corrects 'second place' to 'second to last place' for the Levi's sherpa jacket in the warmth ranking."
+      },
+      {
+        "segment_id": "iron-snail:KMQF8w-aRpY:s0015",
+        "note": "Corrects the Levi's sherpa being warmer than The Real McCoy's by one degree to two degrees: a 13° change versus 15°."
+      }
+    ],
+    "related_videos": [
+      "Upcoming video featuring an even bigger Fjällräven jacket",
+      "Upcoming videos about watches"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:n1-deck-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "N1 Deck Jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "N deck jacket",
+        "N1 deck jacket",
+        "N1 tech jacket",
+        "deck jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:peacoat",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "peacoat",
+      "brand": null,
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "PE coat",
+        "peac coat",
+        "peacat",
+        "peaco"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-real-mccoy-s-n1-deck-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The Real McCoy's N1 Deck Jacket",
+      "brand": "The Real McCoy's",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "R coise",
+        "The Real McCoy N1 deck jacket",
+        "real McCoy's deck jacket",
+        "real mcco"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-real-mccoy-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Real McCoy's",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Real McCoy",
+        "The Real McCoy",
+        "The Real McCoys"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dehen-1920-n-1-deck-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Dehen 1920 N-1 Deck Jacket",
+      "brand": "Dehen 1920",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "DN 1920",
+        "Dian",
+        "Dian 1920"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dehen-1920",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dehen 1920",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "DN 1920",
+        "Deen",
+        "Deen 1920",
+        "Dian 1920",
+        "dehen",
+        "dehen 1920",
+        "dhen 1920",
+        "dian's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:heat-straps-n1-deck-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Heat Straps N1 Deck Jacket",
+      "brand": "Heat Straps",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "heat straps N1 deck jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:heat-straps",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Heat Straps",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "heat strap",
+        "heat straps"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buzz-rickson-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Buzz Rickson's",
+      "brand": null,
+      "model": null,
+      "category": "sweatshirts",
+      "aliases": [
+        "Buzz Ren",
+        "Buzz ricken",
+        "Buzz rickon",
+        "buzz Ren",
+        "buzz rickon's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:standard-strange",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Standard & Strange",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "s the strange",
+        "standard and strange",
+        "standard and strangers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:reason-labs-online-security-and-identity-theft-protection-extension",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Reason Labs Online Security and Identity Theft Protection extension",
+      "brand": "Reason Labs",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "reason Labs",
+        "reason lab's online security and Identity Theft Protection extension",
+        "recent Labs online security and Identity Theft Protection extension"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tim-des-saint",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Tim Des Saint",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Tim Des",
+        "Tim Des Saint's"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:iron-heart",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Iron Heart",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "iron heart"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mammoth-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mammoth Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "mammoth",
+        "mammoths"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fjällräven",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "F Raven",
+        "Fel Raven",
+        "Fial Raven",
+        "f Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Fjällräven jacket",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "f Raven"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Levi's",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [
+        "Levi",
+        "Levis",
+        "Levis's",
+        "level",
+        "levi",
+        "levi's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:levi-s-denim-sherpa-jacket-90s",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Levi's denim sherpa jacket ('90s)",
+      "brand": "Levi's",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "'90s Levis sherper jacket",
+        "Levi denim sherper jacket",
+        "Levi's sherper jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:u-s-army-combat-winter-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "U.S. Army combat winter jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "US Army's combat winter jacket"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:deck-zip-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "deck zip jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "zip jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:deck-hook-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "deck hook jacket",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "hook jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:n1-deck-trousers-with-suspenders",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "N1 deck trousers with suspenders",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "big pants that had suspenders"
+      ],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alpaca",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "alpaca",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "alaca",
+        "royal baby alpaca"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "Woolen",
+        "merino",
+        "super fine merino",
+        "wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:alpaca-wool-pile",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "alpaca/wool pile",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "50% wool 50% alpaca",
+        "pile"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mouton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "mouton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "muton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:jungle-cloth",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "jungle cloth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bedford-cord",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Bedford cord",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Bedford cloth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:grosgrain",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "grosgrain",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "grow grain"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:plain-weave",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "plain weave",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "plane weave"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sliver-knitting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "sliver knitting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sers",
+        "slver",
+        "sver knitting"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:loft",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "loft",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Loft"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:terry-fleece",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "terry fleece",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "terit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:flannel",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "flannel",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:knit-storm-cuffs",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "knit storm cuffs",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "storm cffs",
+        "storm cuffs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:placket",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "placket",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:brass-zipper",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "brass zipper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "zipper",
+        "zippers were brass"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:interliner",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "interliner",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:quilted-wool-batting",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "quilted wool batting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:24-oz-canvas",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "24 oz canvas",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rudimentary-thermal-testing-system",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "rudimentary thermal testing system",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "rudimentary thermal testing kit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:u-s-navy",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "U.S. Navy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "US Navy"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patrick",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Patrick",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "c29ee1da62e63258"
+}

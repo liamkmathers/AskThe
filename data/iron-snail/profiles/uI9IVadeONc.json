@@ -1,0 +1,720 @@
+{
+  "platform_id": "uI9IVadeONc",
+  "profile": {
+    "video_id": "iron-snail:uI9IVadeONc",
+    "purpose": "Explains the history and design of the chopper mitten: why classic work mittens are yellow, and how a leather shell over a wool liner became the standard formula for cold-weather mittens.",
+    "video_type": "explainer",
+    "thesis": "About 300 years ago, two traditions merged into one mitten. Indigenous leather-working gave the durable outer shell, and smoke-tanned buckskin explains the yellow colour. Knit and felted wool gave the warm inner layer. The result, a leather chopper over a removable wool liner, has barely changed since.",
+    "key_takeaways": [
+      "The oldest intact mittens found belonged to a child in Iceland around the year 900.",
+      "Dachstein boiled-wool mittens are favoured by ice climbers for warmth, wind and water resistance, and flexibility. Michael tests them in near-freezing water.",
+      "New England fishermen's mittens were knit about 30% oversized and then felted down to size by soaking and stomping them.",
+      "Buff or shag mittens from 19th-century New England are described as the warmest knit wool mittens. Michael bought a pair on eBay to donate to a museum.",
+      "Indigenous peoples set the rules for leather mittens. Examples are the Inuit double-layered seal and caribou mitten, and the smoke-tanned deer, moose and elk hides of the Anishinaabe and Great Lakes peoples.",
+      "The yellow colour comes from smoke tanning of buckskin. Later manufacturers dyed cowhide yellow to signal the same quality.",
+      "Buckskin is probably still the better leather, but cowhide and pigskin are cheaper, more consistent and close in performance.",
+      "Wool insulates and stays warm when wet but wears out quickly. Leather is durable and windproof but does not insulate. The chopper combines the two.",
+      "The chopper (a leather over-mitten with a wool liner) came out of the 1700s–1800s US logging industry. The liner can be dried by the stove or rotated.",
+      "Modern choppers add reinforcements, lobster-claw designs and neoprene cuffs, but still follow the same leather-plus-wool or synthetic formula."
+    ],
+    "outline": [
+      {
+        "title": "The history of mittens",
+        "summary": "Introduces the mitten as an object humanity hasn't improved, using a 1,100-year-old child's mitten from Iceland, and sets up the yellow mitten and the ice-climbing mitten.",
+        "first_segment": 0,
+        "last_segment": 0
+      },
+      {
+        "title": "Testing mountain mittens",
+        "summary": "Tests Dachstein ice-climbing mittens in near-freezing water and explains the felted fisherman's mitten. Also covers the rare 19th-century buff or shag mittens.",
+        "first_segment": 1,
+        "last_segment": 3
+      },
+      {
+        "title": "The legendary yellow mitten",
+        "summary": "Introduces the famous yellow mitten worn in Minnesota, Canada and other cold places, and argues the perfect mitten formula was settled about 300 years ago.",
+        "first_segment": 4,
+        "last_segment": 4
+      },
+      {
+        "title": "Indigenous mitten techniques",
+        "summary": "Covers how northern Indigenous peoples wrote the rule book on leather mittens: the Inuit double mitten of seal skin and caribou fur, and the Anishinaabe smoke-tanned buckskin, moose and elk leathers. Includes a sponsor read.",
+        "first_segment": 5,
+        "last_segment": 10
+      },
+      {
+        "title": "The materials behind warmth",
+        "summary": "Explains why the leather is yellow and how buckskin compares to cowhide and pigskin. Then covers insulation options and the trade-offs between wool and leather.",
+        "first_segment": 11,
+        "last_segment": 14
+      },
+      {
+        "title": "Modern choppers and formula",
+        "summary": "Traces the chopper mitten to the US logging industry of the 1700s–1800s: a leather over-mitten with a removable wool liner. Shows modern choppers that still follow the same formula.",
+        "first_segment": 15,
+        "last_segment": 16
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "The humble mitten, one of the",
+        "last_segment": 0,
+        "ends_with": "ice mitten for lack of a better term.",
+        "note": "Opening hook about ancient Icelandic mittens, with a joke about a child losing mittens, and setup of the video's two mitten types."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "Okay, small problem with our experiment.",
+        "last_segment": 1,
+        "ends_with": "as climactic as I envisioned, but here we go.",
+        "note": "Comic blunder: Michael is standing on the frozen river he meant to measure and has to find other water."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "And I have a pair.",
+        "last_segment": 3,
+        "ends_with": "How cool is that?",
+        "note": "Michael bought buff mittens on eBay for $100 and plans to donate them to a museum."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 7,
+        "starts_with": "Okay, say it with me one",
+        "last_segment": 9,
+        "ends_with": "More information is in the link down below.",
+        "note": "Sponsor read for Odoo business management software, done as a skit with multiple Michaels."
+      }
+    ],
+    "topics": [
+      "history of mittens",
+      "chopper mittens",
+      "yellow leather work mittens",
+      "felted and boiled wool mittens",
+      "ice climbing mittens",
+      "Indigenous leather tanning",
+      "smoke-tanned buckskin",
+      "buckskin vs cowhide vs pigskin",
+      "mitten insulation",
+      "wool liners",
+      "buff and shag mittens",
+      "M-49 Arctic mittens"
+    ],
+    "entity_ids": [
+      "iron-snail:e:dachstein-mittens",
+      "iron-snail:e:dachstein",
+      "iron-snail:e:l-l-bean-buckskin-chopper-mitts",
+      "iron-snail:e:l-l-bean",
+      "iron-snail:e:m-49-us-arctic-extreme-cold-mittens",
+      "iron-snail:e:buff-mittens",
+      "iron-snail:e:felted-fisherman-s-mittens",
+      "iron-snail:e:yellow-mitten",
+      "iron-snail:e:chopper-mitten",
+      "iron-snail:e:paalu",
+      "iron-snail:e:frost-river-pennsylvania-choppers",
+      "iron-snail:e:hestra-fall-line-3-finger",
+      "iron-snail:e:raber-344-pile-lined-leather-garbage-mitts",
+      "iron-snail:e:kinco-1927kwt",
+      "iron-snail:e:filson-mittens-discontinued",
+      "iron-snail:e:sears",
+      "iron-snail:e:odoo",
+      "iron-snail:e:the-iron-snail",
+      "iron-snail:e:buckskin",
+      "iron-snail:e:cowhide",
+      "iron-snail:e:pigskin",
+      "iron-snail:e:elk-leather",
+      "iron-snail:e:moose-hide",
+      "iron-snail:e:seal-skin",
+      "iron-snail:e:caribou-hide",
+      "iron-snail:e:reindeer-hide",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:felted-wool",
+      "iron-snail:e:buffalo-down",
+      "iron-snail:e:neoprene-cuffs",
+      "iron-snail:e:lobster-claw-mitten",
+      "iron-snail:e:smoke-tanning",
+      "iron-snail:e:felting",
+      "iron-snail:e:inuit",
+      "iron-snail:e:anishinaabe",
+      "iron-snail:e:sami"
+    ],
+    "categories": [
+      "accessories"
+    ],
+    "answers_questions": [
+      "Why are those classic leather work mittens yellow?",
+      "What is a chopper mitten?",
+      "Why do ice climbers love Dachstein mittens?",
+      "How did old fishermen shrink their wool mittens to fit?",
+      "What are buff or shag mittens?",
+      "Is buckskin better than cowhide for mittens?",
+      "Why do chopper mittens have a separate wool liner?",
+      "How did Inuit people make warm mittens?",
+      "Why haven't mitten designs changed in hundreds of years?",
+      "Are the L.L.Bean chopper mitts or M-49 Arctic mittens real choppers?",
+      "What's the pros and cons of wool vs leather mittens?",
+      "Where did the chopper mitten come from historically?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:uI9IVadeONc:s0013",
+        "note": "After saying the mitten's insulation 'is not so easy', Michael corrects himself: there were actually many solutions, such as grasses, buffalo down, and animal hides and furs."
+      },
+      {
+        "segment_id": "iron-snail:uI9IVadeONc:s0013",
+        "note": "Clarifies that calling it the 'Minnesota mitten' is shorthand; the yellow mitten is not just a Minnesota thing."
+      }
+    ],
+    "related_videos": [],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:dachstein-mittens",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Dachstein mittens",
+      "brand": "Dachstein",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:dachstein",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Dachstein",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean-buckskin-chopper-mitts",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "L.L.Bean buckskin chopper mitts",
+      "brand": "L.L.Bean",
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "LL Bean ones"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:l-l-bean",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "L.L.Bean",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "Ella bean",
+        "L Bean",
+        "L o beam",
+        "LL Bean",
+        "LL Bean himself",
+        "LLBA",
+        "LLBAN",
+        "a low beam",
+        "ello being",
+        "hello bean",
+        "l.l.bean"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:m-49-us-arctic-extreme-cold-mittens",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "M-49 US Arctic Extreme Cold Mittens",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "M49 US Arctic Extreme Cold Mittens"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buff-mittens",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "buff mittens",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "shag mittens"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felted-fisherman-s-mittens",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "felted fisherman's mittens",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "felted wool mittens"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:yellow-mitten",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "yellow mitten",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "yellow mittens"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chopper-mitten",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "chopper mitten",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Choppers",
+        "choppers"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:paalu",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "paalu",
+      "brand": null,
+      "model": null,
+      "category": "accessories",
+      "aliases": [
+        "Poilu",
+        "poalu"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:frost-river-pennsylvania-choppers",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Frost River Pennsylvania Choppers",
+      "brand": "Frost River",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:hestra-fall-line-3-finger",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Hestra Fall Line 3-Finger",
+      "brand": "Hestra",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:raber-344-pile-lined-leather-garbage-mitts",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Raber 344 pile-lined leather garbage mitts",
+      "brand": "Raber",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kinco-1927kwt",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Kinco 1927KWT",
+      "brand": "Kinco",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-mittens-discontinued",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson mittens (discontinued)",
+      "brand": "Filson",
+      "model": null,
+      "category": "accessories",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sears",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Sears",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:odoo",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Odoo",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-iron-snail",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The Iron Snail",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "I make my clothing in America",
+        "Iron Sag",
+        "iron snail",
+        "the iron snail"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buckskin",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "buckskin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cowhide",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cowhide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "cow hide"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:pigskin",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "pigskin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Pigskin"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:elk-leather",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "elk leather",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "elk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:moose-hide",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "moose hide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "moose"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seal-skin",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "seal skin",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:caribou-hide",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "caribou hide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:reindeer-hide",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "reindeer hide",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "reindeer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "Woolen",
+        "merino",
+        "sheep's wool",
+        "super fine merino",
+        "whe coat",
+        "wool",
+        "wool jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felted-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "felted wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:buffalo-down",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "buffalo down",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:neoprene-cuffs",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "neoprene cuffs",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Neoprene cuffs"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:lobster-claw-mitten",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "lobster claw mitten",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "lobster claw"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:smoke-tanning",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "smoke tanning",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "smoking process"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:felting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "felting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Felts",
+        "felt",
+        "felted",
+        "shrunk down"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:inuit",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Inuit",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:anishinaabe",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Anishinaabe",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sami",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Sami",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "0d92b6bebf277b96"
+}

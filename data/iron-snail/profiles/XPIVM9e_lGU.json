@@ -1,0 +1,687 @@
+{
+  "platform_id": "XPIVM9e_lGU",
+  "profile": {
+    "video_id": "iron-snail:XPIVM9e_lGU",
+    "purpose": "Explain the history, construction and design of Brown's Beach Cloth, the wool-and-cotton warp-knit fabric introduced by William W. Brown in 1901, and why its jackets and especially its vest became so popular.",
+    "video_type": "explainer",
+    "thesis": "Brown's Beach Cloth used hated 'shoddy' recycled wool in the one way that didn't weaken a garment. Combined with a warp-knit cotton face and a lofted fleece back, it made a light, warm, breathable and durable fabric whose knit-driven design compromises, especially the vest, made it famous until synthetics displaced it.",
+    "key_takeaways": [
+      "Brown's Beach Cloth was introduced by William W. Brown in 1901, developed in Connecticut and later made in Worcester, Massachusetts.",
+      "Shoddy was the 1800s name for recycled, mechanically ground-up wool fabric. It got a terrible reputation from junk Civil War uniforms; the machines were nicknamed devils and their output 'devil's dust'.",
+      "Beach cloth is a warp knit, not a woven or a typical weft knit. Warp knitting doesn't ladder or unravel and holds its shape better, while keeping a knit's flexibility and loft.",
+      "The outside salt-and-pepper face is two-ply cotton for strength, abrasion resistance, shape retention and lower cost. The inside is a brushed fleece of recycled wool.",
+      "Using recycled shorter-fiber wool in the fleece costs functionally nothing in durability, because the fleece fibers are deliberately broken up to create loft.",
+      "The fabric is said to be roughly as warm as a heavy woven wool coat at about a third of the weight.",
+      "Design features driven by the knit include rounded woven binding on the pockets, placket and hem, and snap buttons instead of buttonholes.",
+      "The vest was the most important product: an easy, low-commitment way to try the new fabric under existing gear.",
+      "Synthetic fibers later killed the company. The creator predicts knits will dominate future workwear while wovens become specialty heritage items."
+    ],
+    "outline": [
+      {
+        "title": "Introduction to beach cloth",
+        "summary": "Hook about why milkmen and delivery boys wore the vest, an introduction to William W. Brown's 1901 fabric and its 'shoddy' secret, and a three-part roadmap for the video.",
+        "first_segment": 0,
+        "last_segment": 3
+      },
+      {
+        "title": "Understanding shoddy",
+        "summary": "Explains shoddy as 1800s recycled wool, how the process works, and how junk Civil War uniforms gave it its bad reputation and led to new laws.",
+        "first_segment": 3,
+        "last_segment": 6
+      },
+      {
+        "title": "Sponsor: Runna",
+        "summary": "Sponsor read for the Runna running coach app, shot on a cold training run.",
+        "first_segment": 6,
+        "last_segment": 8
+      },
+      {
+        "title": "The secret of Brown's fabric",
+        "summary": "Introduces beach cloth as a nerdy multi-fiber cotton and wool knit, closer to an orange bag or soccer net than a t-shirt.",
+        "first_segment": 8,
+        "last_segment": 9
+      },
+      {
+        "title": "Knitting mechanics",
+        "summary": "Contrasts weaving (warp and weft grid) with weft knitting and warp knitting, explaining how loops behave in each.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Technical benefits of the knit",
+        "summary": "Warp knit doesn't ladder, holds shape under load, and keeps a knit's comfort and loft with a fleece back. That makes it about as warm as woven wool at about a third of the weight.",
+        "first_segment": 11,
+        "last_segment": 13
+      },
+      {
+        "title": "Fiber composition",
+        "summary": "Breaks the fabric into its two-ply cotton outer face, chosen for strength and shape, and its recycled-wool fleece inner. Explains why recycled short fibers lose nothing in a fleece.",
+        "first_segment": 13,
+        "last_segment": 17
+      },
+      {
+        "title": "Design features",
+        "summary": "Covers the design compromises forced by the knit: rounded woven binding on pockets, placket and hem, and pressed snap buttons with reinforcement tape.",
+        "first_segment": 17,
+        "last_segment": 19
+      },
+      {
+        "title": "The iconic vest and legacy",
+        "summary": "Explains why the vest was Brown's most important product, how synthetics killed the company, and the creator's prediction that knits will take over workwear.",
+        "first_segment": 19,
+        "last_segment": 22
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "Hey, why did Milkman and Delivery Boys",
+        "last_segment": 0,
+        "ends_with": "Don't worry, we are going to the woods.",
+        "note": "Cold open hook about the vest worn by milkmen, delivery boys and Antarctic expeditions, then greeting."
+      },
+      {
+        "role": "aside",
+        "first_segment": 1,
+        "starts_with": "Taylor just asked me if I",
+        "last_segment": 1,
+        "ends_with": "throw it in the air for about 20 minutes for a video.",
+        "note": "Joke about Taylor asking him to pick up cream."
+      },
+      {
+        "role": "aside",
+        "first_segment": 3,
+        "starts_with": "Oh, also at the end of this trail,",
+        "last_segment": 3,
+        "ends_with": "so I shouldn't die.",
+        "note": "Mentions the waterfall at the end of the trail and the 10°F cold."
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 6,
+        "starts_with": "But first, a quick ad.",
+        "last_segment": 8,
+        "ends_with": "but I feel very motivated.",
+        "note": "Sponsor read for the Runna running coach app, featuring his half marathon training."
+      },
+      {
+        "role": "aside",
+        "first_segment": 12,
+        "starts_with": "I just spent about 20 minutes standing",
+        "last_segment": 13,
+        "ends_with": "So, my hands are cold.",
+        "note": "Cold hands and his broken microphone mishaps."
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "Oh, well, that's the waterfall.",
+        "last_segment": 14,
+        "ends_with": "Make AI waterfall. Look at that.",
+        "note": "Jokes about the underwhelming waterfall."
+      },
+      {
+        "role": "outro",
+        "first_segment": 22,
+        "starts_with": "That is about it. I'll see",
+        "last_segment": 22,
+        "ends_with": "But it's all coming. Sorry about that.",
+        "note": "Sign-off. Mentions sampling beach cloth for a secret project and the upcoming Mammoth and denim releases."
+      }
+    ],
+    "topics": [
+      "Brown's Beach Cloth history",
+      "William W. Brown",
+      "shoddy recycled wool",
+      "Civil War uniforms",
+      "warp knitting vs weft knitting vs weaving",
+      "cotton and wool blend fabrics",
+      "fleece construction",
+      "binding and snap buttons on knit jackets",
+      "wool vests",
+      "synthetic fibers replacing natural fabrics",
+      "future of knit workwear",
+      "cold-weather wool testing"
+    ],
+    "entity_ids": [
+      "iron-snail:e:brown-s-beach-cloth",
+      "iron-snail:e:william-w-brown",
+      "iron-snail:e:brown-s-beach-vest",
+      "iron-snail:e:brown-s-beach-jacket",
+      "iron-snail:e:shoddy",
+      "iron-snail:e:devil-s-dust",
+      "iron-snail:e:recycled-wool",
+      "iron-snail:e:warp-knitting",
+      "iron-snail:e:weft-knitting",
+      "iron-snail:e:woven-fabric",
+      "iron-snail:e:fleece",
+      "iron-snail:e:two-ply-cotton-yarn",
+      "iron-snail:e:cotton",
+      "iron-snail:e:merino-wool",
+      "iron-snail:e:woven-binding",
+      "iron-snail:e:snap-buttons",
+      "iron-snail:e:polyester",
+      "iron-snail:e:nylon",
+      "iron-snail:e:kapital",
+      "iron-snail:e:kapital-brown-s-beach-cloth-vest",
+      "iron-snail:e:anatomica",
+      "iron-snail:e:schott",
+      "iron-snail:e:fullcount",
+      "iron-snail:e:filson",
+      "iron-snail:e:weather-wool",
+      "iron-snail:e:baxter",
+      "iron-snail:e:runna",
+      "iron-snail:e:mammoth-jacket",
+      "iron-snail:e:taylor"
+    ],
+    "categories": [
+      "jackets",
+      "coats",
+      "fleece",
+      "knitwear"
+    ],
+    "answers_questions": [
+      "What is Brown's Beach Cloth and who made it?",
+      "Why did milkmen and delivery guys wear those salt and pepper vests?",
+      "What does shoddy mean and why did it have such a bad reputation?",
+      "Is Brown's Beach Cloth made from recycled wool?",
+      "What's the difference between warp knitting, weft knitting and weaving?",
+      "Why doesn't beach cloth unravel or bag out like a normal knit?",
+      "How warm is Brown's Beach Cloth compared to a heavy woven wool coat?",
+      "Why is the outside of beach cloth cotton and the inside wool?",
+      "Why do Brown's Beach jackets have rounded binding and snap buttons?",
+      "Why was the Brown's Beach vest so popular?",
+      "What happened to the Brown's Beach company?",
+      "Where can I buy a Brown's Beach Cloth jacket today?",
+      "Does Michael think knit clothing will replace woven workwear?"
+    ],
+    "uses": [
+      "background_history",
+      "understanding",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:XPIVM9e_lGU:s0018",
+        "note": "Clarifies that calling the binding and snaps 'compromises' is his own framing; he doesn't know whether Brown thought of them that way."
+      },
+      {
+        "segment_id": "iron-snail:XPIVM9e_lGU:s0019",
+        "note": "After saying snaps were important because buttonholes would sag in a knit, he notes that reinforcement tape could have been used for buttons too. He concludes the snaps were likely chosen for convenience."
+      },
+      {
+        "segment_id": "iron-snail:XPIVM9e_lGU:s0016",
+        "note": "Qualifies that the fleece is recycled wool 'theoretically': the originals were, but he doesn't know if modern versions are."
+      }
+    ],
+    "related_videos": [
+      "The Iron Snail Merino t-shirt video (fiber strength and stretch graph)",
+      "Previous Runna sponsor segment covering the app setup",
+      "Upcoming video about the Mammoth Jacket and denim release"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:brown-s-beach-cloth",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Brown's Beach Cloth",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Beachcloth",
+        "Brown's beach cloth",
+        "Brown's beachcloth",
+        "Browns Beach Cloth",
+        "beach cloth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:william-w-brown",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "William W. Brown",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Mr. Brown",
+        "William Brown"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:brown-s-beach-vest",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Brown's Beach Vest",
+      "brand": "Brown's Beach Cloth",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "vest"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:brown-s-beach-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Brown's Beach Jacket",
+      "brand": "Brown's Beach Cloth",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:shoddy",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "shoddy",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Shotty"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:devil-s-dust",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "devil's dust",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "devils"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:recycled-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "recycled wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "repurposed wool"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:warp-knitting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "warp knitting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "warp knit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weft-knitting",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "weft knitting",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "weft knit"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woven-fabric",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "woven fabric",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "weaving",
+        "woven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fleece",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "fleece",
+      "brand": null,
+      "model": null,
+      "category": "fleece",
+      "aliases": [
+        "bursted yarn",
+        "lofted fleece"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:two-ply-cotton-yarn",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "two-ply cotton yarn",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "two ply yarn cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:cotton",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "cotton",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Cotton"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:merino-wool",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "merino wool",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Marina",
+        "Marina wool",
+        "Marino",
+        "Marino wool",
+        "Merino",
+        "Merino wool",
+        "Mourinho",
+        "Woolen",
+        "merino",
+        "super fine merino",
+        "whe coat",
+        "wool",
+        "wool jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:woven-binding",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "woven binding",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "binding"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:snap-buttons",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "snap buttons",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "snap button"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:polyester",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "polyester",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:nylon",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "nylon",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kapital",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Kapital",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "capital"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kapital-brown-s-beach-cloth-vest",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Kapital Brown's Beach Cloth Vest",
+      "brand": "Kapital",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "capital version"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:anatomica",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Anatomica",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:schott",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Schott",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fullcount",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fullcount",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phils",
+        "Pilson",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:weather-wool",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Weather Wool",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "weather will",
+        "weather wol",
+        "weather wolves",
+        "weather wool",
+        "weatherwool",
+        "whether wool",
+        "wonderful"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:baxter",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Baxter",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:runna",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Runna",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Rena",
+        "Runa",
+        "Runner",
+        "Running",
+        "run"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mammoth-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mammoth Jacket",
+      "brand": "The Iron Snail",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mammoth",
+        "mammoth",
+        "mammoth V2",
+        "mammoths",
+        "primordial mammoth"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "83c9ad8401b9e5cd"
+}

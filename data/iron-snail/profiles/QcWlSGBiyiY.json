@@ -1,0 +1,599 @@
+{
+  "platform_id": "QcWlSGBiyiY",
+  "profile": {
+    "video_id": "iron-snail:QcWlSGBiyiY",
+    "purpose": "Explain why the US military's OG-107 reverse sateen fatigue pants used such an effective fabric. It walks through weave structures and the 1940s–50s MIT-led fabric research and field testing behind the fabric.",
+    "video_type": "explainer",
+    "thesis": "The OG-107 fatigue's reverse sateen is a dense sateen weave flipped to be weft-faced, so the weft shields the structural warp yarns. Research and combat-course testing by Stanley Backer and Ernest Ralph Kaswell showed this made it far more durable in real forward-motion wear than herringbone twill or denim. It was also more comfortable and more wind- and water-resistant, and vintage pairs are inexpensive today.",
+    "key_takeaways": [
+      "OG = olive green shade 107; 'fatigues' were named for the fatiguing work done in them, which drove their wide, untailored, movement-friendly design.",
+      "Exterior patch pockets use the same thick fabric and add durability, comfort and easy repair without compromising the pants if holed.",
+      "Weaves are distinguished by interlacement points: plain weave has the most (stiff, durable), twill fewer with diagonal offsets (flexible, but tears run down channels and the fabric skews), sateen the fewest with long floats.",
+      "Herringbone twill reverses the offset every few rows, stabilising the fabric and stopping tear propagation; it is cited as about 15% stronger than regular denim and was the WWII standard.",
+      "Sateen's few interlacings allow many more yarns to be packed in, making it denser, more wind- and water-resistant, smooth enough to take finishes, and durable.",
+      "Backer argued fabrics should be flipped so the weft faces out and protects the warp; Kaswell's Camp Lee combat-course tests confirmed it.",
+      "Reverse sateen was found about 80% more durable than herringbone twill and 110% more than denim with the same yarns, but only in the forward/backward abrasion of actual wear; tested in all directions the fabrics were roughly equal.",
+      "Military specs left room for variation, so not all OG-107s or sateens are identical. Vintage pairs can be found cheaply on eBay, and orSlow makes a well-known modern reproduction.",
+      "The creator credits these findings as the foundation of modern outdoor brands and recommends the Articles of Interest 'Gear' series."
+    ],
+    "outline": [
+      {
+        "title": "The legendary sateen",
+        "summary": "Introduces OG-107 reverse sateen fatigues and claims the fabric was the military's most comfortable, durable, wind- and water-resistant of its time, thanks to one trick: flipping it inside out.",
+        "first_segment": 0,
+        "last_segment": 1
+      },
+      {
+        "title": "Engineering better combat gear",
+        "summary": "The US military enlisted MIT researchers Stanley Backer and Ernest Ralph Kaswell, who ran lab tests and a simulated combat course at Fort/Camp Lee, Virginia.",
+        "first_segment": 1,
+        "last_segment": 2
+      },
+      {
+        "title": "Comparing military fabrics",
+        "summary": "Poses the question of whether sateen is really better than herringbone twill, its predecessor, followed by the channel greeting.",
+        "first_segment": 3,
+        "last_segment": 3
+      },
+      {
+        "title": "Design of military fatigues",
+        "summary": "Explains the OG-107 name and how fatigue work shaped the design: wide legs, roomy crotch and hips, exterior patch pockets. Notes why simple military design is so widely copied.",
+        "first_segment": 4,
+        "last_segment": 5
+      },
+      {
+        "title": "The science of textile weaves",
+        "summary": "Introduces plain, twill and satin weaves, warp and weft, and interlacement points (interrupted by the sponsor read). Plain weave is the maximally interlaced, stiff, durable option.",
+        "first_segment": 5,
+        "last_segment": 9
+      },
+      {
+        "title": "Twill weave analysis",
+        "summary": "Uses 3x1 denim to explain twill floats and offsets, which give flexibility. Their downsides are tears running down diagonal channels and the fabric skewing.",
+        "first_segment": 9,
+        "last_segment": 11
+      },
+      {
+        "title": "Herringbone twill overview",
+        "summary": "Explains broken and herringbone twill, which reverses the offset to stabilise the fabric and stop tears. This made HBT about 15% stronger than denim and the WWII standard.",
+        "first_segment": 11,
+        "last_segment": 13
+      },
+      {
+        "title": "The sateen breakthrough",
+        "summary": "After a snack break, shows vintage OG-107s bought on eBay and orSlow reproductions. Explains sateen's long floats and staggered interlacings: drapey and flexible, snags more easily, but resists tear runs.",
+        "first_segment": 13,
+        "last_segment": 15
+      },
+      {
+        "title": "Fabric density and testing",
+        "summary": "Sateen's open structure allows denser yarn packing for wind and water resistance and durability. Covers Backer's paper and Kaswell's combat-course testing, with a comedic soldier skit.",
+        "first_segment": 16,
+        "last_segment": 20
+      },
+      {
+        "title": "The importance of reverse weave",
+        "summary": "Covers the test results and Backer's key idea: flipping a warp-faced fabric to weft-faced so the weft shields the structural warp. This, combined with sateen's density, is why it won.",
+        "first_segment": 21,
+        "last_segment": 22
+      },
+      {
+        "title": "Conclusion and legacy",
+        "summary": "Gives the durability figures (80% over HBT, 110% over denim) and explains they hold only for forward-motion wear. Calls the findings the foundation of outdoor brands and recommends the Articles of Interest 'Gear' series.",
+        "first_segment": 23,
+        "last_segment": 24
+      }
+    ],
+    "passages": [
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "I'm from Massachusetts, so I take",
+        "last_segment": 2,
+        "ends_with": "Turns out that's not the case.",
+        "note": "Personal tangent about being from Massachusetts and the Brown Book Award"
+      },
+      {
+        "role": "intro",
+        "first_segment": 3,
+        "starts_with": "What's cracking everybody? It's your boy Mikey.",
+        "last_segment": 3,
+        "ends_with": "your YouTube video about reverse satine.",
+        "note": "Channel greeting with Lord of the Rings joke"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 6,
+        "starts_with": "This video is sponsored by Surf Shark.",
+        "last_segment": 7,
+        "ends_with": "Michael, I just wanted to see something.",
+        "note": "Sponsor read skit for Surfshark VPN"
+      },
+      {
+        "role": "aside",
+        "first_segment": 11,
+        "starts_with": "Oh, I got Oh, I have",
+        "last_segment": 12,
+        "ends_with": "A comedy routine? Goodness.",
+        "note": "Fumbling with magnifying glass in the big pockets"
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "Before that though, I am going to",
+        "last_segment": 14,
+        "ends_with": "Never has escalated to be that bad.",
+        "note": "Snack break eating a 'peach tine'"
+      },
+      {
+        "role": "aside",
+        "first_segment": 19,
+        "starts_with": "And then one soldier was like,",
+        "last_segment": 20,
+        "ends_with": "it's really hurting his stomach.",
+        "note": "Comedy skit of soldiers telling Mr. Caswell exaggerated war stories"
+      },
+      {
+        "role": "outro",
+        "first_segment": 24,
+        "starts_with": "One of the greatest podcasts of all",
+        "last_segment": 24,
+        "ends_with": "a video on limmer. Bye.",
+        "note": "Recommends Articles of Interest 'Gear' series and teases next video on Limmer"
+      }
+    ],
+    "topics": [
+      "OG-107 fatigue pants",
+      "reverse sateen fabric",
+      "textile weave types",
+      "interlacement points",
+      "plain weave vs twill vs sateen",
+      "herringbone twill",
+      "warp-faced vs weft-faced fabric",
+      "military fabric abrasion testing",
+      "Quartermaster combat course",
+      "fatigue pants design and patch pockets",
+      "vintage military clothing",
+      "fabric density and wind/water resistance",
+      "denim skew and tear propagation"
+    ],
+    "entity_ids": [
+      "iron-snail:e:og-107-fatigues",
+      "iron-snail:e:reverse-sateen",
+      "iron-snail:e:sateen",
+      "iron-snail:e:herringbone-twill",
+      "iron-snail:e:twill",
+      "iron-snail:e:broken-twill",
+      "iron-snail:e:plain-weave",
+      "iron-snail:e:denim",
+      "iron-snail:e:interlacement-points",
+      "iron-snail:e:warp-and-weft",
+      "iron-snail:e:warp-faced-vs-weft-faced-fabric",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:stanley-backer",
+      "iron-snail:e:ernest-ralph-kaswell",
+      "iron-snail:e:quartermaster-combat-course",
+      "iron-snail:e:orslow",
+      "iron-snail:e:orslow-fatigues",
+      "iron-snail:e:surfshark",
+      "iron-snail:e:netflix",
+      "iron-snail:e:ebay",
+      "iron-snail:e:trader-joe-s",
+      "iron-snail:e:articles-of-interest",
+      "iron-snail:e:avery-trufelman",
+      "iron-snail:e:limmer"
+    ],
+    "categories": [
+      "chinos",
+      "denim"
+    ],
+    "answers_questions": [
+      "Why is reverse sateen considered such a great fabric for fatigue pants?",
+      "What does OG-107 mean and why are they called fatigues?",
+      "What's the difference between plain weave, twill and sateen?",
+      "Is herringbone twill more durable than reverse sateen?",
+      "Why did the military flip sateen inside out?",
+      "What did the 1940s-50s military fabric tests at Camp Lee find?",
+      "How much more durable is reverse sateen than denim?",
+      "Why does denim twist on your legs and tear along the diagonal?",
+      "Why do fatigue pants have exterior patch pockets?",
+      "Are all vintage OG-107s the same, and where can I find them cheap?",
+      "Are the orSlow fatigues a good modern version of OG-107s?",
+      "Why is sateen more wind and water resistant than other weaves?"
+    ],
+    "uses": [
+      "understanding",
+      "background_history",
+      "buying_decision"
+    ],
+    "corrections": [
+      {
+        "segment_id": "iron-snail:QcWlSGBiyiY:s0015",
+        "note": "After saying sateen has no channel for anything to snag on, he corrects himself: sateen does snag more easily than other weaves, but its offset interlacement points make it harder for a tear to run down a channel as on twill."
+      },
+      {
+        "segment_id": "iron-snail:QcWlSGBiyiY:s0017",
+        "note": "Qualifies that the idea to flip fabrics may not have originated with Backer, but Backer was the one testing it and recommending it."
+      }
+    ],
+    "related_videos": [
+      "Upcoming video on Limmer",
+      "Articles of Interest podcast series 'Gear' by Avery Trufelman (podcast, not a video)"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:og-107-fatigues",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "OG-107 fatigues",
+      "brand": null,
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "OG 107 fatingsues",
+        "OG 107 reverse satine fatingsues",
+        "OG 107s",
+        "OG olive green 107"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:reverse-sateen",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "reverse sateen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "reverse satene",
+        "reverse satine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:sateen",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "sateen",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Satine",
+        "satene",
+        "satin",
+        "satine"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:herringbone-twill",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "herringbone twill",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "HBT",
+        "HBW",
+        "herring bone twill"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:twill",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "twill",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:broken-twill",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "broken twill",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:plain-weave",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "plain weave",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "plane weave"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:denim",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "denim",
+      "brand": null,
+      "model": null,
+      "category": "denim",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:interlacement-points",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "interlacement points",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "interlace point",
+        "interlacing points",
+        "interlacings"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:warp-and-weft",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "warp and weft",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "warp yarns",
+        "weft"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:warp-faced-vs-weft-faced-fabric",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "warp-faced vs weft-faced fabric",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "balanced face fabric",
+        "warpfaced fabric",
+        "weftaced fabric"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gorex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stanley-backer",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Stanley Backer",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Backer",
+        "back"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ernest-ralph-kaswell",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Ernest Ralph Kaswell",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Casmir",
+        "Caswell",
+        "Ernest Ralph Caswell"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:quartermaster-combat-course",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Quartermaster Combat Course",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "combat course constructed at Camp Lee",
+        "simulated combat zone in Fort Lee"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:orslow",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "orSlow",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Orso"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:orslow-fatigues",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "orSlow Fatigues",
+      "brand": "orSlow",
+      "model": null,
+      "category": "chinos",
+      "aliases": [
+        "Orso versions"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:surfshark",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Surfshark",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Surf Shark",
+        "Surf SharkVPN",
+        "Surf shark",
+        "surf shark"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:netflix",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Netflix",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:trader-joe-s",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Trader Joe's",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:articles-of-interest",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Articles of Interest",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:avery-trufelman",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Avery Trufelman",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Avery Truffleman"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:limmer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Limmer",
+      "brand": null,
+      "model": null,
+      "category": "boots",
+      "aliases": [
+        "limmer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "564829d18cae1b76"
+}
