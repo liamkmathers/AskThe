@@ -1,6 +1,6 @@
 # UI plan (M6)
 
-*2026-10-29, decisions added 2026-10-30. **v1 built** (`askthe serve <creator>`, code in `askthe/app/`). Researched from existing products (sources at the end), and from the real answers in `eval/runs/`.*
+*2026-10-29, decisions added 2026-10-30. **v1 built** (`askthe serve`, code in `askthe/app/`); catalog and creator header added 2026-10-30. Researched from existing products (sources at the end), and from the real answers in `eval/runs/`.*
 
 ## Direction
 
@@ -43,11 +43,21 @@
 
 **In:** the ask box with starter questions; the answer page; the source sheet; the status chips and Sponsored tag; save and "Your questions"; a share link; a small "Something wrong?" link that flags an answer for review.
 
-**Out:** multi-turn chat, suggested follow-ups, accounts, notifications, a product browser, affiliate buttons, timestamps, retrieval or reasoning details, a creator avatar or persona. The creator's question log is not a fan feature.
+**Out:** multi-turn chat, suggested follow-ups, accounts, notifications, a product browser, affiliate buttons, timestamps, retrieval or reasoning details, a creator persona. The creator's question log is not a fan feature.
 
 ## Engine changes it needs
 
 A streaming endpoint; a `sponsored` flag on each verified source, set in code from the sponsor markings, never by the model; a `changed_mind` field beside `coverage`; answer snapshots in the database. Changes to answers go through `askthe eval`.
+
+## Catalog and creator page
+
+*Added 2026-10-30, from Liam: the landing should be about the creator, and "Ask" is the brand, with an instance per creator ("Ask The Iron Snail", later others).* Every element has to serve the fan and reflect well on the creator; nothing decorative.
+
+- **Catalog (`/`):** the wordmark "Ask.", one line on what it is, and a grid of creator cards (one column on phones, up to three wide). A card is the creator's avatar (their channel picture; initials in a circle when there's none), the instance name, the tagline (what they cover) and the number of videos answers draw on (how much there is to ask). Nothing from the bio: the card only has to say who and what.
+- **Creator page (`/<slug>`):** a small "Ask." link back to the catalog; avatar, instance name and tagline; then who the creator is: the bio's summary (`askthe bio`) in full or, until one exists, `about` from the config; the creator's links (`links` in the config: a channel, a store; YouTube is one link among others); then straight to the ask box, with "Answered only from his N videos, quoted and dated." under it, the starters and "Your questions". Below those, open: **Journey** (dated milestones, oldest first, on a light timeline) and **Ventures** (their own brands, products and collaborations, as compact cards). Each item's numbered citations open the source sheet with the quote, the video's title and date, and Watch on YouTube. They sit below the ask box, not above it, so on a phone the ask box is on the first screen.
+- **Not shown:** the channel's own description (a bio is about the creator as a whole, not one platform) and the channel banner (crops badly on phones and adds nothing a fan needs).
+- **Your questions** are kept per creator in the browser (`askthe.history.<slug>`). A list saved under the old single key is filed under each answer's creator on the first visit, then the old key is removed; answers the server doesn't serve are dropped.
+- **Answer pages** keep their `/a/<id>` links; the back link goes to the answer's own creator.
 
 ## Screens (phone)
 
@@ -89,6 +99,6 @@ SOURCE SHEET (tap [1])          NOT COVERED
 2. **Keep today's answer length.** The verdict card carries the short answer; the detail stays below it. Revisit if users skip it.
 3. **Stream the answer as it's written; verify after.** Text appears as it's generated with citation numbers greyed; once the answer completes, code verifies every quote, verified citations become tappable, and any that fail are removed (rule 2 still holds for what remains on the page).
 4. **No affiliate links or placeholders in v1.** Pitched separately.
-5. **No thumbnails at all; his name is used** in the private demo ("Ask The Iron Snail"). Sources show the video title and date.
+5. **No video thumbnails at all; his name is used** in the private demo ("Ask The Iron Snail"). Sources show the video title and date.
 
 **Sources:** [Perplexity design breakdown](https://www.925studios.co/blog/perplexity-design-breakdown), [NotebookLM help](https://support.google.com/notebooklm/answer/16179559?hl=en), [AI Overviews link cards](https://www.seo-day.de/news/article/google-ai-mode-ai-overviews-sliding-carousel-for-link-cards?lang=en), [AI Overviews click-through](https://seojuice.io/blog/google-ai-overviews-cause-massive-drop-in-search-clicks), [Consensus Meter](https://consensus.app/home/blog/introducing-the-consensus-meter/), [RTINGS changelog](https://www.rtings.com/tv/tests/changelogs/1-8), [YouTube Ask](https://tomsguide.com/how-to/youtube-now-lets-you-ask-its-ai-questions-about-videos-heres-how-it-works), [Delphi reactions](https://dewey-labs.beehiiv.com/p/delphi-alternatives), [Amazon Rufus](https://aboutamazon.com/news/retail/amazon-rufus), [Arc Browse for Me](https://windowsreport.com/arc-browser-browse-for-me/). Several are secondhand write-ups rather than hands-on use.

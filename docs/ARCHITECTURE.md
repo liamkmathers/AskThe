@@ -85,7 +85,7 @@ If vector search fails, retrieval continues on keywords alone and the answer car
 
 ### The web page
 
-`askthe serve <creator>` runs the ask page (`askthe/app/`, FastAPI and one plain HTML/JS page; see [UI_PLAN](UI_PLAN.md)). A question is answered in a worker thread and streamed to the page as newline-delimited JSON: searching, the videos being read, the answer text as it's written, then the verified answer. Citations stay grey until code has verified them; failed ones are removed. Every answer is saved as a snapshot with its own link. A fan's list of questions lives in their browser; "new video since you asked" is a keyword search over videos published after the answer, with no model call.
+`askthe serve` runs the ask pages for every creator in `creators/` (or `askthe serve <creator>` for one): `askthe/app/`, FastAPI and one plain HTML/JS page (see [UI_PLAN](UI_PLAN.md)). `/` is the catalog of creators, `/<slug>` a creator's page (who they are, from the creator config, `channel.json` and `bio.json`, then the ask box), `/a/<id>` an answer. The API is under `/api/creators/<slug>/…`; answer lookups check the answer's `creator_id` against the creators being served. Slugs can't be `static`, `api` or `a`. A question is answered in a worker thread and streamed to the page as newline-delimited JSON: searching, the videos being read, the answer text as it's written, then the verified answer. Citations stay grey until code has verified them; failed ones are removed. Every answer is saved as a snapshot with its own link. A fan's list of questions lives in their browser, one list per creator; "new video since you asked" is a keyword search over videos published after the answer, with no model call.
 
 ## Swappable components
 
