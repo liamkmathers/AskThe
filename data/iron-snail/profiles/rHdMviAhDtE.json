@@ -1,0 +1,1176 @@
+{
+  "platform_id": "rHdMviAhDtE",
+  "profile": {
+    "video_id": "iron-snail:rHdMviAhDtE",
+    "purpose": "Rank the down jackets and brands that viewers named as their favourites, bought by the creator, going from cheapest to most expensive, with a rundown of each jacket's construction and features and who it suits.",
+    "video_type": "ranking",
+    "thesis": "Viewer-recommended down jackets from Uniqlo to Canada Goose are compared in price order. The creator argues the best value lies somewhere in between, and that a jacket only works for you if your goals match its designer's.",
+    "key_takeaways": [
+      "Jackets are presented from lowest to highest price, roughly 15 in total, drawn from a viewer poll of favourite down jacket brands.",
+      "Fill power, stitch-through vs. box-baffle vs. seamless (heat-bonded) construction, and shell fabric denier are explained as the key specs.",
+      "The Uniqlo Seamless Down Parka's care label warns its bonding resin degrades over time, so the seams may eventually fail.",
+      "The Decathlon jacket is presented as an outstanding value at $250 with box baffles, 800 fill down and many features, compared with the barebones North Face at the same price.",
+      "Ultralight jackets (Ghost Whisperer 10D, Montbell Plasma 1000 7D) are discussed as fragile and more than most people need.",
+      "Rab, Feathered Friends and Montbell are discussed for technical details such as baffle mapping, tuck stitching and skip stitches.",
+      "Fjällräven's waxed G-1000 shell is water resistant rather than waterproof and needs upkeep.",
+      "A heritage segment covers Rocky Mountain Featherbed, the Filson Waxed Down Jacket and an All Blues Co. Karakoram.",
+      "The $1,400 Canada Goose Wyndham is described as an overbuilt jacket from a brand that pivoted to luxury, and the creator returned it."
+    ],
+    "outline": [
+      {
+        "title": "Intro and ranking format",
+        "summary": "Teaser of the jackets, then how the list was built from a viewer poll and the plan to go from cheapest to most expensive, noting who each jacket is for.",
+        "first_segment": 0,
+        "last_segment": 2
+      },
+      {
+        "title": "Down basics and Uniqlo Seamless Down Parka",
+        "summary": "Explains fill power and stitch-through vs. seamless construction, cuts open the Uniqlo parka, and discusses its care label warning that the bonding resin will degrade.",
+        "first_segment": 3,
+        "last_segment": 7
+      },
+      {
+        "title": "Eddie Bauer Superior Down Parka",
+        "summary": "Covers the $175 Eddie Bauer parka (650 fill, waterproof, stitch-through) and the First Ascent line.",
+        "first_segment": 7,
+        "last_segment": 8
+      },
+      {
+        "title": "Decathlon jacket breakdown",
+        "summary": "Details the $250 Decathlon down jacket's features: chest pockets, storm placket and cuffs, 800 fill duck blend, box-baffle construction (explained). Interrupted by a sponsor read.",
+        "first_segment": 9,
+        "last_segment": 13
+      },
+      {
+        "title": "The North Face Hydrenalite",
+        "summary": "Compares the barebones $250 North Face lifestyle jacket to the Decathlon, discusses the brand's fashion history and 'brand tax', and mentions the Summit Series.",
+        "first_segment": 13,
+        "last_segment": 17
+      },
+      {
+        "title": "Patagonia Downdrift",
+        "summary": "Covers Patagonia's 600 fill heritage-style Downdrift jacket, its sustainability and warranty, and its rough nylon hood.",
+        "first_segment": 17,
+        "last_segment": 18
+      },
+      {
+        "title": "Mountain Hardwear Ghost Whisperer",
+        "summary": "Mentions the creator's favourite Mountain Hardwear Subzero jacket, then discusses the ultralight 10-denier Ghost Whisperer and its fragility.",
+        "first_segment": 18,
+        "last_segment": 20
+      },
+      {
+        "title": "Rab mountaineering features",
+        "summary": "Shows Rab's climbing-oriented features such as the foldable hood, high hand pockets, 20D shell, 800 fill down and baffle mapping.",
+        "first_segment": 20,
+        "last_segment": 22
+      },
+      {
+        "title": "Montbell Plasma 1000",
+        "summary": "Covers the 7-denier, 1000 fill Montbell Plasma 1000, its value, a 30D version, and its skip-stitch construction.",
+        "first_segment": 22,
+        "last_segment": 23
+      },
+      {
+        "title": "Fjällräven Greenland No. 1",
+        "summary": "Explains Fjällräven's avoidance of newer chemical treatments and its waxable G-1000 polycotton shell, which is water resistant but not waterproof.",
+        "first_segment": 23,
+        "last_segment": 25
+      },
+      {
+        "title": "Feathered Friends Volant",
+        "summary": "Praises Feathered Friends' craftsmanship: 900 fill down, down-filled pockets and tuck-stitch construction.",
+        "first_segment": 25,
+        "last_segment": 27
+      },
+      {
+        "title": "Heritage down brands",
+        "summary": "Quick looks at a Rocky Mountain Featherbed jacket with a leather yoke, the Filson Waxed Down Jacket, and an All Blues Co. Karakoram based on Eddie Bauer's 1960s design.",
+        "first_segment": 27,
+        "last_segment": 29
+      },
+      {
+        "title": "Canada Goose Wyndham Parka",
+        "summary": "Unboxes the $1,400 Canada Goose Wyndham, lists its specs, and explains its overbuilt Arctic heritage and pivot to luxury. Other Canadian and US makers get a mention.",
+        "first_segment": 29,
+        "last_segment": 31
+      }
+    ],
+    "passages": [
+      {
+        "role": "intro",
+        "first_segment": 0,
+        "starts_with": "This is one of the most legendary",
+        "last_segment": 1,
+        "ends_with": "Hope everybody's doing well.",
+        "note": "Teaser montage of jackets, then how the viewer-poll list was assembled and greeting"
+      },
+      {
+        "role": "aside",
+        "first_segment": 2,
+        "starts_with": "Did this I did the intro.",
+        "last_segment": 2,
+        "ends_with": "You just get that sucky one.",
+        "note": "Memory card crashed during the original intro"
+      },
+      {
+        "role": "aside",
+        "first_segment": 7,
+        "starts_with": "Oops, Edward, I found a spelling",
+        "last_segment": 8,
+        "ends_with": "I think you meant waterproof.",
+        "note": "Joke about a typo on the Eddie Bauer website"
+      },
+      {
+        "role": "sponsor",
+        "first_segment": 9,
+        "starts_with": "Hey, you. Do you pay rent?",
+        "last_segment": 10,
+        "ends_with": "continue to pay my rent.",
+        "note": "Sponsor read for Bilt rent rewards"
+      },
+      {
+        "role": "aside",
+        "first_segment": 13,
+        "starts_with": "Thank you, by the way, Taylor,",
+        "last_segment": 13,
+        "ends_with": "for letting me borrow your car.",
+        "note": "Thanks Taylor for the car"
+      },
+      {
+        "role": "aside",
+        "first_segment": 27,
+        "starts_with": "Thank you to the man on eBay",
+        "last_segment": 27,
+        "ends_with": "but it was very nice.",
+        "note": "Thanks the eBay seller who expedited a jacket"
+      },
+      {
+        "role": "aside",
+        "first_segment": 28,
+        "starts_with": "Ooh, I did that. I got",
+        "last_segment": 28,
+        "ends_with": "You smell very nice.",
+        "note": "Joke about the used jacket's previous owner's cologne"
+      },
+      {
+        "role": "aside",
+        "first_segment": 29,
+        "starts_with": "When you get that jacket, just",
+        "last_segment": 29,
+        "ends_with": "Welcome to the show, everybody.",
+        "note": "Joke about wearing the Karakoram without pants"
+      },
+      {
+        "role": "outro",
+        "first_segment": 31,
+        "starts_with": "Okie dokie though. That is very",
+        "last_segment": 31,
+        "ends_with": "I'll see you in the next one.",
+        "note": "Sign-off"
+      }
+    ],
+    "topics": [
+      "down jackets",
+      "fill power",
+      "box baffle construction",
+      "stitch-through construction",
+      "seamless heat-bonded down jackets",
+      "ultralight down jackets",
+      "shell fabric denier",
+      "baffle mapping",
+      "waxed cotton shells",
+      "heritage down jackets",
+      "brand value vs. brand tax",
+      "Canada Goose luxury",
+      "viewer-sourced ranking"
+    ],
+    "entity_ids": [
+      "iron-snail:e:uniqlo",
+      "iron-snail:e:uniqlo-seamless-down-parka",
+      "iron-snail:e:eddie-bauer",
+      "iron-snail:e:eddie-bauer-superior-down-parka",
+      "iron-snail:e:first-ascent",
+      "iron-snail:e:decathlon",
+      "iron-snail:e:decathlon-mt900-hooded-down-puffer-jacket",
+      "iron-snail:e:the-north-face",
+      "iron-snail:e:the-north-face-hydrenalite-down-hoodie",
+      "iron-snail:e:the-north-face-summit-series",
+      "iron-snail:e:patagonia",
+      "iron-snail:e:patagonia-downdrift-jacket",
+      "iron-snail:e:mountain-hardwear",
+      "iron-snail:e:mountain-hardwear-ghost-whisperer",
+      "iron-snail:e:subzero-jacket",
+      "iron-snail:e:rab",
+      "iron-snail:e:rab-neutrino-pro",
+      "iron-snail:e:outdoor-research",
+      "iron-snail:e:montbell",
+      "iron-snail:e:montbell-plasma-1000-down-parka",
+      "iron-snail:e:fjallraven",
+      "iron-snail:e:fjallraven-greenland-no-1-down-jacket",
+      "iron-snail:e:g-1000",
+      "iron-snail:e:gore-tex",
+      "iron-snail:e:feathered-friends",
+      "iron-snail:e:feathered-friends-volant-down-jacket",
+      "iron-snail:e:rocky-mountain-featherbed",
+      "iron-snail:e:rocky-mountain-featherbed-down-jacket",
+      "iron-snail:e:filson",
+      "iron-snail:e:filson-waxed-down-jacket",
+      "iron-snail:e:filson-down-cruiser",
+      "iron-snail:e:all-blues-co",
+      "iron-snail:e:all-blues-co-karakoram",
+      "iron-snail:e:eddie-bauer-karakoram",
+      "iron-snail:e:canada-goose",
+      "iron-snail:e:canada-goose-wyndham-parka",
+      "iron-snail:e:canada-goose-arctic-program",
+      "iron-snail:e:arctic-tech",
+      "iron-snail:e:oddvik-quartzco",
+      "iron-snail:e:outdoor-survival-canada",
+      "iron-snail:e:crescent-downwork-works",
+      "iron-snail:e:bilt",
+      "iron-snail:e:chase-inc-business-card",
+      "iron-snail:e:ebay",
+      "iron-snail:e:ykk-vislon-zipper",
+      "iron-snail:e:tenacious-tape",
+      "iron-snail:e:kinoi",
+      "iron-snail:e:down-fill-power",
+      "iron-snail:e:stitch-through-construction",
+      "iron-snail:e:box-baffle-construction",
+      "iron-snail:e:seamless-heat-bonded-construction",
+      "iron-snail:e:baffle-mapping",
+      "iron-snail:e:skip-stitch",
+      "iron-snail:e:tuck-stitch",
+      "iron-snail:e:denier",
+      "iron-snail:e:storm-flap",
+      "iron-snail:e:leather-yoke",
+      "iron-snail:e:taylor"
+    ],
+    "categories": [
+      "jackets",
+      "coats"
+    ],
+    "answers_questions": [
+      "Is the Uniqlo Seamless Down Parka worth buying or will it fall apart?",
+      "What does fill power actually mean on a down jacket?",
+      "What's the difference between stitch-through and box baffle construction?",
+      "Is the Decathlon down jacket better than The North Face for the same price?",
+      "Is the Eddie Bauer Superior Down Parka a good budget winter jacket?",
+      "Is the Mountain Hardwear Ghost Whisperer too fragile for everyday wear?",
+      "What makes the Montbell Plasma 1000 special?",
+      "Is the Fjällräven Greenland down jacket waterproof?",
+      "Why are Feathered Friends jackets considered so well made?",
+      "Is Canada Goose worth $1,400?",
+      "What is the Karakoram jacket and who made it originally?",
+      "Is the Patagonia Downdrift a good everyday down jacket?",
+      "Which down jacket brand gives the best bang for your buck?",
+      "What's the Filson Waxed Down Jacket like and how does it size?"
+    ],
+    "uses": [
+      "buying_decision",
+      "understanding",
+      "background_history"
+    ],
+    "corrections": [],
+    "related_videos": [
+      "Previous video reviewing the Mountain Hardwear Subzero down jacket (last year)",
+      "Earlier down jacket videos explaining stitch-through construction"
+    ],
+    "profiler_version": "p1",
+    "model": "claude-opus-5-5"
+  },
+  "entities": [
+    {
+      "id": "iron-snail:e:uniqlo",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Uniqlo",
+      "brand": null,
+      "model": null,
+      "category": "t-shirts",
+      "aliases": [
+        "Unic",
+        "Uniclo",
+        "Unico",
+        "Unilo",
+        "uniqlo's"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:uniqlo-seamless-down-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Uniqlo Seamless Down Parka",
+      "brand": "Uniqlo",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Unilo Seamless Down Parka"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Eddie Bauer",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Bower",
+        "Eddie Bower",
+        "Eddie Bowers",
+        "Eddie bow",
+        "Edward",
+        "bow"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer-superior-down-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Eddie Bauer Superior Down Parka",
+      "brand": "Eddie Bauer",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "superior down parker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:first-ascent",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "First Ascent",
+      "brand": "Eddie Bauer",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:decathlon",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Decathlon",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Dathlon",
+        "dathlon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:decathlon-mt900-hooded-down-puffer-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Decathlon MT900 Hooded Down Puffer Jacket",
+      "brand": "Decathlon",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "The North Face",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "North Face",
+        "Northace",
+        "Northface"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face-hydrenalite-down-hoodie",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The North Face Hydrenalite Down Hoodie",
+      "brand": "The North Face",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:the-north-face-summit-series",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "The North Face Summit Series",
+      "brand": "The North Face",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Summit series"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Patagonia",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Pagonia",
+        "Plastagonia"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:patagonia-downdrift-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Patagonia Downdrift Jacket",
+      "brand": "Patagonia",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "downdrift jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mountain-hardwear",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Mountain Hardwear",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mountain Hardware"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:mountain-hardwear-ghost-whisperer",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Mountain Hardwear Ghost Whisperer",
+      "brand": "Mountain Hardwear",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Ghost Whisperer",
+        "ghost whisperer"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:subzero-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Subzero jacket",
+      "brand": "Mountain Hardwear",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rab",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rab",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "RAB"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rab-neutrino-pro",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rab Neutrino Pro",
+      "brand": "Rab",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:outdoor-research",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Outdoor Research",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:montbell",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Montbell",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mont Bell",
+        "Mont Bella"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:montbell-plasma-1000-down-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Montbell Plasma 1000 Down Parka",
+      "brand": "Montbell",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Mont Bell Plasma 1000",
+        "Montbell plasma 1000 jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Fjällräven",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "F Raven",
+        "Fel Raven",
+        "Fial Raven",
+        "Fra Raven",
+        "Fraven",
+        "The Raven",
+        "f Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:fjallraven-greenland-no-1-down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Fjällräven Greenland No. 1 down jacket",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "F Raven"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:g-1000",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "G-1000",
+      "brand": "Fjällräven",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "G1000"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:gore-tex",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Gore-Tex",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Gortex",
+        "gore-tex",
+        "gortex"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:feathered-friends",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Feathered Friends",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Fathered Friends",
+        "feathered friends"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:feathered-friends-volant-down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Feathered Friends Volant Down Jacket",
+      "brand": "Feathered Friends",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Volant Volant jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rocky-mountain-featherbed",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Rocky Mountain Featherbed",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Rocky Mountain feather bed"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:rocky-mountain-featherbed-down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Rocky Mountain Featherbed Down Jacket",
+      "brand": "Rocky Mountain Featherbed",
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Filson",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Papa Filson",
+        "Phil 'sons",
+        "Phil Serna",
+        "Phils",
+        "Phils and",
+        "Philson's",
+        "Phyllis",
+        "Pilsen",
+        "Pilson",
+        "feels and",
+        "fill some",
+        "fills and",
+        "filson's",
+        "philson"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-waxed-down-jacket",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Waxed Down Jacket",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Filson waxed down jacket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:filson-down-cruiser",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Filson Down Cruiser",
+      "brand": "Filson",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Filson down Cruiser",
+        "down cruiser",
+        "filson's down Cruiser"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:all-blues-co",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "All Blues Co.",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:all-blues-co-karakoram",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "All Blues Co. Karakoram",
+      "brand": "All Blues Co.",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "caram"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:eddie-bauer-karakoram",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Eddie Bauer Karakoram",
+      "brand": "Eddie Bauer",
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Kakuram",
+        "caram"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:canada-goose",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Canada Goose",
+      "brand": null,
+      "model": null,
+      "category": "coats",
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:canada-goose-wyndham-parka",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Canada Goose Wyndham Parka",
+      "brand": "Canada Goose",
+      "model": null,
+      "category": "coats",
+      "aliases": [
+        "Canada Goose Windom Parker"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:canada-goose-arctic-program",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Canada Goose Arctic Program",
+      "brand": "Canada Goose",
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:arctic-tech",
+      "creator_id": "iron-snail",
+      "type": "material",
+      "canonical_name": "Arctic Tech",
+      "brand": "Canada Goose",
+      "model": null,
+      "category": null,
+      "aliases": [
+        "arctite tech fabric"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:oddvik-quartzco",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Oddvik Quartzco",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:outdoor-survival-canada",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Outdoor Survival Canada",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:crescent-downwork-works",
+      "creator_id": "iron-snail",
+      "type": "brand",
+      "canonical_name": "Crescent Downwork Works",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:bilt",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Bilt",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "Built"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:chase-inc-business-card",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "Chase Inc. business card",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ebay",
+      "creator_id": "iron-snail",
+      "type": "service",
+      "canonical_name": "eBay",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:ykk-vislon-zipper",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "YKK Vislon zipper",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "YKK Vizlon"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tenacious-tape",
+      "creator_id": "iron-snail",
+      "type": "product",
+      "canonical_name": "Tenacious Tape",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "tenacious tape"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:kinoi",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "Kinoi",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "unresolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:down-fill-power",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "down fill power",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "600 fill",
+        "700 fill",
+        "800 fill",
+        "Phil down",
+        "down fill",
+        "fill power"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:stitch-through-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "stitch-through construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "sewn through construction",
+        "stitch through construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:box-baffle-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "box baffle construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "box baffled construction",
+        "box construction"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:seamless-heat-bonded-construction",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "seamless heat-bonded construction",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "heat bonded",
+        "seamless"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:baffle-mapping",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "baffle mapping",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "down baffle mapping",
+        "mapping down channels"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:skip-stitch",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "skip stitch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "skip stitches"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:tuck-stitch",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "tuck stitch",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:denier",
+      "creator_id": "iron-snail",
+      "type": "concept",
+      "canonical_name": "denier",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "D",
+        "Dair",
+        "daer",
+        "deir",
+        "denure"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:storm-flap",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "storm flap",
+      "brand": null,
+      "model": null,
+      "category": "jackets",
+      "aliases": [
+        "Storm flap",
+        "storm flop",
+        "storm placket"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:leather-yoke",
+      "creator_id": "iron-snail",
+      "type": "component",
+      "canonical_name": "leather yoke",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "yolk"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    },
+    {
+      "id": "iron-snail:e:taylor",
+      "creator_id": "iron-snail",
+      "type": "person",
+      "canonical_name": "Taylor",
+      "brand": null,
+      "model": null,
+      "category": null,
+      "aliases": [
+        "taylor"
+      ],
+      "resolution": "resolved",
+      "related_entity_ids": [],
+      "affiliate_url": null
+    }
+  ],
+  "segments_fingerprint": "84b4aab20d01ff7b"
+}
