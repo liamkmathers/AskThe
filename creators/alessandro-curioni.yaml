@@ -48,8 +48,12 @@ recorded:
 exclude:
   - Zz8NONzR9Pk  # 2016 Future of Science talk: given in Italian; the English track is an interpreter's
 
-# Written from his talks once they're fetched.
-starter_questions: []
+# The first is an audience question from his SNS talk; the others are what his talks
+# answer, until real questions from people exist.
+starter_questions:
+  - "What about the energy cost of all this AI?"
+  - "When will quantum computers actually be useful?"
+  - "Should banks worry about quantum computers breaking encryption?"
 
 # Names auto-captions are likely to mangle.
 glossary:
