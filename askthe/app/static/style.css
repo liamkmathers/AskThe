@@ -434,6 +434,8 @@ button, .primary { font: inherit; cursor: pointer; }
   border-top: 1px solid var(--line);
 }
 
+.ai-note { margin: 12px 0 0; font-size: 0.8rem; line-height: 1.4; }
+
 .link {
   background: none;
   border: 0;

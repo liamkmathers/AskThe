@@ -206,6 +206,15 @@ function chipFor(answer) {
   return null;
 }
 
+// Answers speak as the creator (D26), so every answer says plainly that it's AI-written.
+function showAiNote() {
+  const who = (creator && creator.display_name) || "the creator";
+  $("ai-note").textContent =
+    `* AI-written in ${who}'s voice, using only ${possessive().toLowerCase()} own videos. ` +
+    "Every quote is checked against the video it cites.";
+  $("ai-note").hidden = false;
+}
+
 function possessive() {
   const p = (creator && creator.pronoun) || "they";
   return { he: "His", she: "Her", it: "Its" }[p.toLowerCase()] || "Their";
@@ -234,6 +243,7 @@ function showAnswer(answer) {
 
   showSources(answer.sources);
   showNewer(answer);
+  showAiNote();
   $("answer-foot").hidden = false;
   $("save").hidden = false;
   $("share").hidden = false;
@@ -350,6 +360,7 @@ function resetAnswerView(question) {
   $("sources").hidden = true;
   $("newer").hidden = true;
   $("answer-foot").hidden = true;
+  $("ai-note").hidden = true;
   $("save").hidden = true;
   $("share").hidden = true;
   $("reading").hidden = true;

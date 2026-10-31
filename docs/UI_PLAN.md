@@ -17,7 +17,7 @@
 | Wirecutter | A decisive pick in plain words; open notes when a pick changes | |
 | RTINGS | Dated, visible revisions | |
 | YouTube "Ask" | Sources as familiar video cards (title, date; no thumbnails, see Decisions) | |
-| Delphi-style clones | | Speaking as the creator; a persona instead of evidence |
+| Delphi-style clones | | A persona instead of evidence (answers do speak as the creator since D26, but every claim is cited) |
 | Amazon Rufus | Tappable starter questions | The shopping funnel |
 | Arc Search | The answer as a page with its own link | Hiding which sources were read |
 

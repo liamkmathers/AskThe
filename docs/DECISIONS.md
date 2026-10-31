@@ -179,3 +179,10 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Why:** profiling is the largest cost of onboarding (about $0.14 a video; $90 for one 640-video catalogue), and D24 found it adds little to scores. Pausing it lets us onboard more creators and work on the site cheaply; profiles can be made later for the creators we keep.
 **Measured** (The Iron Snail, 23 questions, with the new prompt): profiled 23/23, expected videos read 97%, $1.31; as if unprofiled (`--no-profiles`) 23/23, 93%, $1.10.
 **Gives up:** sponsor reads in unprofiled videos are caught by the model reading, not marked in advance, and the `sponsored` tag on quotes needs a located read, so it never appears for them. Expect the occasional miss of the kind D24 saw (an own product found only through the profile). Revisit before going public (Phase C).
+
+### D26. Answers in the creator's first person (supersedes D1's third person)
+*2026-10-31, from Liam*
+
+**Chose:** answers speak as the creator: "I'd go for the 875s", "In 2019 I said…, but now I…", "I haven't covered that in my videos yet". Plain words, not an imitation of their catchphrases or way of talking. Everything else holds: grounded or silent, every claim cited to a verified verbatim quote, newest verdict first with the change dated, sponsor reads never his verdict, hedges kept, no personal life. Each answer page ends with a note that the answer is AI-written from the creator's videos, with every quote checked against the video it cites. The About page stays third person.
+**Why:** fans read "I think…" as the creator's answer to them, which is what they want; the citations show it is his actual words, not an invented opinion. The Iron Snail has agreed. For now this applies to every creator, because the product is a private, unmonetised prototype; get each creator's agreement before going public (Phase C).
+**Gives up:** D1's distance from a "clone". The risk is the model inventing an opinion that sounds like him; rule 2 in the prompt forbids it, citations make it checkable, and the eval's personal-life check now also catches "my wife"-style slips.

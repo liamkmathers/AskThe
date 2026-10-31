@@ -83,13 +83,14 @@ _PERSONAL = (
 
 
 def personal_life(text: str, pronoun: str = "he") -> list[str]:
-    """Phrases about the creator's personal life (rule 8), e.g. "his girlfriend".
+    """Phrases about the creator's personal life (rule 8), e.g. "my wife", "his dog".
 
     A crude net for the eval, not a filter: it catches the common slips, and a
     person still reads the answers.
     """
-    own = _POSSESSIVE.get(pronoun.lower(), "their")
-    found = [f"{own} {w}" for w in _PERSONAL if mentions(text, f"{own} {w}")]
+    # Answers are in the creator's first person ("my wife"); bios and quotes may not be.
+    owners = (_POSSESSIVE.get(pronoun.lower(), "their"), "my")
+    found = [f"{o} {w}" for o in owners for w in _PERSONAL if mentions(text, f"{o} {w}")]
     return found + [w for w in ("girlfriend", "boyfriend") if mentions(text, w)]
 
 
