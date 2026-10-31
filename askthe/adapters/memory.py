@@ -176,6 +176,10 @@ class MemoryKnowledgeStore:
     def upsert_video(self, video: Video) -> None:
         self._videos[video.id] = video
 
+    def remove_video(self, video_id: str) -> None:
+        for table in (self._videos, self._segments, self._profiles, self._claims):
+            table.pop(video_id, None)
+
     def get_video(self, video_id: str) -> Video | None:
         return self._videos.get(video_id)
 

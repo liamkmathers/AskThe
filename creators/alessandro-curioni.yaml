@@ -38,6 +38,15 @@ categories:
 video_selection: alessandro-curioni.videos.txt
 # His talks are on organisers' channels: their descriptions aren't his words.
 own_uploads: false
+affiliation: IBM
+languages: [en]
+# When talks were given, where the upload came later (answers order views by date).
+recorded:
+  p5e4GBEJbBs: 2025-05-22  # GITEX AI Europe, Berlin (uploaded Jan 2026)
+  Rv0QVcCeJYc: 2025-03-12  # SNS colloquium, Pisa (date in the title)
+# Fetched but kept out of answers (raw files stay):
+exclude:
+  - Zz8NONzR9Pk  # 2016 Future of Science talk: given in Italian; the English track is an interpreter's
 
 # Written from his talks once they're fetched.
 starter_questions: []

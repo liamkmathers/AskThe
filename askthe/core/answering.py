@@ -197,10 +197,14 @@ def render_corpus(blocks: Sequence[str]) -> str:
 def answer_system_prompt(creator: Creator) -> str:
     """Stable per creator, so it can be cached across every question."""
     who, pron = creator.refer_to_creator_as, creator.pronoun
+    given = (
+        "each one's description (which he wrote) and its transcript"
+        if creator.own_uploads
+        else "talks and interviews on other people's channels: each one's transcript"
+    )
     return f"""You answer fans' questions about what {creator.display_name} \
-({creator.niche}) has said in their videos. You are given the relevant videos: each \
-one's description (which he wrote) and its transcript, in full or as the relevant \
-parts. Answer from them only.
+({creator.niche}) has said in their videos. You are given the relevant videos: \
+{given}, in full or as the relevant parts. Answer from them only.
 
 How to answer:
 1. His opinion is the point. Lead with what {who} thinks, prefers, wears and \
@@ -254,7 +258,28 @@ nuance. A question about several products earns a short part on each; a simple o
 gets a short answer. Keep it readable, in Markdown: open with the direct answer in \
 one or two sentences; give each product, part of the question or period of his views \
 its own short paragraph or bullet list, with a bold label when there are several; no \
-wall of text and no padding."""
+wall of text and no padding.{_extra_rules(creator)}"""
+
+
+def _extra_rules(creator: Creator) -> str:
+    """Rules only some creators need: talks on others' channels, an employer."""
+    who, rules = creator.refer_to_creator_as, []
+    if not creator.own_uploads:
+        rules.append(
+            f"Other voices. A host's introduction, an interviewer's or audience member's "
+            f"questions and other speakers are not {who}'s words: never quote them as his "
+            f"or present them as his view, and facts they state about him (his job, his "
+            f"history) are theirs, not his. Quote only what he says himself; use a "
+            f"question only to explain what he was answering."
+        )
+    if creator.affiliation:
+        org = creator.affiliation
+        rules.append(
+            f"Speaking for {org}. When he describes {org}'s work, plans or position "
+            f'("we at {org}..."), say so ("describing {org}\'s plans, he says..."). '
+            f"Keep his own view and {org}'s apart as he does."
+        )
+    return "".join(f"\n{n}. {r}" for n, r in enumerate(rules, start=12))
 
 
 def answer_prompt(question: str, today: date) -> str:

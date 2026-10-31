@@ -285,3 +285,13 @@ def test_descriptions_by_someone_else_are_neither_shown_nor_quotable():
     videos = {"talk": (video, segments)}
     assert check_answer(draft, videos, "youtube").sources
     assert not check_answer(draft, videos, "youtube", descriptions=False).sources
+
+
+def test_rules_for_talks_on_other_channels_and_an_employer_only_when_set():
+    from askthe.core.answering import answer_system_prompt
+
+    plain = answer_system_prompt(f.creator())
+    assert "Other voices" not in plain and "Speaking for" not in plain
+    speaker = answer_system_prompt(f.creator(own_uploads=False, affiliation="IBM"))
+    assert "12. Other voices" in speaker and "13. Speaking for IBM" in speaker
+    assert "description (which he wrote)" not in speaker

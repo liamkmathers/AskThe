@@ -179,3 +179,11 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Why:** profiling is the largest cost of onboarding (about $0.14 a video; $90 for one 640-video catalogue), and D24 found it adds little to scores. Pausing it lets us onboard more creators and work on the site cheaply; profiles can be made later for the creators we keep.
 **Measured** (The Iron Snail, 23 questions, with the new prompt): profiled 23/23, expected videos read 97%, $1.31; as if unprofiled (`--no-profiles`) 23/23, 93%, $1.10.
 **Gives up:** sponsor reads in unprofiled videos are caught by the model reading, not marked in advance, and the `sponsored` tag on quotes needs a located read, so it never appears for them. Expect the occasional miss of the kind D24 saw (an own product found only through the profile). Revisit before going public (Phase C).
+
+### D26. Speakers who aren't YouTubers: talks on other people's channels
+*2026-10-31*
+
+**Chose:** creators like Alessandro Curioni, whose videos are talks and interviews uploaded by organisers, set `own_uploads: false`. Answers then don't see or quote descriptions (the uploader's words), and get a rule that a host's introduction, interviewers' and audience members' questions and other speakers are never his words, and facts they state about him are theirs. `affiliation` adds a rule to say when he speaks for his employer. `recorded` sets when a talk was given, since uploads can lag by months, and `exclude` keeps out fetched videos that aren't his own words. Phase 1 is keynotes only; interviews and panels wait for speaker attribution.
+**Why:** the transcripts have no speaker labels, and his first three talks each have a host's introduction (one with his career history) and one has audience questions. Of his first four transcripts, one was an interpreter's English over an Italian talk, and one upload came eight months after the talk.
+**Measured:** 6 test questions on 3 talks: 6/6, $0.09. The trap question ("how long has he worked at IBM?") attributes the host's "since 1997" to the host.
+**Limit:** rule 12 is followed by the model, not checked in code: a quote of the host would still verify, because it is in the transcript. Speaker labels per segment (from the audio, or a model pass) would let code check it, and are needed before interviews and panels.

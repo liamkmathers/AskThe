@@ -102,6 +102,17 @@ class SqliteKnowledgeStore:
         )
         return _load(Video, rows)
 
+    def remove_video(self, video_id: str) -> None:
+        with self._db:
+            self._db.execute(
+                "DELETE FROM claim_entities WHERE claim_id IN "
+                "(SELECT id FROM claims WHERE video_id = ?)",
+                (video_id,),
+            )
+            for table in ("claims", "segments", "profiles"):
+                self._db.execute(f"DELETE FROM {table} WHERE video_id = ?", (video_id,))
+            self._db.execute("DELETE FROM videos WHERE id = ?", (video_id,))
+
     def replace_segments(self, video_id: str, segments: Sequence[Segment]) -> None:
         _check_belongs(video_id, segments)
         with self._db:

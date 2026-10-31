@@ -32,7 +32,10 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | `glossary` | Known names and their common caption errors, from the creator config (see below) |
 | `starter_questions` | Example questions shown on the ask page |
 | `languages` | Transcript languages to fetch, in order of preference (default: `languages` in `askthe.toml`, English). Quotes are verbatim, so a talk is quoted in the language it was given in |
-| `own_uploads` | `true` (default) when the videos are on the creator's own channel. `false` when they're talks and interviews on other people's channels: the descriptions are the uploader's words, so answers neither see nor quote them, and the bio can't cite them |
+| `affiliation` | The organisation they often speak for (an employer). Answers then say when a view is that organisation's position ("describing IBM's plans, he says…") |
+| `exclude` | Fetched videos kept out of answers, by platform ID, with the reason as a comment (an interpreter's translation, the wrong person). The raw files stay; `segment` and `index` remove them |
+| `recorded` | When a talk was given, by platform ID, where the upload came much later. Replaces the upload date, so "newest verdict wins" orders by when he said it |
+| `own_uploads` | `true` (default) when the videos are on the creator's own channel. `false` when they're talks and interviews on other people's channels: the descriptions are the uploader's words, so answers neither see nor quote them, and the bio can't cite them. Answers also get a rule that hosts', interviewers' and audience members' words are never his |
 | `tagline`, `about` | One line and a short paragraph for the creator's page, written in the config (never personal life) |
 | `links` | Where the creator is (channel, store, socials), platform-neutral, from the config |
 | `bio` | Who they are as a whole: a summary, a dated journey and their ventures (own brands, products, collaborations), each item citing quotes verified against the cited video. Made by `askthe bio` into `data/<creator>/bio.json` (committed). Professional life only |
