@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import tempfile
+from collections.abc import Sequence
 from pathlib import Path
 
 from pydantic import BaseModel
@@ -134,7 +135,10 @@ class TranscriptFileSource:
         self._kind = kind
         self._language = language
 
-    def get_transcript(self, platform_id: str) -> Transcript:
+    def get_transcript(
+        self, platform_id: str, languages: Sequence[str] | None = None
+    ) -> Transcript:
+        # Files carry no language of their own: the configured one is assumed.
         for suffix in (".vtt", ".srt", ".txt"):
             path = self._dir / f"{platform_id}{suffix}"
             if path.exists():

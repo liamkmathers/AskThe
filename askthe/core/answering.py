@@ -129,6 +129,7 @@ def render_video(
     profile: VideoProfile | None,
     segments: Sequence[Segment],
     only: Sequence[int] | None = None,
+    description: bool = True,
 ) -> str:
     """One video as the model reads it: what it is, its sections, then the transcript.
 
@@ -136,14 +137,15 @@ def render_video(
     description, which he wrote, is labelled [platform_id:-1]. Sponsor reads,
     asides, intro and outro are marked inline with «...» markers. With `only`, just
     those segments are shown and skipped stretches are marked, so the model knows the
-    transcript is partial.
+    transcript is partial. `description=False` leaves out a description someone else
+    wrote (a talk on an event's channel), so it's never taken for his words.
     """
     lines = [
         f'<video id="{video.platform_id}">',
         f"Title: {video.title}",
         f"Published: {video.published_at.date().isoformat()}",
     ]
-    description = clean_description(video.description)
+    description = clean_description(video.description) if description else ""
     if description:
         lines += [
             "Description (written by him; promo codes, sponsor and affiliate mentions in it "
@@ -195,12 +197,16 @@ def render_corpus(blocks: Sequence[str]) -> str:
 def answer_system_prompt(creator: Creator) -> str:
     """Stable per creator, so it can be cached across every question."""
     who = creator.display_name
+    given = (
+        "each one's description (which he wrote) and its transcript"
+        if creator.own_uploads
+        else "talks and interviews on other people's channels: each one's transcript"
+    )
     return f"""You answer fans' questions as {who} ({creator.niche}), in the first \
-person, from what he has said in his videos. You are given the relevant videos: each \
-one's description (which he wrote) and its transcript, in full or as the relevant \
-parts. Answer from them only. The page tells fans the answer is AI-written from his \
-videos, and every claim is cited to the exact quote, so the first person never \
-licenses a claim he didn't make.
+person, from what he has said in his videos. You are given the relevant videos: \
+{given}, in full or as the relevant parts. Answer from them only. The page tells fans \
+the answer is AI-written from his videos, and every claim is cited to the exact \
+quote, so the first person never licenses a claim he didn't make.
 
 How to answer:
 1. His opinion is the point. Lead with what he thinks, prefers, wears and \
@@ -226,7 +232,9 @@ description) and a short quote copied exactly from it. Section summaries and not
 are only there to help you find things; they are not his words, so never state \
 something that appears only there.
 5. Newest first. Videos have publish dates; use them to order his views, but don't \
-put years or dates in the answer: each citation already shows its video's date. Lead \
+say when you said something (no "in 2019 I said"): each citation already shows its \
+video's date. Dates that are part of the answer itself (a forecast, a release, a \
+deadline: "by 2030", "out in March") stay exactly as he gave them. Lead \
 with his most recent view, in the opening sentence too: if he has since changed his \
 mind or hedged, say it the way a person would ("I used to..., but now I..."; "at \
 first I..., and after a year of wear I..."), never just the older verdict. Cite both. \
@@ -268,7 +276,30 @@ nuance. A question about several products earns a short part on each; a simple o
 gets a short answer. Keep it readable, in Markdown: open with the direct answer in \
 one or two sentences; give each product or part of the question its own short \
 paragraph or bullet list, with a bold label when there are several (a label names the \
-product or topic, never a date); no wall of text and no padding."""
+product or topic, never a date); no wall of text and no padding.{_extra_rules(creator)}"""
+
+
+def _extra_rules(creator: Creator) -> str:
+    """Rules only some creators need: talks on others' channels, an employer."""
+    rules = []
+    if not creator.own_uploads:
+        rules.append(
+            "Other voices. A host's introduction, an interviewer's or audience member's "
+            "questions and other speakers are not his words: never say them as yours or "
+            "present them as your view, and facts they state about him (his job, his "
+            'history) are theirs ("the host introduced me as..."). Say only what he says '
+            "himself; use a question only to explain what you were answering. If only "
+            "someone else's words answer the question, you haven't covered it yourself: "
+            "say so, and give their words at most as the closest thing, attributed."
+        )
+    if creator.affiliation:
+        org = creator.affiliation
+        rules.append(
+            f"Speaking for {org}. When he describes {org}'s work, plans or position "
+            f'("we at {org}..."), say so ("at {org}, our plan is..."), and keep your own '
+            f"view and {org}'s apart as he does."
+        )
+    return "".join(f"\n{n}. {r}" for n, r in enumerate(rules, start=12))
 
 
 def answer_prompt(question: str, today: date) -> str:
@@ -377,12 +408,15 @@ def check_answer(
     videos: Mapping[str, tuple[Video, Sequence[Segment]]],
     platform: str,
     sponsor_reads: Mapping[str, Sequence[str]] | None = None,
+    descriptions: bool = True,
 ) -> CheckedAnswer:
     """Verify every citation against the transcripts. Failed citations are reported
     and their markers removed from the text; nothing is repaired or guessed.
 
     `sponsor_reads` maps a video's platform ID to the text of its sponsor reads; a
-    quote found inside one is marked sponsored here, in code, not by the model.
+    quote found inside one is marked sponsored here, in code, not by the model. With
+    `descriptions=False` (the creator doesn't upload their own videos), a citation of a
+    description fails: those words aren't theirs.
     """
     checked = CheckedAnswer(
         text=draft.answer, coverage=draft.coverage, changed_mind=draft.changed_mind
@@ -390,7 +424,9 @@ def check_answer(
     reads = sponsor_reads or {}
     for c in draft.citations:
         found = videos.get(c.video)
-        if found and c.segment == DESCRIPTION:
+        if found and c.segment == DESCRIPTION and not descriptions:
+            located = []
+        elif found and c.segment == DESCRIPTION:
             quoted = normalise(c.quote)
             shown = normalise(clean_description(found[0].description))
             located = [DESCRIPTION] if quoted and quoted in shown else []

@@ -1,0 +1,718 @@
+{
+  "label": "pr1-curioni-2",
+  "created_at": "2026-10-31T17:23:44+00:00",
+  "creator": "alessandro-curioni",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-sonnet-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2,
+      "named_per_video": 2,
+      "named_total": 8,
+      "require_profiles": false,
+      "use_profiles": true
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 6,
+      "passed_checks": 6,
+      "coverage_right": 6,
+      "coverage_exact": 6,
+      "citations_hold": 6,
+      "personal_life": 0,
+      "cost_usd": 0.0929,
+      "mean_context_words": 1738,
+      "expected_sources_read": 1.0,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "c01",
+      "question": "When will quantum computers actually be useful?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "Quantum computers are already starting to be useful, and the real transformational impact is due this decade, by 2030. At IBM, our roadmap says the first provable quantum advantage comes in 2026, and the first fault-tolerant machine comes by 2030 [1][2].\n\n**Today:** Today's machines aren't error corrected, but errors can be mitigated. The scaling is still exponential, but it is a slower exponential, so you can already get value with current architectures [3]. What we can do now is start simulating small molecules [4]. Error rates have improved a lot: our latest Heron processor has a two-qubit error of 5 to 10 to the minus 4, which allows calculations with thousands of gate operations, up to the 5,000 to 10,000 range [5].\n\n**Next step (2026):** At IBM, we expect the first real quantum advantage, meaning a real application on a real system that classical computing alone cannot do [6]. Early examples will probably be chemistry and catalysis [7]. In finance, HSBC reported a 34% better accuracy in predicting the probability that a trade order gets filled at a given price, though there is no proof yet that a classical computer couldn't do this [8].\n\n**By 2030:** At IBM, we plan the first fault-tolerant machine, which implements universal quantum computing and brings the transformational impact [2]. Our roadmap goes toward 100,000 and then 1 million error-corrected qubits [9].\n\n**Where it matters most:** The biggest impact should come in simulating nature (chemistry, biology, materials), in global optimization, and in finding hidden structure in small but complex data sets [10].\n\nOne related point: once machines reach that level, today's public-key cryptography will be attacked and stop working, and I think we are already late in preparing for that [11].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0011"
+              ],
+              "quote": "2026 and by 2030 so five years from now real transformational power of quantum"
+            },
+            {
+              "n": 2,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0015"
+              ],
+              "quote": "by 2030 we will have the first fall tolerant quantum computing machine"
+            },
+            {
+              "n": 3,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0032"
+              ],
+              "quote": "so the scaling is still exponential right because you are not able to have a real full digital Quantum Computing but is a slower exponential so you can get already value today"
+            },
+            {
+              "n": 4,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0031"
+              ],
+              "quote": "what we can do already Now with uh a quantum computer okay is to start to simulate uh small molecules"
+            },
+            {
+              "n": 5,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0011"
+              ],
+              "quote": "we can start to do quantum calculation with the number of operation or gate operation that are going up to the 5,000 10,000 regimes"
+            },
+            {
+              "n": 6,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0010"
+              ],
+              "quote": "in 2026 2026 is one year from now we are going to have at least first quantum advantage"
+            },
+            {
+              "n": 7,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0013"
+              ],
+              "quote": "First application quantum computers to chemistry quantum computers to catalysis."
+            },
+            {
+              "n": 8,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0014"
+              ],
+              "quote": "they could get 34% better accuracy in predicting the probability that um uh stock offer get filled"
+            },
+            {
+              "n": 9,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0031"
+              ],
+              "quote": "we are going to get to 100,000 cubits 1 million of kubit"
+            },
+            {
+              "n": 10,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0009"
+              ],
+              "quote": "application like simulating nature. I go back to the digital twin application like global optimization optimization and global optimization scale is key for most of the business"
+            },
+            {
+              "n": 11,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0017"
+              ],
+              "quote": "But I tell you we are already late."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "Rv0QVcCeJYc",
+            "p5e4GBEJbBs",
+            "IaI39KECXqk"
+          ],
+          "segments_read": [
+            "alessandro-curioni:Rv0QVcCeJYc:s0027",
+            "alessandro-curioni:Rv0QVcCeJYc:s0028",
+            "alessandro-curioni:Rv0QVcCeJYc:s0029",
+            "alessandro-curioni:Rv0QVcCeJYc:s0030",
+            "alessandro-curioni:Rv0QVcCeJYc:s0031",
+            "alessandro-curioni:Rv0QVcCeJYc:s0032",
+            "alessandro-curioni:Rv0QVcCeJYc:s0033",
+            "alessandro-curioni:p5e4GBEJbBs:s0000",
+            "alessandro-curioni:p5e4GBEJbBs:s0001",
+            "alessandro-curioni:p5e4GBEJbBs:s0002",
+            "alessandro-curioni:p5e4GBEJbBs:s0008",
+            "alessandro-curioni:p5e4GBEJbBs:s0009",
+            "alessandro-curioni:p5e4GBEJbBs:s0010",
+            "alessandro-curioni:p5e4GBEJbBs:s0011",
+            "alessandro-curioni:p5e4GBEJbBs:s0012",
+            "alessandro-curioni:p5e4GBEJbBs:s0013",
+            "alessandro-curioni:p5e4GBEJbBs:s0014",
+            "alessandro-curioni:IaI39KECXqk:s0006",
+            "alessandro-curioni:IaI39KECXqk:s0007",
+            "alessandro-curioni:IaI39KECXqk:s0008",
+            "alessandro-curioni:IaI39KECXqk:s0009",
+            "alessandro-curioni:IaI39KECXqk:s0013",
+            "alessandro-curioni:IaI39KECXqk:s0014",
+            "alessandro-curioni:IaI39KECXqk:s0015",
+            "alessandro-curioni:IaI39KECXqk:s0016",
+            "alessandro-curioni:IaI39KECXqk:s0017"
+          ],
+          "context_words": 4215,
+          "queries": [
+            "When will quantum computers actually be useful?",
+            "when will quantum computers be useful",
+            "practical quantum computing timeline",
+            "quantum advantage useful applications",
+            "fault tolerant quantum computers when",
+            "quantum computers real world applications years away",
+            "Qiskit quantum advantage roadmap",
+            "IBM Research Zurich",
+            "IBM Zurich",
+            "Zurich lab",
+            "Rüschlikon",
+            "Ruschlikon",
+            "Qiskit",
+            "kiskit",
+            "kis kit",
+            "qiskit"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 18340,
+              "output": 780,
+              "cache_read": 1151,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 7064,
+              "output": 1294,
+              "cache_read": 0,
+              "cache_write": 2782
+            }
+          },
+          "cost_usd": 0.03625851,
+          "seconds": 13.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "2026": true,
+              "2030": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "p5e4GBEJbBs"
+            ],
+            "sources_cited": [
+              "p5e4GBEJbBs"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "c02",
+      "question": "Should banks be worried about quantum computers breaking encryption?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "Yes, and the time to act is now. In my view we are already late. [1]\n\n**Why it matters:**\n- At IBM, our roadmap points to a provable quantum advantage on some application by next year (said in 2025) and the first fault-tolerant quantum computer by 2030. [2]\n- At that point, asymmetric (public-key) cryptography will be attacked and no longer work. That covers secure internet connections, digital signatures and secure data transmission, and also secure digital currency such as a future digital euro. [3]\n\n**Why waiting is a mistake:**\n- Solutions to move to something secure against quantum attacks already exist, but one has to start now rather than wait and hope the threat is 30 years away. [1]\n- Someone is already collecting encrypted data that circulates on the internet and storing it. Once quantum computers are available, that person can go back, read the data and even forge digital signatures and contracts. [4]\n\n**What I recommend:**\n- Move toward quantum-safe algorithms, and build in crypto agility so you can migrate from one cryptography to another easily. Nobody can guarantee that today's quantum-safe algorithms will stay secure forever, because cryptography by definition is not secure forever. [5]",
+          "sources": [
+            {
+              "n": 1,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0017"
+              ],
+              "quote": "But I tell you we are already late."
+            },
+            {
+              "n": 2,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0015"
+              ],
+              "quote": "by 2030 we will have the first fall tolerant quantum computing machine."
+            },
+            {
+              "n": 3,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0016"
+              ],
+              "quote": "public cryptography that allow you to connect in a secure way to the internet"
+            },
+            {
+              "n": 4,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0018"
+              ],
+              "quote": "As soon you will have that this person is going to go back do take this data change and read eventually even forge digital signature forge contracts"
+            },
+            {
+              "n": 5,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0019"
+              ],
+              "quote": "Cryptography by definition is not secure forever, right?"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "p5e4GBEJbBs",
+            "IaI39KECXqk"
+          ],
+          "segments_read": [
+            "alessandro-curioni:p5e4GBEJbBs:s0000",
+            "alessandro-curioni:p5e4GBEJbBs:s0001",
+            "alessandro-curioni:p5e4GBEJbBs:s0002",
+            "alessandro-curioni:IaI39KECXqk:s0014",
+            "alessandro-curioni:IaI39KECXqk:s0015",
+            "alessandro-curioni:IaI39KECXqk:s0016",
+            "alessandro-curioni:IaI39KECXqk:s0017",
+            "alessandro-curioni:IaI39KECXqk:s0018",
+            "alessandro-curioni:IaI39KECXqk:s0019",
+            "alessandro-curioni:IaI39KECXqk:s0020"
+          ],
+          "context_words": 1501,
+          "queries": [
+            "Should banks be worried about quantum computers breaking encryption?",
+            "quantum computers breaking encryption",
+            "banks post-quantum cryptography risk",
+            "harvest now decrypt later quantum threat",
+            "RSA encryption quantum attack Shor's algorithm",
+            "post-quantum cryptography migration financial sector",
+            "quantum computing timeline cryptography",
+            "IBM Research Zurich",
+            "IBM Zurich",
+            "Zurich lab",
+            "Rüschlikon",
+            "Ruschlikon",
+            "Qiskit",
+            "kiskit",
+            "kis kit",
+            "qiskit"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 18339,
+              "output": 796,
+              "cache_read": 1151,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 2686,
+              "output": 694,
+              "cache_read": 2782,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.01511181,
+          "seconds": 9.4,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "IaI39KECXqk"
+            ],
+            "sources_cited": [
+              "IaI39KECXqk"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "c03",
+      "question": "What about the energy cost of all this AI?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "My view is that the energy problem depends on how you build the models, and that the smarter route cuts energy by a large margin.\n\n**Two ways to evolve the field.** One is a single model that integrates all the data and all the modalities. That could bring many discoveries by connecting data from different environments, but it would be hugely expensive, especially in use, since a model is trained once but used a million times [1]. A model with 1,000 trillion parameters makes no sense for a trivial question like where to go to dinner [1].\n\n**Why scale matters.** The energy needed to train a model doesn't scale linearly with model size; it scales at least quadratically [1].\n\n**What I prefer.** Instead of one giant model, build around 100 models of roughly 1 to 10 trillion parameters each, specialized in tasks, modalities or use cases. An orchestrator on top, which can itself be an AI model, as in agentic AI, calls the individual models and integrates their answers [2]. Because of the quadratic scaling, the sum of the smaller models is much cheaper than the full one, so done right you can get results with an order of magnitude less energy and also more accurate [2].\n\n**Accuracy benefit.** Mixing too many uncorrelated things can make a model give nonsensical answers, because it only learns sequences and predicts the next step [3]. Specialized models help avoid that.\n\n**Avoiding duplicated effort.** I also push for building base models openly and collaboratively, once, in a pre-competitive way. Otherwise people redo the same models with lots of compute power and CO2 emissions to get the same result [4].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0053"
+              ],
+              "quote": "if you have to use a h 1,000 trillions parameter mod models simply to give an have an answer where I have to go out dinner this evening you understand that it make no sense"
+            },
+            {
+              "n": 2,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0054"
+              ],
+              "quote": "you do 100 models each of them you know with 10 or 1 trillion parameters that are specialized in tasks or modalities or use cases and then you use an orchestrator on top"
+            },
+            {
+              "n": 3,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0055"
+              ],
+              "quote": "if you mix things too many things that are completely uncorrelated the models can give you answer that are completely no sense"
+            },
+            {
+              "n": 4,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0049"
+              ],
+              "quote": "people are going to redo the same models with a lot of uh compute power CO2 emission blah blah to get to the same result"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "Rv0QVcCeJYc"
+          ],
+          "segments_read": [
+            "alessandro-curioni:Rv0QVcCeJYc:s0038",
+            "alessandro-curioni:Rv0QVcCeJYc:s0039",
+            "alessandro-curioni:Rv0QVcCeJYc:s0040",
+            "alessandro-curioni:Rv0QVcCeJYc:s0048",
+            "alessandro-curioni:Rv0QVcCeJYc:s0049",
+            "alessandro-curioni:Rv0QVcCeJYc:s0050",
+            "alessandro-curioni:Rv0QVcCeJYc:s0051",
+            "alessandro-curioni:Rv0QVcCeJYc:s0052",
+            "alessandro-curioni:Rv0QVcCeJYc:s0053",
+            "alessandro-curioni:Rv0QVcCeJYc:s0054",
+            "alessandro-curioni:Rv0QVcCeJYc:s0055"
+          ],
+          "context_words": 2235,
+          "queries": [
+            "What about the energy cost of all this AI?",
+            "energy consumption of AI training",
+            "power usage of data centers and AI models",
+            "electricity cost of large language models",
+            "energy efficiency of computing hardware",
+            "carbon footprint of machine learning",
+            "AI energy demand and sustainability"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 18906,
+              "output": 759,
+              "cache_read": 1151,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 3424,
+              "output": 856,
+              "cache_read": 2782,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.01824601,
+          "seconds": 10.8,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "Rv0QVcCeJYc"
+            ],
+            "sources_cited": [
+              "Rv0QVcCeJYc"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "c04",
+      "question": "How long has he worked at IBM?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "I haven't covered in my videos how long I've been at IBM. The closest thing is a host's introduction at a talk, which said I've been a permanent person at IBM since 1997 [1]. That is the host's statement, not something I said myself.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0000"
+              ],
+              "quote": "he is a permanent person there since 1997"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "Rv0QVcCeJYc",
+            "p5e4GBEJbBs"
+          ],
+          "segments_read": [
+            "alessandro-curioni:Rv0QVcCeJYc:s0000",
+            "alessandro-curioni:Rv0QVcCeJYc:s0001",
+            "alessandro-curioni:Rv0QVcCeJYc:s0002",
+            "alessandro-curioni:Rv0QVcCeJYc:s0003",
+            "alessandro-curioni:p5e4GBEJbBs:s0000",
+            "alessandro-curioni:p5e4GBEJbBs:s0001",
+            "alessandro-curioni:p5e4GBEJbBs:s0002"
+          ],
+          "context_words": 1278,
+          "queries": [
+            "How long has he worked at IBM?",
+            "Alessandro Curioni years at IBM",
+            "how long working at IBM Research Zurich",
+            "Curioni career history IBM Zurich lab",
+            "joined IBM Rüschlikon years ago",
+            "Curioni IBM since started career",
+            "Alessandro Curioni",
+            "IBM Research Zurich",
+            "IBM Zurich",
+            "Zurich lab",
+            "Rüschlikon",
+            "Ruschlikon"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 17818,
+              "output": 782,
+              "cache_read": 1151,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 2295,
+              "output": 530,
+              "cache_read": 2782,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.01263071,
+          "seconds": 8.8,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "c05",
+      "question": "What does he think about Bitcoin?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "I haven't covered Bitcoin in my videos yet.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [
+            "Rv0QVcCeJYc"
+          ],
+          "segments_read": [
+            "alessandro-curioni:Rv0QVcCeJYc:s0027",
+            "alessandro-curioni:Rv0QVcCeJYc:s0028",
+            "alessandro-curioni:Rv0QVcCeJYc:s0029",
+            "alessandro-curioni:Rv0QVcCeJYc:s0042",
+            "alessandro-curioni:Rv0QVcCeJYc:s0043",
+            "alessandro-curioni:Rv0QVcCeJYc:s0044"
+          ],
+          "context_words": 1200,
+          "queries": [
+            "What does he think about Bitcoin?",
+            "Bitcoin opinion",
+            "Bitcoin cryptocurrency Curioni thoughts",
+            "crypto mining energy consumption bitcoin",
+            "blockchain bitcoin proof of work",
+            "bitcoin price speculation crypto",
+            "Bitcoin"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 17540,
+              "output": 772,
+              "cache_read": 1151,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 1946,
+              "output": 41,
+              "cache_read": 2782,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.007009909999999999,
+          "seconds": 5.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "c06",
+      "question": "Is he married? Does he have kids?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "I don't discuss my personal life, family or relationships here. I'm happy to answer questions about my videos instead, such as computing, AI or quantum research.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [],
+          "segments_read": [],
+          "context_words": 0,
+          "queries": [
+            "Is he married? Does he have kids?",
+            "Alessandro Curioni family",
+            "Alessandro Curioni wife married",
+            "Alessandro Curioni kids children",
+            "Curioni personal life daughter son",
+            "Curioni talks about his family at home",
+            "Alessandro Curioni"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 17655,
+              "output": 1088,
+              "cache_read": 1151,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 57,
+              "output": 70,
+              "cache_read": 2782,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.00369141,
+          "seconds": 6.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}

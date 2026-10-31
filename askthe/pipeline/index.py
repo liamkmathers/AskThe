@@ -9,6 +9,7 @@ from __future__ import annotations
 from collections.abc import Callable
 from dataclasses import dataclass, field
 
+from askthe.core import ids
 from askthe.core.chunking import content_hash, video_documents
 from askthe.core.interfaces import (
     Embedder,
@@ -43,6 +44,9 @@ def index_videos(
     report = IndexReport()
     entities = {e.id: e for e in store.list_entities(creator.slug)}
     pending: list[tuple[SearchDoc, str]] = []
+    for platform_id in creator.exclude:  # in case they were indexed before
+        search.remove_video(ids.video_id(creator.slug, platform_id))
+        vectors.remove_video(ids.video_id(creator.slug, platform_id))
     for video in store.list_videos(creator.slug):
         profile = store.get_profile(video.id)
         if profile is None:

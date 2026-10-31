@@ -12,7 +12,7 @@ from collections.abc import Callable, Sequence
 from dataclasses import dataclass, field
 from datetime import UTC, datetime
 
-from askthe.core.interfaces import CatalogSource, RawArchive, TranscriptSource
+from askthe.core.interfaces import CatalogSource, NoTranscript, RawArchive, TranscriptSource
 from askthe.core.models import Creator, RawVideo
 
 
@@ -21,6 +21,7 @@ class FetchReport:
     fetched: list[str] = field(default_factory=list)
     skipped: list[str] = field(default_factory=list)
     failed: dict[str, str] = field(default_factory=dict)
+    no_transcript: dict[str, str] = field(default_factory=dict)  # not failures: nothing to get
     stopped_early: bool = False
 
 
@@ -51,11 +52,15 @@ def fetch_videos(
             raw = RawVideo(
                 creator_slug=creator.slug,
                 meta=catalog.get_video(creator, platform_id),
-                transcript=transcripts.get_transcript(platform_id),
+                transcript=transcripts.get_transcript(platform_id, creator.languages),
                 fetched_at=datetime.now(UTC),
                 source=source,
             )
             archive.save(raw)
+        except NoTranscript as e:
+            report.no_transcript[platform_id] = str(e)
+            on_progress(platform_id, f"no transcript: {e}")
+            continue  # the video's own fact, not a block: doesn't count towards stopping
         except Exception as e:  # noqa: BLE001 - report every failure, keep going
             first_line = next((line for line in str(e).splitlines() if line.strip()), "")
             report.failed[platform_id] = f"{type(e).__name__}: {first_line}"[:300]

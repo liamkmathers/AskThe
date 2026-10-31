@@ -1,0 +1,65 @@
+# Ask Alessandro Curioni (DRAFT: not to be shown to anyone until he has agreed)
+#
+# Everything creator-specific lives here. The engine in askthe/ never assumes a
+# creator, niche or platform. See docs/ARCHITECTURE.md#creator-config.
+#
+# Unlike a YouTuber, he has no channel: his talks are on event organisers' channels,
+# chosen one by one (data/alessandro-curioni/selection.md). There's another
+# Alessandro Curioni (a cybersecurity author); see NOTE_two_curionis.txt there.
+
+slug: alessandro-curioni
+display_name: Alessandro Curioni
+instance_name: Ask Alessandro Curioni
+platform: youtube
+channel_url: https://research.ibm.com/people/alessandro-curioni
+niche: computing, AI and quantum research
+tagline: The future of computing, from IBM Research
+links:
+  - label: IBM Research
+    url: https://research.ibm.com/people/alessandro-curioni
+about: >-
+  Keynotes on where computing is going: AI, quantum computing, supercomputing and
+  how they speed up scientific discovery. He leads IBM Research in Europe and Africa,
+  so he often speaks for IBM, and every answer here says when.
+
+# How the About page names him (third person). Answers speak as him (D27).
+refer_to_creator_as: Alessandro Curioni
+pronoun: he
+
+categories:
+  - artificial intelligence
+  - quantum computing
+  - supercomputing
+  - scientific discovery
+  - cybersecurity
+  - research and innovation
+  - industry and business
+
+video_selection: alessandro-curioni.videos.txt
+# His talks are on organisers' channels: their descriptions aren't his words.
+own_uploads: false
+affiliation: IBM
+languages: [en]
+# When talks were given, where the upload came later (answers order views by date).
+recorded:
+  p5e4GBEJbBs: 2025-05-22  # GITEX AI Europe, Berlin (uploaded Jan 2026)
+  Rv0QVcCeJYc: 2025-03-12  # SNS colloquium, Pisa (date in the title)
+# Fetched but kept out of answers (raw files stay):
+exclude:
+  - Zz8NONzR9Pk  # 2016 Future of Science talk: given in Italian; the English track is an interpreter's
+
+# The first is an audience question from his SNS talk; the others are what his talks
+# answer, until real questions from people exist.
+starter_questions:
+  - "What about the energy cost of all this AI?"
+  - "When will quantum computers actually be useful?"
+  - "Should banks worry about quantum computers breaking encryption?"
+
+# Names auto-captions are likely to mangle.
+glossary:
+  - name: IBM Research Zurich
+    type: brand
+    heard_as: [IBM Zurich, Zurich lab, Rüschlikon, Ruschlikon]
+  - name: Qiskit
+    type: product
+    heard_as: [kiskit, kis kit, qiskit]

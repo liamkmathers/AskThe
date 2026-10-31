@@ -1,0 +1,2544 @@
+{
+  "label": "pr1-kenji",
+  "created_at": "2026-10-31T17:22:27+00:00",
+  "creator": "kenji",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-sonnet-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2,
+      "named_per_video": 2,
+      "named_total": 8,
+      "require_profiles": false,
+      "use_profiles": true
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 17,
+      "passed_checks": 17,
+      "coverage_right": 17,
+      "coverage_exact": 17,
+      "citations_hold": 17,
+      "personal_life": 0,
+      "cost_usd": 0.5809,
+      "mean_context_words": 3260,
+      "expected_sources_read": 0.938,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "k01",
+      "question": "Do you use a gas burner purely out of necessity? I know you also use the wok on your induction.",
+      "type": "gear",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "No, it isn't just necessity. I prefer a small portable butane burner for wok cooking, even when I had a full gas range at home [1]. I do also use my wok on induction, and it works fine for good stir-frying, but you can't get wok flavor out of it [2].\n\n**Why I prefer the portable burner**\n- A butane burner tops out around 15,000 BTU, but its flame is concentrated and points up at the center, so it's much more effective than a Western range [1].\n- A Western range spreads heat out evenly for a big skillet. With a wok, a lot of that energy flows up the sides and heats the air instead of the metal in the center [3].\n- Heat matters, but BTU alone isn't the measure. What matters more is where the heat is focused [4].\n- Look for a portable burner around 12,500 BTU or higher. I'd say that works better than a standard Western home burner, even one with a higher rating [5].\n\n**Why gas matters for flavor**\n- Dishes like fried rice or fried noodles depend on the smoky wok flavor, and you can't really get that on induction unless you use a blowtorch [6].\n- The most important element of that flavor is the gas flame leaping into the wok and igniting the aerosolized oil coming off the food. That's difficult on induction because there's no live flame [7].\n\n**On induction**\n- Most dishes that don't need wok flavor cook very easily on induction [8].\n- Toss less and use your spatula more, because the wok often isn't in contact with the burner while you toss [9].\n\n**Using it indoors**\n- You can put a portable butane burner on an electric or induction cooktop under your hood so the smoke vents out [10].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0022"
+              ],
+              "quote": "even when I had a a portable a full gas range at home um in general, a small portable butane burner um worked better for walk cooking."
+            },
+            {
+              "n": 2,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0017"
+              ],
+              "quote": "You can't get walk flavor out of it, but you can get good stir frying out of it."
+            },
+            {
+              "n": 3,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0021"
+              ],
+              "quote": "a lot of that heat energy is just kind of flowing up the sides."
+            },
+            {
+              "n": 4,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0043"
+              ],
+              "quote": "What's more important is where that heat is focused."
+            },
+            {
+              "n": 5,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0042"
+              ],
+              "quote": "you want one that's going to be at least around 12,500 BTU per hour."
+            },
+            {
+              "n": 6,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0013"
+              ],
+              "quote": "you can't really get that with induction um unless you separately use a blowtorrch."
+            },
+            {
+              "n": 7,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0034"
+              ],
+              "quote": "that's difficult to achieve on an induction burner because there's no live flame."
+            },
+            {
+              "n": 8,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0035"
+              ],
+              "quote": "The vast majority of dishes, you can cook very easily on an induction burner."
+            },
+            {
+              "n": 9,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0034"
+              ],
+              "quote": "actually not tossing as much and relying a little bit more on your wok shovel, your spatula."
+            },
+            {
+              "n": 10,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0023"
+              ],
+              "quote": "you can stick one of those portable butane burners right on top of it underneath your hood"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "3kdkPUmrc20",
+            "ikOtA7Va2YY",
+            "JzccAFXcTqE",
+            "021KahIfXfA",
+            "bXwLmZBa0Lo"
+          ],
+          "segments_read": [
+            "kenji:3kdkPUmrc20:s0004",
+            "kenji:3kdkPUmrc20:s0005",
+            "kenji:3kdkPUmrc20:s0006",
+            "kenji:ikOtA7Va2YY:s0000",
+            "kenji:ikOtA7Va2YY:s0001",
+            "kenji:JzccAFXcTqE:s0000",
+            "kenji:JzccAFXcTqE:s0001",
+            "kenji:JzccAFXcTqE:s0003",
+            "kenji:JzccAFXcTqE:s0004",
+            "kenji:JzccAFXcTqE:s0005",
+            "kenji:021KahIfXfA:s0012",
+            "kenji:021KahIfXfA:s0013",
+            "kenji:021KahIfXfA:s0014",
+            "kenji:021KahIfXfA:s0015",
+            "kenji:021KahIfXfA:s0016",
+            "kenji:021KahIfXfA:s0017",
+            "kenji:021KahIfXfA:s0018",
+            "kenji:021KahIfXfA:s0019",
+            "kenji:021KahIfXfA:s0020",
+            "kenji:021KahIfXfA:s0021",
+            "kenji:021KahIfXfA:s0022",
+            "kenji:021KahIfXfA:s0023",
+            "kenji:021KahIfXfA:s0024",
+            "kenji:021KahIfXfA:s0030",
+            "kenji:021KahIfXfA:s0031",
+            "kenji:021KahIfXfA:s0032",
+            "kenji:021KahIfXfA:s0033",
+            "kenji:021KahIfXfA:s0034",
+            "kenji:bXwLmZBa0Lo:s0000",
+            "kenji:bXwLmZBa0Lo:s0001",
+            "kenji:bXwLmZBa0Lo:s0031",
+            "kenji:bXwLmZBa0Lo:s0032",
+            "kenji:bXwLmZBa0Lo:s0033",
+            "kenji:bXwLmZBa0Lo:s0034",
+            "kenji:bXwLmZBa0Lo:s0035",
+            "kenji:bXwLmZBa0Lo:s0036",
+            "kenji:bXwLmZBa0Lo:s0039",
+            "kenji:bXwLmZBa0Lo:s0040",
+            "kenji:bXwLmZBa0Lo:s0041",
+            "kenji:bXwLmZBa0Lo:s0042",
+            "kenji:bXwLmZBa0Lo:s0043"
+          ],
+          "context_words": 6047,
+          "queries": [
+            "Do you use a gas burner purely out of necessity? I know you also use the wok on your induction.",
+            "gas burner versus induction cooktop preference",
+            "why I use gas stove for wok cooking",
+            "induction cooktop wok use",
+            "gas range flame control and searing",
+            "Kenji induction hob wok stir fry",
+            "The Wok",
+            "my wok book",
+            "the wok book",
+            "Our Place carbon steel wok",
+            "my new walk",
+            "new walk",
+            "super nonstick one",
+            "the our place wok",
+            "the wok from our place",
+            "the wok that I designed with Our Place",
+            "walk",
+            "The Walk",
+            "my book",
+            "the walk",
+            "Kenji López-Alt",
+            "J. Kenji López-Alt",
+            "Kenji Lopez Alt",
+            "KAN x Kenji Shitoku",
+            "Kaan Kenji Lopez Alt Shitoku knife",
+            "shitoku"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 21159,
+              "output": 769,
+              "cache_read": 525,
+              "cache_write": 689
+            },
+            "claude-sonnet-5-5": {
+              "input": 19283,
+              "output": 1146,
+              "cache_read": 0,
+              "cache_write": 2510
+            }
+          },
+          "cost_usd": 0.058892774999999994,
+          "seconds": 14.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "induction": true,
+              "BTU": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 2,
+            "sources_read": [
+              "021KahIfXfA"
+            ],
+            "sources_cited": [
+              "021KahIfXfA"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k02",
+      "question": "How often do you oil your wooden cutting boards and utensils?",
+      "type": "how_to",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "I oil them as needed, not on a fixed schedule. For the cutting board that's maybe a few times a year, and I oil my wooden utensils less often than I probably should [1].\n\n**How I tell a board needs oil:** Freshly oiled wood gets a water-repellent coating, so water beads up on it. Over time water starts soaking in. When big stains develop or the board gets hard to clean, it's time to re-oil [2].\n\n**How I do it:** I use Howard Butcher Block Conditioner and rub it in with a paper towel or an oil rag [2][3].\n\n**When oil isn't enough:** If a board gets really beat up or stained, I sand it with an orbital sander. On one board I also trimmed the sides with a table saw, sanded everything and rechamfered the corners to make it nearly new [3].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0006"
+              ],
+              "quote": "my wooden utensils probably not as much as I not as often as I should, but as as needed"
+            },
+            {
+              "n": 2,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0007"
+              ],
+              "quote": "if you start to see um real big stains developing or water um not being able to not being able to clean your cutting board easily, then it's probably time to reil it."
+            },
+            {
+              "n": 3,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0008"
+              ],
+              "quote": "once it gets to a certain stage where it's like really really uh beat up or stained, um, I will sand it."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "021KahIfXfA"
+          ],
+          "segments_read": [
+            "kenji:021KahIfXfA:s0006",
+            "kenji:021KahIfXfA:s0007",
+            "kenji:021KahIfXfA:s0008"
+          ],
+          "context_words": 377,
+          "queries": [
+            "How often do you oil your wooden cutting boards and utensils?",
+            "oil wooden cutting board how often",
+            "mineral oil wood cutting board maintenance",
+            "seasoning wooden utensils with oil",
+            "wooden cutting board conditioning food safe oil",
+            "how often to re-oil butcher block",
+            "wood board dried out cracked oil"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 20705,
+              "output": 773,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 4526,
+              "output": 496,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.01698314,
+          "seconds": 8.4,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "021KahIfXfA"
+            ],
+            "sources_cited": [
+              "021KahIfXfA"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k03",
+      "question": "Would you recommend a cleaver for breaking down the turkey frame? Any specific one?",
+      "type": "gear",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "Yes, I'd recommend a cleaver for breaking down the turkey frame, and the one I'd point you to is the Shibazi Chinese cleaver [1].\n\n**The cleaver:** It's a Chinese-style cleaver from Shibazi. It's online for roughly 40 or 50 bucks, though I can't remember exactly [2]. I use it a lot because it stays sharp, the metal is pretty hard, and it's nice and heavy, so it gets through a turkey carcass pretty easily [2]. It comes in an eight and a nine inch size, and I think mine is the nine [3].\n\n**How I'd use it with shears:** For a bigger turkey, I'd start with heavy-duty shears and cut through as far as I can on each side. Turkeys tend to have one big bone where the wings meet the backbone, and that can be hard to get through [4]. Anywhere the shears struggle, switch to the cleaver [5].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0023"
+              ],
+              "quote": "Would I recommend using a cleaver? Yes."
+            },
+            {
+              "n": 2,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0024"
+              ],
+              "quote": "It is a Chinese style uh cleaver. The company is called Shibazi."
+            },
+            {
+              "n": 3,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0024"
+              ],
+              "quote": "they come in an eight and a nine inch size"
+            },
+            {
+              "n": 4,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0031"
+              ],
+              "quote": "turkeys tend to have like one big bone right where the where the where the um uh the wings kind of meet the um the backbone"
+            },
+            {
+              "n": 5,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0032"
+              ],
+              "quote": "you can use a cleaver"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "U5vJ3hlopUk",
+            "vG-NsFXNYUw",
+            "RwNDUkt7cCM",
+            "x-_k6DE7mP8"
+          ],
+          "segments_read": [
+            "kenji:U5vJ3hlopUk:s0006",
+            "kenji:U5vJ3hlopUk:s0007",
+            "kenji:U5vJ3hlopUk:s0008",
+            "kenji:U5vJ3hlopUk:s0009",
+            "kenji:U5vJ3hlopUk:s0010",
+            "kenji:U5vJ3hlopUk:s0011",
+            "kenji:vG-NsFXNYUw:s0005",
+            "kenji:vG-NsFXNYUw:s0006",
+            "kenji:vG-NsFXNYUw:s0007",
+            "kenji:vG-NsFXNYUw:s0008",
+            "kenji:RwNDUkt7cCM:s0001",
+            "kenji:RwNDUkt7cCM:s0002",
+            "kenji:RwNDUkt7cCM:s0003",
+            "kenji:RwNDUkt7cCM:s0010",
+            "kenji:RwNDUkt7cCM:s0011",
+            "kenji:RwNDUkt7cCM:s0012",
+            "kenji:x-_k6DE7mP8:s0019",
+            "kenji:x-_k6DE7mP8:s0020",
+            "kenji:x-_k6DE7mP8:s0021",
+            "kenji:x-_k6DE7mP8:s0022",
+            "kenji:x-_k6DE7mP8:s0023",
+            "kenji:x-_k6DE7mP8:s0024",
+            "kenji:x-_k6DE7mP8:s0025",
+            "kenji:x-_k6DE7mP8:s0030",
+            "kenji:x-_k6DE7mP8:s0031",
+            "kenji:x-_k6DE7mP8:s0032"
+          ],
+          "context_words": 3471,
+          "queries": [
+            "Would you recommend a cleaver for breaking down the turkey frame? Any specific one?",
+            "cleaver for breaking down turkey frame",
+            "heavy cleaver chopping bones poultry",
+            "best cleaver for cutting through bone",
+            "Kenji knife cleaver recommendation",
+            "breaking down turkey carcass into pieces",
+            "shitoku knife chopping bone",
+            "KAN x Kenji Shitoku",
+            "Shitoku",
+            "shitoku knife",
+            "KAN knife",
+            "Kenji knife",
+            "Kaan Kenji Lopez Alt Shitoku knife",
+            "shitoku"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 21163,
+              "output": 790,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 14307,
+              "output": 600,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.03763944,
+          "seconds": 8.7,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "x-_k6DE7mP8"
+            ],
+            "sources_cited": [
+              "x-_k6DE7mP8"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k04",
+      "question": "When should I salt my steak?",
+      "type": "how_to",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "I'd salt it well ahead of cooking: at least 45 minutes before, or even better, the night before, leaving it uncovered in the fridge. [1][2]\n\n**Why ahead of time:** Salt first pulls moisture out, then the brine on the surface breaks down some muscle proteins and gets reabsorbed. Those broken-down proteins tighten up less when cooked, so the steak stays juicier and is seasoned more deeply. [2][3] In my side-by-side, the steak salted overnight had a nicer brown crust and kept its juices, while the unsalted one lost its juices quickly, like wringing out a sponge. [4]\n\n**Uncovered in the fridge:** Leaving it uncovered dries the surface and builds a pellicle, which makes it easier to sear and gives a better browned crust. [1][5] Surface moisture is bad for searing because it takes a lot of energy to evaporate and pulls heat from the pan. [6]\n\n**The minimum:** About 45 minutes is the shortest time I've found for this to work. [2]\n\n**Not too long:** A steak I salted for about 4 days turned ham-like, because the curing breaks the meat down into a smooth texture. [7]\n\n**Preference:** Both ways make a good steak, and which you like is a matter of personal preference. Someone used to unsalted, unrested steak might prefer that texture. [8] If you don't salt ahead, my other option is to sear it straight away. [6]",
+          "sources": [
+            {
+              "n": 1,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0002"
+              ],
+              "quote": "by leaving it uncovered, first of all, you are actually making it harder for bacteria grow on there"
+            },
+            {
+              "n": 2,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0005"
+              ],
+              "quote": "I'm going to set this aside for about 45 minutes that's about the minimum am amount of time that it takes for that to happen"
+            },
+            {
+              "n": 3,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0001"
+              ],
+              "quote": "by breaking down those muscle proteins, you end up creating a steak that is able to retain moisture better and is also going to be more tender."
+            },
+            {
+              "n": 4,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0018"
+              ],
+              "quote": "the salted steak here has a much sort of nicer brown crust than the unsalted steak here"
+            },
+            {
+              "n": 5,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0005"
+              ],
+              "quote": "you can if you prefer set it aside in the fridge overnight uncovered"
+            },
+            {
+              "n": 6,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0004"
+              ],
+              "quote": "you have two options you can either sear it straight away um or you can do what I'm going to do which is I'm going to let it rest"
+            },
+            {
+              "n": 7,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0020"
+              ],
+              "quote": "that steak ended up having almost the texture of uh like ham because that's essentially what it ends up being"
+            },
+            {
+              "n": 8,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0019"
+              ],
+              "quote": "If you're used to sort of the texture of an unrested unsalted steak, you might end up preferring this one."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "SZ6L1PVRjIk",
+            "Azarsj8xlBk",
+            "TLDQjVs6cWY",
+            "DtCqblM6Syg"
+          ],
+          "segments_read": [
+            "kenji:SZ6L1PVRjIk:s0008",
+            "kenji:SZ6L1PVRjIk:s0009",
+            "kenji:SZ6L1PVRjIk:s0010",
+            "kenji:Azarsj8xlBk:s0001",
+            "kenji:Azarsj8xlBk:s0002",
+            "kenji:Azarsj8xlBk:s0003",
+            "kenji:Azarsj8xlBk:s0004",
+            "kenji:Azarsj8xlBk:s0005",
+            "kenji:TLDQjVs6cWY:s0008",
+            "kenji:TLDQjVs6cWY:s0009",
+            "kenji:DtCqblM6Syg:s0000",
+            "kenji:DtCqblM6Syg:s0001",
+            "kenji:DtCqblM6Syg:s0002",
+            "kenji:DtCqblM6Syg:s0003",
+            "kenji:DtCqblM6Syg:s0018",
+            "kenji:DtCqblM6Syg:s0019",
+            "kenji:DtCqblM6Syg:s0020",
+            "kenji:DtCqblM6Syg:s0021"
+          ],
+          "context_words": 2763,
+          "queries": [
+            "When should I salt my steak?",
+            "salting steak timing before cooking",
+            "dry brining steak salt hours ahead",
+            "salt steak right before searing versus day ahead",
+            "kosher salt steak when to season",
+            "salt draws moisture back in reabsorbed steak",
+            "seasoning steak overnight refrigerator"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22123,
+              "output": 774,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 9737,
+              "output": 1042,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.03300744,
+          "seconds": 11.8,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "DtCqblM6Syg"
+            ],
+            "sources_cited": [
+              "DtCqblM6Syg"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k05",
+      "question": "Is the reverse sear still the best way to cook a steak?",
+      "type": "change_of_mind",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "Yes. Nearly 20 years after I wrote about it, the reverse sear is still my favorite way to cook a big steak [1]. For a steak this size, it's the way to go [2].\n\n**Why I still like it**\n- You get a much more even cook from edge to center, instead of the bullseye pattern from the traditional sear-then-oven method [3].\n- The window of perfect doneness is much wider. Traditional cooking can go from 125 to 135 in a couple of minutes, while the reverse sear gives you something like 10, 15 or even 20 minutes before it starts to overcook [4].\n- I actually prefer it to sous vide. The oven dries the surface, so the meat sears better, and the fat renders a little better [5].\n- No rest is needed, because the temperature is already fairly even all the way through [6].\n\n**Where it works best**\n- It works especially well on thick steaks, and it's not really worth it for anything thinner than about an inch and a half [7].\n\n**What has shifted a little**\n- For the sear, I used to recommend a sloped sauté pan. These days I prefer a deeper pan like a braiser or Dutch oven, because it contains splatter and sears just as well [8].\n- I now also let the salted steak sit for about 45 minutes, or overnight in the fridge, before cooking [9].\n- For a fatty cut like a ribeye, I like to go a bit past rare, toward medium-rare to medium, and I aim lower for something lean like a filet [10].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [],
+              "quote": "it's still my favorite way to cook a big steak"
+            },
+            {
+              "n": 2,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0016"
+              ],
+              "quote": "for me reverse tier is is the way to go with a steak this size"
+            },
+            {
+              "n": 3,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0003"
+              ],
+              "quote": "you get a much more even cook from Edge to Center"
+            },
+            {
+              "n": 4,
+              "video": "pO8TUuSv7HA",
+              "title": "The Best Way to Cook Steak: The Reverse Sear | Kenji's Cooking Show",
+              "published": "2020-08-06",
+              "segments": [
+                "kenji:pO8TUuSv7HA:s0009"
+              ],
+              "quote": "it gives you more like probably 10 or 15 or even 20 minutes"
+            },
+            {
+              "n": 5,
+              "video": "pO8TUuSv7HA",
+              "title": "The Best Way to Cook Steak: The Reverse Sear | Kenji's Cooking Show",
+              "published": "2020-08-06",
+              "segments": [
+                "kenji:pO8TUuSv7HA:s0009"
+              ],
+              "quote": "i actually prefer the technique over sous vide"
+            },
+            {
+              "n": 6,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0014"
+              ],
+              "quote": "with the reverse sear you don't need to do that"
+            },
+            {
+              "n": 7,
+              "video": "pO8TUuSv7HA",
+              "title": "The Best Way to Cook Steak: The Reverse Sear | Kenji's Cooking Show",
+              "published": "2020-08-06",
+              "segments": [
+                "kenji:pO8TUuSv7HA:s0002"
+              ],
+              "quote": "it's not really worth it for anything thinner than like an inch and a half"
+            },
+            {
+              "n": 8,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0012"
+              ],
+              "quote": "these days I actually prefer to do it in a deeper thing like a brazer or even in a dutch oven"
+            },
+            {
+              "n": 9,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0005"
+              ],
+              "quote": "I'm going to set this aside for about 45 minutes"
+            },
+            {
+              "n": 10,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0007"
+              ],
+              "quote": "with a with a cut like a ribeye that has a relatively high amount of fat I like to actually go a little bit higher"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "pO8TUuSv7HA",
+            "Azarsj8xlBk"
+          ],
+          "segments_read": [
+            "kenji:pO8TUuSv7HA:s0000",
+            "kenji:pO8TUuSv7HA:s0001",
+            "kenji:pO8TUuSv7HA:s0002",
+            "kenji:pO8TUuSv7HA:s0003",
+            "kenji:pO8TUuSv7HA:s0004",
+            "kenji:pO8TUuSv7HA:s0005",
+            "kenji:pO8TUuSv7HA:s0006",
+            "kenji:pO8TUuSv7HA:s0007",
+            "kenji:pO8TUuSv7HA:s0008",
+            "kenji:pO8TUuSv7HA:s0009",
+            "kenji:pO8TUuSv7HA:s0010",
+            "kenji:Azarsj8xlBk:s0001",
+            "kenji:Azarsj8xlBk:s0002",
+            "kenji:Azarsj8xlBk:s0003",
+            "kenji:Azarsj8xlBk:s0004",
+            "kenji:Azarsj8xlBk:s0005",
+            "kenji:Azarsj8xlBk:s0006",
+            "kenji:Azarsj8xlBk:s0007",
+            "kenji:Azarsj8xlBk:s0008",
+            "kenji:Azarsj8xlBk:s0009",
+            "kenji:Azarsj8xlBk:s0010",
+            "kenji:Azarsj8xlBk:s0011",
+            "kenji:Azarsj8xlBk:s0012",
+            "kenji:Azarsj8xlBk:s0013",
+            "kenji:Azarsj8xlBk:s0014",
+            "kenji:Azarsj8xlBk:s0015",
+            "kenji:Azarsj8xlBk:s0016",
+            "kenji:Azarsj8xlBk:s0017"
+          ],
+          "context_words": 5576,
+          "queries": [
+            "Is the reverse sear still the best way to cook a steak?",
+            "reverse sear steak best method",
+            "reverse sear vs traditional sear steak oven first",
+            "low and slow oven then sear steak thickness",
+            "reverse sear steak doneness even edge to edge",
+            "best way to cook steak reverse sear reverse searing pros cons"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 20542,
+              "output": 733,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 11239,
+              "output": 1065,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.03606284,
+          "seconds": 11.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 2,
+            "sources_read": [
+              "Azarsj8xlBk",
+              "pO8TUuSv7HA"
+            ],
+            "sources_cited": [
+              "Azarsj8xlBk",
+              "pO8TUuSv7HA"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k06",
+      "question": "Which non-stick pan should I buy?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "**Short answer:** I'd go for the Titanium Pro. I co-developed it with Our Place [1], so weigh that when you read my opinion. I use it for virtually all of my non-wok cooking these days [2]. If you mainly want the slickest possible surface, a Teflon-style pan is still the most non-stick, and I keep one for specific jobs like omelets [3].\n\n**Titanium Pro**\n- It's not as non-stick as Teflon, but it's better in most other respects [4].\n- I can use metal utensils on it, which I can't do with Teflon [5].\n- It sears more evenly than Teflon, and I found it my favorite for salmon skin [5].\n- Its tall sides aren't ideal for omelets, though it still turned out a good one [6].\n\n**Teflon-style pan**\n- It's the slickest option and gives the nicest omelet shape [7].\n- I avoid non-stick other than for a few very specific purposes, and I still use it for an omelet [3].\n- Coatings scratch and wear, and I retired a five-year-old pan because of that. The coating has a very limited lifespan [8].\n- Above around 450°F, these coatings can let off harmful vapors [3]. I wouldn't use Teflon for searing [9].\n\n**Cast iron**\n- I'd pick cast iron if I wanted the best possible sear and was willing to put in more time and work [9].\n\nI'd choose based on how you cook. For one non-stick pan that handles most things, I'd get the Titanium Pro. For omelets alone, an inexpensive Teflon-style pan is fine.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0001"
+              ],
+              "quote": "this one was a collaboration between myself uh and the company our place in LA"
+            },
+            {
+              "n": 2,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0046"
+              ],
+              "quote": "virtually all of my nonwalk cooking I do in my titanium pro pans these days"
+            },
+            {
+              "n": 3,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0007"
+              ],
+              "quote": "like to typically avoid nonstick other than for a few very specific purposes"
+            },
+            {
+              "n": 4,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0045"
+              ],
+              "quote": "The titanium pro is not as non-stick as the Teflon, but it's better in most other respects."
+            },
+            {
+              "n": 5,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0030"
+              ],
+              "quote": "Titanium Pro and cast iron you can use metal utensils in. The Teflon you can't."
+            },
+            {
+              "n": 6,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0042"
+              ],
+              "quote": "Not perfect for omelets, but still this omelette came out really nicely."
+            },
+            {
+              "n": 7,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0041"
+              ],
+              "quote": "You can see the teflon one has the smoothest shape. It slipped right out."
+            },
+            {
+              "n": 8,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0045"
+              ],
+              "quote": "the Teflon has a very, very limited lifespan"
+            },
+            {
+              "n": 9,
+              "video": "aXmKAsE3_Ec",
+              "title": "Non-stick Pan Comparison: Teflon vs. Cast Iron vs. Our Place Titanium Pro",
+              "published": "2025-12-14",
+              "segments": [
+                "kenji:aXmKAsE3_Ec:s0016"
+              ],
+              "quote": "the teflon I would not use for searing"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "aXmKAsE3_Ec",
+            "JzccAFXcTqE",
+            "021KahIfXfA",
+            "bXwLmZBa0Lo",
+            "xT_VJyRLcyI"
+          ],
+          "segments_read": [
+            "kenji:aXmKAsE3_Ec:s0000",
+            "kenji:aXmKAsE3_Ec:s0001",
+            "kenji:aXmKAsE3_Ec:s0002",
+            "kenji:aXmKAsE3_Ec:s0003",
+            "kenji:aXmKAsE3_Ec:s0004",
+            "kenji:aXmKAsE3_Ec:s0005",
+            "kenji:aXmKAsE3_Ec:s0006",
+            "kenji:aXmKAsE3_Ec:s0007",
+            "kenji:aXmKAsE3_Ec:s0008",
+            "kenji:aXmKAsE3_Ec:s0009",
+            "kenji:aXmKAsE3_Ec:s0011",
+            "kenji:aXmKAsE3_Ec:s0012",
+            "kenji:aXmKAsE3_Ec:s0013",
+            "kenji:aXmKAsE3_Ec:s0014",
+            "kenji:aXmKAsE3_Ec:s0015",
+            "kenji:aXmKAsE3_Ec:s0016",
+            "kenji:aXmKAsE3_Ec:s0017",
+            "kenji:aXmKAsE3_Ec:s0018",
+            "kenji:aXmKAsE3_Ec:s0019",
+            "kenji:aXmKAsE3_Ec:s0020",
+            "kenji:aXmKAsE3_Ec:s0021",
+            "kenji:aXmKAsE3_Ec:s0022",
+            "kenji:aXmKAsE3_Ec:s0023",
+            "kenji:aXmKAsE3_Ec:s0024",
+            "kenji:aXmKAsE3_Ec:s0025",
+            "kenji:aXmKAsE3_Ec:s0026",
+            "kenji:aXmKAsE3_Ec:s0027",
+            "kenji:aXmKAsE3_Ec:s0028",
+            "kenji:aXmKAsE3_Ec:s0029",
+            "kenji:aXmKAsE3_Ec:s0030",
+            "kenji:aXmKAsE3_Ec:s0031",
+            "kenji:aXmKAsE3_Ec:s0032",
+            "kenji:aXmKAsE3_Ec:s0033",
+            "kenji:aXmKAsE3_Ec:s0034",
+            "kenji:aXmKAsE3_Ec:s0035",
+            "kenji:aXmKAsE3_Ec:s0036",
+            "kenji:aXmKAsE3_Ec:s0037",
+            "kenji:aXmKAsE3_Ec:s0038",
+            "kenji:aXmKAsE3_Ec:s0039",
+            "kenji:aXmKAsE3_Ec:s0040",
+            "kenji:aXmKAsE3_Ec:s0041",
+            "kenji:aXmKAsE3_Ec:s0042",
+            "kenji:aXmKAsE3_Ec:s0043",
+            "kenji:aXmKAsE3_Ec:s0044",
+            "kenji:aXmKAsE3_Ec:s0045",
+            "kenji:aXmKAsE3_Ec:s0046",
+            "kenji:JzccAFXcTqE:s0000",
+            "kenji:JzccAFXcTqE:s0001",
+            "kenji:021KahIfXfA:s0008",
+            "kenji:021KahIfXfA:s0009",
+            "kenji:021KahIfXfA:s0010",
+            "kenji:bXwLmZBa0Lo:s0005",
+            "kenji:bXwLmZBa0Lo:s0006",
+            "kenji:bXwLmZBa0Lo:s0007",
+            "kenji:bXwLmZBa0Lo:s0008",
+            "kenji:bXwLmZBa0Lo:s0011",
+            "kenji:bXwLmZBa0Lo:s0012",
+            "kenji:bXwLmZBa0Lo:s0013",
+            "kenji:xT_VJyRLcyI:s0007",
+            "kenji:xT_VJyRLcyI:s0008",
+            "kenji:xT_VJyRLcyI:s0009"
+          ],
+          "context_words": 8042,
+          "queries": [
+            "Which non-stick pan should I buy?",
+            "best non-stick pan recommendation",
+            "non-stick pan review",
+            "non-stick skillet he likes",
+            "Our Place Titanium Pro non-stick",
+            "titanium pan non-stick review",
+            "non-stick pan durability scratches coating",
+            "Our Place Titanium Pro",
+            "Titanium Pro",
+            "Our Place pan",
+            "titanium pan",
+            "Our Place",
+            "Art Place",
+            "our place",
+            "titanium pro pan",
+            "titanium propane",
+            "Titanium",
+            "titanium",
+            "titanium oxide",
+            "titanium pro",
+            "titanium propan"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 36811,
+              "output": 1214,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 25693,
+              "output": 2010,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.07628824,
+          "seconds": 19.2,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "Our Place": true,
+              "Teflon": true,
+              "cast iron": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "aXmKAsE3_Ec"
+            ],
+            "sources_cited": [
+              "aXmKAsE3_Ec"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k07",
+      "question": "Is jarred pre-chopped garlic any good?",
+      "type": "taste",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "Mostly no. I'd stay away from jarred pre-chopped garlic, whether it's packed in water or in olive oil, because there's not much flavor left in it [1]. Fresh garlic that you peel yourself is the best [2].\n\n**Why it falls short**\n- Once garlic is cut open, its flavor starts to change and you can't really change it back, so any pre-minced or pre-cut garlic has a distinct flavor that differs from natural garlic flavor [3].\n- Two of the samples I tasted had a strong citric acid flavor. Citric acid is a preservative used to control water activity and texture, and it completely changes the flavor [4]. I wouldn't recommend those for any raw use [4].\n- There was also very little aroma in those samples before cooking [5].\n\n**Where it can work**\n- Cooking tames a lot of the sharper, more pungent flavors, so some of the flavor difference evens out, and any of these will sort of work for cooking [4][5].\n- If you want a shortcut, pre-peeled cloves are fine for most things, especially cooked [6]. Garlic paste may be an acceptable substitute after that [1].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "vG-NsFXNYUw",
+              "title": "Taste Test: Are Pre-Chopped Garlics Any Good? | Kenji's Cooking Show",
+              "published": "2025-04-23",
+              "segments": [
+                "kenji:vG-NsFXNYUw:s0017"
+              ],
+              "quote": "the pre- chopped garlic either in water or in olive oil. I would typically stay away from those just cuz there's not much flavor at all left in those."
+            },
+            {
+              "n": 2,
+              "video": "vG-NsFXNYUw",
+              "title": "Taste Test: Are Pre-Chopped Garlics Any Good? | Kenji's Cooking Show",
+              "published": "2025-04-23",
+              "segments": [
+                "kenji:vG-NsFXNYUw:s0018"
+              ],
+              "quote": "recap, fresh garlic is the best."
+            },
+            {
+              "n": 3,
+              "video": "vG-NsFXNYUw",
+              "title": "Taste Test: Are Pre-Chopped Garlics Any Good? | Kenji's Cooking Show",
+              "published": "2025-04-23",
+              "segments": [
+                "kenji:vG-NsFXNYUw:s0009"
+              ],
+              "quote": "any form of garlic that has been preminced or pre-sliced or pre-cut in any kind of way even if you're doing it fresh yourself um is going to have a uh a distinct flavor"
+            },
+            {
+              "n": 4,
+              "video": "vG-NsFXNYUw",
+              "title": "Taste Test: Are Pre-Chopped Garlics Any Good? | Kenji's Cooking Show",
+              "published": "2025-04-23",
+              "segments": [
+                "kenji:vG-NsFXNYUw:s0015"
+              ],
+              "quote": "it also completely changes the flavor. So I would not recommend either of these in any kind of certainly not in any raw setting."
+            },
+            {
+              "n": 5,
+              "video": "vG-NsFXNYUw",
+              "title": "Taste Test: Are Pre-Chopped Garlics Any Good? | Kenji's Cooking Show",
+              "published": "2025-04-23",
+              "segments": [
+                "kenji:vG-NsFXNYUw:s0016"
+              ],
+              "quote": "even before it was cooked, there's not much there's not much aroma to these at all."
+            },
+            {
+              "n": 6,
+              "video": "vG-NsFXNYUw",
+              "title": "Taste Test: Are Pre-Chopped Garlics Any Good? | Kenji's Cooking Show",
+              "published": "2025-04-23",
+              "segments": [
+                "kenji:vG-NsFXNYUw:s0016"
+              ],
+              "quote": "you can always use pre-peled garlic for most things, especially if you're going to cook it like that."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "vG-NsFXNYUw"
+          ],
+          "segments_read": [
+            "kenji:vG-NsFXNYUw:s0009",
+            "kenji:vG-NsFXNYUw:s0011",
+            "kenji:vG-NsFXNYUw:s0012",
+            "kenji:vG-NsFXNYUw:s0013",
+            "kenji:vG-NsFXNYUw:s0014",
+            "kenji:vG-NsFXNYUw:s0015",
+            "kenji:vG-NsFXNYUw:s0016",
+            "kenji:vG-NsFXNYUw:s0017",
+            "kenji:vG-NsFXNYUw:s0018",
+            "kenji:vG-NsFXNYUw:s0019"
+          ],
+          "context_words": 1372,
+          "queries": [
+            "Is jarred pre-chopped garlic any good?",
+            "jarred pre-chopped garlic",
+            "store-bought minced garlic taste",
+            "jarred garlic vs fresh garlic flavor",
+            "pre-minced garlic in a jar",
+            "bottled garlic bitter off-flavor",
+            "fresh garlic versus jarred garlic cooking"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22535,
+              "output": 779,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 9260,
+              "output": 1837,
+              "cache_read": 5020,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.04054914,
+          "seconds": 16.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "vG-NsFXNYUw"
+            ],
+            "sources_cited": [
+              "vG-NsFXNYUw"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k08",
+      "question": "Ooni Koda 16 or Roccbox?",
+      "type": "comparison",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": true,
+          "answer": "I'd happily recommend either one, and I currently lean toward the Ooni Koda 16 as my favorite, though the two are close and it comes down to details [1][2].\n\n**Ooni Koda 16:** It fits a bigger pizza, up to 16 inches, which is closer to a real New York style pie [3]. Its fire bar wraps from the back along the side, which helps with larger pizzas by speeding things up and cooking them more evenly [4]. It cooked a little faster than the Roccbox in my side-by-side [5].\n\n**Roccbox:** It tops out at a 12-inch pizza, the size of the opening [3]. Its advantage is fuel options: you can swap the gas canister for wood, though a pizza bakes too fast to pick up much wood flavor. Wood is more useful for roasting meats or vegetables that do pick up flavor [6]. I'd also say its underbelly looked a little better in my side-by-side, though both pizzas looked fantastic [7]. It also stays cool to the touch on the outside, while the Ooni is not quite as cool but still pretty cool [8].\n\n**Overall:** Performance is comparable, and I have no problem strongly recommending both [2]. Earlier on, the Roccbox was my top pick for outdoor pizza ovens, though it was twice the price of the other ovens I tested, and its 12-inch mouth was a downside [9][10]. If you want larger pies, I'd go for the Koda 16. If you want the option of burning wood, I'd go for the Roccbox.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [
+                "kenji:WDK762aVaMI:s0000"
+              ],
+              "quote": "now I think currently my favorite oven they're both pretty great"
+            },
+            {
+              "n": 2,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [],
+              "quote": "I have no problem strongly recommending both."
+            },
+            {
+              "n": 3,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [
+                "kenji:WDK762aVaMI:s0005"
+              ],
+              "quote": "on the rock box you can do up to a 12-inch pizza that's the size of the opening"
+            },
+            {
+              "n": 4,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [
+                "kenji:WDK762aVaMI:s0002"
+              ],
+              "quote": "I find that to be great especially when cooking larger pizzas it really helps sort of speed of the process and gets it a little more evenly cooked"
+            },
+            {
+              "n": 5,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [
+                "kenji:WDK762aVaMI:s0003"
+              ],
+              "quote": "I think you only cook a little bit faster which is actually good what you want"
+            },
+            {
+              "n": 6,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [
+                "kenji:WDK762aVaMI:s0002"
+              ],
+              "quote": "you can actually swap that canister out and burn wood"
+            },
+            {
+              "n": 7,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [
+                "kenji:WDK762aVaMI:s0004"
+              ],
+              "quote": "I'd say the rock box underbelly looks a little better they both look fantastic though"
+            },
+            {
+              "n": 8,
+              "video": "WDK762aVaMI",
+              "title": "The Best Pizza Oven: Ooni Koda 16 vs. Roccbox",
+              "published": "2020-05-03",
+              "segments": [
+                "kenji:WDK762aVaMI:s0004"
+              ],
+              "quote": "the Rock box actually stays nice and cool I can touch the top the unni not as cool but but still pretty cool"
+            },
+            {
+              "n": 9,
+              "video": "gGNJbFQIr5g",
+              "title": "The Best Pizza Ovens",
+              "published": "2017-05-20",
+              "segments": [
+                "kenji:gGNJbFQIr5g:s0007"
+              ],
+              "quote": "making it double the cost of any of the other competitors"
+            },
+            {
+              "n": 10,
+              "video": "gGNJbFQIr5g",
+              "title": "The Best Pizza Ovens",
+              "published": "2017-05-20",
+              "segments": [
+                "kenji:gGNJbFQIr5g:s0007"
+              ],
+              "quote": "the mouth of the oven is only 12 inches wide"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "gGNJbFQIr5g",
+            "WDK762aVaMI",
+            "piZJPtesDeY",
+            "BZmQu1M4bhM"
+          ],
+          "segments_read": [
+            "kenji:gGNJbFQIr5g:s0002",
+            "kenji:gGNJbFQIr5g:s0003",
+            "kenji:gGNJbFQIr5g:s0004",
+            "kenji:gGNJbFQIr5g:s0005",
+            "kenji:gGNJbFQIr5g:s0006",
+            "kenji:gGNJbFQIr5g:s0007",
+            "kenji:WDK762aVaMI:s0000",
+            "kenji:WDK762aVaMI:s0001",
+            "kenji:WDK762aVaMI:s0002",
+            "kenji:WDK762aVaMI:s0003",
+            "kenji:WDK762aVaMI:s0004",
+            "kenji:WDK762aVaMI:s0005",
+            "kenji:WDK762aVaMI:s0006",
+            "kenji:piZJPtesDeY:s0000",
+            "kenji:piZJPtesDeY:s0001",
+            "kenji:piZJPtesDeY:s0013",
+            "kenji:piZJPtesDeY:s0014",
+            "kenji:BZmQu1M4bhM:s0019",
+            "kenji:BZmQu1M4bhM:s0020",
+            "kenji:BZmQu1M4bhM:s0021"
+          ],
+          "context_words": 3317,
+          "queries": [
+            "Ooni Koda 16 or Roccbox?",
+            "Ooni Koda 16 pizza oven review",
+            "Roccbox pizza oven review",
+            "Ooni Koda vs Roccbox gas pizza oven",
+            "outdoor pizza oven propane temperature cooking neapolitan",
+            "Ooni Koda 16 Roccbox comparison heat retention",
+            "Ooni Koda 16",
+            "Ooni",
+            "Oonie",
+            "UNA",
+            "Uni",
+            "Unni",
+            "boonie",
+            "new knee",
+            "only",
+            "uni",
+            "unni",
+            "Kota",
+            "Nakota",
+            "coda",
+            "unicode",
+            "unique Oda",
+            "Roccbox",
+            "Rock box",
+            "Roccbox aluminum pizza peel",
+            "aluminum pizza field"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22474,
+              "output": 803,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 10924,
+              "output": 1090,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.035911040000000005,
+          "seconds": 11.2,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "WDK762aVaMI"
+            ],
+            "sources_cited": [
+              "WDK762aVaMI"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k09",
+      "question": "Do you ever inject your turkey? And if so, any recommendations on what to use?",
+      "type": "technique",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "I rarely inject my turkey. I have done it in the past, but it's not something I typically do [1]. My main reason is that the injected liquid doesn't get inside the muscle fibers; it mostly sloshes around and separates some of them. The turkey comes out moist, but more the way a sponge is wet than the way a juicy piece of meat is [1].\n\nIf you do want to inject, here's what I'd recommend:\n\n- **Well-seasoned stock:** This is one good reason to inject. A stock with salt in it puts the brine inside the turkey, so it brines from the inside as well as the outside, which helps it retain more moisture when you cook and slice it [2].\n- **Turkey stock and brown butter:** I've injected a mixture of the two, and I think it can be delicious [2][3].\n- **Herb-infused stock or herb butter:** You can infuse turkey stock with a lot of herbs and let it simmer for a bit. Or melt herb butter, combine it with the turkey stock and inject that [3].\n\nI don't generally bother injecting myself, but if you are an injector, those are my recommendations [3].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0050"
+              ],
+              "quote": "it's not something that I typically do uh that I would typically do."
+            },
+            {
+              "n": 2,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0051"
+              ],
+              "quote": "if you use like a well seasoned stock, something with salt in it, essentially you're getting the brine um inside the turkey."
+            },
+            {
+              "n": 3,
+              "video": "x-_k6DE7mP8",
+              "title": "Ask Kenji Anything: All Your Thanksgiving Questions, Answered",
+              "published": "2025-12-10",
+              "segments": [
+                "kenji:x-_k6DE7mP8:s0052"
+              ],
+              "quote": "I personally don't generally bother injecting, but um but if you are an injector um those would be my recommendations."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "x-_k6DE7mP8"
+          ],
+          "segments_read": [
+            "kenji:x-_k6DE7mP8:s0049",
+            "kenji:x-_k6DE7mP8:s0050",
+            "kenji:x-_k6DE7mP8:s0051",
+            "kenji:x-_k6DE7mP8:s0052"
+          ],
+          "context_words": 533,
+          "queries": [
+            "Do you ever inject your turkey? And if so, any recommendations on what to use?",
+            "injecting turkey brine marinade",
+            "turkey injection recipe butter stock",
+            "injected turkey dry or wet",
+            "best injector for turkey",
+            "turkey brining versus injecting",
+            "moist turkey breast injection"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 20817,
+              "output": 755,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 3738,
+              "output": 579,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.01623934,
+          "seconds": 10.0,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "x-_k6DE7mP8"
+            ],
+            "sources_cited": [
+              "x-_k6DE7mP8"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k10",
+      "question": "Why do you wash meat before stir-frying?",
+      "type": "technique",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "I wash sliced meat before marinating because it makes a big difference in tenderness. It's a step I never used to do until I started testing it [1].\n\n**Why it works**\n- Squeezing and massaging the meat in plenty of cold water pushes out some of the excess juices, which leaves more room for the marinade to penetrate and gives more flavor [2].\n- It also loosens up the texture of the muscle, so the meat comes out more tender. Side by side, the difference is stark [2].\n\n**Where I got the idea**\n- I picked it up from Wang Gang, a chef from Sichuan who always washes his beef. I then tested it side by side while working on my book [1][2].\n\n**One more theory**\n- A chef I corresponded with suggested that in places with hard water, the slightly alkaline makeup of the water may also affect the beef. I only mention this as his idea [2].\n\n**After washing**\n- I squeeze the meat out in a fine mesh strainer so the excess water doesn't water down the marinade [3].\n\nI'd also add this washing step to my older beef and broccoli video, since it would improve the texture of the beef [4].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "SGP36xcUnOs",
+              "title": "Why I Wash my Meat Before Stir-Frying | Kenji’s Cooking Show",
+              "published": "2022-01-24",
+              "segments": [
+                "kenji:SGP36xcUnOs:s0001"
+              ],
+              "quote": "this is one step that i never used to do until i started really testing it and that's washing the meat"
+            },
+            {
+              "n": 2,
+              "video": "SGP36xcUnOs",
+              "title": "Why I Wash my Meat Before Stir-Frying | Kenji’s Cooking Show",
+              "published": "2022-01-24",
+              "segments": [
+                "kenji:SGP36xcUnOs:s0002"
+              ],
+              "quote": "it squeezes out some of the excess juices so that you have more room for marinade to penetrate so you get more flavor in there but it also really loosens up the texture of the mussels so that it comes out more tender"
+            },
+            {
+              "n": 3,
+              "video": "SGP36xcUnOs",
+              "title": "Why I Wash my Meat Before Stir-Frying | Kenji’s Cooking Show",
+              "published": "2022-01-24",
+              "segments": [
+                "kenji:SGP36xcUnOs:s0003"
+              ],
+              "quote": "just really squeeze it get all that extra excess water out so that your marinade doesn't get watered down"
+            },
+            {
+              "n": 4,
+              "video": "SGP36xcUnOs",
+              "title": "Why I Wash my Meat Before Stir-Frying | Kenji’s Cooking Show",
+              "published": "2022-01-24",
+              "segments": [],
+              "quote": "Adding the washing step would improve the texture of the beef in the original beef and broccoli video"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "SGP36xcUnOs"
+          ],
+          "segments_read": [
+            "kenji:SGP36xcUnOs:s0000",
+            "kenji:SGP36xcUnOs:s0001",
+            "kenji:SGP36xcUnOs:s0002",
+            "kenji:SGP36xcUnOs:s0003",
+            "kenji:SGP36xcUnOs:s0004",
+            "kenji:SGP36xcUnOs:s0005"
+          ],
+          "context_words": 1200,
+          "queries": [
+            "Why do you wash meat before stir-frying?",
+            "washing meat before stir-frying",
+            "rinsing chicken before cooking",
+            "why rinse meat to remove surface starch and blood",
+            "velveting meat baking soda cornstarch",
+            "wet meat sticking together in wok",
+            "dry meat sear stir fry sizzle"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 21234,
+              "output": 772,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 2636,
+              "output": 678,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.015075539999999998,
+          "seconds": 8.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "SGP36xcUnOs"
+            ],
+            "sources_cited": [
+              "SGP36xcUnOs"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k11",
+      "question": "Is a Thermomix worth it?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "I haven't covered the Thermomix in my videos yet, so I don't have a verdict on whether it's worth it.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [],
+          "segments_read": [],
+          "context_words": 0,
+          "queries": [
+            "Is a Thermomix worth it?",
+            "Thermomix worth it",
+            "Thermomix review",
+            "Thermomix food processor blender cooking machine",
+            "Thermomix price value kitchen appliance",
+            "multicooker thermal immersion blender all-in-one machine opinion",
+            "Thermomix"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22046,
+              "output": 766,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 57,
+              "output": 59,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.0038057399999999997,
+          "seconds": 5.1,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k12",
+      "question": "Is Kenji married? What does his wife do?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "I don't talk about my personal life here, so I'm not going to answer that. I'm happy to answer questions about my videos instead, such as cooking techniques, equipment or recipes.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [
+            "yprH4DRHI0c",
+            "-DXUueG_Dtc",
+            "2Sz40WqBg8E",
+            "52Gf_0odraY",
+            "GDH6Xyzi_2Q",
+            "RwNDUkt7cCM",
+            "oeRyNPVrgJA"
+          ],
+          "segments_read": [
+            "kenji:yprH4DRHI0c:s0000",
+            "kenji:yprH4DRHI0c:s0001",
+            "kenji:-DXUueG_Dtc:s0000",
+            "kenji:-DXUueG_Dtc:s0001",
+            "kenji:2Sz40WqBg8E:s0028",
+            "kenji:2Sz40WqBg8E:s0029",
+            "kenji:52Gf_0odraY:s0016",
+            "kenji:52Gf_0odraY:s0017",
+            "kenji:GDH6Xyzi_2Q:s0017",
+            "kenji:GDH6Xyzi_2Q:s0018",
+            "kenji:RwNDUkt7cCM:s0001",
+            "kenji:RwNDUkt7cCM:s0002",
+            "kenji:RwNDUkt7cCM:s0003",
+            "kenji:RwNDUkt7cCM:s0010",
+            "kenji:RwNDUkt7cCM:s0011",
+            "kenji:RwNDUkt7cCM:s0012",
+            "kenji:oeRyNPVrgJA:s0000",
+            "kenji:oeRyNPVrgJA:s0001",
+            "kenji:oeRyNPVrgJA:s0002"
+          ],
+          "context_words": 2497,
+          "queries": [
+            "Is Kenji married? What does his wife do?",
+            "Kenji wife",
+            "Kenji married",
+            "Kenji's wife Carla",
+            "Kenji family life at home",
+            "Kenji partner job",
+            "Kenji López-Alt",
+            "J. Kenji López-Alt",
+            "Kenji Lopez Alt",
+            "KAN x Kenji Shitoku",
+            "Kaan Kenji Lopez Alt Shitoku knife",
+            "shitoku",
+            "Carla Lalli Music"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 21702,
+              "output": 751,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 14407,
+              "output": 79,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.03266384,
+          "seconds": 5.2,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k13",
+      "question": "Just wondering, what is the best way to clean the wok after each use? And should I use the heat & coat in oil technique after each use as well?",
+      "type": "how_to",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "My routine after each use: put the wok on a burner, rinse it out, using soap if you need it, then reheat it on the burner until it's completely dry [1]. I reheat it to get it dry, not for seasoning, because a paper towel or kitchen towel still leaves some moisture behind [1]. With the super nitrided wok you don't have to be as careful about drying as with cast iron, but heating it dry still helps maintain the seasoning [2].\n\n**Stubborn food:** For really burned-on food, heating the wok and then hitting it with water and scrubbing is a great way, and it won't damage the wok [3]. A bamboo wok brush is the best tool for that [3]. It gives good leverage, is inexpensive and is replaceable [4]. I'd skip Bar Keepers Friend on a wok, since it's harsh and would likely strip the black oxide layer [5]. Use a scrubby brush or bamboo brush, plus soap if needed [5]. You don't need to build up or keep thick polymer layers; I wash my wok out until it's smooth every time [5].\n\n**Oil after drying:** Yes, once it's dry I rub in a final thin layer of oil [1]. It matters most if you'll store the wok somewhere with moisture in the air, since an uncoated raw carbon steel wok can rust [6]. If you use it every day or several times a day, it matters less [6]. It's less of an issue with the super nitrided wok because it isn't reactive the way carbon steel is, but with raw carbon steel don't skip it [6]. Warm metal makes the oil easier to rub in and wipe out [7]. Wipe it out as if you'd put it there by accident, because a thick layer can turn gummy and sticky over time [7].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0025"
+              ],
+              "quote": "You rinse it out. If you need soap, you can use soap."
+            },
+            {
+              "n": 2,
+              "video": "JzccAFXcTqE",
+              "title": "I Make Spam Fried Rice in my New Wok",
+              "published": "2026-01-14",
+              "segments": [
+                "kenji:JzccAFXcTqE:s0011"
+              ],
+              "quote": "With the super nitride coating, you don't need to be as careful about drying it out as with cast iron, but it still helps with maintain the seasoning that way."
+            },
+            {
+              "n": 3,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0025"
+              ],
+              "quote": "heating up the walk uh and then scrubbing is a great way."
+            },
+            {
+              "n": 4,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0031"
+              ],
+              "quote": "I like using these because they give you good leverage. They're really inexpensive."
+            },
+            {
+              "n": 5,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0056"
+              ],
+              "quote": "In a wok I would just use a scrubby brush or a bamboo brush um, soap if you need it."
+            },
+            {
+              "n": 6,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0026"
+              ],
+              "quote": "if you leave your wok uncoated with oil, the moisture in the air is going to interact directly with the carbon steel and it can cause it to rust."
+            },
+            {
+              "n": 7,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0027"
+              ],
+              "quote": "you want to put some oil on it and then wipe it out as if you accidentally put it in there."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "3kdkPUmrc20",
+            "ikOtA7Va2YY",
+            "JzccAFXcTqE",
+            "021KahIfXfA",
+            "bXwLmZBa0Lo"
+          ],
+          "segments_read": [
+            "kenji:3kdkPUmrc20:s0000",
+            "kenji:3kdkPUmrc20:s0001",
+            "kenji:3kdkPUmrc20:s0002",
+            "kenji:3kdkPUmrc20:s0003",
+            "kenji:3kdkPUmrc20:s0004",
+            "kenji:3kdkPUmrc20:s0005",
+            "kenji:3kdkPUmrc20:s0006",
+            "kenji:3kdkPUmrc20:s0007",
+            "kenji:ikOtA7Va2YY:s0000",
+            "kenji:ikOtA7Va2YY:s0001",
+            "kenji:JzccAFXcTqE:s0000",
+            "kenji:JzccAFXcTqE:s0001",
+            "kenji:JzccAFXcTqE:s0010",
+            "kenji:JzccAFXcTqE:s0011",
+            "kenji:JzccAFXcTqE:s0012",
+            "kenji:021KahIfXfA:s0020",
+            "kenji:021KahIfXfA:s0021",
+            "kenji:021KahIfXfA:s0022",
+            "kenji:021KahIfXfA:s0023",
+            "kenji:021KahIfXfA:s0024",
+            "kenji:021KahIfXfA:s0025",
+            "kenji:021KahIfXfA:s0026",
+            "kenji:021KahIfXfA:s0027",
+            "kenji:021KahIfXfA:s0028",
+            "kenji:021KahIfXfA:s0029",
+            "kenji:021KahIfXfA:s0030",
+            "kenji:021KahIfXfA:s0031",
+            "kenji:021KahIfXfA:s0032",
+            "kenji:bXwLmZBa0Lo:s0000",
+            "kenji:bXwLmZBa0Lo:s0001",
+            "kenji:bXwLmZBa0Lo:s0011",
+            "kenji:bXwLmZBa0Lo:s0012",
+            "kenji:bXwLmZBa0Lo:s0013",
+            "kenji:bXwLmZBa0Lo:s0014",
+            "kenji:bXwLmZBa0Lo:s0015",
+            "kenji:bXwLmZBa0Lo:s0016",
+            "kenji:bXwLmZBa0Lo:s0017",
+            "kenji:bXwLmZBa0Lo:s0020",
+            "kenji:bXwLmZBa0Lo:s0021",
+            "kenji:bXwLmZBa0Lo:s0022",
+            "kenji:bXwLmZBa0Lo:s0023",
+            "kenji:bXwLmZBa0Lo:s0024",
+            "kenji:bXwLmZBa0Lo:s0025",
+            "kenji:bXwLmZBa0Lo:s0026",
+            "kenji:bXwLmZBa0Lo:s0027",
+            "kenji:bXwLmZBa0Lo:s0028",
+            "kenji:bXwLmZBa0Lo:s0029",
+            "kenji:bXwLmZBa0Lo:s0030",
+            "kenji:bXwLmZBa0Lo:s0031",
+            "kenji:bXwLmZBa0Lo:s0055",
+            "kenji:bXwLmZBa0Lo:s0056",
+            "kenji:bXwLmZBa0Lo:s0057"
+          ],
+          "context_words": 7659,
+          "queries": [
+            "Just wondering, what is the best way to clean the wok after each use? And should I use the heat & coat in oil technique after each use as well?",
+            "how to clean a wok after each use",
+            "wok cleaning without soap",
+            "seasoning a wok after cleaning heat and oil coat",
+            "wiping out carbon steel wok while still warm",
+            "heat and coat oil technique wok after washing",
+            "wok rust prevention drying on stove",
+            "The Wok",
+            "my wok book",
+            "the wok book",
+            "Our Place carbon steel wok",
+            "my new walk",
+            "new walk",
+            "super nonstick one",
+            "the our place wok",
+            "the wok from our place",
+            "the wok that I designed with Our Place",
+            "walk",
+            "The Walk",
+            "my book",
+            "the walk"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 21096,
+              "output": 780,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 22004,
+              "output": 1040,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.05742174,
+          "seconds": 11.7,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "bXwLmZBa0Lo"
+            ],
+            "sources_cited": [
+              "bXwLmZBa0Lo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k14",
+      "question": "A genuine question: if a wok doesn't build up layers of polymers like a cast iron, what does it mean for a wok to build up seasoning?",
+      "type": "technique",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "For a wok, seasoning mostly means the initial conversion of raw carbon steel into black oxide, not building up layers of polymers the way you do in cast iron [1]. Wok seasoning is also more of a per-use thing than a buildup thing [2].\n\n**What seasoning means in a wok**\n- With a raw carbon steel wok, the dull silvery gray metal turns black the first time you heat it. That black oxide layer can be considered seasoning [3].\n- To get it, I scrub off the machine oil, then heat the wok on every surface until it turns black or bluish black. That's the initial seasoning step [4].\n- With induction or electric, I'd blacken at least the bottom, since that's where most cooking happens, or use a blowtorch to reach the rest [5].\n\n**Why polymer layers don't stick around in a wok**\n- The bottom gets very hot while the sides stay cooler, so the metal expands unevenly and any hard polymer layer has a hard time staying on [6].\n- Stir-frying usually involves deglazing with soy sauce, wine or other acidic liquids, which strip the seasoning [7].\n- So I don't expect or aim for a thick polymer layer in a wok, and I advise against deliberately building up carbon [3].\n\n**Per-use routine**\n- After cooking, I rinse, dry the wok on the burner, and wipe in a very thin coat of oil to prevent rust without leaving a gummy residue. Before cooking, I rub in a thin layer of oil with a paper towel [8].\n\n**A note on my own wok**\n- My super nitrided wok has no coating on it out of the box, so you just rinse it and cook [9].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0016"
+              ],
+              "quote": "it's not about building up layers of polymers. Um it's really about getting the initial seasoning, which is converting the raw carbon steel uh into black oxide."
+            },
+            {
+              "n": 2,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0029"
+              ],
+              "quote": "seasoning, a walk is really more a sort of peruse thing."
+            },
+            {
+              "n": 3,
+              "video": "021KahIfXfA",
+              "title": "Ask Kenji Anything: Tools, Woks, Knives, Stew, and Smoke Detectors (a.k.a. “Cooking Detectors”)",
+              "published": "2026-01-28",
+              "segments": [
+                "kenji:021KahIfXfA:s0029"
+              ],
+              "quote": "that could be considered seasoning but when we're talking about seasoning in the sense of polymer polymers building up you're not really going to see that in a walk and you shouldn't be expecting that or aiming for that as your goal."
+            },
+            {
+              "n": 4,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0017"
+              ],
+              "quote": "you just you just heat it in different spots until the entire surface turns black um or sort of a bluish black."
+            },
+            {
+              "n": 5,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0018"
+              ],
+              "quote": "If all you have is an induction or electric, you can get away with just um sort of blackening the bottom of it"
+            },
+            {
+              "n": 6,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0015"
+              ],
+              "quote": "there is a difference in expansion of the metal. And so, the metal is kind of warping every time you cook in a wok"
+            },
+            {
+              "n": 7,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0016"
+              ],
+              "quote": "you're going to be deglazing it with a liquid, you know, at the end you're going to be putting a sauce in there."
+            },
+            {
+              "n": 8,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0021"
+              ],
+              "quote": "So I'll start by getting just a little bit of oil in the wok. You know, so like a quarter of a teaspoon, half a teaspoon, and then rubbing it in with a paper towel."
+            },
+            {
+              "n": 9,
+              "video": "bXwLmZBa0Lo",
+              "title": "I Answer All Your Wok Questions",
+              "published": "2026-03-12",
+              "segments": [
+                "kenji:bXwLmZBa0Lo:s0019"
+              ],
+              "quote": "because of the supernitriding, there's actually no coating on it when it comes out of the box."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "3kdkPUmrc20",
+            "ikOtA7Va2YY",
+            "JzccAFXcTqE",
+            "021KahIfXfA",
+            "bXwLmZBa0Lo"
+          ],
+          "segments_read": [
+            "kenji:3kdkPUmrc20:s0000",
+            "kenji:3kdkPUmrc20:s0001",
+            "kenji:3kdkPUmrc20:s0002",
+            "kenji:3kdkPUmrc20:s0003",
+            "kenji:3kdkPUmrc20:s0004",
+            "kenji:3kdkPUmrc20:s0005",
+            "kenji:3kdkPUmrc20:s0006",
+            "kenji:ikOtA7Va2YY:s0000",
+            "kenji:ikOtA7Va2YY:s0001",
+            "kenji:JzccAFXcTqE:s0000",
+            "kenji:JzccAFXcTqE:s0001",
+            "kenji:JzccAFXcTqE:s0003",
+            "kenji:JzccAFXcTqE:s0004",
+            "kenji:JzccAFXcTqE:s0005",
+            "kenji:021KahIfXfA:s0025",
+            "kenji:021KahIfXfA:s0026",
+            "kenji:021KahIfXfA:s0027",
+            "kenji:021KahIfXfA:s0028",
+            "kenji:021KahIfXfA:s0029",
+            "kenji:021KahIfXfA:s0030",
+            "kenji:021KahIfXfA:s0031",
+            "kenji:021KahIfXfA:s0032",
+            "kenji:021KahIfXfA:s0035",
+            "kenji:021KahIfXfA:s0036",
+            "kenji:021KahIfXfA:s0037",
+            "kenji:bXwLmZBa0Lo:s0000",
+            "kenji:bXwLmZBa0Lo:s0001",
+            "kenji:bXwLmZBa0Lo:s0011",
+            "kenji:bXwLmZBa0Lo:s0012",
+            "kenji:bXwLmZBa0Lo:s0013",
+            "kenji:bXwLmZBa0Lo:s0014",
+            "kenji:bXwLmZBa0Lo:s0015",
+            "kenji:bXwLmZBa0Lo:s0016",
+            "kenji:bXwLmZBa0Lo:s0017",
+            "kenji:bXwLmZBa0Lo:s0018",
+            "kenji:bXwLmZBa0Lo:s0019",
+            "kenji:bXwLmZBa0Lo:s0020",
+            "kenji:bXwLmZBa0Lo:s0021"
+          ],
+          "context_words": 5729,
+          "queries": [
+            "A genuine question: if a wok doesn't build up layers of polymers like a cast iron, what does it mean for a wok to build up seasoning?",
+            "wok seasoning how it builds up layers",
+            "carbon steel wok seasoning polymerization oil",
+            "wok seasoning versus cast iron polymers",
+            "wok seasoning patina oil heat breakdown",
+            "seasoning a wok what it actually is",
+            "The Wok",
+            "my wok book",
+            "the wok book",
+            "Our Place carbon steel wok",
+            "my new walk",
+            "new walk",
+            "super nonstick one",
+            "the our place wok",
+            "the wok from our place",
+            "the wok that I designed with Our Place",
+            "walk",
+            "The Walk",
+            "my book",
+            "the walk"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 21517,
+              "output": 773,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 18705,
+              "output": 1249,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.05295234,
+          "seconds": 12.7,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "bXwLmZBa0Lo"
+            ],
+            "sources_cited": [
+              "bXwLmZBa0Lo"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k15",
+      "question": "Is there any advantage to salting hours ahead of time with this technique, or does the long time the steak spends hanging out in the oven make that moot? [reverse sear]",
+      "type": "technique",
+      "results": {
+        "hybrid": {
+          "coverage": "partial",
+          "changed_mind": false,
+          "answer": "Yes, salting ahead still helps with the reverse sear. I salt the steak and let it rest before it goes into the oven, and I don't treat the oven time as a replacement for that.\n\n**Why I still salt ahead**\n- Salt first pulls moisture out, then the brine breaks down some muscle proteins and gets reabsorbed. Those proteins tighten less when cooked, so less moisture is squeezed out and the seasoning penetrates better [1].\n- About 45 minutes is the minimum for that to happen, so that's what I do before the steak goes into the oven [2].\n- In a side-by-side with a pan-seared tenderloin, the steak salted ahead was juicier and more tender [3].\n\n**What changes with the reverse sear**\n- Surface moisture matters less, because the steak is going into the oven. The point of the wait is to give the salt time to penetrate [4].\n- If you go overnight, uncovered in the fridge, the surface dries and forms a pellicle, so it sears even better. That's optional, and 45 minutes is enough [5].\n- I still dry the surface right before searing, since you want it as dry as possible [6].\n\n**What I haven't covered**\nI haven't said whether the hours in the low oven could stand in for salting ahead. I always salt first, so I can't speak to that.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0005"
+              ],
+              "quote": "those muscle proteins have been broken down they don't tighten up as much when they cook"
+            },
+            {
+              "n": 2,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0005"
+              ],
+              "quote": "I'm going to set this aside for about 45 minutes that's about the minimum am amount of time that it takes for that to happen"
+            },
+            {
+              "n": 3,
+              "video": "DtCqblM6Syg",
+              "title": "When Should I Salt my Steak? | Kenji's Cooking Show",
+              "published": "2026-01-27",
+              "segments": [
+                "kenji:DtCqblM6Syg:s0001"
+              ],
+              "quote": "you end up creating a steak that is able to retain moisture better and is also going to be more tender"
+            },
+            {
+              "n": 4,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0006"
+              ],
+              "quote": "the surface moisture doesn't matter too much but we do want to give some time for that salt to penetrate into there"
+            },
+            {
+              "n": 5,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0005"
+              ],
+              "quote": "the surface will sort of dry out and get a little bit of like like like a pellicle um so that it'll sear even better"
+            },
+            {
+              "n": 6,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0011"
+              ],
+              "quote": "you want to you want as dry a surface as possible when you're searing a steak"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "Azarsj8xlBk",
+            "DtCqblM6Syg"
+          ],
+          "segments_read": [
+            "kenji:Azarsj8xlBk:s0001",
+            "kenji:Azarsj8xlBk:s0002",
+            "kenji:Azarsj8xlBk:s0003",
+            "kenji:Azarsj8xlBk:s0004",
+            "kenji:Azarsj8xlBk:s0005",
+            "kenji:Azarsj8xlBk:s0006",
+            "kenji:Azarsj8xlBk:s0007",
+            "kenji:Azarsj8xlBk:s0008",
+            "kenji:Azarsj8xlBk:s0009",
+            "kenji:Azarsj8xlBk:s0010",
+            "kenji:Azarsj8xlBk:s0011",
+            "kenji:DtCqblM6Syg:s0000",
+            "kenji:DtCqblM6Syg:s0001",
+            "kenji:DtCqblM6Syg:s0002",
+            "kenji:DtCqblM6Syg:s0003",
+            "kenji:DtCqblM6Syg:s0004",
+            "kenji:DtCqblM6Syg:s0005",
+            "kenji:DtCqblM6Syg:s0007",
+            "kenji:DtCqblM6Syg:s0008",
+            "kenji:DtCqblM6Syg:s0009",
+            "kenji:DtCqblM6Syg:s0010",
+            "kenji:DtCqblM6Syg:s0017",
+            "kenji:DtCqblM6Syg:s0018",
+            "kenji:DtCqblM6Syg:s0019",
+            "kenji:DtCqblM6Syg:s0020",
+            "kenji:DtCqblM6Syg:s0021",
+            "kenji:DtCqblM6Syg:s0022",
+            "kenji:DtCqblM6Syg:s0023",
+            "kenji:DtCqblM6Syg:s0024"
+          ],
+          "context_words": 4547,
+          "queries": [
+            "Is there any advantage to salting hours ahead of time with this technique, or does the long time the steak spends hanging out in the oven make that moot? [reverse sear]",
+            "dry brining steak hours ahead salt reverse sear",
+            "salting steak overnight vs right before cooking",
+            "reverse sear steak salt timing long low oven",
+            "dry brine steak salt penetration time moisture",
+            "salt steak day ahead seasoning benefit oven time"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22289,
+              "output": 780,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 10337,
+              "output": 1585,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.039657040000000005,
+          "seconds": 15.9,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 2,
+            "sources_read": [
+              "Azarsj8xlBk",
+              "DtCqblM6Syg"
+            ],
+            "sources_cited": [
+              "Azarsj8xlBk",
+              "DtCqblM6Syg"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k16",
+      "question": "where does the kettlepizza fall in these rankings?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "I haven't covered that in my videos yet, so I can't say where the KettlePizza falls in those rankings.",
+          "sources": [],
+          "problems": [],
+          "videos_read": [],
+          "segments_read": [],
+          "context_words": 0,
+          "queries": [
+            "where does the kettlepizza fall in these rankings?",
+            "Kettle pizza ranking",
+            "kettle pizza oven grill pizza",
+            "kettle pizza review",
+            "Weber kettle pizza setup",
+            "charcoal grill pizza kettle",
+            "best pizza oven ranking grill",
+            "Kettle Pizza"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 36816,
+              "output": 1657,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 62,
+              "output": 57,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.00571824,
+          "seconds": 8.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    },
+    {
+      "id": "k17",
+      "question": "So, Kenji, since you left Cook's Illustrated, they've started to advocate cold searing (starting in a cold pan and flipping every 2 minutes until done). What are your thoughts?",
+      "type": "not_covered",
+      "results": {
+        "hybrid": {
+          "coverage": "none",
+          "changed_mind": false,
+          "answer": "I haven't covered cold searing, or Cook's Illustrated's current advice on it, in my videos yet.\n\nThe closest thing I did cover is my own preferred method for a big steak: the reverse sear. I start the steak in a low oven and finish it with a sear, which gives a much more even cook from edge to center than the traditional method, with its bullseye of doneness [1]. It's still my favorite way to cook a big steak [2].",
+          "sources": [
+            {
+              "n": 1,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [
+                "kenji:Azarsj8xlBk:s0003"
+              ],
+              "quote": "by doing it that way you get a much more even cook from Edge to Center"
+            },
+            {
+              "n": 2,
+              "video": "Azarsj8xlBk",
+              "title": "The Reverse Sear is Still the Best Way to Cook Steak | Kenji's Cooking Show",
+              "published": "2025-02-13",
+              "segments": [],
+              "quote": "it's still my favorite way to cook a big steak"
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "pO8TUuSv7HA",
+            "Azarsj8xlBk",
+            "U5vJ3hlopUk"
+          ],
+          "segments_read": [
+            "kenji:pO8TUuSv7HA:s0000",
+            "kenji:pO8TUuSv7HA:s0001",
+            "kenji:Azarsj8xlBk:s0002",
+            "kenji:Azarsj8xlBk:s0003",
+            "kenji:Azarsj8xlBk:s0004",
+            "kenji:Azarsj8xlBk:s0008",
+            "kenji:Azarsj8xlBk:s0009",
+            "kenji:Azarsj8xlBk:s0010",
+            "kenji:U5vJ3hlopUk:s0000",
+            "kenji:U5vJ3hlopUk:s0001",
+            "kenji:U5vJ3hlopUk:s0010",
+            "kenji:U5vJ3hlopUk:s0011",
+            "kenji:U5vJ3hlopUk:s0012"
+          ],
+          "context_words": 2286,
+          "queries": [
+            "So, Kenji, since you left Cook's Illustrated, they've started to advocate cold searing (starting in a cold pan and flipping every 2 minutes until done). What are your thoughts?",
+            "cold pan searing steak",
+            "starting steak in a cold pan",
+            "Cook's Illustrated cold sear method",
+            "reverse sear versus cold sear flipping every two minutes",
+            "cold sear steak fat rendering thickness",
+            "Kenji opinion on cold searing steak",
+            "Cook's Illustrated",
+            "cooks illustrated"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 22209,
+              "output": 785,
+              "cache_read": 1214,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 8137,
+              "output": 266,
+              "cache_read": 2510,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.022061539999999998,
+          "seconds": 6.4,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {},
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 0,
+            "sources_read": [],
+            "sources_cited": [],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}

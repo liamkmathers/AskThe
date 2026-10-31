@@ -139,7 +139,8 @@ def fetch(
         on_progress=lambda vid, status: typer.echo(f"{vid}  {status}"),
     )
     typer.echo(
-        f"fetched {len(report.fetched)}, skipped {len(report.skipped)}, failed {len(report.failed)}"
+        f"fetched {len(report.fetched)}, skipped {len(report.skipped)}, "
+        f"no transcript {len(report.no_transcript)}, failed {len(report.failed)}"
     )
     if report.stopped_early:
         typer.echo(

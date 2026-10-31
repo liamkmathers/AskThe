@@ -19,6 +19,7 @@ from askthe.core.interfaces import (
     DocKind,
     Generated,
     LLMTask,
+    NoTranscript,
     SearchDoc,
     SearchHit,
     SearchQuery,
@@ -81,11 +82,13 @@ class MemoryTranscriptSource:
     def add(self, platform_id: str, transcript: Transcript) -> None:
         self._transcripts[platform_id] = transcript
 
-    def get_transcript(self, platform_id: str) -> Transcript:
-        try:
-            return self._transcripts[platform_id]
-        except KeyError:
-            raise LookupError(f"no transcript for {platform_id!r}") from None
+    def get_transcript(
+        self, platform_id: str, languages: Sequence[str] | None = None
+    ) -> Transcript:
+        found = self._transcripts.get(platform_id)
+        if found is None or (languages and found.language not in languages):
+            raise NoTranscript(f"no transcript for {platform_id!r}")
+        return found
 
 
 class MemoryCommentSource:
@@ -172,6 +175,10 @@ class MemoryKnowledgeStore:
 
     def upsert_video(self, video: Video) -> None:
         self._videos[video.id] = video
+
+    def remove_video(self, video_id: str) -> None:
+        for table in (self._videos, self._segments, self._profiles, self._claims):
+            table.pop(video_id, None)
 
     def get_video(self, video_id: str) -> Video | None:
         return self._videos.get(video_id)

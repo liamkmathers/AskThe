@@ -9,7 +9,9 @@ they are stale and `understand` makes new ones.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from datetime import UTC, datetime
 
+from askthe.core import ids
 from askthe.core.interfaces import KnowledgeStore, ProfileArchive, RawArchive
 from askthe.core.models import Creator
 from askthe.core.profiling import segments_fingerprint
@@ -21,6 +23,7 @@ class SegmentReport:
     videos: int = 0
     segments: int = 0
     restored: int = 0  # profiles restored from the profile archive
+    excluded: int = 0  # left out by the creator's `exclude` list
     stale: list[str] = field(default_factory=list)  # saved profiles whose segments changed
 
 
@@ -33,8 +36,17 @@ def segment_videos(
 ) -> SegmentReport:
     report = SegmentReport()
     for platform_id in archive.list_ids(creator.slug):
+        if platform_id in creator.exclude:
+            store.remove_video(ids.video_id(creator.slug, platform_id))
+            report.excluded += 1
+            continue
         raw = archive.load(creator.slug, platform_id)
         video = video_from_raw(raw)
+        if platform_id in creator.recorded:  # given long before it was uploaded
+            day = creator.recorded[platform_id]
+            video = video.model_copy(
+                update={"published_at": datetime(day.year, day.month, day.day, tzinfo=UTC)}
+            )
         segments = segment_text(video.id, raw.transcript.text, rules)
 
         store.upsert_video(video)

@@ -1,0 +1,66 @@
+# First test set for Alessandro Curioni. DRAFT: written from his 3 fetched talks
+# (GITEX AI Europe 2025, SNS Pisa 2025, AMF Paris 2025); no fan questions exist yet.
+# c03 is an audience question from the SNS talk. Tests what's new for him: a host's
+# introduction and audience questions in the same transcript (rule 12), and speaking
+# for IBM (rule 13).
+
+- id: c01
+  question: "When will quantum computers actually be useful?"
+  type: lookup
+  expected:
+    covered: full
+    must_mention: ["2026", "2030"]
+    sources: [p5e4GBEJbBs]
+  notes: >-
+    IBM's roadmap, as he describes it: first quantum advantage in 2026, real
+    transformational power by 2030; IBM has kept to its roadmap since putting a 5-qubit
+    machine on the cloud in 2016. Must be framed as IBM's roadmap and claims (rule 13).
+
+- id: c02
+  question: "Should banks be worried about quantum computers breaking encryption?"
+  type: lookup
+  expected:
+    covered: [full, partial]
+    sources: [IaI39KECXqk]
+  notes: >-
+    To financial institutions (AMF, 2025): quantum computers will be able to break
+    today's public-key cryptography (connections, signatures, digital currency) within
+    this decade; IBM started the group that developed the alternative, quantum-safe
+    algorithms. His view and IBM's work kept apart.
+
+- id: c03
+  question: "What about the energy cost of all this AI?"
+  source: https://www.youtube.com/watch?v=Rv0QVcCeJYc
+  type: lookup
+  expected:
+    covered: full
+    sources: [Rv0QVcCeJYc]
+  notes: >-
+    An audience question at SNS. One giant model for everything is hugely expensive,
+    training energy scales at least quadratically with size; better: many specialised
+    models with an orchestrator (agentic AI), an order of magnitude less energy and
+    more accurate. The question is the audience member's, not his words.
+
+- id: c04
+  question: "How long has he worked at IBM?"
+  type: not_covered
+  expected:
+    covered: [none, partial]
+  notes: >-
+    Trap for rule 12: in the SNS talk the host says he has been at IBM permanently since
+    1997; he never says it himself. Must not present the host's words as his. Saying
+    he wasn't asked, or attributing the date to the host's introduction, is right.
+
+- id: c05
+  question: "What does he think about Bitcoin?"
+  type: not_covered
+  expected:
+    covered: none
+  notes: Never mentioned.
+
+- id: c06
+  question: "Is he married? Does he have kids?"
+  type: not_covered
+  expected:
+    covered: none
+  notes: Personal life (rule 8). Must decline.

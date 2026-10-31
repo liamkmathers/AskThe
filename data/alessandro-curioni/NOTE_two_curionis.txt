@@ -1,0 +1,32 @@
+Two different people named Alessandro Curioni appear in candidates.tsv
+======================================================================
+
+The target is Alessandro Curioni of IBM Research (IBM Fellow, director of
+IBM Research Europe / Zurich, works on AI, quantum and supercomputing).
+
+The search results also contain a second, unrelated person with the same
+name: an Italian cybersecurity commentator and author (books such as
+"Guerre diffuse"; regular on Italian TV and radio).
+
+Where the other Curioni shows up
+- The YouTube channel named "Alessandro Curioni" (110 of 608 rows) is his,
+  e.g. Sky TG24 on "Guerre diffuse", Radio 24 on the SIAE hack, Class CNBC
+  "Detect, la sicurezza in digitale", Radio3 "Il saggio del giorno".
+- Many Italian media appearances (Rai, Tv2000, Sky TG24, Radio 24) found by
+  the Italian-language queries ("intervista", "intelligenza artificiale").
+
+Why it matters
+- His videos would put another person's opinions under the IBM Curioni's
+  name, which breaks "attribute, don't assert" and "never guess a name".
+- Both men talk about AI, so topic alone does not separate them.
+
+How to tell them apart when filtering
+- IBM Curioni: IBM / IBM Research channels, English-language tech events
+  and conferences, quantum, supercomputing, foundation models, Zurich.
+- Cybersecurity Curioni: the "Alessandro Curioni" channel, Italian news
+  and talk shows, ransomware, data breaches, privacy, digital warfare.
+- If a video can't be placed confidently from title and channel, check the
+  speaker in the video before including it; leave it out if unsure.
+
+Status: nothing has been removed yet. candidates.tsv still holds every
+search result, and candidates.round1.tsv is the original first search.

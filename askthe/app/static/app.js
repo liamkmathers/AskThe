@@ -206,7 +206,7 @@ function chipFor(answer) {
   return null;
 }
 
-// Answers speak as the creator (D26), so every answer says plainly that it's AI-written.
+// Answers speak as the creator (D27), so every answer says plainly that it's AI-written.
 function showAiNote() {
   const who = (creator && creator.display_name) || "the creator";
   $("ai-note").textContent =
@@ -319,7 +319,7 @@ function openSheet(n) {
   const s = current && current.sources.find((x) => x.n === n);
   if (!s) return;
   $("sheet-video").hidden = false;
-  // The date leads: answers don't say when he said something (D26), the citation does.
+  // The date leads: answers don't say when he said something (D27), the citation does.
   const kind = s.in_description ? "From the video description" : "Listen for";
   $("sheet-kind").textContent = s.published ? `${formatDate(s.published)} · ${kind}` : kind;
   $("sheet-quote").textContent = s.quote;

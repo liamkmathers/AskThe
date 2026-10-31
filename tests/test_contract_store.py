@@ -56,6 +56,20 @@ def test_segments_are_replaced_per_video_and_ordered(store):
     assert store.get_segment(ids.segment_id(vid, 0)).text == "rebuilt"
 
 
+def test_a_removed_video_takes_its_segments_and_claims_with_it(store):
+    keep, gone = f.video("keep"), f.video("gone")
+    for v in (keep, gone):
+        store.upsert_video(v)
+        store.replace_segments(v.id, [f.segment(v.id, 0)])
+        store.replace_claims(v.id, [f.claim(v.id)])
+    store.remove_video(gone.id)
+    assert [v.id for v in store.list_videos(f.CREATOR)] == [keep.id]
+    assert store.get_video(gone.id) is None and store.get_segments(gone.id) == []
+    assert store.get_segment(ids.segment_id(gone.id, 0)) is None
+    assert store.get_claims_for_video(gone.id) == [] and store.get_claims_for_video(keep.id)
+    store.remove_video("never-there")  # no error
+
+
 def test_records_for_another_video_are_rejected(store):
     vid = f.video("a").id
     with pytest.raises(ValueError):

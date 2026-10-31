@@ -1,0 +1,231 @@
+{
+  "label": "curioni-dates",
+  "created_at": "2026-10-31T17:07:25+00:00",
+  "creator": "alessandro-curioni",
+  "modes": [
+    "hybrid"
+  ],
+  "versions": {
+    "profiler": "p1",
+    "models": {
+      "plan": "claude-haiku-5-5",
+      "rerank": "claude-haiku-5-5",
+      "answer": "claude-sonnet-5-5"
+    },
+    "embedder": "openai:text-embedding-3-small",
+    "retrieval": {
+      "full_budget_words": 400000,
+      "context_words": 12000,
+      "per_query": 40,
+      "candidates": 60,
+      "broad_candidates": 100,
+      "min_score": 2,
+      "named_per_video": 2,
+      "named_total": 8,
+      "require_profiles": false,
+      "use_profiles": true
+    }
+  },
+  "summary": {
+    "hybrid": {
+      "questions": 1,
+      "passed_checks": 1,
+      "coverage_right": 1,
+      "coverage_exact": 1,
+      "citations_hold": 1,
+      "personal_life": 0,
+      "cost_usd": 0.0288,
+      "mean_context_words": 4417,
+      "expected_sources_read": 1.0,
+      "mean_recall_of_full": null
+    }
+  },
+  "questions": [
+    {
+      "id": "c01",
+      "question": "When will quantum computers actually be useful?",
+      "type": "lookup",
+      "results": {
+        "hybrid": {
+          "coverage": "full",
+          "changed_mind": false,
+          "answer": "He says quantum is already starting to give value in small, limited ways, with the first real quantum advantage expected around 2026 and transformational, fault-tolerant machines by 2030. This is the roadmap he describes for IBM, and his latest talk here is from October 2025.\n\n**Most recent (Oct 2025):** Describing IBM's roadmap, he says that by next year (2026) there will be the first provable quantum advantage on some application, and by 2030 the first fault-tolerant quantum computer [1]. He frames the 2030 machine as one that implements universal quantum computing and brings the transformational impact, which he puts at about five years away, \"this decade\" [2]. He also notes he doesn't yet have proof that the HSBC result he cites couldn't be done classically [3].\n\n**Earlier (May 2025):** He gave the same two-step timeline: first quantum advantage in 2026, meaning real advantage on real systems that classical computing alone can't deliver, and real transformational power by 2030 [4]. He says the first applications are likely in chemistry and catalysis, such as simulating complex enzymes [5].\n\n**Useful today, in a limited way:** In March 2025 he said that with today's non-error-corrected machines, errors can be mitigated, so scaling is still exponential but slower, and that \"you can get already value today\". He says current use is simulating small molecules [6]. He also points to progress in error rates, from about 1 in 10 years ago to nearly 1 in 10,000 [7].\n\n**Why he trusts the timeline:** He says the test of whether a technology is real is whether it has a roadmap it keeps hitting, and he says IBM has \"never missed a point\" on its roadmap since 2016 [4][8].\n\n**Not covered:** The videos available here don't confirm whether the 2026 advantage has actually been demonstrated, since the latest one is from October 2025.",
+          "sources": [
+            {
+              "n": 1,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0015"
+              ],
+              "quote": "by next year we will have the first really time in which we will have a provable provable so closed quantum advantage on some application and by 2030 we will have the first fall tolerant quantum computing machine."
+            },
+            {
+              "n": 2,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0016"
+              ],
+              "quote": "bring the transformational impact of quantum computing is not you know 10 20 30 40 it's five years it's this decade"
+            },
+            {
+              "n": 3,
+              "video": "IaI39KECXqk",
+              "title": "Conférence \"Technological frontiers in finance\" - Discours d'Alessandro Curioni",
+              "published": "2025-10-03",
+              "segments": [
+                "alessandro-curioni:IaI39KECXqk:s0014"
+              ],
+              "quote": "we don't have the proof that you know this could not be done with a classical computer."
+            },
+            {
+              "n": 4,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0011"
+              ],
+              "quote": "2026 and by 2030 so five years from now real transformational power of quantum"
+            },
+            {
+              "n": 5,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0013"
+              ],
+              "quote": "First application quantum computers to chemistry quantum computers to catalysis."
+            },
+            {
+              "n": 6,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0032"
+              ],
+              "quote": "so you can get already value today with the architecture that we have today"
+            },
+            {
+              "n": 7,
+              "video": "Rv0QVcCeJYc",
+              "title": "Alessandro Curioni, How AI and quantum computing are enabling a new era... - 12 March 2025",
+              "published": "2025-03-12",
+              "segments": [
+                "alessandro-curioni:Rv0QVcCeJYc:s0030"
+              ],
+              "quote": "now that we are very near to one over 10,000"
+            },
+            {
+              "n": 8,
+              "video": "p5e4GBEJbBs",
+              "title": "The Future of Computation: Dr. Alessandro Curioni on the Quantum Advantage",
+              "published": "2025-05-22",
+              "segments": [
+                "alessandro-curioni:p5e4GBEJbBs:s0010"
+              ],
+              "quote": "since then we never missed a point on this road map."
+            }
+          ],
+          "problems": [],
+          "videos_read": [
+            "Rv0QVcCeJYc",
+            "p5e4GBEJbBs",
+            "IaI39KECXqk"
+          ],
+          "segments_read": [
+            "alessandro-curioni:Rv0QVcCeJYc:s0029",
+            "alessandro-curioni:Rv0QVcCeJYc:s0030",
+            "alessandro-curioni:Rv0QVcCeJYc:s0031",
+            "alessandro-curioni:Rv0QVcCeJYc:s0032",
+            "alessandro-curioni:Rv0QVcCeJYc:s0033",
+            "alessandro-curioni:Rv0QVcCeJYc:s0034",
+            "alessandro-curioni:p5e4GBEJbBs:s0000",
+            "alessandro-curioni:p5e4GBEJbBs:s0001",
+            "alessandro-curioni:p5e4GBEJbBs:s0002",
+            "alessandro-curioni:p5e4GBEJbBs:s0009",
+            "alessandro-curioni:p5e4GBEJbBs:s0010",
+            "alessandro-curioni:p5e4GBEJbBs:s0011",
+            "alessandro-curioni:p5e4GBEJbBs:s0012",
+            "alessandro-curioni:p5e4GBEJbBs:s0013",
+            "alessandro-curioni:p5e4GBEJbBs:s0014",
+            "alessandro-curioni:IaI39KECXqk:s0006",
+            "alessandro-curioni:IaI39KECXqk:s0007",
+            "alessandro-curioni:IaI39KECXqk:s0008",
+            "alessandro-curioni:IaI39KECXqk:s0009",
+            "alessandro-curioni:IaI39KECXqk:s0013",
+            "alessandro-curioni:IaI39KECXqk:s0014",
+            "alessandro-curioni:IaI39KECXqk:s0015",
+            "alessandro-curioni:IaI39KECXqk:s0016",
+            "alessandro-curioni:IaI39KECXqk:s0017",
+            "alessandro-curioni:IaI39KECXqk:s0019",
+            "alessandro-curioni:IaI39KECXqk:s0020",
+            "alessandro-curioni:IaI39KECXqk:s0021"
+          ],
+          "context_words": 4417,
+          "queries": [
+            "When will quantum computers actually be useful?",
+            "when will quantum computers be useful",
+            "practical quantum computing timeline",
+            "quantum advantage useful applications",
+            "fault tolerant quantum computers when",
+            "quantum computing hype versus reality",
+            "Qiskit quantum computing applications",
+            "IBM Research Zurich",
+            "IBM Zurich",
+            "Zurich lab",
+            "Rüschlikon",
+            "Ruschlikon",
+            "Qiskit",
+            "kiskit",
+            "kis kit",
+            "qiskit"
+          ],
+          "warnings": [],
+          "usage": {
+            "claude-haiku-5-5": {
+              "input": 18374,
+              "output": 777,
+              "cache_read": 1151,
+              "cache_write": 0
+            },
+            "claude-sonnet-5-5": {
+              "input": 7411,
+              "output": 1125,
+              "cache_read": 2253,
+              "cache_write": 0
+            }
+          },
+          "cost_usd": 0.028760009999999996,
+          "seconds": 12.6,
+          "checks": {
+            "coverage_right": true,
+            "coverage_exact": true,
+            "cited": true,
+            "citations_hold": true,
+            "must_mention": {
+              "2026": true,
+              "2030": true
+            },
+            "must_not_claim_found": [],
+            "personal_life_found": [],
+            "sources_expected": 1,
+            "sources_read": [
+              "p5e4GBEJbBs"
+            ],
+            "sources_cited": [
+              "p5e4GBEJbBs"
+            ],
+            "passed": true
+          },
+          "correct": null
+        }
+      }
+    }
+  ]
+}

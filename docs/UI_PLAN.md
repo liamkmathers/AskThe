@@ -17,7 +17,7 @@
 | Wirecutter | A decisive pick in plain words; open notes when a pick changes | |
 | RTINGS | Dated, visible revisions | |
 | YouTube "Ask" | Sources as familiar video cards (title, date; no thumbnails, see Decisions) | |
-| Delphi-style clones | | A persona instead of evidence (answers do speak as the creator since D26, but every claim is cited) |
+| Delphi-style clones | | A persona instead of evidence (answers do speak as the creator since D27, but every claim is cited) |
 | Amazon Rufus | Tappable starter questions | The shopping funnel |
 | Arc Search | The answer as a page with its own link | Hiding which sources were read |
 
@@ -29,7 +29,7 @@
    - a verdict card: the answer's own first line ("Mostly yes, with caveats…") and at most one chip: *His view changed*, *Partly covered* or *Not covered*;
    - the reasoning, with [n] citations, nothing collapsed;
    - sources grouped by video, newest first: title, date, then that video's quotes. Sponsored quotes get a grey *Sponsored* tag.
-4. **Tapping [n]** opens a sheet: the video's date first (answers don't give dates in the text, D26), then the quote, large ("Listen for: '…'", since there are no timestamps, D12), then the paragraph around it with the quote highlighted ("In context", about 60 words a side, verbatim; passing personal remarks there are left as said, D27), so a reader can judge what it was part of; the video's title and date, and a full-width **Watch on YouTube** button.
+4. **Tapping [n]** opens a sheet: the video's date first (answers don't give dates in the text, D27), then the quote, large ("Listen for: '…'", since there are no timestamps, D12), then the paragraph around it with the quote highlighted ("In context", about 60 words a side, verbatim; passing personal remarks there are left as said, D28), so a reader can judge what it was part of; the video's title and date, and a full-width **Watch on YouTube** button.
 5. **Not covered** is a calm short card, not an error: "He hasn't covered Gucci jeans in his videos yet", plus the one closest thing he did cover (D19).
 
 ## Keeping and coming back

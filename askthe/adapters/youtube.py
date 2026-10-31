@@ -12,6 +12,7 @@ from collections.abc import Sequence
 from datetime import UTC, datetime
 from typing import Any
 
+from askthe.core.interfaces import NoTranscript
 from askthe.core.models import (
     ChannelInfo,
     Comment,
@@ -165,14 +166,29 @@ class TranscriptApiSource:
         self._api = YouTubeTranscriptApi()
         self._languages = list(languages)
 
-    def get_transcript(self, platform_id: str) -> Transcript:
-        from youtube_transcript_api import YouTubeTranscriptApiException
+    def get_transcript(
+        self, platform_id: str, languages: Sequence[str] | None = None
+    ) -> Transcript:
+        from youtube_transcript_api import (
+            NoTranscriptFound,
+            TranscriptsDisabled,
+            YouTubeTranscriptApiException,
+        )
 
+        wanted = list(languages or self._languages)
         try:
             listing = self._api.list(platform_id)
-            fetched = listing.find_transcript(self._languages).fetch()
+            fetched = listing.find_transcript(wanted).fetch()
+        except TranscriptsDisabled:
+            raise NoTranscript("the video has no captions at all") from None
+        except NoTranscriptFound:
+            have = ", ".join(
+                f"{t.language_code} ({'auto' if t.is_generated else 'uploaded'})" for t in listing
+            )
+            raise NoTranscript(f"none in {', '.join(wanted)}; it has {have or 'none'}") from None
         except YouTubeTranscriptApiException as e:
-            raise FetchError(f"{type(e).__name__}: {e}") from None
+            first = next((line for line in str(e).splitlines() if line.strip()), "")
+            raise FetchError(f"{type(e).__name__}: {first}") from None
         return transcript_from_fetched(fetched)
 
 

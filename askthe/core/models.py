@@ -218,6 +218,21 @@ class Creator(Model):
     pronoun: str
     categories: list[str]
     video_selection: str | None = None
+    # False when the videos are on other people's channels (talks, interviews): their
+    # descriptions are the uploader's words, so answers neither see nor quote them.
+    own_uploads: bool = True
+    # The organisation they often speak for (an employer), so answers say when a view
+    # is that organisation's position rather than their own.
+    affiliation: str | None = None
+    # Transcript languages to fetch, in order of preference; None: as in askthe.toml.
+    # Quotes are verbatim, so a talk is quoted in the language it was given in.
+    languages: list[str] | None = None
+    # Fetched videos kept out of answers, by platform ID, with the reason as a comment
+    # in the config: an interpreter's translation, the wrong person. The raw files stay.
+    exclude: list[str] = Field(default_factory=list)
+    # When a talk was given, by platform ID, where the upload came much later: answers
+    # order views by this date ("newest verdict wins"), so an upload date would mislead.
+    recorded: dict[str, date] = Field(default_factory=dict)
     glossary: list[GlossaryEntry] = Field(default_factory=list)
     starter_questions: list[str] = Field(default_factory=list)  # shown on the ask page
     # Shown on the creator's page and catalog card. `about` and `tagline` are written

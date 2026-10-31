@@ -53,9 +53,12 @@ class CatalogSource(Protocol):
 
 @runtime_checkable
 class TranscriptSource(Protocol):
-    """Gets a timestamped transcript for one video."""
+    """Gets a timestamped transcript for one video, in the first of `languages` it has
+    (None: the adapter's default). Raises NoTranscript when there's none to get."""
 
-    def get_transcript(self, platform_id: str) -> Transcript: ...
+    def get_transcript(
+        self, platform_id: str, languages: Sequence[str] | None = None
+    ) -> Transcript: ...
 
 
 @runtime_checkable
@@ -108,6 +111,10 @@ class KnowledgeStore(Protocol):
     """Saves and queries derived records. Everything here is rebuildable from raw."""
 
     def upsert_video(self, video: Video) -> None: ...
+
+    def remove_video(self, video_id: str) -> None:
+        """Remove the video with its segments, profile and claims. Saved answers stay."""
+        ...
 
     def get_video(self, video_id: str) -> Video | None: ...
 
@@ -245,6 +252,11 @@ class LLMTask(StrEnum):
     RERANK = "rerank"  # score retrieved passages for relevance
     ANSWER = "answer"
     BIO = "bio"  # write a creator's bio from their own words
+
+
+class NoTranscript(LookupError):
+    """The video has no transcript in the wanted languages. A fact about the video, not
+    a sign of being blocked: fetching carries on."""
 
 
 class EmbeddingError(Exception):

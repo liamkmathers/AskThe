@@ -180,7 +180,15 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Measured** (The Iron Snail, 23 questions, with the new prompt): profiled 23/23, expected videos read 97%, $1.31; as if unprofiled (`--no-profiles`) 23/23, 93%, $1.10.
 **Gives up:** sponsor reads in unprofiled videos are caught by the model reading, not marked in advance, and the `sponsored` tag on quotes needs a located read, so it never appears for them. Expect the occasional miss of the kind D24 saw (an own product found only through the profile). Revisit before going public (Phase C).
 
-### D26. Answers in the creator's first person (supersedes D1's third person)
+### D26. Speakers who aren't YouTubers: talks on other people's channels
+*2026-10-31*
+
+**Chose:** creators like Alessandro Curioni, whose videos are talks and interviews uploaded by organisers, set `own_uploads: false`. Answers then don't see or quote descriptions (the uploader's words), and get a rule that a host's introduction, interviewers' and audience members' questions and other speakers are never his words, and facts they state about him are theirs. `affiliation` adds a rule to say when he speaks for his employer. `recorded` sets when a talk was given, since uploads can lag by months, and `exclude` keeps out fetched videos that aren't his own words. Phase 1 is keynotes only; interviews and panels wait for speaker attribution.
+**Why:** the transcripts have no speaker labels, and his first three talks each have a host's introduction (one with his career history) and one has audience questions. Of his first four transcripts, one was an interpreter's English over an Italian talk, and one upload came eight months after the talk.
+**Measured:** 6 test questions on 3 talks: 6/6, $0.09. The trap question ("how long has he worked at IBM?") attributes the host's "since 1997" to the host.
+**Limit:** rule 12 is followed by the model, not checked in code: a quote of the host would still verify, because it is in the transcript. Speaker labels per segment (from the audio, or a model pass) would let code check it, and are needed before interviews and panels.
+
+### D27. Answers in the creator's first person (supersedes D1's third person)
 *2026-10-31, from Liam*
 
 **Chose:** answers speak as the creator: "I'd go for the 875s", "In 2019 I said…, but now I…", "I haven't covered that in my videos yet". Plain words, not an imitation of their catchphrases or way of talking. Everything else holds: grounded or silent, every claim cited to a verified verbatim quote, newest verdict first with the change dated, sponsor reads never his verdict, hedges kept, no personal life. Each answer page ends with a note that the answer is AI-written from the creator's videos, with every quote checked against the video it cites. The About page stays third person.
@@ -188,7 +196,7 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Gives up:** D1's distance from a "clone". The risk is the model inventing an opinion that sounds like him; rule 2 in the prompt forbids it, citations make it checkable, and the eval's personal-life check now also catches "my wife"-style slips.
 **Revised the same day, from Liam:** answers talk directly, like a person answering out loud: "I'm a big fan of Blundstones [1]", "I used to…, but now I…". No quotation marks or quoting himself in the sentence ("I said they were…") and no years or dates in the text; the exact words and the video's date live in the citation, and the source sheet now opens with the date ("Sep 7, 2023 · Listen for"). Bold labels name products or topics, never dates. Eval: 22/23, citations hold 23, $1.29 (before: 22/23, $1.40).
 
-### D27. Personal remarks inside a citation are fine
+### D28. Personal remarks inside a citation are fine
 *2026-10-31, from Liam*
 
 **Chose:** the no-personal-life rule (rule 8) applies to what answers say, not to the creator's own words shown with a citation. A passing personal remark inside a quote or its verbatim "In context" passage ("…because a certain girlfriend of mine…") stays as said; the context is not filtered or cut around it.
