@@ -360,7 +360,9 @@ def index_command(creator: CreatorArg, config_path: ConfigOption = DEFAULT_CONFI
         f"({report.embedded} embedded, {report.unchanged} unchanged)"
     )
     if report.unprofiled:
-        typer.echo(f"{len(report.unprofiled)} videos have no profile yet; run understand")
+        typer.echo(
+            f"{len(report.unprofiled)} videos have no profile; answers use them anyway (D25)"
+        )
     for warning in report.warnings:
         typer.secho(f"warning: {warning}", fg=typer.colors.YELLOW)
 
@@ -544,6 +546,55 @@ def _serve_problems(services: Services, c: Creator) -> list[str]:
     return problems
 
 
+def _setup_many(config_path: Path, creator: str | None) -> tuple[Services, dict[str, Creator]]:
+    """One creator, or every creator in creators/ when `creator` is None."""
+    if creator is not None:
+        services, c = _setup(config_path, creator)
+        return services, {c.slug: c}
+    try:
+        config = load_app_config(config_path)
+        services = build_services(config)
+    except ConfigError as e:
+        typer.secho(f"config error: {e}", fg=typer.colors.RED, err=True)
+        raise typer.Exit(1) from None
+    creators = {}
+    for slug in list_creator_slugs(config):
+        try:
+            creators[slug] = load_creator(config, slug)
+        except ConfigError as e:
+            typer.secho(f"skipping {slug}: {e}", fg=typer.colors.YELLOW, err=True)
+    return services, creators
+
+
+@app.command()
+def update(
+    creator: Annotated[
+        str | None,
+        typer.Argument(help="Creator slug to update alone; omit to update every creator."),
+    ] = None,
+    and_serve: Annotated[
+        bool, typer.Option("--serve", help="Start the site when the update is done.")
+    ] = False,
+    port: Annotated[int, typer.Option(help="Port for --serve.")] = 8000,
+    config_path: ConfigOption = DEFAULT_CONFIG_PATH,
+) -> None:
+    """Bring the database up to date with what's in the repo, after a `git pull` or a
+    fetch: segment and index every creator (or one). Embeds only what changed, so a
+    re-run costs nothing; never profiles (D25)."""
+    services, creators = _setup_many(config_path, creator)
+    for c in creators.values():
+        seg = segment_videos(c, services.raw_archive, services.store, profiles=services.profiles)
+        idx = index_videos(c, services.store, services.search, services.vectors, services.embedder)
+        typer.echo(
+            f"{c.instance_name}: {seg.videos} videos ({seg.restored} with saved profiles), "
+            f"{idx.embedded} new search entries"
+        )
+        for warning in idx.warnings:
+            typer.secho(f"warning: {c.slug}: {warning}", fg=typer.colors.YELLOW)
+    if and_serve:
+        serve(creator, port=port, config_path=config_path)
+
+
 @app.command()
 def serve(
     creator: Annotated[
@@ -560,22 +611,7 @@ def serve(
 
     from askthe.app.server import RESERVED, create_app
 
-    if creator is not None:
-        services, c = _setup(config_path, creator)
-        creators = {c.slug: c}
-    else:
-        try:
-            config = load_app_config(config_path)
-            services = build_services(config)
-        except ConfigError as e:
-            typer.secho(f"config error: {e}", fg=typer.colors.RED, err=True)
-            raise typer.Exit(1) from None
-        creators = {}
-        for slug in list_creator_slugs(config):
-            try:
-                creators[slug] = load_creator(config, slug)
-            except ConfigError as e:
-                typer.secho(f"skipping {slug}: {e}", fg=typer.colors.YELLOW, err=True)
+    services, creators = _setup_many(config_path, creator)
     for slug in RESERVED & set(creators):
         typer.secho(f"skipping {slug}: the name is a page route", fg=typer.colors.YELLOW)
         del creators[slug]
