@@ -41,7 +41,7 @@ For "Which boots does he recommend for wet winters, and which ones did he say fe
 4. **Time awareness**: if a later video changed the verdict, the answer leads with the newer one and says what changed.
 5. **Honest gaps**: if part of the question isn't covered ("he hasn't reviewed any boots for wet winters"), it says so plainly.
 
-The answer refers to the creator in the third person ("The Iron Snail recommends…", "he said…"). It never speaks *as* the creator.
+The answer speaks as the creator, in the first person ("I recommend…", "In 2019 I said…, but now…"), in plain words rather than an imitation of their style, and the page marks it as AI-written (D27). Every claim is still cited to the exact quote.
 
 ## Acceptance test
 

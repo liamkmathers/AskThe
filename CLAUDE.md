@@ -12,11 +12,11 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 1. **Grounded or silent.** Answers use only retrieved evidence from the creator's content. If there's no evidence, the answer says it isn't covered. Never let the model fill gaps from general knowledge.
 2. **Every answer cites.** Each claim in an answer quotes the creator and links to the video it came from. Citations are verified in code against stored segments, never trusted from model output. Nothing depends on timestamps (D12).
 3. **Newest verdict wins.** Order evidence by publish date; say when the creator changed their mind and cite both.
-4. **Third person, no imitation.** Answers describe what the creator said ("The Iron Snail recommends…"). Never write in the creator's voice or style.
+4. **First person, no imitation of style** (D27). Answers speak as the creator, directly ("I recommend…", "I used to…, but now…"), with no quotation marks or years in the text (the citation carries the exact words and the date), in plain words, never copying their catchphrases or way of talking. Every claim is still cited to his exact words, and the page says the answer is AI-written. The About page stays third person.
 5. **Quotes are verbatim.** Every quote in an answer must appear in the segment it cites; code checks this.
 6. **Sponsored is never a verdict.** Sponsor reads are marked in the transcript and never presented as the creator's independent recommendation. His own products are his opinion, not sponsorship (D14).
 7. **Attribute, don't assert.** Facts and history are reported as what the creator said, not as verified truth. Views he reports from others are never presented as his, and his hedging is kept, never strengthened.
-8. **No personal life.** Nothing about the personal life of the creator, family or friends is extracted or answered.
+8. **No personal life.** Nothing about the personal life of the creator, family or friends is extracted or answered. A passing remark inside a citation's verbatim quote or context is fine and is not filtered out (D28).
 9. **Never guess a name.** Products that can't be identified stay unresolved, as said.
 
 ## Engineering rules

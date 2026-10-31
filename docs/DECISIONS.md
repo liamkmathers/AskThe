@@ -187,3 +187,18 @@ A short log of decisions: what we chose, why, and what we didn't choose. Newest 
 **Why:** the transcripts have no speaker labels, and his first three talks each have a host's introduction (one with his career history) and one has audience questions. Of his first four transcripts, one was an interpreter's English over an Italian talk, and one upload came eight months after the talk.
 **Measured:** 6 test questions on 3 talks: 6/6, $0.09. The trap question ("how long has he worked at IBM?") attributes the host's "since 1997" to the host.
 **Limit:** rule 12 is followed by the model, not checked in code: a quote of the host would still verify, because it is in the transcript. Speaker labels per segment (from the audio, or a model pass) would let code check it, and are needed before interviews and panels.
+
+### D27. Answers in the creator's first person (supersedes D1's third person)
+*2026-10-31, from Liam*
+
+**Chose:** answers speak as the creator: "I'd go for the 875s", "In 2019 I said…, but now I…", "I haven't covered that in my videos yet". Plain words, not an imitation of their catchphrases or way of talking. Everything else holds: grounded or silent, every claim cited to a verified verbatim quote, newest verdict first with the change dated, sponsor reads never his verdict, hedges kept, no personal life. Each answer page ends with a note that the answer is AI-written from the creator's videos, with every quote checked against the video it cites. The About page stays third person.
+**Why:** fans read "I think…" as the creator's answer to them, which is what they want; the citations show it is his actual words, not an invented opinion. The Iron Snail has agreed. For now this applies to every creator, because the product is a private, unmonetised prototype; get each creator's agreement before going public (Phase C).
+**Gives up:** D1's distance from a "clone". The risk is the model inventing an opinion that sounds like him; rule 2 in the prompt forbids it, citations make it checkable, and the eval's personal-life check now also catches "my wife"-style slips.
+**Revised the same day, from Liam:** answers talk directly, like a person answering out loud: "I'm a big fan of Blundstones [1]", "I used to…, but now I…". No quotation marks or quoting himself in the sentence ("I said they were…") and no years or dates in the text; the exact words and the video's date live in the citation, and the source sheet now opens with the date ("Sep 7, 2023 · Listen for"). Bold labels name products or topics, never dates. Eval: 22/23, citations hold 23, $1.29 (before: 22/23, $1.40).
+
+### D28. Personal remarks inside a citation are fine
+*2026-10-31, from Liam*
+
+**Chose:** the no-personal-life rule (rule 8) applies to what answers say, not to the creator's own words shown with a citation. A passing personal remark inside a quote or its verbatim "In context" passage ("…because a certain girlfriend of mine…") stays as said; the context is not filtered or cut around it.
+**Why:** the citation is his words exactly as published in the video, shown so a fan can judge the quote; editing it would break the verbatim promise and adds nothing for the fan.
+**Unchanged:** answers never mention his personal life, family or friends, and the eval's personal-life check still covers answer text.

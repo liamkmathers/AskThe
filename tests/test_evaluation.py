@@ -102,6 +102,7 @@ def test_personal_life_is_flagged_in_answers_but_not_in_declines():
     assert decline["passed"] and decline["personal_life_found"] == []
     assert personal_life("Her husband likes it.", pronoun="she") == ["her husband"]
     assert personal_life("He likes House of Blanks and Wonder Looper's founders.") == []
+    assert personal_life("I wear them with my wife on walks.") == ["my wife"]
 
 
 def test_cost_needs_a_price_for_every_model():

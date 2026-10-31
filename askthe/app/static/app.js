@@ -206,6 +206,15 @@ function chipFor(answer) {
   return null;
 }
 
+// Answers speak as the creator (D27), so every answer says plainly that it's AI-written.
+function showAiNote() {
+  const who = (creator && creator.display_name) || "the creator";
+  $("ai-note").textContent =
+    `* AI-written in ${who}'s voice, using only ${possessive().toLowerCase()} own videos. ` +
+    "Every quote is checked against the video it cites.";
+  $("ai-note").hidden = false;
+}
+
 function possessive() {
   const p = (creator && creator.pronoun) || "they";
   return { he: "His", she: "Her", it: "Its" }[p.toLowerCase()] || "Their";
@@ -234,6 +243,7 @@ function showAnswer(answer) {
 
   showSources(answer.sources);
   showNewer(answer);
+  showAiNote();
   $("answer-foot").hidden = false;
   $("save").hidden = false;
   $("share").hidden = false;
@@ -291,7 +301,9 @@ function openBioSheet(ref) {
   const c = creator && creator[kind] && creator[kind][Number(i)];
   const cite = c && c.citations[Number(k)];
   if (!cite) return;
-  $("sheet-kind").textContent = "Listen for";
+  $("sheet-kind").textContent = cite.published
+    ? `${formatDate(cite.published)} · Listen for`
+    : "Listen for";
   $("sheet-quote").textContent = cite.quote;
   $("sheet-context-block").hidden = true;
   $("sheet-tags").hidden = true;
@@ -307,7 +319,9 @@ function openSheet(n) {
   const s = current && current.sources.find((x) => x.n === n);
   if (!s) return;
   $("sheet-video").hidden = false;
-  $("sheet-kind").textContent = s.in_description ? "From the video description" : "Listen for";
+  // The date leads: answers don't say when he said something (D27), the citation does.
+  const kind = s.in_description ? "From the video description" : "Listen for";
+  $("sheet-kind").textContent = s.published ? `${formatDate(s.published)} · ${kind}` : kind;
   $("sheet-quote").textContent = s.quote;
   // What he said around the quote, verbatim, with the quote highlighted.
   const hasContext = Boolean(s.context_before || s.context_after);
@@ -350,10 +364,11 @@ function resetAnswerView(question) {
   $("sources").hidden = true;
   $("newer").hidden = true;
   $("answer-foot").hidden = true;
+  $("ai-note").hidden = true;
   $("save").hidden = true;
   $("share").hidden = true;
   $("reading").hidden = true;
-  setProgress(`Searching ${possessive().toLowerCase()} videos…`);
+  setProgress("Thinking…");
 }
 
 function setProgress(text) {
