@@ -272,6 +272,11 @@ class VideoMeta(Model):
     tags: list[str] = Field(default_factory=list)
     view_count: int | None = None
     thumbnail_url: str | None = None
+    # Set for written items imported from an export (D29): what the item is, as answers
+    # name it ("LinkedIn post"), and its own link. None: a video on the creator's
+    # platform, linked by its platform ID.
+    medium: str | None = None
+    url: str | None = None
 
 
 class Transcript(Model):
@@ -329,6 +334,8 @@ class Video(Model):
     view_count: int | None = None
     thumbnail_url: str | None = None
     transcript_kind: TranscriptKind
+    medium: str | None = None  # "LinkedIn post" for a written item; None: a video
+    url: str | None = None  # its own link; None: built from the platform ID
 
 
 class Segment(Model):
@@ -516,6 +523,7 @@ class AnswerSource(Model):
     context_after: str = ""
     in_description: bool = False  # quoted from the video's description
     sponsored: bool = False  # inside a sponsor read, as marked in code (rule 6)
+    medium: str | None = None  # "LinkedIn post" when quoted from one; None: a video
 
 
 class AnswerLog(Model):

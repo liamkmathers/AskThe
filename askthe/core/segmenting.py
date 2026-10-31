@@ -43,6 +43,8 @@ def video_from_raw(raw: RawVideo) -> Video:
         view_count=meta.view_count,
         thumbnail_url=meta.thumbnail_url,
         transcript_kind=raw.transcript.kind,
+        medium=meta.medium,
+        url=meta.url,
     )
 
 

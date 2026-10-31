@@ -30,6 +30,8 @@ For each video, save metadata and the transcript as one raw file:
 
 Output: `data/<creator>/raw/<video_id>.json`. Re-fetching skips videos already saved, unless forced.
 
+Written items come in the same way from a data export the creator hands over: `askthe import-linkedin` saves each of their LinkedIn posts and articles as a raw item with its text, date, `medium` and own `url`, and every later stage treats it like a video ([D29](DECISIONS.md#d29-linkedin-posts-come-only-from-the-persons-own-data-export)). LinkedIn is never contacted.
+
 Fetching needs network access to YouTube. If the environment blocks it, run this stage on a local machine and copy the `raw/` folder; every later stage works offline from those files.
 
 ### 2. Segment
@@ -95,6 +97,7 @@ Each of these is an interface in the engine core, with implementations as adapte
 | --- | --- | --- | --- |
 | `CatalogSource` | List a creator's videos and their metadata | yt-dlp | YouTube Data API; creator-supplied export |
 | `TranscriptSource` | Get the transcript text for a video | youtube-transcript-api; or `files` (`.vtt`, `.srt`, `.txt`) | yt-dlp subtitles; Whisper on audio; a transcript service |
+| `ExportSource` | Read a creator's own posts and articles from a data export they handed over (D29) | LinkedIn export (`Shares.csv`, `Articles/`) | Other platforms' exports |
 | `CommentSource` | Get viewers' comments on a video, for collecting real fan questions | yt-dlp (top comments, no replies, no authors) | YouTube Data API |
 | `ProfileArchive` | Keep video profiles outside the database (D17) | files in `data/<creator>/profiles/` | |
 | `KnowledgeStore` | Save and query videos, segments, profiles, entities, answer logs | SQLite | Postgres |

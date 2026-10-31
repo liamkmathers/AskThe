@@ -202,7 +202,10 @@ def ask(
         for v in chosen
         if profiles[v]
     }
-    system = answer_system_prompt(creator)
+    # Every kind of written item in the catalogue, not just those read, so the system
+    # prompt stays the same across questions and can be cached.
+    media = sorted({v.medium for v in videos.values() if v.medium})
+    system = answer_system_prompt(creator, media)
     prompt = answer_prompt(question, today or datetime.now(UTC).date())
 
     # Full mode sends the same corpus with every question, so it goes in `context`,

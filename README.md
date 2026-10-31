@@ -81,6 +81,24 @@ uv run askthe ask iron-snail "What's the best value t-shirt he's tested?"
 
 **YouTube blocks cloud servers**, so run `fetch` from a home connection. Every other stage works anywhere from the raw files. Transcripts can also come from files instead: set `use = "files"` under `[adapters.transcripts]` in `askthe.toml` and put `<video_id>.vtt`, `.srt` or `.txt` files in `data/transcripts/`.
 
+### Importing LinkedIn posts
+
+A creator's own LinkedIn posts and articles can be quoted alongside their videos. They come only from the data export the person downloads themselves; nothing here contacts LinkedIn (D29).
+
+1. **The person exports their data.** On LinkedIn: *Me, Settings & Privacy, Data privacy, Get a copy of your data*. Choose the larger archive, or pick at least *Posts* (shares), *Articles* and, if wanted, *Comments*, then *Request archive*. LinkedIn emails a link to a `.zip`, usually within a day.
+2. **They hand over the zip** (or its unzipped folder). Keep it out of the repository: it holds personal data (connections, messages) that the import never reads.
+3. **Import and update:**
+
+```bash
+uv run askthe import-linkedin alessandro-curioni ~/Downloads/Basic_LinkedInDataExport.zip
+```
+
+```bash
+uv run askthe update alessandro-curioni
+```
+
+Each post and article becomes `data/<creator>/raw/linkedin-*.json` (commit these). Reposts with no words of his own, connections-only posts and unpublished drafts are left out, and the command lists what it left out and why. `--comments` also imports his comments on other people's posts (off by default). Re-running with a newer export adds only the new posts. Answers cite them as LinkedIn posts, linked to the post.
+
 `askthe check` validates `askthe.toml` and every creator in `creators/`, and builds the configured adapters. `askthe.toml` picks which implementation sits behind each interface (store, search, transcript source, LLM…); see [ARCHITECTURE](docs/ARCHITECTURE.md#swappable-components).
 
 ## Docs

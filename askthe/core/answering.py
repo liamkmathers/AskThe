@@ -39,6 +39,12 @@ def watch_url(platform: str, platform_id: str) -> str:
     return WATCH_URLS[platform].format(platform_id)
 
 
+def source_url(video: Video, platform: str) -> str:
+    """Where a cited item can be read or watched: its own link when it has one (a post
+    imported from an export, D29), else the creator's platform's link for its ID."""
+    return video.url or watch_url(platform, video.platform_id)
+
+
 # --- Choosing what to read ------------------------------------------------------
 
 
@@ -145,6 +151,8 @@ def render_video(
         f"Title: {video.title}",
         f"Published: {video.published_at.date().isoformat()}",
     ]
+    if video.medium:  # a written item (D29): his text, cited like a transcript
+        lines.append(f"Medium: {video.medium} (written by him, not a video)")
     description = clean_description(video.description) if description else ""
     if description:
         lines += [
@@ -172,7 +180,8 @@ def render_video(
     else:
         lines.append(UNMARKED)
     shown = sorted(texts) if only is None else sorted(i for i in set(only) if i in texts)
-    lines.append("Transcript:" if only is None else "Transcript (relevant parts only):")
+    label = "Text" if video.medium else "Transcript"
+    lines.append(f"{label}:" if only is None else f"{label} (relevant parts only):")
     previous = -1
     for i in shown:
         if only is not None and i > previous + 1:
@@ -194,8 +203,10 @@ def render_corpus(blocks: Sequence[str]) -> str:
 # --- Instructions ---------------------------------------------------------------
 
 
-def answer_system_prompt(creator: Creator) -> str:
-    """Stable per creator, so it can be cached across every question."""
+def answer_system_prompt(creator: Creator, media: Sequence[str] = ()) -> str:
+    """Stable per creator, so it can be cached across every question. `media` names the
+    kinds of written item in the creator's catalogue besides videos ("LinkedIn post"),
+    so answers can call them by their kind (D29)."""
     who = creator.display_name
     given = (
         "each one's description (which he wrote) and its transcript"
@@ -276,11 +287,12 @@ nuance. A question about several products earns a short part on each; a simple o
 gets a short answer. Keep it readable, in Markdown: open with the direct answer in \
 one or two sentences; give each product or part of the question its own short \
 paragraph or bullet list, with a bold label when there are several (a label names the \
-product or topic, never a date); no wall of text and no padding.{_extra_rules(creator)}"""
+product or topic, never a date); no wall of text and no padding.{_extra_rules(creator, media)}"""
 
 
-def _extra_rules(creator: Creator) -> str:
-    """Rules only some creators need: talks on others' channels, an employer."""
+def _extra_rules(creator: Creator, media: Sequence[str] = ()) -> str:
+    """Rules only some creators need: talks on others' channels, an employer, written
+    items alongside the videos."""
     rules = []
     if not creator.own_uploads:
         rules.append(
@@ -298,6 +310,14 @@ def _extra_rules(creator: Creator) -> str:
             f"Speaking for {org}. When he describes {org}'s work, plans or position "
             f'("we at {org}..."), say so ("at {org}, our plan is..."), and keep your own '
             f"view and {org}'s apart as he does."
+        )
+    if media:
+        kinds = sorted(set(media))
+        rules.append(
+            f"Written items. Some items are things he wrote ({', '.join(kinds)}), "
+            f'marked "Medium:". Their text is his own words, cited like a transcript. '
+            f'Refer to each by its kind ("in a {kinds[0]} I wrote that..."), never as a '
+            f"video."
         )
     return "".join(f"\n{n}. {r}" for n, r in enumerate(rules, start=12))
 
@@ -451,7 +471,7 @@ def check_answer(
                 video_id=video.id,
                 title=video.title,
                 published=video.published_at.date(),
-                url=watch_url(platform, video.platform_id),
+                url=source_url(video, platform),
                 segment_ids=[ids.segment_id(video.id, i) for i in located if i != DESCRIPTION],
                 quote=c.quote,
                 context_before=before,
@@ -460,6 +480,7 @@ def check_answer(
                 sponsored=any(
                     normalise(c.quote) in normalise(read) for read in reads.get(c.video, ())
                 ),
+                medium=video.medium,
             )
         )
     if checked.coverage is not Coverage.NONE and not checked.sources:

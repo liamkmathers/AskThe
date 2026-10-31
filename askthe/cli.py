@@ -29,10 +29,11 @@ from askthe.pipeline.ask import RetrievalSettings, ask
 from askthe.pipeline.comments import fetch_comments
 from askthe.pipeline.evaluate import rescore, run_eval
 from askthe.pipeline.fetch import fetch_videos
+from askthe.pipeline.imports import import_export
 from askthe.pipeline.index import index_videos
 from askthe.pipeline.segment import segment_videos
 from askthe.pipeline.understand import understand_videos
-from askthe.wiring import PORTS, Services, build_services
+from askthe.wiring import PORTS, Services, build_export_source, build_services
 
 app = typer.Typer(help="AskThe: a creator's back catalogue, answerable.", no_args_is_help=True)
 
@@ -149,6 +150,49 @@ def fetch(
         )
     if report.failed:
         raise typer.Exit(1)
+
+
+@app.command(name="import-linkedin")
+def import_linkedin(
+    creator: CreatorArg,
+    export: Annotated[
+        Path,
+        typer.Argument(help="The LinkedIn data export: the .zip LinkedIn sent, or its folder."),
+    ],
+    include_comments: Annotated[
+        bool,
+        typer.Option(
+            "--comments", help="Also import his comments on other people's posts (off by default)."
+        ),
+    ] = False,
+    config_path: ConfigOption = DEFAULT_CONFIG_PATH,
+) -> None:
+    """Import his own LinkedIn posts and articles from the data export he downloaded
+    ("Get a copy of your data"). Offline: LinkedIn is never contacted. Re-runnable."""
+    services, c = _setup(config_path, creator)
+    try:
+        source = build_export_source(services.config, "linkedin")
+        report = import_export(
+            c,
+            export,
+            source,
+            services.raw_archive,
+            include_comments=include_comments,
+            on_progress=lambda item, status: typer.echo(f"{item}  {status}"),
+        )
+    except (ConfigError, ValueError) as e:
+        typer.secho(str(e), fg=typer.colors.RED, err=True)
+        raise typer.Exit(1) from None
+    for what, why in report.skipped.items():
+        typer.echo(f"left out {what}: {why}")
+    typer.echo(
+        f"imported {len(report.imported)}, already imported {len(report.already)}, "
+        f"left out {len(report.skipped)}"
+    )
+    if report.imported:
+        typer.echo(
+            f"run `askthe update {c.slug}` to make them answerable; commit data/{c.slug}/raw/"
+        )
 
 
 @app.command()
