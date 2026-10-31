@@ -50,6 +50,7 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | `chapters` | Chapter titles in order, if present |
 | `tags`, `view_count`, `thumbnail_url` | From metadata |
 | `transcript_kind` | `manual` or `auto`; auto captions are less reliable on names |
+| `medium`, `url` | Set for written items imported from a data export ([D29](DECISIONS.md#d29-linkedin-posts-come-only-from-the-persons-own-data-export)): what the item is, as answers name it ("LinkedIn post", "LinkedIn article", "LinkedIn comment"), and its own link, which citations use. Empty for videos, which link by their platform ID |
 
 ### Video profile
 
@@ -74,6 +75,10 @@ What the video is, as a whole. Written by the understanding pass before any clai
 | `profiler_version`, `model` | What produced this profile |
 
 Saved with the entities it names and a fingerprint of the segments it describes in `data/<creator>/profiles/<video_id>.json` (D17), so rebuilding the database restores it without another model call.
+
+### Written items (posts and articles)
+
+A creator's own posts and articles, imported by `askthe import-linkedin` from the data export they downloaded and handed over (D29), are raw items like videos: `data/<creator>/raw/<id>.json`, with the text as the transcript (`manual`, in the creator's first language), the publish date, a title (the first line, or the article's title), no duration and no description, and `medium` and `url` set. IDs are stable across exports: `linkedin-share-<n>` or `linkedin-activity-<n>` from the post's URN, `linkedin-article-<slug>` from the article's link, `linkedin-comment-<n>`. Only his own words are kept: a repost keeps his commentary, never the reposted post. Re-importing skips items already saved.
 
 ### Raw comments
 
@@ -180,7 +185,7 @@ A snapshot of each answer given, so the web page can show it again by its link (
 | `question`, `answer` | The answer text after verification (failed citations removed) |
 | `covered` | `full`, `partial`, `none` |
 | `changed_mind` | The answer reports that he changed his mind or hedged over time |
-| `sources` | Verified citations: `n`, video, title, published date, URL, quote, segment IDs, `context_before` and `context_after` (about 60 words of his words on each side of the quote, verbatim, taken in code), `in_description`, and `sponsored` (the quote is inside a located sponsor read, set in code) |
+| `sources` | Verified citations: `n`, video, title, published date, URL, quote, segment IDs, `context_before` and `context_after` (about 60 words of his words on each side of the quote, verbatim, taken in code), `in_description`, `sponsored` (the quote is inside a located sponsor read, set in code), and `medium` when it is quoted from a written item (D29) |
 | `videos_read` | Videos the answer was based on |
 | `parent_id` | The answer this follows up; unused until the page has a chat thread |
 | `flagged` | "Something wrong?" notes from fans |

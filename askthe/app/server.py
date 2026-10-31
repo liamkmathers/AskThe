@@ -22,7 +22,7 @@ from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from askthe.core.answering import watch_url
+from askthe.core.answering import source_url, watch_url
 from askthe.core.ids import video_id
 from askthe.core.interfaces import LLMError
 from askthe.core.models import AnswerLog, BioCitation, BioItem, Creator
@@ -109,8 +109,11 @@ def create_app(
             video = store.get_video(video_id(creator.slug, c.video_id))
             return {
                 "quote": c.quote,
-                "url": watch_url(creator.platform, c.video_id),
+                "url": source_url(video, creator.platform)
+                if video
+                else watch_url(creator.platform, c.video_id),
                 "title": video.title if video else None,
+                "medium": video.medium if video else None,
                 "published": video.published_at.date().isoformat() if video else None,
             }
 
@@ -220,7 +223,7 @@ def create_app(
                 {
                     "title": v.title,
                     "published": v.published_at.date().isoformat(),
-                    "url": watch_url(platform, v.platform_id),
+                    "url": source_url(v, platform),
                 }
                 for v in newer
             ],

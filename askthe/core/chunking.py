@@ -19,7 +19,8 @@ from askthe.core.profiling import profile_search_text
 
 
 def chunk_header(video: Video, profile: VideoProfile | None, index: int) -> str:
-    parts = [f"{video.title} ({video.published_at.date().isoformat()})"]
+    kind = f"{video.medium}: " if video.medium else ""
+    parts = [f"{kind}{video.title} ({video.published_at.date().isoformat()})"]
     if profile:
         for section in profile.outline:
             if section.first_segment <= index <= section.last_segment:

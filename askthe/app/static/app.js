@@ -6,6 +6,7 @@
 const $ = (id) => document.getElementById(id);
 const OLD_HISTORY_KEY = "askthe.history"; // before history was kept per creator
 const HISTORY_MAX = 20;
+const WATCH_LABEL = "▶ Watch on YouTube"; // a source with a `medium` is read, not watched
 const creators = new Map(); // slug -> creator info, fetched once
 let creator = null; // the creator on screen
 let current = null; // the answer on screen
@@ -249,8 +250,10 @@ function showSources(sources) {
   }
   const groups = [...byVideo.values()].sort((a, b) => b.published.localeCompare(a.published));
   $("sources").hidden = groups.length === 0;
+  // Written items (a LinkedIn post) are named by their medium, not called videos.
+  const noun = groups.every((g) => !g.medium) ? "video" : "source";
   $("sources-label").textContent =
-    groups.length === 1 ? "From 1 video" : `From ${groups.length} videos, newest first`;
+    groups.length === 1 ? `From 1 ${noun}` : `From ${groups.length} ${noun}s, newest first`;
   $("source-list").innerHTML = groups
     .map((g, i) => {
       const quotes = g.quotes
@@ -260,6 +263,7 @@ function showSources(sources) {
             `<li><button class="cite" data-n="${q.n}">${q.n}</button> <q>${escapeHtml(q.quote)}</q>` +
             (q.sponsored ? '<span class="tag">Sponsored</span>' : "") +
             (q.in_description ? '<span class="tag">Description</span>' : "") +
+            (q.medium && q === g.quotes[0] ? `<span class="tag">${escapeHtml(q.medium)}</span>` : "") +
             "</li>",
         )
         .join("");
@@ -300,6 +304,7 @@ function openBioSheet(ref) {
     ? `${escapeHtml(cite.title)}<span class="date">${formatDate(cite.published)}</span>`
     : "";
   $("sheet-watch").href = cite.url;
+  $("sheet-watch").textContent = cite.medium ? `Read the ${cite.medium}` : WATCH_LABEL;
   $("sheet").hidden = false;
 }
 
@@ -307,7 +312,11 @@ function openSheet(n) {
   const s = current && current.sources.find((x) => x.n === n);
   if (!s) return;
   $("sheet-video").hidden = false;
-  $("sheet-kind").textContent = s.in_description ? "From the video description" : "Listen for";
+  $("sheet-kind").textContent = s.in_description
+    ? "From the video description"
+    : s.medium
+      ? `From a ${s.medium}`
+      : "Listen for";
   $("sheet-quote").textContent = s.quote;
   // What he said around the quote, verbatim, with the quote highlighted.
   const hasContext = Boolean(s.context_before || s.context_after);
@@ -324,6 +333,7 @@ function openSheet(n) {
   $("sheet-tags").hidden = !s.sponsored;
   $("sheet-video").innerHTML = `${escapeHtml(s.title)}<span class="date">${formatDate(s.published)}</span>`;
   $("sheet-watch").href = s.url;
+  $("sheet-watch").textContent = s.medium ? `Read the ${s.medium}` : WATCH_LABEL;
   $("sheet").hidden = false;
 }
 

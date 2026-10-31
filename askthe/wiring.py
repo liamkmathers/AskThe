@@ -16,6 +16,7 @@ from askthe.core.interfaces import (
     CatalogSource,
     CommentSource,
     Embedder,
+    ExportSource,
     KnowledgeStore,
     LLMClient,
     ProfileArchive,
@@ -88,6 +89,14 @@ REGISTRY: dict[str, dict[str, str]] = {
 }
 
 
+# Readers for data exports a creator hands over (D29), by platform. Chosen by the import
+# command rather than askthe.toml: the export's format is what decides.
+EXPORT_SOURCES: dict[str, str] = {
+    "memory": "askthe.wiring:_memory_export",
+    "linkedin": "askthe.wiring:_linkedin_export",
+}
+
+
 @dataclass(frozen=True)
 class Services:
     config: AppConfig
@@ -124,6 +133,16 @@ def build_adapter(config: AppConfig, port: str) -> Any:
         raise ConfigError(
             f"{port} adapter {choice.use!r} does not implement {PORTS[port].__name__}"
         )
+    return adapter
+
+
+def build_export_source(config: AppConfig, platform: str) -> ExportSource:
+    if platform not in EXPORT_SOURCES:
+        available = sorted(EXPORT_SOURCES)
+        raise ConfigError(f"no export reader for {platform!r}; available: {available}")
+    adapter = _load(EXPORT_SOURCES[platform])({}, config)
+    if not isinstance(adapter, ExportSource):
+        raise ConfigError(f"export reader {platform!r} does not implement ExportSource")
     return adapter
 
 
@@ -181,6 +200,18 @@ def _memory_llm(options: dict[str, Any], config: AppConfig) -> Any:
     from askthe.adapters.memory import MemoryLLMClient
 
     return MemoryLLMClient(models=config.models)
+
+
+def _memory_export(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.memory import MemoryExportSource
+
+    return MemoryExportSource()
+
+
+def _linkedin_export(options: dict[str, Any], config: AppConfig) -> Any:
+    from askthe.adapters.linkedin_export import LinkedInExportSource
+
+    return LinkedInExportSource()
 
 
 def _ytdlp_catalog(options: dict[str, Any], config: AppConfig) -> Any:

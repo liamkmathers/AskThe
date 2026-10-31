@@ -9,6 +9,7 @@ from __future__ import annotations
 from collections.abc import Callable, Sequence
 from dataclasses import dataclass, field
 from enum import StrEnum
+from pathlib import Path
 from typing import Protocol, TypeVar, runtime_checkable
 
 from pydantic import BaseModel, Field
@@ -66,6 +67,30 @@ class CommentSource(Protocol):
     """Gets viewers' comments on one video, most liked first where the platform can."""
 
     def get_comments(self, platform_id: str, limit: int) -> list[Comment]: ...
+
+
+@dataclass
+class ExportContents:
+    """What a data export holds that can be quoted: one raw item per post or article,
+    and what was left out (by item ID or file name) with the reason."""
+
+    items: list[RawVideo] = field(default_factory=list)
+    skipped: dict[str, str] = field(default_factory=dict)
+
+
+@runtime_checkable
+class ExportSource(Protocol):
+    """Reads the creator's own written items (posts, articles) from a data export they
+    downloaded from a platform themselves and handed over: a file or folder on disk.
+    Never contacts the platform (D29). Each item becomes a raw item with its own
+    `medium` and `url`, so it's segmented, searched and cited like a video.
+
+    `include_comments`: also their comments on other people's posts, which are their
+    words but replies to someone else's."""
+
+    def read_export(
+        self, creator: Creator, path: Path, include_comments: bool = False
+    ) -> ExportContents: ...
 
 
 @runtime_checkable

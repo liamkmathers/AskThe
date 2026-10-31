@@ -11,12 +11,14 @@ import re
 import zlib
 from collections import defaultdict, deque
 from collections.abc import Callable, Sequence
+from pathlib import Path
 from typing import Any
 
 from pydantic import BaseModel
 
 from askthe.core.interfaces import (
     DocKind,
+    ExportContents,
     Generated,
     LLMTask,
     NoTranscript,
@@ -104,6 +106,28 @@ class MemoryCommentSource:
             raise RuntimeError(f"comments unavailable for {platform_id!r}")
         ranked = sorted(self._comments.get(platform_id, []), key=lambda c: -c.like_count)
         return [c.model_copy() for c in ranked[:limit]]
+
+
+class MemoryExportSource:
+    """Exports by path: what each holds is set by tests. Comments (items whose medium
+    names a comment) are returned only when asked for, as the real reader does."""
+
+    def __init__(self) -> None:
+        self.exports: dict[str, ExportContents] = {}
+
+    def read_export(
+        self, creator: Creator, path: Path, include_comments: bool = False
+    ) -> ExportContents:
+        try:
+            held = self.exports[str(path)]
+        except KeyError:
+            raise ValueError(f"no export at {path}") from None
+        items = [
+            i.model_copy(deep=True)
+            for i in held.items
+            if include_comments or "comment" not in (i.meta.medium or "").lower()
+        ]
+        return ExportContents(items=items, skipped=dict(held.skipped))
 
 
 class MemoryRawArchive:
