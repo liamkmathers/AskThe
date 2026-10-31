@@ -301,7 +301,9 @@ function openBioSheet(ref) {
   const c = creator && creator[kind] && creator[kind][Number(i)];
   const cite = c && c.citations[Number(k)];
   if (!cite) return;
-  $("sheet-kind").textContent = "Listen for";
+  $("sheet-kind").textContent = cite.published
+    ? `${formatDate(cite.published)} · Listen for`
+    : "Listen for";
   $("sheet-quote").textContent = cite.quote;
   $("sheet-context-block").hidden = true;
   $("sheet-tags").hidden = true;
@@ -317,7 +319,9 @@ function openSheet(n) {
   const s = current && current.sources.find((x) => x.n === n);
   if (!s) return;
   $("sheet-video").hidden = false;
-  $("sheet-kind").textContent = s.in_description ? "From the video description" : "Listen for";
+  // The date leads: answers don't say when he said something (D26), the citation does.
+  const kind = s.in_description ? "From the video description" : "Listen for";
+  $("sheet-kind").textContent = s.published ? `${formatDate(s.published)} · ${kind}` : kind;
   $("sheet-quote").textContent = s.quote;
   // What he said around the quote, verbatim, with the quote highlighted.
   const hasContext = Boolean(s.context_before || s.context_after);
