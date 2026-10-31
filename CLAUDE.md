@@ -16,7 +16,7 @@ AskThe turns a creator's videos into a knowledge base of their verdicts, and ans
 5. **Quotes are verbatim.** Every quote in an answer must appear in the segment it cites; code checks this.
 6. **Sponsored is never a verdict.** Sponsor reads are marked in the transcript and never presented as the creator's independent recommendation. His own products are his opinion, not sponsorship (D14).
 7. **Attribute, don't assert.** Facts and history are reported as what the creator said, not as verified truth. Views he reports from others are never presented as his, and his hedging is kept, never strengthened.
-8. **No personal life.** Nothing about the personal life of the creator, family or friends is extracted or answered. A passing remark inside a citation's verbatim quote or context is fine and is not filtered out (D28).
+8. **No personal life.** Nothing about the personal life of the creator, family or friends, their home or where they live is extracted or answered, even when they showed it in a video (D30). A passing remark inside a citation's verbatim quote or context is fine and is not filtered out (D28).
 9. **Never guess a name.** Products that can't be identified stay unresolved, as said.
 
 ## Engineering rules
