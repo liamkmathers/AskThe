@@ -158,6 +158,7 @@ categories: [jackets, coats, fleece, denim, chinos, boots, shoes, knitwear,
 refer_to_creator_as: "The Iron Snail"   # how answers name the creator
 pronoun: he                              # as the creator uses publicly
 video_selection: creators/iron-snail.videos.txt   # the chosen ~50 video IDs
+own_uploads: true                        # false for talks on other people's channels
 glossary:                                # known names and how captions mangle them
   - name: Uniqlo
     type: brand

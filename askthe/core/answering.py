@@ -129,6 +129,7 @@ def render_video(
     profile: VideoProfile | None,
     segments: Sequence[Segment],
     only: Sequence[int] | None = None,
+    description: bool = True,
 ) -> str:
     """One video as the model reads it: what it is, its sections, then the transcript.
 
@@ -136,14 +137,15 @@ def render_video(
     description, which he wrote, is labelled [platform_id:-1]. Sponsor reads,
     asides, intro and outro are marked inline with «...» markers. With `only`, just
     those segments are shown and skipped stretches are marked, so the model knows the
-    transcript is partial.
+    transcript is partial. `description=False` leaves out a description someone else
+    wrote (a talk on an event's channel), so it's never taken for his words.
     """
     lines = [
         f'<video id="{video.platform_id}">',
         f"Title: {video.title}",
         f"Published: {video.published_at.date().isoformat()}",
     ]
-    description = clean_description(video.description)
+    description = clean_description(video.description) if description else ""
     if description:
         lines += [
             "Description (written by him; promo codes, sponsor and affiliate mentions in it "
@@ -361,12 +363,15 @@ def check_answer(
     videos: Mapping[str, tuple[Video, Sequence[Segment]]],
     platform: str,
     sponsor_reads: Mapping[str, Sequence[str]] | None = None,
+    descriptions: bool = True,
 ) -> CheckedAnswer:
     """Verify every citation against the transcripts. Failed citations are reported
     and their markers removed from the text; nothing is repaired or guessed.
 
     `sponsor_reads` maps a video's platform ID to the text of its sponsor reads; a
-    quote found inside one is marked sponsored here, in code, not by the model.
+    quote found inside one is marked sponsored here, in code, not by the model. With
+    `descriptions=False` (the creator doesn't upload their own videos), a citation of a
+    description fails: those words aren't theirs.
     """
     checked = CheckedAnswer(
         text=draft.answer, coverage=draft.coverage, changed_mind=draft.changed_mind
@@ -374,7 +379,9 @@ def check_answer(
     reads = sponsor_reads or {}
     for c in draft.citations:
         found = videos.get(c.video)
-        if found and c.segment == DESCRIPTION:
+        if found and c.segment == DESCRIPTION and not descriptions:
+            located = []
+        elif found and c.segment == DESCRIPTION:
             quoted = normalise(c.quote)
             shown = normalise(clean_description(found[0].description))
             located = [DESCRIPTION] if quoted and quoted in shown else []

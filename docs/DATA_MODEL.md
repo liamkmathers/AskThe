@@ -31,6 +31,7 @@ Answers are built from layer 3 *and* the layer 2 text around each claim, so the 
 | `channel_url`, `niche`, `categories` | From the creator config |
 | `glossary` | Known names and their common caption errors, from the creator config (see below) |
 | `starter_questions` | Example questions shown on the ask page |
+| `own_uploads` | `true` (default) when the videos are on the creator's own channel. `false` when they're talks and interviews on other people's channels: the descriptions are the uploader's words, so answers neither see nor quote them, and the bio can't cite them |
 | `tagline`, `about` | One line and a short paragraph for the creator's page, written in the config (never personal life) |
 | `links` | Where the creator is (channel, store, socials), platform-neutral, from the config |
 | `bio` | Who they are as a whole: a summary, a dated journey and their ventures (own brands, products, collaborations), each item citing quotes verified against the cited video. Made by `askthe bio` into `data/<creator>/bio.json` (committed). Professional life only |

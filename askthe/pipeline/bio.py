@@ -88,7 +88,9 @@ def make_bio(
         v.platform_id: normalise(
             " ".join(s.text for s in segments[v.id].values())
             + " "
-            + clean_description(v.description)
+            # Someone else's description can describe the talk, but never be quoted
+            # as his words.
+            + (clean_description(v.description) if creator.own_uploads else "")
         )
         for v in videos.values()
     }

@@ -174,7 +174,12 @@ def ask(
 
     chosen = sorted(shown, key=lambda vid: (videos[vid].published_at, vid))  # stable order
     corpus = render_corpus(
-        [render_video(videos[v], profiles[v], segments[v], only=shown[v]) for v in chosen]
+        [
+            render_video(
+                videos[v], profiles[v], segments[v], only=shown[v], description=creator.own_uploads
+            )
+            for v in chosen
+        ]
     )
     trace["context_words"] = sum(
         len(s.text.split())
@@ -229,7 +234,7 @@ def ask(
         return result.value, result.model
 
     draft, model = generate(prompt)
-    checked = check_answer(draft, by_platform, creator.platform, sponsor_reads)
+    checked = check_answer(draft, by_platform, creator.platform, sponsor_reads, creator.own_uploads)
     if checked.problems:
         emit("retrying", {})
         retry = (
@@ -238,7 +243,9 @@ def ask(
             + "\nAnswer again. Copy every quote exactly from the segment you cite."
         )
         draft, model = generate(retry)
-        checked = check_answer(draft, by_platform, creator.platform, sponsor_reads)
+        checked = check_answer(
+            draft, by_platform, creator.platform, sponsor_reads, creator.own_uploads
+        )
 
     answer_id = None
     if log:

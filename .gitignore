@@ -12,6 +12,8 @@ data/*/*
 # Lists of found videos to choose from, for creators without one channel.
 !data/*/candidates.tsv
 !data/*/web_candidates.md
+!data/*/selection.md
+!data/*/NOTE_*.txt
 !data/*/NOTE_*.txt
 .env
 __pycache__/

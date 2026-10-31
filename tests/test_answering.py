@@ -269,3 +269,19 @@ def test_a_video_without_a_profile_is_flagged_as_unmarked():
     video = f.video("boots")
     segments = [f.segment(video.id, 0, text="This video is brought to you by a hair dryer.")]
     assert UNMARKED in render_video(video, None, segments)
+
+
+def test_descriptions_by_someone_else_are_neither_shown_nor_quotable():
+    video = f.video("talk", description="Keynote by our guest at the 2024 summit.")
+    segments = [f.segment(video.id, 0, text="Quantum will change discovery.")]
+    assert "Keynote by our guest" in render_video(video, None, segments)
+    assert "Keynote by our guest" not in render_video(video, None, segments, description=False)
+
+    draft = AnswerDraft(
+        answer="He calls it a keynote [1].",
+        coverage=Coverage.FULL,
+        citations=[CitationDraft(n=1, video="talk", segment=-1, quote="Keynote by our guest")],
+    )
+    videos = {"talk": (video, segments)}
+    assert check_answer(draft, videos, "youtube").sources
+    assert not check_answer(draft, videos, "youtube", descriptions=False).sources

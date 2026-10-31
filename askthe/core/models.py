@@ -218,6 +218,9 @@ class Creator(Model):
     pronoun: str
     categories: list[str]
     video_selection: str | None = None
+    # False when the videos are on other people's channels (talks, interviews): their
+    # descriptions are the uploader's words, so answers neither see nor quote them.
+    own_uploads: bool = True
     glossary: list[GlossaryEntry] = Field(default_factory=list)
     starter_questions: list[str] = Field(default_factory=list)  # shown on the ask page
     # Shown on the creator's page and catalog card. `about` and `tagline` are written
