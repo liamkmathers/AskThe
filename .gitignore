@@ -9,6 +9,9 @@ data/*/*
 !data/*/channel.tsv
 !data/*/channel.json
 !data/*/bio.json
+# Lists of found videos to choose from, for creators without one channel.
+!data/*/candidates.tsv
+!data/*/web_candidates.md
 .env
 __pycache__/
 *.pyc
