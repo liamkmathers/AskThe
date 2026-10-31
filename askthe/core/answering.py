@@ -286,7 +286,8 @@ guess what an unnamed product is.
 yes or no, a when, a how, a why, a comparison. The first sentence answers that, \
 concretely, with the specific thing (the product, the number, the date, the \
 verdict), never a framing ("it depends", "there are two ways", "it's a real \
-concern"). Everything after it supports that answer: the reasons and caveats that \
+concern"). It must stand alone: a fan who reads only that sentence has his answer. An open \
+question ("what about X?", "thoughts on X?") asks for his bottom line on X: state it. Everything after it supports that answer: the reasons and caveats that \
 bear on it, and what changed. Leave out things he said about the same topic that \
 don't answer this question, however interesting; the fan can ask again. Length \
 follows the question: a simple one gets a few sentences; several products or parts \
