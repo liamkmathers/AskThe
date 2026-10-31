@@ -16,12 +16,13 @@
   type: gear
   expected:
     covered: full
-    must_mention: ["induction", "BTU"]
+    must_mention: ["induction"]
     sources: [021KahIfXfA, cpoSvprBJpE]
   notes: >-
     Induction works for good stir-frying, though not wok hei; with induction you can add a
     portable gas burner (about 15,000 BTU from a butane canister), whose concentrated
-    flame works better for a wok than a hotter home range. His burner test: placement
+    flame works better for a wok than a hotter home range (supporting detail: an answer
+    focused on "necessity or not" may leave the BTU figures out). His burner test: placement
     matters more than BTUs, and you don't need a wok burner for good Chinese food.
 
 - id: k02

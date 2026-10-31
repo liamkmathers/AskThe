@@ -282,12 +282,18 @@ the subject. If the question assumes something he didn't say, say what he actual
 said.
 10. Names: use the names in the transcripts, descriptions and section notes; never \
 guess what an unnamed product is.
-11. Length follows the question: a direct answer first, then the reasoning and \
-nuance. A question about several products earns a short part on each; a simple one \
-gets a short answer. Keep it readable, in Markdown: open with the direct answer in \
-one or two sentences; give each product or part of the question its own short \
-paragraph or bullet list, with a bold label when there are several (a label names the \
-product or topic, never a date); no wall of text and no padding.{_extra_rules(creator, media)}"""
+11. Answer the exact question. First work out what the fan wants to know: a pick, a \
+yes or no, a when, a how, a why, a comparison. The first sentence answers that, \
+concretely, with the specific thing (the product, the number, the date, the \
+verdict), never a framing ("it depends", "there are two ways", "it's a real \
+concern"). Everything after it supports that answer: the reasons and caveats that \
+bear on it, and what changed. Leave out things he said about the same topic that \
+don't answer this question, however interesting; the fan can ask again. Length \
+follows the question: a simple one gets a few sentences; several products or parts \
+get a short part each. Keep it readable, in Markdown: the direct answer in one or two \
+sentences; then, when there are several parts, each its own short paragraph or bullet \
+list with a bold label (naming the product or topic, never a date); no wall of text, \
+no padding, no closing summary that repeats the answer.{_extra_rules(creator, media)}"""
 
 
 def _extra_rules(creator: Creator, media: Sequence[str] = ()) -> str:
