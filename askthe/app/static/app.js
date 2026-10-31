@@ -353,7 +353,7 @@ function resetAnswerView(question) {
   $("save").hidden = true;
   $("share").hidden = true;
   $("reading").hidden = true;
-  setProgress(`Searching ${possessive().toLowerCase()} videos…`);
+  setProgress("Thinking…");
 }
 
 function setProgress(text) {

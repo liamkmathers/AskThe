@@ -24,7 +24,7 @@
 ## The flow
 
 1. **Home:** one input ("Ask about boots, denim…") and three starter questions taken from real fan comments.
-2. **Waiting, shown honestly:** "Searching his videos…" → "Reading 4 videos" with their titles → the answer streams in as it's written (Sonnet: about 14 s in all). Citation numbers stay grey until code has verified the quote, then become tappable; a citation that fails is removed when the answer completes.
+2. **Waiting, shown honestly:** "Thinking…" → "Reading 4 videos" with their titles → the answer streams in as it's written (Sonnet: about 14 s in all). Citation numbers stay grey until code has verified the quote, then become tappable; a citation that fails is removed when the answer completes.
 3. **Answer page:**
    - a verdict card: the answer's own first line ("Mostly yes, with caveats…") and at most one chip: *His view changed*, *Partly covered* or *Not covered*;
    - the reasoning, with [n] citations, nothing collapsed;
