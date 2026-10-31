@@ -126,7 +126,7 @@ def test_fetch_stops_after_consecutive_failures_and_keeps_errors_short():
     catalog, transcripts = sources("a")
 
     class Blocked:
-        def get_transcript(self, platform_id):
+        def get_transcript(self, platform_id, languages=None):
             raise RuntimeError("IpBlocked\n\nlong explanation " * 50)
 
     report = fetch_videos(
@@ -152,6 +152,29 @@ def test_fetch_stops_after_consecutive_failures_and_keeps_errors_short():
         max_consecutive_failures=2,
     )
     assert report.fetched == ["a"] and not report.stopped_early
+
+
+def test_videos_without_a_transcript_are_reported_but_never_stop_the_fetch():
+    catalog, transcripts = sources("a", "b")
+    for pid in "xyz":  # listed, but without a transcript
+        catalog.add(f.CREATOR, f.meta(pid))
+    report = fetch_videos(
+        f.creator(),
+        ["x", "y", "z", "a", "b"],
+        catalog,
+        transcripts,
+        MemoryRawArchive(),
+        source="test",
+        max_consecutive_failures=2,
+    )
+    assert report.fetched == ["a", "b"] and not report.stopped_early
+    assert list(report.no_transcript) == ["x", "y", "z"] and not report.failed
+
+    # A creator's languages are asked for: an English-only transcript doesn't match.
+    report = fetch_videos(
+        f.creator(languages=["it"]), ["a"], catalog, transcripts, MemoryRawArchive(), source="test"
+    )
+    assert list(report.no_transcript) == ["a"]
 
 
 def test_index_builds_keyword_search_even_when_embeddings_fail():

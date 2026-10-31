@@ -221,6 +221,9 @@ class Creator(Model):
     # False when the videos are on other people's channels (talks, interviews): their
     # descriptions are the uploader's words, so answers neither see nor quote them.
     own_uploads: bool = True
+    # Transcript languages to fetch, in order of preference; None: as in askthe.toml.
+    # Quotes are verbatim, so a talk is quoted in the language it was given in.
+    languages: list[str] | None = None
     glossary: list[GlossaryEntry] = Field(default_factory=list)
     starter_questions: list[str] = Field(default_factory=list)  # shown on the ask page
     # Shown on the creator's page and catalog card. `about` and `tagline` are written
